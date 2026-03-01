@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html><head><script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 375px; height: 812px; overflow: hidden; font-family: 'Inter', -apple-system, sans-serif; background: #F9F6F1; color: #1C1C2E; }
+body { display: flex; flex-direction: column; }
+.status-bar { height: 44px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
+.status-time { font-size: 15px; font-weight: 600; }
+.status-icons { display: flex; gap: 6px; align-items: center; }
+.header { padding: 4px 24px 16px; }
+.screen-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 4px; }
+.screen-sub { font-size: 13px; color: #9CA3AF; }
+.search-bar { margin: 0 24px 16px; background: white; border: 1.5px solid #E8E3DC; border-radius: 14px; height: 46px; display: flex; align-items: center; gap: 10px; padding: 0 14px; }
+.search-icon { color: #9CA3AF; flex-shrink: 0; }
+.search-placeholder { font-size: 14px; color: #9CA3AF; }
+.filter-tabs { display: flex; padding: 0 24px; gap: 8px; margin-bottom: 16px; overflow-x: hidden; }
+.filter-tab { padding: 7px 16px; border-radius: 20px; font-size: 13px; font-weight: 500; white-space: nowrap; cursor: pointer; border: none; font-family: 'Inter', sans-serif; }
+.filter-tab.active { background: #446dff; color: white; }
+.filter-tab:not(.active) { background: white; color: #6B7280; }
+.content { flex: 1; overflow: hidden; padding: 0 24px; display: flex; flex-direction: column; gap: 10px; }
+.resource-card { background: white; border-radius: 18px; padding: 16px; display: flex; gap: 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.04); }
+.resource-icon-box { width: 46px; height: 46px; border-radius: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.resource-info { flex: 1; }
+.resource-category { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.resource-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; line-height: 1.3; }
+.resource-desc { font-size: 12px; color: #9CA3AF; line-height: 1.4; margin-bottom: 8px; }
+.resource-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { padding: 3px 8px; border-radius: 20px; font-size: 10px; font-weight: 500; }
+.resource-arrow-btn { display: flex; align-items: flex-start; padding-top: 2px; color: #C8C2BA; }
+.info-banner { background: linear-gradient(135deg, #eef1ff, #dde8ff); border: 1px solid #c4d8ff; border-radius: 16px; padding: 14px 16px; display: flex; align-items: flex-start; gap: 10px; margin: 0 24px 10px; flex-shrink: 0; }
+.info-banner-icon { width: 32px; height: 32px; background: #446dff; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.info-banner-text { flex: 1; font-size: 12px; color: #2D52CC; line-height: 1.5; }
+.info-banner-title { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+.bottom-nav { height: 72px; background: white; border-top: 1px solid #F0EBE4; display: flex; align-items: center; justify-content: space-around; padding: 0 8px 8px; flex-shrink: 0; }
+.nav-item { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; padding-top: 8px; }
+.nav-label { font-size: 10px; font-weight: 500; color: #C8C2BA; }
+.nav-item.active .nav-label { color: #446dff; }
+</style></head>
+<body>
+<div class="status-bar">
+  <span class="status-time">9:41</span>
+  <div class="status-icons">
+    <svg width="17" height="12" viewBox="0 0 17 12" fill="#1C1C2E"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
+    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#1C1C2E" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#1C1C2E"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#1C1C2E" opacity="0.4"/></svg>
+  </div>
+</div>
+<div class="header">
+  <div class="screen-title">Resources Guide</div>
+  <div class="screen-sub">Mandated resources for Lucas in California</div>
+</div>
+<div class="search-bar">
+  <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="#9CA3AF" stroke-width="1.8"/><path d="M21 21l-4.35-4.35" stroke="#9CA3AF" stroke-width="1.8" stroke-linecap="round"/></svg>
+  <span class="search-placeholder">Search resources…</span>
+</div>
+<div class="filter-tabs">
+  <button class="filter-tab active">All</button>
+  <button class="filter-tab">School / IEP</button>
+  <button class="filter-tab">Government</button>
+  <button class="filter-tab">Local</button>
+</div>
+<div class="info-banner">
+  <div class="info-banner-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 8v4m0 4h.01M22 12A10 10 0 112 12a10 10 0 0120 0z" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+  <div class="info-banner-text"><div class="info-banner-title">These resources are free</div>Schools and the state must provide these by law — at no cost to your family.</div>
+</div>
+<div class="content">
+  <div class="resource-card">
+    <div class="resource-icon-box" style="background:#dde8ff">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 14l9-5-9-5-9 5 9 5zm0 0l9-5-9-5-9 5 9 5z" stroke="#446dff" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 14v7M3 10v6m18-6v6" stroke="#446dff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="resource-info">
+      <div class="resource-category" style="color:#446dff">School / IEP</div>
+      <div class="resource-title">Individualized Education Program (IEP)</div>
+      <div class="resource-desc">Your child's legal right to a personalized education plan — free in all public schools</div>
+      <div class="resource-tags">
+        <span class="tag" style="background:#dde8ff;color:#446dff">Free</span>
+        <span class="tag" style="background:#F9F6F1;color:#6B7280">Ages 3–22</span>
+        <span class="tag" style="background:#FFF3EE;color:#ce1a1a">High Priority</span>
+      </div>
+    </div>
+    <div class="resource-arrow-btn"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"><path d="M1 1l6 6-6 6" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+  </div>
+  <div class="resource-card">
+    <div class="resource-icon-box" style="background:#F0EBF8">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round"/><path d="M9 21V13h6v8" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="resource-info">
+      <div class="resource-category" style="color:#8B5CF6">Government</div>
+      <div class="resource-title">Regional Center Early Intervention</div>
+      <div class="resource-desc">State-funded therapies including speech, OT, and ABA for children under 3</div>
+      <div class="resource-tags">
+        <span class="tag" style="background:#F0EBF8;color:#8B5CF6">Free</span>
+        <span class="tag" style="background:#F9F6F1;color:#6B7280">Under age 3</span>
+      </div>
+    </div>
+    <div class="resource-arrow-btn"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"><path d="M1 1l6 6-6 6" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+  </div>
+  <div class="resource-card">
+    <div class="resource-icon-box" style="background:#FFF3EE">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="#ce1a1a" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="resource-info">
+      <div class="resource-category" style="color:#ce1a1a">Local Support</div>
+      <div class="resource-title">Family Resource Center — LA</div>
+      <div class="resource-desc">Local bilingual support groups, workshops, and peer networks for immigrant families</div>
+      <div class="resource-tags">
+        <span class="tag" style="background:#FFF3EE;color:#ce1a1a">Bilingual</span>
+        <span class="tag" style="background:#F9F6F1;color:#6B7280">All ages</span>
+      </div>
+    </div>
+    <div class="resource-arrow-btn"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"><path d="M1 1l6 6-6 6" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+  </div>
+</div>
+<div class="bottom-nav">
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Home</span>
+  </div>
+  <div class="nav-item active">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="#446dff" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="#446dff" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Guide</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Skills</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#C8C2BA" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <span class="nav-label">Community</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Assistant</span>
+  </div>
+</div>
+</body></html>

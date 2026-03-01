@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 375px; height: 812px; overflow: hidden; font-family: 'Inter', -apple-system, sans-serif; background: #F9F6F1; color: #1C1C2E; }
+body { display: flex; flex-direction: column; }
+.status-bar { height: 44px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; flex-shrink: 0; }
+.status-time { font-size: 15px; font-weight: 600; }
+.status-icons { display: flex; gap: 6px; align-items: center; }
+
+/* Header */
+.header { padding: 4px 24px 16px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+.screen-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+.edit-btn { padding: 7px 16px; background: #eef1ff; border-radius: 20px; font-size: 13px; font-weight: 600; color: #446dff; }
+
+/* Hero card */
+.hero-card { margin: 0 24px 16px; background: linear-gradient(135deg, #446dff 0%, #2D52CC 100%); border-radius: 24px; padding: 20px; color: white; display: flex; align-items: center; gap: 16px; flex-shrink: 0; position: relative; overflow: hidden; }
+.hero-card::after { content: ''; position: absolute; right: -20px; top: -20px; width: 100px; height: 100px; background: rgba(255,255,255,0.07); border-radius: 50%; }
+.avatar-circle { width: 64px; height: 64px; border-radius: 20px; background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.35); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 26px; font-weight: 800; }
+.hero-info { flex: 1; }
+.hero-name { font-size: 22px; font-weight: 800; letter-spacing: -0.3px; margin-bottom: 2px; }
+.hero-age { font-size: 13px; color: rgba(255,255,255,0.75); margin-bottom: 8px; }
+.hero-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.hero-tag { background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; padding: 3px 10px; font-size: 11px; font-weight: 500; }
+.hero-tag.yellow { background: rgba(255,251,68,0.25); border-color: rgba(255,251,68,0.5); color: #fffb44; }
+
+/* Scroll content */
+.scroll-content { flex: 1; overflow: hidden; padding: 0 24px; display: flex; flex-direction: column; gap: 14px; }
+
+/* Section */
+.section-label { font-size: 12px; font-weight: 600; color: #9CA3AF; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+
+/* Progress ring row */
+.progress-row { display: flex; gap: 10px; }
+.progress-card { flex: 1; background: white; border-radius: 18px; padding: 14px 12px; display: flex; flex-direction: column; align-items: center; gap: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
+.ring-wrap { position: relative; width: 52px; height: 52px; }
+.ring-label { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.ring-num { font-size: 15px; font-weight: 800; color: #1C1C2E; line-height: 1; }
+.ring-den { font-size: 9px; color: #9CA3AF; font-weight: 500; }
+.progress-name { font-size: 11px; font-weight: 600; color: #6B7280; text-align: center; line-height: 1.3; }
+
+/* Info rows */
+.info-card { background: white; border-radius: 18px; padding: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
+.info-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #F5F1EC; }
+.info-row:last-child { border-bottom: none; padding-bottom: 0; }
+.info-row:first-child { padding-top: 0; }
+.info-key { font-size: 13px; color: #9CA3AF; font-weight: 500; }
+.info-val { font-size: 13px; font-weight: 600; color: #1C1C2E; }
+.info-val.blue { color: #446dff; }
+.info-val.red { color: #ce1a1a; }
+
+/* Traits section */
+.traits-grid { display: flex; flex-direction: column; gap: 8px; }
+.trait-item { background: white; border-radius: 14px; padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.trait-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; margin-top: 3px; }
+.trait-text { flex: 1; }
+.trait-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+.trait-desc { font-size: 12px; color: #9CA3AF; line-height: 1.4; }
+.trait-tag { padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600; flex-shrink: 0; }
+
+/* Add note button */
+.add-note-btn { background: white; border: 1.5px dashed #c4e1ff; border-radius: 14px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; color: #446dff; font-size: 13px; font-weight: 500; }
+.add-icon { width: 28px; height: 28px; background: #eef1ff; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+
+/* Bottom nav */
+.bottom-nav { height: 72px; background: white; border-top: 1px solid #F0EBE4; display: flex; align-items: center; justify-content: space-around; padding: 0 8px 8px; flex-shrink: 0; }
+.nav-item { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; padding-top: 8px; }
+.nav-label { font-size: 10px; font-weight: 500; color: #C8C2BA; }
+.nav-item.active .nav-label { color: #446dff; }
+</style></head>
+<body>
+
+<div class="status-bar">
+  <span class="status-time">9:41</span>
+  <div class="status-icons">
+    <svg width="17" height="12" viewBox="0 0 17 12" fill="#1C1C2E"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
+    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#1C1C2E" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#1C1C2E"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#1C1C2E" opacity="0.4"/></svg>
+  </div>
+</div>
+
+<div class="header">
+  <div class="screen-title">Child Profile</div>
+  <div class="edit-btn">Edit Profile</div>
+</div>
+
+<!-- Hero card -->
+<div class="hero-card">
+  <div class="avatar-circle">L</div>
+  <div class="hero-info">
+    <div class="hero-name">Lucas Santos</div>
+    <div class="hero-age">7 years old · Since Jan 2025</div>
+    <div class="hero-tags">
+      <span class="hero-tag yellow">Suspected ASD</span>
+      <span class="hero-tag">Grade 2</span>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-content">
+
+  <!-- Progress rings -->
+  <div>
+    <div class="section-label">Progress Overview</div>
+    <div class="progress-row">
+      <div class="progress-card">
+        <div class="ring-wrap">
+          <svg width="52" height="52" viewBox="0 0 52 52">
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#eef1ff" stroke-width="5"/>
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#446dff" stroke-width="5" stroke-dasharray="75.4 125.7" stroke-dashoffset="31.4" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+          </svg>
+          <div class="ring-label"><span class="ring-num">6</span><span class="ring-den">of 24</span></div>
+        </div>
+        <div class="progress-name">Skills<br>Practiced</div>
+      </div>
+      <div class="progress-card">
+        <div class="ring-wrap">
+          <svg width="52" height="52" viewBox="0 0 52 52">
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#fff5f5" stroke-width="5"/>
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#ce1a1a" stroke-width="5" stroke-dasharray="88 125.7" stroke-dashoffset="31.4" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+          </svg>
+          <div class="ring-label"><span class="ring-num">14</span><span class="ring-den">of 20</span></div>
+        </div>
+        <div class="progress-name">Questionnaire<br>Complete</div>
+      </div>
+      <div class="progress-card">
+        <div class="ring-wrap">
+          <svg width="52" height="52" viewBox="0 0 52 52">
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#fffce8" stroke-width="5"/>
+            <circle cx="26" cy="26" r="20" fill="none" stroke="#b59500" stroke-width="5" stroke-dasharray="50.3 125.7" stroke-dashoffset="31.4" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+          </svg>
+          <div class="ring-label"><span class="ring-num">4</span><span class="ring-den">wks</span></div>
+        </div>
+        <div class="progress-name">Daily Card<br>Streak</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile details -->
+  <div>
+    <div class="section-label">Profile Details</div>
+    <div class="info-card">
+      <div class="info-row">
+        <span class="info-key">Diagnosis Status</span>
+        <span class="info-val red">Suspected ASD</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">School</span>
+        <span class="info-val">Lincoln Elementary</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">IEP Status</span>
+        <span class="info-val blue">Requested → Pending</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">Primary Language at Home</span>
+        <span class="info-val">Spanish</span>
+      </div>
+      <div class="info-row">
+        <span class="info-key">Therapist</span>
+        <span class="info-val">Not yet assigned</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Observed traits -->
+  <div>
+    <div class="section-label">Observed Traits</div>
+    <div class="traits-grid">
+      <div class="trait-item">
+        <div class="trait-dot" style="background:#ce1a1a"></div>
+        <div class="trait-text">
+          <div class="trait-title">Difficulty with transitions</div>
+          <div class="trait-desc">Gets upset when switching activities, especially at school</div>
+        </div>
+        <span class="trait-tag" style="background:#fff5f5;color:#ce1a1a">Frequent</span>
+      </div>
+      <div class="trait-item">
+        <div class="trait-dot" style="background:#446dff"></div>
+        <div class="trait-text">
+          <div class="trait-title">Sensitive to loud sounds</div>
+          <div class="trait-desc">Covers ears in cafeteria, avoids crowded places</div>
+        </div>
+        <span class="trait-tag" style="background:#eef1ff;color:#446dff">Sensory</span>
+      </div>
+      <div class="trait-item">
+        <div class="trait-dot" style="background:#b59500"></div>
+        <div class="trait-text">
+          <div class="trait-title">Strong memory for numbers</div>
+          <div class="trait-desc">Memorizes license plates, phone numbers easily</div>
+        </div>
+        <span class="trait-tag" style="background:#fffce8;color:#8B6914">Strength</span>
+      </div>
+      <div class="add-note-btn">
+        <div class="add-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#446dff" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </div>
+        Add an observation about Lucas
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Bottom Nav -->
+<div class="bottom-nav">
+  <div class="nav-item active">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#446dff" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#446dff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Home</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Guide</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Skills</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#C8C2BA" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <span class="nav-label">Community</span>
+  </div>
+  <div class="nav-item">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="nav-label">Assistant</span>
+  </div>
+</div>
+
+</body></html>

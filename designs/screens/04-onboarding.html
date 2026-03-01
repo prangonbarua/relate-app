@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html><head><script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 375px; height: 812px; overflow: hidden; font-family: 'Inter', -apple-system, sans-serif; background: #F9F6F1; color: #1C1C2E; }
+body { display: flex; flex-direction: column; }
+.status-bar { height: 44px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
+.status-time { font-size: 15px; font-weight: 600; }
+.status-icons { display: flex; gap: 6px; align-items: center; }
+.header { padding: 8px 24px 24px; }
+.progress-bar { display: flex; gap: 6px; margin-bottom: 28px; }
+.progress-seg { height: 4px; flex: 1; border-radius: 2px; background: #E8E3DC; }
+.progress-seg.done { background: #446dff; }
+.step-label { font-size: 12px; font-weight: 500; color: #9CA3AF; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.screen-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.2; margin-bottom: 4px; }
+.screen-sub { font-size: 14px; color: #6B7280; line-height: 1.5; }
+.form-area { flex: 1; padding: 4px 24px 0; display: flex; flex-direction: column; gap: 18px; }
+.input-group { display: flex; flex-direction: column; gap: 6px; }
+.input-label { font-size: 13px; font-weight: 500; color: #6B7280; }
+.input-field { background: white; border: 1.5px solid #E8E3DC; border-radius: 14px; height: 52px; padding: 0 16px; font-size: 15px; color: #1C1C2E; font-family: 'Inter', sans-serif; width: 100%; }
+.age-row { display: flex; gap: 10px; }
+.age-row .input-field { flex: 1; }
+.age-unit { display: flex; align-items: center; justify-content: center; background: white; border: 1.5px solid #E8E3DC; border-radius: 14px; height: 52px; padding: 0 16px; font-size: 14px; color: #6B7280; font-weight: 500; width: 80px; flex-shrink: 0; }
+.diagnosis-section { display: flex; flex-direction: column; gap: 6px; }
+.diagnosis-label { font-size: 13px; font-weight: 500; color: #6B7280; margin-bottom: 4px; }
+.diagnosis-options { display: flex; flex-direction: column; gap: 10px; }
+.diag-option { background: white; border: 1.5px solid #E8E3DC; border-radius: 14px; padding: 14px 16px; display: flex; align-items: flex-start; gap: 12px; cursor: pointer; }
+.diag-option.selected { border-color: #446dff; background: #eef2ff; }
+.diag-radio { width: 20px; height: 20px; border-radius: 50%; border: 2px solid #E8E3DC; flex-shrink: 0; margin-top: 2px; display: flex; align-items: center; justify-content: center; }
+.diag-option.selected .diag-radio { border-color: #446dff; background: #446dff; }
+.diag-radio-dot { width: 8px; height: 8px; border-radius: 50%; background: white; }
+.diag-text { flex: 1; }
+.diag-title { font-size: 14px; font-weight: 600; color: #1C1C2E; margin-bottom: 2px; }
+.diag-desc { font-size: 12px; color: #9CA3AF; line-height: 1.4; }
+.diag-option.selected .diag-title { color: #446dff; }
+.bottom-area { padding: 20px 24px 44px; }
+.btn-primary { background: #ce1a1a; color: white; border: none; border-radius: 18px; height: 58px; font-size: 17px; font-weight: 600; cursor: pointer; width: 100%; font-family: 'Inter', sans-serif; box-shadow: 0 8px 24px rgba(206,26,26,0.35); }
+.skip-link { text-align: center; font-size: 13px; color: #9CA3AF; margin-top: 12px; }
+</style></head>
+<body>
+<div class="status-bar">
+  <span class="status-time">9:41</span>
+  <div class="status-icons">
+    <svg width="17" height="12" viewBox="0 0 17 12" fill="#1C1C2E"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
+    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#1C1C2E" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#1C1C2E"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#1C1C2E" opacity="0.4"/></svg>
+  </div>
+</div>
+<div class="header">
+  <div class="progress-bar">
+    <div class="progress-seg done"></div>
+    <div class="progress-seg"></div>
+  </div>
+  <div class="step-label">Step 1 of 2</div>
+  <div class="screen-title">Tell us about<br>your child</div>
+  <div class="screen-sub" style="margin-top:6px">This helps us personalize your experience</div>
+</div>
+<div class="form-area">
+  <div class="input-group">
+    <div class="input-label">Child's First Name</div>
+    <input class="input-field" type="text" placeholder="e.g. Lucas" value="Lucas">
+  </div>
+  <div class="input-group">
+    <div class="input-label">Age</div>
+    <div class="age-row">
+      <input class="input-field" type="number" placeholder="7" value="7">
+      <div class="age-unit">years old</div>
+    </div>
+  </div>
+  <div class="diagnosis-section">
+    <div class="diagnosis-label">Diagnosis Status</div>
+    <div class="diagnosis-options">
+      <div class="diag-option">
+        <div class="diag-radio"></div>
+        <div class="diag-text">
+          <div class="diag-title">Officially Diagnosed</div>
+          <div class="diag-desc">Child has received an official autism diagnosis</div>
+        </div>
+      </div>
+      <div class="diag-option selected">
+        <div class="diag-radio"><div class="diag-radio-dot"></div></div>
+        <div class="diag-text">
+          <div class="diag-title">Suspected / Being Evaluated</div>
+          <div class="diag-desc">I've noticed signs and am seeking evaluation</div>
+        </div>
+      </div>
+      <div class="diag-option">
+        <div class="diag-radio"></div>
+        <div class="diag-text">
+          <div class="diag-title">Not Sure Yet</div>
+          <div class="diag-desc">I want to learn more about what I'm observing</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bottom-area">
+  <button class="btn-primary">Continue →</button>
+  <div class="skip-link">I'll set this up later</div>
+</div>
+</body></html>
