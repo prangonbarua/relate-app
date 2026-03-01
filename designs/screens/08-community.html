@@ -1,86 +1,103 @@
 <!DOCTYPE html>
 <html><head><script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script><meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { width: 375px; height: 812px; overflow: hidden; font-family: 'Inter', -apple-system, sans-serif; background: #F9F6F1; color: #1C1C2E; }
+html, body { width: 375px; height: 812px; overflow: hidden; font-family: 'Nunito', sans-serif; background: #F6F3EE; color: #18182B; }
 body { display: flex; flex-direction: column; }
-.status-bar { height: 44px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
-.status-time { font-size: 15px; font-weight: 600; }
+
+.status-bar { height: 44px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; flex-shrink: 0; }
+.status-time { font-size: 15px; font-weight: 700; color: #18182B; }
 .status-icons { display: flex; gap: 6px; align-items: center; }
-.header { padding: 4px 24px 14px; display: flex; align-items: center; justify-content: space-between; }
-.screen-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
-.compose-btn { width: 38px; height: 38px; background: #446dff; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
-.filter-chips { display: flex; gap: 8px; padding: 0 24px 14px; overflow-x: hidden; }
-.chip { padding: 7px 14px; border-radius: 20px; font-size: 12px; font-weight: 500; white-space: nowrap; cursor: pointer; }
-.chip.active { background: #446dff; color: white; }
-.chip:not(.active) { background: white; color: #6B7280; }
+
+.header { padding: 4px 24px 12px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+.screen-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: #18182B; }
+.compose-btn { width: 38px; height: 38px; background: #3D57E8; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+
+.filter-chips { display: flex; gap: 7px; padding: 0 24px 12px; overflow-x: hidden; flex-shrink: 0; }
+.chip { padding: 7px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; cursor: pointer; }
+.chip.active { background: #3D57E8; color: #FFFFFF; }
+.chip:not(.active) { background: #FFFFFF; color: #545E70; }
+
 .content { flex: 1; overflow: hidden; padding: 0 24px; display: flex; flex-direction: column; gap: 10px; }
-.post-card { background: white; border-radius: 18px; padding: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.04); }
-.post-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-.post-avatar { width: 36px; height: 36px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; color: white; flex-shrink: 0; }
-.post-meta { flex: 1; }
-.post-author { font-size: 13px; font-weight: 600; }
-.post-time { font-size: 11px; color: #9CA3AF; }
-.post-type-tag { padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 600; }
-.post-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; line-height: 1.3; }
-.post-excerpt { font-size: 13px; color: #6B7280; line-height: 1.5; margin-bottom: 12px; }
-.post-footer { display: flex; align-items: center; gap: 16px; }
-.post-action { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #9CA3AF; font-weight: 500; }
-.post-action.liked { color: #ce1a1a; }
-.lang-tag { margin-left: auto; padding: 2px 8px; background: #F9F6F1; border-radius: 10px; font-size: 10px; color: #9CA3AF; font-weight: 500; }
-.pinned-banner { background: linear-gradient(135deg, #dde8ff, #c4d8ff); border-radius: 14px; padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; flex-shrink: 0; }
-.pin-icon { width: 28px; height: 28px; background: #446dff; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+
+.pinned-banner { background: #EEF1FF; border: 1.5px solid #C8D5FF; border-radius: 16px; padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; flex-shrink: 0; }
+.pin-icon { width: 30px; height: 30px; background: #3D57E8; border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .pinned-text { flex: 1; }
-.pinned-title { font-size: 13px; font-weight: 600; color: #2D52CC; }
-.pinned-sub { font-size: 11px; color: #446dff; margin-top: 2px; }
-.bottom-nav { height: 72px; background: white; border-top: 1px solid #F0EBE4; display: flex; align-items: center; justify-content: space-around; padding: 0 8px 8px; flex-shrink: 0; }
+.pinned-title { font-size: 13px; font-weight: 700; color: #2A3FC4; }
+.pinned-sub { font-size: 11px; color: #3D57E8; margin-top: 2px; font-weight: 500; }
+
+.post-card { background: #FFFFFF; border-radius: 20px; padding: 15px; box-shadow: 0 2px 16px rgba(0,0,0,0.07); }
+.post-header { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; }
+.post-avatar { width: 36px; height: 36px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 12px; color: white; flex-shrink: 0; }
+.post-meta { flex: 1; }
+.post-author { font-size: 13px; font-weight: 700; color: #18182B; }
+.post-time { font-size: 11px; color: #9CA3AF; font-weight: 500; }
+.post-type-tag { padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 700; }
+.post-title { font-size: 14px; font-weight: 800; color: #18182B; margin-bottom: 5px; line-height: 1.35; }
+.post-excerpt { font-size: 12px; color: #545E70; line-height: 1.5; margin-bottom: 11px; font-weight: 500; }
+.post-footer { display: flex; align-items: center; gap: 14px; }
+.post-action { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #9CA3AF; font-weight: 600; }
+.post-action.liked { color: #E06A4A; }
+.lang-tag { margin-left: auto; padding: 2px 9px; background: #F6F3EE; border-radius: 10px; font-size: 10px; color: #9CA3AF; font-weight: 600; }
+
+.bottom-nav { height: 72px; background: #FFFFFF; border-top: 1px solid #EDE8E1; display: flex; align-items: center; justify-content: space-around; padding: 0 8px 8px; flex-shrink: 0; }
 .nav-item { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; padding-top: 8px; }
-.nav-label { font-size: 10px; font-weight: 500; color: #C8C2BA; }
-.nav-item.active .nav-label { color: #446dff; }
+.nav-label { font-size: 10px; font-weight: 600; color: #C2BBAF; font-family: 'Nunito', sans-serif; }
+.nav-item.active .nav-label { color: #3D57E8; }
 </style></head>
 <body>
+
 <div class="status-bar">
   <span class="status-time">9:41</span>
   <div class="status-icons">
-    <svg width="17" height="12" viewBox="0 0 17 12" fill="#1C1C2E"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
-    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#1C1C2E" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#1C1C2E"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#1C1C2E" opacity="0.4"/></svg>
+    <svg width="17" height="12" viewBox="0 0 17 12" fill="#18182B"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
+    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#18182B" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#18182B"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#18182B" opacity="0.4"/></svg>
   </div>
 </div>
+
 <div class="header">
   <div class="screen-title">Community</div>
   <div class="compose-btn">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </div>
 </div>
+
 <div class="filter-chips">
   <div class="chip active">All</div>
   <div class="chip">Questions</div>
-  <div class="chip">Tips & Advice</div>
+  <div class="chip">Tips &amp; Advice</div>
   <div class="chip">Stories</div>
 </div>
+
 <div class="content">
+
+  <!-- Pinned banner -->
   <div class="pinned-banner">
-    <div class="pin-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M15 3l6 6-1.5 1.5-1.5-1.5L12 15v3H9v-3L3 9l6-6 6 6z" fill="white"/></svg></div>
+    <div class="pin-icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.5 7H22l-6 4.4 2.3 7L12 17l-6.3 3.4L8 13.4 2 9h7.5L12 2z" fill="white"/></svg>
+    </div>
     <div class="pinned-text">
-      <div class="pinned-title">Welcome to the Nido community!</div>
+      <div class="pinned-title">Welcome to the Relate community!</div>
       <div class="pinned-sub">Read our community guidelines · 5 min read</div>
     </div>
   </div>
+
+  <!-- Post 1: Amira A. -->
   <div class="post-card">
     <div class="post-header">
-      <div class="post-avatar" style="background:linear-gradient(135deg,#ce1a1a,#b51515)">AA</div>
+      <div class="post-avatar" style="background:linear-gradient(135deg,#E06A4A,#C24F31)">AA</div>
       <div class="post-meta">
         <div class="post-author">Amira A. · California</div>
         <div class="post-time">2 hours ago</div>
       </div>
-      <span class="post-type-tag" style="background:#FFF3EE;color:#ce1a1a">Question</span>
+      <span class="post-type-tag" style="background:#FFF1EC;color:#E06A4A">Question</span>
     </div>
     <div class="post-title">How do I request an IEP meeting in Spanish?</div>
     <div class="post-excerpt">My son's school keeps sending forms in English. I asked for a translator but they said it takes 2 weeks. Is this legal?</div>
     <div class="post-footer">
       <div class="post-action liked">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#ce1a1a"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="#E06A4A"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
         24
       </div>
       <div class="post-action">
@@ -90,17 +107,19 @@ body { display: flex; flex-direction: column; }
       <span class="lang-tag">ES</span>
     </div>
   </div>
+
+  <!-- Post 2: Wei C. -->
   <div class="post-card">
     <div class="post-header">
-      <div class="post-avatar" style="background:linear-gradient(135deg,#446dff,#2D52CC)">WC</div>
+      <div class="post-avatar" style="background:linear-gradient(135deg,#3D57E8,#2A3FC4)">WC</div>
       <div class="post-meta">
         <div class="post-author">Wei C. · Texas</div>
         <div class="post-time">5 hours ago</div>
       </div>
-      <span class="post-type-tag" style="background:#dde8ff;color:#446dff">Tip</span>
+      <span class="post-type-tag" style="background:#EEF1FF;color:#3D57E8">Tip</span>
     </div>
     <div class="post-title">Visual schedule helped our mornings so much</div>
-    <div class="post-excerpt">We printed pictures for each step (wake up, brush teeth, eat, get dressed). Now Lucas doesn't need reminders...</div>
+    <div class="post-excerpt">We printed pictures for each step (wake up, brush teeth, eat, get dressed). Now he doesn't need reminders at all...</div>
     <div class="post-footer">
       <div class="post-action">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="#9CA3AF" stroke-width="1.8" stroke-linejoin="round"/></svg>
@@ -113,17 +132,19 @@ body { display: flex; flex-direction: column; }
       <span class="lang-tag">中文</span>
     </div>
   </div>
+
+  <!-- Post 3: Rosa M. -->
   <div class="post-card">
     <div class="post-header">
-      <div class="post-avatar" style="background:linear-gradient(135deg,#8B5CF6,#6D28D9)">RM</div>
+      <div class="post-avatar" style="background:linear-gradient(135deg,#7B5EA7,#5E3F8A)">RM</div>
       <div class="post-meta">
         <div class="post-author">Rosa M. · Florida</div>
         <div class="post-time">Yesterday</div>
       </div>
-      <span class="post-type-tag" style="background:#F0EBF8;color:#8B5CF6">Story</span>
+      <span class="post-type-tag" style="background:#F0EBFF;color:#7B5EA7">Story</span>
     </div>
     <div class="post-title">After 8 months, my daughter said "I love you, mama"</div>
-    <div class="post-excerpt">We didn't think she would ever speak. Using the communication board every day for 8 months...</div>
+    <div class="post-excerpt">We didn't think she would ever speak. Using the communication board every day for 8 months changed everything...</div>
     <div class="post-footer">
       <div class="post-action">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="#9CA3AF" stroke-width="1.8" stroke-linejoin="round"/></svg>
@@ -136,27 +157,30 @@ body { display: flex; flex-direction: column; }
       <span class="lang-tag">ES</span>
     </div>
   </div>
+
 </div>
+
 <div class="bottom-nav">
   <div class="nav-item">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#C2BBAF" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#C2BBAF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="nav-label">Home</span>
   </div>
   <div class="nav-item">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="#C2BBAF" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="#C2BBAF" stroke-width="1.8" stroke-linejoin="round"/></svg>
     <span class="nav-label">Guide</span>
   </div>
   <div class="nav-item">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#C8C2BA" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#C2BBAF" stroke-width="1.8" stroke-linejoin="round"/></svg>
     <span class="nav-label">Skills</span>
   </div>
   <div class="nav-item active">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#446dff" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#446dff" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#446dff" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#3D57E8" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#3D57E8" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#3D57E8" stroke-width="1.8" stroke-linecap="round"/></svg>
     <span class="nav-label">Community</span>
   </div>
   <div class="nav-item">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="#C8C2BA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="#C2BBAF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="nav-label">Assistant</span>
   </div>
 </div>
+
 </body></html>
