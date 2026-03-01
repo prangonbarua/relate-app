@@ -1,232 +1,142 @@
-import {
-  View,
-  Text,
-  ScrollView,
-  SafeAreaView,
-  TouchableOpacity,
-  ActivityIndicator,
-} from "react-native";
-import { useState, useEffect } from "react";
+import { View, Text, ScrollView, SafeAreaView, TouchableOpacity } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
-import { api } from "../../store/apiClient";
+import { Colors, Radius, Shadow } from "../../constants/theme";
 
-interface CategoryConfig {
-  icon: keyof typeof Ionicons.glyphMap;
-  color: string;
-  bg: string;
-  lightBg: string;
-}
-
-const CATEGORY_CONFIG: Record<string, CategoryConfig> = {
-  communication: {
-    icon: "chatbubbles-outline",
-    color: "#6366f1",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
-  },
-  social: {
-    icon: "people-outline",
-    color: "#10B981",
-    bg: "#059669",
-    lightBg: "#D1FAE5",
-  },
-  sensorymotor: {
-    icon: "body-outline",
-    color: "#0EA5E9",
-    bg: "#0284C7",
-    lightBg: "#E0F2FE",
-  },
-  dailyliving: {
-    icon: "home-outline",
-    color: "#F59E0B",
-    bg: "#D97706",
-    lightBg: "#FEF3C7",
-  },
-  emotionalselfadvocacy: {
-    icon: "heart-outline",
-    color: "#EF4444",
-    bg: "#DC2626",
-    lightBg: "#FEE2E2",
-  },
-  cognitiveplay: {
-    icon: "bulb-outline",
-    color: "#F97316",
-    bg: "#EA580C",
-    lightBg: "#FFF7ED",
-  },
-};
-
-const DEFAULT_CONFIG: CategoryConfig = {
-  icon: "folder-outline",
-  color: "#6B7280",
-  bg: "#4B5563",
-  lightBg: "#F3F4F6",
-};
+type CategoryKey = "communication" | "social" | "dailyliving" | "motor";
 
 interface SkillCategory {
-  key: string;
-  displayName: string;
+  key: CategoryKey;
   icon: keyof typeof Ionicons.glyphMap;
-  color: string;
-  bg: string;
-  lightBg: string;
+  iconBg: string;
+  gradientStart: string;
+  gradientEnd: string;
+  textColor: string;
   count: number;
 }
 
+// Colors taken directly from Figma node 8:3
+const CATEGORIES: SkillCategory[] = [
+  {
+    key: "communication",
+    icon: "chatbubble-outline",
+    iconBg: "rgba(68,109,255,0.2)",
+    gradientStart: "rgba(221,232,255,1)",
+    gradientEnd: "rgba(196,216,255,1)",
+    textColor: "#2D52CC",
+    count: 24,
+  },
+  {
+    key: "social",
+    icon: "people-outline",
+    iconBg: "rgba(206,26,26,0.2)",
+    gradientStart: "rgba(255,245,245,1)",
+    gradientEnd: "rgba(255,232,232,1)",
+    textColor: "#B84D2A",
+    count: 18,
+  },
+  {
+    key: "dailyliving",
+    icon: "home-outline",
+    iconBg: "rgba(139,92,246,0.2)",
+    gradientStart: "rgba(255,252,232,1)",
+    gradientEnd: "rgba(255,245,192,1)",
+    textColor: "#B59500",
+    count: 31,
+  },
+  {
+    key: "motor",
+    icon: "fitness-outline",
+    iconBg: "rgba(234,179,8,0.2)",
+    gradientStart: "rgba(196,225,255,1)",
+    gradientEnd: "rgba(168,212,255,1)",
+    textColor: "#1A5A8A",
+    count: 15,
+  },
+];
+
+const SUGGESTED = [
+  { title: "Making Eye Contact", category: "Communication", time: "5–10 min/day", badge: "Active", badgeBg: "#FFFB44", badgeColor: "#1C1C2E", iconBg: "#DDE8FF" },
+  { title: "Asking for Help", category: "Social Skills", time: "3–5 min/day", badge: "New", badgeBg: "#FFF3EE", badgeColor: "#CE1A1A", iconBg: "#FFF3EE" },
+  { title: "Following a 2-Step Routine", category: "Daily Living", time: "10 min/day", badge: "Not started", badgeBg: "#F9F6F1", badgeColor: "#6B7280", iconBg: "#F0EBF8" },
+];
+
 export default function SkillsScreen() {
   const { t } = useTranslation();
-  const [categories, setCategories] = useState<SkillCategory[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function fetchCategories() {
-      try {
-        const data = await api<{
-          categories: { name: string; count: number }[];
-        }>("/api/skills/categories");
-        if (!cancelled) {
-          const mapped: SkillCategory[] = data.categories.map((cat) => {
-            const key = cat.name
-              .toLowerCase()
-              .replace(/[\s&\-]/g, "");
-            const config = CATEGORY_CONFIG[key] ?? DEFAULT_CONFIG;
-            return {
-              key,
-              displayName: cat.name,
-              ...config,
-              count: cat.count,
-            };
-          });
-          setCategories(mapped);
-        }
-      } catch {
-        if (!cancelled) {
-          setCategories([
-            {
-              key: "communication",
-              displayName: "Communication",
-              ...CATEGORY_CONFIG.communication,
-              count: 10,
-            },
-            {
-              key: "social",
-              displayName: "Social",
-              ...CATEGORY_CONFIG.social,
-              count: 8,
-            },
-            {
-              key: "sensorymotor",
-              displayName: "Sensory & Motor",
-              ...CATEGORY_CONFIG.sensorymotor,
-              count: 12,
-            },
-            {
-              key: "dailyliving",
-              displayName: "Daily Living",
-              ...CATEGORY_CONFIG.dailyliving,
-              count: 8,
-            },
-            {
-              key: "emotionalselfadvocacy",
-              displayName: "Emotional & Self-Advocacy",
-              ...CATEGORY_CONFIG.emotionalselfadvocacy,
-              count: 12,
-            },
-            {
-              key: "cognitiveplay",
-              displayName: "Cognitive & Play",
-              ...CATEGORY_CONFIG.cognitiveplay,
-              count: 7,
-            },
-          ]);
-        }
-      } finally {
-        if (!cancelled) setIsLoading(false);
-      }
-    }
-
-    fetchCategories();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const handleCategoryPress = (cat: SkillCategory) => {
-    router.push({
-      pathname: "/skill-category/[name]",
-      params: { name: cat.displayName },
-    });
-  };
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50">
-      <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
+      <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 32 }}>
+
         {/* Header */}
-        <View className="px-6 pt-10 pb-4">
-          <Text className="text-2xl font-bold text-gray-900 mb-1">
-            {t("skills.title")}
+        <View style={{ paddingHorizontal: 24, paddingTop: 28, paddingBottom: 20, flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
+          <Text style={{ fontSize: 26, fontWeight: "800", color: Colors.text, letterSpacing: -0.5 }}>
+            Teach Skills
           </Text>
-          <Text className="text-sm text-gray-500">
-            {t("skills.subtitle")}
-          </Text>
+          <View style={{ width: 38, height: 38, borderRadius: Radius.md, backgroundColor: Colors.surface, alignItems: "center", justifyContent: "center", ...Shadow.soft }}>
+            <Ionicons name="notifications-outline" size={20} color={Colors.text} />
+          </View>
         </View>
 
-        {/* Category Grid */}
-        <View className="px-5 pb-8">
-          {isLoading ? (
-            <View className="items-center py-16">
-              <ActivityIndicator size="large" color="#6366f1" />
-              <Text className="text-gray-400 text-sm mt-3">
-                {t("common.loading")}
-              </Text>
-            </View>
-          ) : (
-            <View className="flex-row flex-wrap justify-between">
-              {categories.map((cat) => (
-                <TouchableOpacity
-                  key={cat.key}
-                  onPress={() => handleCategoryPress(cat)}
-                  activeOpacity={0.8}
-                  className="mb-4 rounded-2xl overflow-hidden"
-                  style={{
-                    width: "48%",
-                    backgroundColor: cat.lightBg,
-                  }}
+        {/* Browse Categories */}
+        <View style={{ paddingLeft: 24, gap: 12 }}>
+          <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingRight: 24 }}>
+            <Text style={{ fontSize: 15, fontWeight: "700", color: Colors.text }}>Browse Categories</Text>
+            <TouchableOpacity>
+              <Text style={{ fontSize: 13, fontWeight: "500", color: Colors.primary }}>See all</Text>
+            </TouchableOpacity>
+          </View>
+
+          {/* 2×2 grid */}
+          <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 0 }}>
+            {CATEGORIES.map((cat, i) => (
+              <TouchableOpacity key={cat.key} style={{ width: "50%", paddingRight: i % 2 === 0 ? 6 : 0, paddingLeft: i % 2 === 1 ? 6 : 0, paddingBottom: 12 }}>
+                <LinearGradient
+                  colors={[cat.gradientStart, cat.gradientEnd]}
+                  start={{ x: 0.13, y: 0.13 }}
+                  end={{ x: 1, y: 1 }}
+                  style={{ padding: 16, borderRadius: Radius.xl, gap: 8, minHeight: 120 }}
                 >
-                  <View className="p-4 items-center" style={{ minHeight: 140 }}>
-                    {/* Icon Circle */}
-                    <View
-                      className="w-14 h-14 rounded-full items-center justify-center mb-3"
-                      style={{ backgroundColor: cat.bg + "20" }}
-                    >
-                      <Ionicons name={cat.icon} size={28} color={cat.bg} />
-                    </View>
-
-                    {/* Category Name */}
-                    <Text
-                      className="font-bold text-center text-sm mb-1"
-                      style={{ color: cat.bg }}
-                      numberOfLines={2}
-                    >
-                      {cat.displayName}
-                    </Text>
-
-                    {/* Skill Count */}
-                    <Text className="text-xs text-gray-500">
-                      {cat.count} skills
-                    </Text>
+                  <View style={{ width: 40, height: 40, borderRadius: Radius.md, backgroundColor: cat.iconBg, alignItems: "center", justifyContent: "center" }}>
+                    <Ionicons name={cat.icon} size={20} color={cat.textColor} />
                   </View>
+                  <Text style={{ fontWeight: "700", fontSize: 14, color: cat.textColor }}>{t(`skills.categories.${cat.key}`, cat.key)}</Text>
+                  <Text style={{ fontSize: 12, color: cat.textColor, opacity: 0.65 }}>{cat.count} skills</Text>
+                </LinearGradient>
+              </TouchableOpacity>
+            ))}
+          </View>
+        </View>
 
-                  {/* Bottom accent bar */}
-                  <View className="h-1" style={{ backgroundColor: cat.bg }} />
-                </TouchableOpacity>
-              ))}
-            </View>
-          )}
+        {/* Suggested */}
+        <View style={{ paddingLeft: 24, gap: 12, marginTop: 6 }}>
+          <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingRight: 24 }}>
+            <Text style={{ fontSize: 15, fontWeight: "700", color: Colors.text }}>Suggested for you</Text>
+            <TouchableOpacity>
+              <Text style={{ fontSize: 13, fontWeight: "500", color: Colors.primary }}>See all</Text>
+            </TouchableOpacity>
+          </View>
+
+          <View style={{ gap: 10, paddingRight: 24 }}>
+            {SUGGESTED.map((skill) => (
+              <TouchableOpacity
+                key={skill.title}
+                style={{ flexDirection: "row", alignItems: "center", gap: 12, backgroundColor: Colors.surface, borderRadius: Radius.lg, padding: 16, ...Shadow.soft }}
+              >
+                <View style={{ width: 40, height: 40, borderRadius: Radius.md, backgroundColor: skill.iconBg, alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                  <Ionicons name="book-outline" size={18} color={Colors.primary} />
+                </View>
+                <View style={{ flex: 1, gap: 2 }}>
+                  <Text style={{ fontSize: 14, fontWeight: "600", color: Colors.text }}>{skill.title}</Text>
+                  <Text style={{ fontSize: 12, color: Colors.textMuted }}>{skill.category} · {skill.time}</Text>
+                </View>
+                <View style={{ paddingHorizontal: 10, paddingVertical: 3, borderRadius: Radius.full, backgroundColor: skill.badgeBg }}>
+                  <Text style={{ fontSize: 11, fontWeight: "500", color: skill.badgeColor }}>{skill.badge}</Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>

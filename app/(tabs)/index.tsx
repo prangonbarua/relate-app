@@ -1,14 +1,13 @@
-import { View, Text, SafeAreaView, TouchableOpacity, ScrollView, ActivityIndicator } from "react-native";
-import { useState, useEffect } from "react";
+import { View, Text, SafeAreaView, TouchableOpacity, ScrollView } from "react-native";
 import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { DailyCard } from "../../components/DailyCard";
 import { useChildStore } from "../../store/childStore";
-import { api } from "../../store/apiClient";
 import { DailyCard as DailyCardType } from "../../types";
+import { Colors, Radius, Shadow } from "../../constants/theme";
 
-// Fallback card for offline / API failure
+// Placeholder card — will come from API once backend is wired
 const PLACEHOLDER_CARD: DailyCardType = {
   id: "card-001",
   skill: "Joint Attention: Follow the Leader",
@@ -24,6 +23,12 @@ const PLACEHOLDER_CARD: DailyCardType = {
   date: new Date().toISOString(),
 };
 
+const QUICK_ACTIONS = [
+  { icon: "compass-outline" as const, label: "Resources", route: "/(tabs)/navigator" },
+  { icon: "people-outline" as const, label: "Community", route: "/(tabs)/community" },
+  { icon: "sparkles-outline" as const, label: "Ask AI", route: "/(tabs)/assistant" },
+];
+
 function getTimeOfDay(): "morning" | "afternoon" | "evening" {
   const hour = new Date().getHours();
   if (hour < 12) return "morning";
@@ -36,34 +41,6 @@ export default function HomeScreen() {
   const profile = useChildStore((s) => s.profile);
   const logs = useChildStore((s) => s.logs);
 
-  const [card, setCard] = useState<DailyCardType | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function fetchDailyCard() {
-      try {
-        const data = await api<{ card: DailyCardType }>("/api/skills/daily");
-        if (!cancelled) {
-          setCard(data.card);
-        }
-      } catch {
-        // Fall back to placeholder on error
-        if (!cancelled) {
-          setCard(PLACEHOLDER_CARD);
-        }
-      } finally {
-        if (!cancelled) {
-          setIsLoading(false);
-        }
-      }
-    }
-
-    fetchDailyCard();
-    return () => { cancelled = true; };
-  }, []);
-
   const timeOfDay = getTimeOfDay();
   const streak = logs.filter((l) => l.result !== "skip").length;
 
@@ -72,41 +49,112 @@ export default function HomeScreen() {
     : t("home.greeting_no_name", { timeOfDay: t(`home.timeOfDay.${timeOfDay}`) });
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50">
-      <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
+      <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
         {/* Header */}
-        <View className="px-6 pt-10 pb-6 flex-row items-center justify-between">
-          <View className="flex-1">
-            <Text className="text-xl font-bold text-gray-900">{greeting}</Text>
+        <View
+          style={{
+            paddingHorizontal: 24,
+            paddingTop: 28,
+            paddingBottom: 20,
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <View style={{ flex: 1 }}>
+            <Text style={{ fontSize: 22, fontWeight: "700", color: Colors.text }}>
+              {greeting}
+            </Text>
             {streak > 0 && (
-              <View className="flex-row items-center gap-1 mt-1">
-                <Text className="text-lg">🔥</Text>
-                <Text className="text-sm text-gray-500">
+              <View style={{ flexDirection: "row", alignItems: "center", gap: 4, marginTop: 4 }}>
+                <Text style={{ fontSize: 16 }}>🔥</Text>
+                <Text style={{ fontSize: 13, color: Colors.textSecondary }}>
                   {t("home.streak", { count: streak })}
                 </Text>
               </View>
             )}
           </View>
 
-          {/* Settings */}
+          {/* Crisis button */}
           <TouchableOpacity
-            onPress={() => router.push("/settings")}
-            className="w-10 h-10 rounded-xl bg-gray-100 items-center justify-center"
+            onPress={() => router.push("/crisis")}
+            style={{
+              backgroundColor: Colors.dangerLight,
+              borderWidth: 1,
+              borderColor: "#FCA5A5",
+              paddingHorizontal: 14,
+              paddingVertical: 8,
+              borderRadius: Radius.lg,
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 6,
+            }}
           >
-            <Ionicons name="settings-outline" size={20} color="#6B7280" />
+            <Ionicons name="alert-circle-outline" size={15} color={Colors.danger} />
+            <Text style={{ color: Colors.danger, fontSize: 12, fontWeight: "600" }}>
+              {t("home.crisis")}
+            </Text>
           </TouchableOpacity>
         </View>
 
+        {/* Quick Actions */}
+        <View
+          style={{
+            flexDirection: "row",
+            paddingHorizontal: 24,
+            gap: 10,
+            marginBottom: 24,
+          }}
+        >
+          {QUICK_ACTIONS.map((action) => (
+            <TouchableOpacity
+              key={action.label}
+              onPress={() => router.push(action.route as Parameters<typeof router.push>[0])}
+              style={{
+                flex: 1,
+                backgroundColor: Colors.surface,
+                borderRadius: Radius.lg,
+                paddingVertical: 14,
+                alignItems: "center",
+                gap: 6,
+                ...Shadow.card,
+              }}
+            >
+              <View
+                style={{
+                  width: 36,
+                  height: 36,
+                  borderRadius: Radius.md,
+                  backgroundColor: Colors.primaryLight,
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <Ionicons name={action.icon} size={18} color={Colors.primary} />
+              </View>
+              <Text style={{ fontSize: 11, fontWeight: "600", color: Colors.textSecondary }}>
+                {action.label}
+              </Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+
         {/* Daily Card */}
-        <View className="px-6 pb-8">
-          {isLoading ? (
-            <View className="bg-white rounded-3xl shadow-sm border border-gray-100 p-12 items-center justify-center">
-              <ActivityIndicator size="large" color="#6366f1" />
-              <Text className="text-gray-400 text-sm mt-3">{t("common.loading")}</Text>
-            </View>
-          ) : (
-            <DailyCard card={card ?? PLACEHOLDER_CARD} />
-          )}
+        <View style={{ paddingHorizontal: 24, paddingBottom: 32 }}>
+          <Text
+            style={{
+              fontSize: 13,
+              fontWeight: "700",
+              color: Colors.textSecondary,
+              textTransform: "uppercase",
+              letterSpacing: 0.8,
+              marginBottom: 12,
+            }}
+          >
+            Today's Skill
+          </Text>
+          <DailyCard card={PLACEHOLDER_CARD} />
         </View>
       </ScrollView>
     </SafeAreaView>

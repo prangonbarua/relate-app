@@ -1,21 +1,42 @@
-import { Tabs } from "expo-router";
+import { useCallback } from "react";
+import { Tabs, useRouter, useSegments } from "expo-router";
 import { useTranslation } from "react-i18next";
-import { Ionicons } from "@expo/vector-icons";
+import { InteractiveMenu, InteractiveMenuItem } from "../../components/ui/modern-mobile-menu";
+import { Colors } from "../../constants/theme";
 
-type IconName = keyof typeof Ionicons.glyphMap;
+const TAB_ROUTES = ["index", "skills", "navigator", "community", "assistant"] as const;
+type TabRoute = typeof TAB_ROUTES[number];
 
-function TabIcon({
-  name,
-  focused,
-}: {
-  name: IconName;
-  focused: boolean;
-}) {
+const MENU_ITEMS: InteractiveMenuItem[] = [
+  { label: "Home",      icon: "home-outline" },
+  { label: "Guide",     icon: "compass-outline" },
+  { label: "Skills",    icon: "book-outline" },
+  { label: "Community", icon: "people-outline" },
+  { label: "Assistant", icon: "sparkles-outline" },
+];
+
+function CustomTabBar() {
+  const router = useRouter();
+  const segments = useSegments();
+
+  // Derive active index from current route segment
+  const activeRoute = segments[segments.length - 1] as TabRoute | undefined;
+  const initialIndex = TAB_ROUTES.indexOf((activeRoute ?? "index") as TabRoute);
+
+  const handleSelect = useCallback(
+    (index: number) => {
+      const route = TAB_ROUTES[index];
+      router.push(route === "index" ? "/(tabs)" : (`/(tabs)/${route}` as Parameters<typeof router.push>[0]));
+    },
+    [router]
+  );
+
   return (
-    <Ionicons
-      name={focused ? name : (`${name}-outline` as IconName)}
-      size={24}
-      color={focused ? "#6366f1" : "#9CA3AF"}
+    <InteractiveMenu
+      items={MENU_ITEMS}
+      accentColor={Colors.tabActive}
+      onSelect={handleSelect}
+      initialIndex={initialIndex >= 0 ? initialIndex : 0}
     />
   );
 }
@@ -25,69 +46,14 @@ export default function TabsLayout() {
 
   return (
     <Tabs
-      screenOptions={{
-        headerShown: false,
-        tabBarActiveTintColor: "#6366f1",
-        tabBarInactiveTintColor: "#9CA3AF",
-        tabBarStyle: {
-          backgroundColor: "white",
-          borderTopColor: "#F3F4F6",
-          borderTopWidth: 1,
-          paddingBottom: 8,
-          paddingTop: 4,
-          height: 64,
-        },
-        tabBarLabelStyle: {
-          fontSize: 11,
-          fontWeight: "600",
-        },
-      }}
+      tabBar={() => <CustomTabBar />}
+      screenOptions={{ headerShown: false }}
     >
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: t("tabs.home"),
-          tabBarIcon: ({ focused }) => (
-            <TabIcon name="home" focused={focused} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="skills"
-        options={{
-          title: t("tabs.skills"),
-          tabBarIcon: ({ focused }) => (
-            <TabIcon name="book" focused={focused} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="navigator"
-        options={{
-          title: t("tabs.navigator"),
-          tabBarIcon: ({ focused }) => (
-            <TabIcon name="compass" focused={focused} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="community"
-        options={{
-          title: t("tabs.community"),
-          tabBarIcon: ({ focused }) => (
-            <TabIcon name="people" focused={focused} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="assistant"
-        options={{
-          title: t("tabs.assistant", "Assistant"),
-          tabBarIcon: ({ focused }) => (
-            <TabIcon name="chatbubble-ellipses" focused={focused} />
-          ),
-        }}
-      />
+      <Tabs.Screen name="index"     options={{ title: t("tabs.home") }} />
+      <Tabs.Screen name="skills"    options={{ title: t("tabs.skills") }} />
+      <Tabs.Screen name="navigator" options={{ title: t("tabs.navigator") }} />
+      <Tabs.Screen name="community" options={{ title: t("tabs.community") }} />
+      <Tabs.Screen name="assistant" options={{ title: "Assistant" }} />
     </Tabs>
   );
 }

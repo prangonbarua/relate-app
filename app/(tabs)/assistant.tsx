@@ -1,272 +1,362 @@
+import { useState, useRef, useCallback, useEffect } from "react";
 import {
   View,
   Text,
-  SafeAreaView,
-  ScrollView,
-  TouchableOpacity,
   TextInput,
-  ActivityIndicator,
+  TouchableOpacity,
+  ScrollView,
+  SafeAreaView,
   KeyboardAvoidingView,
   Platform,
+  ActivityIndicator,
 } from "react-native";
-import { useState, useEffect, useRef } from "react";
-import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
-import { api } from "../../store/apiClient";
-import { useUserStore } from "../../store/userStore";
+import { Colors, Radius, Shadow } from "../../constants/theme";
+import { streamChat, checkOllamaHealth, Message } from "../../services/ollama";
 
-interface ChatMessage {
-  role: "user" | "assistant";
-  content: string;
-  sources?: { file?: string; heading?: string; title?: string }[];
-  created_at?: string;
+interface ChatMessage extends Message {
+  id: string;
 }
 
-// Strip Qwen3 <think>...</think> reasoning blocks from responses
-function cleanAIResponse(text: string): string {
-  return text.replace(/<think>[\s\S]*?<\/think>\s*/g, "").trim();
-}
-
-const SUGGESTED_PROMPTS = [
-  "What are early signs of autism?",
-  "How do I request an IEP?",
-  "ABA therapy explained",
+const SUGGESTIONS = [
+  "What is an IEP and how do I request one?",
+  "How do I apply for Regional Center services?",
+  "My child won't eat — any tips?",
+  "How can I teach my child to communicate?",
 ];
 
 export default function AssistantScreen() {
-  const { t } = useTranslation();
-  const language = useUserStore((s) => s.language);
-  const scrollRef = useRef<ScrollView>(null);
-
   const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [inputText, setInputText] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
-  const [isLoadingHistory, setIsLoadingHistory] = useState(true);
+  const [input, setInput] = useState("");
+  const [isStreaming, setIsStreaming] = useState(false);
+  const [ollamaReady, setOllamaReady] = useState<boolean | null>(null);
+  const scrollRef = useRef<ScrollView>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
-  // Fetch chat history on mount
   useEffect(() => {
-    let cancelled = false;
-
-    async function fetchHistory() {
-      try {
-        const data = await api<{ messages: ChatMessage[] }>("/api/chat/history");
-        if (!cancelled) {
-          setMessages(data.messages.map((m) => ({
-            ...m,
-            content: m.role === "assistant" ? cleanAIResponse(m.content) : m.content,
-          })));
-        }
-      } catch {
-        // Silently fail — start with empty chat
-      } finally {
-        if (!cancelled) {
-          setIsLoadingHistory(false);
-        }
-      }
-    }
-
-    fetchHistory();
-    return () => { cancelled = true; };
+    checkOllamaHealth().then(setOllamaReady);
   }, []);
 
-  // Auto-scroll to bottom when messages change
-  useEffect(() => {
-    setTimeout(() => {
-      scrollRef.current?.scrollToEnd({ animated: true });
-    }, 100);
-  }, [messages, isLoading]);
+  const scrollToBottom = useCallback(() => {
+    setTimeout(() => scrollRef.current?.scrollToEnd({ animated: true }), 80);
+  }, []);
 
-  const sendMessage = async (text: string) => {
-    const trimmed = text.trim();
-    if (!trimmed || isLoading) return;
+  const sendMessage = useCallback(
+    async (text: string) => {
+      const trimmed = text.trim();
+      if (!trimmed || isStreaming) return;
 
-    const userMessage: ChatMessage = { role: "user", content: trimmed };
-    setMessages((prev) => [...prev, userMessage]);
-    setInputText("");
-    setIsLoading(true);
+      const userMsg: ChatMessage = {
+        id: Date.now().toString(),
+        role: "user",
+        content: trimmed,
+      };
+      const assistantId = (Date.now() + 1).toString();
+      const assistantMsg: ChatMessage = {
+        id: assistantId,
+        role: "assistant",
+        content: "",
+      };
 
-    try {
-      const data = await api<{ reply: string; sources: { file?: string; heading?: string }[] }>(
-        "/api/chat",
-        {
-          method: "POST",
-          body: JSON.stringify({ message: trimmed, language }),
-        }
+      setMessages((prev) => [...prev, userMsg, assistantMsg]);
+      setInput("");
+      setIsStreaming(true);
+      scrollToBottom();
+
+      const history: Message[] = [...messages, userMsg].map(({ role, content }) => ({
+        role,
+        content,
+      }));
+
+      abortRef.current = new AbortController();
+
+      await streamChat(
+        history,
+        (chunk) => {
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantId ? { ...m, content: m.content + chunk } : m
+            )
+          );
+          scrollToBottom();
+        },
+        () => setIsStreaming(false),
+        (err) => {
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantId
+                ? { ...m, content: `⚠️ ${err}` }
+                : m
+            )
+          );
+          setIsStreaming(false);
+        },
+        abortRef.current.signal
       );
-      const assistantMessage: ChatMessage = {
-        role: "assistant",
-        content: cleanAIResponse(data.reply),
-        sources: data.sources,
-      };
-      setMessages((prev) => [...prev, assistantMessage]);
-    } catch {
-      const errorMessage: ChatMessage = {
-        role: "assistant",
-        content: "Sorry, I'm having trouble connecting right now. Please try again in a moment.",
-      };
-      setMessages((prev) => [...prev, errorMessage]);
-    } finally {
-      setIsLoading(false);
-    }
+    },
+    [isStreaming, messages, scrollToBottom]
+  );
+
+  const handleStop = () => {
+    abortRef.current?.abort();
+    setIsStreaming(false);
   };
 
-  const handleSuggestedPrompt = (prompt: string) => {
-    sendMessage(prompt);
-  };
+  const isEmpty = messages.length === 0;
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50">
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
       <KeyboardAvoidingView
+        style={{ flex: 1 }}
         behavior={Platform.OS === "ios" ? "padding" : "height"}
-        className="flex-1"
-        keyboardVerticalOffset={90}
+        keyboardVerticalOffset={0}
       >
         {/* Header */}
-        <View className="px-6 pt-6 pb-4 bg-white border-b border-gray-100">
-          <Text className="text-xl font-bold text-gray-900">AI Assistant</Text>
-          <Text className="text-xs text-gray-400 mt-1">
-            Ask questions about autism, therapy, and your rights
-          </Text>
+        <View
+          style={{
+            paddingHorizontal: 20,
+            paddingTop: 16,
+            paddingBottom: 12,
+            backgroundColor: Colors.surface,
+            borderBottomWidth: 1,
+            borderBottomColor: Colors.border,
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 12,
+          }}
+        >
+          <View
+            style={{
+              width: 40,
+              height: 40,
+              borderRadius: Radius.full,
+              backgroundColor: Colors.primaryLight,
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Ionicons name="sparkles" size={20} color={Colors.primary} />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={{ fontSize: 17, fontWeight: "700", color: Colors.text }}>
+              Relate Assistant
+            </Text>
+            <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
+              <View
+                style={{
+                  width: 7,
+                  height: 7,
+                  borderRadius: 4,
+                  backgroundColor:
+                    ollamaReady === null
+                      ? Colors.textMuted
+                      : ollamaReady
+                      ? Colors.success
+                      : Colors.danger,
+                }}
+              />
+              <Text style={{ fontSize: 12, color: Colors.textSecondary }}>
+                {ollamaReady === null
+                  ? "Connecting…"
+                  : ollamaReady
+                  ? "Qwen 2.5 · Local"
+                  : "Ollama offline"}
+              </Text>
+            </View>
+          </View>
         </View>
 
         {/* Messages */}
         <ScrollView
           ref={scrollRef}
-          className="flex-1 px-4"
+          style={{ flex: 1 }}
+          contentContainerStyle={{ padding: 16, paddingBottom: 8 }}
           showsVerticalScrollIndicator={false}
-          contentContainerStyle={{ paddingVertical: 16 }}
         >
-          {isLoadingHistory ? (
-            <View className="items-center py-12">
-              <ActivityIndicator size="large" color="#6366f1" />
-              <Text className="text-gray-400 text-sm mt-3">{t("common.loading")}</Text>
-            </View>
-          ) : (
-            <>
-              {/* Suggested prompts (shown when no messages) */}
-              {messages.length === 0 && (
-                <View className="items-center py-8">
-                  <View className="w-16 h-16 rounded-full bg-indigo-50 items-center justify-center mb-4">
-                    <Ionicons name="chatbubble-ellipses" size={28} color="#6366f1" />
-                  </View>
-                  <Text className="text-base font-semibold text-gray-700 mb-1">
-                    How can I help?
-                  </Text>
-                  <Text className="text-xs text-gray-400 mb-6 text-center px-8">
-                    I can answer questions about autism, therapies, school rights, and more.
-                  </Text>
-                  <View className="gap-2 w-full px-2">
-                    {SUGGESTED_PROMPTS.map((prompt) => (
-                      <TouchableOpacity
-                        key={prompt}
-                        onPress={() => handleSuggestedPrompt(prompt)}
-                        className="bg-white border border-indigo-100 rounded-2xl px-4 py-3 flex-row items-center gap-2"
-                      >
-                        <Ionicons name="sparkles-outline" size={14} color="#6366f1" />
-                        <Text className="text-sm text-indigo-700 flex-1">{prompt}</Text>
-                        <Ionicons name="arrow-forward" size={14} color="#A5B4FC" />
-                      </TouchableOpacity>
-                    ))}
-                  </View>
-                </View>
-              )}
+          {isEmpty && (
+            <View style={{ alignItems: "center", paddingTop: 32, paddingBottom: 24 }}>
+              <View
+                style={{
+                  width: 72,
+                  height: 72,
+                  borderRadius: Radius.full,
+                  backgroundColor: Colors.primaryLight,
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginBottom: 16,
+                }}
+              >
+                <Ionicons name="sparkles" size={34} color={Colors.primary} />
+              </View>
+              <Text
+                style={{
+                  fontSize: 20,
+                  fontWeight: "700",
+                  color: Colors.text,
+                  marginBottom: 8,
+                }}
+              >
+                How can I help?
+              </Text>
+              <Text
+                style={{
+                  fontSize: 14,
+                  color: Colors.textSecondary,
+                  textAlign: "center",
+                  lineHeight: 22,
+                  maxWidth: 280,
+                  marginBottom: 28,
+                }}
+              >
+                Ask me anything about autism, school services, resources, or
+                teaching your child new skills.
+              </Text>
 
-              {/* Chat messages */}
-              {messages.map((msg, index) => (
-                <View
-                  key={index}
-                  className={`mb-3 max-w-[85%] ${
-                    msg.role === "user" ? "self-end" : "self-start"
-                  }`}
-                >
-                  <View
-                    className={`px-4 py-3 rounded-2xl ${
-                      msg.role === "user"
-                        ? "bg-indigo-500 rounded-br-md"
-                        : "bg-white border border-gray-100 rounded-bl-md"
-                    }`}
+              {/* Suggestion chips */}
+              <View style={{ width: "100%", gap: 10 }}>
+                {SUGGESTIONS.map((s) => (
+                  <TouchableOpacity
+                    key={s}
+                    onPress={() => sendMessage(s)}
+                    style={{
+                      backgroundColor: Colors.surface,
+                      borderWidth: 1,
+                      borderColor: Colors.border,
+                      borderRadius: Radius.lg,
+                      padding: 14,
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      ...Shadow.card,
+                    }}
                   >
                     <Text
-                      className={`text-sm leading-6 ${
-                        msg.role === "user" ? "text-white" : "text-gray-800"
-                      }`}
+                      style={{ fontSize: 14, color: Colors.text, flex: 1, lineHeight: 20 }}
                     >
-                      {msg.content}
+                      {s}
                     </Text>
-                  </View>
+                    <Ionicons name="arrow-forward" size={16} color={Colors.textMuted} />
+                  </TouchableOpacity>
+                ))}
+              </View>
+            </View>
+          )}
 
-                  {/* Source citations for AI messages */}
-                  {msg.role === "assistant" && msg.sources && msg.sources.length > 0 && (
-                    <View className="mt-2 ml-1 gap-1">
-                      {msg.sources.slice(0, 3).map((source, si) => (
-                        <View key={si} className="flex-row items-center gap-1.5">
-                          <Ionicons name="document-text-outline" size={10} color="#A5B4FC" />
-                          <Text className="text-xs text-indigo-400" numberOfLines={1}>
-                            {source.heading || source.file || source.title || "Source"}
-                          </Text>
-                        </View>
-                      ))}
-                    </View>
-                  )}
-                </View>
-              ))}
-
-              {/* Loading indicator */}
-              {isLoading && (
-                <View className="self-start mb-3 max-w-[85%]">
-                  <View className="bg-white border border-gray-100 rounded-2xl rounded-bl-md px-4 py-3 flex-row items-center gap-2">
-                    <ActivityIndicator size="small" color="#6366f1" />
-                    <Text className="text-xs text-gray-400">Thinking...</Text>
-                  </View>
+          {messages.map((msg) => (
+            <View
+              key={msg.id}
+              style={{
+                marginBottom: 12,
+                alignItems: msg.role === "user" ? "flex-end" : "flex-start",
+              }}
+            >
+              {msg.role === "assistant" && (
+                <View
+                  style={{
+                    width: 28,
+                    height: 28,
+                    borderRadius: Radius.full,
+                    backgroundColor: Colors.primaryLight,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    marginBottom: 4,
+                  }}
+                >
+                  <Ionicons name="sparkles" size={14} color={Colors.primary} />
                 </View>
               )}
-            </>
-          )}
+              <View
+                style={{
+                  maxWidth: "82%",
+                  backgroundColor:
+                    msg.role === "user" ? Colors.primary : Colors.surface,
+                  borderRadius: Radius.xl,
+                  borderBottomRightRadius: msg.role === "user" ? Radius.sm : Radius.xl,
+                  borderBottomLeftRadius: msg.role === "assistant" ? Radius.sm : Radius.xl,
+                  paddingHorizontal: 16,
+                  paddingVertical: 12,
+                  ...(msg.role === "assistant" ? Shadow.card : {}),
+                }}
+              >
+                {msg.content ? (
+                  <Text
+                    style={{
+                      fontSize: 15,
+                      color: msg.role === "user" ? "#fff" : Colors.text,
+                      lineHeight: 22,
+                    }}
+                  >
+                    {msg.content}
+                  </Text>
+                ) : (
+                  <View style={{ flexDirection: "row", gap: 4, alignItems: "center" }}>
+                    <ActivityIndicator size="small" color={Colors.primary} />
+                    <Text style={{ fontSize: 13, color: Colors.textMuted }}>
+                      Thinking…
+                    </Text>
+                  </View>
+                )}
+              </View>
+            </View>
+          ))}
         </ScrollView>
 
         {/* Input bar */}
-        <View className="px-4 pb-4 pt-2 bg-white border-t border-gray-100">
-          {/* Suggested prompt chips (shown when there are messages) */}
-          {messages.length > 0 && !isLoading && (
-            <ScrollView
-              horizontal
-              showsHorizontalScrollIndicator={false}
-              className="mb-2"
-              contentContainerStyle={{ gap: 8 }}
-            >
-              {SUGGESTED_PROMPTS.map((prompt) => (
-                <TouchableOpacity
-                  key={prompt}
-                  onPress={() => handleSuggestedPrompt(prompt)}
-                  className="bg-indigo-50 px-3 py-1.5 rounded-full"
-                >
-                  <Text className="text-xs text-indigo-600">{prompt}</Text>
-                </TouchableOpacity>
-              ))}
-            </ScrollView>
-          )}
-
-          <View className="flex-row items-end gap-2">
-            <TextInput
-              value={inputText}
-              onChangeText={setInputText}
-              placeholder="Type a message..."
-              placeholderTextColor="#9CA3AF"
-              multiline
-              maxLength={2000}
-              className="flex-1 bg-gray-50 border border-gray-200 rounded-2xl px-4 py-3 text-gray-900 text-sm max-h-[100px]"
-              onSubmitEditing={() => sendMessage(inputText)}
-              blurOnSubmit={false}
+        <View
+          style={{
+            backgroundColor: Colors.surface,
+            borderTopWidth: 1,
+            borderTopColor: Colors.border,
+            paddingHorizontal: 16,
+            paddingVertical: 12,
+            flexDirection: "row",
+            alignItems: "flex-end",
+            gap: 10,
+          }}
+        >
+          <TextInput
+            value={input}
+            onChangeText={setInput}
+            placeholder="Ask anything…"
+            placeholderTextColor={Colors.textMuted}
+            multiline
+            maxLength={1000}
+            style={{
+              flex: 1,
+              backgroundColor: Colors.background,
+              borderRadius: Radius.xl,
+              paddingHorizontal: 16,
+              paddingVertical: 10,
+              fontSize: 15,
+              color: Colors.text,
+              maxHeight: 120,
+              lineHeight: 22,
+            }}
+            onSubmitEditing={() => sendMessage(input)}
+          />
+          <TouchableOpacity
+            onPress={isStreaming ? handleStop : () => sendMessage(input)}
+            disabled={!isStreaming && !input.trim()}
+            style={{
+              width: 44,
+              height: 44,
+              borderRadius: Radius.full,
+              backgroundColor:
+                isStreaming
+                  ? Colors.danger
+                  : input.trim()
+                  ? Colors.primary
+                  : Colors.border,
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Ionicons
+              name={isStreaming ? "stop" : "arrow-up"}
+              size={20}
+              color="white"
             />
-            <TouchableOpacity
-              onPress={() => sendMessage(inputText)}
-              disabled={!inputText.trim() || isLoading}
-              className="bg-indigo-500 w-11 h-11 rounded-xl items-center justify-center"
-              style={{ opacity: !inputText.trim() || isLoading ? 0.5 : 1 }}
-            >
-              <Ionicons name="send" size={18} color="white" />
-            </TouchableOpacity>
-          </View>
+          </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
