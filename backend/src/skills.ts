@@ -16,20 +16,32 @@ export interface Skill {
 let skills: Skill[] = [];
 
 // ── loadSkills ───────────────────────────────────────────────────────────────
+const VALID_LANG = /^[a-z]{2,3}(-[A-Z]{2})?$/;
+
 export function loadSkills(language = "en"): void {
+  if (!VALID_LANG.test(language)) {
+    console.error(`loadSkills: invalid language code "${language}", falling back to "en"`);
+    language = "en";
+  }
+
   const dataDir = path.join(__dirname, "..", "data");
   const langFile = path.join(dataDir, `skills.${language}.json`);
   const enFile = path.join(dataDir, "skills.en.json");
 
   try {
-    const file = fs.existsSync(langFile) ? langFile : enFile;
+    let file: string;
+    if (language !== "en" && !fs.existsSync(langFile)) {
+      console.warn(`Skills: locale file not found for "${language}", falling back to "en"`);
+      file = enFile;
+    } else {
+      file = fs.existsSync(langFile) ? langFile : enFile;
+    }
     skills = JSON.parse(fs.readFileSync(file, "utf-8")) as Skill[];
+    console.log(`Skills: Loaded ${skills.length} skills across ${getCategories().length} categories`);
   } catch (err) {
     console.error("Failed to load skills:", err);
     skills = [];
   }
-
-  console.log(`Skills: Loaded ${skills.length} skills across ${getCategories().length} categories`);
 }
 
 // ── getCategories ────────────────────────────────────────────────────────────
