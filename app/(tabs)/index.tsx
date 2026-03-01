@@ -1,12 +1,14 @@
-import { View, Text, SafeAreaView, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, SafeAreaView, TouchableOpacity, ScrollView, ActivityIndicator } from "react-native";
+import { useState, useEffect } from "react";
 import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { DailyCard } from "../../components/DailyCard";
 import { useChildStore } from "../../store/childStore";
+import { api } from "../../store/apiClient";
 import { DailyCard as DailyCardType } from "../../types";
 
-// Placeholder card — will come from API once backend is wired
+// Fallback card for offline / API failure
 const PLACEHOLDER_CARD: DailyCardType = {
   id: "card-001",
   skill: "Joint Attention: Follow the Leader",
@@ -34,6 +36,34 @@ export default function HomeScreen() {
   const profile = useChildStore((s) => s.profile);
   const logs = useChildStore((s) => s.logs);
 
+  const [card, setCard] = useState<DailyCardType | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function fetchDailyCard() {
+      try {
+        const data = await api<{ card: DailyCardType }>("/api/skills/daily");
+        if (!cancelled) {
+          setCard(data.card);
+        }
+      } catch {
+        // Fall back to placeholder on error
+        if (!cancelled) {
+          setCard(PLACEHOLDER_CARD);
+        }
+      } finally {
+        if (!cancelled) {
+          setIsLoading(false);
+        }
+      }
+    }
+
+    fetchDailyCard();
+    return () => { cancelled = true; };
+  }, []);
+
   const timeOfDay = getTimeOfDay();
   const streak = logs.filter((l) => l.result !== "skip").length;
 
@@ -58,21 +88,38 @@ export default function HomeScreen() {
             )}
           </View>
 
-          {/* Crisis button */}
-          <TouchableOpacity
-            onPress={() => router.push("/crisis")}
-            className="bg-red-50 border border-red-200 px-4 py-2 rounded-xl flex-row items-center gap-2"
-          >
-            <Ionicons name="alert-circle-outline" size={16} color="#DC2626" />
-            <Text className="text-red-600 text-xs font-semibold">
-              {t("home.crisis")}
-            </Text>
-          </TouchableOpacity>
+          <View className="flex-row items-center gap-2">
+            {/* Crisis button */}
+            <TouchableOpacity
+              onPress={() => router.push("/crisis")}
+              className="bg-red-50 border border-red-200 px-3 py-2 rounded-xl flex-row items-center gap-1"
+            >
+              <Ionicons name="alert-circle-outline" size={14} color="#DC2626" />
+              <Text className="text-red-600 text-xs font-semibold">
+                {t("home.crisis")}
+              </Text>
+            </TouchableOpacity>
+
+            {/* Settings */}
+            <TouchableOpacity
+              onPress={() => router.push("/settings")}
+              className="w-10 h-10 rounded-xl bg-gray-100 items-center justify-center"
+            >
+              <Ionicons name="settings-outline" size={20} color="#6B7280" />
+            </TouchableOpacity>
+          </View>
         </View>
 
         {/* Daily Card */}
         <View className="px-6 pb-8">
-          <DailyCard card={PLACEHOLDER_CARD} />
+          {isLoading ? (
+            <View className="bg-white rounded-3xl shadow-sm border border-gray-100 p-12 items-center justify-center">
+              <ActivityIndicator size="large" color="#6366f1" />
+              <Text className="text-gray-400 text-sm mt-3">{t("common.loading")}</Text>
+            </View>
+          ) : (
+            <DailyCard card={card ?? PLACEHOLDER_CARD} />
+          )}
         </View>
       </ScrollView>
     </SafeAreaView>

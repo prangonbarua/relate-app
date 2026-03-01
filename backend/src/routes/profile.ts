@@ -1,41 +1,119 @@
-import { Router, Request, Response } from "express";
-import { ChildProfile } from "../types";
+import { Router, Response } from "express";
+import db from "../db";
+import { AuthRequest, authMiddleware } from "../middleware/auth";
 
 const router = Router();
 
-// In-memory store — replace with a real database
-const profiles = new Map<string, ChildProfile>();
+// All routes require authentication
+router.use(authMiddleware);
 
-// POST /api/profile
-router.post("/", (req: Request, res: Response) => {
-  const profile = req.body as ChildProfile;
-  const id = `profile-${Date.now()}`;
-  profiles.set(id, profile);
-  res.status(201).json({ id, profile });
-});
+// ── GET / — Get child profile for authenticated user ─────────────────────────
+router.get("/", (req: AuthRequest, res: Response) => {
+  const row = db
+    .prepare("SELECT * FROM child_profiles WHERE user_id = ?")
+    .get(req.userId!) as any | undefined;
 
-// GET /api/profile/:id
-router.get("/:id", (req: Request, res: Response) => {
-  const id = String(req.params.id);
-  const profile = profiles.get(id);
-  if (!profile) {
-    res.status(404).json({ error: "Profile not found" });
+  if (!row) {
+    res.json({ profile: null });
     return;
   }
-  res.json({ id, profile });
+
+  const profile = {
+    ...row,
+    triggers: JSON.parse(row.triggers || "[]"),
+    loves: JSON.parse(row.loves || "[]"),
+  };
+
+  res.json({ profile });
 });
 
-// PATCH /api/profile/:id
-router.patch("/:id", (req: Request, res: Response) => {
-  const id = String(req.params.id);
-  const existing = profiles.get(id);
-  if (!existing) {
-    res.status(404).json({ error: "Profile not found" });
+// ── PUT / — Upsert child profile ─────────────────────────────────────────────
+router.put("/", (req: AuthRequest, res: Response) => {
+  const { name, age, communicationLevel, diagnosisStatus, triggers, loves, notes } = req.body;
+
+  if (!name || age === undefined) {
+    res.status(400).json({ error: "Name and age are required" });
     return;
   }
-  const updated = { ...existing, ...req.body };
-  profiles.set(id, updated);
-  res.json({ id, profile: updated });
+
+  const existing = db
+    .prepare("SELECT id FROM child_profiles WHERE user_id = ?")
+    .get(req.userId!) as { id: number } | undefined;
+
+  const triggersJson = JSON.stringify(triggers || []);
+  const lovesJson = JSON.stringify(loves || []);
+
+  if (existing) {
+    db.prepare(
+      `UPDATE child_profiles
+       SET name = ?, age = ?, communication_level = ?, diagnosis_status = ?,
+           triggers = ?, loves = ?, notes = ?
+       WHERE user_id = ?`
+    ).run(
+      name,
+      age,
+      communicationLevel || "emerging",
+      diagnosisStatus || "suspected",
+      triggersJson,
+      lovesJson,
+      notes || "",
+      req.userId!
+    );
+  } else {
+    db.prepare(
+      `INSERT INTO child_profiles (user_id, name, age, communication_level, diagnosis_status, triggers, loves, notes)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+    ).run(
+      req.userId!,
+      name,
+      age,
+      communicationLevel || "emerging",
+      diagnosisStatus || "suspected",
+      triggersJson,
+      lovesJson,
+      notes || ""
+    );
+  }
+
+  // Return the updated profile
+  const row = db
+    .prepare("SELECT * FROM child_profiles WHERE user_id = ?")
+    .get(req.userId!) as any;
+
+  const profile = {
+    ...row,
+    triggers: JSON.parse(row.triggers || "[]"),
+    loves: JSON.parse(row.loves || "[]"),
+  };
+
+  res.json({ profile });
+});
+
+// ── GET /logs — Get activity logs for authenticated user ─────────────────────
+router.get("/logs", (req: AuthRequest, res: Response) => {
+  const logs = db
+    .prepare(
+      "SELECT * FROM activity_logs WHERE user_id = ? ORDER BY created_at DESC LIMIT 50"
+    )
+    .all(req.userId!);
+
+  res.json({ logs });
+});
+
+// ── POST /logs — Create an activity log entry ────────────────────────────────
+router.post("/logs", (req: AuthRequest, res: Response) => {
+  const { cardId, outcome, notes } = req.body;
+
+  if (!cardId || !outcome) {
+    res.status(400).json({ error: "cardId and outcome are required" });
+    return;
+  }
+
+  db.prepare(
+    "INSERT INTO activity_logs (user_id, card_id, outcome, notes) VALUES (?, ?, ?, ?)"
+  ).run(req.userId!, cardId, outcome, notes || "");
+
+  res.json({ success: true });
 });
 
 export default router;

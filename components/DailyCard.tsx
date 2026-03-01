@@ -1,4 +1,5 @@
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { DailyCard as DailyCardType, LogEntry } from "../types";
@@ -11,13 +12,16 @@ interface DailyCardProps {
 export function DailyCard({ card }: DailyCardProps) {
   const { t } = useTranslation();
   const addLog = useChildStore((s) => s.addLog);
+  const [logged, setLogged] = useState<LogEntry["result"] | null>(null);
 
   const handleLog = (result: LogEntry["result"]) => {
+    if (logged) return; // Prevent double-logging
     addLog({
       cardId: card.id,
       date: new Date().toISOString(),
       result,
     });
+    setLogged(result);
   };
 
   return (
@@ -35,7 +39,7 @@ export function DailyCard({ card }: DailyCardProps) {
         </View>
       </View>
 
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <View>
         {/* Why it matters */}
         <View className="px-6 pt-5 pb-4">
           <View className="flex-row items-center gap-2 mb-3">
@@ -67,34 +71,49 @@ export function DailyCard({ card }: DailyCardProps) {
           </View>
         </View>
 
-        {/* Log buttons */}
-        <View className="px-6 pb-6 flex-row gap-3">
-          <TouchableOpacity
-            onPress={() => handleLog("success")}
-            className="flex-1 bg-green-50 border border-green-200 py-3 rounded-xl items-center"
-          >
-            <Text className="text-green-700 font-semibold text-sm">
-              {t("home.daily_card.log_success")}
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => handleLog("partial")}
-            className="flex-1 bg-amber-50 border border-amber-200 py-3 rounded-xl items-center"
-          >
-            <Text className="text-amber-700 font-semibold text-sm">
-              {t("home.daily_card.log_partial")}
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => handleLog("skip")}
-            className="bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl items-center"
-          >
-            <Text className="text-gray-500 font-semibold text-sm">
-              {t("home.daily_card.log_skip")}
-            </Text>
-          </TouchableOpacity>
+        {/* Log buttons or logged state */}
+        <View className="px-6 pb-6">
+          {logged ? (
+            <View className="bg-indigo-50 border border-indigo-200 py-4 rounded-xl items-center flex-row justify-center gap-2">
+              <Ionicons
+                name={logged === "success" ? "checkmark-circle" : logged === "partial" ? "time" : "arrow-forward-circle"}
+                size={20}
+                color="#6366f1"
+              />
+              <Text className="text-indigo-700 font-semibold text-sm">
+                {logged === "success" ? "Great job! Logged." : logged === "partial" ? "Partial — keep going!" : "Skipped for today"}
+              </Text>
+            </View>
+          ) : (
+            <View className="flex-row gap-3">
+              <TouchableOpacity
+                onPress={() => handleLog("success")}
+                className="flex-1 bg-green-50 border border-green-200 py-3 rounded-xl items-center"
+              >
+                <Text className="text-green-700 font-semibold text-sm">
+                  {t("home.daily_card.log_success")}
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => handleLog("partial")}
+                className="flex-1 bg-amber-50 border border-amber-200 py-3 rounded-xl items-center"
+              >
+                <Text className="text-amber-700 font-semibold text-sm">
+                  {t("home.daily_card.log_partial")}
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => handleLog("skip")}
+                className="bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl items-center"
+              >
+                <Text className="text-gray-500 font-semibold text-sm">
+                  {t("home.daily_card.log_skip")}
+                </Text>
+              </TouchableOpacity>
+            </View>
+          )}
         </View>
-      </ScrollView>
+      </View>
     </View>
   );
 }

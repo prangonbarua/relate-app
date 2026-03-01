@@ -56,7 +56,8 @@
     "home": "Home",
     "skills": "Skills",
     "navigator": "Navigator",
-    "community": "Community"
+    "community": "Community",
+    "assistant": "Assistant"
   },
   "home": {
     "greeting": "Good {{timeOfDay}}, {{name}}!",

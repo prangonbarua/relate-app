@@ -24,14 +24,15 @@ const COMMUNICATION_LEVELS: CommunicationLevel[] = [
 export default function ProfileBuilder() {
   const { t } = useTranslation();
   const completeOnboarding = useUserStore((s) => s.completeOnboarding);
+  const existingProfile = useChildStore((s) => s.profile);
   const setProfile = useChildStore((s) => s.setProfile);
 
-  const [name, setName] = useState("");
-  const [age, setAge] = useState("");
+  const [name, setName] = useState(existingProfile?.name || "");
+  const [age, setAge] = useState(existingProfile?.age ? String(existingProfile.age) : "");
   const [communicationLevel, setCommunicationLevel] =
-    useState<CommunicationLevel>("emerging");
-  const [triggers, setTriggers] = useState("");
-  const [loves, setLoves] = useState("");
+    useState<CommunicationLevel>(existingProfile?.communicationLevel || "emerging");
+  const [triggers, setTriggers] = useState(existingProfile?.triggers.join(", ") || "");
+  const [loves, setLoves] = useState(existingProfile?.loves.join(", ") || "");
 
   const handleSave = () => {
     setProfile({

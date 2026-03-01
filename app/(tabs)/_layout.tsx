@@ -79,6 +79,15 @@ export default function TabsLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="assistant"
+        options={{
+          title: t("tabs.assistant", "Assistant"),
+          tabBarIcon: ({ focused }) => (
+            <TabIcon name="chatbubble-ellipses" focused={focused} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
