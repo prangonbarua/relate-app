@@ -275,7 +275,7 @@ export function loadSkills(): void {
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
-    // ── Sensory (7) ─────────────────────────────────────────────────────────
+    // ── Sensory & Motor (12) ────────────────────────────────────────────────
     // ═══════════════════════════════════════════════════════════════════════════
     {
       id: "sensory-1",
@@ -288,7 +288,7 @@ export function loadSkills(): void {
         "Introduce the kit during a calm moment — let your child explore each item without pressure.",
         "When you notice early signs of overwhelm, offer the kit and model using an item: 'Let's squeeze the ball together.'",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-10",
     },
     {
@@ -302,7 +302,7 @@ export function loadSkills(): void {
         "Keep each break to 5-10 minutes — enough to regulate without becoming overstimulating.",
         "Use a visual timer so your child knows when the break starts and ends, building predictability.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-10",
     },
     {
@@ -316,7 +316,7 @@ export function loadSkills(): void {
         "Play 'sandwich': your child lies between couch cushions while you gently press down.",
         "Teach your child to request deep pressure: 'Do you want a big squeeze?' so they can self-advocate.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-10",
     },
     {
@@ -330,7 +330,7 @@ export function loadSkills(): void {
         "Give advance warning before loud sounds when possible: 'I'm going to turn on the blender in 5 seconds.'",
         "Create a 'sound safe' space at home where your child can retreat when overwhelmed — a quiet corner with soft lighting.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-12",
     },
     {
@@ -344,7 +344,7 @@ export function loadSkills(): void {
         "Let your child set the pace — touching briefly is fine. Never force prolonged contact with aversive textures.",
         "Connect texture play to interests: if your child loves dinosaurs, hide small dinos in a bin of beans for them to find.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-8",
     },
     {
@@ -358,7 +358,7 @@ export function loadSkills(): void {
         "Before challenging activities, point to the schedule: 'After the noisy cafeteria, you have quiet reading time.'",
         "Review the schedule each morning so your child knows what to expect and can prepare emotionally.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "3-10",
     },
     {
@@ -372,7 +372,7 @@ export function loadSkills(): void {
         "For crunchy seekers: include crunchy snacks (carrots, pretzels, apple slices) at regular intervals throughout the day.",
         "For oral avoiders: use a vibrating toothbrush briefly on lips and cheeks during play to gradually build tolerance.",
       ],
-      category: "Sensory",
+      category: "Sensory & Motor",
       ageRange: "2-10",
     },
 
@@ -493,7 +493,7 @@ export function loadSkills(): void {
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
-    // ── Motor (5) ───────────────────────────────────────────────────────────
+    // ── Sensory & Motor (continued) ─────────────────────────────────────────
     // ═══════════════════════════════════════════════════════════════════════════
     {
       id: "motor-1",
@@ -506,7 +506,7 @@ export function loadSkills(): void {
         "Offer hand-over-hand help only if your child is frustrated — then fade your support quickly.",
         "Practice for 5 minutes at a time, building up — short successful sessions are better than long frustrating ones.",
       ],
-      category: "Motor",
+      category: "Sensory & Motor",
       ageRange: "2-6",
     },
     {
@@ -520,7 +520,7 @@ export function loadSkills(): void {
         "Use visual arrows or tape on the floor to show the path — this reduces the need for verbal instructions.",
         "Celebrate completion and gradually add stations or increase difficulty as your child builds confidence.",
       ],
-      category: "Motor",
+      category: "Sensory & Motor",
       ageRange: "3-8",
     },
     {
@@ -534,7 +534,7 @@ export function loadSkills(): void {
         "Practice cutting playdough 'snakes' first — they're easier to hold and more forgiving than paper.",
         "Progress to cutting along thick, straight lines on paper, then curved lines, then simple shapes.",
       ],
-      category: "Motor",
+      category: "Sensory & Motor",
       ageRange: "3-7",
     },
     {
@@ -548,7 +548,7 @@ export function loadSkills(): void {
         "Try wall push-ups or chair push-ups as a quick regulating activity before seated tasks.",
         "Offer these activities proactively before challenging situations — they're preventative, not just reactive.",
       ],
-      category: "Motor",
+      category: "Sensory & Motor",
       ageRange: "2-10",
     },
     {
@@ -562,12 +562,12 @@ export function loadSkills(): void {
         "Use multi-sensory approaches: trace shapes in pudding, draw with chalk on the sidewalk, or use finger paint.",
         "Connect strokes to meaning: 'Let's draw rain!' (vertical lines) or 'Let's draw a sun!' (circle with lines).",
       ],
-      category: "Motor",
+      category: "Sensory & Motor",
       ageRange: "3-6",
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
-    // ── Behavior & Emotional (8) ────────────────────────────────────────────
+    // ── Emotional & Self-Advocacy (12) ──────────────────────────────────────
     // ═══════════════════════════════════════════════════════════════════════════
     {
       id: "behavior-1",
@@ -580,7 +580,7 @@ export function loadSkills(): void {
         "Deliver the reward IMMEDIATELY after the behavior — within 1-2 seconds if possible.",
         "Be specific in your praise: 'Great job saying please!' is better than 'Good boy.'",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
     {
@@ -594,7 +594,7 @@ export function loadSkills(): void {
         "When you notice early signs, reduce demands immediately: lower your voice, offer a break, remove sensory triggers.",
         "After the meltdown, wait until your child is fully calm before discussing what happened — avoid lecturing during recovery.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
     {
@@ -608,7 +608,7 @@ export function loadSkills(): void {
         "Ask your child to identify their zone at predictable times: morning, after school, before bed.",
         "Connect zones to strategies: 'When you're in Yellow, you can take 5 deep breaths or squeeze your stress ball.'",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "3-12",
     },
     {
@@ -622,7 +622,7 @@ export function loadSkills(): void {
         "Give a verbal warning with the timer: 'Look — 2 minutes left!' and point to the timer.",
         "When the timer goes off, follow through calmly and consistently — the timer is the authority, not you.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-10",
     },
     {
@@ -636,7 +636,7 @@ export function loadSkills(): void {
         "Match the function to a replacement behavior: if they scream to escape noise, teach them to request headphones instead.",
         "Make the replacement behavior as easy or easier than the challenging behavior — it must 'work' better for the child.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
     {
@@ -650,7 +650,7 @@ export function loadSkills(): void {
         "Use real props: bubbles, pinwheels, or feathers that move when your child exhales — this makes the breath visible.",
         "Practice 3 breaths together at predictable times: before meals, before leaving the house, at bedtime.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "3-10",
     },
     {
@@ -664,7 +664,7 @@ export function loadSkills(): void {
         "When all 5 tokens are earned, the child chooses a reward from a pre-set menu of 3-4 options.",
         "Start with easy-to-earn tokens (every 2-3 minutes) and gradually require more effort as the child succeeds.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "3-10",
     },
     {
@@ -678,7 +678,7 @@ export function loadSkills(): void {
         "Introduce it during a calm moment: 'This is your cozy spot. You can go here whenever you need a break.'",
         "Never use it as punishment or send your child there against their will — they must control when they use it.",
       ],
-      category: "Behavior & Emotional",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
 
@@ -785,7 +785,7 @@ export function loadSkills(): void {
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
-    // ── Self-Advocacy (4) ───────────────────────────────────────────────────
+    // ── Emotional & Self-Advocacy (continued) ───────────────────────────────
     // ═══════════════════════════════════════════════════════════════════════════
     {
       id: "advocacy-1",
@@ -798,7 +798,7 @@ export function loadSkills(): void {
         "Honor EVERY break request immediately at first — building trust that the system works is more important than finishing the task.",
         "Gradually structure breaks: 'Great job asking for a break! Let's take 2 minutes, then we'll finish.'",
       ],
-      category: "Self-Advocacy",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
     {
@@ -812,7 +812,7 @@ export function loadSkills(): void {
         "Model the request: 'This is hard! I need help!' then immediately provide help so they see the connection.",
         "Respond to help requests quickly and positively every time — speed and consistency build the habit.",
       ],
-      category: "Self-Advocacy",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-10",
     },
     {
@@ -826,7 +826,7 @@ export function loadSkills(): void {
         "Distinguish between non-negotiables (safety) and negotiables (preferences) — allow 'no' for preferences.",
         "When your child says 'no' appropriately, honor it and praise the communication: 'Thank you for telling me!'",
       ],
-      category: "Self-Advocacy",
+      category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
     },
     {
@@ -840,7 +840,7 @@ export function loadSkills(): void {
         "Focus on strengths first: amazing memory, deep interests, attention to detail, honesty, unique perspective.",
         "Let your child decide who to tell and when — this is their information to share on their terms.",
       ],
-      category: "Self-Advocacy",
+      category: "Emotional & Self-Advocacy",
       ageRange: "5-12",
     },
   ];

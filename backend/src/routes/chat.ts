@@ -23,6 +23,19 @@ function cleanAIResponse(text: string): string {
   return text.replace(/<think>[\s\S]*?<\/think>\s*/g, "").trim();
 }
 
+// Detect whether a message is a substantive question that warrants RAG lookup,
+// vs. a simple greeting or chitchat that should get a natural conversational reply.
+function isSubstantiveQuery(message: string): boolean {
+  const trimmed = message.replace(/[^\w\s]/g, "").trim().toLowerCase();
+  const greetings = [
+    "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
+    "thanks", "thank you", "bye", "goodbye", "ok", "okay", "yes", "no", "sure",
+  ];
+  if (greetings.includes(trimmed)) return false;
+  if (trimmed.split(/\s+/).length <= 2) return false;
+  return true;
+}
+
 // ── POST / — Chat with AI assistant ──────────────────────────────────────────
 router.post("/", async (req: AuthRequest, res: Response) => {
   try {
@@ -43,8 +56,10 @@ router.post("/", async (req: AuthRequest, res: Response) => {
       .prepare("SELECT * FROM child_profiles WHERE user_id = ?")
       .get(req.userId!) as any | undefined;
 
-    // Search knowledge base — only fetch top 2 most relevant chunks to keep prompt small
-    const knowledgeChunks = searchKnowledge(message, 2);
+    // Only search the knowledge base for substantive questions — skip for
+    // greetings and chitchat so the AI can respond naturally.
+    const substantive = isSubstantiveQuery(message);
+    const knowledgeChunks = substantive ? searchKnowledge(message, 2) : [];
     const knowledgeContext = knowledgeChunks
       .map((c) => `[${c.heading}]\n${c.content.slice(0, 500)}`)
       .join("\n\n");
@@ -55,15 +70,16 @@ router.post("/", async (req: AuthRequest, res: Response) => {
     }));
 
     // Build system prompt
-    let systemPrompt = `You are a caring, knowledgeable autism support assistant for the Relate app. You help parents of autistic children with practical advice, emotional support, and evidence-based information.
+    let systemPrompt = `You are a friendly, supportive companion for parents of autistic children in the Relate app. Think of yourself as a warm, knowledgeable friend — not a textbook.
 
 Guidelines:
-- Be warm, empathetic, and non-judgmental
-- Provide actionable, specific advice
+- If the parent greets you or makes small talk, respond naturally and warmly. Only provide educational or resource information when they ask a question.
+- Be empathetic, encouraging, and non-judgmental
+- When answering questions, be specific and actionable — focus on what was actually asked
 - Keep responses concise — under 150 words
-- Always remind parents that every child is different
+- Acknowledge that every child is unique
 - Never provide medical diagnoses — encourage professional evaluation
-- Use simple, clear language`;
+- Use simple, conversational language`;
 
     if (profile) {
       systemPrompt += `\n\nChild Profile Context:

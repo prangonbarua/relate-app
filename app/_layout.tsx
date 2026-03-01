@@ -17,13 +17,12 @@ export default function RootLayout() {
       <Stack.Screen name="(onboarding)" />
       <Stack.Screen name="(tabs)" />
       <Stack.Screen
-        name="crisis"
-        options={{ presentation: "fullScreenModal", animation: "slide_from_bottom" }}
-      />
-      <Stack.Screen
         name="settings"
         options={{ presentation: "modal", animation: "slide_from_bottom" }}
       />
+      <Stack.Screen name="post/[id]" options={{ headerShown: false }} />
+      <Stack.Screen name="skill-category/[name]" options={{ headerShown: false }} />
+      <Stack.Screen name="skill-detail/[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }

@@ -88,26 +88,13 @@ export default function HomeScreen() {
             )}
           </View>
 
-          <View className="flex-row items-center gap-2">
-            {/* Crisis button */}
-            <TouchableOpacity
-              onPress={() => router.push("/crisis")}
-              className="bg-red-50 border border-red-200 px-3 py-2 rounded-xl flex-row items-center gap-1"
-            >
-              <Ionicons name="alert-circle-outline" size={14} color="#DC2626" />
-              <Text className="text-red-600 text-xs font-semibold">
-                {t("home.crisis")}
-              </Text>
-            </TouchableOpacity>
-
-            {/* Settings */}
-            <TouchableOpacity
-              onPress={() => router.push("/settings")}
-              className="w-10 h-10 rounded-xl bg-gray-100 items-center justify-center"
-            >
-              <Ionicons name="settings-outline" size={20} color="#6B7280" />
-            </TouchableOpacity>
-          </View>
+          {/* Settings */}
+          <TouchableOpacity
+            onPress={() => router.push("/settings")}
+            className="w-10 h-10 rounded-xl bg-gray-100 items-center justify-center"
+          >
+            <Ionicons name="settings-outline" size={20} color="#6B7280" />
+          </TouchableOpacity>
         </View>
 
         {/* Daily Card */}
