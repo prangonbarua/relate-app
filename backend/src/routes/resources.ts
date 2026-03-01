@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { Router, Response } from "express";
 import { AuthRequest, authMiddleware } from "../middleware/auth";
 
@@ -18,7 +20,23 @@ interface Resource {
   sources: string[];
 }
 
-// ── Static resources ─────────────────────────────────────────────────────────
+// ── Load resources from JSON file ─────────────────────────────────────────────
+function loadResources(language = "en"): Resource[] {
+  const dataDir = path.join(__dirname, "..", "..", "data");
+  const langFile = path.join(dataDir, `resources.${language}.json`);
+  const enFile = path.join(dataDir, "resources.en.json");
+  try {
+    if (language !== "en" && !fs.existsSync(langFile)) {
+      return JSON.parse(fs.readFileSync(enFile, "utf-8")) as Resource[];
+    }
+    const file = fs.existsSync(langFile) ? langFile : enFile;
+    return JSON.parse(fs.readFileSync(file, "utf-8")) as Resource[];
+  } catch {
+    return [];
+  }
+}
+
+// ── Static resources (kept for reference during migration) ───────────────────
 const RESOURCES: Resource[] = [
   {
     id: "res-iep",
@@ -612,122 +630,6 @@ const RESOURCES: Resource[] = [
     sources: [
       "Autism Society — National Helpline (autismsociety.org/national-helpline)",
       "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)",
-    ],
-  },
-
-  // ── Skills Parents Can Teach at Home ────────────────────────────────────────
-  {
-    id: "res-skill-self-regulation",
-    category: "Skills to Teach at Home",
-    title: "Self-Regulation Skills",
-    summary:
-      "Help your child learn to identify emotions, manage sensory overload, and develop coping strategies for everyday challenges.",
-    details:
-      "Self-regulation is the ability to manage emotions, behaviors, and sensory experiences in response to the demands of a situation. Children with autism often experience sensory overload and difficulty identifying and expressing emotions, making self-regulation a critical life skill. The Zones of Regulation framework teaches children to identify their emotional state using colors (Blue = low energy/sad, Green = calm/ready, Yellow = frustrated/anxious, Red = angry/out of control) and select appropriate coping strategies. Teaching self-regulation starts with co-regulation — the parent modeling calm responses and helping the child through difficult moments. Over time, children internalize these strategies and begin managing independently. Tools include visual emotion charts, sensory breaks, calm-down corners, deep breathing exercises, and social stories about emotions.",
-    steps: [
-      "Create a visual emotions chart with pictures showing different feelings — practice naming emotions during calm moments, not just during meltdowns.",
-      "Set up a calm-down corner in your home with sensory tools: noise-canceling headphones, weighted blanket, fidget toys, soft lighting.",
-      "Teach simple coping strategies using visual cue cards: deep breathing (smell the flower, blow out the candle), counting to 10, squeezing a stress ball.",
-      "Model self-regulation yourself by narrating your own emotions: 'I'm feeling frustrated, so I'm going to take three deep breaths.'",
-      "Use the Zones of Regulation colors to help your child check in: 'What zone are you in right now? What can help you get back to green?'",
-      "Practice during calm moments — role-play challenging scenarios and rehearse coping strategies so they become automatic over time.",
-    ],
-    icon: "color-palette-outline",
-    sources: [
-      "Zones of Regulation — Official Site (zonesofregulation.com)",
-      "Autism Speaks — Emotional Regulation (autismspeaks.org/emotional-regulation)",
-      "NPDC on ASD — Self-Management (autismpdc.fpg.unc.edu)",
-    ],
-  },
-  {
-    id: "res-skill-safety",
-    category: "Skills to Teach at Home",
-    title: "Safety Awareness Skills",
-    summary:
-      "Teach your child to recognize danger, respond to emergencies, and navigate safely in the community.",
-    details:
-      "Safety awareness is a critical area for children with autism, who may have difficulty recognizing dangerous situations, understanding social threats, or responding appropriately to emergencies. Drowning, wandering/elopement, and traffic accidents are leading safety concerns for autistic children. Teaching safety requires a multi-faceted approach using visual supports, social stories, repeated practice, and real-world rehearsal. Key areas include personal information (name, address, phone number), stranger safety, water safety, fire safety, traffic and pedestrian safety, and what to do if lost. Social skills development — understanding facial expressions, interpreting others' intentions, and recognizing unsafe situations — is an integral part of safety education. Use visual cue cards, video modeling, and role-play to make abstract safety concepts concrete.",
-    steps: [
-      "Teach personal identification: practice your child's full name, parent's name, address, and phone number using visual cards and repetition until memorized.",
-      "Create visual social stories about specific safety scenarios: what to do if lost, how to cross the street, when to say no to strangers.",
-      "Practice fire drills at home regularly — walk through the escape route multiple times and establish a meeting spot outside.",
-      "Address water safety early: teach basic swim skills, install locks on doors/gates near water, and consider a GPS tracking device if your child wanders.",
-      "Role-play 'what if' scenarios: 'What do you do if someone you don't know asks you to go with them?' — practice the correct response until it becomes automatic.",
-      "Teach your child to identify safe people (police officers, store employees) and practice approaching them for help using scripts and visual supports.",
-    ],
-    icon: "shield-outline",
-    sources: [
-      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
-      "Autism Speaks — Safety Resources (autismspeaks.org/safety)",
-      "Pathfinders for Autism — Safety (pathfindersforautism.org/resources/safety)",
-    ],
-  },
-  {
-    id: "res-skill-community",
-    category: "Skills to Teach at Home",
-    title: "Community Skills",
-    summary:
-      "Build your child's ability to participate in everyday community activities like shopping, dining out, and using public spaces.",
-    details:
-      "Community skills help your child participate in everyday life outside the home — grocery shopping, eating at restaurants, visiting the library, using public transportation, attending community events, and interacting with community members. For autistic children, these environments can be overwhelming due to unpredictable sensory input, social demands, and disrupted routines. Building community skills starts with preparation at home: visual schedules of the outing, social stories about what to expect, and practice of specific skills (waiting in line, ordering food, paying at a register). Begin with brief, low-stress outings during quiet times and gradually increase duration and complexity. Community skills build independence and open the door to social participation, employment, and quality of life.",
-    steps: [
-      "Choose one community skill to practice at a time — start with the one your family needs most (grocery shopping, restaurant, library, etc.).",
-      "Create a visual schedule and social story for the outing: show pictures of each step from leaving home to returning home.",
-      "Do a practice run during a quiet time (e.g., grocery store on a Tuesday morning) with low expectations — the goal is exposure, not perfection.",
-      "Teach specific sub-skills at home first: practice waiting in line, using a quiet voice, handing money to a cashier, and saying 'thank you.'",
-      "Bring sensory supports (headphones, fidget toy, snacks) and have an exit plan — leave before your child reaches overload, not after.",
-      "Gradually increase expectations over time: longer outings, busier times, more steps completed independently. Celebrate every success.",
-    ],
-    icon: "storefront-outline",
-    sources: [
-      "Autism Speaks — Community Inclusion (autismspeaks.org/community-inclusion)",
-      "NPDC on ASD — Community-Based Instruction (autismpdc.fpg.unc.edu)",
-    ],
-  },
-  {
-    id: "res-skill-pre-academic",
-    category: "Skills to Teach at Home",
-    title: "Pre-Academic Skills",
-    summary:
-      "Build foundational learning skills at home — matching, sorting, counting, letter recognition, and following instructions.",
-    details:
-      "Pre-academic skills are the building blocks for formal education: visual discrimination, pattern recognition, matching and sorting, counting, number recognition, letter recognition, basic phonics, following multi-step instructions, and attending to tasks. For children with autism, these skills are best taught using visual supports, hands-on manipulatives, structured routines, and special interests as motivation. Before formal academics, children need functional communication (expressing wants and needs), the ability to attend to an activity for a few minutes, basic imitation skills, and the ability to follow simple instructions. Teaching at home in 5-10 minute structured sessions throughout the day can be highly effective. Use the child's preferred topics and materials to increase engagement — if your child loves trains, use train-themed counting and matching activities.",
-    steps: [
-      "Start with matching and sorting activities: match identical pictures, sort objects by color or shape — these are foundations for all academic learning.",
-      "Teach letters and numbers using multi-sensory methods: trace in sand, form with playdough, find on signs during walks, and use your child's special interests.",
-      "Practice counting in natural contexts: count stairs as you climb, count crackers at snack time, count toys during cleanup.",
-      "Use structured work systems (TEACCH-style): a basket on the left with materials, clear visual instructions, and a 'finished' basket on the right.",
-      "Keep sessions short (5-10 minutes) and end on a success — follow with a preferred activity to build positive associations with learning.",
-      "Read aloud daily in your home language — point to pictures, ask simple questions, and pause for your child to fill in familiar words or phrases.",
-    ],
-    icon: "book-outline",
-    sources: [
-      "TEACCH Autism Program — Structured Work Systems (teacch.com)",
-      "CDC — Learn the Signs, Act Early (cdc.gov/act-early)",
-      "Autism Speaks — Teaching Tips (autismspeaks.org/teaching-tips)",
-    ],
-  },
-  {
-    id: "res-skill-self-advocacy",
-    category: "Skills to Teach at Home",
-    title: "Self-Advocacy Skills",
-    summary:
-      "Teach your child to understand their own needs, communicate preferences, and speak up for themselves in age-appropriate ways.",
-    details:
-      "Self-advocacy is the ability to understand your own needs and communicate them to others. For autistic children, self-advocacy is deeply connected to emotional regulation, communication development, executive functioning, and sensory processing. Research shows that self-advocacy skills lead to reduced anxiety, improved school outcomes, and stronger peer relationships. Start by helping your child understand their autism diagnosis in positive, age-appropriate terms — autism is a difference in how the brain works, not something wrong. Teach children to identify what they need (a break, help, a quieter space), use whatever communication method works for them (speech, AAC device, cards, gestures) to express those needs, and understand their rights. Self-advocacy looks different at every age and ability level — from a toddler handing a 'break' card to a teenager explaining their accommodations to a teacher.",
-    steps: [
-      "Help your child understand their diagnosis using positive, honest language appropriate to their age and comprehension level.",
-      "Create visual cards or program AAC buttons for common needs: 'I need a break,' 'Too loud,' 'I need help,' 'I don't understand.'",
-      "Practice requesting help and expressing preferences in safe, low-pressure situations at home before expecting it in public settings.",
-      "Role-play real scenarios: 'What do you do if the classroom is too loud? You can show your teacher the break card or go to the quiet corner.'",
-      "Involve your child in their own IEP or therapy planning as early as possible — even young children can share what they like and what is hard for them.",
-      "Model self-advocacy yourself: let your child see you ask for what you need, set boundaries, and explain your preferences to others.",
-    ],
-    icon: "megaphone-outline",
-    sources: [
-      "ASAN — Self-Advocacy Resources (autisticadvocacy.org/resources)",
-      "Autism Speaks — Self-Advocacy (autismspeaks.org/self-advocacy)",
-      "Wrightslaw — Student Participation in IEPs (wrightslaw.com/info/self.advocacy.htm)",
     ],
   },
 
@@ -1450,80 +1352,14 @@ const RESOURCES: Resource[] = [
     ],
   },
 
-  // ── NEW: Multilingual Resources ───────────────────────────────────────────
-  {
-    id: "res-multilingual-autism-speaks",
-    category: "Multilingual Resources",
-    title: "Autism Speaks Non-English Resources",
-    summary:
-      "Free autism guides, toolkits, and the 100 Day Kit available in over 17 languages including Spanish, Chinese, Arabic, Korean, Vietnamese, Somali, and Russian.",
-    details:
-      "Autism Speaks maintains one of the most comprehensive collections of translated autism resources available anywhere. Their Non-English Resources hub includes materials in Arabic, Bangla, Bosnian, Cambodian, Chinese, French, Greek, Korean, Laotian, Portuguese, Russian, Serbian, Somali, Spanish, and Vietnamese, with Japanese, Persian, and Romanian coming soon. The 100 Day Kit — a comprehensive guide for newly diagnosed families — is available in English, Spanish, and 17+ other languages for free download. Spanish resources are particularly extensive, including a dedicated Spanish helpline at (888) 772-9050. These resources cover topics including understanding diagnosis, therapy options, IEP rights, behavioral strategies, daily living skills, and family support. All materials are free to download and share.",
-    steps: [
-      "Visit autismspeaks.org/non-english-resources to find materials in your language.",
-      "Download the 100 Day Kit in your language — it is the best starting resource for newly diagnosed families.",
-      "Call the Spanish-language helpline at (888) 772-9050 for direct support in Spanish.",
-      "Share these resources with your child's school and therapists — they can use them to better communicate with your family.",
-      "Check back regularly as new languages and resources are added frequently.",
-    ],
-    icon: "globe-outline",
-    sources: [
-      "Autism Speaks — Non-English Resources (autismspeaks.org/non-english-resources)",
-      "Autism Speaks — Spanish Resources (autismspeaks.org/espanol)",
-      "TTAC Online — Non-English Resources List (ttaconline.org)",
-    ],
-  },
-  {
-    id: "res-multilingual-screening",
-    category: "Multilingual Resources",
-    title: "Developmental Screening Tools in Your Language",
-    summary:
-      "Free autism screening tools translated into dozens of languages, including the M-CHAT and CDC milestone checklists, to help identify autism concerns early.",
-    details:
-      "Early detection of autism is critical, and several validated screening tools are available in multiple languages. The M-CHAT-R/F (Modified Checklist for Autism in Toddlers, Revised with Follow-Up) is the most widely used autism screening tool for children ages 16-30 months and has been translated into 58 languages and dialects, including Spanish, Chinese, Arabic, Vietnamese, Korean, Portuguese, and many more. The CDC's Learn the Signs, Act Early program offers milestone checklists in English, Spanish, Simplified Chinese, Korean, and Vietnamese, plus a free Milestone Tracker App in English and Spanish. The CDC Autism Fact Sheet has been translated into Arabic, Armenian, Farsi, French, Korean, Mandarin, Tagalog, Thai, and Vietnamese through USC UCEDD. These tools can help families identify developmental concerns and seek evaluation, even when English-language resources are not accessible.",
-    steps: [
-      "Download the M-CHAT screening tool in your language at mchatscreen.com/mchat-rf/translations — it is free for families.",
-      "Download the CDC Milestone Tracker App (free on iOS and Android) to track your child's development.",
-      "Complete the screening and share results with your child's pediatrician — this can help start the diagnostic process.",
-      "If the screening suggests concerns, request a full developmental evaluation from your school district (free under IDEA) or pediatrician.",
-      "Ask your pediatrician about the ASQ-3 (Ages and Stages Questionnaire), also available in Spanish and other languages.",
-    ],
-    icon: "clipboard-outline",
-    sources: [
-      "M-CHAT Official Site — Translations (mchatscreen.com/mchat-rf/translations)",
-      "CDC — Learn the Signs, Act Early (cdc.gov/act-early)",
-      "Autism Speaks — Screening Tools (autismspeaks.org/screen-your-child)",
-    ],
-  },
-  {
-    id: "res-multilingual-know-rights",
-    category: "Multilingual Resources",
-    title: "Know Your Rights Cards in 39+ Languages",
-    summary:
-      "Free 'Know Your Rights' cards from the ILRC that explain your constitutional rights during encounters with immigration authorities, available in 39 languages.",
-    details:
-      "The Immigrant Legal Resource Center (ILRC) produces 'Red Cards' — wallet-sized cards that explain an individual's constitutional rights when encountering immigration authorities. These cards are available in 39 languages and state: 'I do not wish to speak with you, answer your questions, or sign anything without my attorney present.' The cards invoke the right to remain silent under the 5th Amendment and the right against unreasonable searches under the 4th Amendment. Additional Know Your Rights resources are available from NILC, NIJC, and NAKASEC (which offers a KYR mobile app in 19+ languages with audio and emergency features). For families of autistic children, knowing your rights is especially important because accessing services like special education, therapy, and medical care should never put your family at risk. These cards can be printed at home and shared with family members and trusted caregivers.",
-    steps: [
-      "Download and print ILRC Red Cards in your language at ilrc.org/community-resources.",
-      "Keep a card in your wallet, car, and home — give copies to all family members and your child's caregiver.",
-      "Download the NAKASEC KYR mobile app for quick access to rights information in 19+ languages.",
-      "Visit nilc.org/resources for additional Know Your Rights guides in multiple languages.",
-      "Share these resources with other immigrant families in your community — many do not know their rights.",
-    ],
-    icon: "reader-outline",
-    sources: [
-      "ILRC — Community Resources / Red Cards (ilrc.org/community-resources)",
-      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)",
-      "NIJC — Know Your Rights (immigrantjustice.org/know-your-rights)",
-    ],
-  },
 ];
 
 // ── GET / — All resources grouped by category ────────────────────────────────
 router.get("/", (req: AuthRequest, res: Response) => {
+  const resources = loadResources((req as any).language ?? "en");
   const grouped: Record<string, Resource[]> = {};
 
-  for (const resource of RESOURCES) {
+  for (const resource of resources) {
     if (!grouped[resource.category]) {
       grouped[resource.category] = [];
     }
@@ -1535,7 +1371,8 @@ router.get("/", (req: AuthRequest, res: Response) => {
 
 // ── GET /category/:name — Resources filtered by category ────────────────────
 router.get("/category/:name", (req: AuthRequest, res: Response) => {
-  const filtered = RESOURCES.filter(
+  const resources = loadResources((req as any).language ?? "en");
+  const filtered = resources.filter(
     (r) => r.category.toLowerCase() === (req.params.name as string).toLowerCase()
   );
   res.json({ category: req.params.name, resources: filtered });
@@ -1543,7 +1380,8 @@ router.get("/category/:name", (req: AuthRequest, res: Response) => {
 
 // ── GET /:id — Single resource by ID ─────────────────────────────────────────
 router.get("/:id", (req: AuthRequest, res: Response) => {
-  const resource = RESOURCES.find((r) => r.id === req.params.id);
+  const resources = loadResources((req as any).language ?? "en");
+  const resource = resources.find((r) => r.id === req.params.id);
 
   if (!resource) {
     res.status(404).json({ error: "Resource not found" });
