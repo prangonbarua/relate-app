@@ -1,0 +1,138 @@
+{
+  "app": {
+    "name": "Relate"
+  },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Pre-Diagnosis",
+      "description": "I suspect my child may be autistic and am seeking answers"
+    },
+    "newly_diagnosed": {
+      "title": "Newly Diagnosed",
+      "description": "My child was recently diagnosed and I'm figuring out next steps"
+    },
+    "on_waitlist": {
+      "title": "On Waitlist",
+      "description": "We're waiting for therapy services and need support now"
+    },
+    "older_child": {
+      "title": "Older Child",
+      "description": "My child is older and we're navigating new challenges"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Choose your language",
+      "subtitle": "Select the language you're most comfortable with"
+    },
+    "track": {
+      "title": "Where are you in your journey?",
+      "subtitle": "We'll personalize your experience based on your situation",
+      "button": "Continue"
+    },
+    "profile": {
+      "title": "Tell us about your child",
+      "subtitle": "This helps us personalize daily activities",
+      "name": "Child's name",
+      "namePlaceholder": "Enter name",
+      "age": "Age",
+      "agePlaceholder": "Enter age",
+      "communication": {
+        "label": "Communication level",
+        "nonverbal": "Nonverbal",
+        "minimal": "Minimal words",
+        "emerging": "Emerging language",
+        "conversational": "Conversational"
+      },
+      "triggers": "Triggers (what upsets them)",
+      "triggersPlaceholder": "e.g., loud noises, transitions...",
+      "loves": "What they love",
+      "lovesPlaceholder": "e.g., trains, music, dinosaurs...",
+      "save": "Save & Start",
+      "skip": "Skip for now"
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "skills": "Skills",
+    "navigator": "Navigator",
+    "community": "Community"
+  },
+  "home": {
+    "greeting": "Good {{timeOfDay}}, {{name}}!",
+    "greeting_no_name": "Good {{timeOfDay}}!",
+    "timeOfDay": {
+      "morning": "morning",
+      "afternoon": "afternoon",
+      "evening": "evening"
+    },
+    "daily_card": {
+      "title": "Today's Skill",
+      "why": "Why it matters",
+      "steps": "Steps to try",
+      "log_success": "It worked! 🎉",
+      "log_partial": "Almost there",
+      "log_skip": "Skip today"
+    },
+    "crisis": "Need help now?",
+    "streak": "{{count}} day streak"
+  },
+  "skills": {
+    "title": "Self-Care School",
+    "subtitle": "Learn skills to support your child every day",
+    "coming_soon": "More skills coming soon",
+    "categories": {
+      "communication": "Communication",
+      "sensory": "Sensory",
+      "behavior": "Behavior",
+      "sleep": "Sleep",
+      "feeding": "Feeding",
+      "selfcare": "Self-Care"
+    }
+  },
+  "navigator": {
+    "title": "Your Rights Navigator",
+    "subtitle": "Know your rights. Advocate effectively.",
+    "sections": {
+      "insurance": "Insurance Coverage",
+      "school": "School Rights (IEP/504)",
+      "state": "State Services",
+      "crisis": "Crisis Resources"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "subtitle": "Connect with parents who understand",
+    "coming_soon": "Coming soon",
+    "join_waitlist": "Join waitlist"
+  },
+  "crisis": {
+    "title": "You're not alone",
+    "subtitle": "Take a breath. Let's get through this together.",
+    "step1": {
+      "title": "Step 1: Safety First",
+      "description": "Make sure your child and everyone nearby is physically safe. Remove any hazards from reach."
+    },
+    "step2": {
+      "title": "Step 2: Reduce Overwhelm",
+      "description": "Dim lights if possible. Reduce noise. Give your child space. Use a calm, quiet voice or no words at all."
+    },
+    "step3": {
+      "title": "Step 3: Connect & Wait",
+      "description": "Sit nearby at your child's level. Let them know you're there. Wait without demands. The storm will pass."
+    },
+    "call_support": "Call a support line",
+    "close": "I'm okay now"
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "skip": "Skip",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again"
+  }
+}

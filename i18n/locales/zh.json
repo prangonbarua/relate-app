@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "诊断前",
+      "description": "我怀疑我的孩子可能是自闭症，正在寻找答案"
+    },
+    "newly_diagnosed": {
+      "title": "刚刚确诊",
+      "description": "我的孩子最近被确诊，我正在摸索下一步"
+    },
+    "on_waitlist": {
+      "title": "等待服务",
+      "description": "我们正在等待治疗服务，现在需要支持"
+    },
+    "older_child": {
+      "title": "较大的孩子",
+      "description": "我的孩子年龄较大，我们正在应对新的挑战"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "选择您的语言",
+      "subtitle": "选择您最熟悉的语言"
+    },
+    "track": {
+      "title": "您在旅程中处于哪个阶段？",
+      "subtitle": "我们将根据您的情况个性化您的体验",
+      "button": "继续"
+    },
+    "profile": {
+      "title": "告诉我们您的孩子的情况",
+      "subtitle": "这帮助我们个性化日常活动",
+      "name": "孩子的名字",
+      "namePlaceholder": "输入名字",
+      "age": "年龄",
+      "agePlaceholder": "输入年龄",
+      "communication": {
+        "label": "沟通水平",
+        "nonverbal": "非语言",
+        "minimal": "少量词汇",
+        "emerging": "语言萌发",
+        "conversational": "对话式"
+      },
+      "triggers": "触发因素（什么让他们烦恼）",
+      "triggersPlaceholder": "例如：噪音、转换...",
+      "loves": "他们喜欢什么",
+      "lovesPlaceholder": "例如：火车、音乐、恐龙...",
+      "save": "保存并开始",
+      "skip": "暂时跳过"
+    }
+  },
+  "tabs": {
+    "home": "首页",
+    "skills": "技能",
+    "navigator": "导航",
+    "community": "社区"
+  },
+  "home": {
+    "greeting": "{{name}}，您好！",
+    "greeting_no_name": "您好！",
+    "timeOfDay": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好"
+    },
+    "daily_card": {
+      "title": "今日技能",
+      "why": "为什么重要",
+      "steps": "尝试步骤",
+      "log_success": "成功了！🎉",
+      "log_partial": "快成功了",
+      "log_skip": "今天跳过"
+    },
+    "crisis": "现在需要帮助？",
+    "streak": "连续 {{count}} 天"
+  },
+  "skills": {
+    "title": "自我护理学校",
+    "subtitle": "学习每天支持您孩子的技能",
+    "coming_soon": "更多技能即将推出",
+    "categories": {
+      "communication": "沟通",
+      "sensory": "感觉",
+      "behavior": "行为",
+      "sleep": "睡眠",
+      "feeding": "饮食",
+      "selfcare": "自我护理"
+    }
+  },
+  "navigator": {
+    "title": "权利导航",
+    "subtitle": "了解您的权利。有效倡导。",
+    "sections": {
+      "insurance": "保险覆盖",
+      "school": "学校权利",
+      "state": "州政府服务",
+      "crisis": "危机资源"
+    }
+  },
+  "community": {
+    "title": "社区",
+    "subtitle": "与理解您的父母联系",
+    "coming_soon": "即将推出",
+    "join_waitlist": "加入等待名单"
+  },
+  "crisis": {
+    "title": "您并不孤单",
+    "subtitle": "深呼吸。让我们一起度过这个时刻。",
+    "step1": {
+      "title": "第一步：安全第一",
+      "description": "确保您的孩子和周围的每个人身体安全。"
+    },
+    "step2": {
+      "title": "第二步：减少刺激",
+      "description": "尽可能调暗灯光。减少噪音。给您的孩子空间。"
+    },
+    "step3": {
+      "title": "第三步：连接与等待",
+      "description": "坐在孩子旁边。让他们知道您在那里。风暴会过去的。"
+    },
+    "call_support": "拨打支持热线",
+    "close": "我现在没事了"
+  },
+  "common": {
+    "next": "下一步",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "skip": "跳过",
+    "done": "完成",
+    "loading": "加载中...",
+    "error": "出了点问题",
+    "retry": "重试"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Pré-diagnóstico",
+      "description": "Suspeito que meu filho pode ser autista e estou buscando respostas"
+    },
+    "newly_diagnosed": {
+      "title": "Recém-diagnosticado",
+      "description": "Meu filho foi diagnosticado recentemente e estou descobrindo os próximos passos"
+    },
+    "on_waitlist": {
+      "title": "Na lista de espera",
+      "description": "Estamos aguardando serviços de terapia e precisamos de apoio agora"
+    },
+    "older_child": {
+      "title": "Filho mais velho",
+      "description": "Meu filho é mais velho e estamos navegando novos desafios"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Escolha seu idioma",
+      "subtitle": "Selecione o idioma com que você se sente mais confortável"
+    },
+    "track": {
+      "title": "Onde você está na sua jornada?",
+      "subtitle": "Vamos personalizar sua experiência com base na sua situação",
+      "button": "Continuar"
+    },
+    "profile": {
+      "title": "Conte-nos sobre seu filho",
+      "subtitle": "Isso nos ajuda a personalizar as atividades diárias",
+      "name": "Nome da criança",
+      "namePlaceholder": "Digite o nome",
+      "age": "Idade",
+      "agePlaceholder": "Digite a idade",
+      "communication": {
+        "label": "Nível de comunicação",
+        "nonverbal": "Não verbal",
+        "minimal": "Poucas palavras",
+        "emerging": "Linguagem emergente",
+        "conversational": "Conversacional"
+      },
+      "triggers": "Gatilhos (o que os aborrece)",
+      "triggersPlaceholder": "Ex: barulhos altos, transições...",
+      "loves": "O que eles amam",
+      "lovesPlaceholder": "Ex: trens, música, dinossauros...",
+      "save": "Salvar e começar",
+      "skip": "Pular por agora"
+    }
+  },
+  "tabs": {
+    "home": "Início",
+    "skills": "Habilidades",
+    "navigator": "Navegador",
+    "community": "Comunidade"
+  },
+  "home": {
+    "greeting": "Bom {{timeOfDay}}, {{name}}!",
+    "greeting_no_name": "Bom {{timeOfDay}}!",
+    "timeOfDay": {
+      "morning": "dia",
+      "afternoon": "tarde",
+      "evening": "noite"
+    },
+    "daily_card": {
+      "title": "Habilidade de hoje",
+      "why": "Por que isso importa",
+      "steps": "Passos para tentar",
+      "log_success": "Funcionou! 🎉",
+      "log_partial": "Quase lá",
+      "log_skip": "Pular hoje"
+    },
+    "crisis": "Precisa de ajuda agora?",
+    "streak": "{{count}} dia(s) seguidos"
+  },
+  "skills": {
+    "title": "Escola de autocuidado",
+    "subtitle": "Aprenda habilidades para apoiar seu filho todos os dias",
+    "coming_soon": "Mais habilidades em breve",
+    "categories": {
+      "communication": "Comunicação",
+      "sensory": "Sensorial",
+      "behavior": "Comportamento",
+      "sleep": "Sono",
+      "feeding": "Alimentação",
+      "selfcare": "Autocuidado"
+    }
+  },
+  "navigator": {
+    "title": "Navegador de direitos",
+    "subtitle": "Conheça seus direitos. Defenda-se efetivamente.",
+    "sections": {
+      "insurance": "Cobertura de seguro",
+      "school": "Direitos escolares (IEP/504)",
+      "state": "Serviços estaduais",
+      "crisis": "Recursos de crise"
+    }
+  },
+  "community": {
+    "title": "Comunidade",
+    "subtitle": "Conecte-se com pais que entendem",
+    "coming_soon": "Em breve",
+    "join_waitlist": "Entrar na lista de espera"
+  },
+  "crisis": {
+    "title": "Você não está sozinho/a",
+    "subtitle": "Respire fundo. Vamos passar por isso juntos.",
+    "step1": {
+      "title": "Passo 1: Segurança primeiro",
+      "description": "Certifique-se de que seu filho e todos ao redor estejam fisicamente seguros."
+    },
+    "step2": {
+      "title": "Passo 2: Reduzir a sobrecarga",
+      "description": "Reduza as luzes se possível. Diminua o barulho. Dê espaço ao seu filho."
+    },
+    "step3": {
+      "title": "Passo 3: Conectar e aguardar",
+      "description": "Sente-se perto do seu filho no nível dele. A tempestade vai passar."
+    },
+    "call_support": "Ligar para linha de apoio",
+    "close": "Estou bem agora"
+  },
+  "common": {
+    "next": "Próximo",
+    "back": "Voltar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "skip": "Pular",
+    "done": "Concluído",
+    "loading": "Carregando...",
+    "error": "Algo deu errado",
+    "retry": "Tentar novamente"
+  }
+}

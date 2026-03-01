@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Antes del diagnóstico",
+      "description": "Sospecho que mi hijo puede ser autista y estoy buscando respuestas"
+    },
+    "newly_diagnosed": {
+      "title": "Recién diagnosticado",
+      "description": "Mi hijo fue diagnosticado recientemente y estoy definiendo los próximos pasos"
+    },
+    "on_waitlist": {
+      "title": "En lista de espera",
+      "description": "Esperamos servicios de terapia y necesitamos apoyo ahora"
+    },
+    "older_child": {
+      "title": "Hijo mayor",
+      "description": "Mi hijo es mayor y navegamos nuevos desafíos"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Elige tu idioma",
+      "subtitle": "Selecciona el idioma con el que te sientes más cómodo"
+    },
+    "track": {
+      "title": "¿Dónde estás en tu camino?",
+      "subtitle": "Personalizaremos tu experiencia según tu situación",
+      "button": "Continuar"
+    },
+    "profile": {
+      "title": "Cuéntanos sobre tu hijo",
+      "subtitle": "Esto nos ayuda a personalizar las actividades diarias",
+      "name": "Nombre del niño",
+      "namePlaceholder": "Ingresa el nombre",
+      "age": "Edad",
+      "agePlaceholder": "Ingresa la edad",
+      "communication": {
+        "label": "Nivel de comunicación",
+        "nonverbal": "No verbal",
+        "minimal": "Pocas palabras",
+        "emerging": "Lenguaje emergente",
+        "conversational": "Conversacional"
+      },
+      "triggers": "Detonantes (qué los molesta)",
+      "triggersPlaceholder": "Ej: ruidos fuertes, transiciones...",
+      "loves": "Lo que les encanta",
+      "lovesPlaceholder": "Ej: trenes, música, dinosaurios...",
+      "save": "Guardar e iniciar",
+      "skip": "Omitir por ahora"
+    }
+  },
+  "tabs": {
+    "home": "Inicio",
+    "skills": "Habilidades",
+    "navigator": "Navegador",
+    "community": "Comunidad"
+  },
+  "home": {
+    "greeting": "¡Buen{{timeOfDay}}, {{name}}!",
+    "greeting_no_name": "¡Buen{{timeOfDay}}!",
+    "timeOfDay": {
+      "morning": "os días",
+      "afternoon": "as tardes",
+      "evening": "as noches"
+    },
+    "daily_card": {
+      "title": "Habilidad de hoy",
+      "why": "Por qué importa",
+      "steps": "Pasos a intentar",
+      "log_success": "¡Funcionó! 🎉",
+      "log_partial": "Casi",
+      "log_skip": "Omitir hoy"
+    },
+    "crisis": "¿Necesitas ayuda ahora?",
+    "streak": "{{count}} días seguidos"
+  },
+  "skills": {
+    "title": "Escuela de autocuidado",
+    "subtitle": "Aprende habilidades para apoyar a tu hijo cada día",
+    "coming_soon": "Más habilidades próximamente",
+    "categories": {
+      "communication": "Comunicación",
+      "sensory": "Sensorial",
+      "behavior": "Comportamiento",
+      "sleep": "Sueño",
+      "feeding": "Alimentación",
+      "selfcare": "Autocuidado"
+    }
+  },
+  "navigator": {
+    "title": "Navegador de derechos",
+    "subtitle": "Conoce tus derechos. Aboga de manera efectiva.",
+    "sections": {
+      "insurance": "Cobertura de seguro",
+      "school": "Derechos escolares (IEP/504)",
+      "state": "Servicios estatales",
+      "crisis": "Recursos de crisis"
+    }
+  },
+  "community": {
+    "title": "Comunidad",
+    "subtitle": "Conéctate con padres que entienden",
+    "coming_soon": "Próximamente",
+    "join_waitlist": "Unirse a la lista de espera"
+  },
+  "crisis": {
+    "title": "No estás solo/a",
+    "subtitle": "Respira. Atravesemos esto juntos.",
+    "step1": {
+      "title": "Paso 1: La seguridad primero",
+      "description": "Asegúrate de que tu hijo y todos los cercanos estén físicamente seguros."
+    },
+    "step2": {
+      "title": "Paso 2: Reduce el agobio",
+      "description": "Atenúa las luces si es posible. Reduce el ruido. Dale espacio a tu hijo."
+    },
+    "step3": {
+      "title": "Paso 3: Conecta y espera",
+      "description": "Siéntate cerca al nivel de tu hijo. La tormenta pasará."
+    },
+    "call_support": "Llama a una línea de apoyo",
+    "close": "Ya estoy bien"
+  },
+  "common": {
+    "next": "Siguiente",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "skip": "Omitir",
+    "done": "Listo",
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de nuevo"
+  }
+}

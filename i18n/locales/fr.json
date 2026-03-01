@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Avant le diagnostic",
+      "description": "Je pense que mon enfant pourrait être autiste et je cherche des réponses"
+    },
+    "newly_diagnosed": {
+      "title": "Nouvellement diagnostiqué",
+      "description": "Mon enfant vient d'être diagnostiqué et je cherche les prochaines étapes"
+    },
+    "on_waitlist": {
+      "title": "Sur liste d'attente",
+      "description": "Nous attendons des services thérapeutiques et avons besoin de soutien maintenant"
+    },
+    "older_child": {
+      "title": "Enfant plus âgé",
+      "description": "Mon enfant est plus grand et nous naviguons de nouveaux défis"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Choisissez votre langue",
+      "subtitle": "Sélectionnez la langue avec laquelle vous êtes le plus à l'aise"
+    },
+    "track": {
+      "title": "Où en êtes-vous dans votre parcours ?",
+      "subtitle": "Nous personnaliserons votre expérience selon votre situation",
+      "button": "Continuer"
+    },
+    "profile": {
+      "title": "Parlez-nous de votre enfant",
+      "subtitle": "Cela nous aide à personnaliser les activités quotidiennes",
+      "name": "Prénom de l'enfant",
+      "namePlaceholder": "Entrez le prénom",
+      "age": "Âge",
+      "agePlaceholder": "Entrez l'âge",
+      "communication": {
+        "label": "Niveau de communication",
+        "nonverbal": "Non verbal",
+        "minimal": "Quelques mots",
+        "emerging": "Langage émergent",
+        "conversational": "Conversationnel"
+      },
+      "triggers": "Déclencheurs (ce qui les contrarie)",
+      "triggersPlaceholder": "Ex : bruits forts, transitions...",
+      "loves": "Ce qu'ils adorent",
+      "lovesPlaceholder": "Ex : trains, musique, dinosaures...",
+      "save": "Enregistrer et commencer",
+      "skip": "Passer pour l'instant"
+    }
+  },
+  "tabs": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "navigator": "Navigateur",
+    "community": "Communauté"
+  },
+  "home": {
+    "greeting": "Bonjour {{name}} !",
+    "greeting_no_name": "Bonjour !",
+    "timeOfDay": {
+      "morning": "matin",
+      "afternoon": "après-midi",
+      "evening": "soir"
+    },
+    "daily_card": {
+      "title": "Compétence du jour",
+      "why": "Pourquoi c'est important",
+      "steps": "Étapes à essayer",
+      "log_success": "Ça a marché ! 🎉",
+      "log_partial": "Presque",
+      "log_skip": "Passer aujourd'hui"
+    },
+    "crisis": "Besoin d'aide maintenant ?",
+    "streak": "{{count}} jour(s) consécutif(s)"
+  },
+  "skills": {
+    "title": "École d'autosoins",
+    "subtitle": "Apprenez des compétences pour soutenir votre enfant chaque jour",
+    "coming_soon": "Plus de compétences bientôt",
+    "categories": {
+      "communication": "Communication",
+      "sensory": "Sensoriel",
+      "behavior": "Comportement",
+      "sleep": "Sommeil",
+      "feeding": "Alimentation",
+      "selfcare": "Autosoins"
+    }
+  },
+  "navigator": {
+    "title": "Navigateur de droits",
+    "subtitle": "Connaissez vos droits. Défendez-vous efficacement.",
+    "sections": {
+      "insurance": "Couverture d'assurance",
+      "school": "Droits scolaires (IEP/504)",
+      "state": "Services de l'État",
+      "crisis": "Ressources de crise"
+    }
+  },
+  "community": {
+    "title": "Communauté",
+    "subtitle": "Connectez-vous avec des parents qui comprennent",
+    "coming_soon": "Bientôt disponible",
+    "join_waitlist": "Rejoindre la liste d'attente"
+  },
+  "crisis": {
+    "title": "Vous n'êtes pas seul(e)",
+    "subtitle": "Respirez. Traversons cela ensemble.",
+    "step1": {
+      "title": "Étape 1 : La sécurité d'abord",
+      "description": "Assurez-vous que votre enfant et les personnes proches sont physiquement en sécurité."
+    },
+    "step2": {
+      "title": "Étape 2 : Réduire la surcharge",
+      "description": "Tamisez les lumières si possible. Réduisez le bruit. Donnez de l'espace à votre enfant."
+    },
+    "step3": {
+      "title": "Étape 3 : Connecter et attendre",
+      "description": "Asseyez-vous près de votre enfant à son niveau. La tempête passera."
+    },
+    "call_support": "Appeler une ligne d'assistance",
+    "close": "Je vais bien maintenant"
+  },
+  "common": {
+    "next": "Suivant",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "skip": "Passer",
+    "done": "Terminé",
+    "loading": "Chargement...",
+    "error": "Quelque chose s'est mal passé",
+    "retry": "Réessayer"
+  }
+}

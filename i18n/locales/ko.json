@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "진단 전",
+      "description": "아이가 자폐증일 수 있다고 의심하여 답을 찾고 있습니다"
+    },
+    "newly_diagnosed": {
+      "title": "최근 진단",
+      "description": "아이가 최근에 진단받아 다음 단계를 파악하고 있습니다"
+    },
+    "on_waitlist": {
+      "title": "대기 중",
+      "description": "치료 서비스를 기다리고 있으며 지금 당장 지원이 필요합니다"
+    },
+    "older_child": {
+      "title": "더 큰 아이",
+      "description": "아이가 더 커서 새로운 도전을 헤쳐나가고 있습니다"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "언어를 선택하세요",
+      "subtitle": "가장 편안한 언어를 선택하세요"
+    },
+    "track": {
+      "title": "당신의 여정에서 어디에 있나요?",
+      "subtitle": "상황에 맞게 경험을 개인화해 드립니다",
+      "button": "계속"
+    },
+    "profile": {
+      "title": "자녀에 대해 알려주세요",
+      "subtitle": "일일 활동을 개인화하는 데 도움이 됩니다",
+      "name": "아이 이름",
+      "namePlaceholder": "이름 입력",
+      "age": "나이",
+      "agePlaceholder": "나이 입력",
+      "communication": {
+        "label": "의사소통 수준",
+        "nonverbal": "비언어적",
+        "minimal": "최소한의 단어",
+        "emerging": "언어 발달 중",
+        "conversational": "대화 가능"
+      },
+      "triggers": "자극 요인 (무엇이 화나게 하나요)",
+      "triggersPlaceholder": "예: 큰 소리, 전환...",
+      "loves": "좋아하는 것",
+      "lovesPlaceholder": "예: 기차, 음악, 공룡...",
+      "save": "저장하고 시작",
+      "skip": "지금은 건너뛰기"
+    }
+  },
+  "tabs": {
+    "home": "홈",
+    "skills": "기술",
+    "navigator": "내비게이터",
+    "community": "커뮤니티"
+  },
+  "home": {
+    "greeting": "안녕하세요, {{name}}!",
+    "greeting_no_name": "안녕하세요!",
+    "timeOfDay": {
+      "morning": "아침",
+      "afternoon": "오후",
+      "evening": "저녁"
+    },
+    "daily_card": {
+      "title": "오늘의 기술",
+      "why": "왜 중요한가",
+      "steps": "시도할 단계",
+      "log_success": "성공했어요! 🎉",
+      "log_partial": "거의 다 왔어요",
+      "log_skip": "오늘은 건너뛰기"
+    },
+    "crisis": "지금 도움이 필요하신가요?",
+    "streak": "{{count}}일 연속"
+  },
+  "skills": {
+    "title": "자기 돌봄 학교",
+    "subtitle": "매일 자녀를 지원하는 기술을 배우세요",
+    "coming_soon": "더 많은 기술이 곧 나옵니다",
+    "categories": {
+      "communication": "의사소통",
+      "sensory": "감각",
+      "behavior": "행동",
+      "sleep": "수면",
+      "feeding": "식사",
+      "selfcare": "자기 돌봄"
+    }
+  },
+  "navigator": {
+    "title": "권리 내비게이터",
+    "subtitle": "권리를 알고 효과적으로 옹호하세요.",
+    "sections": {
+      "insurance": "보험 적용",
+      "school": "학교 권리",
+      "state": "주 서비스",
+      "crisis": "위기 자원"
+    }
+  },
+  "community": {
+    "title": "커뮤니티",
+    "subtitle": "이해하는 부모들과 연결하세요",
+    "coming_soon": "곧 출시",
+    "join_waitlist": "대기자 명단 참여"
+  },
+  "crisis": {
+    "title": "당신은 혼자가 아닙니다",
+    "subtitle": "숨을 쉬세요. 함께 이겨냅시다.",
+    "step1": {
+      "title": "1단계: 안전이 먼저",
+      "description": "자녀와 주변의 모든 사람이 신체적으로 안전한지 확인하세요."
+    },
+    "step2": {
+      "title": "2단계: 과부하 줄이기",
+      "description": "가능하면 조명을 어둡게 하세요. 소음을 줄이세요. 자녀에게 공간을 주세요."
+    },
+    "step3": {
+      "title": "3단계: 연결하고 기다리기",
+      "description": "자녀의 눈높이에서 가까이 앉으세요. 폭풍은 지나갈 것입니다."
+    },
+    "call_support": "지원 라인에 전화",
+    "close": "이제 괜찮아요"
+  },
+  "common": {
+    "next": "다음",
+    "back": "뒤로",
+    "save": "저장",
+    "cancel": "취소",
+    "skip": "건너뛰기",
+    "done": "완료",
+    "loading": "로딩 중...",
+    "error": "문제가 발생했습니다",
+    "retry": "다시 시도"
+  }
+}

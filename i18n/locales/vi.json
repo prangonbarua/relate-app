@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Trước chẩn đoán",
+      "description": "Tôi nghi ngờ con mình có thể bị tự kỷ và đang tìm câu trả lời"
+    },
+    "newly_diagnosed": {
+      "title": "Mới được chẩn đoán",
+      "description": "Con tôi vừa được chẩn đoán và tôi đang tìm hiểu các bước tiếp theo"
+    },
+    "on_waitlist": {
+      "title": "Đang chờ dịch vụ",
+      "description": "Chúng tôi đang chờ dịch vụ trị liệu và cần hỗ trợ ngay bây giờ"
+    },
+    "older_child": {
+      "title": "Trẻ lớn hơn",
+      "description": "Con tôi đã lớn hơn và chúng tôi đang điều hướng những thách thức mới"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Chọn ngôn ngữ của bạn",
+      "subtitle": "Chọn ngôn ngữ bạn cảm thấy thoải mái nhất"
+    },
+    "track": {
+      "title": "Bạn đang ở đâu trong hành trình của mình?",
+      "subtitle": "Chúng tôi sẽ cá nhân hóa trải nghiệm của bạn dựa trên tình huống",
+      "button": "Tiếp tục"
+    },
+    "profile": {
+      "title": "Cho chúng tôi biết về con bạn",
+      "subtitle": "Điều này giúp chúng tôi cá nhân hóa các hoạt động hàng ngày",
+      "name": "Tên của trẻ",
+      "namePlaceholder": "Nhập tên",
+      "age": "Tuổi",
+      "agePlaceholder": "Nhập tuổi",
+      "communication": {
+        "label": "Mức độ giao tiếp",
+        "nonverbal": "Không lời nói",
+        "minimal": "Vài từ",
+        "emerging": "Ngôn ngữ đang phát triển",
+        "conversational": "Giao tiếp được"
+      },
+      "triggers": "Yếu tố kích thích (điều gì làm khó chịu)",
+      "triggersPlaceholder": "Vd: tiếng ồn lớn, chuyển tiếp...",
+      "loves": "Điều trẻ yêu thích",
+      "lovesPlaceholder": "Vd: tàu hỏa, âm nhạc, khủng long...",
+      "save": "Lưu và Bắt đầu",
+      "skip": "Bỏ qua tạm thời"
+    }
+  },
+  "tabs": {
+    "home": "Trang chủ",
+    "skills": "Kỹ năng",
+    "navigator": "Điều hướng",
+    "community": "Cộng đồng"
+  },
+  "home": {
+    "greeting": "Chào buổi {{timeOfDay}}, {{name}}!",
+    "greeting_no_name": "Chào buổi {{timeOfDay}}!",
+    "timeOfDay": {
+      "morning": "sáng",
+      "afternoon": "chiều",
+      "evening": "tối"
+    },
+    "daily_card": {
+      "title": "Kỹ năng hôm nay",
+      "why": "Tại sao điều này quan trọng",
+      "steps": "Các bước để thử",
+      "log_success": "Đã thành công! 🎉",
+      "log_partial": "Gần thành công",
+      "log_skip": "Bỏ qua hôm nay"
+    },
+    "crisis": "Cần giúp đỡ ngay bây giờ?",
+    "streak": "{{count}} ngày liên tiếp"
+  },
+  "skills": {
+    "title": "Trường Tự Chăm Sóc",
+    "subtitle": "Học kỹ năng để hỗ trợ con bạn mỗi ngày",
+    "coming_soon": "Thêm kỹ năng sắp có",
+    "categories": {
+      "communication": "Giao tiếp",
+      "sensory": "Cảm giác",
+      "behavior": "Hành vi",
+      "sleep": "Giấc ngủ",
+      "feeding": "Ăn uống",
+      "selfcare": "Tự chăm sóc"
+    }
+  },
+  "navigator": {
+    "title": "Điều hướng Quyền lợi",
+    "subtitle": "Biết quyền của bạn. Vận động hiệu quả.",
+    "sections": {
+      "insurance": "Bảo hiểm",
+      "school": "Quyền tại trường",
+      "state": "Dịch vụ Nhà nước",
+      "crisis": "Tài nguyên khủng hoảng"
+    }
+  },
+  "community": {
+    "title": "Cộng đồng",
+    "subtitle": "Kết nối với các bậc phụ huynh hiểu bạn",
+    "coming_soon": "Sắp có",
+    "join_waitlist": "Tham gia danh sách chờ"
+  },
+  "crisis": {
+    "title": "Bạn không cô đơn",
+    "subtitle": "Hít thở sâu. Hãy cùng nhau vượt qua điều này.",
+    "step1": {
+      "title": "Bước 1: An toàn là trên hết",
+      "description": "Đảm bảo con bạn và tất cả mọi người xung quanh đều an toàn về thể chất."
+    },
+    "step2": {
+      "title": "Bước 2: Giảm bớt quá tải",
+      "description": "Giảm ánh sáng nếu có thể. Giảm tiếng ồn. Cho con bạn không gian."
+    },
+    "step3": {
+      "title": "Bước 3: Kết nối và Chờ đợi",
+      "description": "Ngồi gần con ở tầm mắt của chúng. Cơn bão sẽ qua."
+    },
+    "call_support": "Gọi đường dây hỗ trợ",
+    "close": "Tôi ổn rồi"
+  },
+  "common": {
+    "next": "Tiếp theo",
+    "back": "Quay lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "skip": "Bỏ qua",
+    "done": "Xong",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại"
+  }
+}

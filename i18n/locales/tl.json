@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Bago ang Diagnosis",
+      "description": "Pinaghihinalaan ko na maaaring autistic ang aking anak at naghahanap ng mga sagot"
+    },
+    "newly_diagnosed": {
+      "title": "Bagong Na-diagnose",
+      "description": "Kamakailan lamang na-diagnose ang aking anak at inaalaman ko ang mga susunod na hakbang"
+    },
+    "on_waitlist": {
+      "title": "Sa Listahan ng Paghihintay",
+      "description": "Naghihintay kami ng mga serbisyo sa therapy at kailangan ng suporta ngayon"
+    },
+    "older_child": {
+      "title": "Mas Matandang Bata",
+      "description": "Mas matanda na ang aking anak at nag-navigate kami ng mga bagong hamon"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Pumili ng iyong wika",
+      "subtitle": "Piliin ang wikang pinaka-komportable ka"
+    },
+    "track": {
+      "title": "Nasaan ka sa iyong paglalakbay?",
+      "subtitle": "Ia-personalize namin ang iyong karanasan batay sa iyong sitwasyon",
+      "button": "Magpatuloy"
+    },
+    "profile": {
+      "title": "Sabihin sa amin ang tungkol sa iyong anak",
+      "subtitle": "Nakakatulong ito sa amin na i-personalize ang mga pang-araw-araw na aktibidad",
+      "name": "Pangalan ng bata",
+      "namePlaceholder": "Ilagay ang pangalan",
+      "age": "Edad",
+      "agePlaceholder": "Ilagay ang edad",
+      "communication": {
+        "label": "Antas ng komunikasyon",
+        "nonverbal": "Hindi verbal",
+        "minimal": "Ilang salita",
+        "emerging": "Lumalabas na wika",
+        "conversational": "Nakikipag-usap"
+      },
+      "triggers": "Mga trigger (ano ang nakaka-upset sa kanila)",
+      "triggersPlaceholder": "Hal: malakas na ingay, pagbabago...",
+      "loves": "Ano ang mahal nila",
+      "lovesPlaceholder": "Hal: tren, musika, dinosaur...",
+      "save": "I-save at Simulan",
+      "skip": "Laktawan sa ngayon"
+    }
+  },
+  "tabs": {
+    "home": "Tahanan",
+    "skills": "Mga Kasanayan",
+    "navigator": "Navigator",
+    "community": "Komunidad"
+  },
+  "home": {
+    "greeting": "Magandang {{timeOfDay}}, {{name}}!",
+    "greeting_no_name": "Magandang {{timeOfDay}}!",
+    "timeOfDay": {
+      "morning": "umaga",
+      "afternoon": "tanghali",
+      "evening": "gabi"
+    },
+    "daily_card": {
+      "title": "Kasanayan Ngayon",
+      "why": "Bakit ito mahalaga",
+      "steps": "Mga hakbang na subukan",
+      "log_success": "Gumana ito! 🎉",
+      "log_partial": "Malapit na",
+      "log_skip": "Laktawan ngayon"
+    },
+    "crisis": "Kailangan ng tulong ngayon?",
+    "streak": "{{count}} araw na sunud-sunod"
+  },
+  "skills": {
+    "title": "Paaralan ng Pag-aalaga sa Sarili",
+    "subtitle": "Matuto ng mga kasanayan para suportahan ang iyong anak araw-araw",
+    "coming_soon": "Mas maraming kasanayan sa lalong madaling panahon",
+    "categories": {
+      "communication": "Komunikasyon",
+      "sensory": "Pandama",
+      "behavior": "Pag-uugali",
+      "sleep": "Tulog",
+      "feeding": "Pagkain",
+      "selfcare": "Pag-aalaga sa Sarili"
+    }
+  },
+  "navigator": {
+    "title": "Iyong Navigator ng Karapatan",
+    "subtitle": "Alamin ang iyong mga karapatan. Mag-adbokasya nang epektibo.",
+    "sections": {
+      "insurance": "Saklaw ng Insurance",
+      "school": "Mga Karapatan sa Paaralan",
+      "state": "Mga Serbisyo ng Estado",
+      "crisis": "Mga Mapagkukunan sa Krisis"
+    }
+  },
+  "community": {
+    "title": "Komunidad",
+    "subtitle": "Kumonekta sa mga magulang na nakakaunawa",
+    "coming_soon": "Malapit nang dumating",
+    "join_waitlist": "Sumali sa listahan ng paghihintay"
+  },
+  "crisis": {
+    "title": "Hindi ka nag-iisa",
+    "subtitle": "Huminga. Harapin natin ito nang magkasama.",
+    "step1": {
+      "title": "Hakbang 1: Kaligtasan Muna",
+      "description": "Tiyaking ligtas ang iyong anak at lahat ng nasa paligid."
+    },
+    "step2": {
+      "title": "Hakbang 2: Bawasan ang Labis",
+      "description": "I-dim ang mga ilaw kung maaari. Bawasan ang ingay. Bigyan ang iyong anak ng espasyo."
+    },
+    "step3": {
+      "title": "Hakbang 3: Kumonekta at Maghintay",
+      "description": "Umupo malapit sa iyong anak sa kanyang antas. Magiging okay ito."
+    },
+    "call_support": "Tumawag sa linya ng suporta",
+    "close": "Okay na ako ngayon"
+  },
+  "common": {
+    "next": "Susunod",
+    "back": "Bumalik",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "skip": "Laktawan",
+    "done": "Tapos na",
+    "loading": "Naglo-load...",
+    "error": "May naganap na mali",
+    "retry": "Subukan muli"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "app": { "name": "Relate" },
+  "tracks": {
+    "pre_diagnosis": {
+      "title": "Ka hor Ogaanshaha",
+      "description": "Waxaan shakisannahay inay ilmahaygii awtism leeyahay waxaana raadinayaa jawaabaha"
+    },
+    "newly_diagnosed": {
+      "title": "Si Dhow Loo Ogaaday",
+      "description": "Ilmahaygii dhow ayaa la ogaaday waxaana ka fiirsanayaa tallaabada xigta"
+    },
+    "on_waitlist": {
+      "title": "Liiska Sugitaanka",
+      "description": "Waxaan sugnaa adeegyada daawaynta waxaana u baahan gargaar hadda"
+    },
+    "older_child": {
+      "title": "Ilmo Weyn",
+      "description": "Ilmahaygii waa weynaaday waxaana la dagaallanaa caqabadaha cusub"
+    }
+  },
+  "onboarding": {
+    "language": {
+      "title": "Dooro luqaddaada",
+      "subtitle": "Dooro luqadda aad ugu raaxayso"
+    },
+    "track": {
+      "title": "Halkee aad ku jirtaa socdaalkaaga?",
+      "subtitle": "Waxaan gaar u sameyn doonaa khibradaada xaaladaada ku salaysan",
+      "button": "Sii wad"
+    },
+    "profile": {
+      "title": "Noogu sheeg ilmahaaga",
+      "subtitle": "Tani waxay na caawisaa in aan gaar u sameynno hawlaha maalinlaha",
+      "name": "Magaca ilmaha",
+      "namePlaceholder": "Geli magaca",
+      "age": "Da'da",
+      "agePlaceholder": "Geli da'da",
+      "communication": {
+        "label": "Heerka xiriirka",
+        "nonverbal": "Aan afka ahayn",
+        "minimal": "Kelmado yar",
+        "emerging": "Luqad soo baxaysa",
+        "conversational": "Wada hadal"
+      },
+      "triggers": "Sababayaasha (maxay xanaajiyaan)",
+      "triggersPlaceholder": "Tusaale: codad dhaadheer, isbeddel...",
+      "loves": "Waxay jecel yihiin",
+      "lovesPlaceholder": "Tusaale: tareen, muusiko, dinosaur...",
+      "save": "Keydi oo bilow",
+      "skip": "Hadda ka bood"
+    }
+  },
+  "tabs": {
+    "home": "Guriga",
+    "skills": "Xirfadaha",
+    "navigator": "Tilmaamaha",
+    "community": "Bulshada"
+  },
+  "home": {
+    "greeting": "Subax wanaagsan {{name}}!",
+    "greeting_no_name": "Subax wanaagsan!",
+    "timeOfDay": {
+      "morning": "subax",
+      "afternoon": "galabnimo",
+      "evening": "fiid"
+    },
+    "daily_card": {
+      "title": "Xirfadda Maanta",
+      "why": "Maxay muhiimad u leedahay",
+      "steps": "Tallaabada la tijaabinayo",
+      "log_success": "Shaqeeyay! 🎉",
+      "log_partial": "Ku dhawaad",
+      "log_skip": "Maanta ka bood"
+    },
+    "crisis": "Ma u baahan tahay gargaar hadda?",
+    "streak": "{{count}} maalmo joogto ah"
+  },
+  "skills": {
+    "title": "Dugsi Daryeel-nafsi",
+    "subtitle": "Baro xirfadaha si aad ugu taageerto ilmahaaga maalin kasta",
+    "coming_soon": "Xirfado badan ayaa dhowaan imaanaya",
+    "categories": {
+      "communication": "Xiriirka",
+      "sensory": "Dareenka",
+      "behavior": "Dabeecadda",
+      "sleep": "Hurda",
+      "feeding": "Quudinta",
+      "selfcare": "Daryeel-nafsi"
+    }
+  },
+  "navigator": {
+    "title": "Tilmaamaha Xuquuqdaada",
+    "subtitle": "Ogow xuquuqdaada. Hil si waxtar leh.",
+    "sections": {
+      "insurance": "Daboolo Caymiska",
+      "school": "Xuquuqda Dugsiga",
+      "state": "Adeegyada Gobolka",
+      "crisis": "Kheyraadka Xaaladaha Deg-degga"
+    }
+  },
+  "community": {
+    "title": "Bulshada",
+    "subtitle": "La xidh waalidiinta fahamsan",
+    "coming_soon": "Dhowaan ayuu imaanayaa",
+    "join_waitlist": "Ku biir liiska sugitaanka"
+  },
+  "crisis": {
+    "title": "Kuma jirtid cidla",
+    "subtitle": "Neefsoo. Aan wada marayno tan.",
+    "step1": {
+      "title": "Tallaabooyinka 1: Badbaadada horeba",
+      "description": "Hubi in ilmahaaga iyo dadka ku xeeran jirkooda nabdoon yihiin."
+    },
+    "step2": {
+      "title": "Tallaabo 2: Yaree Culaysyada",
+      "description": "Hoos u dhig iftiinka haddii suurtogal ah. Yaree cod dhaadheer. Siiy ilmahaaga meel."
+    },
+    "step3": {
+      "title": "Tallaabo 3: La xidh oo Sug",
+      "description": "Fadhi agtiisa heerka isaga. Hurricanku wuu dhammaanayaa."
+    },
+    "call_support": "Wac khadka taageerada",
+    "close": "Hadda waan ficnanahay"
+  },
+  "common": {
+    "next": "Xiga",
+    "back": "Dib u noqo",
+    "save": "Keydi",
+    "cancel": "Jooji",
+    "skip": "Ka bood",
+    "done": "Dhammaystay",
+    "loading": "Raraya...",
+    "error": "Wax khalad ah ayaa dhacay",
+    "retry": "Isku day mar kale"
+  }
+}
