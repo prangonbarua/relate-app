@@ -92,7 +92,7 @@ Every daily card, every suggestion, every activity is built around this profile.
 
 ---
 
-### 3. The 5-Minute Daily Card
+### 3. The Daily Card
 **The heart of the product.**
 
 Every morning, one card. One skill. Five minutes.
@@ -184,8 +184,6 @@ One BCBA can serve **20 families** this way in the time a live session covers on
 **The staffing model:**
 - **Lead BCBA** — designs program, reviews logs, sets goals
 - **Parent** — daily implementer, trained through cards and modules
-- **AI (Claude)** — fills every gap between human touchpoints
-
 ---
 
 ### 7. Community — "Parents Like Me"
@@ -193,14 +191,6 @@ One BCBA can serve **20 families** this way in the time a live session covers on
 - Moderated by BCBAs who answer questions weekly
 - Parents share what's working in their own language
 - Peer testimony from someone who looks like you is more trusted than anything clinical
-
----
-
-### 8. Crisis Mode
-Child is melting down right now.
-
-Parent opens app → **3 steps immediately** based on their child's profile.
-No reading. No navigating. Just: do this, then this, then this.
 
 ---
 
@@ -260,43 +250,6 @@ Ongoing: Crisis mode, community, insurance navigator
 | Translations | i18n + human-reviewed | Verified by native speakers with autism context |
 | BCBA Layer | Async video review system | Parent logs → BCBA responds via video |
 | UX Pattern | WhatsApp-style simplicity | Low tech literacy required |
-
----
-
-## Business Model
-
-| Tier | Price | Included |
-|---|---|---|
-| **Free** | $0 | All education, daily cards, self-care library, community, crisis mode |
-| **Relate+** | $9.99/mo | BCBA async reviews, appeal letter generator, full resource navigator, personalized program |
-
-**Grant targets:** Autism CARES Act, HRSA grants, immigrant health equity funds, state developmental disability agencies
-
----
-
-## Roadmap
-
-**Phase 1 — Core**
-Daily cards, child profile, pre-diagnosis track, 3 languages (Bengali, Spanish, Somali), offline mode, basic community
-
-**Phase 2 — Expand**
-Self-care school, insurance navigator, BCBA async layer, 9 more languages, girl-specific track
-
-**Phase 3 — Scale**
-AI-generated personalized programs, BCBA marketplace, school IEP integration, government partnerships
-
----
-
-## The Team Needs
-
-- **Clinical Lead** — BCBA to design curriculum and vet all content
-- **Community Manager** — bilingual, from target communities, builds parent trust
-- **Mobile Engineer** — React Native, offline-first experience
-- **AI Engineer** — Claude API integration, profile-to-card personalization engine
-- **Translation Coordinators** — native speakers per language with autism context
-- **Content Producers** — filming parent testimonials in each target community
-
----
 
 ## Why This Exists
 
