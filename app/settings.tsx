@@ -5,18 +5,32 @@ import {
   ScrollView,
   TouchableOpacity,
   Alert,
+  Modal,
+  FlatList,
 } from "react-native";
+import { useState } from "react";
 import { router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useChildStore } from "../store/childStore";
 import { useUserStore } from "../store/userStore";
+import { LANGUAGES } from "../constants/languages";
+import i18n from "../i18n";
+import { LanguageCode } from "../types";
 
 export default function SettingsScreen() {
   const profile = useChildStore((s) => s.profile);
   const clearProfile = useChildStore((s) => s.clearProfile);
   const reset = useUserStore((s) => s.reset);
   const language = useUserStore((s) => s.language);
+  const setLanguage = useUserStore((s) => s.setLanguage);
+  const [showLanguagePicker, setShowLanguagePicker] = useState(false);
+
+  const handleSelectLanguage = (code: LanguageCode) => {
+    setLanguage(code);
+    i18n.changeLanguage(code);
+    setShowLanguagePicker(false);
+  };
 
   const handleLogout = () => {
     Alert.alert("Log Out", "This will reset the app and return to onboarding.", [
@@ -134,21 +148,19 @@ export default function SettingsScreen() {
         </View>
 
         <View className="mx-6 bg-white rounded-2xl border border-gray-100 overflow-hidden">
-          <View className="px-5 py-4 border-b border-gray-50 flex-row items-center gap-3">
+          <TouchableOpacity
+            onPress={() => setShowLanguagePicker(true)}
+            className="px-5 py-4 border-b border-gray-50 flex-row items-center gap-3"
+          >
             <Ionicons name="language-outline" size={20} color="#6366f1" />
             <View className="flex-1">
               <Text className="text-sm text-gray-900">Language</Text>
-              <Text className="text-xs text-gray-400">{language.toUpperCase()}</Text>
+              <Text className="text-xs text-gray-400">
+                {LANGUAGES.find((l) => l.code === language)?.nativeName ?? language.toUpperCase()}
+              </Text>
             </View>
-            <TouchableOpacity
-              onPress={() => {
-                router.back();
-                setTimeout(() => router.push("/(onboarding)"), 300);
-              }}
-            >
-              <Text className="text-xs text-indigo-600 font-medium">Change</Text>
-            </TouchableOpacity>
-          </View>
+            <Ionicons name="chevron-forward" size={16} color="#D1D5DB" />
+          </TouchableOpacity>
 
           <TouchableOpacity
             onPress={handleClearChat}
@@ -190,6 +202,45 @@ export default function SettingsScreen() {
           <Text className="text-xs text-gray-300">Relate v1.0 · Hackathon Demo</Text>
         </View>
       </ScrollView>
+
+      {/* Language picker modal */}
+      <Modal
+        visible={showLanguagePicker}
+        animationType="slide"
+        presentationStyle="pageSheet"
+        onRequestClose={() => setShowLanguagePicker(false)}
+      >
+        <SafeAreaView className="flex-1 bg-white">
+          <View className="px-6 py-4 border-b border-gray-100 flex-row items-center gap-3">
+            <Text className="text-xl font-bold text-gray-900 flex-1">Language</Text>
+            <TouchableOpacity
+              onPress={() => setShowLanguagePicker(false)}
+              className="w-10 h-10 items-center justify-center"
+            >
+              <Ionicons name="close" size={24} color="#374151" />
+            </TouchableOpacity>
+          </View>
+          <FlatList
+            data={LANGUAGES}
+            keyExtractor={(item) => item.code}
+            renderItem={({ item }) => (
+              <TouchableOpacity
+                onPress={() => handleSelectLanguage(item.code as LanguageCode)}
+                className="flex-row items-center gap-4 px-6 py-4 border-b border-gray-50"
+              >
+                <Text className="text-2xl">{item.flag}</Text>
+                <View className="flex-1">
+                  <Text className="text-sm font-medium text-gray-900">{item.nativeName}</Text>
+                  <Text className="text-xs text-gray-400">{item.name}</Text>
+                </View>
+                {language === item.code && (
+                  <Ionicons name="checkmark-circle" size={20} color="#6366f1" />
+                )}
+              </TouchableOpacity>
+            )}
+          />
+        </SafeAreaView>
+      </Modal>
     </SafeAreaView>
   );
 }
