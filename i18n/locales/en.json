@@ -55,7 +55,7 @@
   "tabs": {
     "home": "Home",
     "skills": "Skills",
-    "navigator": "Navigator",
+    "navigator": "Materials",
     "community": "Community",
     "assistant": "Assistant"
   },
@@ -92,8 +92,8 @@
     }
   },
   "navigator": {
-    "title": "Your Rights Navigator",
-    "subtitle": "Know your rights. Advocate effectively.",
+    "title": "Materials",
+    "subtitle": "Resources, rights & support guides",
     "sections": {
       "insurance": "Insurance Coverage",
       "school": "School Rights (IEP/504)",
@@ -111,18 +111,18 @@
     "title": "You're not alone",
     "subtitle": "Take a breath. Let's get through this together.",
     "step1": {
-      "title": "Step 1: Safety First",
-      "description": "Make sure your child and everyone nearby is physically safe. Remove any hazards from reach."
+      "title": "Remove Demands",
+      "description": "Stop all requests. Don't ask questions or give instructions. Remove expectations. Your child's nervous system is overwhelmed — reduce the load."
     },
     "step2": {
-      "title": "Step 2: Reduce Overwhelm",
-      "description": "Dim lights if possible. Reduce noise. Give your child space. Use a calm, quiet voice or no words at all."
+      "title": "Reduce Sensory Input",
+      "description": "Dim lights. Turn off sounds. Clear the space of people if possible. Offer noise-canceling headphones or a weighted blanket if they find those comforting."
     },
     "step3": {
-      "title": "Step 3: Connect & Wait",
-      "description": "Sit nearby at your child's level. Let them know you're there. Wait without demands. The storm will pass."
+      "title": "Stay Calm & Wait",
+      "description": "Sit nearby at their level. Breathe slowly. Don't touch unless they want it. Use few or no words. The meltdown will pass — your calm presence is enough."
     },
-    "call_support": "Call a support line",
+    "call_support": "Call 988 Now",
     "close": "I'm okay now"
   },
   "common": {

@@ -53,8 +53,9 @@
   "tabs": {
     "home": "ቤት",
     "skills": "ክህሎቶች",
-    "navigator": "ናቪጌተር",
-    "community": "ማህበረሰብ"
+    "navigator": "ቁሳቁሶች",
+    "community": "ማህበረሰብ",
+    "assistant": "ረዳት"
   },
   "home": {
     "greeting": "ሰላም {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "የዎ መብቶች ናቪጌተር",
-    "subtitle": "መብቶችዎን ይወቁ. ውጤታማ ምልከታ ያድርጉ.",
+    "title": "ቁሳቁሶች",
+    "subtitle": "ሀብቶች, መብቶች እና የድጋፍ መመሪያዎች",
     "sections": {
       "insurance": "የኢንሹራንስ ሽፋን",
       "school": "የትምህርት ቤት መብቶች",

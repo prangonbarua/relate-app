@@ -53,8 +53,9 @@
   "tabs": {
     "home": "होम",
     "skills": "कौशल",
-    "navigator": "नेविगेटर",
-    "community": "समुदाय"
+    "navigator": "सामग्री",
+    "community": "समुदाय",
+    "assistant": "सहायक"
   },
   "home": {
     "greeting": "नमस्ते {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "आपका अधिकार नेविगेटर",
-    "subtitle": "अपने अधिकार जानें। प्रभावी रूप से वकालत करें।",
+    "title": "सामग्री",
+    "subtitle": "संसाधन, अधिकार और सहायता मार्गदर्शिकाएँ",
     "sections": {
       "insurance": "बीमा कवरेज",
       "school": "स्कूल अधिकार",

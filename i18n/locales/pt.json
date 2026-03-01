@@ -53,8 +53,9 @@
   "tabs": {
     "home": "Início",
     "skills": "Habilidades",
-    "navigator": "Navegador",
-    "community": "Comunidade"
+    "navigator": "Materiais",
+    "community": "Comunidade",
+    "assistant": "Assistente"
   },
   "home": {
     "greeting": "Bom {{timeOfDay}}, {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "Navegador de direitos",
-    "subtitle": "Conheça seus direitos. Defenda-se efetivamente.",
+    "title": "Materiais",
+    "subtitle": "Recursos, direitos e guias de apoio",
     "sections": {
       "insurance": "Cobertura de seguro",
       "school": "Direitos escolares (IEP/504)",

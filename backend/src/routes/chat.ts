@@ -33,6 +33,11 @@ router.post("/", async (req: AuthRequest, res: Response) => {
       return;
     }
 
+    if (typeof message !== "string" || message.length > 2000) {
+      res.status(400).json({ error: "Message must be a string of 2000 characters or fewer" });
+      return;
+    }
+
     // Get child profile for context
     const profile = db
       .prepare("SELECT * FROM child_profiles WHERE user_id = ?")
@@ -128,7 +133,6 @@ Use this information to inform your response when relevant. Cite specific resour
     console.error("Chat error:", error.message);
     res.status(502).json({
       error: "Unable to reach the AI service. Make sure LM Studio is running on localhost:1234 with a model loaded.",
-      details: error.message,
     });
   }
 });
@@ -163,7 +167,6 @@ router.post("/translate", async (req: AuthRequest, res: Response) => {
     console.error("Translation error:", error.message);
     res.status(502).json({
       error: "Unable to reach the AI service. Make sure LM Studio is running on localhost:1234 with a model loaded.",
-      details: error.message,
     });
   }
 });

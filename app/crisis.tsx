@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, Linking } from "react-native";
 import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
@@ -45,7 +45,7 @@ export default function CrisisScreen() {
 
           {/* Steps */}
           <View className="gap-4 mb-8">
-            {STEPS.map((step, index) => (
+            {STEPS.map((step) => (
               <View
                 key={step.key}
                 className="bg-red-500 rounded-2xl p-5"
@@ -65,11 +65,24 @@ export default function CrisisScreen() {
             ))}
           </View>
 
-          {/* Support line button */}
-          <TouchableOpacity className="bg-white py-4 rounded-2xl items-center mb-4 flex-row justify-center gap-2">
-            <Ionicons name="call-outline" size={18} color="#DC2626" />
+          {/* 988 Hotline info */}
+          <View className="bg-red-500 rounded-2xl p-5 mb-4">
+            <Text className="text-red-100 text-xs font-semibold uppercase tracking-wide mb-2">
+              988 Suicide & Crisis Lifeline
+            </Text>
+            <Text className="text-white text-sm leading-6">
+              Free, confidential, 24/7 support. Available by phone, chat, and text.
+            </Text>
+          </View>
+
+          {/* Call Now button */}
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:988")}
+            className="bg-white py-4 rounded-2xl items-center mb-4 flex-row justify-center gap-2"
+          >
+            <Ionicons name="call" size={18} color="#DC2626" />
             <Text className="text-red-600 font-bold text-base">
-              {t("crisis.call_support")}
+              Call 988 Now
             </Text>
           </TouchableOpacity>
 

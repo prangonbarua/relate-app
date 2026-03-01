@@ -69,6 +69,16 @@ router.post("/posts", (req: AuthRequest, res: Response) => {
     return;
   }
 
+  if (typeof title !== "string" || title.length > 200) {
+    res.status(400).json({ error: "Title must be 200 characters or fewer" });
+    return;
+  }
+
+  if (typeof body !== "string" || body.length > 5000) {
+    res.status(400).json({ error: "Body must be 5000 characters or fewer" });
+    return;
+  }
+
   const result = db
     .prepare(
       "INSERT INTO posts (user_id, title, body, category) VALUES (?, ?, ?, ?)"
@@ -128,6 +138,11 @@ router.post("/posts/:id/comments", (req: AuthRequest, res: Response) => {
     return;
   }
 
+  if (typeof body !== "string" || body.length > 2000) {
+    res.status(400).json({ error: "Comment body must be 2000 characters or fewer" });
+    return;
+  }
+
   // Verify post exists
   const post = db.prepare("SELECT id FROM posts WHERE id = ?").get(postId);
   if (!post) {
@@ -153,7 +168,7 @@ router.post("/posts/:id/comments", (req: AuthRequest, res: Response) => {
   res.status(201).json({ comment });
 });
 
-// ── POST /posts/:id/vote — Vote on a post ───────────────────────────────────
+// ── POST /posts/:id/vote — Vote on a post (toggle behavior) ─────────────────
 router.post("/posts/:id/vote", (req: AuthRequest, res: Response) => {
   const postId = req.params.id;
   const { direction } = req.body;
@@ -172,10 +187,41 @@ router.post("/posts/:id/vote", (req: AuthRequest, res: Response) => {
     return;
   }
 
-  const delta = direction === "up" ? 1 : -1;
+  const newDirection = direction === "up" ? 1 : -1;
+
+  // Check if user already voted on this post
+  const existingVote = db
+    .prepare("SELECT direction FROM post_votes WHERE user_id = ? AND post_id = ?")
+    .get(req.userId!, postId) as { direction: number } | undefined;
+
+  let delta: number;
+
+  if (!existingVote) {
+    // No previous vote — insert new vote
+    db.prepare("INSERT INTO post_votes (user_id, post_id, direction) VALUES (?, ?, ?)").run(
+      req.userId!,
+      postId,
+      newDirection
+    );
+    delta = newDirection;
+  } else if (existingVote.direction === newDirection) {
+    // Same direction — toggle off (remove vote)
+    db.prepare("DELETE FROM post_votes WHERE user_id = ? AND post_id = ?").run(req.userId!, postId);
+    delta = -newDirection; // reverse the previous vote
+  } else {
+    // Different direction — update vote (swing of 2)
+    db.prepare("UPDATE post_votes SET direction = ? WHERE user_id = ? AND post_id = ?").run(
+      newDirection,
+      req.userId!,
+      postId
+    );
+    delta = newDirection * 2; // reverse old + apply new
+  }
+
   db.prepare("UPDATE posts SET votes = votes + ? WHERE id = ?").run(delta, postId);
 
-  res.json({ votes: post.votes + delta });
+  const updated = db.prepare("SELECT votes FROM posts WHERE id = ?").get(postId) as { votes: number };
+  res.json({ votes: updated.votes });
 });
 
 export default router;

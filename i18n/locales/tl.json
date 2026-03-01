@@ -53,8 +53,9 @@
   "tabs": {
     "home": "Tahanan",
     "skills": "Mga Kasanayan",
-    "navigator": "Navigator",
-    "community": "Komunidad"
+    "navigator": "Mga Materyales",
+    "community": "Komunidad",
+    "assistant": "Katulong"
   },
   "home": {
     "greeting": "Magandang {{timeOfDay}}, {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "Iyong Navigator ng Karapatan",
-    "subtitle": "Alamin ang iyong mga karapatan. Mag-adbokasya nang epektibo.",
+    "title": "Mga Materyales",
+    "subtitle": "Mga mapagkukunan, karapatan at gabay sa suporta",
     "sections": {
       "insurance": "Saklaw ng Insurance",
       "school": "Mga Karapatan sa Paaralan",

@@ -53,8 +53,9 @@
   "tabs": {
     "home": "Trang chủ",
     "skills": "Kỹ năng",
-    "navigator": "Điều hướng",
-    "community": "Cộng đồng"
+    "navigator": "Tài liệu",
+    "community": "Cộng đồng",
+    "assistant": "Trợ lý"
   },
   "home": {
     "greeting": "Chào buổi {{timeOfDay}}, {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "Điều hướng Quyền lợi",
-    "subtitle": "Biết quyền của bạn. Vận động hiệu quả.",
+    "title": "Tài liệu",
+    "subtitle": "Tài nguyên, quyền lợi và hướng dẫn hỗ trợ",
     "sections": {
       "insurance": "Bảo hiểm",
       "school": "Quyền tại trường",

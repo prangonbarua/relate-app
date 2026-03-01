@@ -53,8 +53,9 @@
   "tabs": {
     "home": "홈",
     "skills": "기술",
-    "navigator": "내비게이터",
-    "community": "커뮤니티"
+    "navigator": "자료",
+    "community": "커뮤니티",
+    "assistant": "어시스턴트"
   },
   "home": {
     "greeting": "안녕하세요, {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "권리 내비게이터",
-    "subtitle": "권리를 알고 효과적으로 옹호하세요.",
+    "title": "자료",
+    "subtitle": "자원, 권리 및 지원 가이드",
     "sections": {
       "insurance": "보험 적용",
       "school": "학교 권리",

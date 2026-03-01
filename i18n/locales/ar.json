@@ -53,8 +53,9 @@
   "tabs": {
     "home": "الرئيسية",
     "skills": "المهارات",
-    "navigator": "الدليل",
-    "community": "المجتمع"
+    "navigator": "المواد",
+    "community": "المجتمع",
+    "assistant": "المساعد"
   },
   "home": {
     "greeting": "صباح الخير {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "دليل حقوقك",
-    "subtitle": "اعرف حقوقك. دافع بفعالية.",
+    "title": "المواد",
+    "subtitle": "موارد وحقوق وأدلة الدعم",
     "sections": {
       "insurance": "تغطية التأمين",
       "school": "حقوق المدرسة",

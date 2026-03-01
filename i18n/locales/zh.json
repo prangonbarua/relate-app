@@ -53,8 +53,9 @@
   "tabs": {
     "home": "首页",
     "skills": "技能",
-    "navigator": "导航",
-    "community": "社区"
+    "navigator": "资料",
+    "community": "社区",
+    "assistant": "助手"
   },
   "home": {
     "greeting": "{{name}}，您好！",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "权利导航",
-    "subtitle": "了解您的权利。有效倡导。",
+    "title": "资料",
+    "subtitle": "资源、权利与支持指南",
     "sections": {
       "insurance": "保险覆盖",
       "school": "学校权利",

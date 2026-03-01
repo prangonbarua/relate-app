@@ -36,12 +36,33 @@ router.put("/", (req: AuthRequest, res: Response) => {
     return;
   }
 
-  const existing = db
-    .prepare("SELECT id FROM child_profiles WHERE user_id = ?")
-    .get(req.userId!) as { id: number } | undefined;
+  // Input length validation
+  if (typeof name === "string" && name.length > 100) {
+    res.status(400).json({ error: "Name must be 100 characters or fewer" });
+    return;
+  }
 
   const triggersJson = JSON.stringify(triggers || []);
   const lovesJson = JSON.stringify(loves || []);
+
+  if (triggersJson.length > 2000) {
+    res.status(400).json({ error: "Triggers must be 2000 characters or fewer" });
+    return;
+  }
+
+  if (lovesJson.length > 2000) {
+    res.status(400).json({ error: "Loves must be 2000 characters or fewer" });
+    return;
+  }
+
+  if (typeof notes === "string" && notes.length > 2000) {
+    res.status(400).json({ error: "Notes must be 2000 characters or fewer" });
+    return;
+  }
+
+  const existing = db
+    .prepare("SELECT id FROM child_profiles WHERE user_id = ?")
+    .get(req.userId!) as { id: number } | undefined;
 
   if (existing) {
     db.prepare(

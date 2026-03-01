@@ -6,12 +6,25 @@ import { AuthRequest, authMiddleware, createToken } from "../middleware/auth";
 const router = Router();
 
 // ── POST /register ──────────────────────────────────────────────────────────
-router.post("/register", (req: AuthRequest, res: Response) => {
+router.post("/register", async (req: AuthRequest, res: Response) => {
   const { name, email, password, language } = req.body;
 
   // Validate required fields
   if (!name || !email || !password) {
     res.status(400).json({ error: "Name, email, and password are required" });
+    return;
+  }
+
+  // Validate email format
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    res.status(400).json({ error: "Invalid email format" });
+    return;
+  }
+
+  // Validate password minimum length
+  if (password.length < 8) {
+    res.status(400).json({ error: "Password must be at least 8 characters" });
     return;
   }
 
@@ -23,7 +36,7 @@ router.post("/register", (req: AuthRequest, res: Response) => {
   }
 
   // Hash password and create user
-  const passwordHash = bcrypt.hashSync(password, 10);
+  const passwordHash = await bcrypt.hash(password, 10);
 
   const result = db
     .prepare(
@@ -42,7 +55,7 @@ router.post("/register", (req: AuthRequest, res: Response) => {
 });
 
 // ── POST /login ─────────────────────────────────────────────────────────────
-router.post("/login", (req: AuthRequest, res: Response) => {
+router.post("/login", async (req: AuthRequest, res: Response) => {
   const { email, password } = req.body;
 
   // Validate required fields
@@ -51,9 +64,9 @@ router.post("/login", (req: AuthRequest, res: Response) => {
     return;
   }
 
-  // Find user
+  // Find user — explicit column list instead of SELECT *
   const user = db
-    .prepare("SELECT * FROM users WHERE email = ?")
+    .prepare("SELECT id, name, email, password_hash, language, created_at FROM users WHERE email = ?")
     .get(email) as
     | { id: number; name: string; email: string; password_hash: string; language: string; created_at: string }
     | undefined;
@@ -63,8 +76,8 @@ router.post("/login", (req: AuthRequest, res: Response) => {
     return;
   }
 
-  // Verify password
-  const valid = bcrypt.compareSync(password, user.password_hash);
+  // Verify password — async bcrypt
+  const valid = await bcrypt.compare(password, user.password_hash);
   if (!valid) {
     res.status(401).json({ error: "Invalid email or password" });
     return;

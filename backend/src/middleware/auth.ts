@@ -1,6 +1,11 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 
+if (!process.env.JWT_SECRET) {
+  console.warn(
+    "WARNING: Using default JWT secret. Set JWT_SECRET in production."
+  );
+}
 const JWT_SECRET = process.env.JWT_SECRET || "relate-hackathon-demo-2026";
 
 /**

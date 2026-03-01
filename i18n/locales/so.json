@@ -53,8 +53,9 @@
   "tabs": {
     "home": "Guriga",
     "skills": "Xirfadaha",
-    "navigator": "Tilmaamaha",
-    "community": "Bulshada"
+    "navigator": "Agabka",
+    "community": "Bulshada",
+    "assistant": "Kaaliye"
   },
   "home": {
     "greeting": "Subax wanaagsan {{name}}!",
@@ -89,8 +90,8 @@
     }
   },
   "navigator": {
-    "title": "Tilmaamaha Xuquuqdaada",
-    "subtitle": "Ogow xuquuqdaada. Hil si waxtar leh.",
+    "title": "Agabka",
+    "subtitle": "Kheyraadka, xuquuqda iyo hagitaanka taageerada",
     "sections": {
       "insurance": "Daboolo Caymiska",
       "school": "Xuquuqda Dugsiga",

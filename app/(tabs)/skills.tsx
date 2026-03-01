@@ -168,31 +168,39 @@ export default function SkillsScreen() {
                           <ActivityIndicator size="small" color={cat.color} />
                         </View>
                       ) : (
-                        skills.map((skill) => (
-                          <View
-                            key={skill.id}
-                            className="p-4 bg-white rounded-xl border border-gray-100"
-                          >
-                            <Text className="font-semibold text-gray-900 text-sm mb-2">
-                              {skill.skill}
-                            </Text>
-                            <Text className="text-xs text-gray-500 leading-5 mb-3">
-                              {skill.whyItMatters.slice(0, 150)}...
-                            </Text>
-                            <View className="gap-1.5">
-                              {skill.steps.map((step, i) => (
-                                <View key={i} className="flex-row gap-2">
-                                  <Text className="text-xs font-bold" style={{ color: cat.color }}>
-                                    {i + 1}.
-                                  </Text>
-                                  <Text className="text-xs text-gray-600 flex-1 leading-5">
-                                    {step}
-                                  </Text>
-                                </View>
-                              ))}
+                        skills.length > 0 ? (
+                          skills.map((skill) => (
+                            <View
+                              key={skill.id}
+                              className="p-4 bg-white rounded-xl border border-gray-100"
+                            >
+                              <Text className="font-semibold text-gray-900 text-sm mb-2">
+                                {skill.skill}
+                              </Text>
+                              <Text className="text-xs text-gray-500 leading-5 mb-3">
+                                {skill.whyItMatters.slice(0, 150)}...
+                              </Text>
+                              <View className="gap-1.5">
+                                {skill.steps.map((step, i) => (
+                                  <View key={i} className="flex-row gap-2">
+                                    <Text className="text-xs font-bold" style={{ color: cat.color }}>
+                                      {i + 1}.
+                                    </Text>
+                                    <Text className="text-xs text-gray-600 flex-1 leading-5">
+                                      {step}
+                                    </Text>
+                                  </View>
+                                ))}
+                              </View>
                             </View>
+                          ))
+                        ) : (
+                          <View className="p-4 bg-gray-50 rounded-xl">
+                            <Text className="text-xs text-gray-400 text-center">
+                              No skills available yet
+                            </Text>
                           </View>
-                        ))
+                        )
                       )}
                     </View>
                   )}

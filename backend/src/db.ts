@@ -62,6 +62,16 @@ db.exec(`
   );
 `);
 
+// ── Post Votes (deduplication) ───────────────────────────────────────────────
+db.exec(`
+  CREATE TABLE IF NOT EXISTS post_votes (
+    user_id   INTEGER NOT NULL,
+    post_id   INTEGER NOT NULL,
+    direction INTEGER NOT NULL,
+    PRIMARY KEY(user_id, post_id)
+  );
+`);
+
 // ── Comments ─────────────────────────────────────────────────────────────────
 db.exec(`
   CREATE TABLE IF NOT EXISTS comments (
