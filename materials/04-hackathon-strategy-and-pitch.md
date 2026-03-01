@@ -571,3 +571,19 @@ Sources: [Persistence Market Research - Assistive Tech](https://www.persistencem
 ---
 
 **Important Note on Timing:** Blueprint 2026 is scheduled for **today, February 28, 2026**, and continues through March 1. If the team has not yet attended the learnathon portion, they should prioritize attending workshops and using mentors. The research above should serve as a comprehensive reference during and after the event. Good luck to the team.
+---
+
+## Additional Research (Updated March 2026)
+
+### MIT Blueprint 2026 Details
+
+- **Dates**: February 28 - March 1, 2026
+- **Type**: Weekend learnathon + hackathon for **high school students**
+- **Website**: [blueprint.hackmit.org](https://blueprint.hackmit.org/)
+- **Guide**: [guide.hackmit.org](https://guide.hackmit.org/)
+- **Format**: Learnathon phase → hackathon phase with MIT mentors
+- **Tracks**: "Start Hacking" (beginners/Python), Web Dev (beginner + advanced)
+- **Prizes**: Blueprint emphasizes **learning and collaboration over competition** — no formal competitive prizes
+- **Note**: This is MIT's largest high school hackathon
+
+Source: [Blueprint 2026](https://blueprint.hackmit.org/), [Veritas AI Review](https://www.veritasai.com/veritasaiblog/hackmits-blueprint-is-it-worth-it)

@@ -611,3 +611,32 @@ Based on this research, the most impactful approach for immigrant parents would 
 14. Tafla, T.L. et al. (2024). Autism spectrum disorder diagnosis across cultures: Are diagnoses equivalent? [SAGE Journals](https://journals.sagepub.com/doi/10.1177/27546330241226811)
 
 15. Kim, S.H. & Lord, C. (2012). Multisite Study of New ADI-R Algorithms for Toddlers and Young Preschoolers. [PMC3594108](https://pmc.ncbi.nlm.nih.gov/articles/PMC3594108/)
+---
+
+## Additional Research (Updated March 2026)
+
+### CDC Developmental Milestones — Complete Reference
+
+CDC's "Learn the Signs. Act Early." program provides free milestone checklists from ages **2 months through 5 years**, with checklists at 15 and 30 months aligning with every recommended well-child visit.
+- **Milestone Checklists by Age**: [cdc.gov/act-early/resources/milestones-checklist-by-age.html](https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html)
+- **Free Milestone Tracker App** (iOS/Android) — available in English and Spanish: [cdc.gov/act-early/milestones](https://www.cdc.gov/act-early/milestones/index.html)
+
+**AAP Screening Recommendations:**
+- General development screening at **9, 18, and 30 months**
+- Autism-specific screening at **18 and 24 months** (or whenever concern arises)
+- Source: [CDC Developmental Monitoring](https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html)
+
+### New AI-Powered Screening Tools (2025-2026)
+
+1. **Neo Sophia Screener** (Aug 2025) — Free mobile app using M-CHAT-R with AI assistant that personalizes the experience, offers simple explanations and relatable examples in plain language. ([PR Newswire](https://www.prnewswire.com/news-releases/neo-sophia-launches-free-ai-autism-screener-built-on-aap-recommended-guidelines-302537672.html))
+
+2. **SenseToKnow** — Mobile app for remote autism screening using computer vision and machine learning. Caregivers use it at home (watch videos, play bubble-popping game). Multi-site study with 620 toddlers (16-40 months) showed high accuracy. ([ACAMH](https://www.acamh.org/blog/validation-of-a-mobile-app-for-remote-autism-screening-in-toddlers/))
+
+3. **Duke Tablet-Based AI App** — Measures multiple behavioral indicators simultaneously for screening. ([Duke Psychiatry](https://psychiatry.duke.edu/news/tablet-based-ai-app-measures-multiple-behavioral-indicators-screen-autism))
+
+4. **Multimodal AI** — Integrating voice analysis and screening tools for risk stratification. Published in npj Digital Medicine 2025. ([Nature](https://www.nature.com/articles/s41746-025-01914-6))
+
+### Existing Comprehensive Apps
+
+- **Autism 360** — All-in-one platform with digital therapeutic support and parent community ([autism360.com](https://www.autism360.com/top-apps-for-autism/))
+- **Autism Tracker Pro** — Behavior, mood, medication tracking with reports for healthcare providers

@@ -485,3 +485,54 @@ For the hackathon app, the following are the most critical messages to convey to
 ---
 
 This research reflects the landscape as of **February 28, 2026**. The legal environment is rapidly changing, and families should always verify current policy with organizations like NILC, ILRC, and their state's Parent Training and Information Center. The key takeaway is that **significant rights and protections exist**, but **fear and misinformation are the biggest barriers** to accessing them. An app that clearly communicates these rights in accessible, multilingual formats, while being honest about risks, could be transformative for these families.
+---
+
+## Additional Research (Updated March 2026)
+
+### ICE Sensitive Locations Policy — Current Status
+
+On **January 20, 2025**, the Trump Administration **rescinded the sensitive locations/protected areas policy**, giving ICE agents authority to take enforcement actions at schools, hospitals, churches, therapy centers, and child care programs. ([NILC Factsheet](https://www.nilc.org/resources/factsheet-trumps-rescission-of-protected-areas-policies-undermines-safety-for-all/))
+
+On January 31, 2025, ICE issued a memo providing minimal safeguards — agents "may authorize" enforcement at formerly protected areas but no consequences for failure to seek authorization. ([Venable LLP Analysis](https://www.venable.com/insights/publications/2025/03/trump-administration-rescinds-sensitive-locations))
+
+**State responses (2025-2026):**
+- **Massachusetts**: Gov. Healey filed legislation to keep ICE out of courthouses, schools, hospitals, churches; signed executive order limiting ICE on state property ([Mass.gov](https://www.mass.gov/news/governor-healey-takes-action-to-keep-ice-out-of-schools-hospitals-courthouses-and-places-of-worship))
+- **Illinois**: Gov. Pritzker signed measure barring health care providers from sharing info with immigration agents ([Stateline](https://stateline.org/2026/02/09/health-care-workers-want-ice-out-of-hospitals-and-blue-states-are-responding/))
+- **Maine, New Jersey, New York, Oregon, Washington**: Considering similar bills
+- **Minnesota**: Superintendents sued to restore sensitive locations protections ([Chalkbeat](https://www.chalkbeat.org/2026/02/11/minnesota-superintendents-sue-to-restore-sensitive-locations-protections/))
+- **Federal**: Protecting Sensitive Locations Act of 2025 (S.455/H.R.1061) pending in Congress with 580+ organizational endorsements ([CLASP](https://www.clasp.org/publications/fact-sheet/protecting-sensitive-locations-act-of-2025/))
+
+**Healthcare providers warning**: KFF reports increased chilling effect — families avoiding medical care and therapy due to fear of ICE presence at facilities ([KFF](https://www.kff.org/quick-take/health-care-providers-warn-of-impacts-of-increased-ice-presence-at-health-care-facilities/))
+
+### States Covering Undocumented Children's Health Insurance (14 states + DC)
+
+California, Colorado, Connecticut, Illinois, Maine, Massachusetts, Minnesota, New Jersey, New York, Oregon, Rhode Island, Utah, Vermont, Washington, and DC.
+
+### Key Nonprofits Serving Undocumented Families with Autistic Kids
+
+- **Grupo Salto** (Chicago) — Latino families with autism, Spanish-speaking
+- **Starry Bridge** (Buffalo, NY) — Immigrant families navigating autism services
+- **Color of Autism Foundation** (Detroit) — Underserved communities
+- **CLASE** (CA Inland Empire) — Spanish-speaking families
+
+### Financial Assistance Without SSN
+
+- ACT Today grants (up to $5,000)
+- Autism Speaks Autism Care Grant ($500)
+- UHCCF grants ($5,000/year)
+- FQHCs with sliding-scale fees
+- University clinics with free evaluations
+
+### Telehealth Options Without Documentation
+
+- Open Path Collective ($40-70/session, all 50 states)
+- Blue Tide Therapy ($400 diagnostic evaluations, 11 states)
+- Community Mental Health Centers with sliding scale
+
+### Crisis Hotlines
+
+- 988 Suicide & Crisis Lifeline
+- NAMI Helpline: 800-950-6264
+- 211 (local services)
+- Autism Response Team: 888-288-4762
+- ICIRR Family Support: 855-435-7693

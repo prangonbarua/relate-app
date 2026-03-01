@@ -1172,3 +1172,20 @@ model ForumTranslation {
 ---
 
 This research covers all 10 areas you requested plus the hackathon strategy, privacy architecture, boilerplate options, and complete schema design. The stack is designed so that every service fits within free tiers for the hackathon, the authentication is privacy-preserving for undocumented users, and the time budget is realistic for a 10-hour build. I attempted to save this as a file to `/Users/arielorlov/Desktop/hackathon-tech-stack-research.md` but file write permission was denied. If you would like me to save this to disk, you can grant the Write permission and I will create the file.
+---
+
+## Additional Research (Updated March 2026)
+
+### Best i18n Library for 10+ Languages (React + TypeScript)
+
+**Recommended: react-i18next** — 2.1M weekly downloads, most popular React i18n solution.
+- Built on i18next ecosystem with plugins for language detection, async loading, complex plurals
+- Bundle: 22.2 kB (i18next 15.1kB + react-i18next 7.1kB)
+- Supports JSON translation files — easy to add languages incrementally
+- Source: [Phrase Blog](https://phrase.com/blog/posts/react-i18n-best-libraries/), [react.i18next.com](https://react.i18next.com)
+
+**Lightweight alternative: LinguiJS** — 10.4 kB total (half the size), ICU message syntax, TypeScript support.
+
+**For hackathon speed**: react-i18next with JSON translation files. Start with English + Spanish, add other languages via JSON files. Use Google Translate API or DeepL for initial translations.
+
+Source: [GloryWebs 2026 Guide](https://www.glorywebs.com/blog/internationalization-in-react), [SimpleLocalize](https://simplelocalize.io/blog/posts/the-most-popular-react-localization-libraries/)

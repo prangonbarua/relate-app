@@ -549,3 +549,19 @@
 ---
 
 This analysis covers **40+ apps, platforms, and digital tools** across 8 categories. The central finding is clear: while the autism app ecosystem is large and growing, there is a massive gap for immigrant and multilingual families. No single product on the market today combines multilingual support, cultural sensitivity, US system navigation, community connection, and AI-powered guidance into one free, accessible platform. That is your hackathon opportunity.
+---
+
+## Additional Research (Updated March 2026)
+
+### New AI-Powered Autism Tools (2025-2026)
+
+1. **Neo Sophia Screener** (Aug 2025) — Free AI-powered M-CHAT-R screener app with personalized guidance for parents ([prnewswire.com](https://www.prnewswire.com/news-releases/neo-sophia-launches-free-ai-autism-screener-built-on-aap-recommended-guidelines-302537672.html))
+2. **SenseToKnow** — Mobile app using computer vision + ML for remote autism screening in toddlers. Multi-site validation study (N=620) showed high accuracy. ([ACAMH](https://www.acamh.org/blog/validation-of-a-mobile-app-for-remote-autism-screening-in-toddlers/))
+3. **Duke AI Tablet App** — Measures multiple behavioral indicators simultaneously ([Duke](https://psychiatry.duke.edu/news/tablet-based-ai-app-measures-multiple-behavioral-indicators-screen-autism))
+4. **Multimodal AI (voice + screening)** — npj Digital Medicine 2025, integrating voice analysis for risk stratification ([Nature](https://www.nature.com/articles/s41746-025-01914-6))
+5. **Autism 360** — "Only all-in-one comprehensive Autism platform" with digital therapeutics + parent community ([autism360.com](https://www.autism360.com/top-apps-for-autism/))
+6. **Autism Tracker Pro** — Behavior/mood/medication tracking with reports for providers
+
+### Key Gap Our App Fills
+
+None of the above combine: **multilingual support (10+ languages) + immigrant-specific resources + government resource navigator + screening + skill-building + community forum** in one app. The closest competitor (Autism 360) lacks multilingual/immigrant focus entirely.

@@ -533,3 +533,25 @@ Key quote from research: **"As immigrants we are all lost in our autism journey"
 | Global Autism Project | [globalautismproject.org](https://www.globalautismproject.org/) |
 | OAR Korean Caregivers | [researchautism.org](https://researchautism.org/) |
 | Supporting Immigrant Parents | [autismspectrumnews.org](https://autismspectrumnews.org/supporting-immigrant-parents-now-u-s-citizens-in-navigating-services-for-autistic-children/) |
+---
+
+## Additional Research (Updated March 2026)
+
+### Autism Speaks Multilingual Resources — Direct URLs
+
+- **Non-English Resources Hub**: [autismspeaks.org/non-english-resources](https://www.autismspeaks.org/non-english-resources)
+- **Spanish (Español)**: [autismspeaks.org/espanol](https://www.autismspeaks.org/espanol)
+- **Chinese (中文)**: [autismspeaks.org/chinese-resources](https://www.autismspeaks.org/chinese-resources)
+- **Arabic (العربية)**: [autismspeaks.org/arabic-resources](https://www.autismspeaks.org/arabic-resources)
+- **Korean, Portuguese, Romanian, Serbian, Somali, Vietnamese**: Available through the non-English resources hub
+- **Additional languages available**: Bangla, Bosnian, Cambodian, French, Greek, Laotian, Russian
+
+Source: [TTAC Online](https://ttaconline.org/Resource/JWHaEa5BS74T8volqPundQ/Resource-resources-for-non-english-speaking-families-autism-speaks)
+
+### Additional Multilingual Resource Organizations
+
+- **Autism Around the Globe** — Resource materials in multiple languages: [autismaroundtheglobe.org/resource-materials](https://www.autismaroundtheglobe.org/resource-materials/)
+- **Organization for Autism Research (OAR)** — Spanish resources: [researchautism.org/families/spanish-language-resources-en](https://researchautism.org/families/spanish-language-resources-en/)
+- **MAAC Early** — Translated materials collection: [maactearly.org/translated-materials.html](https://www.maactearly.org/translated-materials.html)
+- **Burkhart Center (TTU)** — Spanish autism resources: [depts.ttu.edu/burkhartcenter/autism-resources/spanish-language-resources.php](https://www.depts.ttu.edu/burkhartcenter/autism-resources/spanish-language-resources.php)
+- **Friendship Circle** — 12 autism resources in Spanish: [friendshipcircle.org](https://www.friendshipcircle.org/blog/2013/10/23/13-autism-resources-resources-in-spanish-you-should-know-about)

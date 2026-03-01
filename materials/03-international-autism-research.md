@@ -424,3 +424,22 @@ Based on this research, here are the most actionable takeaways for the hackathon
 - [Autism Speaks Non-English Resources](https://www.autismspeaks.org/non-english-resources)
 - [UNICEF Inclusive Education](https://www.unicef.org/education/inclusive-education)
 - [NIMH Spanish Autism Resources](https://www.nimh.nih.gov/health/publications/espanol/trastornos-del-espectro-autista)
+---
+
+## Additional Research (Updated March 2026)
+
+### Bilingualism and Autism — Research Consensus
+
+**Key finding: Bilingualism does NOT harm autistic children's language development.** Multiple systematic reviews confirm this:
+
+1. **Systematic Review (2023)** — "There seems to be consensus that bilingualism does not entail any additional difficulty for language development in children with ASD from age 3." At worst no effect; at best, advantages in adaptive functioning, social communication, and receptive language. ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S217358082300072X))
+
+2. **Gilhuber et al. (2023)** — Systematic review of language/communication in multilingual autistic children found no evidence of negative impacts. ([SAGE Journals](https://journals.sagepub.com/doi/10.1177/13623613221147780))
+
+3. **PMC Review** — "Research to date indicates that at worst bilingual exposure in children with ASD has no effect on language development and at best offers advantages." ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7370402/))
+
+4. **Frontiers in Psychology (2024)** — Study on bilingual language exposure effects on toddlers with ASD found no negative effects. ([Frontiers](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1412339/full))
+
+5. **Stakeholder Perspectives (2025)** — Autistic individuals perceived bilingualism as an asset enriching their lives by fostering social connections, strengthening family relationships, and providing greater personal/professional opportunities. ([Springer](https://link.springer.com/article/10.1007/s40489-025-00519-9))
+
+**Critical for the app:** Despite research consensus, many parents report being **advised by providers to drop a language** — this is NOT evidence-based. The app should prominently feature this research to reassure multilingual families. ([ASHA Journal](https://pubs.asha.org/doi/10.1044/2016_JSLHR-L-15-0348))

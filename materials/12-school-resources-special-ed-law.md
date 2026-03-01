@@ -1104,3 +1104,25 @@ Based on this research, the hackathon app should include:
 ---
 
 This is a comprehensive research compilation covering all 9 major topic areas you requested, with specific URLs, legal citations, practical resources, step-by-step guides, template letters, checklists, timeline content, red flag indicators, and app feature recommendations. The research draws from over 25 distinct web searches across government sources, legal databases, advocacy organizations, and parent support resources.
+---
+
+## Additional Research (Updated March 2026)
+
+### Parent Training and Information Centers (PTIs) — Finding Your State's Center
+
+**Master Directory**: Use the Center for Parent Information and Resources (CPIR) interactive map:
+→ **[parentcenterhub.org/find-your-center](https://www.parentcenterhub.org/find-your-center/)**
+
+There are nearly **100 PTIs and Community Parent Resource Centers (CPRCs)** across all US states and territories. Every state has at least one.
+
+**Notable PTIs by state:**
+- **Massachusetts**: Federation for Children with Special Needs — [fcsn.org/pti](https://fcsn.org/pti/)
+- **New Jersey**: SPAN Parent Advocacy Network — [spanadvocacy.org/programs/pti](https://spanadvocacy.org/programs/pti/)
+- **Connecticut**: CPAC — [cpacinc.org/programs-pti.aspx](https://cpacinc.org/programs-pti.aspx)
+- **Maine**: Maine Parent Federation — [mpf.org/programs/pti](https://www.mpf.org/programs/pti/)
+- **North Carolina**: ECAC — [ecac-parentcenter.org](https://www.ecac-parentcenter.org/parent-training-and-information-center-pti/)
+- **California**: DREDF — [dredf.org/vertical/pti](https://dredf.org/vertical/pti/)
+
+**Services PTIs provide**: One-on-one support, workshops, publications, websites. Serve families of children birth to age 26 with all disabilities.
+
+Sources: [US Dept of Education](https://www.ed.gov/program/parent-training-and-information-centers), [CPIR](https://www.parentcenterhub.org/find-your-center/)
