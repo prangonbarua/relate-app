@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { DailyCard } from "../../components/DailyCard";
 import { useChildStore } from "../../store/childStore";
+import { useAuthStore } from "../../store/authStore";
 import { DailyCard as DailyCardType } from "../../types";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
@@ -23,12 +24,6 @@ const PLACEHOLDER_CARD: DailyCardType = {
   date: new Date().toISOString(),
 };
 
-const QUICK_ACTIONS = [
-  { icon: "compass-outline" as const, label: "Resources", route: "/(tabs)/navigator" },
-  { icon: "people-outline" as const, label: "Community", route: "/(tabs)/community" },
-  { icon: "sparkles-outline" as const, label: "Ask AI", route: "/(tabs)/assistant" },
-];
-
 function getTimeOfDay(): "morning" | "afternoon" | "evening" {
   const hour = new Date().getHours();
   if (hour < 12) return "morning";
@@ -38,14 +33,22 @@ function getTimeOfDay(): "morning" | "afternoon" | "evening" {
 
 export default function HomeScreen() {
   const { t } = useTranslation();
+  const quickActions = [
+    { icon: "compass-outline" as const, label: t("home.quick_actions.resources"), route: "/(tabs)/navigator" },
+    { icon: "people-outline" as const, label: t("home.quick_actions.community"), route: "/(tabs)/community" },
+    { icon: "sparkles-outline" as const, label: t("home.quick_actions.ask_ai"), route: "/(tabs)/assistant" },
+  ];
   const profile = useChildStore((s) => s.profile);
+  const user = useAuthStore((s) => s.user);
   const logs = useChildStore((s) => s.logs);
 
   const timeOfDay = getTimeOfDay();
   const streak = logs.filter((l) => l.result !== "skip").length;
 
-  const greeting = profile?.name
-    ? t("home.greeting", { timeOfDay: t(`home.timeOfDay.${timeOfDay}`), name: profile.name })
+  // Use parent's first name for the greeting
+  const parentFirstName = user?.name?.split(" ")[0];
+  const greeting = parentFirstName
+    ? t("home.greeting", { timeOfDay: t(`home.timeOfDay.${timeOfDay}`), name: parentFirstName })
     : t("home.greeting_no_name", { timeOfDay: t(`home.timeOfDay.${timeOfDay}`) });
 
   return (
@@ -63,7 +66,12 @@ export default function HomeScreen() {
           }}
         >
           <View style={{ flex: 1 }}>
-            <Text style={{ fontSize: 22, fontWeight: "700", color: Colors.text }}>
+            <Text
+              numberOfLines={2}
+              adjustsFontSizeToFit
+              minimumFontScale={0.7}
+              style={{ fontSize: 22, fontWeight: "700", color: Colors.text }}
+            >
               {greeting}
             </Text>
             {streak > 0 && (
@@ -102,7 +110,7 @@ export default function HomeScreen() {
             marginBottom: 24,
           }}
         >
-          {QUICK_ACTIONS.map((action) => (
+          {quickActions.map((action) => (
             <TouchableOpacity
               key={action.label}
               onPress={() => router.push(action.route as Parameters<typeof router.push>[0])}
@@ -128,7 +136,12 @@ export default function HomeScreen() {
               >
                 <Ionicons name={action.icon} size={18} color={Colors.primary} />
               </View>
-              <Text style={{ fontSize: 11, fontWeight: "600", color: Colors.textSecondary }}>
+              <Text
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.75}
+                style={{ fontSize: 11, fontWeight: "600", color: Colors.textSecondary }}
+              >
                 {action.label}
               </Text>
             </TouchableOpacity>
@@ -147,7 +160,7 @@ export default function HomeScreen() {
               marginBottom: 12,
             }}
           >
-            Today's Skill
+            {t("home.daily_card.title")}
           </Text>
           <DailyCard card={PLACEHOLDER_CARD} />
         </View>

@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "教育",
+    "title": "个性化教育计划（IEP）",
+    "summary": "一份具有法律约束力的文件，概述您孩子的特殊教育服务和目标。",
+    "details": "IEP 由包括家长、教师和专家在内的团队制定。根据 IDEA（残疾人教育法），您的孩子有权在限制最少的环境 (LRE) 中接受免费适当的公共教育 (FAPE)。您有权参加每次 IEP 会议并有权不同意学校的建议。 IEP 至少每年审核一次，但您可以随时请求召开会议。",
+    "steps": [
+      "向您所在学区的特殊教育部门请求书面评估。",
+      "在您同意后，学校有 60 天的时间完成评估。",
+      "参加 IEP 会议 — 带上您自己的笔记、观察结果和任何私人评估。",
+      "仔细审查提议的目标。您可以在签署前进行协商并请求更改。",
+      "监控全年个别化教育计划目标的进展情况，并向学校索取数据。",
+      "如果您不同意，您可以免费申请调解或正当程序听证会。"
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "国家服务",
+    "title": "区域中心服务（加利福尼亚州）",
+    "summary": "为患有发育障碍（包括自闭症）的加州人提供免费的终身服务。",
+    "details": "加州的 21 个区域中心为发育障碍人士提供评估、诊断和服务，无论收入或移民身份如何。服务可包括应用行为分析 (ABA)、暂托护理、言语治疗、职业治疗、社交技能小组和家庭支持。区域中心服务是一项权利——如果您的孩子符合资格，就不能因为资金问题而拒绝为他们提供服务。",
+    "steps": [
+      "请联系您当地的区域中心并请求预约。",
+      "带上任何现有的评估、医疗记录和学校文件。",
+      "您的孩子将接受评估——此过程最多可能需要 120 天。",
+      "如果符合条件，您将与服务协调员合作制定个人计划计划 (IPP)。",
+      "请求您需要的特定服务——ABA、暂托、言语治疗等。",
+      "每年审查您的 IPP 并根据您孩子的需求变化请求更改。"
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "国家服务",
+    "title": "早期开始计划（0-3岁）",
+    "summary": "加州针对发育迟缓的婴幼儿的早期干预计划。",
+    "details": "Early Start 计划为从出生到 3 岁有发育迟缓或已确定风险状况的儿童提供服务。服务在自然环境（您的家、托儿所、公园）中提供，并且无论收入如何都是免费的。在此关键时期的早期干预可以显着改善结果。 3 岁后，儿童通过 IEP 流程过渡到学区服务。",
+    "steps": [
+      "致电您当地的区域中心或学区来推荐您的孩子。",
+      "将在转介后 45 天内安排评估。",
+      "如果符合资格，将在符合资格后 45 天内制定个性化家庭服务计划 (IFSP)。",
+      "签署 IFSP 后，服务将尽快开始。",
+      "2.5 岁时，开始向学前服务过渡的规划过程。",
+      "您可以在 3 岁后通过单独的资格流程继续区域中心服务。"
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "保险与资金",
+    "title": "自闭症服务保险范围",
+    "summary": "了解您获得保险承保的自闭症治疗的权利以及如何对拒绝提出上诉。",
+    "details": "大多数州都有自闭症保险规定，要求承保自闭症相关服务。在加利福尼亚州，SB 946 要求健康计划涵盖自闭症行为健康治疗（包括 ABA）。联邦心理健康平等法还要求心理健康和医疗状况的平等承保。如果您的保险拒绝承保，您有权在内部和外部提出上诉。加州管理医疗保健部 (DMHC) 可以帮助处理外部上诉。",
+    "steps": [
+      "索取一份您的计划针对自闭症和行为健康服务的福利副本。",
+      "从您孩子的医生处获取书面推荐，其中指定推荐的治疗方法。",
+      "向您的保险公司提交预授权请求。",
+      "如果被拒绝，请以书面形式请求拒绝，并附上具体原因和政策引用。",
+      "提交内部上诉并附上医生出具的医疗必要性信函。",
+      "如果内部上诉失败，请向您所在州的保险监管机构（加利福尼亚州的 DMHC）提出投诉。"
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "教育",
+    "title": "504 计划住宿",
+    "summary": "不需要特殊教育资格的教室住宿计划。",
+    "details": "504 计划以《康复法》第 504 条为基础，提供住宿以确保平等的受教育机会。与 IEP 不同，504 计划不需要特殊教育分类 - 它涵盖任何严重限制主要生活活动（包括学习和社交互动）的残疾儿童。常见的调整措施包括优先座位、延长测试时间、感官休息和视觉时间表。",
+    "steps": [
+      "写信给您的学校，请求进行 504 评估，并说明您孩子的诊断或疑似残疾。",
+      "提供文件：医疗记录、评估、教师观察。",
+      "参加与学校团队的 504 会议，讨论住宿事宜。",
+      "查看提议的住宿安排，并根据您孩子的需求提出添加建议。",
+      "该计划应每年进行一次审查——如果调整措施没有得到落实，则要求召开一次会议。",
+      "如果学校拒绝评估或提供 504，您可以向民权办公室 (OCR) 提出投诉。"
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "疗法",
+    "title": "言语和语言治疗",
+    "summary": "如何获得言语治疗服务以及对治疗的期望。",
+    "details": "言语病理学家 (SLP) 的工作不仅仅是言语——他们还解决交流的各个方面，包括理解语言、使用单词、社交交流，甚至喂养/吞咽问题。对于自闭症儿童，SLP 通常致力于功能性沟通（表达愿望和需要的能力）、实用语言（语言的社交使用）以及增强和替代性沟通 (AAC) 设备。研究强烈支持双语家庭维持家庭语言——双语并不会延迟自闭症儿童的语言发展。",
+    "steps": [
+      "请您的儿科医生转介给一位对自闭症有丰富经验的言语病理学家。",
+      "检查多个接入点：保险、区域中心、学区 (IEP) 和大学诊所（通常费用较低）。",
+      "如果您的孩子言语能力极差，请寻找具有 AAC 经验的 SLP — 并非所有 SLP 都擅长于此。",
+      "询问家长辅导模式，SLP 训练您全天支持沟通。",
+      "要求可衡量的目标和定期进度报告。",
+      "如果您的孩子会说双语，请寻找支持家庭语言维护的 SLP 或请求口译员。"
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "疗法",
+    "title": "ABA 疗法：需要了解什么",
+    "summary": "了解应用行为分析疗法——好处、担忧以及如何找到优质的提供者。",
+    "details": "应用行为分析 (ABA) 是最常推荐和研究的自闭症疗法。现代 ABA 较其起源有了显着的发展，现在强调遵循孩子兴趣的基于游戏的自然主义方法。然而，不同提供商之间的质量差异很大。好的 ABA 看起来像是有趣、引人入胜的活动，而不是桌上的练习。危险信号包括忽视孩子的痛苦、以剥夺食物作为动机，或仅仅关注孩子的依从性。您有权旁听治疗，并且应该对您孩子的治疗感到满意。",
+    "steps": [
+      "研究提供者仔细询问他们的方法（自然试验与离散试验）和监督比率。",
+      "请求在提交之前以及开始后定期观察会话。",
+      "确保该计划由委员会认证的行为分析师 (BCBA) 监督，他会定期探访您的孩子。",
+      "一起讨论目标——优先考虑功能技能和沟通，而不是基于合规性的目标。",
+      "监测孩子的情绪健康——治疗不应引起痛苦、焦虑或回避。",
+      "探索替代方案或补充方案：言语治疗、职业治疗、DIR/Floortime 等发展方法。"
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "移民",
+    "title": "无证家庭的权利",
+    "summary": "无论移民身份如何，都可以提供残疾服务，以及如何安全地获得这些服务。",
+    "details": "无论移民身份如何，都可以为自闭症儿童提供许多关键服务。学校必须教育所有儿童（Plyler v. Doe），区域中心不能询问移民身份，Medi-Cal 通过儿童 Medi-Cal 等计划覆盖儿童，无论其身份如何。接受联邦资助的学校和医疗保健提供者无法与移民执法部门共享信息。您有权携带辩护人或口译员参加任何会议。",
+    "steps": [
+      "请联系您当地的区域中心——他们被禁止询问移民身份。",
+      "让您的孩子入学——所有孩子无论身份如何都有权接受公共教育。",
+      "通过您所在县的社会服务办公室为您的孩子申请 Medi-Cal。",
+      "为所有会议请求一名口译员——这是您的合法权利。",
+      "了解您的权利：如果没有法官签署的司法令状，您不必向 ICE 敞开大门。",
+      "与当地移民权利组织联系以获得支持导航服务——许多组织提供免费的法律诊所。"
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "联邦计划",
+    "title": "IDEA C 部分 — 早期干预（出生至 3 岁）",
+    "summary": "为患有发育迟缓（包括自闭症）的婴幼儿提供免费的联邦早期干预服务。",
+    "details": "《残疾人教育法》(IDEA) C 部分是一项联邦拨款计划，帮助各州为残疾婴幼儿（出生至 2 岁）及其家人提供全面的早期干预服务。服务包括言语治疗、职业治疗、物理治疗、行为支持、辅助技术和家庭培训。每个孩子都会收到一份个性化家庭服务计划 (IFSP)。服务是在家庭或日托等自然环境中提供的。评估始终免费，并且根据您所在的州免费或低价提供服务。重要提示：无论移民身份如何，所有儿童都可以获得服务。",
+    "steps": [
+      "联系您所在州的 C 部分早期干预计划 — 请访问ectacenter.org/contact/ptccoord.asp 查找您所在州的协调员。",
+      "为您的孩子申请免费的发育评估——该计划必须在 45 天内完成。",
+      "如果符合条件，请与团队一起制定您孩子的个性化家庭服务计划 (IFSP)。",
+      "在您签署 IFSP 后，服务将尽快开始 — 询问有关言语、OT、PT 和行为支持的信息。",
+      "每 6 个月审查一次 IFSP，并在您孩子的需求发生变化时请求更改。",
+      "2.5 岁时，开始计划通过您的学区过渡到 B 部分学前服务（3-21 岁）。"
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "联邦计划",
+    "title": "IDEA B 部分 — 特殊教育（3-21 岁）",
+    "summary": "通过公立学校系统为自闭症儿童和青少年提供免费特殊教育和相关服务。",
+    "details": "IDEA B 部分保证所有残疾儿童（包括自闭症儿童）在限制最少的环境 (LRE) 中接受免费适当的公共教育 (FAPE) 的权利。自闭症是 14 种符合资格的残疾类别之一。您的孩子有权参加个性化教育计划 (IEP)，该计划概述了具体目标、服务和住宿。相关服务包括言语治疗、职业治疗、社交技能培训、行为支持和交通。第 619 条涵盖 3-5 岁儿童的学前补助金。所有服务都是完全免费的。根据最高法院 1982 年 Plyler 诉 Doe 案的裁决，学校不能询问移民身份。",
+    "steps": [
+      "向您孩子的学区提交特殊教育评估的书面请求。",
+      "学校必须在收到您的书面同意后 60 天内完成评估。",
+      "参加 IEP 会议——您是团队的平等成员，可以携带辩护人或口译员。",
+      "仔细审查提议的目标和服务——协商变更，在同意之前不要签署。",
+      "监控全年 IEP 目标进展情况并要求学校提供数据报告。",
+      "如果您不同意学校的意见，请免费请求调解或申请正当程序听证会。"
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "联邦计划",
+    "title": "自闭症医疗补助豁免（按州）",
+    "summary": "家庭和社区服务 (HCBS) 豁免，通过医疗补助为自闭症治疗、暂托护理和支持服务提供资金。",
+    "details": "医疗补助家庭和社区服务 (HCBS) 豁免允许各州在残疾人（包括自闭症患者）的家庭和社区而不是在机构中为残疾人（包括自闭症患者）提供服务。这些豁免因州而异，但通常涵盖 ABA 治疗、暂托护理、言语治疗、职业治疗、个人护理、支持性就业、日间康复训练和家庭培训。一些州有针对自闭症的豁免（例如马里兰州的自闭症豁免），而其他州则将自闭症纳入更广泛的发育障碍豁免。等候名单可能很长，有时甚至长达数年，因此请尽早申请。资格通常取决于孩子的残疾程度，而不是家庭收入。",
+    "steps": [
+      "请联系您所在州的医疗补助办公室或发育障碍机构，了解哪些豁免适用于自闭症儿童。",
+      "申请您​​的孩子可能有资格获得的所有豁免——您可以同时出现在多个等候名单上。",
+      "收集文件：自闭症诊断、医疗记录、学校评估和功能评估。",
+      "如果被列入候补名单，请询问您的位置和预计等待时间 - 每 3-6 个月定期跟进一次。",
+      "一旦获得批准，与您的服务协调员合作制定一个以人为本的计划，列出所有需要的服务。",
+      "每年审查您的计划，并根据您孩子的需求变化请求额外服务——您有权对任何拒绝提出上诉。"
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "联邦计划",
+    "title": "SSI 对自闭症儿童的好处",
+    "summary": "社会保障每月为有严重自闭症相关残疾儿童的低收入家庭提供现金援助。",
+    "details": "补充保障收入 (SSI) 向家庭收入和资源有限的残疾儿童提供每月现金福利。联邦福利金约为每月 967 美元（2025 年），许多州还增加了补充金额。自闭症被列在社会保障管理局的蓝皮书中有关儿童的第 112.10 条中。为了符合资格，您的孩子必须有语言和非语言沟通、社交互动以及严重限制功能的受限/重复行为模式缺陷的医学记录。在许多州，接受 SSI 的儿童也可能自动获得医疗补助资格，从而获得治疗服务。注意：儿童仅可使用 SSI（而非 SSDI）。",
+    "steps": [
+      "在当地社会保障管理局 (SSA) 办公室预约 — 儿童的 SSI 申请无法在线完成。",
+      "收集所需文件：孩子的出生证明、社会安全号码、医疗记录、学校评估和家庭财务记录（收入、银行对账单、其他福利）。",
+      "完成 SSI 申请和儿童残疾报告，详细说明自闭症如何影响您孩子的日常功能。",
+      "配合 SSA 可能要求的任何额外评估——这些评估是免费的，有助于确定资格。",
+      "如果被拒绝，请在 60 天内提出上诉——许多索赔在上诉后都会获得批准。考虑联系残疾律师（许多律师负责应急事宜）。",
+      "如果获得批准，请向 SSA 报告收入、生活状况或孩子状况的任何变化，以维持福利。"
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "联邦计划",
+    "title": "TRICARE 自闭症保险（军人家庭）",
+    "summary": "为军人家庭提供全面的自闭症服务，包括通过 TRICARE 的自闭症护理示范进行 ABA 治疗。",
+    "details": "TRICARE 通过自闭症护理示范 (ACD) 为所有 TRICARE 受益人提供应用行为分析和其他自闭症服务，该演示将持续到 2028 年 12 月 31 日。您的孩子将获得为期 6 个月的 ABA 服务授权，并且每两年需要从您的 ASD 诊断提供商处进行新的转诊。 ACD 中的每个孩子都分配有一名自闭症服务导航员 (ASN)，他帮助协调言语治疗、ABA 和儿科医生之间的护理。 TRICARE 还涵盖言语治疗、职业治疗和其他自闭症医学上必要的治疗。 2025 年 9 月，美国国家科学院建议将 ABA 设为永久性基本 TRICARE 福利，而不是示范计划。 ABA 服务需要拥有经董事会认证的行为分析师的地点。",
+    "steps": [
+      "从 TRICARE 授权的提供者（发育儿科医生、心理学家或精神科医生）处获取您孩子的自闭症诊断。",
+      "从您孩子的诊断提供者那里获取专门针对 ABA 和任何其他自闭症相关服务的转介。",
+      "请联系您指定的自闭症服务导航员 (ASN) — 他们将帮助您协调和访问所有可用的服务。",
+      "通过 tricare.mil 上的 TRICARE 提供商目录查找您所在地区 TRICARE 授权的 ABA 提供商。",
+      "确保您孩子的授权每 6 个月更新一次，推荐每 2 年更新一次。",
+      "如果您面临拒绝或访问问题，请联系 TRICARE 受益人咨询和援助协调员 (BCAC) 寻求上诉帮助。"
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "疗法",
+    "title": "应用行为分析（ABA）",
+    "summary": "研究最多的自闭症疗法——利用积极强化来培养技能并减少挑战性行为。",
+    "details": "应用行为分析被美国外科医生和美国心理学协会认为是一种基于证据的最佳实践治疗方法。 ABA 将新技能分解为可管理的小步骤，并使用积极强化来鼓励期望的行为。委员会认证的行为分析师 (BCBA) 根据功能行为评估制定个性化治疗计划。现代 ABA 强调遵循孩子兴趣的自然主义、基于游戏的方法。治疗可以在家中、诊所或学校进行，通常每周 10 到 40 小时，具体取决于孩子的需要。家长全天接受强化技能培训。",
+    "steps": [
+      "获得正式的自闭症诊断，并从儿科医生那里获得 ABA 服务的转介。",
+      "请联系您的保险、医疗补助或州发育障碍机构以确认 ABA 承保范围并寻找经批准的提供者。",
+      "与 BCBA 一起安排功能行为评估 (FBA)——评估您孩子的优势、挑战和家庭目标。",
+      "审查并批准个性化治疗计划——确保目标侧重于沟通、功能技能和独立性。",
+      "参加家长培训课程，以便您可以在家中持续强化技能。",
+      "索取包含数据的定期进度报告并参加计划审查——随着孩子的成长调整目标。"
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "疗法",
+    "title": "言语治疗",
+    "summary": "帮助孩子培养沟通技巧——从第一句话到对话，包括非语言沟通方法。",
+    "details": "言语语言治疗是自闭症儿童最常见的发育治疗，由有执照的言语病理学家 (SLP) 提供。它涉及理解语言（接受性）、表达愿望和需要（表达性）、语言的社会使用（实用性）、发音和进食/吞咽困难。对于语言能力极差的儿童，SLP 可能会引入增强和替代交流 (AAC)，例如图片交换系统、手语或语音生成设备。研究表明，通过早期干预，三分之二的自闭症学龄前儿童的沟通技巧显着提高。重要的是，双语并不会延迟自闭症儿童的语言能力——建议保持家庭语言。",
+    "steps": [
+      "请您的儿科医生将其转介给具有自闭症谱系障碍经验的 SLP。",
+      "通过多种渠道获得服务：健康保险、医疗补助、学区个别化教育计划、州早期干预或大学言语诊所（通常成本较低）。",
+      "在评估过程中，分享您的孩子如何在家沟通的示例 - 视频非常有帮助。",
+      "如果您的孩子语言能力极差，请特别请求具有 AAC 专业知识的 SLP——并非所有 SLP 都擅长于此。",
+      "询问家长辅导模式，SLP 训练您将沟通实践融入日常生活中。",
+      "如果您的家人在家说另一种语言，请请求双语 SLP 或口译员 - 继续使用您的家庭语言与您的孩子交谈。"
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "疗法",
+    "title": "职业治疗 (OT)",
+    "summary": "培养日常生活技能、感觉处理和精细运动能力的独立性。",
+    "details": "职业治疗帮助自闭症儿童培养日常生活和独立所需的技能。 OT 致力于精细运动技能（书写、扣扣、使用器具）、感觉处理和调节（帮助对感觉输入过度或不太敏感的儿童）、日常自我护理（穿衣、如厕、刷牙）、游戏技能和课堂准备。感觉统合疗法通常由 OT 提供，帮助儿童更好地处理和应对可能令人难以接受或令人困惑的感觉信息。 OT 制定个性化的治疗计划，并使用看似游戏但经过精心设计的活动来培养特定技能。他们还为家庭和学校推荐环境改造和感官工具。",
+    "steps": [
+      "通过您的儿科医生、学区或州早期干预计划请求 OT 评估。",
+      "在评估过程中，描述您孩子的日常挑战——饮食、穿衣、转换、感官敏感性。",
+      "审查治疗计划并确保目标解决您最优先的日常生活问题。",
+      "向 OT 询问家庭感官饮食——全天进行的感官活动的个性化计划。",
+      "在家中始终如一地练习 OT 推荐的策略，尤其是在吃饭、洗澡和穿衣服等日常活动中。",
+      "如果精细运动、感觉或自我护理需求影响学校参与，请通过您孩子的 IEP 请求学校加班。"
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "疗法",
+    "title": "物理治疗（PT）",
+    "summary": "提高大运动技能、协调性、力量和身体信心，以便在所有环境中安全运动。",
+    "details": "物理治疗帮助自闭症儿童提高粗大运动技能（行走、跑步、跳跃、攀爬）、平衡和协调、核心力量、身体意识和空间导航。物理治疗师评估儿童的功能性运动限制并制定解决计划。对于学龄儿童，PT 可以帮助他们安全地通过走廊、操场、自助餐厅和校车。他们还致力于参与社交游戏和同伴互动所需的运动技能。对于患有自闭症常见的肌张力低、协调困难或运动规划困难的儿童来说，PT 可能至关重要。可以通过健康保险、早期干预计划、学校个别化教育计划或门诊诊所获得服务。",
+    "steps": [
+      "请您的儿科医生评估您的孩子是否存在需要进行 PT 转诊的粗大运动迟缓或协调问题。",
+      "安排 PT 评估——治疗师将评估平衡性、协调性、力量、运动计划和功能活动能力。",
+      "审查治疗计划并讨论优先考虑哪些运动里程碑和功能技能。",
+      "将 PT 推荐的练习纳入日常生活中——许多练习可以在家制作成有趣的游戏。",
+      "如果运动困难影响您的孩子安全上学的能力，请通过 IEP 请求基于学校的 PT。",
+      "每 3-6 个月重新评估一次进展，并随着您的孩子发展新的身体技能而调整目标。"
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "疗法",
+    "title": "DIR/楼层时间",
+    "summary": "一种基于关系的方法，在游戏过程中遵循孩子的主导，以建立社交、情感和智力基础。",
+    "details": "DIR 代表发展、个体差异、基于关系。这种方法由斯坦利·格林斯潘 (Stanley Greenspan) 博士于 20 世纪 80 年代提出，通过由儿童主导的快乐互动而不是针对特定行为，为社交、情感和智力成长奠定基础。主要策略是成年人站在地板上，跟随孩子的兴趣来扩大“沟通圈子”——来回互动。自由活动时间通常每天 2-5 小时，分为 20-30 分钟的课程。研究表明沟通、情绪功能、日常生活技能和亲子关系方面取得了进步。 DIR/Floortime 得到国家自闭症谱系障碍专业发展中心的认可，可以由家长在专业指导下在家完成。",
+    "steps": [
+      "通过 icdl.com 上的跨学科发展与学习委员会 (ICDL) 了解 DIR/Floortime 的基础知识 — 他们提供家长资源。",
+      "通过 ICDL 提供者名录查找经过 DIR/Floortime 培训的治疗师，或向您孩子的发育儿科医生寻求转介。",
+      "从 20 分钟的地板时间课程开始：坐在地板上，跟随孩子的引导，并尝试扩大来回互动。",
+      "首先关注情感联系——加入孩子喜欢的事情，而不是试图重新引导或教授特定技能。",
+      "逐渐增加训练的次数和长度，目标是全天进行多次短期训练。",
+      "与训练有素的专业人士合作，了解如何在游戏过程中解决孩子的个人感官和发育状况。"
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "疗法",
+    "title": "TEACCH（结构化教学）",
+    "summary": "一种可视化、结构化的教学方法，组织物理环境，帮助自闭症儿童独立学习。",
+    "details": "TEACCH（自闭症和沟通障碍儿童的治疗和教育）是由 Eric Sc​​hopler 博士和 Robert Reichler 博士于 20 世纪 60 年代在北卡罗来纳大学开发的。它强调针对自闭症患者如何处理信息（特别是通过视觉支持）量身定制的结构化教学。核心原则包括物理环境的组织、可预测的活动顺序、视觉时间表、结构化工作系统和视觉组织的任务。 TEACCH 通过使期望变得清晰和可预测来减少焦虑，并显着改善活动之间的转换。研究表明，人们在日常任务、自我护理、组织和日常事务方面的独立性有所提高。家长可以通过创建视觉时间表和有组织的空间来在家中实施 TEACCH 原则。",
+    "steps": [
+      "通过北卡罗来纳大学 (teacch.com) 的 TEACCH 自闭症项目学习 TEACCH 基础知识——他们为家长和专业人士提供培训。",
+      "使用显示全天活动顺序的图片或照片为您的孩子创建一个直观的每日时间表。",
+      "整理您的家庭环境：使用视觉标签为特定活动指定清晰的区域（游乐区、工作区、平静空间）。",
+      "实施任务工作系统：使用从左到右的布局来显示要做什么、要做多少以及接下来要做什么。",
+      "使用视觉计时器和过渡警告（例如，“先做作业，然后使用 iPad”）来减少活动变化期间的焦虑。",
+      "咨询经过 TEACCH 培训的专业人士，根据您孩子的具体优势和需求定制结构化教学方法。"
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "疗法",
+    "title": "社交技能组",
+    "summary": "结构化的小组环境，让自闭症儿童练习与同龄人的社交互动、对话和友谊技能。",
+    "details": "社交技能小组将自闭症谱系儿童（有时与神经正常的同龄人混在一起）聚集在一起，在结构化的支持性环境中练习社交互动。这些小组由言语病理学家或心理学家等有执照的临床医生领导，致力于对话技巧、阅读社交线索、换位思考、建立和维持友谊、情绪调节和合作游戏。临床医生为每个孩子确定个性化目标并每周跟踪进展情况。研究表明，它对社交能力、友谊质量和减少孤独感有积极影响。家长经常参加平行课程，学习加强在家中的技能。许多家庭与其他参与家庭建立了持久的联系。",
+    "steps": [
+      "向您孩子的治疗师、学校或儿科医生询问当地的社交技能小组——他们可能是通过诊所、医院或社区组织提供的。",
+      "寻找与您孩子的年龄和发育水平相匹配的小组——有些小组以游戏为基础，而另一些小组则更适合年龄较大的孩子。",
+      "确保该小组由有执照的临床医生（SLP、心理学家或 BCBA）领导，他们为每个参与者设定个性化目标。",
+      "参加家长培训或平行家长会议，学习如何在家加强社交技能。",
+      "在自然环境中练习学到的技能——安排与同伴一起玩耍，以概括社交技能。",
+      "监控孩子的舒适度——一个好的团队应该建立信心，而不是增加焦虑或沮丧。"
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "疗法",
+    "title": "音乐治疗",
+    "summary": "使用基于音乐的活动来改善沟通、社交互动、运动技能和情绪调节。",
+    "details": "自闭症音乐治疗由经过委员会认证的音乐治疗师 (MT-BC) 提供，他们利用唱歌、乐器演奏、歌曲创作和节奏活动来实现治疗目标。音乐以独特的方式同时调动多个大脑区域，这对于那些可能对传统谈话疗法反应不佳的儿童特别有效。研究支持改善沟通和语言技能、社交互动和共同注意力、情绪表达和调节、精细和粗大运动协调以及感觉处理。互动音乐活动为与同龄人和家人轮流、目光接触和分享乐趣创造了自然的机会。许多自闭症儿童表现出强烈的音乐兴趣，这可以作为通向其他学习的桥梁。",
+    "steps": [
+      "通过 musictherapy.org 上的美国音乐治疗协会目录查找经过委员会认证的音乐治疗师 (MT-BC)。",
+      "讨论您孩子的具体目标——音乐疗法可以针对沟通、社交技能、运动技能或情绪调节。",
+      "询问会议形式：个人会议允许个性化关注，而小组会议则增加社交技能练习。",
+      "将音乐融入家庭日常活动中——使用歌曲进行过渡（清理歌曲）、日常活动（刷牙歌曲）和情绪调节。",
+      "检查承保选项：一些保险计划、医疗补助豁免和学校个别化教育计划可能会资助音乐治疗作为相关服务。",
+      "进行几次治疗——有些孩子需要时间来适应治疗师和形式，然后才能显示出进步。"
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "疗法",
+    "title": "马辅助治疗（骑马）",
+    "summary": "通过与马的互动来改善社交沟通、情绪调节和运动技能的治疗性骑马。",
+    "details": "马辅助治疗利用马的有节奏的运动和反应能力来实现自闭症儿童的治疗目标。科罗拉多大学的一项大型随机研究发现，10 周的治疗性骑行可以持久减少 6-16 岁儿童的烦躁情绪，并改善社交沟通、多动症和文字流畅性。马的自然运动可以激发核心力量、平衡和协调性。与马一起工作还提供了在激励性的户外环境中练习非语言沟通、同理心、责任感和情绪调节的机会。项目通常由 PATH International 认证的讲师和治疗师一起领导。马疗法可以补充其他疗法，如 ABA、言语和 OT。",
+    "steps": [
+      "请访问 pathintl.org/find-a-center 查找您附近的 PATH International 认证的骑行治疗中心。",
+      "安排评估——团队将评估您孩子的身体能力、行为需求和治疗目标。",
+      "讨论安全要求：头盔、合适的衣服以及您的孩子可能需要的任何感官调节。",
+      "坚持每周定期参加会议——研究表明，持续参与 8-10 周会带来好处。",
+      "询问马术疗法（OT/PT/马背上的演讲）与治疗性骑马——马术疗法使用马的运动作为治疗工具，并且可能包含在保险范围内。",
+      "检查资金来源：一些非营利性骑马中心提供奖学金，马术疗法可能包含在健康保险或医疗补助范围内。"
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "疗法",
+    "title": "水疗疗法",
+    "summary": "以水为基础的疗法，可在平静的感官环境中培养运动技能、协调性、耐力和社交信心。",
+    "details": "水生疗法利用水的独特特性——浮力、阻力和静水压力——帮助自闭症儿童在支持性的感官环境中发展运动技能、协调性、力量和耐力。许多难以进行陆地锻炼的自闭症儿童在水中茁壮成长。温水的感官输入可以起到镇静和调节作用，使孩子更容易集中注意力和参与。水生疗法还教授水安全——这是一个至关重要的问题，因为溺水是可能徘徊的自闭症儿童的主要原因。课程可以锻炼社交技能（轮流、遵循小组指示）、身体意识、呼吸控制和整体身体健康。研究表明社交互动和运动功能得到改善。",
+    "steps": [
+      "请您的儿科医生或治疗师转介水生治疗计划，或寻找拥有经过认证的水生治疗师的设施。",
+      "检查您孩子的 OT 或 PT 提供者是否提供水生治疗课程 - 这些课程可能包含在保险范围内。",
+      "从个人课程开始，帮助您的孩子适应泳池环境，然后再尝试团体课程。",
+      "将水安全目标作为优先事项进行讨论——教导您的孩子在水中和水周围保持安全可以挽救生命。",
+      "洗澡时在家练习水上活动：倒水、踢腿、吹泡泡——这些可以培养舒适度和技能。",
+      "研究一下当地基督教青年会、公园和娱乐部门或特奥会的社区适应性游泳项目——许多项目都是免费或低成本的。"
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "危机支持",
+    "title": "988 自杀与危机生命线",
+    "summary": "通过电话、短信或聊天为任何处于情绪困扰的人提供免费、保密的 24/7 危机支持 - 提供英语和西班牙语版本。",
+    "details": "988 自杀与危机生命热线是一个全国性的危机中心网络，每周 7 天、每天 24 小时提供免费、保密的支持。致电或发短信 988 与经过培训的辅导员联系。提供英语和西班牙语服务，并可通过 988lifeline.org 进行实时聊天。使用美国手语为失聪或听力困难的人士提供可视电话服务。生命线拥有专门针对神经分歧患者（包括自闭症患者）的资源。这不仅适用于自杀念头，也适用于任何情绪危机、巨大压力或心理健康紧急情况。自闭症协会正在与全国各地的危机中心合作，确保辅导员接受针对自闭症和智力/发育障碍的培训。",
+    "steps": [
+      "现在就在您的手机中保存 988 — 您或您的家人遇到危机时，可以拨打或发短信给这个号码。",
+      "对于紧急危险，请务必先拨打 911，然后拨打 988 以获得持续支持。",
+      "如果您的自闭症孩子或家庭成员处于情感危机中，请致电 988，让辅导员了解自闭症诊断结果，以便他们调整方法。",
+      "如果打电话有困难，请访问 988lifeline.org 进行实时聊天 - 对于某些自闭症患者或在感官不知所措期间，聊天可能会更容易。",
+      "如需西班牙语支持，请拨打 988，然后按 2 拨打西班牙语线路。",
+      "将号码放在家中显眼的位置，并与看护者、家庭成员和孩子的学校分享。"
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "危机支持",
+    "title": "危机文本行",
+    "summary": "通过短信提供免费的 24/7 危机支持 — 非常适合那些喜欢发短信而不是打电话的人。",
+    "details": "Crisis Text Line 通过短信提供免费、保密的危机支持，每周 7 天、每天 24 小时提供服务。发送短信 HOME 至 741741，与经过培训的危机顾问联系。这项服务对于自闭症患者或家长来说特别有价值，因为他们觉得电话太多或需要谨慎获得支持。对话是基于文本的，对于那些能够更好地处理书面交流的人来说，这比口头交流更容易。危机咨询师是经过培训的志愿者，由有执照的临床工作人员监督。该服务可处理所有类型的危机——焦虑、抑郁、情绪困扰、自杀念头、家庭冲突和护理倦怠。与辅导员联系的平均等待时间不到 5 分钟。",
+    "steps": [
+      "在美国任何地方，随时向 HOME 发送短信 741741，即可与危机顾问开始对话。",
+      "训练有素的顾问将通过积极倾听和协作解决问题来做出回应并帮助您度过危机。",
+      "诚实地讲述您所经历的事情——伸出援手没有任何错误的理由，包括护理人员倦怠和不知所措。",
+      "如果您正在发短信谈论您的孩子，请告知辅导员，以便他们提供有关自闭症的支持和转介。",
+      "将 741741 作为“危机短信热线”保存在您的通讯录中，以便在需要时随时使用。",
+      "与社区中的其他自闭症家长分享此资源——许多人不知道存在基于文本的危机支持。"
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "危机支持",
+    "title": "自闭症协会全国求助热线",
+    "summary": "免费帮助热线通过训练有素的专家将家庭与当地自闭症资源、服务和支持联系起来。",
+    "details": "自闭症协会的全国帮助热线 (800-3-AUTISM / 800-328-8476) 将您与经过培训的信息和转介 (I&R) 专家联系起来，他们会帮助您查找您所在地区的资源和服务。虽然帮助热线不提供直接服务，但专家会将您与当地的自闭症提供者、州计划、支持团体和社区资源联系起来。对于刚接触美国制度、不知道从哪里开始的移民家庭来说，这是一个很好的第一次电话咨询。帮助热线可以协助寻找诊断服务、治疗提供者、教育宣传、经济援助和社区支持。重要提示：这不是危机热线 — 对于心理健康紧急情况，请拨打 988 或拨打 911。",
+    "steps": [
+      "在工作时间致电 800-328-8476 (800-3-AUTISM) 与信息和转介专家交谈。",
+      "解释您的情况以及您正在寻找哪些资源 - 专家将搜索您所在地区的服务。",
+      "询问当地的自闭症协会附属机构——全美有 70 多个附属机构提供直接的社区支持。",
+      "一次请求有关多个主题的信息：诊断、治疗选择、学校支持、经济援助和家长支持小组。",
+      "跟进所提供的推荐——记录每个联系人的姓名、电话号码和后续步骤。",
+      "当您需要帮助应对新挑战时，请随时回电 - 帮助热线可提供持续支持，而不仅仅是一次性使用。"
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "合法权利",
+    "title": "想法：您孩子接受免费教育的权利",
+    "summary": "《残疾人教育法》保证每个残疾儿童都有权接受免费、适当的公共教育——无论移民身份如何。",
+    "details": "IDEA 是一项联邦法律，适用于美国的所有儿童，无论其移民身份、公民身份或证件如何。根据 IDEA，公立学校必须识别、评估和服务从出生到 21 岁的残疾儿童。法律保障 LRE（最少限制环境）中的 FAPE（免费适当公共教育）。学校不能将移民身份作为入学或服务的条件。如果您的孩子年龄在 0-3 岁之间，IDEA C 部分提供早期干预服务。如果您的孩子 3-21 岁，B 部分通过学区提供特殊教育。您有权在所有会议上获得口译员的服务，并有权以您的首选语言接收文件。",
+    "steps": [
+      "如果您怀疑您的孩子有残疾，您有权获得学区的免费评估——以书面形式提出请求。",
+      "学校不能询问您的移民身份。如果他们这样做，您可以拒绝回答并举报。",
+      "您有权在每次 IEP 会议上获得口译员 — 请提前申请。",
+      "如果您不同意学校的评估或安置，您可以请求独立教育评估 (IEE)，费用由学校承担。",
+      "请联系您所在州的家长培训和信息中心 (PTI)，获取以您的语言提供的免费宣传支持。"
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "合法权利",
+    "title": "第 504 节：没有 IEP 的住宿",
+    "summary": "《康复法》第 504 条为残疾但可能不符合 IDEA 规定的特殊教育资格的儿童提供住宿。",
+    "details": "第 504 条是一项民权法，禁止在接受联邦资助的项目（包括所有公立学校）中歧视残疾人。与 IEP 不同，504 计划不需要特定的学习障碍类别——任何严重限制主要生活活动的身体或精神障碍都符合资格。对于自闭症儿童，这可以包括额外的测试时间、优先座位、感官休息、修改作业或安静的测试空间等住宿。 504 计划通常比 IEP 更快获得，并且在等待全面评估时可能是一个不错的选择。家长有权参与 504 程序并对决定提出上诉。",
+    "steps": [
+      "以书面形式向您孩子的学校校长或 504 协调员请求 504 评估。",
+      "提供您孩子的诊断文件——一封来自他们的医生或心理学家的信就足够了。",
+      "参加 504 会议并描述自闭症如何影响您孩子的学校表现和日常活动。",
+      "查看提议的调整措施并提出您认为可以帮助您的孩子的具体改变——您是您孩子的专家。",
+      "504 计划每年进行一次审查。如果住宿需要调整，您可以随时要求会面。"
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "合法权利",
+    "title": "FERPA：保护您孩子的学校记录",
+    "summary": "FERPA 保护您孩子的教育记录的隐私，并限制谁可以访问您孩子的信息 - 包括移民当局。",
+    "details": "《家庭教育权利和隐私法案》(FERPA) 是一项保护学生教育记录隐私的联邦法律。根据 FERPA，未经您的书面同意，学校不得公布您孩子的记录，包括残疾状况、个别化教育计划 (IEP) 文件、出勤情况或家长信息。这适用于 ICE、移民当局或任何政府机构提出的请求。如果您选择退出，学校可能不会共享目录信息（姓名、地址、电话）。您有权检查学校保存的有关您孩子的所有记录并要求更正。了解 FERPA 对于移民家庭尤其重要，他们可能担心寻求学校服务会暴露其家庭的身份。",
+    "steps": [
+      "在每个学年开始时，选择退出目录信息共享——这可以防止学校泄露您孩子的姓名和地址。",
+      "如果有人向学校索要您孩子的记录，学校必须首先通知您并获得书面同意（少数例外）。",
+      "您有权查看学校保留的有关您孩子的所有记录 - 请以书面形式提出请求。",
+      "如果您发现孩子的记录有错误，请提交书面更正请求。学校必须在 45 天内回复。",
+      "如果 ICE 或执法部门联系学校，未经法院命令，他们无法访问学生记录。知道这一点就对了。"
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "合法权利",
+    "title": "ADA：公共场所的残疾人权利",
+    "summary": "《美国残疾人法案》保护您的孩子在公共场所（包括餐馆、商店、公园和医疗办公室）免受歧视。",
+    "details": "ADA 是一项民权法，禁止在公共生活的所有领域歧视残疾人。第三章涵盖公共设施——餐馆、商店、酒店、剧院、医生办公室和娱乐设施必须为残疾人士进行合理的改造。对于自闭症儿童来说，这可能意味着允许感官调节、服务性动物或通讯设备。企业不能因为儿童的残疾相关行为而拒绝服务。 ADA 还涵盖就业（第一章）和州/地方政府服务（第二章）。重要的是，ADA 保护适用于美国的每个人，无论其移民或公民身份如何。",
+    "steps": [
+      "如果企业因您孩子的自闭症相关行为而拒绝为您的家人提供服务，这可能违反 ADA 规定。记录该事件。",
+      "您可以通过 ada.gov 向司法部提交 ADA 投诉 — 投诉可以匿名提交。",
+      "企业必须允许服务性动物（但不允许情感支持动物），并且不能对其收取额外费用。",
+      "如果您的孩子使用 AAC 设备或通讯板，企业必须留出合理的沟通时间。",
+      "您当地的残疾人权利组织可以提供有关 ADA 违规行为的免费法律建议 - 搜索“保护与倡导”加上您所在州的名称。"
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "合法权利",
+    "title": "医疗补助 EPSDT：综合儿童健康服务",
+    "summary": "如果您的孩子有医疗补助，他们有权获得早期和定期筛查、诊断和治疗 (EPSDT) 服务——医疗补助中最全面的福利计划。",
+    "details": "EPSDT 是联邦强制为所有 21 岁以下登记儿童提供的医疗补助福利。它要求各州提供全面的健康服务，包括所有医疗上必要的治疗，即使这些服务不包含在该州的医疗补助计划中。对于自闭症儿童，这可以包括 ABA 治疗、言语治疗、职业治疗、心理服务、辅助技术等等。如果这些服务被认为具有医疗必要性，各州不能对这些服务施加任意上限。许多家庭不了解 EPSDT，一些州试图限制这些福利，但联邦法律凌驾于州对儿童的限制之上。如果 Medicaid 拒绝提供您孩子所需的服务，您有权提出上诉。",
+    "steps": [
+      "如果您的孩子有医疗补助并需要 ABA、言语、OT 或其他治疗，请引用 EPSDT 请求授权 - 该标准是“医疗上必要的”。",
+      "如果 Medicaid 拒绝服务，请以书面形式请求拒绝。您有权通过公平听证会提出上诉。",
+      "请联系您所在州的医疗补助办公室，并具体询问针对自闭症儿童的 EPSDT 福利。",
+      "如果您所在州规定某项服务“不在承保范围内”，则 EPSDT 可能会覆盖 21 岁以下儿童的规定。如果需要，请寻求法律帮助。",
+      "您所在州的保护和倡导组织可以免费帮助您应对医疗补助拒绝的情况。"
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "家庭支持",
+    "title": "暂息护理：休息一下",
+    "summary": "暂托护理为残疾儿童的主要照顾者提供暂时的缓解——这对于防止倦怠和维持家庭福祉至关重要。",
+    "details": "暂托护理是由经过培训的护理人员为您的孩子提供的短期护理，让您有时间休息、处理事务或满足您自己的需求。研究表明，照顾者倦怠在自闭症儿童的家庭中极为常见，定期的临时照顾是最有效的预防策略之一。暂托可以是在家中（经过培训的工作人员来到您家）、外出（您的孩子去某个机构或其他家庭）或非正式的（经过培训的家庭成员或朋友）。许多州通过医疗补助豁免计划、州残疾人机构或家庭支持计划提供暂托护理资金。一些组织专门为自闭症儿童的家庭提供免费的喘息活动。",
+    "steps": [
+      "联系您所在州的发育障碍机构并询问暂托护理计划 - 许多机构都有可用的资金。",
+      "检查您孩子的医疗补助豁免是否包括喘息时间——许多家庭和社区的豁免都包含在内。",
+      "通过美国自闭症协会 (autism-society.org) 或 Easter Seals 搜索当地的自闭症暂息计划。",
+      "询问您孩子的治疗师是否知道您所在地区经过培训且有自闭症经验的暂托服务提供者。",
+      "首先，当您留在附近时，先进行短暂的休息时间（1-2 小时），然后随着您的孩子感到舒适，逐渐延长休息时间。"
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "家庭支持",
+    "title": "家长支持小组",
+    "summary": "与自闭症儿童的其他父母联系可以减少孤立感，提供实用的建议，并建立一个了解您日常经历的社区。",
+    "details": "抚养一个患有自闭症的孩子，尤其是在移民家庭，可能会感到孤立。家长支持小组提供了一个分享经验、向使用相同系统的其他人学习以及与真正理解的人建立友谊的空间。团体可以是面对面的、在线的，或者两者兼而有之。许多团体是按语言和文化组织的，认识到对残疾的文化看法存在很大差异。研究表明，参加支持小组的家长压力较小，应对技巧更好，倡导能力也更强。许多团体还充当寻找治疗师、了解学校系统和获取福利的非正式信息网络。",
+    "steps": [
+      "通过自闭症协会 (autism-society.org) 搜索当地自闭症家长团体 — 按您所在的州进行筛选。",
+      "检查 Facebook 上是否有使用您语言的群组：搜索“自闭症父母 [您的语言]”或“padres autismo”以查找西班牙语家庭。",
+      "向你孩子的治疗师、学校或儿科医生寻求建议——他们通常知道当地的团体。",
+      "如果没有使用您的语言的本地群组，请考虑创建一个 — 即使是包含 3-4 个家庭的 WhatsApp 群组也可能很强大。",
+      "MyAutismTeam.com 等在线社区将全国家长联系起来，并具有翻译功能。"
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "家庭支持",
+    "title": "支持兄弟姐妹",
+    "summary": "自闭症儿童的兄弟姐妹有值得关注的独特需求和经历——支持兄弟姐妹可以增强整个家庭的力量。",
+    "details": "自闭症儿童的兄弟姐妹经常会经历爱、沮丧、自豪、尴尬、保护和怨恨的混合情绪——所有这些都是正常的。当自闭症兄弟姐妹需要更多关注时，他们可能会承担额外的责任，感到被忽视，或者担心未来。研究表明，获得有关自闭症支持和信息的兄弟姐妹与自闭症兄弟或姐妹的关系会更牢固，心理健康状况也更好。兄弟姐妹支持项目 (siblingsupport.org) 提供专门为有特殊需要的儿童的兄弟姐妹设计的计划。就自闭症进行诚实、适合年龄的对话有助于兄弟姐妹理解和应对。",
+    "steps": [
+      "定期与每个兄弟姐妹进行一对一的交流——即使是 15 分钟的全神贯注也会产生显着的效果。",
+      "用适合年龄的术语解释自闭症：“他们的大脑工作方式不同。”有些事情对他们来说比较困难，有些事情他们真的很擅长。",
+      "不加评判地承认他们的感受：“当你的兄弟尖叫时，感到沮丧是正常的。这是一种正常的感觉。",
+      "寻找您所在地区的 Sibshop 计划 (siblingsupport.org) — 这些同伴支持小组专门针对兄弟姐妹。",
+      "避免让兄弟姐妹成为看护人——他们可以提供帮助，但他们的主要角色应该是孩子和兄弟/姐妹。"
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "家庭支持",
+    "title": "照顾者自我护理策略",
+    "summary": "你不能从空杯子里倒水。保持自己的身心健康并不自私——这对孩子的福祉至关重要。",
+    "details": "自闭症儿童的父母比神经正常儿童的父母经历压力、焦虑、抑郁和身体健康问题的几率明显更高。移民父母面临着额外的压力：语言障碍、文化隔离、陌生的系统以及潜在的与移民相关的恐惧。自我保健不是奢侈品，而是必需品。研究一致表明，父母的幸福感直接影响孩子的成长。当父母不知所措和精疲力尽时，他们的耐心就会减少，进行治疗的精力就会减少，有效倡导的能力就会降低。即使是微小的、持续的自我护理实践也能产生重大影响。",
+    "steps": [
+      "找出一项能让你恢复活力的日常小练习：步行 10 分钟、安静地喝杯茶、与朋友打电话或 5 分钟深呼吸。",
+      "不要等待“空闲时间”——像预约一样安排自我护理。即使 10 分钟也很有价值。",
+      "如果您正在与焦虑或抑郁作斗争，许多社区健康中心都提供多种语言的滑动治疗。",
+      "至少与另一位理解的家长保持联系——孤立会加剧压力。即使是基于文字的友谊也会有所帮助。",
+      "请记住：寻求帮助是一种力量，而不是失败。接受家人、朋友或专业人士的支持可以让你成为更好的父母。"
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "家庭支持",
+    "title": "经济援助和福利",
+    "summary": "多项联邦和州计划可以帮助支付自闭症相关服务、治疗和日常需求的费用——即使对于证件有限的家庭也是如此。",
+    "details": "抚养自闭症儿童的经济负担是巨大的——治疗、就诊、专业设备和工资损失可能会导致任何家庭的预算紧张。然而，存在许多援助计划。 SSI（补充保障收入）为低收入家庭的残疾儿童提供每月付款。 Medicaid 通过 EPSDT 涵盖广泛的治疗服务。许多州都有针对自闭症的豁免计划，涵盖 ABA、暂托和适应性设备。儿童健康保险计划 (CHIP) 为收入过高但无法负担私人保险的家庭中的儿童提供保障。其中一些计划无论移民身份如何都适用，特别是对于无证父母的美国公民子女。",
+    "steps": [
+      "通过当地社会保障办公室申请 SSI（补充保障收入）——自闭症儿童通常根据残疾标准符合资格。",
+      "检查您的孩子是否有资格享受 Medicaid 或 CHIP — 即使父母无证，美国公民的孩子也有资格。",
+      "请联系您所在州的发育障碍机构了解自闭症豁免计划 - 存在候补名单，因此请尽早申请。",
+      "查看 Autism Speaks 的财务资源页面 (autismspeaks.org/financial-resources) 了解赠款和援助计划。",
+      "向您孩子的治疗提供者询问浮动费用或公益名额——许多诊所会为有需要的家庭预留名额。",
+      "请向当地非营利组织和教堂咨询有关自闭症相关费用的紧急援助。"
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "家庭支持",
+    "title": "了解您的权利：移民和残疾服务",
+    "summary": "为您的孩子获得残疾服务不会影响您的移民案件。学校、医院和治疗提供者无法向移民当局举报您。",
+    "details": "许多移民家庭避免为自闭症孩子寻求服务，因为担心这会吸引移民执法人员或影响他们的案件。这种担心是可以理解的，但很大程度上是没有根据的。联邦法律禁止学校询问移民身份。 HIPAA 保护医疗记录的隐私。为您的美国公民孩子使用医疗补助、WIC、学校午餐计划或残疾服务不属于移民目的的“公共负担”问题（根据现行政策）。治疗提供者、学校和医院通常被视为 ICE 执法有限的“敏感地点”。了解这些保护措施可以帮助家庭毫无恐惧地获得孩子所需的服务。",
+    "steps": [
+      "学校不能询问您的移民身份或您孩子的身份作为入学或服务的条件。",
+      "为您的孩子使用 Medicaid、CHIP 或特殊教育服务并不会使您成为“公共负担”——这些服务被明确排除在外。",
+      "如果学校或医疗办公室的任何人询问您的移民身份，您可以拒绝回答。向学区报告此事。",
+      "保留一张写有您的权利和紧急移民律师号码的卡片。许多法律援助组织提供多种语言的免费“了解您的权利”卡。",
+      "请联系您当地的法律援助协会或美国公民自由联盟分会，获取与移民相关的免费法律建议——许多协会为有残疾儿童的家庭提供特殊计划。"
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "教育",
+    "title": "早期干预（IDEA C 部分）——0-3 岁",
+    "summary": "针对发育迟缓的婴幼儿的联邦早期干预服务，向所有家庭提供，无论移民身份如何。",
+    "details": "IDEA 的 C 部分是一项联邦计划，为患有发育迟缓或诊断出患有自闭症等疾病的婴幼儿（出生至 2 岁）提供早期干预服务。每个州都有一个牵头机构，负责协调言语治疗、职业治疗、物理治疗、行为支持和家庭培训等服务。服务是在家庭或日托等自然环境中提供的。评估始终免费，并且根据您所在的州免费或低价提供服务。儿童不需要正式的自闭症诊断即可接受 C 部分服务——发育迟缓就足够了。这是移民家庭最重要的计划之一，因为资格完全基于发展需要，而不是移民身份或支付能力。",
+    "steps": [
+      "联系您所在州的 C 部分早期干预计划 — 请访问ectacenter.org/contact/ptccoord.asp 查找您所在的州。",
+      "请求免费的发育评估——该计划必须在转介后 45 天内完成。",
+      "您不需要自闭症诊断即可接受服务——发育迟缓就足够了。",
+      "如果符合条件，请帮助您的孩子制定列出所有服务的个性化家庭服务计划 (IFSP)。",
+      "一旦您签署 IFSP，服务就会开始 — 询问言语、OT、PT 和行为支持。",
+      "2.5 岁时，开始通过学区过渡到学前服务（B 部分）的计划。"
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "教育",
+    "title": "过渡计划（14-22 岁）",
+    "summary": "IDEA 要求学校从 16 岁（某些州为 14 岁）开始为您的孩子向成人生活的过渡做好计划，包括就业、教育和独立生活。",
+    "details": "过渡计划是联邦政府规定的个别化教育计划的组成部分，旨在帮助残疾学生为高中毕业后的生活做好准备。根据 IDEA，过渡目标和服务必须包含在不迟于学生年满 16 岁那年开始的 IEP 中，尽管许多州从 14 岁开始。计划必须解决高等教育或培训、就业以及适当情况下的独立生活技能。对于自闭症学生，过渡计划应包括职业评估、工作技能培训、社区指导、自我宣传培训以及与成人服务机构的联系。研究表明，与其他残疾类别相比，自闭症学生的中学后成绩最差，因此高质量的过渡计划至关重要。一旦过渡计划开始，家长应积极参与，并且必须邀请学生参加他们自己的个别化教育计划会议。",
+    "steps": [
+      "要求从 14 岁开始进行过渡规划，即使您所在的州不要求到 16 岁才开始规划 — 尽早规划会带来更好的结果。",
+      "确保个别化教育计划包括教育/培训、就业和独立生活方面可衡量的高等教育目标。",
+      "要求将职业评估和基于社区的工作经验作为过渡计划的一部分。",
+      "邀请您的孩子参加他们的个别化教育计划会议——自我倡导技能对于成人的成功至关重要。",
+      "在您的孩子离开学校之前与您所在州的职业康复机构联系 - 他们可以提供就业支持。",
+      "研究您所在地区的成人服务机构（发育障碍机构、就业支持计划）并在 18 岁之前发起转介。"
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "教育",
+    "title": "家长培训和信息中心 (PTI)",
+    "summary": "每个州都有联邦政府资助的免费中心，帮助父母接受特殊教育、了解他们的权利并为他们的孩子辩护。",
+    "details": "家长培训和信息中心 (PTI) 由 IDEA 资助，每个州都有。他们为从出生到 26 岁的残疾儿童的家长提供免费培训和支持。PTI 工作人员帮助家庭了解特殊教育法、有效参与 IEP 会议、解决与学校的纠纷以及联系社区资源。许多 PTI 提供西班牙语和其他语言的服务。 PTI 不代表学区——它们是为家庭服务的独立组织。他们可以帮助您了解 IDEA、第 504 条和 ADA 规定的您的权利。对于移民家庭来说，PTI 特别有价值，因为无论移民身份如何，它们都提供免费、知识渊博的宣传支持。",
+    "steps": [
+      "在parentcenterhub.org/find-your-center 上查找您所在州的 PTI — 每个州至少有一个。",
+      "致电询问有关 IEP 权利、特殊教育法和自闭症服务的免费研讨会。",
+      "为即将举行的 IEP 会议请求一对一支持 — 许多 PTI 可以帮助您准备或与您一起参加。",
+      "询问他们是否有会说您语言的工作人员或可以提供口译服务。",
+      "参加家长与家长的联系活动，与其他面临类似挑战的家庭见面。",
+      "使用他们的资源库获取样本信函、权利指南和有关本地服务的信息。"
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "教育",
+    "title": "学校辅助技术",
+    "summary": "根据 IDEA，学校必须考虑为每个拥有 IEP 的儿童提供辅助技术，并在 IEP 团队确定需要时免费提供设备和服务。",
+    "details": "辅助技术 (AT) 包括帮助残疾儿童接受教育的任何设备或服务。对于自闭症儿童，AT 可以包括通信设备 (AAC)、视觉日程应用程序、降噪耳机、加重背心、语音生成设备、文本转语音软件和专用键盘。根据 IDEA，IEP 团队必须考虑儿童是否需要 AT 设备和服务来接收 FAPE。如果 AT 写入 IEP，学区必须免费向家庭提供。学校不能因为费用而拒绝 AT。 AT 考虑应在每次 IEP 会议上进行，家庭可以随时请求 AT 评估。许多州还设有 AT 借阅图书馆，家庭可以在使用前借用设备进行试用。",
+    "steps": [
+      "在您孩子的下一次 IEP 会议上，请求正式考虑辅助技术——这是 IDEA 的要求。",
+      "如果需要 AT，请请求专家进行正式的 AT 评估——学校必须免费提供此评估。",
+      "通过您所在州的 AT 贷款图书馆探索 AT 选项——大多数州都有一个（在 atap.org 上找到您的）。",
+      "如果 AT 包含在 IEP 中，学校必须提供、维护和培训员工使用这些设备。",
+      "如果 IEP 团队确定 FAPE 有必要在家使用 AT 设备，您的孩子可以将 AT 设备带回家。",
+      "如果学校拒绝 AT，请以书面形式请求拒绝，并考虑通过调解或正当程序提出争议。"
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "国家服务",
+    "title": "州发育障碍机构",
+    "summary": "每个州都有一个发育障碍机构，负责协调为自闭症和其他发育障碍患者提供的服务。",
+    "details": "州发育障碍 (DD) 机构负责管理针对包括自闭症在内的发育障碍个人的计划和资金。服务通常包括诊断评估、病例管理、家庭和社区服务、住宿支持、日间计划、就业支持、临时护理和家庭支持。在某些州（例如加利福尼亚州），服务是通过区域中心提供的。在其他情况下，州 DD 机构与当地提供商签订合同。这些机构是医疗补助豁免计划的门户，可以为 ABA 治疗、暂托护理和其他关键服务提供资金。许多 DD 机构都有很长的等待名单，因此尽早申请至关重要。无论移民身份如何，通常都可以获得服务，但医疗补助资助的服务可能有资格要求。",
+    "steps": [
+      "请访问 nasddds.org/state-agcies 查找您所在州的 DD 机构 — 每个州都有一个。",
+      "联系他们，了解您所在州的自闭症儿童可以使用哪些服务。",
+      "询问医疗补助豁免计划 - 申请您的孩子可能符合资格的所有豁免，因为等候名单可能长达数年。",
+      "请求服务协调员或案例经理帮助导航可用的计划。",
+      "询问家庭支持服务：家长培训、兄弟姐妹支持、暂托照顾和经济援助。",
+      "如果您的孩子即将成年，请询问过渡年龄服务和支持就业计划。"
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "国家服务",
+    "title": "家庭和社区服务 (HCBS) 豁免",
+    "summary": "医疗补助 HCBS 豁免为您的家庭和社区的自闭症服务提供资金，包括 ABA 治疗、暂托护理和个人支持——通常与家庭收入无关。",
+    "details": "HCBS 豁免允许各州在家庭和社区而不是机构中提供医疗补助资助的服务。对于自闭症儿童，这些豁免可以涵盖 ABA 治疗、言语治疗、职业治疗、暂托护理、个人护理援助、支持性就业、日间康复、辅助技术、环境改造和家庭培训。资格通常基于孩子的残疾程度，而不是家庭收入——孩子的收入与父母的收入分开考虑。一些州有针对自闭症的豁免（例如马里兰州的自闭症豁免），而其他州则将自闭症纳入更广泛的 DD 豁免。等候名单可能非常长——有时长达 5 至 10 年——因此尽早申请至关重要。您可以同时进入多个豁免等待名单。",
+    "steps": [
+      "请联系您所在州的医疗补助办公室或 DD 机构，了解哪些 HCBS 豁免适用于自闭症儿童。",
+      "申请您​​的孩子可能有资格获得的每一项豁免——您可以同时出现在多个等候名单上。",
+      "询问您在等待名单上的位置以及预计等待时间 - 每 3-6 个月跟进一次。",
+      "收集文件：自闭症诊断、功能评估、医疗记录和学校评估。",
+      "获得批准后，与您的服务协调员合作制定以人为本的服务计划。",
+      "每年审查您的计划并根据需求的变化请求更改 - 您有权对任何拒绝服务提出上诉。"
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "国家服务",
+    "title": "职业康复 (VR) 服务",
+    "summary": "为残疾人提供国家资助的免费就业服务，包括就业培训、职业咨询、支持性就业和就业安置。",
+    "details": "职业康复 (VR) 是一项根据 1973 年《康复法案》授权的州联邦计划，旨在帮助残疾人做好就业准备、获得和维持就业。每个州都有一个 VR 机构，提供个性化服务，包括职业咨询、职业评估、工作技能培训、支持性就业、工作辅助技术、工作辅导和就业安置。对于患有自闭症的年轻人和处于过渡时期的青少年来说，虚拟现实可以成为从学校到就业的重要桥梁。 VR 服务是免费的，任何对就业造成重大障碍的残疾人都可以使用。 14-21 岁的残疾学生甚至在申请 VR 之前就可以获得就业前过渡服务。在您的孩子离开学校之前连接 VR，以实现最平稳的过渡。",
+    "steps": [
+      "请访问 rsa.ed.gov/about/states 查找您所在州的 VR 机构 — 全国有 78 个 VR 机构。",
+      "申请 VR 服务——资格要求是患有对就业构成重大障碍的残疾。",
+      "如果您的孩子仍在上学（14-21 岁），请询问无需完整 VR 应用程序即可获得的就业前过渡服务。",
+      "与您的 VR 顾问合作制定具有特定目标的个性化就业计划 (IPE)。",
+      "询问就业支持服务，包括针对自闭症患者的就业辅导和在职支持。",
+      "VR 服务将持续到个人实现稳定就业为止——定期与您的顾问进行跟进。"
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "移民",
+    "title": "无证家庭 ITIN 申请",
+    "summary": "个人纳税人识别号 (ITIN) 允许您在没有社会保障号的情况下报税、开设银行账户以及访问某些服务。",
+    "details": "ITIN 是美国国税局 (IRS) 向需要拥有美国纳税人识别号但没有资格获得社会保障号的个人颁发的税务处理号码。自 1996 年以来，美国国税局 (IRS) 向无证移民及其家属发放个人纳税识别号码 (ITIN)。 ITIN 允许您提交联邦纳税申报表、开设银行账户、申请州和地方福利以及建立财务记录。如需申请，请填写 IRS 表 W-7，并将其与联邦纳税申报表和身份证明（护照、领事身份证或其他可接受的文件）一起提交。您可以通过邮寄、亲自前往 IRS 纳税人援助中心或通过认证受理代理进行申请。注意：2025 年 11 月的法院命令目前阻止了 IRS-ICE 数据共享协议，但家庭应该意识到这种情况可能会发生变化。",
+    "steps": [
+      "收集所需文件：有效护照是最普遍接受的独立身份证件。",
+      "填写 IRS 表格 W-7 — 您可以在 irs.gov 下载该表格或从认证受理代理处获取帮助。",
+      "提交 W-7 表和您的联邦纳税申报表（表 1040）——ITIN 只能在报税时签发。",
+      "在 irs.gov 上查找您附近的认证受理代理 (CAA) — 他们可以验证文件，因此您无需邮寄原件。",
+      "处理时间为 7-11 周——报税季节（1 月至 4 月）时间更长。",
+      "如果您的 ITIN 已过期，请续订 — 未使用的 ITIN 将在连续 3 年不使用后过期。"
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "移民",
+    "title": "社区卫生中心 (FQHC)",
+    "summary": "联邦合格的健康中心为所有人提供服务，无论移民身份或支付能力如何，费用根据您的收入浮动。",
+    "details": "联邦合格健康中心 (FQHC) 是基于社区的医疗保健组织，为服务不足的人群提供全面的初级保健、牙科、心理健康和支持服务。根据法律规定，FQHC 必须为所有患者提供服务，无论其移民身份、保险范围或支付能力如何。他们根据家庭收入采用浮动收费标准——处于或低于联邦贫困线 100% 的家庭通常免费或象征性地收取费用。到 2023 年，FQHC 为超过 3000 万患者提供服务，其中包括许多移民家庭。对于自闭症儿童，FQHC 可以提供发育筛查、诊断评估转诊、初级保健以及与专家的联系。许多 FQHC 都有双语工作人员和口译服务。",
+    "steps": [
+      "在 findahealthcenter.hrsa.gov 上查找您附近的 FQHC — 输入您的邮政编码进行搜索。",
+      "致电安排预约 — 解释您需要服务并询问浮动费用。",
+      "带上收入证明（工资单、银行对账单或自我声明）以确定您的费用水平。",
+      "您不需要提供移民文件、社会安全号码或保险。",
+      "询问有关您孩子的发育筛查以及转介给自闭症评估提供者的信息。",
+      "为自己询问心理健康服务——许多 FQHC 提供多种语言的咨询服务。"
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "移民",
+    "title": "特殊移民青少年身份 (SIJS)",
+    "summary": "为遭受父母一方或双方虐待、遗弃或忽视的 21 岁以下移民儿童提供合法永久居留的途径。",
+    "details": "特殊移民青少年身份 (SIJS) 是一种人道主义保护形式，可以为遭受虐待、遗弃或忽视的移民儿童提供获得绿卡的途径。为了符合资格，孩子必须年满 21 岁、未婚，并且有州法院命令认定他们受到父母一方或双方的虐待、忽视或遗弃，并且返回祖国不符合他们的最佳利益。对于自闭症儿童，当父母抛弃家庭或孩子因残疾需求而遭受忽视时，SIJS 可能会有意义。该过程涉及州法院诉讼（以获得必要的调查结果）和联邦移民诉讼（SIJS 申请和绿卡申请）。通过移民法律援助组织可以获得免费法律帮助。",
+    "steps": [
+      "咨询专门处理儿童案件的移民律师——许多法律援助组织免费处理 SIJS 案件。",
+      "确定您的孩子是否满足以下要求：21 岁以下、未婚、受到父母虐待/遗弃/忽视。",
+      "从州法院（家庭法院、少年法院或遗嘱认证法院，具体取决于您所在的州）获取必要的调查结果。",
+      "向 USCIS 提交 I-360 表格（特殊移民申请）以及州法院命令。",
+      "SIJS 获得批准后，可通过填写 I-485 表格申请合法永久居留（绿卡）。",
+      "请联系 Safe Passage Project、NIJC 或 CLINIC 等组织以获得免费法律代理。"
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "移民",
+    "title": "公共负担规则：什么重要，什么不重要",
+    "summary": "根据现行法律，为您的孩子使用残疾服务、医疗补助、CHIP、WIC、学校午餐或特殊教育不会对您在移民程序中产生不利影响。",
+    "details": "公共负担规则是移民家庭最大的恐惧来源之一。根据目前生效的规则（2022 年），唯一计入公共负担确定的福利是 SSI（补充保障收入）、TANF 现金援助和政府费用的长期制度化。医疗补助（长期收容除外）、CHIP、SNAP、WIC、学校午餐、住房福利、Head Start、特殊教育和早期干预服务不计入在内。您的孩子代表自己获得的福利不属于您。 2025 年 11 月发布的拟议规则可能会扩大影响范围，但尚未生效并面临法律挑战。根据现行法律，为您的自闭症孩子使用残疾服务不会影响您的移民案件。",
+    "steps": [
+      "了解事实：医疗补助、CHIP、WIC、SNAP、学校午餐、启蒙计划和特殊教育不计为公共负担。",
+      "您的美国公民子女获得的福利不会对您不利——只有您个人获得的福利才是重要的。",
+      "目前唯一重要的福利是 SSI、TANF 现金和政府费用的长期制度化。",
+      "如果您有移民问题，请在做出福利决定之前咨询移民律师——许多法律援助组织提供免费咨询。",
+      "通过 NILC (nilc.org) 和 ILRC (ilrc.org) 了解公共负担规则的变化。",
+      "不要仅仅因为恐惧而退出计划——根据您的具体情况获取准确的法律建议。"
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "保险与资金",
+    "title": "国家自闭症保险规定",
+    "summary": "现在，所有 50 个州都要求保险计划承保包括 ABA 治疗在内的自闭症服务，但年龄限制和美元上限等承保细节因州而异。",
+    "details": "美国所有 50 个州都颁布了自闭症保险指令，要求健康保险计划涵盖自闭症谱系障碍的诊断和治疗，包括应用行为分析 (ABA)。然而，承保细节因州而异。一些州对年度 ABA 福利设有上限（从每年 36,000 美元到超过 72,000 美元不等），而其他州则没有上限。年龄限制各不相同——一些州只承保儿童，而另一些州则要求承保所有年龄段。自筹资金雇主计划（ERISA 计划）不受州强制规定的约束，但可能须遵守联邦心理健康平等要求。如果您的保险拒绝提供自闭症服务，您有权上诉。联邦心理健康平等和成瘾公平法案要求心理健康福利（包括自闭症治疗）与医疗/手术福利同等覆盖。",
+    "steps": [
+      "请访问 ncsl.org/health/autism-and-insurance-coverage-state-laws 查找您所在州的具体自闭症保险规定。",
+      "以书面形式索取您计划的自闭症福利副本 — 询问 ABA 承保范围、年龄限制、疗程限制和金额上限。",
+      "从您孩子的医生处获取转介，说明推荐的治疗方法和医疗必要性。",
+      "如果被拒绝，请以书面形式请求拒绝并附上具体的政策引用，并提出内部上诉。",
+      "如果内部上诉失败，请向您所在州的保险部门提出外部上诉。",
+      "请联系您所在州的保护和倡导组织，获取有关保险上诉的免费帮助。"
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "保险与资金",
+    "title": "凯蒂·贝克特 / TEFRA 豁免",
+    "summary": "根据孩子（而非父母）的收入，为在家中患有严重残疾的儿童提供医疗补助，使大多数儿童无论家庭收入如何都有资格。",
+    "details": "凯蒂·贝克特（也称为 TEFRA）选项允许各州通过仅计算孩子的收入而不是父母的收入来向住在家里的严重残疾儿童提供医疗补助。由于大多数儿童没有收入，这使得绝大多数患有严重残疾的儿童有资格享受医疗补助，无论他们的父母赚多少钱。该计划于 1982 年创建，当时凯蒂·贝克特 (Katie Beckett) 是一个需要呼吸机的孩子，由于父母的收入太高，她只能在医院而不是家里接受医疗补助资助的护理。目前约有 24 个州提供某种形式的 Katie Beckett/TEFRA 保险。对于需要 ABA 等昂贵治疗的自闭症儿童来说，该计划可以改变他们的生活，因为它提供的医疗补助覆盖范围包括 EPSDT 福利。请联系您所在州的医疗补助办公室，了解您所在州是否提供此选项。",
+    "steps": [
+      "请访问 kidswaivers.org 或致电您所在州的 Medicaid 办公室，查看您所在的州是否提供 Katie Beckett/TEFRA 选项。",
+      "要符合资格，您的孩子必须符合 SSI（因自闭症导致的严重功能限制）的残疾标准。",
+      "通过您所在州的医疗补助办公室申请 - 该申请评估孩子的残疾程度，而不是家庭财务状况。",
+      "收集医疗文件：自闭症诊断、功能评估、治疗记录以及有关护理需求的医生声明。",
+      "如果获得批准，您的孩子将获得全部医疗补助福利，包括 EPSDT — ABA、言语、OT 和所有医疗必要服务。",
+      "如果您所在的州不提供 Katie Beckett，请询问针对残疾儿童的其他医疗补助途径（HCBS 豁免、医疗需要计划）。"
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "保险与资金",
+    "title": "ABLE 账户（税收优惠储蓄）",
+    "summary": "免税储蓄账户用于支付与残疾相关的费用，这些费用不影响 SSI、医疗补助或其他经经济情况调查的福利的资格。",
+    "details": "ABLE（实现更好的生活体验）账户经 2014 年 ABLE 法案授权，是针对 46 岁之前开始残疾的个人的税收优惠储蓄账户。当用于合格的残疾费用 (QDE)（包括教育、住房、交通、医疗保健、辅助技术和个人支持服务）时，缴款增长免税，提款也免税。 ABLE 账户中的前 100,000 美元不受 SSI 资源限额 2,000 美元的限制，这意味着您的孩子可以省钱，而不会失去 SSI 或医疗补助资格。年度供款限额为 18,000 美元（2025 年），工作受益人可以额外供款。大多数州都提供 ABLE 计划，您可以在任何州开设账户。对于自闭症儿童的家庭来说，ABLE 账户是节省残疾相关费用同时保留福利资格的最佳工具之一。",
+    "steps": [
+      "检查资格：账户受益人必须患有 46 岁之前开始的残疾。",
+      "在ablenrc.org 上比较各州的 ABLE 计划 — 您可以在任何州开设账户，而不仅仅是您自己的州。",
+      "通过您选择的州的 ABLE 计划在线开设账户 — 该过程类似于开设银行账户。",
+      "设置自动捐款——即使是小额定期捐款也会随着时间的推移而增加。",
+      "记录所有提款以及资金如何用于合格的残疾费用。",
+      "前 100,000 美元不计入 2,000 美元的 SSI 资源限制 — 无需担心失去福利即可保存。"
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "保险与资金",
+    "title": "自闭症助学金和奖学金计划",
+    "summary": "来自非营利组织的财政拨款，帮助支付治疗费用、诊断评估、辅助技术和其他与自闭症相关的费用。",
+    "details": "一些非营利组织向自闭症儿童的家庭提供财政补助。 ACT Today（今日自闭症护理和治疗）为无力承担或无法获得治疗的家庭提供高达 5,000 美元的补助金。自闭症之言自闭症护理补助金为自闭症相关费用提供 500 美元。联合医疗保健儿童基金会 (UHCCF) 每年为保险未涵盖的医疗费用提供高达 5,000 美元的补助金。其中许多补助金不需要社会安全号码或特定的移民身份。此外，一些州还提供自闭症奖学金计划，为私立学校的学费或自闭症儿童的治疗提供资金（例如俄亥俄州的自闭症奖学金计划）。当地自闭症协会、社区基金会和服务组织（狮子俱乐部、扶轮社、麋鹿队）也可以提供经济援助。",
+    "steps": [
+      "在 act-today.org 申请 ACT Today 补助金 — 补助金涵盖治疗、评估和辅助技术。",
+      "在 autismspeaks.org 申请 Autism Speaks 自闭症护理补助金 — 为自闭症相关费用提供 500 美元补助金。",
+      "在 uhccf.org 上查看 UHCCF 补助金——保险未承保的医疗费用每年最高可达 5,000 美元。",
+      "寻找您所在州的自闭症奖学金——一些州资助私立学校或自闭症儿童的治疗。",
+      "请联系您当地的自闭症协会附属机构，了解有关当地赠款和财务援助计划的信息。",
+      "向治疗提供者询问公益名额、浮动费用或付款计划——许多人为有需要的家庭保留名额。"
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "疗法",
+    "title": "增强性和替代性沟通 (AAC)",
+    "summary": "帮助不会说话或很少说话的儿童通过图片、符号或语音生成技术表达想法、需求和感受的通信系统和设备。",
+    "details": "增强性和替代性沟通（AAC）涵盖除口头演讲之外的所有形式的沟通。对于不会说话或很少说话的自闭症儿童来说，AAC 可以带来变革。选项范围从低技术（图片板、PECS - 图片交换通信系统、通信书籍）到高科技（基于平板电脑的应用程序，如 Proloquo2Go 或 TouchChat、专用语音生成设备）。研究一致表明，AAC 不会阻止儿童语言能力的发展——事实上，研究表明它实际上可能会增加语言交流。使用 AAC 没有先决条件——任何年龄或能力水平的儿童都可以受益。根据 IDEA，如果确定 FAPE 需要 AAC 设备，学校必须免费提供。医疗补助和保险也可能涵盖 AAC 设备，并提供适当的医疗必要性文件。",
+    "steps": [
+      "向您孩子的 SLP 询问 AAC 选项 - 言语病理学家应该评估哪种类型的 AAC 最适合您的孩子。",
+      "从有效的开始：即使指向、手势和图片卡也算作 AAC — 您不需要昂贵的技术。",
+      "尝试基于平板电脑的 AAC 应用程序（Proloquo2Go、TouchChat、LAMP Words for Life）——许多都提供免费试用。",
+      "通过您孩子的学校 IEP 请求 AAC 评估 - 如果教育需要 AAC，学校必须免费提供。",
+      "通过医疗补助、保险或您所在州的辅助技术计划申请 AAC 设备资金。",
+      "模型 AAC 使用您自己 — 在说话时按下设备上的按钮，向您的孩子展示它是如何工作的（这称为“辅助语言刺激”）。"
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "疗法",
+    "title": "家长实施的干预培训",
+    "summary": "基于证据的计划，培训父母在家中为孩子提供治疗策略，显着扩大专业治疗的影响。",
+    "details": "家长实施干预 (PII) 是国家 ASD 专业发展中心认可的循证实践。对涉及近 3,000 名儿童的 51 项随机对照试验进行的荟萃分析表明，家长实施的干预措施在社交技能、沟通、适应行为和减少挑战性行为方面产生了较强的益处。 PII 对于由于保险、地理或语言障碍而无法获得专业治疗师的移民家庭来说尤其有价值。家长采取行动 (PTA) 等计划已根据中国和韩国移民家庭的文化进行了调整，并取得了显着的积极成果。家长培训通常是 ABA、言语治疗和早期干预服务的组成部分，并且可以通过远程医疗提供。 IDEA C 部分明确支持家长辅导作为服务提供模式。",
+    "steps": [
+      "向您孩子的治疗师（BCBA、SLP 或 OT）询问家长培训的内容——大多数循证计划都包含这些内容。",
+      "请求家长​​辅导作为您孩子的 IEP 或 IFSP 中的一项特定服务——它可以是一项独立的服务。",
+      "通过 Autism Speaks 工具包和 Autism Internet Modules (autisminternetmodules.org) 探索免费的在线家长培训。",
+      "寻找适合您的语言和社区的文化适应计划，例如家长采取行动 (PTA)。",
+      "在日常生活中练习干预策略——吃饭、洗澡、玩耍和办事都是自然的学习机会。",
+      "跟踪您孩子的进步并与专业团队分享观察结果 - 您的数据有助于指导治疗调整。"
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "危机支持",
+    "title": "防止流浪/私奔（大红色安全箱）",
+    "summary": "国家自闭症协会提供免费安全工具包，帮助预防和应对危险的流浪事件，这些事件影响了近一半的自闭症儿童。",
+    "details": "大约 50% 的自闭症儿童会在安全的环境中流浪或私奔，这使得流浪成为家庭最严重的安全问题之一。流浪后溺水是自闭症儿童死亡的主要原因。国家自闭症协会的大红色安全箱是一个免费工具包，运送给有流浪风险的自闭症患者的家庭。自2011年以来，已分发了70,000多个盒子。该工具包包括视觉安全资源、身份证、门窗警报器以及创建全面安全计划的指南。其他措施包括 GPS 跟踪设备、医疗 ID 手环、门警报器、泳池围栏以及与当地急救人员建立关系。教授水上安全和游泳技能至关重要。许多家庭还受益于 MedicAlert Found 计划，该计划专门为自闭症患者提供免费医疗 ID 手环和 24/7 流浪支持服务。",
+    "steps": [
+      "请访问Nationalautismassociation.org/big-red-safety-box 申请免费的大红色安全箱——每个家庭一个，送完即止。",
+      "安装门窗警报器，尤其是在出口处——五金店可以找到便宜的警报器。",
+      "考虑为您的孩子配备 GPS 跟踪设备 — 可穿戴设备包括 AngelSense、Jiobit 和 Apple AirTag 支架。",
+      "在medicalert.org 上注册MedicAlert Found 计划——为自闭症家庭提供免费医疗ID 和24/7 流浪支持。",
+      "尽早教授水上安全和游泳技能——许多社区都有为自闭症儿童设计的游泳课程。",
+      "通知当地警察和消防部门有关您孩子的自闭症和流浪风险的信息——许多部门都有自愿登记。"
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "危机支持",
+    "title": "自闭症紧急身份证和医疗警报",
+    "summary": "医疗识别工具，可在紧急情况下向急救人员、医务人员和社区成员传达自闭症诊断和关键信息。",
+    "details": "由于自闭症是一种看不见的疾病，急救人员和医务人员在紧急情况下可能无法识别它，从而可能导致危险的误解。医疗 ID 手镯、项链、钱包卡和鞋牌传达重要信息：个人患有自闭症、可能不会对口头命令做出反应、可能是非语言的以及紧急联系方式。 MedicAlert Found 计划（与国家自闭症协会合作）提供免费注册、免费的医疗 ID 手链或项链、免费的医疗 ID 鞋标签以及专门针对自闭症社区的 24/7 流浪支持服务。其他选项包括链接到详细医疗档案的二维码手环、ICE（紧急情况下）钱包卡和智能手机医疗 ID 功能。对于可能摘掉传统手镯的孩子，选择包括鞋牌、衣服标签和带有联系信息的临时纹身。",
+    "steps": [
+      "在medicalert.org 上注册MedicAlert Found 计划——为自闭症患者提供免费医疗ID 和24/7 支持。",
+      "选择您的孩子能够忍受的可穿戴 ID——选项包括手镯、项链、鞋牌和服装标签。",
+      "为您孩子的钱包或背包创建一张 ICE（紧急情况）卡，其中包含诊断、药物、紧急联系人和沟通需求。",
+      "在您孩子的智能手机（iPhone 和 Android 上均可用）上设置医疗 ID 功能，并提供重要的健康信息。",
+      "包括具体的沟通说明：“我有自闭症。”我可能不会回应口头命令。请使用简单的语言和视觉提示。”",
+      "随着药物、联系人或沟通能力的变化定期更新 ID 信息。"
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "危机支持",
+    "title": "急救人员自闭症意识计划",
+    "summary": "培训项目教导警察、消防员和急救人员识别自闭症，并在遇到自闭症患者时使用安全、有效的降级技术。",
+    "details": "当警察将与自闭症相关的行为（不进行目光接触、不听从口头命令、重复动作、逃跑）误解为不服从或威胁行为时，自闭症患者和执法部门之间的遭遇可能会变得危险。急救人员自闭症意识培训计划教导官员识别自闭症迹象，使用冷静和简单的沟通，留出额外的处理时间，尽量减少感官输入，并使用降级技术。美国自闭症协会的频谱安全计划促进急救人员和自闭症社区之间的安全互动。国际认证和继续教育标准委员会 (IBCCES) 提供正式的急救人员自闭症认证。一些州（如佛罗里达州）强制要求执法人员接受自闭症培训。家庭可以通过分享有关孩子的信息来主动与当地警察和消防部门建立关系。",
+    "steps": [
+      "联系您当地的警察局，询问他们是否接受过自闭症意识培训——如果没有，则主动分享资源。",
+      "向当地警察和消防局提供您孩子的一页资料：照片、姓名、诊断、沟通方式、触发因素和安抚策略。",
+      "询问当地 911 调度中心维护的自愿特殊需求登记处。",
+      "与当地机构共享自闭症协会 (autismsociety.org/first-responder) 的培训资源。",
+      "在平静的环境中练习与穿制服的人员互动，以便您的孩子熟悉他们。",
+      "携带钱包卡或让您的孩子佩戴医疗证件，上面写有“我患有自闭症”，并向急救人员提供具体说明。"
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

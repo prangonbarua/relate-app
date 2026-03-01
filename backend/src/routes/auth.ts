@@ -23,8 +23,8 @@ router.post("/register", async (req: AuthRequest, res: Response) => {
   }
 
   // Validate password minimum length
-  if (password.length < 8) {
-    res.status(400).json({ error: "Password must be at least 8 characters" });
+  if (password.length < 6) {
+    res.status(400).json({ error: "Password must be at least 6 characters" });
     return;
   }
 

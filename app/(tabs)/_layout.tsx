@@ -7,17 +7,18 @@ import { Colors } from "../../constants/theme";
 const TAB_ROUTES = ["index", "skills", "navigator", "community", "assistant"] as const;
 type TabRoute = typeof TAB_ROUTES[number];
 
-const MENU_ITEMS: InteractiveMenuItem[] = [
-  { label: "Home",      icon: "home-outline" },
-  { label: "Materials",  icon: "compass-outline" },
-  { label: "Skills",    icon: "book-outline" },
-  { label: "Community", icon: "people-outline" },
-  { label: "Assistant", icon: "sparkles-outline" },
-];
-
 function CustomTabBar() {
+  const { t } = useTranslation();
   const router = useRouter();
   const segments = useSegments();
+
+  const menuItems: InteractiveMenuItem[] = [
+    { label: t("tabs.home"),      icon: "home-outline" },
+    { label: t("tabs.skills"),    icon: "compass-outline" },
+    { label: t("tabs.navigator"), icon: "book-outline" },
+    { label: t("tabs.community"), icon: "people-outline" },
+    { label: t("tabs.assistant"), icon: "sparkles-outline" },
+  ];
 
   // Derive active index from current route segment
   const activeRoute = segments[segments.length - 1] as TabRoute | undefined;
@@ -33,7 +34,7 @@ function CustomTabBar() {
 
   return (
     <InteractiveMenu
-      items={MENU_ITEMS}
+      items={menuItems}
       accentColor={Colors.tabActive}
       onSelect={handleSelect}
       initialIndex={initialIndex >= 0 ? initialIndex : 0}
@@ -53,7 +54,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="navigator" options={{ title: t("tabs.navigator") }} />
       <Tabs.Screen name="skills"    options={{ title: t("tabs.skills") }} />
       <Tabs.Screen name="community" options={{ title: t("tabs.community") }} />
-      <Tabs.Screen name="assistant" options={{ title: "Assistant" }} />
+      <Tabs.Screen name="assistant" options={{ title: t("tabs.assistant") }} />
     </Tabs>
   );
 }

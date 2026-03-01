@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "comm-1",
+    "skill": "Pinagsamang Atensyon: Sundin ang Pinuno",
+    "whyItMatters": "Ang magkasanib na atensyon ay isa sa pinakamaagang pagbuo ng mga bloke ng komunikasyon. Kapag natutunan ng isang bata na magbahagi ng pagtuon sa isang tagapag-alaga sa parehong bagay o kaganapan, nagbubukas ito ng pinto sa pag-unlad ng wika, panlipunang pag-aaral, at emosyonal na koneksyon. Ipinapakita ng pananaliksik na ang pagpapabuti ng magkasanib na atensyon ay humahantong sa mga tagumpay sa pasalitang wika sa loob ng mga buwan.",
+    "steps": [
+      "Obserbahan kung ano ang likas na interesado sa iyong anak nang hindi inire-redirect ang kanyang atensyon.",
+      "Iposisyon ang iyong sarili sa antas ng kanilang mga mata at sa loob ng kanilang linya ng paningin.",
+      "Isalaysay kung ano ang kanilang ginagawa gamit ang maikli, malinaw na mga parirala tulad ng 'Nahanap mo ang bola!'",
+      "I-pause ng 5 segundo at maghintay ng anumang tugon — isang hitsura, tunog, o kilos ay binibilang bilang tagumpay."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-6",
+    "sources": [
+      "Autism Speaks — Early Start Denver Model: Joint Attention (autismspeaks.org/early-start-denver-model-esdm)",
+      "Chicago ABA Therapy — Joint Attention Routines in ESDM (chicagoabatherapy.com/resources/articles/joint-attention-routines-and-how-they-are-implemented-in-esdm/)",
+      "ASHA — Joint Attention and Language Development (asha.org)"
+    ]
+  },
+  {
+    "id": "comm-2",
+    "skill": "Pakikipagpalitan ng Larawan",
+    "whyItMatters": "Para sa mga bata na nonverbal o may limitadong pananalita, ang mga sistema ng pagpapalitan ng larawan ay nagbibigay ng kongkretong paraan upang ipahayag ang mga gusto at pangangailangan. Binabawasan nito ang mga gawi na nakabatay sa pagkabigo at bumubuo ng pundasyon para sa mas kumplikadong komunikasyon. Maraming mga bata na nagsisimula sa pagpapalitan ng larawan sa kalaunan ay nagkakaroon din ng pasalitang wika.",
+    "steps": [
+      "Pumili ng 3-5 larawan ng mga pinakagustong bagay o aktibidad ng iyong anak.",
+      "Ilagay ang mga larawan kung saan madaling maabot ng iyong anak ang mga ito sa araw-araw na gawain.",
+      "Kapag inabot ng iyong anak ang isang bagay, dahan-dahang gabayan silang ibigay muna sa iyo ang larawan.",
+      "Ibigay kaagad sa kanila ang hinihiling na bagay at sabihin nang malinaw ang pangalan nito — 'Juice! Humingi ka ng juice!'"
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-8",
+    "sources": [
+      "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+      "Indiana University IRCA — What is PECS? (iidc.indiana.edu/irca/articles/what-is-the-picture-exchange-communication-system-or-pecs.html)",
+      "Autism Speaks — Augmentative and Alternative Communication (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "comm-3",
+    "skill": "Pagpapalawak ng Iisang Salita sa Mga Parirala",
+    "whyItMatters": "Sa sandaling gumamit ang isang bata ng mga solong salita, ang susunod na hakbang sa pag-unlad ay pagsasama-sama ng mga salita sa dalawang-salitang parirala. Ang kasanayang ito ay kapansin-pansing nagpapataas ng kanilang kakayahang makipag-usap sa mga partikular na pangangailangan at binabawasan ang hula para sa mga tagapag-alaga. Ang susi ay natural na lumalawak mula sa sinasabi na ng bata, sa halip na magpakilala ng ganap na bagong bokabularyo.",
+    "steps": [
+      "Makinig sa mga salitang kusang ginagamit ng iyong anak sa buong araw.",
+      "Kapag nagsabi sila ng isang salita tulad ng 'bola', magdagdag ng isang salita upang magmodelo ng isang parirala: 'Big ball' o 'Roll ball'.",
+      "Maghintay nang may pag-asa pagkatapos ng pagmomodelo — bigyan sila ng 5-10 segundo upang subukan ang parirala.",
+      "Tanggapin ang anumang pagtatantya nang masigasig at natural na ulitin ang buong parirala."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-5",
+    "sources": [
+      "Raising Children Network — Language Development in Autistic Children (raisingchildren.net.au/autism/development/language-development)",
+      "ASHA — Late Language Emergence (asha.org/practice-portal/clinical-topics/late-language-emergence/)"
+    ]
+  },
+  {
+    "id": "comm-4",
+    "skill": "Paghiling ng Likas na Kapaligiran",
+    "whyItMatters": "Ang Natural Environment Teaching (NET) ay naglalagay ng komunikasyon sa mga tunay na pang-araw-araw na gawain, na ginagawang mas makabuluhan at nakakaganyak ang pag-aaral. Kapag natutong humiling ang mga bata sa mga aktibidad na kinagigiliwan na nila — mga meryenda, laruan, pamamasyal — mas mabilis na nagiging pangkalahatan ang kasanayan sa komunikasyon sa ibang mga setting. Ang diskarte na ito ay batay sa mga prinsipyo ng ABA ngunit parang natural at mapaglaro.",
+    "steps": [
+      "Sa oras ng meryenda, hawakan ang dalawang opsyon at hintayin ang iyong anak na magpahiwatig ng isang pagpipilian — isang punto, isang salita, o isang tanda.",
+      "Sa parke, i-pause ang swing at hintayin ang iyong anak na humiling ng 'push' o 'more' bago magpatuloy.",
+      "Habang naglalaro, humawak ng gustong laruan na hindi maabot at imodelo ang kahilingan: 'Gusto mo ng tren?' pagkatapos ay maghintay.",
+      "Palaging igalang kaagad ang kahilingan — ang item mismo ay ang natural na pampalakas."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-6",
+    "sources": [
+      "Magnet ABA — Natural Environment Teaching (magnetaba.com/blog/aba-therapy-and-natural-environment-teaching)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "comm-5",
+    "skill": "First-Then Boards for Transitions",
+    "whyItMatters": "Maraming autistic na bata ang nahihirapan sa mga pagbabago sa pagitan ng mga aktibidad. Ang isang first-then board ay nagbibigay ng visual na istraktura na ginagawang predictable ang sequence: 'Una natin gawin ito, pagkatapos ay gagawin natin iyon.' Binabawasan nito ang pagkabalisa, pinapaliit ang paglaban, at bubuo ng pag-unawa sa pagkakasunud-sunod na sumusuporta sa pagbuo ng wika.",
+    "steps": [
+      "Gumawa ng simpleng board na may dalawang spot na may label na 'Una' at 'Pagkatapos' gamit ang mga larawan o larawan.",
+      "Ilagay ang hindi gaanong ginustong aktibidad sa 'Una' na lugar at isang nakakaganyak na aktibidad sa 'Pagkatapos' na lugar.",
+      "Ituro ang bawat larawan at isalaysay: 'Unang sapatos, pagkatapos ay palaruan.'",
+      "Patuloy na sundin — palaging ihatid ang 'pagkatapos' na aktibidad upang bumuo ng tiwala sa system."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-7",
+    "sources": [
+      "Autism Classroom Resources — Visual Schedule Series: First-Then (autismclassroomresources.com/visual-schedule-series-first-then/)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Supports (teacch.com)"
+    ]
+  },
+  {
+    "id": "comm-6",
+    "skill": "Gestural Communication Building",
+    "whyItMatters": "Bago umunlad ang mga binibigkas na salita, ang mga kilos ay isang kritikal na tulay sa komunikasyon. Ang pagturo, pagkaway, pagtango, at pag-iling ng ulo ay lahat ng makabuluhang gawain sa komunikasyon. Ang pagbuo ng gestural na komunikasyon ay binabawasan ang pagkabigo at lumilikha ng higit pang mga pagkakataon para sa pakikipag-ugnayan sa lipunan, na kung saan ay sumusuporta sa pagbuo ng pasalitang wika.",
+    "steps": [
+      "Ang mga galaw ng modelo ay pare-pareho — kumaway sa tuwing kumusta ka, ituro kapag pinangalanan mo ang mga bagay.",
+      "Lumikha ng mga sitwasyon kung saan kailangan ang mga kilos: hawakan ang dalawang bagay upang ang iyong anak ay dapat tumuro upang pumili.",
+      "Tumugon kaagad at masigasig sa anumang kilos na gagawin ng iyong anak, kahit na hindi sinasadya.",
+      "Ipares ang bawat kilos sa isang simpleng salita upang marinig ng iyong anak ang wika kasabay ng pagkilos."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "1-5",
+    "sources": [
+      "Avela Health — Basic Sign Language for Autism (joinavela.com/resources/basic-sign-language-for-autism/)",
+      "CDC — Learn the Signs. Act Early: Communication Milestones (cdc.gov/act-early/)",
+      "ASHA — Communication Development in Children with Autism (asha.org)"
+    ]
+  },
+  {
+    "id": "comm-7",
+    "skill": "Pagkomento kumpara sa Paghiling",
+    "whyItMatters": "Maraming mga programa sa maagang komunikasyon ang nakatuon lamang sa paghiling (pagtatanong ng mga bagay). Ngunit ang pagkomento — pagturo ng isang bagay na kawili-wili, paglalagay ng label sa nakikita mo, pagbabahagi ng karanasan — ay ang pundasyon ng pag-uusap. Ang pagtuturo ng pagkomento kasabay ng paghiling ay bubuo ng isang mas balanseng tagapagbalita na maaaring kumonekta sa lipunan, hindi lamang upang matugunan ang mga pangangailangan.",
+    "steps": [
+      "Sa mga paglalakad o paglalaro, ang mga modelo ay madalas na nagkokomento: 'Tingnan mo, isang aso!' o 'Wow, malaking trak!'",
+      "Ituro ang mga kawili-wiling bagay at huminto, na nagbibigay ng pagkakataon sa iyong anak na tumingin at mag-react.",
+      "Kapag ang iyong anak ay tumingin sa isang bagay nang may interes, lagyan ng label ito para sa kanya: 'Nakikita mo ang ibon!'",
+      "Ipagdiwang ang mga komento gaya ng mga kahilingan — kung tumuturo ang iyong anak sa isang eroplano, tumugon nang may pananabik."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-6",
+    "sources": [
+      "Blue ABA Therapy — Tacting in ABA (blueabatherapy.com/aba/tacting/)",
+      "Childwise ABA — Manding vs Tacting (childwiseaba.com/tacting-and-manding/)",
+      "DIR/Floortime — Circles of Communication (icdl.com/dir)"
+    ]
+  },
+  {
+    "id": "comm-8",
+    "skill": "Mga Visual na Suporta para sa Pagpipilian",
+    "whyItMatters": "Ang pagpili ay isang mahusay na kasanayan sa komunikasyon na nagbibigay sa mga bata ng kontrol sa kanilang kapaligiran. Para sa maraming autistic na bata, ang mga pagpipilian sa pandiwa ay maaaring maging napakalaki, ngunit ang mga visual na suporta ay ginagawang konkreto at malinaw ang mga opsyon. Ang regular na pagsasanay na may mga pagpipilian ay bumubuo ng parehong mga kasanayan sa komunikasyon at isang pakiramdam ng awtonomiya na binabawasan ang mga mapaghamong pag-uugali.",
+    "steps": [
+      "Magsimula sa dalawang malinaw na visual na opsyon — mga totoong bagay, larawan, o mga simbolo ng larawan.",
+      "Ipakita ang mga pagpipilian sa mga natural na nakakaganyak na sandali: 'Gusto mo ba ng crackers o mansanas?'",
+      "Tanggapin ang anumang paraan ng pagpili: pag-abot, pagturo, pagtingin, o pagsasabi ng salita.",
+      "Unti-unting dagdagan ang mga opsyon mula 2 hanggang 3-4 habang ang iyong anak ay nagiging kumpiyansa sa pagpili."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-8",
+    "sources": [
+      "Chicago ABA Therapy — Pivotal Response Training: Choice-Making (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)"
+    ]
+  },
+  {
+    "id": "comm-9",
+    "skill": "Mapagtanggap na Wika: Pagsunod sa mga Direksyon",
+    "whyItMatters": "Receptive language — pag-unawa sa sinasabi ng iba — ay karaniwang nabubuo bago nagpapahayag ng wika. Ang pagpapalakas ng receptive language sa pamamagitan ng masasayang aktibidad na sumusunod sa direksyon ay bubuo ng comprehension base na sumusuporta sa pagsasalita sa hinaharap. Ang mga bata na maaaring sumunod sa mga simpleng direksyon ay mas matagumpay ding nakikilahok sa mga setting ng paaralan at therapy.",
+    "steps": [
+      "Magsimula sa isang hakbang na mga direksyon sa panahon ng pagganyak na mga aktibidad: 'I-roll ang bola' o 'Buksan ang kahon.'",
+      "Gumamit ng mga galaw sa tabi ng mga pandiwang direksyon sa simula, pagkatapos ay unti-unting i-fade ang mga galaw.",
+      "Gawin itong laro: laruin ang 'Simon Says' gamit ang mga simpleng galaw ng katawan na kinagigiliwan ng iyong anak.",
+      "Umusad sa dalawang hakbang na direksyon kapag ang isang hakbang ay pare-pareho: 'Kunin ang tasa AT dalhin ito sa akin.'"
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "2-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "ASHA — Receptive Language Disorders (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "comm-10",
+    "skill": "Pagbasa ng Aklat para sa Wika",
+    "whyItMatters": "Ang interactive na pagbabasa ng libro ay isa sa pinakamabisang aktibidad sa pagbuo ng wika para sa mga bata. Para sa mga batang autistic, ang mga libro ay nagbibigay ng predictable, repeatable language experiences na may visual support. Ang nakabahaging pagbabasa ay bumubuo ng bokabularyo, pag-unawa, magkasanib na atensyon, at ritmo ng turn-taking na pinagbabatayan ng pag-uusap.",
+    "steps": [
+      "Pumili ng mga aklat na may simple, paulit-ulit na teksto at malinaw na mga guhit na tumutugma sa mga interes ng iyong anak.",
+      "Hayaang kontrolin ng iyong anak ang aklat — pagbaling ng mga pahina, pagturo sa mga larawan, pagbabalik sa mga paboritong pahina.",
+      "I-pause sa mga predictable na bahagi at hintaying punan ng iyong anak ang: 'Brown bear, brown bear, ano ang gagawin mo...'",
+      "Magtanong ng mga simpleng tanong tungkol sa mga larawan: 'Nasaan ang pusa?' at tanggapin ang pagturo bilang wastong sagot."
+    ],
+    "category": "Komunikasyon",
+    "ageRange": "1-6",
+    "sources": [
+      "Reading Rockets — Structured Teaching Strategies for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)",
+      "Raising Children Network — Reading with Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning/reading)",
+      "AAP — Literacy Promotion (aap.org)"
+    ]
+  },
+  {
+    "id": "social-1",
+    "skill": "Parallel Play with Narration",
+    "whyItMatters": "Maraming autistic na bata ang dumaan sa isang pinahabang parallel play stage kung saan nakikipaglaro sila sa tabi ng mga kapantay sa halip na direkta sa kanila. Ito ay isang wasto at mahalagang yugto ng pag-unlad. Sa pamamagitan ng pagsasalaysay ng parallel play, tinutulungan mo ang iyong anak na magkaroon ng kamalayan sa iba at bumuo ng tulay patungo sa interactive na paglalaro nang hindi pinipilit ang mga panlipunang pangangailangan na nagdudulot ng pagkabalisa.",
+    "steps": [
+      "Umupo malapit sa iyong anak na may katulad na laruan o aktibidad — huwag subukang direktang sumali sa kanilang paglalaro.",
+      "Isalaysay ang iyong sariling mga aksyon: 'Nagpapagawa ako ng isang mataas na tore' habang paminsan-minsan ay nagsasalaysay ng kanilang mga aksyon: 'Ikaw ay pumila sa mga sasakyan'.",
+      "Kung sumulyap ang iyong anak sa iyong aktibidad, tanggapin ito nang buong puso: 'Nakita mo ang aking tore!'",
+      "Dahan-dahang lumikha ng mga sandali ng magkakapatong — gumulong ng kotse malapit sa kanilang linya, mag-alok ng isang bloke mula sa iyong pile."
+    ],
+    "category": "Sosyal",
+    "ageRange": "2-6",
+    "sources": [
+      "Raising Children Network — Play and Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning)",
+      "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+      "DIR/Floortime — Engaging and Relating (icdl.com/dir)"
+    ]
+  },
+  {
+    "id": "social-2",
+    "skill": "Turn-Taking na may Ginustong Aktibidad",
+    "whyItMatters": "Ang turn-taking ay isang pangunahing kasanayang panlipunan na sumasailalim sa pag-uusap, pakikipagtulungang laro, at pakikilahok sa silid-aralan. Ang pagsisimula sa mga aktibidad na nakakaganyak ay ginagawang kongkreto at kapakipakinabang ang konsepto. Ang mga bata na dalubhasa sa turn-taking sa mga setting ng paglalaro ay inililipat ang kasanayang ito sa mas kumplikadong pakikipag-ugnayan sa lipunan sa paglipas ng panahon.",
+    "steps": [
+      "Pumili ng aktibidad na gusto ng iyong anak na natural na kinasasangkutan ng mga pagliko — pagpapagulong ng bola, pagsasalansan ng mga bloke, o simpleng laro ng tablet.",
+      "Malinaw na sabihin ang 'My turn' at 'Your turn' habang gumagamit ng visual cue tulad ng pagturo o turn-taking card.",
+      "Panatilihing maikli ang iyong mga liko sa una (3-5 segundo) upang ang panahon ng paghihintay ay mapapamahalaan.",
+      "Unti-unting taasan ang haba ng mga pagliko habang ang iyong anak ay nagkakaroon ng pagpapaubaya sa paghihintay."
+    ],
+    "category": "Sosyal",
+    "ageRange": "2-7",
+    "sources": [
+      "Chicago ABA Therapy — PRT: Turn-Taking Games (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)"
+    ]
+  },
+  {
+    "id": "social-3",
+    "skill": "Pagkilala sa Emosyon gamit ang Mga Larawan",
+    "whyItMatters": "Ang pag-unawa sa mga emosyon sa iba ay kadalasang mahirap para sa mga batang autistic, hindi dahil kulang sila ng empatiya ngunit dahil maaaring mahirap basahin ang mga ekspresyon ng mukha. Ang paggamit ng mga tunay na larawan ng mga pamilyar na tao na nakakaranas ng mga emosyon ay nagbibigay ng mga konkreto, maiuugnay na mga halimbawa. Sinusuportahan ng kasanayang ito ang mas malalim na koneksyon sa lipunan at tinutulungan ang mga bata na tumugon nang naaangkop sa mga sitwasyong panlipunan.",
+    "steps": [
+      "Kolektahin ang mga larawan ng mga miyembro ng pamilya na nagpapakita ng malinaw na emosyon — malalaking ngiti, nagulat na mukha, malungkot na sandali.",
+      "Magsimula sa dalawang magkasalungat na emosyon (masaya vs malungkot) at pangalanan ang mga ito habang tinitingnan ang mga larawan nang magkasama.",
+      "Hilingin sa iyong anak na itugma ang emosyon: 'Aling mukha ang masaya?' — tanggapin ang pagturo o anumang indikasyon.",
+      "Ikonekta ang mga emosyon sa pang-araw-araw na buhay: 'Tingnan mo, nakangiti ang iyong kapatid na babae — natutuwa siya dahil nagbahagi ka!'"
+    ],
+    "category": "Sosyal",
+    "ageRange": "3-8",
+    "sources": [
+      "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Speaks — Emotion Recognition (autismspeaks.org/social-skills-and-autism)"
+    ]
+  },
+  {
+    "id": "social-4",
+    "skill": "Mga Kwentong Panlipunan para sa Mga Bagong Sitwasyon",
+    "whyItMatters": "Ang mga kwentong panlipunan, na binuo ni Carol Gray, ay gumagamit ng mga simpleng salaysay upang ipaliwanag ang mga sitwasyong panlipunan mula sa pananaw ng bata. Binabawasan nila ang pagkabalisa tungkol sa mga hindi pamilyar na sitwasyon sa pamamagitan ng paggawa ng mga inaasahan na malinaw at predictable. Ipinapakita ng pananaliksik na pinapabuti ng mga kwentong panlipunan ang panlipunang gawi at binabawasan ang mga mapaghamong gawi sa maraming setting.",
+    "steps": [
+      "Tukuyin ang paparating na sitwasyong panlipunan na nahihirapan ang iyong anak — isang pagbisita sa doktor, isang birthday party, o isang bagong silid-aralan.",
+      "Sumulat ng isang maikling kuwento (5-8 pangungusap) na naglalarawan kung ano ang mangyayari, gamit ang wikang 'I will': 'Pupunta ako sa doktor. Pakikinggan ng doktor ang puso ko.'",
+      "Isama ang isang nakapagpapatibay na pahayag: 'Okay lang ito. Si Nanay/Tatay ang makakasama ko sa buong oras.'",
+      "Basahin ang kuwento kasama ang iyong anak 2-3 beses bago ang kaganapan, at minsan pa bago pumunta."
+    ],
+    "category": "Sosyal",
+    "ageRange": "3-10",
+    "sources": [
+      "Carol Gray Social Stories — Official Site (carolgraysocialstories.com)",
+      "Life Skills Advocate — How to Write a Social Story (lifeskillsadvocate.com/blog/how-to-write-a-social-story/)",
+      "Autism Little Learners — Free Social Stories for Home (autismlittlelearners.com/social-stories-for-home/)"
+    ]
+  },
+  {
+    "id": "social-5",
+    "skill": "Mga Routine sa Pagbati at Paalam",
+    "whyItMatters": "Ang mga pagbati at pamamaalam ay kabilang sa pinakamadalas na pakikipag-ugnayan sa lipunan sa pang-araw-araw na buhay. Para sa mga autistic na bata, ang mga ito ay maaaring nakakaramdam ng pagkalito o labis na pagkabigla nang walang tahasang pagtuturo. Ang paglikha ng pare-pareho, komportableng gawain sa pagbati ay nagbibigay sa iyong anak ng isang maaasahang paraan upang lumahok sa mga pakikipagpalitan ng lipunan at bumuo ng kumpiyansa para sa iba pang mga pakikipag-ugnayan.",
+    "steps": [
+      "Pumili ng isang form ng pagbati na komportable ang iyong anak — isang kaway, high five, fist bump, o pagsasabi ng 'hi'.",
+      "Magsanay muna sa bahay: huwaran ang pagbati kapag pumasok ka sa isang silid at hikayatin ang iyong anak na tumugon.",
+      "Gumamit ng parehong pagbati nang pare-pareho sa mga miyembro ng pamilya hanggang sa maging awtomatiko ito.",
+      "Unti-unting umaabot sa mga pamilyar na tao sa labas ng tahanan — mga guro, kapitbahay, kamag-anak."
+    ],
+    "category": "Sosyal",
+    "ageRange": "2-8",
+    "sources": [
+      "STAR Autism Support — Social Scripts That Work (starautismsupport.com/simple-social-scripts-work)",
+      "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)"
+    ]
+  },
+  {
+    "id": "social-6",
+    "skill": "Paglalaro ng Kooperatiba: Pagbuo ng Sama-sama",
+    "whyItMatters": "Ang kooperatiba na paglalaro — nagtutulungan tungo sa isang ibinahaging layunin — ay isang mas advanced na kasanayang panlipunan na bumubuo sa parallel play at turn-taking. Nangangailangan ito ng komunikasyon, pagbabahagi ng atensyon, at kompromiso. Simula sa mga structured, visual na aktibidad tulad ng pagbuo gamit ang mga bloke o pagkumpleto ng isang puzzle ay ginagawang kongkreto ang konsepto ng 'pagtutulungan.",
+    "steps": [
+      "Pumili ng aktibidad na may malinaw na ibinahaging layunin: sama-samang bumuo ng tore, kumpletuhin ang puzzle, o gumawa ng larawan.",
+      "Magtalaga ng mga malinaw na tungkulin: 'Piliin mo ang piraso, ilalagay ko ito' o 'Salansan mo, ibibigay ko sa iyo ang mga bloke.'",
+      "Gumamit ng mga visual na suporta kung kinakailangan — isang larawan ng tapos na produkto para malaman ng dalawang manlalaro ang layunin.",
+      "Ipagdiwang ang nakabahaging tagumpay: 'Ginawa NAMIN iyan nang magkasama! Mahusay na pagtutulungan ng magkakasama!'"
+    ],
+    "category": "Sosyal",
+    "ageRange": "3-8",
+    "sources": [
+      "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Indiana Resource Center for Autism — Making and Keeping Friends (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)"
+    ]
+  },
+  {
+    "id": "social-7",
+    "skill": "Pag-unawa sa Personal na Space",
+    "whyItMatters": "Maraming autistic na bata ang nahihirapang husgahan ang naaangkop na pisikal na distansya sa mga pakikipag-ugnayan sa lipunan. Ito ay maaaring humantong sa pagtayo ng masyadong malapit o masyadong malayo, na nakakaapekto sa kung paano tumugon sa kanila ang mga kapantay. Ang pagtuturo ng personal na espasyo nang tahasan sa pamamagitan ng konkreto, visual na mga pamamaraan ay nakakatulong sa mga bata na mag-navigate sa malapit sa lipunan sa paraang nararamdaman na ligtas para sa lahat.",
+    "steps": [
+      "Gumamit ng hula hoop o i-tape ang isang bilog sa sahig upang ipakita ang 'aking espasyo' — patayin ang iyong anak sa loob nito.",
+      "Magsanay kasama ang pamilya: 'Kapag nag-uusap tayo, humigit-kumulang isang braso ang layo natin sa isa't isa' at magkasamang sumusukat.",
+      "Mga sitwasyon sa role-play: lumapit nang masyadong malapit, pagkatapos ay ibagay sa komportableng distansya, na nagsasalaysay ng pagkakaiba.",
+      "Gumamit ng visual cue tulad ng nakaunat na braso bilang 'space checker' na magagamit ng iyong anak nang nakapag-iisa."
+    ],
+    "category": "Sosyal",
+    "ageRange": "3-10",
+    "sources": [
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Indiana Resource Center for Autism — Social Skills (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)"
+    ]
+  },
+  {
+    "id": "social-8",
+    "skill": "Pagbabahagi at Paghihintay ng Pagliko",
+    "whyItMatters": "Ang pagbabahagi ay mahirap para sa maraming maliliit na bata, ngunit maaaring mahanap ito ng mga autistic na bata lalo na mahirap dahil sa matinding interes sa mga partikular na item. Sa halip na pilitin ang pagbabahagi, ang pagtuturo ng isang structured waiting system na may mga timer at visual cues ay unti-unting nabubuo ang kasanayan habang iginagalang ang pagkakadikit ng bata sa kanilang mga gamit.",
+    "steps": [
+      "Magsimula sa mga bagay na hindi gaanong ginusto — ang pagbabahagi ng paboritong laruan ay napakahirap sa simula.",
+      "Gumamit ng visual timer: 'Maglalaro ka ng 2 minuto, pagkatapos ay 2 minuto na ang kapatid mo.'",
+      "Isalaysay ang proseso: 'Napakabuti mong naghihintay! Halos turn mo na naman.'",
+      "Purihin ang partikular na pag-uugali sa pagbabahagi: 'Binigyan mo si Alex ng asul na krayola — mabait iyon!'"
+    ],
+    "category": "Sosyal",
+    "ageRange": "3-8",
+    "sources": [
+      "Raising Children Network — Sharing and Autistic Children (raisingchildren.net.au/autism/behaviour/common-concerns/sharing)",
+      "Chicago ABA Therapy — PRT: Turn-Taking (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)"
+    ]
+  },
+  {
+    "id": "sensory-1",
+    "skill": "Paggawa ng Sensory Calm-Down Kit",
+    "whyItMatters": "Ang sensory overload ay isa sa mga pinakakaraniwang nag-trigger para sa mga meltdown sa mga batang autistic. Ang pagkakaroon ng personalized na calm-down kit ay nagtuturo sa self-regulation at nagbibigay sa iyong anak ng mga konkretong tool upang pamahalaan ang mga napakabigat na sandali. Sa paglipas ng panahon, natututo ang mga bata na kilalanin ang kanilang sariling mga pandama na pangangailangan at independiyenteng naghahanap ng mga diskarte sa pagpapatahimik.",
+    "steps": [
+      "Obserbahan kung anong sensory input ang nagpapakalma sa iyong anak — malalim na presyon, malambot na texture, ritmikong paggalaw, o tahimik na espasyo.",
+      "Magtipon ng 5-6 na item sa isang maliit na bag o kahon: mga headphone na nakakakansela ng ingay, isang stress ball, isang malambot na tela na swatch, isang chewy na kuwintas, isang glitter jar.",
+      "Ipakilala ang kit sa isang kalmadong sandali — hayaan ang iyong anak na tuklasin ang bawat item nang walang pressure.",
+      "Kapag napansin mo ang mga maagang senyales ng pagkabigla, ialok ang kit at modelo gamit ang isang item: 'Sabay nating pisilin ang bola.'"
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-10",
+    "sources": [
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      "STAR Institute — Sensory Activities at Home (sensoryhealth.org/basic/home-activities)",
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "sensory-2",
+    "skill": "Sensory Diet: Movement Breaks",
+    "whyItMatters": "Maraming mga autistic na bata ang mga naghahanap ng pandama na nangangailangan ng regular na input ng paggalaw upang mapanatili ang regulasyon sa buong araw. Pinipigilan ng mga naka-iskedyul na pahinga sa paggalaw ang pagtitipon ng mga pangangailangang pandama na maaaring humantong sa mapusok na pag-uugali o pagkasira. Makakatulong ang isang occupational therapist na mag-customize ng sensory diet, ngunit ang mga basic movement break na ito ay isang ligtas na panimulang punto para sa anumang pamilya.",
+    "steps": [
+      "Mag-iskedyul ng 3-4 na pahinga ng paggalaw sa buong araw — pagkatapos magising, bago kumain, at bago ang mga nakatutok na aktibidad.",
+      "Mag-alok ng mga pagpipilian: pagtalon sa isang trampolin, pag-indayog, paglalakad ng mga hayop (lakad ng oso, paglalakad ng alimango), o pagsasayaw sa musika.",
+      "Panatilihin ang bawat pahinga sa 5-10 minuto — sapat na upang umayos nang hindi nagiging sobrang pagpapasigla.",
+      "Gumamit ng visual timer para malaman ng iyong anak kung kailan magsisimula at magtatapos ang pahinga, na bumubuo ng predictability."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-10",
+    "sources": [
+      "Harkla — Sensory Diet Activities (harkla.co/blogs/special-needs/sensory-diet)",
+      "STAR Institute — Home Sensory Activities (sensoryhealth.org/basic/home-activities)",
+      "Sensory Smarts — Sensory Diet Activities (sensorysmarts.com/sensory_diet_activities.html)"
+    ]
+  },
+  {
+    "id": "sensory-3",
+    "skill": "Mga Aktibidad sa Malalim na Presyon",
+    "whyItMatters": "Malalim na pressure input — mahigpit na pagpisil, mga bagay na may timbang, mahigpit na yakap — ay may nakakapagpakalmang epekto sa nervous system para sa maraming autistic na bata. Ang ganitong uri ng proprioceptive input ay maaaring mabawasan ang pagkabalisa, mapabuti ang kamalayan ng katawan, at makatulong sa mga bata na lumipat mula sa isang mas mataas na estado patungo sa isang regulated. Ito ay isa sa mga pinaka-unibersal na nakakatulong na pandama na diskarte.",
+    "steps": [
+      "Subukan ang isang 'burrito roll': balutin ang iyong anak ng mahigpit sa isang kumot at ilapat ang mahinang presyon sa kanilang katawan.",
+      "Mag-alok ng weighted lap pad o stuffed animal habang nakaupo ang mga aktibidad — layunin ang humigit-kumulang 10% ng timbang sa katawan.",
+      "Maglaro ng 'sandwich': nakahiga ang iyong anak sa pagitan ng mga unan ng sopa habang dahan-dahan mong pinipindot.",
+      "Turuan ang iyong anak na humiling ng malalim na panggigipit: 'Gusto mo ba ng malaking pisil?' para makapag-self-advocate sila."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-10",
+    "sources": [
+      "STAR Institute — Proprioceptive Input Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Deep Pressure Therapy for Autism (harkla.co/blogs/special-needs/sensory-diet)",
+      "Autism Research Institute — Sensory-Friendly Strategies (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "sensory-4",
+    "skill": "Pamamahala ng Sound Sensitivity",
+    "whyItMatters": "Ang auditory hypersensitivity ay lubhang karaniwan sa mga batang autistic. Ang pang-araw-araw na tunog tulad ng mga vacuum cleaner, hand dryer, o mataong lugar ay maaaring magdulot ng sakit at pagkabalisa. Ang pagtuturo sa mga bata na pamahalaan ang sound sensitivity — sa pamamagitan ng parehong mga pagbabago sa kapaligiran at mga diskarte sa pagharap — ay kapansin-pansing nagpapabuti sa kanilang kakayahang lumahok sa pang-araw-araw na buhay.",
+    "steps": [
+      "Kilalanin ang mga pinaka-mapanghamong tunog ng iyong anak sa pamamagitan ng pagmamasid — tandaan kapag tinakpan nila ang kanilang mga tainga o nababalisa.",
+      "Magbigay ng mga headphone o earplug na nakakakansela ng ingay at turuan ang iyong anak na gamitin ang mga ito nang nakapag-iisa.",
+      "Magbigay ng paunang babala bago ang malakas na tunog kapag posible: 'Bubuksan ko ang blender sa loob ng 5 segundo.'",
+      "Gumawa ng 'sound safe' space sa bahay kung saan maaaring umatras ang iyong anak kapag nasobrahan — isang tahimik na sulok na may malambot na ilaw."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)",
+      "Sensory Smarts — Auditory Sensitivity (sensorysmarts.com/sensory_diet_activities.html)",
+      "STAR Institute — Sensory Processing and Autism (sensoryhealth.org)"
+    ]
+  },
+  {
+    "id": "sensory-5",
+    "skill": "Tactile Exploration at Desensitization",
+    "whyItMatters": "Ang pandamdam na pagtatanggol — pag-iwas sa ilang mga texture, pag-ayaw sa magulo na laro, pagpigil sa ilang partikular na pananamit — ay karaniwan sa mga batang may autism. Ang unti-unti, mapaglarong pagkakalantad sa iba't ibang mga texture ay maaaring mabawasan ang sensitivity sa paglipas ng panahon nang hindi gumagawa ng mga negatibong asosasyon. Ang layunin ay pagpapalawak ng kaginhawaan, hindi pagpilit ng pagpapaubaya.",
+    "steps": [
+      "Magsimula sa mga texture na kinukunsinti na ng iyong anak at nag-aalok ng bahagyang iba't ibang opsyon sa tabi: tuyong bigas sa tabi ng playdough, makinis na tela sa tabi ng malabo.",
+      "Magpakita ng magulo na laro na may built-in na kontrol: pagpipinta ng daliri sa isang zip-lock na bag, o pagbutas ng playdough gamit ang isang stick.",
+      "Hayaang itakda ng iyong anak ang bilis — ayos lang ang pagpindot saglit. Huwag kailanman pilitin ang matagal na pakikipag-ugnayan sa mga masasamang texture.",
+      "Ikonekta ang texture play sa mga interes: kung mahilig ang iyong anak sa mga dinosaur, itago ang maliliit na dino sa isang bin ng beans para mahanap nila."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-8",
+    "sources": [
+      "Harkla — Tactile Sensory Activities (harkla.co/blogs/special-needs/sensory-diet)",
+      "STAR Institute — Tactile Processing Activities (sensoryhealth.org/basic/home-activities)"
+    ]
+  },
+  {
+    "id": "sensory-6",
+    "skill": "Visual na Iskedyul para sa Sensory Regulation",
+    "whyItMatters": "Ang isang visual sensory schedule ay tumutulong sa mga bata na mahulaan at maghanda para sa mga pandama na karanasan sa buong araw. Ang pag-alam kung kailan aasahan ang mapaghamong sensory input (malakas na pagpupulong, oras ng paliguan) at kapag available ang calming input (swing break, tahimik na oras) ay nagbibigay sa mga bata ng pakiramdam ng kontrol na nakakabawas sa pagkabalisa at pagkasira.",
+    "steps": [
+      "Gumawa ng visual na pang-araw-araw na iskedyul na nagmamarka ng parehong mapaghamong pandama na sandali at mga built-in na pahinga.",
+      "Gumamit ng color coding: berde para sa mga aktibidad sa pagpapatahimik, dilaw para sa katamtaman, pula para sa potensyal na napakalaki.",
+      "Bago ang mga mapaghamong aktibidad, ituro ang iskedyul: 'Pagkatapos ng maingay na cafeteria, mayroon kang tahimik na oras sa pagbabasa.'",
+      "Repasuhin ang iskedyul tuwing umaga para malaman ng iyong anak kung ano ang aasahan at makapaghanda nang emosyonal."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "3-10",
+    "sources": [
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Schedules (teacch.com)",
+      "Harkla — Sensory Diet Scheduling (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "sensory-7",
+    "skill": "Mga Istratehiya sa Oral Sensory",
+    "whyItMatters": "Maraming autistic na bata ang naghahanap o umiiwas sa oral sensory input — maaari silang ngumunguya ng damit, maiwasan ang ilang mga texture ng pagkain, o mga bagay sa bibig na lampas sa karaniwang edad. Ang pagbibigay ng naaangkop na mga tool sa pandama sa bibig ay nakakatugon sa pangangailangang ito nang ligtas at maaaring mapabuti ang pagtuon, mabawasan ang pagkabalisa, at suportahan ang flexibility sa oras ng pagkain.",
+    "steps": [
+      "Obserbahan ang oral sensory pattern ng iyong anak: ngumunguya ba sila, nag-crunch, sumisipsip, o umiiwas sa oral input?",
+      "Para sa mga chewer: mag-alok ng isang ligtas na chew necklace o chew tube upang palitan ang pagnguya sa mga kamiseta o lapis.",
+      "Para sa mga naghahanap ng malutong: isama ang mga malutong na meryenda (karot, pretzel, hiwa ng mansanas) sa mga regular na pagitan sa buong araw.",
+      "Para sa mga umiiwas sa bibig: gumamit ng isang nanginginig na toothbrush saglit sa mga labi at pisngi habang naglalaro upang unti-unting bumuo ng tolerance."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-10",
+    "sources": [
+      "Sensory Smarts — Oral Sensory Activities (sensorysmarts.com/sensory_diet_activities.html)",
+      "STAR Institute — Oral Motor Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Oral Sensory Input (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "daily-1",
+    "skill": "Visual na Iskedyul para sa Morning Routine",
+    "whyItMatters": "Ang mga paglipat at hindi mahuhulaan ay pangunahing pinagmumulan ng pagkabalisa para sa maraming autistic na bata. Binabago ng isang visual na routine sa umaga ang napakaraming sequence ng mga hinihingi sa isang predictable, mapapamahalaang serye ng mga hakbang. Patuloy na ipinapakita ng pananaliksik na ang mga visual na suporta ay nagbabawas ng mga mapaghamong gawi at nagpapataas ng kalayaan sa pang-araw-araw na mga kasanayan sa pamumuhay.",
+    "steps": [
+      "Hatiin ang gawain sa umaga sa 5-7 simpleng hakbang: gumising, gumamit ng banyo, magbihis, kumain ng almusal, magsipilyo, magsuot ng sapatos, pumunta.",
+      "Gumawa ng mga visual card na may mga larawan o larawan para sa bawat hakbang — ang mga totoong larawan ng iyong anak na gumagawa ng bawat aktibidad ay pinakamahusay na gumagana.",
+      "Ayusin ang mga card nang patayo sa dingding sa antas ng mata ng iyong anak gamit ang velcro o magnet.",
+      "Magkasama sa iskedyul tuwing umaga, hayaan ang iyong anak na ilipat ang bawat card sa isang column na 'tapos na' habang kinukumpleto nila ito."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-8",
+    "sources": [
+      "Raising Children Network — Visual Supports for Daily Routines (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Daily Living Routines (teacch.com/daily-living-routines/)",
+      "A Day in Our Shoes — Free Visual Schedule Templates (adayinourshoes.com/free-printable-visual-schedules-for-home-and-daily-routines/)"
+    ]
+  },
+  {
+    "id": "daily-2",
+    "skill": "Pagsisipilyo ng ngipin Desensitization",
+    "whyItMatters": "Ang pangangalaga sa bibig ay isang malaking hamon para sa maraming autistic na bata dahil sa sensitibong pagkasensitibo sa bibig. Ang panginginig ng boses ng mga electric toothbrush, ang lasa ng toothpaste, at ang pakiramdam ng bristles ay maaaring maging napakalaki. Ang isang unti-unting diskarte sa desensitization ay nirerespeto ang pandama na karanasan ng iyong anak habang ginagawa ang mahalagang pang-araw-araw na kasanayan sa pamumuhay.",
+    "steps": [
+      "Magsimula sa pamamagitan ng pagpapahintulot sa iyong anak na humawak at galugarin ang sipilyo nang hindi inaasahan na magsipilyo.",
+      "Ipakilala ang toothbrush na hinahawakan lamang ang mga labi, pagkatapos ay ang mga ngipin sa harap — ipagdiwang ang bawat hakbang na may partikular na papuri.",
+      "Gumamit ng may lasa na toothpaste na pinili ng iyong anak o walang toothpaste sa simula — ang mekanikal na paglilinis ay pinakamahalaga.",
+      "Bumuo ng hanggang 30 segundong brush, pagkatapos ay 1 minuto, gamit ang isang visual timer o isang maikling kanta upang markahan ang tagal."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-8",
+    "sources": [
+      "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      "Raising Children Network — Dental Care and Autism (raisingchildren.net.au/autism/health-wellbeing/dental-care/dental-care-autism)",
+      "STAR Institute — Oral Sensory Desensitization (sensoryhealth.org)"
+    ]
+  },
+  {
+    "id": "daily-3",
+    "skill": "Flexibility sa oras ng pagkain: Pagpapakilala ng mga Bagong Pagkain",
+    "whyItMatters": "Ang pagpili ng pagkain ay napaka-pangkaraniwan sa mga batang autistic, kadalasang hinihimok ng mga pandama na salik tulad ng texture, kulay, amoy, o temperatura. Ang mahigpit na mga pattern ng pagkain ay maaaring makaapekto sa nutrisyon at lumikha ng stress sa panahon ng pagkain ng pamilya. Ang isang unti-unti, mababang presyon na diskarte sa pagkakalantad sa pagkain ay nakakatulong na palawakin ang diyeta sa paglipas ng panahon nang hindi lumilikha ng mga negatibong kaugnayan sa mga oras ng pagkain.",
+    "steps": [
+      "Maglagay ng isang maliit na bahagi ng isang bagong pagkain sa plato kasama ng mga gustong pagkain - walang kinakailangang kainin o hawakan ito.",
+      "I-modelo ang pagkain ng bagong pagkain nang may positibong komento tungkol sa mga katangian nito: 'Ito ay malutong!'",
+      "Ipagdiwang ang anumang pakikipag-ugnayan sa bagong pagkain — tinitingnan ito, hinawakan, inaamoy, pagdila — lahat ay binibilang bilang pag-unlad.",
+      "Mag-alok ng parehong bagong pagkain nang hindi bababa sa 10-15 beses bago magpasya kung talagang hindi ito gusto ng iyong anak — ang paulit-ulit na pagkakalantad ay nagbabago ng mga tugon."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-10",
+    "sources": [
+      "Autism Speaks — Feeding Issues and Autism (autismspeaks.org/expert-opinion/what-are-common-feeding-issues-associated-autism)",
+      "Raising Children Network — Eating and Autism (raisingchildren.net.au/autism/health-wellbeing/nutrition-fitness/eating-autism)",
+      "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)"
+    ]
+  },
+  {
+    "id": "daily-4",
+    "skill": "Pagbibihis ng Kalayaan: Backward Chaining",
+    "whyItMatters": "Ang backward chaining ay isang ABA technique kung saan tumulong ka sa lahat ng hakbang maliban sa huli, na kinukumpleto ng bata nang nakapag-iisa. Nagbubuo ito ng tagumpay at motibasyon dahil laging tinatapos ng bata ang gawain. Para sa pagbibihis, nangangahulugan ito na nararanasan ng bata ang kasiyahan ng 'Ginawa ko ito!' kahit na pinag-aaralan pa ang mga naunang hakbang.",
+    "steps": [
+      "Pumili ng isang item ng damit para sanayin: magsimula sa paghila ng pantalon dahil mas kaunti ang mga hakbang nito.",
+      "Tulungan ang iyong anak sa lahat ng hakbang maliban sa pinakahuli — hinihila mo ang pantalon hanggang sa balakang, hinila nila pataas ang huling pulgada.",
+      "Kapag nakapag-iisa na ang huling hakbang, idagdag ang pangalawa-sa-huling hakbang: hinihila nila mula sa hita hanggang baywang.",
+      "Magpatuloy paatras hanggang sa makumpleto ng iyong anak ang buong pagkakasunud-sunod nang nakapag-iisa."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-7",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Backward Chaining (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      "Chicago ABA Therapy — Task Analysis and Chaining (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)"
+    ]
+  },
+  {
+    "id": "daily-5",
+    "skill": "Kahandaan sa Pagsasanay sa Toilet",
+    "whyItMatters": "Ang pagsasanay sa banyo ay kadalasang tumatagal ng mas matagal para sa mga batang autistic at nangangailangan ng mga binagong diskarte. Ang pagtulak bago magpakita ang bata ng mga palatandaan ng pagiging handa ay maaaring lumikha ng pagkabalisa at pagtutol. Ang isang structured, sensory-aware na diskarte na may mga visual na suporta ay ipinakita na pinaka-epektibo. Maraming autistic na bata ang mahusay na tumutugon sa mga predictable na gawain at malinaw, visual na mga inaasahan.",
+    "steps": [
+      "Panoorin ang mga palatandaan ng pagiging handa: manatiling tuyo sa loob ng 2+ na oras, na nagpapakita ng kamalayan sa mga basa/maruming diaper, interes sa banyo.",
+      "Lumikha ng isang simpleng visual na sequence para sa routine sa banyo: pantalon pababa, umupo, subukan, punasan, flush, pantalon pataas, maghugas ng kamay.",
+      "Magsimula sa mga naka-iskedyul na pag-upo (bawat 1-2 oras) sa halip na maghintay para sa bata na magpahiwatig — gumamit ng visual timer.",
+      "Ipagdiwang kaagad ang tagumpay gamit ang isang gustong reinforcer, at tumugon nang neutral sa mga aksidente — huwag parusahan."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-7",
+    "sources": [
+      "Raising Children Network — Toilet Training and Autism (raisingchildren.net.au/autism/health-wellbeing/toileting-hygiene/toilet-training-autism)",
+      "Autism Little Learners — Free Toileting Sequence (autismlittlelearners.com/free-toileting-sequence/)",
+      "Autism Speaks — Toilet Training Guide (autismspeaks.org/tool-kit/atn-air-p-toilet-training)"
+    ]
+  },
+  {
+    "id": "daily-6",
+    "skill": "Hakbang sa Paghuhugas ng Kamay",
+    "whyItMatters": "Ang paghuhugas ng kamay ay nagsasangkot ng maraming mga sub-hakbang na maaaring maging napakalaki kapag ipinakita bilang isang pagtuturo. Ang paghahati nito sa isang visual na pagtatasa ng gawain ay ginagawang natututo at nauulit ang nakagawiang. Ang mga batang autistic ay madalas na tumutugon nang maayos sa parehong pare-parehong pagkakasunud-sunod sa bawat oras, at kapag natutunan, ang paghuhugas ng kamay ay nagiging isang awtomatikong ugali na sumusuporta sa kalusugan at kalayaan.",
+    "steps": [
+      "Mag-post ng hindi tinatablan ng tubig visual strip sa tabi ng lababo na may larawan sa bawat hakbang: tubig, basa ang mga kamay, sabon, kuskusin ng 20 segundo, banlawan, tuyo.",
+      "Gumamit ng kanta o timer sa paghuhugas ng kamay para sa 20 segundong hakbang sa pagkuskos — maraming bata ang nasisiyahan sa predictable marker na ito.",
+      "Magsanay muna sa mga kalmado at hindi nagmamadaling oras — hindi kapag nagmamadaling kumain.",
+      "Unti-unting i-fade ang iyong mga verbal prompt: ituro ang visual strip sa halip na isalaysay ang bawat hakbang."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-8",
+    "sources": [
+      "CDC — Handwashing: Clean Hands Save Lives (cdc.gov/hand-washing/)",
+      "TEACCH — Daily Living Routines: Task Analysis (teacch.com/daily-living-routines/)",
+      "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)"
+    ]
+  },
+  {
+    "id": "daily-7",
+    "skill": "Sleep Routine Optimization",
+    "whyItMatters": "Ang kahirapan sa pagtulog ay nakakaapekto sa 40-80% ng mga autistic na bata. Ang mahinang pagtulog ay nagpapalala ng pag-uugali, atensyon, at pag-aaral sa araw. Ang isang pare-pareho, nakakaalam na gawain sa oras ng pagtulog ay ang nag-iisang pinaka-epektibong interbensyon na hindi medikal para sa pagpapabuti ng pagtulog. Ang gawain ay dapat na mahuhulaan, nakakapagpakalma, at naaayon sa mga kagustuhan sa pandama ng iyong anak.",
+    "steps": [
+      "Gumawa ng pare-parehong 30 minutong gawain sa oras ng pagtulog: paliguan/paglalaba, pajama, toothbrush, isang libro, patay ang mga ilaw — parehong pagkakasunud-sunod tuwing gabi.",
+      "Gawing sleep-friendly ang kapaligiran: mga blackout na kurtina, malamig na temperatura, puting ingay kung nakakatulong, alisin ang mga screen 1 oras bago matulog.",
+      "Gumamit ng visual na iskedyul ng oras ng pagtulog para masundan at mahulaan ng iyong anak ang bawat hakbang.",
+      "Kung tumanggi ang iyong anak sa kama, gumamit ng 'bedtime pass' — isang card na maaari nilang palitan para sa isang maikling katanggap-tanggap na kahilingan (uminom ng tubig, isang yakap pa)."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Sleep Resources (autismspeaks.org/sleep)",
+      "Raising Children Network — Sleep and Autism (raisingchildren.net.au/autism/health-wellbeing/sleep/sleep-problems-autism)",
+      "AAP — Healthy Sleep Habits for Children (aap.org)"
+    ]
+  },
+  {
+    "id": "daily-8",
+    "skill": "Magkasama sa Pagluluto: Mga Simpleng Recipe",
+    "whyItMatters": "Kasama sa pagluluto ang mga sumusunod na pagkakasunud-sunod, mahusay na mga kasanayan sa motor, paggalugad ng pandama, at mga konsepto sa matematika — lahat ay nasa kontekstong natural na nakakaganyak. Para sa mga batang autistic, ang mga simpleng gawain sa pagluluto ay nagtatayo ng kalayaan, nagpapalawak ng pagpaparaya sa pagkain, at lumikha ng positibong pakikipag-ugnayan ng pamilya. Ang structured, step-by-step na kalikasan ng mga recipe ay mahusay na nakaayon sa kung gaano karaming mga autistic na bata ang pinakamahusay na natututo.",
+    "steps": [
+      "Magsimula sa isang no-cook recipe: pag-assemble ng sandwich, paggawa ng trail mix, o paglalagay ng peanut butter sa mga crackers.",
+      "Gumawa ng visual na recipe card na may mga larawan para sa bawat hakbang — maaaring suriin ng iyong anak ang mga hakbang habang sila ay nagpapatuloy.",
+      "Magtalaga ng mga tiyak at malinaw na gawain: 'Ibuhos ang tasa ng harina sa mangkok' sa halip na 'tulungan mo akong gumawa ng cookies.'",
+      "Ipagdiwang ang natapos na produkto nang sama-sama: ang pagkain ng ginawa mo nang magkasama ay malakas na natural na pampalakas."
+    ],
+    "category": "Pang-araw-araw na Pamumuhay",
+    "ageRange": "3-10",
+    "sources": [
+      "Accessible Chef — Free Visual Recipes (accessiblechef.com)",
+      "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)",
+      "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)"
+    ]
+  },
+  {
+    "id": "motor-1",
+    "skill": "Fine Motor: Pincer Grasp Activities",
+    "whyItMatters": "Ang pincer grasp — gamit ang hinlalaki at hintuturo nang magkasama — ay mahalaga para sa pagsusulat, pag-button ng mga damit, pag-zip ng mga zipper, at pagkain gamit ang mga kagamitan. Maraming autistic na bata ang nakikinabang mula sa dagdag na pagsasanay gamit ang kasanayang ito sa masaya, nakakaganyak na mga konteksto. Sinusuportahan din ng malakas na mahusay na mga kasanayan sa motor ang kalayaan sa pangangalaga sa sarili at mga gawaing pang-akademiko.",
+    "steps": [
+      "Mag-set up ng simpleng aktibidad gamit ang mga interes ng iyong anak — pagkuha ng maliliit na tren, paglalagay ng mga barya sa alkansya, o paglalagay ng mga sticker.",
+      "I-modelo ang pincer na hawakan nang dahan-dahan at isalaysay: 'Ginagamit ko ang aking kurot na mga daliri upang kunin ang pasas.'",
+      "Mag-alok lamang ng tulong sa kamay kung ang iyong anak ay bigo — pagkatapos ay mabilis na i-fade ang iyong suporta.",
+      "Magsanay nang 5 minuto nang paisa-isa, nagpapaunlad — ang mga maiikling matagumpay na sesyon ay mas mahusay kaysa sa mahahabang nakakadismaya."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-6",
+    "sources": [
+      "Tree Top ABA — Fine Motor Skills Activities for Autism (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)",
+      "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)"
+    ]
+  },
+  {
+    "id": "motor-2",
+    "skill": "Gross Motor: Obstacle Course Play",
+    "whyItMatters": "Ang mga gross motor skills tulad ng pag-akyat, pagtalon, pagbabalanse, at pag-crawl ay sumusuporta sa sensory regulation, body awareness, at physical confidence. Pinagsasama ng obstacle course ang pagpaplano ng motor (pag-uunawa kung PAANO tatawid sa kurso) sa mga pisikal na kasanayan, at maaaring iakma sa anumang antas ng kakayahan. Maraming mga autistic na bata na nahihirapan sa mapagkumpitensyang isports ang umuunlad sa paglalaro ng obstacle course.",
+    "steps": [
+      "Gumawa ng simpleng kursong may 4 na istasyon gamit ang mga gamit sa bahay: gumapang sa ilalim ng kumot, humakbang sa mga unan, tumalon sa hula hoop, maghagis ng bola sa basket.",
+      "Magkasama muna sa kurso, na nagpapakita ng bawat istasyon habang nanonood ang iyong anak.",
+      "Gumamit ng mga visual na arrow o tape sa sahig upang ipakita ang landas — binabawasan nito ang pangangailangan para sa mga pandiwang tagubilin.",
+      "Ipagdiwang ang pagkumpleto at unti-unting magdagdag ng mga istasyon o dagdagan ang kahirapan habang ang iyong anak ay nagkakaroon ng kumpiyansa."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "3-8",
+    "sources": [
+      "Golden Steps ABA — Gross Motor Skills in Children with Autism (goldenstepsaba.com/resources/gross-motor-skills-in-children-with-autism/)",
+      "Harkla — Sensory Diet: Proprioceptive and Vestibular Activities (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "motor-3",
+    "skill": "Pagpapaunlad ng Kasanayan sa Gunting",
+    "whyItMatters": "Ang paggamit ng gunting ay nangangailangan ng bilateral na koordinasyon (isang kamay ay may hawak na papel, ang isa pang hiwa), visual-motor integration, at fine motor strength. Ang mga kasanayang ito ay inililipat sa maraming iba pang mga gawain at inaasahan sa mga setting ng preschool at kindergarten. Ang unti-unting pagpapakilala na may mga inangkop na tool ay ginagawa itong magagawa para sa karamihan ng mga bata.",
+    "steps": [
+      "Magsimula sa pagpunit ng papel — bubuo ito ng lakas ng kamay at bilateral na koordinasyon na kailangan para sa gunting.",
+      "Ipakilala ang spring-loaded training scissors na awtomatikong bumubukas — kailangan lang ng iyong anak na pisilin para isara.",
+      "Magsanay muna sa pagputol ng mga playdough na 'ahas' — mas madaling hawakan at mas mapagpatawad kaysa papel.",
+      "Pag-usad sa pagputol sa makapal at tuwid na mga linya sa papel, pagkatapos ay mga hubog na linya, pagkatapos ay mga simpleng hugis."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "3-7",
+    "sources": [
+      "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)",
+      "Tree Top ABA — Fine Motor Activities (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)"
+    ]
+  },
+  {
+    "id": "motor-4",
+    "skill": "Kamalayan sa Katawan: Mga Mabibigat na Aktibidad sa Trabaho",
+    "whyItMatters": "Ang proprioceptive input — impormasyon mula sa mga kalamnan at kasukasuan tungkol sa posisyon ng katawan — ay tumutulong sa mga bata na maunawaan kung nasaan ang kanilang katawan sa kalawakan. Maraming mga autistic na bata ang nabawasan ang proprioceptive awareness, na humahantong sa clumsiness, crashing sa mga bagay, o naghahanap ng matinding pisikal na input. Ang mabibigat na aktibidad sa trabaho ay nagbibigay ng malalim na pagpasok ng kalamnan na bumubuo ng kamalayan sa katawan.",
+    "steps": [
+      "Isama ang mabibigat na trabaho sa pang-araw-araw na gawain: pagdadala ng mga grocery bag, pagtulak ng laundry basket, o paghila ng bagon.",
+      "Lumikha ng 'mga trabaho' na nagbibigay ng proprioceptive input: pagsasalansan ng mabibigat na libro, pagmamasa ng masa ng tinapay, o paghuhukay sa hardin.",
+      "Subukan ang mga push-up sa dingding o mga push-up ng upuan bilang isang mabilis na aktibidad sa pagsasaayos bago ang mga gawaing nakaupo.",
+      "Mag-alok ng mga aktibidad na ito nang maagap bago ang mga mapaghamong sitwasyon — ang mga ito ay pang-iwas, hindi lamang reaktibo."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "2-10",
+    "sources": [
+      "STAR Institute — Proprioceptive Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Heavy Work Activities for Sensory Processing (harkla.co/blogs/special-needs/sensory-diet)",
+      "Sensory Smarts — Proprioceptive Activities (sensorysmarts.com/sensory_diet_activities.html)"
+    ]
+  },
+  {
+    "id": "motor-5",
+    "skill": "Handwriting Readiness: Pre-Writing Strokes",
+    "whyItMatters": "Bago makabuo ng mga titik ang mga bata, kailangan nilang makabisado ang mga pangunahing stroke: mga patayong linya, pahalang na linya, bilog, krus, at dayagonal. Ang mga kasanayan sa pre-writing na ito ay nabubuo sa pamamagitan ng malakihang paggalaw muna (pagguhit sa isang whiteboard o sa buhangin) bago gawing lapis-sa-papel. Ang pagsisimula ng malaki ay binabawasan ang pagkabigo at bumubuo ng memorya ng motor.",
+    "steps": [
+      "Magsimula sa mga patayong linya: gumuhit mula sa itaas hanggang sa ibaba sa isang malaking whiteboard, sa shaving cream, o sa buhangin.",
+      "Umusad sa mga pahalang na linya, pagkatapos ay mga bilog — palaging nagsisimula nang malaki at unti-unting binabawasan ang laki.",
+      "Gumamit ng mga multi-sensory approach: mag-trace ng mga hugis sa puding, gumuhit gamit ang chalk sa sidewalk, o gumamit ng finger paint.",
+      "Ikonekta ang mga stroke sa kahulugan: 'Gumuhit tayo ng ulan!' (vertical lines) o 'Gumuhit tayo ng araw!' (bilog na may mga linya)."
+    ],
+    "category": "Sensory at Motor",
+    "ageRange": "3-6",
+    "sources": [
+      "Apple ABA Care — Teaching Handwriting to Kids with Autism (appleabacare.com/aba-autism-therapy/teaching-hand-writing-to-kids-with-autism/)",
+      "Reading Rockets — Structured Teaching for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)"
+    ]
+  },
+  {
+    "id": "behavior-1",
+    "skill": "Mga Pangunahing Kaalaman sa Positibong Pagpapatibay",
+    "whyItMatters": "Ang positibong reinforcement — agad na nagbibigay ng reward sa nais na gawi — ang nag-iisang pinaka-epektibong tool para sa pagbuo ng mga bagong kasanayan at pagbabawas ng mga mapaghamong gawi. Ang susi ay ang pagtukoy kung ano ang tunay na nag-uudyok sa IYONG anak (na maaaring ibang-iba sa karaniwang mga gantimpala) at ihahatid ito kaagad pagkatapos ng target na gawi. Ito ang pundasyon ng mga diskarte na nakabatay sa ABA.",
+    "steps": [
+      "Gumawa ng listahan ng 5-10 bagay na nakikita ng iyong anak na tunay na nakapagpapasigla: mga meryenda, mga partikular na laruan, tagal ng screen, mga kiliti, papuri, musika.",
+      "Pumili ng isang partikular na pag-uugali upang palakasin: pakikipag-eye contact, paggamit ng salita, pag-upo sa mesa nang 1 minuto.",
+      "Ihatid AGAD ang reward pagkatapos ng gawi — sa loob ng 1-2 segundo kung maaari.",
+      "Maging espesipiko sa iyong papuri: 'Great job saying please!' ay mas mahusay kaysa sa 'Good boy.'"
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Positive Reinforcement (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      "Chicago ABA Therapy — Parents Practice ABA at Home (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-2",
+    "skill": "Pag-unawa at Pag-iwas sa mga Meltdown",
+    "whyItMatters": "Ang mga meltdown ay hindi pag-aalboroto — ang mga ito ay hindi sinasadyang mga tugon sa napakaraming pandama, emosyonal, o nagbibigay-malay na pangangailangan. Ang pag-unawa sa pagkakaiba ay mahalaga. Sa pamamagitan ng pag-aaral na tukuyin ang mga senyales ng maagang babala at pag-trigger ng iyong anak, kadalasan ay maaari kang makialam bago maabot ang sukdulan nito. Ang pag-iwas ay mas epektibo kaysa sa pamamahala sa panahon ng krisis.",
+    "steps": [
+      "Subaybayan ang mga pattern: tandaan kung ano ang nangyari bago ang huling 5 meltdown — oras ng araw, setting, hinihingi, sensory environment.",
+      "Kilalanin ang mga palatandaan ng maagang babala ng iyong anak: tumaas na pagpapasigla, pagtatakip ng mga tainga, pagiging matigas, paulit-ulit na mga parirala, pag-alis.",
+      "Kapag napansin mo ang mga maagang senyales, bawasan kaagad ang mga hinihingi: babaan ang iyong boses, mag-alok ng pahinga, alisin ang mga sensory trigger.",
+      "Pagkatapos ng meltdown, maghintay hanggang ang iyong anak ay ganap na kalmado bago talakayin kung ano ang nangyari — iwasang mag-lecture habang nagpapagaling."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)"
+    ]
+  },
+  {
+    "id": "behavior-3",
+    "skill": "Mga Sona ng Regulasyon: Emosyonal na Kamalayan",
+    "whyItMatters": "Gumagamit ang balangkas ng Zones of Regulation ng color coding para matulungan ang mga bata na matukoy ang kanilang emosyonal na estado: Asul (malungkot/pagod), Berde (kalmado/handa), Dilaw (bigo/nababalisa), Pula (galit/natatakot). Para sa mga batang autistic na nahihirapan sa pagtukoy ng mga emosyon, ginagawang kongkreto ng visual system na ito ang mga abstract na damdamin at nagtuturo ng kamalayan sa sarili na humahantong sa regulasyon sa sarili.",
+    "steps": [
+      "Ipakilala ang apat na zone na may mga simpleng visual: Asul = malungkot/inaantok, Berde = mahinahon/masaya, Dilaw = kinakabahan/bigo, Pula = galit/natatakot.",
+      "Sa buong araw, i-modelo ang pagkilala sa sarili mong zone: 'Medyo dilaw ang pakiramdam ko ngayon dahil late na tayo.'",
+      "Hilingin sa iyong anak na tukuyin ang kanilang zone sa mga predictable na oras: umaga, pagkatapos ng klase, bago matulog.",
+      "Ikonekta ang mga zone sa mga diskarte: 'Kapag nasa Yellow ka, maaari kang huminga ng 5 malalim o pisilin ang iyong stress ball.'"
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "3-12",
+    "sources": [
+      "Zones of Regulation — Official Framework (zonesofregulation.com)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Parenting Magazine — Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)"
+    ]
+  },
+  {
+    "id": "behavior-4",
+    "skill": "Visual Timer para sa mga Transition",
+    "whyItMatters": "Ang mga biglaang transition ay isang nangungunang trigger para sa mapaghamong pag-uugali sa mga batang autistic. Ginagawang konkreto at nakikita ng mga visual timer ang paglipas ng oras — literal na makikita ng mga bata ang pag-uubos ng oras, na nakakabawas sa sorpresa at pagkabalisa sa paglipat ng mga aktibidad. Ang simpleng tool na ito ay maaaring makabuluhang bawasan ang mga pagkasira na nauugnay sa paglipat.",
+    "steps": [
+      "Kumuha ng visual timer (tulad ng Time Timer) o gumamit ng timer app na nagpapakita ng oras na nawawala sa kulay.",
+      "Simulan itong gamitin para sa mga transition sa pagitan ng mga gustong aktibidad: 'Kapag nawala ang pula, itinatabi namin ang iPad.'",
+      "Magbigay ng pasalitang babala kasama ang timer: 'Tingnan mo — 2 minuto na lang ang natitira!' at ituro ang timer.",
+      "Kapag tumunog ang timer, sundin nang mahinahon at tuloy-tuloy — ang timer ay ang awtoridad, hindi ikaw."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-10",
+    "sources": [
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Supports (teacch.com)",
+      "Autism Classroom Resources — Visual Schedule Series (autismclassroomresources.com/visual-schedule-series-first-then/)"
+    ]
+  },
+  {
+    "id": "behavior-5",
+    "skill": "Pagsusuri sa Pag-uugali sa Paggana sa Tahanan",
+    "whyItMatters": "Ang bawat pag-uugali ay nangyayari para sa isang dahilan. Ang apat na pangunahing tungkulin ng pag-uugali ay: upang makakuha ng isang bagay (pansin, item, aktibidad), upang makatakas sa isang bagay (demand, sensory input, sitwasyong panlipunan), para sa sensory stimulation, o para sa self-regulation. Ang pag-unawa kung BAKIT ginagawa ng iyong anak ang isang bagay ay ang susi sa pagpili ng epektibong tugon sa halip na tumugon sa pagkabigo.",
+    "steps": [
+      "Kapag naganap ang isang mapaghamong pag-uugali, tandaan ang ABC: Antecedent (kung ano ang nangyari kanina), Pag-uugali (kung ano mismo ang ginawa ng bata), Bunga (kung ano ang nangyari pagkatapos).",
+      "Maghanap ng mga pattern na higit sa 5-10 paglitaw: ang pag-uugali ba ay kadalasang nangyayari bago ang mga hinihingi? Matapos sabihing 'hindi'? Sa maingay na kapaligiran?",
+      "Itugma ang function sa isang kapalit na gawi: kung sumisigaw sila para makatakas sa ingay, turuan silang humiling ng headphone sa halip.",
+      "Gawing madali o mas madali ang kapalit na gawi kaysa sa mapaghamong gawi — dapat itong 'gumana' nang mas mahusay para sa bata."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Functional Assessment (autismspeaks.org/applied-behavior-analysis)",
+      "PMC — Scoping Review: ABA as Evidence-Based Practice (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-6",
+    "skill": "Mga Pamamaraan sa Pagpapakalma sa Paghinga",
+    "whyItMatters": "Ang malalim na paghinga ay nagpapagana ng parasympathetic nervous system, na natural na binabawasan ang pagkabalisa at pagpukaw. Para sa mga batang autistic, ang mga abstract na tagubilin tulad ng 'huminga ng malalim' ay maaaring hindi epektibo. Ang mga konkreto, visual na diskarte sa paghinga — tulad ng pag-ihip ng mga bula, pag-amoy ng mga bulaklak, o pag-ihip sa pinwheel — ginagawang naa-access at nakakatuwa pa ang diskarte sa self-regulation na ito.",
+    "steps": [
+      "Magsanay muna sa mga panahon ng kalmado — huwag magpakilala ng bagong diskarte sa panahon ng pagkasira.",
+      "Gumamit ng mga konkretong senyales: 'Amuyin ang bulaklak' (huminga sa pamamagitan ng ilong) at 'Hipan ang kandila' (huminga sa pamamagitan ng bibig).",
+      "Gumamit ng mga tunay na props: mga bula, pinwheel, o mga balahibo na gumagalaw kapag huminga ang iyong anak — ginagawa nitong nakikita ang hininga.",
+      "Magsanay ng 3 paghinga nang magkasama sa mga predictable na oras: bago kumain, bago umalis ng bahay, sa oras ng pagtulog."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "3-10",
+    "sources": [
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Parenting Magazine — Calming Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "Advanced Autism Services — Calm-Down Corner for Autism (advancedautism.com/post/creating-a-calm-down-corner-for-autism)"
+    ]
+  },
+  {
+    "id": "behavior-7",
+    "skill": "Token Economy: Visual Reward System",
+    "whyItMatters": "Ang isang token na ekonomiya ay nagtulay sa agwat sa pagitan ng paggawa ng isang gawain at pagkamit ng gantimpala. Ang mga bata ay nakakakuha ng mga token (mga bituin, mga sticker, mga marka ng tsek) para sa mga partikular na pag-uugali at ipinagpapalit ang mga ito para sa isang mas malaking gantimpala. Itinuturo nito ang naantalang kasiyahan, ginagawang nakikita ang pag-unlad, at nagbibigay-daan sa iyong palakasin ang maraming gawi sa buong araw gamit ang isang sistemang nag-uudyok.",
+    "steps": [
+      "Pumili ng 1-3 partikular na target na gawi: pagsunod sa mga direksyon, paggamit ng mga salita para humiling, o paghawak sa sarili.",
+      "Gumawa ng simpleng token board na may 5 space — sa tuwing gagawin ng bata ang gawi, makakakuha sila ng token.",
+      "Kapag nakuha na ang lahat ng 5 token, pipili ang bata ng reward mula sa pre-set na menu ng 3-4 na opsyon.",
+      "Magsimula sa mga token na madaling kumita (bawat 2-3 minuto) at unti-unting nangangailangan ng higit pang pagsisikap habang nagtagumpay ang bata."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "3-10",
+    "sources": [
+      "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-8",
+    "skill": "Ligtas na Paglikha ng Space sa Bahay",
+    "whyItMatters": "Ang bawat autistic na bata ay nangangailangan ng itinalagang espasyo kung saan maaari silang mag-decompress nang walang paghatol. Hindi ito lugar ng parusa — isa itong proactive na tool sa regulasyon. Ang pagkakaroon ng maaasahang ligtas na espasyo ay nagtuturo sa mga bata na kilalanin kung kailan nila kailangan ng pahinga at gawin ito nang nakapag-iisa, na isang kritikal na kasanayan sa buhay para sa pamamahala ng labis.",
+    "steps": [
+      "Magtalaga ng maliit at nakapaloob na lugar: isang sulok na may pop-up na tolda, isang espasyo sa ilalim ng mesa na may mga kumot, o isang aparador na may mga unan.",
+      "I-stock ito ng mga bagay na nagpapatahimik: malambot na ilaw, mga headphone, mga fidget, isang may timbang na kumot, mga paboritong libro.",
+      "Ipakilala ito sa isang kalmadong sandali: 'Ito ang iyong komportableng lugar. Maaari kang pumunta dito tuwing kailangan mo ng pahinga.'",
+      "Huwag kailanman gamitin ito bilang parusa o ipadala ang iyong anak doon nang labag sa kanilang kalooban — dapat nilang kontrolin kapag ginamit nila ito."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "cognitive-1",
+    "skill": "Structured Play: Mga Laruang Sanhi at Epekto",
+    "whyItMatters": "Ang pag-unawa sa sanhi at epekto — 'kapag ginawa ko ito, nangyayari iyon' — ay isang pangunahing kasanayan sa pag-iisip na sumasailalim sa pag-aaral, komunikasyon, at paglutas ng problema. Ang mga laruang tumutugon sa mga aksyon (itulak ang isang buton, makarinig ng tunog; humila ng pingga, tingnan ang paggalaw) na ginagawang malinaw at nakakaganyak ang relasyong ito. Ito ang madalas na panimulang punto para sa pagtuturo ng sinasadyang pag-uugali.",
+    "steps": [
+      "Magtipon ng 3-4 na mga laruang sanhi at epekto: isang pop-up na laruan, isang umiikot na tuktok, isang instrumentong pangmusika, o isang laruang may ilaw.",
+      "I-modelo ang pagkilos nang dahan-dahan: pindutin ang button, i-pause, tumugon nang may pananabik kapag gumagana ito.",
+      "Gabayan ang kamay ng iyong anak upang i-activate ang laruan kung kinakailangan, pagkatapos ay mabilis na i-fade ang iyong tulong.",
+      "Isalaysay ang sanhi at bunga: 'Pinindot mo ang pindutan! Tumugtog ang musika!'"
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "1-5",
+    "sources": [
+      "Autism Little Learners — Functional Play and Autism (autismlittlelearners.com/functional-play-and-autism/)",
+      "ICDL — DIR/Floortime: Engaging and Relating (icdl.com/dir)",
+      "Autism Speaks — ESDM: Sensory Social Routines (autismspeaks.org/early-start-denver-model-esdm)"
+    ]
+  },
+  {
+    "id": "cognitive-2",
+    "skill": "Mga Aktibidad sa Pagtutugma at Pag-uuri",
+    "whyItMatters": "Ang pagtutugma ng magkaparehong mga bagay at pag-uuri ayon sa mga kategorya ay mga maagang kasanayan sa pag-iisip na sumusuporta sa pagbuo ng wika, kahandaan sa matematika, at pag-iisip ng organisasyon. Maraming mga autistic na bata ang natural na mga sorter at classifier — ang lakas na ito ay maaaring maihatid sa structured learning. Sinusuportahan din ng pagtutugma ang visual na diskriminasyon, na tumutulong sa pagiging handa sa pagbabasa.",
+    "steps": [
+      "Magsimula sa pagtutugma ng magkaparehong bagay: dalawang pulang tasa, dalawang asul na bloke, dalawang magkaparehong larawan.",
+      "Pag-unlad sa pagtutugma ng magkatulad ngunit hindi magkakatulad na mga item: lahat ng mga tasa ay magkakasama, lahat ng mga bloke ay magkakasama.",
+      "Ipakilala ang pag-uuri ayon sa isang katangian: pagbukud-bukurin ayon sa kulay, pagkatapos ay ayon sa laki, pagkatapos ay ayon sa hugis — isa-isa.",
+      "Gamitin ang mga interes ng iyong anak: pagbukud-bukurin ang mga kotse ng tren ayon sa kulay, itugma ang mga figure ng hayop sa kanilang mga larawan, o pagbukud-bukurin ang pagkain ayon sa uri."
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "2-6",
+    "sources": [
+      "Key Autism Services — Teaching Math to Students with Autism (keyautismservices.com/blog/teaching-math-to-students-with-autism)",
+      "Above and Beyond Therapy — TEACCH Method for Autism (abtaba.com/blog/teacch-method-for-autism)",
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)"
+    ]
+  },
+  {
+    "id": "cognitive-3",
+    "skill": "Pretend Play: Pagbuo ng Imahinasyon",
+    "whyItMatters": "Ang pagpapanggap na paglalaro ay isang lugar kung saan maraming autistic na bata ang nangangailangan ng tahasang pagtuturo. Ang mapanlikhang laro ay bumubuo ng wika, panlipunang pag-unawa, nababaluktot na pag-iisip, at emosyonal na pagproseso. Simula sa simpleng functional play (nagpapanggap na umiinom mula sa isang tasa) at unti-unting pagbuo sa mas kumplikadong mga sitwasyon (paglalaro ng 'tindahan') ay nagkakaroon ng mga kasanayang ito sa isang natural, kasiya-siyang konteksto.",
+    "steps": [
+      "Magsimula sa functional play: bigyan ang iyong anak ng laruang telepono at modelong nakikipag-usap dito, o mag-alok ng play cup at magpanggap na umiinom.",
+      "Gamitin ang mga interes ng iyong anak bilang tema: kung mahilig siya sa mga tren, gumawa ng kunwaring istasyon ng tren na may mga tiket at pasahero.",
+      "Mag-modelo ng mga pagpapanggap na aksyon sa tabi ng iyong anak nang hindi nagtuturo: pakainin ang isang pinalamanan na hayop, ilagay ito sa kama, dalhin ito sa paglalakad.",
+      "Magdagdag ng isang bagong elemento ng pagkukunwari nang sabay-sabay — huwag mag-overwhelm sa isang kumplikadong senaryo nang sabay-sabay."
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "2-7",
+    "sources": [
+      "ICDL — DIR/Floortime: Creating Emotional Ideas (icdl.com/dir/fedcs)",
+      "Wondirful Play — Six Stages of DIR/Floortime (wondirfulplay.com/blog/six-stages-of-dir-floortime-therapy)",
+      "Raising Children Network — DIR/Floortime Model (raisingchildren.net.au/autism/therapies-guide/dir-floortime-model)"
+    ]
+  },
+  {
+    "id": "cognitive-4",
+    "skill": "Pagsunod sa Dalawang-Hakbang na Direksyon",
+    "whyItMatters": "Ang pagsunod sa mga multi-step na direksyon ay mahalaga para sa pag-aaral sa silid-aralan, pang-araw-araw na gawain, at kaligtasan. Para sa mga batang autistic, ang mga pandiwang tagubilin ay maaaring maproseso nang mas mabagal o mawala nang walang visual na suporta. Ang pagsasanay sa dalawang hakbang na direksyon sa masaya at mababang presyon na mga konteksto ay bubuo ng kasanayang ito upang ito ay magagamit kapag ito ang pinakamahalaga.",
+    "steps": [
+      "Magsimula habang naglalaro: 'Kunin ang bola AT dalhin ito sa akin' — gamitin ang salitang 'at' upang magsenyas ng dalawang bahagi.",
+      "Gumamit ng mga galaw sa tabi ng mga pandiwang tagubilin: ituro ang bola, pagkatapos ay ituro ang iyong sarili.",
+      "Maglaro ng 'treasure hunt': magbigay ng dalawang hakbang na pahiwatig: 'Tumingin ka sa ilalim ng unan AT dalhin mo sa akin kung ano ang nahanap mo.'",
+      "Sa sandaling matagumpay sa mga pisikal na aksyon, subukan ang dalawang hakbang na gawaing nagbibigay-malay: 'Kulayan ang bilog na pula AT ang parisukat na asul.'"
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "3-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "ASHA — Spoken Language Disorders: Following Directions (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)"
+    ]
+  },
+  {
+    "id": "cognitive-5",
+    "skill": "Espesyal na Interes bilang Tulay sa Pag-aaral",
+    "whyItMatters": "Ang matinding espesyal na interes ay isang tanda ng autism at dapat yakapin, hindi panghinaan ng loob. Ang mga interes na ito ay nagbibigay ng natural na pagganyak na maaaring maihatid sa pag-aaral ng anumang kasanayan. Ang isang bata na mahilig sa mga tren ay maaaring matuto ng pagbibilang, pagbabasa, mga kasanayang panlipunan, at heograpiya sa pamamagitan ng mga tren. Ipinapakita ng pananaliksik na ang paggamit ng mga espesyal na interes ay kapansin-pansing nagpapabuti sa pakikipag-ugnayan at mga resulta.",
+    "steps": [
+      "Tukuyin ang kasalukuyang matinding interes ng iyong anak — maaaring ito ay mga tren, mga dinosaur, mga numero, mga titik, isang partikular na palabas, o isang pandama na karanasan.",
+      "Ikonekta ang mga layuning pang-akademiko o panlipunan sa interes: bilangin ang mga dinosaur, magbasa ng mga libro tungkol sa mga tren, magpalitan ng paboritong laruan.",
+      "Gamitin ang interes bilang gantimpala: 'Pagkatapos naming magsanay sa pagsusulat, maaari kang makipaglaro sa iyong mga tren sa loob ng 10 minuto.'",
+      "Igalang ang interes - huwag mong alisin ito bilang parusa. Ito ang pinagmumulan ng kagalakan at regulasyon ng iyong anak."
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "2-12",
+    "sources": [
+      "Chicago ABA Therapy — PRT: Following Child's Lead (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Autism Speaks — Autism and Your Child's Special Interests (autismspeaks.org)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)"
+    ]
+  },
+  {
+    "id": "cognitive-6",
+    "skill": "Discrete Trial Teaching: 5-Minute Skill Bursts",
+    "whyItMatters": "Ang Discrete Trial Training (DTT) ay isang structured ABA technique na hinahati ang pag-aaral sa malinaw, paulit-ulit na pagsubok: magbigay ng tagubilin, prompt kung kinakailangan, maghintay ng tugon, gantimpalaan ang tamang sagot. Ang maikling 5 minutong 'pagsabog ng kasanayan' sa bahay ay maaaring mapabilis ang pag-aaral sa mga lugar tulad ng pag-label, pagtutugma, at pagsunod sa mga tagubilin nang hindi nangangailangan ng isang therapist na dumalo.",
+    "steps": [
+      "Pumili ng isang simpleng target: pagbibigay ng pangalan sa mga kulay, pagtukoy ng mga bahagi ng katawan, o pagtutugma ng mga larawan.",
+      "Magpakita ng malinaw na tagubilin: 'Pindutin ang pula' na may hanay ng 2-3 item.",
+      "Maghintay ng 3-5 segundo para sa tugon. Kung tama, magbigay ng agarang partikular na papuri kasama ang maliit na gantimpala. Kung mali, dahan-dahang i-prompt at subukang muli.",
+      "Gumawa ng 5-10 pagsubok nang sunud-sunod, pagkatapos ay magpahinga sa isang gustong aktibidad. Panatilihing maikli at positibo ang mga session."
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "2-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training Guide (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "PMC — Scoping Review: ABA Evidence Base (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)"
+    ]
+  },
+  {
+    "id": "cognitive-7",
+    "skill": "Paglutas ng Problema gamit ang Mga Visual na Suporta",
+    "whyItMatters": "Ang pagtuturo sa mga bata na lutasin ang mga problema nang nakapag-iisa ay nagtatayo ng katatagan at nagpapababa ng pag-asa sa mga matatanda. Para sa mga batang autistic, ginagawang naa-access ang abstract na kasanayang ito sa paglutas ng problema sa visual, kongkretong mga hakbang. Ang layunin ay hindi upang alisin ang mga problema ngunit upang bigyan ang mga bata ng isang maaasahang proseso para sa paghawak sa kanila.",
+    "steps": [
+      "Lumikha ng isang simpleng visual problem-solving board: 1) Ano ang problema? 2) Ano ang maaari kong subukan? 3) Subukan ito. 4) Gumagana ba ito?",
+      "Modelo gamit ang board na may tunay na mga problema: 'Hindi ko maabot ang tasa. Ano ang maaari kong subukan? Maaari akong gumamit ng dumi!'",
+      "Kapag nakatagpo ng problema ang iyong anak, gabayan sila sa board sa halip na lutasin ito para sa kanila.",
+      "Mag-alok ng dalawang posibleng solusyon na mapagpipilian sa una, pagkatapos ay unti-unting hikayatin ang pagbuo ng sarili nilang mga ideya."
+    ],
+    "category": "Cognitive at Play",
+    "ageRange": "3-10",
+    "sources": [
+      "TEACCH — Structured Teaching and Problem Solving (teacch.com)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "Above and Beyond Therapy — TEACCH Method (abtaba.com/blog/teacch-method-for-autism)"
+    ]
+  },
+  {
+    "id": "advocacy-1",
+    "skill": "Humihiling ng Break",
+    "whyItMatters": "Ang pagtuturo sa mga bata na humiling ng pahinga bago nila maabot ang kanilang limitasyon ay isa sa pinakamakapangyarihang mga kasanayan sa pagtataguyod sa sarili. Pinipigilan nito ang mga pagkasira, binabawasan ang mapaghamong pag-uugali, at binibigyan ang mga bata ng isang paraan na naaangkop sa lipunan upang pamahalaan ang labis. Ang isang bata na maaaring magsabi, pumirma, o magpakita ng 'break' na card ay bumubuo ng panghabambuhay na diskarte sa pagsasaayos sa sarili.",
+    "steps": [
+      "Gumawa ng 'break' card na may malinaw na visual at panatilihin itong naa-access sa lahat ng oras — sa mesa, sa isang lanyard, o sa isang communication board.",
+      "Ituro muna ang kahilingan sa mga sitwasyong mababa ang stress: 'Kapag kailangan mo ng pahinga, ipakita sa akin ang card na ito.'",
+      "Igalang kaagad ang BAWAT hiling sa pahinga — ang pagbuo ng tiwala na gumagana ang system ay mas mahalaga kaysa sa pagtatapos ng gawain.",
+      "Unti-unting nasira ang istraktura: 'Magandang trabaho humihingi ng pahinga! Let's take 2 minutes, tapos na tayo.'"
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Challenging Behaviors Tool Kit (autismspeaks.org/tool-kit/challenging-behaviors-tool-kit)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)"
+    ]
+  },
+  {
+    "id": "advocacy-2",
+    "skill": "Pagpapahayag ng mga Pangangailangan: 'Kailangan Ko ng Tulong'",
+    "whyItMatters": "Ang kakayahang humingi ng tulong ay isang kritikal na kasanayan sa buhay na maraming autistic na bata ay nangangailangan ng tahasang pagtuturo upang paunlarin. Kung wala ang kasanayang ito, ang mga bata ay maaaring mabigo at kumilos, o sumuko na lamang sa mga gawain. Ang pagtuturo ng 'Kailangan ko ng tulong' bilang isang gawaing pangkomunikasyon — sa pamamagitan man ng pagsasalita, pag-sign, isang buton, o isang card — ay nagbibigay-kapangyarihan sa mga bata na lumahok sa mga aktibidad na higit sa kanilang independiyenteng antas.",
+    "steps": [
+      "Pumili ng isang paraan para humiling ng tulong ang iyong anak: pagsasabi ng 'help', pagpirma ng 'help', pagpindot ng button, o pag-abot sa iyo ng card.",
+      "Gumawa ng mga sitwasyon kung saan kailangan ng tulong: maglagay ng paboritong laruan sa isang saradong lalagyan, o magbigay ng puzzle na may isang pirasong nakatago.",
+      "Imodelo ang kahilingan: 'Mahirap ito! Kailangan ko ng tulong!' pagkatapos ay agad na magbigay ng tulong upang makita nila ang koneksyon.",
+      "Tumugon nang mabilis at positibong tumugon sa mga kahilingan sa bawat oras — bilis at pare-pareho ang pagbuo ng ugali."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-10",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Communication (autismspeaks.org/applied-behavior-analysis)",
+      "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "advocacy-3",
+    "skill": "Pagsasabi ng 'Hindi' at Pagtatakda ng mga Hangganan",
+    "whyItMatters": "Ang pagtuturo sa isang bata na magsabi ng 'hindi' nang naaangkop ay mahalaga para sa kaligtasan at paggalang sa sarili. Maraming diskarte sa therapy ang historikal na nakatuon sa pagsunod, ngunit kinikilala ng modernong neurodiversity-affirming practice na ang isang bata na maaaring tumanggi ay isang bata na kayang protektahan ang kanilang sarili. Pinipigilan ng pagtuturo ng naaangkop na pagtanggi ang pagbuo ng pagkabalisa na humahantong sa mga pagkasira.",
+    "steps": [
+      "Magturo ng malinaw na paraan ng pagtanggi: 'No thank you', pag-iling ng ulo, 'stop' hand gesture, o 'no' card.",
+      "Gumawa ng mga pagkakataon sa pagsasanay sa mga sitwasyong mababa ang stake: mag-alok ng hindi gustong pagkain at tanggapin ang 'hindi' nang maganda.",
+      "Matukoy ang pagkakaiba sa pagitan ng mga hindi mapag-usapan (kaligtasan) at mga mapag-uusapan (mga kagustuhan) — payagan ang 'hindi' para sa mga kagustuhan.",
+      "Kapag ang iyong anak ay nagsabi ng 'hindi' nang naaangkop, parangalan ito at purihin ang komunikasyon: 'Salamat sa pagsasabi sa akin!'"
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "2-12",
+    "sources": [
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      "Child Mind Institute — ABA Controversy (childmind.org/article/controversy-around-applied-behavior-analysis/)",
+      "Autism Speaks — Self-Advocacy (autismspeaks.org)"
+    ]
+  },
+  {
+    "id": "advocacy-4",
+    "skill": "Pag-unawa at Pagbabahagi ng Aking Diagnosis",
+    "whyItMatters": "Habang lumalaki ang mga bata, ang pag-unawa sa kanilang sariling autism ay nagiging mahalaga para sa pagkakakilanlan sa sarili, pagtataguyod sa sarili, at pag-access ng suporta. Ang pagbabahagi ng diagnosis sa positibong paraan na nakabatay sa lakas ay nakakatulong sa mga bata na makita ang autism bilang bahagi ng kung sino sila — hindi isang bagay na mali sa kanila. Ang mga bata na nauunawaan ang kanilang diagnosis ay may mas mahusay na mga resulta sa kalusugan ng isip at mas malakas na mga kasanayan sa pagtataguyod sa sarili.",
+    "steps": [
+      "Gumamit ng wikang naaangkop sa edad: 'Iba ang gumagana ng iyong utak — napapansin mo ang mga bagay na nakakaligtaan ng ibang tao, at ang ilang mga bagay ay napakalaki sa iyo.'",
+      "Magbasa ng mga libro tungkol sa autism nang magkasama: 'The Girl Who Thought in Pictures', 'All Cats Are on the Autism Spectrum', o mga katulad na pamagat.",
+      "Tumutok muna sa mga lakas: kamangha-manghang memorya, malalim na interes, pansin sa detalye, katapatan, natatanging pananaw.",
+      "Hayaang magpasya ang iyong anak kung sino ang sasabihin at kailan — ito ang kanilang impormasyon na ibabahagi sa kanilang mga tuntunin."
+    ],
+    "category": "Emosyonal at Pagtataguyod sa Sarili",
+    "ageRange": "5-12",
+    "sources": [
+      "Autism Speaks — Autism Diagnosis Criteria: DSM-5 (autismspeaks.org/autism-diagnosis-criteria-dsm-5)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      "ASAN — Autistic Self Advocacy Network: Identity-First Language (autisticadvocacy.org)"
+    ]
+  }
+]

@@ -224,4 +224,82 @@ router.post("/posts/:id/vote", (req: AuthRequest, res: Response) => {
   res.json({ votes: updated.votes });
 });
 
+// ── PUT /posts/:id — Edit a post (owner only) ───────────────────────────────
+router.put("/posts/:id", (req: AuthRequest, res: Response) => {
+  const postId = req.params.id;
+  const { title, body } = req.body;
+
+  const post = db.prepare("SELECT user_id FROM posts WHERE id = ?").get(postId) as { user_id: number } | undefined;
+  if (!post) { res.status(404).json({ error: "Post not found" }); return; }
+  if (Number(post.user_id) !== Number(req.userId!)) { res.status(403).json({ error: "You can only edit your own posts" }); return; }
+
+  if (title && (typeof title !== "string" || title.length > 200)) {
+    res.status(400).json({ error: "Title must be 200 characters or fewer" }); return;
+  }
+  if (body && (typeof body !== "string" || body.length > 5000)) {
+    res.status(400).json({ error: "Body must be 5000 characters or fewer" }); return;
+  }
+
+  if (title) db.prepare("UPDATE posts SET title = ? WHERE id = ?").run(title, postId);
+  if (body) db.prepare("UPDATE posts SET body = ? WHERE id = ?").run(body, postId);
+
+  const updated = db.prepare(
+    `SELECT p.*, u.name AS author_name,
+      (SELECT COUNT(*) FROM comments c WHERE c.post_id = p.id) AS comment_count
+     FROM posts p JOIN users u ON p.user_id = u.id WHERE p.id = ?`
+  ).get(postId);
+
+  res.json({ post: updated });
+});
+
+// ── DELETE /posts/:id — Delete a post and its comments (owner only) ──────────
+router.delete("/posts/:id", (req: AuthRequest, res: Response) => {
+  const postId = req.params.id;
+
+  const post = db.prepare("SELECT user_id FROM posts WHERE id = ?").get(postId) as { user_id: number } | undefined;
+  if (!post) { res.status(404).json({ error: "Post not found" }); return; }
+  if (Number(post.user_id) !== Number(req.userId!)) { res.status(403).json({ error: "You can only delete your own posts" }); return; }
+
+  db.prepare("DELETE FROM comments WHERE post_id = ?").run(postId);
+  db.prepare("DELETE FROM post_votes WHERE post_id = ?").run(postId);
+  db.prepare("DELETE FROM posts WHERE id = ?").run(postId);
+
+  res.json({ success: true });
+});
+
+// ── PUT /posts/:id/comments/:commentId — Edit a comment (owner only) ────────
+router.put("/posts/:id/comments/:commentId", (req: AuthRequest, res: Response) => {
+  const { commentId } = req.params;
+  const { body } = req.body;
+
+  if (!body || typeof body !== "string" || body.length > 2000) {
+    res.status(400).json({ error: "Comment body must be 1-2000 characters" }); return;
+  }
+
+  const comment = db.prepare("SELECT user_id FROM comments WHERE id = ?").get(commentId) as { user_id: number } | undefined;
+  if (!comment) { res.status(404).json({ error: "Comment not found" }); return; }
+  if (Number(comment.user_id) !== Number(req.userId!)) { res.status(403).json({ error: "You can only edit your own comments" }); return; }
+
+  db.prepare("UPDATE comments SET body = ? WHERE id = ?").run(body, commentId);
+
+  const updated = db.prepare(
+    `SELECT c.*, u.name AS author_name FROM comments c JOIN users u ON c.user_id = u.id WHERE c.id = ?`
+  ).get(commentId);
+
+  res.json({ comment: updated });
+});
+
+// ── DELETE /posts/:id/comments/:commentId — Delete a comment (owner only) ────
+router.delete("/posts/:id/comments/:commentId", (req: AuthRequest, res: Response) => {
+  const { commentId } = req.params;
+
+  const comment = db.prepare("SELECT user_id FROM comments WHERE id = ?").get(commentId) as { user_id: number } | undefined;
+  if (!comment) { res.status(404).json({ error: "Comment not found" }); return; }
+  if (Number(comment.user_id) !== Number(req.userId!)) { res.status(403).json({ error: "You can only delete your own comments" }); return; }
+
+  db.prepare("DELETE FROM comments WHERE id = ?").run(commentId);
+
+  res.json({ success: true });
+});
+
 export default router;

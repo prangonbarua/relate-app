@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "진단 전",
@@ -74,7 +76,13 @@
       "log_skip": "오늘은 건너뛰기"
     },
     "crisis": "지금 도움이 필요하신가요?",
-    "streak": "{{count}}일 연속"
+    "streak": "{{count}}일 연속",
+    "quick_actions": {
+      "resources": "자원",
+      "community": "커뮤니티",
+      "ask_ai": "AI에게 물어보세요"
+    },
+    "todays_skill": "오늘의 스킬"
   },
   "skills": {
     "title": "자기 돌봄 학교",
@@ -87,7 +95,9 @@
       "sleep": "수면",
       "feeding": "식사",
       "selfcare": "자기 돌봄"
-    }
+    },
+    "skill_count": "{{count}}개의 스킬",
+    "skill_count_one": "{{count}} 스킬"
   },
   "navigator": {
     "title": "자료",
@@ -97,13 +107,37 @@
       "school": "학교 권리",
       "state": "주 서비스",
       "crisis": "위기 자원"
-    }
+    },
+    "no_resources": "아직 사용 가능한 리소스가 없습니다.",
+    "disclaimer": "이것은 일반적인 정보일 뿐입니다. 법률은 주마다 다릅니다. 구체적인 조언은 특수 교육 옹호자나 변호사에게 문의하십시오."
   },
   "community": {
     "title": "커뮤니티",
     "subtitle": "이해하는 부모들과 연결하세요",
     "coming_soon": "곧 출시",
-    "join_waitlist": "대기자 명단 참여"
+    "join_waitlist": "대기자 명단 참여",
+    "categories": {
+      "all": "모두",
+      "general": "일반",
+      "questions": "질문",
+      "tips": "팁",
+      "wins": "승리",
+      "vent": "벤트"
+    },
+    "new_post": "새 게시물",
+    "post_button": "게시물",
+    "category_label": "카테고리",
+    "title_label": "제목",
+    "body_placeholder": "무슨 생각을 하고 있나요?",
+    "no_posts": "아직 게시물이 없습니다",
+    "be_first": "커뮤니티와 가장 먼저 무언가를 공유해 보세요.",
+    "time": {
+      "just_now": "지금 막",
+      "minutes_ago": "{{count}}분 전",
+      "hours_ago": "{{count}}시간 전",
+      "days_ago": "{{count}}일 전",
+      "weeks_ago": "{{count}}주 전"
+    }
   },
   "crisis": {
     "title": "당신은 혼자가 아닙니다",
@@ -132,6 +166,82 @@
     "done": "완료",
     "loading": "로딩 중...",
     "error": "문제가 발생했습니다",
-    "retry": "다시 시도"
+    "retry": "다시 시도",
+    "edit": "편집",
+    "delete": "삭제",
+    "go_back": "돌아가기",
+    "categories": "카테고리",
+    "sources": "출처"
+  },
+  "assistant": {
+    "title": "AI 어시스턴트",
+    "subtitle": "자폐증, 치료 및 귀하의 권리에 대해 질문하십시오.",
+    "how_can_i_help": "어떻게 도와드릴까요?",
+    "intro": "자폐증, 치료, 학교 권리 등에 관한 질문에 답할 수 있습니다.",
+    "placeholder": "메시지를 입력하세요...",
+    "thinking": "생각하다...",
+    "error": "죄송합니다. 지금 연결하는 데 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.",
+    "source": "소스",
+    "prompt_1": "자폐증의 초기 징후는 무엇입니까?",
+    "prompt_2": "IEP를 요청하려면 어떻게 해야 하나요?",
+    "prompt_3": "ABA 치료법 설명"
+  },
+  "settings": {
+    "title": "설정",
+    "child_profile": "자녀 프로필",
+    "loves": "사랑한다",
+    "triggers": "트리거",
+    "edit_profile": "프로필 편집",
+    "setup_profile": "자녀 프로필 설정",
+    "section_app": "앱",
+    "language": "언어",
+    "change": "변경",
+    "clear_chat": "채팅 기록 지우기",
+    "section_account": "계정",
+    "logout": "로그아웃",
+    "version": "Relate v1.0",
+    "logout_alert_title": "로그아웃",
+    "logout_alert_message": "이렇게 하면 앱이 재설정되고 온보딩으로 돌아갑니다.",
+    "logout_confirm": "로그아웃",
+    "clear_chat_alert_title": "채팅 기록 지우기",
+    "clear_chat_alert_message": "AI 비서 대화가 모두 삭제됩니다.",
+    "clear_chat_confirm": "지우기",
+    "clear_chat_done_title": "완료",
+    "clear_chat_done_message": "다음에 다시 시작하면 채팅 기록이 삭제됩니다."
+  },
+  "post": {
+    "title": "게시물",
+    "loading": "게시물 로드 중...",
+    "not_found": "게시물을 찾을 수 없습니다",
+    "not_found_detail": "이 게시물은 삭제되었거나 일시적으로 사용할 수 없습니다.",
+    "comments": "댓글",
+    "no_comments": "아직 댓글이 없습니다. 대화를 시작하세요!",
+    "comment_placeholder": "댓글을 쓰세요...",
+    "comment_count": "댓글 {{count}}개",
+    "comment_count_one": "댓글 {{count}}개",
+    "delete_title": "게시물 삭제",
+    "delete_message": "이 게시물을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "delete_comment_title": "댓글 삭제",
+    "delete_comment_message": "이 댓글을 삭제하시겠습니까?"
+  },
+  "resource": {
+    "loading": "리소스 로드 중...",
+    "not_found": "리소스를 찾을 수 없습니다.",
+    "summary": "요약",
+    "details": "세부정보",
+    "steps": "단계",
+    "count": "{{count}} 리소스",
+    "count_one": "{{count}} 리소스",
+    "no_resources": "아직 사용 가능한 리소스가 없습니다.",
+    "loading_resources": "리소스 로드 중..."
+  },
+  "skill": {
+    "loading": "스킬 로딩 중...",
+    "not_found": "기술을 찾을 수 없습니다",
+    "why_it_matters": "중요한 이유",
+    "steps_to_practice": "연습 단계",
+    "ages": "연령 {{range}}",
+    "no_skills": "아직 사용할 수 있는 기술이 없습니다.",
+    "loading_skills": "스킬 로딩 중..."
   }
 }

@@ -43,7 +43,7 @@ export function DailyCard({ card }: DailyCardProps) {
         {/* Why it matters */}
         <View className="px-6 pt-5 pb-4">
           <View className="flex-row items-center gap-2 mb-3">
-            <Ionicons name="bulb-outline" size={16} color="#6366f1" />
+            <Ionicons name="bulb-outline" size={16} color="#7FB4F9" />
             <Text className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">
               {t("home.daily_card.why")}
             </Text>
@@ -54,7 +54,7 @@ export function DailyCard({ card }: DailyCardProps) {
         {/* Steps */}
         <View className="px-6 pb-5">
           <View className="flex-row items-center gap-2 mb-3">
-            <Ionicons name="list-outline" size={16} color="#6366f1" />
+            <Ionicons name="list-outline" size={16} color="#7FB4F9" />
             <Text className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">
               {t("home.daily_card.steps")}
             </Text>
@@ -78,7 +78,7 @@ export function DailyCard({ card }: DailyCardProps) {
               <Ionicons
                 name={logged === "success" ? "checkmark-circle" : logged === "partial" ? "time" : "arrow-forward-circle"}
                 size={20}
-                color="#6366f1"
+                color="#7FB4F9"
               />
               <Text className="text-indigo-700 font-semibold text-sm">
                 {logged === "success" ? "Great job! Logged." : logged === "partial" ? "Partial — keep going!" : "Skipped for today"}

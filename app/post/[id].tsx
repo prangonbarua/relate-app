@@ -8,11 +8,14 @@ import {
   FlatList,
   KeyboardAvoidingView,
   Platform,
+  Alert,
 } from "react-native";
 import { useState, useEffect, useCallback } from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
+import { useTranslation } from "react-i18next";
 import { api } from "../../store/apiClient";
+import { useAuthStore } from "../../store/authStore";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -50,27 +53,30 @@ const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
-function formatTimeAgo(dateStr: string): string {
+function formatTimeAgo(dateStr: string, t: (key: string, opts?: any) => string): string {
   const diff = Date.now() - new Date(dateStr).getTime();
   const minutes = Math.floor(diff / 60000);
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes}m ago`;
+  if (minutes < 1) return t("community.time.just_now");
+  if (minutes < 60) return t("community.time.minutes_ago", { count: minutes });
   const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}h ago`;
+  if (hours < 24) return t("community.time.hours_ago", { count: hours });
   const days = Math.floor(hours / 24);
-  if (days < 7) return `${days}d ago`;
+  if (days < 7) return t("community.time.days_ago", { count: days });
   const weeks = Math.floor(days / 7);
-  if (weeks < 5) return `${weeks}w ago`;
+  if (weeks < 5) return t("community.time.weeks_ago", { count: weeks });
   const months = Math.floor(days / 30);
-  if (months < 12) return `${months}mo ago`;
-  return `${Math.floor(months / 12)}y ago`;
+  if (months < 12) return t("community.time.months_ago", { count: months });
+  return t("community.time.years_ago", { count: Math.floor(months / 12) });
 }
 
 // ── Component ────────────────────────────────────────────────────────────────
 
 export default function PostDetailScreen() {
+  const { t } = useTranslation();
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
+  const storeUserId = useAuthStore((s) => s.user?.id);
+  const [currentUserId, setCurrentUserId] = useState<number | null>(storeUserId ?? null);
 
   const [post, setPost] = useState<Post | null>(null);
   const [comments, setComments] = useState<Comment[]>([]);
@@ -84,23 +90,32 @@ export default function PostDetailScreen() {
   const [commentText, setCommentText] = useState("");
   const [isSendingComment, setIsSendingComment] = useState(false);
 
+  // Edit states
+  const [editingPost, setEditingPost] = useState(false);
+  const [editPostTitle, setEditPostTitle] = useState("");
+  const [editPostBody, setEditPostBody] = useState("");
+  const [editingCommentId, setEditingCommentId] = useState<number | null>(null);
+  const [editCommentBody, setEditCommentBody] = useState("");
+
   // ── Fetch post + comments ────────────────────────────────────────────────
 
   const fetchPost = useCallback(async () => {
     if (!id) return;
     try {
-      const data = await api<{ post: Post; comments: Comment[] }>(
-        `/api/community/posts/${id}`
-      );
+      const [data, meData] = await Promise.all([
+        api<{ post: Post; comments: Comment[] }>(`/api/community/posts/${id}`),
+        currentUserId ? Promise.resolve(null) : api<{ user: { id: number } }>("/api/auth/me"),
+      ]);
       setPost(data.post);
       setComments(data.comments);
+      if (meData) setCurrentUserId(meData.user.id);
       setError(false);
     } catch {
       setError(true);
     } finally {
       setIsLoading(false);
     }
-  }, [id]);
+  }, [id, currentUserId]);
 
   useEffect(() => {
     fetchPost();
@@ -155,6 +170,69 @@ export default function PostDetailScreen() {
     }
   };
 
+  // ── Edit / Delete post ─────────────────────────────────────────────────
+
+  const handleEditPost = async () => {
+    if (!post || !editPostTitle.trim() || !editPostBody.trim()) return;
+    try {
+      const data = await api<{ post: Post }>(`/api/community/posts/${post.id}`, {
+        method: "PUT",
+        body: JSON.stringify({ title: editPostTitle.trim(), body: editPostBody.trim() }),
+      });
+      setPost(data.post);
+      setEditingPost(false);
+    } catch {}
+  };
+
+  const handleDeletePost = () => {
+    if (!post) return;
+    Alert.alert(t("post.delete_title"), t("post.delete_message"), [
+      { text: t("common.cancel"), style: "cancel" },
+      {
+        text: t("common.delete"),
+        style: "destructive",
+        onPress: async () => {
+          try {
+            await api(`/api/community/posts/${post.id}`, { method: "DELETE" });
+            router.back();
+          } catch {}
+        },
+      },
+    ]);
+  };
+
+  // ── Edit / Delete comment ──────────────────────────────────────────────
+
+  const handleEditComment = async (commentId: number) => {
+    if (!editCommentBody.trim()) return;
+    try {
+      const data = await api<{ comment: Comment }>(`/api/community/posts/${id}/comments/${commentId}`, {
+        method: "PUT",
+        body: JSON.stringify({ body: editCommentBody.trim() }),
+      });
+      setComments((prev) => prev.map((c) => (c.id === commentId ? data.comment : c)));
+      setEditingCommentId(null);
+      setEditCommentBody("");
+    } catch {}
+  };
+
+  const handleDeleteComment = (commentId: number) => {
+    Alert.alert(t("post.delete_comment_title"), t("post.delete_comment_message"), [
+      { text: t("common.cancel"), style: "cancel" },
+      {
+        text: t("common.delete"),
+        style: "destructive",
+        onPress: async () => {
+          try {
+            await api(`/api/community/posts/${id}/comments/${commentId}`, { method: "DELETE" });
+            setComments((prev) => prev.filter((c) => c.id !== commentId));
+            setPost((prev) => prev ? { ...prev, comment_count: prev.comment_count - 1 } : prev);
+          } catch {}
+        },
+      },
+    ]);
+  };
+
   // ── Loading state ────────────────────────────────────────────────────────
 
   if (isLoading) {
@@ -167,7 +245,7 @@ export default function PostDetailScreen() {
           <Text
             style={{ color: Colors.textMuted, fontSize: 14, marginTop: 12 }}
           >
-            Loading post...
+            {t("post.loading")}
           </Text>
         </View>
       </SafeAreaView>
@@ -194,7 +272,7 @@ export default function PostDetailScreen() {
                 marginLeft: 4,
               }}
             >
-              Back
+              {t("common.back")}
             </Text>
           </TouchableOpacity>
         </View>
@@ -216,7 +294,7 @@ export default function PostDetailScreen() {
               marginBottom: 8,
             }}
           >
-            Post not found
+            {t("post.not_found")}
           </Text>
           <Text
             style={{
@@ -226,7 +304,7 @@ export default function PostDetailScreen() {
               marginBottom: 24,
             }}
           >
-            This post may have been removed or is temporarily unavailable.
+            {t("post.not_found_detail")}
           </Text>
           <TouchableOpacity
             onPress={() => {
@@ -244,7 +322,7 @@ export default function PostDetailScreen() {
             <Text
               style={{ color: "#FFFFFF", fontWeight: "600", fontSize: 16 }}
             >
-              Retry
+              {t("common.retry")}
             </Text>
           </TouchableOpacity>
         </View>
@@ -319,14 +397,52 @@ export default function PostDetailScreen() {
           {"\u00B7"}
         </Text>
         <Text style={{ fontSize: 12, color: Colors.textMuted }}>
-          {formatTimeAgo(item.created_at)}
+          {formatTimeAgo(item.created_at, t)}
         </Text>
       </View>
-      <Text
-        style={{ fontSize: 14, color: "#374151", lineHeight: 20 }}
-      >
-        {item.body}
-      </Text>
+      {editingCommentId === item.id ? (
+        <View>
+          <TextInput
+            value={editCommentBody}
+            onChangeText={setEditCommentBody}
+            multiline
+            style={{ fontSize: 14, color: Colors.text, borderWidth: 1, borderColor: Colors.border, borderRadius: Radius.sm, padding: 10, minHeight: 60, lineHeight: 20 }}
+            maxLength={2000}
+          />
+          <View style={{ flexDirection: "row", gap: 12, marginTop: 8 }}>
+            <TouchableOpacity onPress={() => handleEditComment(item.id)} style={{ backgroundColor: Colors.primary, paddingHorizontal: 16, paddingVertical: 8, borderRadius: Radius.sm }}>
+              <Text style={{ color: "#FFFFFF", fontWeight: "700", fontSize: 13 }}>{t("common.save")}</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => { setEditingCommentId(null); setEditCommentBody(""); }} style={{ paddingHorizontal: 16, paddingVertical: 8 }}>
+              <Text style={{ color: Colors.textSecondary, fontWeight: "600", fontSize: 13 }}>{t("common.cancel")}</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      ) : (
+        <Text
+          style={{ fontSize: 14, color: "#374151", lineHeight: 20 }}
+        >
+          {item.body}
+        </Text>
+      )}
+      {Number(item.user_id) === Number(currentUserId) && editingCommentId !== item.id && (
+        <View style={{ flexDirection: "row", gap: 16, marginTop: 8 }}>
+          <TouchableOpacity
+            onPress={() => { setEditingCommentId(item.id); setEditCommentBody(item.body); }}
+            style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+          >
+            <Ionicons name="pencil-outline" size={12} color={Colors.primary} />
+            <Text style={{ fontSize: 12, color: Colors.primary, fontWeight: "600" }}>{t("common.edit")}</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => handleDeleteComment(item.id)}
+            style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+          >
+            <Ionicons name="trash-outline" size={12} color={Colors.danger} />
+            <Text style={{ fontSize: 12, color: Colors.danger, fontWeight: "600" }}>{t("common.delete")}</Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 
@@ -367,35 +483,64 @@ export default function PostDetailScreen() {
                 color: catColor.text,
               }}
             >
-              {post.category}
+              {t(`community.categories.${post.category}`)}
             </Text>
           </View>
         )}
 
-        {/* Title */}
-        <Text
-          style={{
-            fontSize: 20,
-            fontWeight: "700",
-            color: Colors.text,
-            marginBottom: 12,
-            lineHeight: 28,
-          }}
-        >
-          {post.title}
-        </Text>
+        {/* Title + Body (editable or static) */}
+        {editingPost ? (
+          <View style={{ marginBottom: 12 }}>
+            <TextInput
+              value={editPostTitle}
+              onChangeText={setEditPostTitle}
+              style={{ fontSize: 18, fontWeight: "700", color: Colors.text, borderWidth: 1, borderColor: Colors.border, borderRadius: Radius.md, padding: 12, marginBottom: 8 }}
+              maxLength={200}
+            />
+            <TextInput
+              value={editPostBody}
+              onChangeText={setEditPostBody}
+              multiline
+              style={{ fontSize: 15, color: Colors.text, borderWidth: 1, borderColor: Colors.border, borderRadius: Radius.md, padding: 12, minHeight: 100, lineHeight: 22 }}
+              maxLength={5000}
+            />
+            <View style={{ flexDirection: "row", gap: 12, marginTop: 12 }}>
+              <TouchableOpacity onPress={handleEditPost} style={{ backgroundColor: Colors.primary, paddingHorizontal: 20, paddingVertical: 10, borderRadius: Radius.md }}>
+                <Text style={{ color: "#FFFFFF", fontWeight: "700", fontSize: 14 }}>{t("common.save")}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => setEditingPost(false)} style={{ paddingHorizontal: 20, paddingVertical: 10 }}>
+                <Text style={{ color: Colors.textSecondary, fontWeight: "600", fontSize: 14 }}>{t("common.cancel")}</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        ) : (
+          <>
+            {/* Title */}
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "700",
+                color: Colors.text,
+                marginBottom: 12,
+                lineHeight: 28,
+              }}
+            >
+              {post.title}
+            </Text>
 
-        {/* Full body */}
-        <Text
-          style={{
-            fontSize: 16,
-            color: "#374151",
-            lineHeight: 24,
-            marginBottom: 16,
-          }}
-        >
-          {post.body}
-        </Text>
+            {/* Full body */}
+            <Text
+              style={{
+                fontSize: 16,
+                color: "#374151",
+                lineHeight: 24,
+                marginBottom: 16,
+              }}
+            >
+              {post.body}
+            </Text>
+          </>
+        )}
 
         {/* Meta row */}
         <View
@@ -445,9 +590,29 @@ export default function PostDetailScreen() {
             {"\u00B7"}
           </Text>
           <Text style={{ fontSize: 12, color: Colors.textMuted }}>
-            {formatTimeAgo(post.created_at)}
+            {formatTimeAgo(post.created_at, t)}
           </Text>
         </View>
+
+        {/* Owner actions */}
+        {Number(post.user_id) === Number(currentUserId) && !editingPost && (
+          <View style={{ flexDirection: "row", gap: 16, marginBottom: 12 }}>
+            <TouchableOpacity
+              onPress={() => { setEditingPost(true); setEditPostTitle(post.title); setEditPostBody(post.body); }}
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+            >
+              <Ionicons name="pencil-outline" size={14} color={Colors.primary} />
+              <Text style={{ fontSize: 13, color: Colors.primary, fontWeight: "600" }}>{t("common.edit")}</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={handleDeletePost}
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+            >
+              <Ionicons name="trash-outline" size={14} color={Colors.danger} />
+              <Text style={{ fontSize: 13, color: Colors.danger, fontWeight: "600" }}>{t("common.delete")}</Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* Vote row */}
         <View
@@ -538,8 +703,7 @@ export default function PostDetailScreen() {
                 marginLeft: 6,
               }}
             >
-              {post.comment_count}{" "}
-              {post.comment_count === 1 ? "comment" : "comments"}
+              {t("post.comment_count", { count: post.comment_count })}
             </Text>
           </View>
         </View>
@@ -556,7 +720,7 @@ export default function PostDetailScreen() {
         <Text
           style={{ fontSize: 16, fontWeight: "700", color: "#1F2937" }}
         >
-          Comments
+          {t("post.comments")}
         </Text>
       </View>
 
@@ -577,7 +741,7 @@ export default function PostDetailScreen() {
               textAlign: "center",
             }}
           >
-            No comments yet. Start the conversation!
+            {t("post.no_comments")}
           </Text>
         </View>
       )}
@@ -625,7 +789,7 @@ export default function PostDetailScreen() {
             }}
             numberOfLines={1}
           >
-            Post
+            {t("post.title")}
           </Text>
         </View>
 
@@ -634,7 +798,7 @@ export default function PostDetailScreen() {
           data={comments}
           keyExtractor={(item) => String(item.id)}
           renderItem={renderComment}
-          ListHeaderComponent={PostHeader}
+          ListHeaderComponent={PostHeader()}
           contentContainerStyle={{ paddingBottom: 16 }}
           showsVerticalScrollIndicator={false}
         />
@@ -654,7 +818,7 @@ export default function PostDetailScreen() {
           <TextInput
             value={commentText}
             onChangeText={setCommentText}
-            placeholder="Write a comment..."
+            placeholder={t("post.comment_placeholder")}
             placeholderTextColor={Colors.textMuted}
             multiline
             maxLength={2000}

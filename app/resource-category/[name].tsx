@@ -9,6 +9,7 @@ import {
 import { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { router, useLocalSearchParams } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
@@ -45,9 +46,9 @@ const CATEGORY_STYLES: Record<string, CategoryStyle> = {
   },
   insurancefunding: {
     icon: "shield-checkmark-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
+    color: "#5A9AE6",
+    bg: "#5A9AE6",
+    lightBg: "#EBF3FE",
   },
   therapies: {
     icon: "medkit-outline",
@@ -106,6 +107,7 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
 }
 
 export default function ResourceCategoryScreen() {
+  const { t } = useTranslation();
   const { name } = useLocalSearchParams<{ name: string }>();
   const categoryName = name ?? "";
   const style = getCategoryStyle(categoryName);
@@ -171,7 +173,7 @@ export default function ResourceCategoryScreen() {
         >
           <Ionicons name="arrow-back" size={22} color={style.color} />
           <Text style={{ fontSize: 14, marginLeft: 4, color: style.color }}>
-            Categories
+            {t("common.categories")}
           </Text>
         </TouchableOpacity>
 
@@ -206,8 +208,7 @@ export default function ResourceCategoryScreen() {
                 marginTop: 2,
               }}
             >
-              {resources.length}{" "}
-              {resources.length === 1 ? "resource" : "resources"}
+              {t("resource.count", { count: resources.length })}
             </Text>
           </View>
         </View>
@@ -228,7 +229,7 @@ export default function ResourceCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              Loading resources...
+              {t("resource.loading_resources")}
             </Text>
           </View>
         ) : resources.length === 0 ? (
@@ -241,7 +242,7 @@ export default function ResourceCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              No resources available yet
+              {t("resource.no_resources")}
             </Text>
           </View>
         ) : (

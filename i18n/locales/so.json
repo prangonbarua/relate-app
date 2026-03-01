@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "Ka hor Ogaanshaha",
@@ -74,7 +76,13 @@
       "log_skip": "Maanta ka bood"
     },
     "crisis": "Ma u baahan tahay gargaar hadda?",
-    "streak": "{{count}} maalmo joogto ah"
+    "streak": "{{count}} maalmo joogto ah",
+    "quick_actions": {
+      "resources": "Khayraadka",
+      "community": "Bulshada",
+      "ask_ai": "Waydii AI"
+    },
+    "todays_skill": "Xirfadda Maanta"
   },
   "skills": {
     "title": "Dugsi Daryeel-nafsi",
@@ -87,7 +95,9 @@
       "sleep": "Hurda",
       "feeding": "Quudinta",
       "selfcare": "Daryeel-nafsi"
-    }
+    },
+    "skill_count": "Xirfadaha {{count}}",
+    "skill_count_one": "{{count}} xirfad"
   },
   "navigator": {
     "title": "Agabka",
@@ -97,13 +107,37 @@
       "school": "Xuquuqda Dugsiga",
       "state": "Adeegyada Gobolka",
       "crisis": "Kheyraadka Xaaladaha Deg-degga"
-    }
+    },
+    "no_resources": "Wali wax kheyraad ah lagama hayo",
+    "disclaimer": "Tani waa macluumaad guud oo keliya. Sharciyadu way kala duwan yihiin gobol ahaan. Wixii talo gaar ah, la tasho u doodaha waxbarashada gaarka ah ama qareen."
   },
   "community": {
     "title": "Bulshada",
     "subtitle": "La xidh waalidiinta fahamsan",
     "coming_soon": "Dhowaan ayuu imaanayaa",
-    "join_waitlist": "Ku biir liiska sugitaanka"
+    "join_waitlist": "Ku biir liiska sugitaanka",
+    "categories": {
+      "all": "Dhammaan",
+      "general": "Guud ahaan",
+      "questions": "Su'aalo",
+      "tips": "Talooyin",
+      "wins": "Guulaysta",
+      "vent": "Dabeeto"
+    },
+    "new_post": "Boostada Cusub",
+    "post_button": "Ku dhaji",
+    "category_label": "Qaybta",
+    "title_label": "Ciwaanka",
+    "body_placeholder": "Maxaa maskaxdaada ku jira?",
+    "no_posts": "Weli ma jiraan wax qoraal ah",
+    "be_first": "Noqo qofka ugu horreeya ee wax la wadaaga bulshada.",
+    "time": {
+      "just_now": "hadda uun",
+      "minutes_ago": "{{count}}m kahor",
+      "hours_ago": "{{count}}h kahor",
+      "days_ago": "{{count}}m kahor",
+      "weeks_ago": "{{count}}w kahor"
+    }
   },
   "crisis": {
     "title": "Kuma jirtid cidla",
@@ -132,6 +166,82 @@
     "done": "Dhammaystay",
     "loading": "Raraya...",
     "error": "Wax khalad ah ayaa dhacay",
-    "retry": "Isku day mar kale"
+    "retry": "Isku day mar kale",
+    "edit": "Wax ka beddel",
+    "delete": "Tirtir",
+    "go_back": "Dib u laabo",
+    "categories": "Qaybaha",
+    "sources": "Ilaha"
+  },
+  "assistant": {
+    "title": "Kaaliyaha AI",
+    "subtitle": "Weydii su'aalo ku saabsan autismka, daawaynta, iyo xuquuqdaada",
+    "how_can_i_help": "Sideen ku caawin karaa?",
+    "intro": "Waxaan ka jawaabi karaa su'aalaha ku saabsan autismka, daawaynta, xuquuqda dugsiga, iyo in ka badan.",
+    "placeholder": "Ku qor fariin...",
+    "thinking": "Fikirka...",
+    "error": "Waan ka xunahay, hadda dhib baa i kala kulmaya isku xidhka Fadlan isku day mar kale wax yar ka dib",
+    "source": "Xigasho",
+    "prompt_1": "Waa maxay calaamadaha hore ee autismka?",
+    "prompt_2": "Sideen u codsadaa IEP?",
+    "prompt_3": "ABA therapy sharaxay"
+  },
+  "settings": {
+    "title": "Dejinta",
+    "child_profile": "Xogta Ilmaha",
+    "loves": "Jeclahay",
+    "triggers": "Kiciyeyaasha",
+    "edit_profile": "Wax ka beddel xogta",
+    "setup_profile": "Deji Xogta Ilmaha",
+    "section_app": "App-ka",
+    "language": "Luuqad",
+    "change": "Beddel",
+    "clear_chat": "Nadiifi Taariikhda Sheekaysiga",
+    "section_account": "Xisaab",
+    "logout": "Ka bax",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Ka bax",
+    "logout_alert_message": "Tani waxay dib u dajin doontaa abka oo waxay ku noqon doontaa fuulid.",
+    "logout_confirm": "Ka bax",
+    "clear_chat_alert_title": "Nadiifi Taariikhda Sheekaysiga",
+    "clear_chat_alert_message": "Tani waxay tirtiri doontaa dhammaan wada hadalka kaaliyaha AI",
+    "clear_chat_confirm": "Cad",
+    "clear_chat_done_title": "La sameeyay",
+    "clear_chat_done_message": "Taariikhda wada sheekaysiga ayaa la tirtiri doonaa dib u bilaabashada soo socota."
+  },
+  "post": {
+    "title": "Ku dhaji",
+    "loading": "Soodejinaya boostada...",
+    "not_found": "Boostada lama helin",
+    "not_found_detail": "Boostada waxaa laga yaabaa in meesha laga saaray ama aan si ku meel gaar ah loo heli karin.",
+    "comments": "Faallo",
+    "no_comments": "Wali faallooyin ma jiraan. Bilow wada hadalka!",
+    "comment_placeholder": "Faallo qor...",
+    "comment_count": "{{count}} faallooyin",
+    "comment_count_one": "{{count}} faalo",
+    "delete_title": "Tirtir Boosta",
+    "delete_message": "Ma hubtaa inaad rabto inaad tirtirto qoraalkan? Tan lama celin karo.",
+    "delete_comment_title": "Tirti faallooyinka",
+    "delete_comment_message": "Ma hubtaa inaad doonayso inaad tirtirto faalladan?"
+  },
+  "resource": {
+    "loading": "Soodejinaya ilaha...",
+    "not_found": "Ilaha lama helin",
+    "summary": "Soo koobid",
+    "details": "Faahfaahin",
+    "steps": "Talaabooyinka",
+    "count": "{{count}} agabka",
+    "count_one": "{{count}} kheyraadka",
+    "no_resources": "Wali wax kheyraad ah lagama hayo",
+    "loading_resources": "Soodejinaya agabka..."
+  },
+  "skill": {
+    "loading": "Xirfadda soo dejinta",
+    "not_found": "Xirfad lama helin",
+    "why_it_matters": "Maxaa Sabab U Ah",
+    "steps_to_practice": "Talaabooyinka Layliska",
+    "ages": "Da'da {{range}}",
+    "no_skills": "Weli ma jiraan xirfado la heli karo",
+    "loading_skills": "Xirfadaha soo dejinta..."
   }
 }

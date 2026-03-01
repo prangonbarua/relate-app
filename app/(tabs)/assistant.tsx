@@ -8,12 +8,14 @@ import {
   ActivityIndicator,
   KeyboardAvoidingView,
   Platform,
+  StyleSheet,
 } from "react-native";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { api } from "../../store/apiClient";
 import { useUserStore } from "../../store/userStore";
+import { Colors, Radius, Shadow } from "../../constants/theme";
 
 interface ChatMessage {
   role: "user" | "assistant";
@@ -27,14 +29,13 @@ function cleanAIResponse(text: string): string {
   return text.replace(/<think>[\s\S]*?<\/think>\s*/g, "").trim();
 }
 
-const SUGGESTED_PROMPTS = [
-  "What are early signs of autism?",
-  "How do I request an IEP?",
-  "ABA therapy explained",
-];
-
 export default function AssistantScreen() {
   const { t } = useTranslation();
+  const suggestedPrompts = [
+    t("assistant.prompt_1"),
+    t("assistant.prompt_2"),
+    t("assistant.prompt_3"),
+  ];
   const language = useUserStore((s) => s.language);
   const scrollRef = useRef<ScrollView>(null);
 
@@ -102,7 +103,7 @@ export default function AssistantScreen() {
     } catch {
       const errorMessage: ChatMessage = {
         role: "assistant",
-        content: "Sorry, I'm having trouble connecting right now. Please try again in a moment.",
+        content: t("assistant.error"),
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
@@ -115,56 +116,56 @@ export default function AssistantScreen() {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50">
+    <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
-        className="flex-1"
+        style={styles.flex}
         keyboardVerticalOffset={90}
       >
         {/* Header */}
-        <View className="px-6 pt-6 pb-4 bg-white border-b border-gray-100">
-          <Text className="text-xl font-bold text-gray-900">AI Assistant</Text>
-          <Text className="text-xs text-gray-400 mt-1">
-            Ask questions about autism, therapy, and your rights
+        <View style={styles.header}>
+          <Text style={styles.headerTitle}>{t("assistant.title")}</Text>
+          <Text style={styles.headerSubtitle}>
+            {t("assistant.subtitle")}
           </Text>
         </View>
 
         {/* Messages */}
         <ScrollView
           ref={scrollRef}
-          className="flex-1 px-4"
+          style={styles.flex}
+          contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
-          contentContainerStyle={{ paddingVertical: 16 }}
         >
           {isLoadingHistory ? (
-            <View className="items-center py-12">
-              <ActivityIndicator size="large" color="#6366f1" />
-              <Text className="text-gray-400 text-sm mt-3">{t("common.loading")}</Text>
+            <View style={styles.loadingContainer}>
+              <ActivityIndicator size="large" color={Colors.primary} />
+              <Text style={styles.loadingText}>{t("common.loading")}</Text>
             </View>
           ) : (
             <>
               {/* Suggested prompts (shown when no messages) */}
               {messages.length === 0 && (
-                <View className="items-center py-8">
-                  <View className="w-16 h-16 rounded-full bg-indigo-50 items-center justify-center mb-4">
-                    <Ionicons name="chatbubble-ellipses" size={28} color="#6366f1" />
+                <View style={styles.emptyState}>
+                  <View style={styles.emptyIcon}>
+                    <Ionicons name="chatbubble-ellipses" size={28} color={Colors.primary} />
                   </View>
-                  <Text className="text-base font-semibold text-gray-700 mb-1">
-                    How can I help?
+                  <Text style={styles.emptyTitle}>
+                    {t("assistant.how_can_i_help")}
                   </Text>
-                  <Text className="text-xs text-gray-400 mb-6 text-center px-8">
-                    I can answer questions about autism, therapies, school rights, and more.
+                  <Text style={styles.emptySubtitle}>
+                    {t("assistant.intro")}
                   </Text>
-                  <View className="gap-2 w-full px-2">
-                    {SUGGESTED_PROMPTS.map((prompt) => (
+                  <View style={styles.promptList}>
+                    {suggestedPrompts.map((prompt) => (
                       <TouchableOpacity
                         key={prompt}
                         onPress={() => handleSuggestedPrompt(prompt)}
-                        className="bg-white border border-indigo-100 rounded-2xl px-4 py-3 flex-row items-center gap-2"
+                        style={styles.promptCard}
                       >
-                        <Ionicons name="sparkles-outline" size={14} color="#6366f1" />
-                        <Text className="text-sm text-indigo-700 flex-1">{prompt}</Text>
-                        <Ionicons name="arrow-forward" size={14} color="#A5B4FC" />
+                        <Ionicons name="sparkles-outline" size={14} color={Colors.primary} />
+                        <Text numberOfLines={2} style={styles.promptText}>{prompt}</Text>
+                        <Ionicons name="arrow-forward" size={14} color={Colors.primaryLight} />
                       </TouchableOpacity>
                     ))}
                   </View>
@@ -175,21 +176,22 @@ export default function AssistantScreen() {
               {messages.map((msg, index) => (
                 <View
                   key={index}
-                  className={`mb-3 max-w-[85%] ${
-                    msg.role === "user" ? "self-end" : "self-start"
-                  }`}
+                  style={[
+                    styles.messageBubbleWrapper,
+                    msg.role === "user" ? styles.userBubbleWrapper : styles.assistantBubbleWrapper,
+                  ]}
                 >
                   <View
-                    className={`px-4 py-3 rounded-2xl ${
-                      msg.role === "user"
-                        ? "bg-indigo-500 rounded-br-md"
-                        : "bg-white border border-gray-100 rounded-bl-md"
-                    }`}
+                    style={[
+                      styles.messageBubble,
+                      msg.role === "user" ? styles.userBubble : styles.assistantBubble,
+                    ]}
                   >
                     <Text
-                      className={`text-sm leading-6 ${
-                        msg.role === "user" ? "text-white" : "text-gray-800"
-                      }`}
+                      style={[
+                        styles.messageText,
+                        msg.role === "user" ? styles.userMessageText : styles.assistantMessageText,
+                      ]}
                     >
                       {msg.content}
                     </Text>
@@ -197,12 +199,12 @@ export default function AssistantScreen() {
 
                   {/* Source citations for AI messages */}
                   {msg.role === "assistant" && msg.sources && msg.sources.length > 0 && (
-                    <View className="mt-2 ml-1 gap-1">
+                    <View style={styles.sourcesContainer}>
                       {msg.sources.slice(0, 3).map((source, si) => (
-                        <View key={si} className="flex-row items-center gap-1.5">
-                          <Ionicons name="document-text-outline" size={10} color="#A5B4FC" />
-                          <Text className="text-xs text-indigo-400" numberOfLines={1}>
-                            {source.heading || source.file || source.title || "Source"}
+                        <View key={si} style={styles.sourceRow}>
+                          <Ionicons name="document-text-outline" size={10} color={Colors.primary} />
+                          <Text style={styles.sourceText} numberOfLines={1}>
+                            {source.heading || source.file || source.title || t("assistant.source")}
                           </Text>
                         </View>
                       ))}
@@ -213,10 +215,10 @@ export default function AssistantScreen() {
 
               {/* Loading indicator */}
               {isLoading && (
-                <View className="self-start mb-3 max-w-[85%]">
-                  <View className="bg-white border border-gray-100 rounded-2xl rounded-bl-md px-4 py-3 flex-row items-center gap-2">
-                    <ActivityIndicator size="small" color="#6366f1" />
-                    <Text className="text-xs text-gray-400">Thinking...</Text>
+                <View style={[styles.messageBubbleWrapper, styles.assistantBubbleWrapper]}>
+                  <View style={[styles.messageBubble, styles.assistantBubble, styles.thinkingBubble]}>
+                    <ActivityIndicator size="small" color={Colors.primary} />
+                    <Text style={styles.thinkingText}>{t("assistant.thinking")}</Text>
                   </View>
                 </View>
               )}
@@ -225,46 +227,48 @@ export default function AssistantScreen() {
         </ScrollView>
 
         {/* Input bar */}
-        <View className="px-4 pb-4 pt-2 bg-white border-t border-gray-100">
+        <View style={styles.inputBar}>
           {/* Suggested prompt chips (shown when there are messages) */}
           {messages.length > 0 && !isLoading && (
             <ScrollView
               horizontal
               showsHorizontalScrollIndicator={false}
-              className="mb-2"
-              contentContainerStyle={{ gap: 8 }}
+              style={styles.chipScroll}
+              contentContainerStyle={styles.chipContainer}
             >
-              {SUGGESTED_PROMPTS.map((prompt) => (
+              {suggestedPrompts.map((prompt) => (
                 <TouchableOpacity
                   key={prompt}
                   onPress={() => handleSuggestedPrompt(prompt)}
-                  className="bg-indigo-50 px-3 py-1.5 rounded-full"
+                  style={styles.chip}
                 >
-                  <Text className="text-xs text-indigo-600">{prompt}</Text>
+                  <Text numberOfLines={1} style={styles.chipText}>{prompt}</Text>
                 </TouchableOpacity>
               ))}
             </ScrollView>
           )}
 
-          <View className="flex-row items-end gap-2">
+          <View style={styles.inputRow}>
             <TextInput
               value={inputText}
               onChangeText={setInputText}
-              placeholder="Type a message..."
-              placeholderTextColor="#9CA3AF"
+              placeholder={t("assistant.placeholder")}
+              placeholderTextColor={Colors.textMuted}
               multiline
               maxLength={2000}
-              className="flex-1 bg-gray-50 border border-gray-200 rounded-2xl px-4 py-3 text-gray-900 text-sm max-h-[100px]"
+              style={styles.textInput}
               onSubmitEditing={() => sendMessage(inputText)}
               blurOnSubmit={false}
             />
             <TouchableOpacity
               onPress={() => sendMessage(inputText)}
               disabled={!inputText.trim() || isLoading}
-              className="bg-indigo-500 w-11 h-11 rounded-xl items-center justify-center"
-              style={{ opacity: !inputText.trim() || isLoading ? 0.5 : 1 }}
+              style={[
+                styles.sendButton,
+                { opacity: !inputText.trim() || isLoading ? 0.5 : 1 },
+              ]}
             >
-              <Ionicons name="send" size={18} color="white" />
+              <Ionicons name="send" size={18} color="#FFFFFF" />
             </TouchableOpacity>
           </View>
         </View>
@@ -272,3 +276,200 @@ export default function AssistantScreen() {
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.background,
+  },
+  flex: {
+    flex: 1,
+  },
+  header: {
+    paddingHorizontal: 24,
+    paddingTop: 24,
+    paddingBottom: 16,
+    backgroundColor: Colors.surface,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.border,
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: Colors.text,
+  },
+  headerSubtitle: {
+    fontSize: 12,
+    color: Colors.textMuted,
+    marginTop: 4,
+  },
+  scrollContent: {
+    paddingVertical: 16,
+    paddingHorizontal: 16,
+  },
+  loadingContainer: {
+    alignItems: "center",
+    paddingVertical: 48,
+  },
+  loadingText: {
+    color: Colors.textMuted,
+    fontSize: 14,
+    marginTop: 12,
+  },
+  emptyState: {
+    alignItems: "center",
+    paddingVertical: 32,
+  },
+  emptyIcon: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    backgroundColor: Colors.primaryLight,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 16,
+  },
+  emptyTitle: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: Colors.text,
+    marginBottom: 4,
+  },
+  emptySubtitle: {
+    fontSize: 12,
+    color: Colors.textMuted,
+    marginBottom: 24,
+    textAlign: "center",
+    paddingHorizontal: 32,
+  },
+  promptList: {
+    gap: 8,
+    width: "100%",
+    paddingHorizontal: 8,
+  },
+  promptCard: {
+    backgroundColor: Colors.surface,
+    borderWidth: 1,
+    borderColor: Colors.primaryLight,
+    borderRadius: Radius.lg,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+    ...Shadow.soft,
+  },
+  promptText: {
+    fontSize: 14,
+    color: Colors.primary,
+    flex: 1,
+  },
+  messageBubbleWrapper: {
+    marginBottom: 12,
+    maxWidth: "85%",
+  },
+  userBubbleWrapper: {
+    alignSelf: "flex-end",
+  },
+  assistantBubbleWrapper: {
+    alignSelf: "flex-start",
+  },
+  messageBubble: {
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderRadius: Radius.lg,
+  },
+  userBubble: {
+    backgroundColor: Colors.primary,
+    borderBottomRightRadius: Radius.sm,
+  },
+  assistantBubble: {
+    backgroundColor: Colors.surface,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderBottomLeftRadius: Radius.sm,
+    ...Shadow.soft,
+  },
+  messageText: {
+    fontSize: 14,
+    lineHeight: 22,
+  },
+  userMessageText: {
+    color: "#FFFFFF",
+  },
+  assistantMessageText: {
+    color: Colors.text,
+  },
+  sourcesContainer: {
+    marginTop: 8,
+    marginLeft: 4,
+    gap: 4,
+  },
+  sourceRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+  },
+  sourceText: {
+    fontSize: 11,
+    color: Colors.primary,
+  },
+  thinkingBubble: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+  },
+  thinkingText: {
+    fontSize: 12,
+    color: Colors.textMuted,
+  },
+  inputBar: {
+    paddingHorizontal: 16,
+    paddingBottom: 16,
+    paddingTop: 8,
+    backgroundColor: Colors.surface,
+    borderTopWidth: 1,
+    borderTopColor: Colors.border,
+  },
+  chipScroll: {
+    marginBottom: 8,
+  },
+  chipContainer: {
+    gap: 8,
+  },
+  chip: {
+    backgroundColor: Colors.primaryLight,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: Radius.full,
+  },
+  chipText: {
+    fontSize: 12,
+    color: Colors.primary,
+  },
+  inputRow: {
+    flexDirection: "row",
+    alignItems: "flex-end",
+    gap: 8,
+  },
+  textInput: {
+    flex: 1,
+    backgroundColor: Colors.background,
+    borderWidth: 1,
+    borderColor: Colors.borderLight,
+    borderRadius: Radius.lg,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    color: Colors.text,
+    fontSize: 14,
+    maxHeight: 100,
+  },
+  sendButton: {
+    backgroundColor: Colors.primary,
+    width: 44,
+    height: 44,
+    borderRadius: Radius.md,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});

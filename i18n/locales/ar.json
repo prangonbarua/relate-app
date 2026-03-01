@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "قبل التشخيص",
@@ -74,7 +76,13 @@
       "log_skip": "تخطي اليوم"
     },
     "crisis": "هل تحتاج مساعدة الآن؟",
-    "streak": "{{count}} يوم متتالي"
+    "streak": "{{count}} يوم متتالي",
+    "quick_actions": {
+      "resources": "الموارد",
+      "community": "المجتمع",
+      "ask_ai": "اسأل الذكاء الاصطناعي"
+    },
+    "todays_skill": "مهارة اليوم"
   },
   "skills": {
     "title": "مدرسة الرعاية الذاتية",
@@ -87,7 +95,9 @@
       "sleep": "النوم",
       "feeding": "التغذية",
       "selfcare": "الرعاية الذاتية"
-    }
+    },
+    "skill_count": "{{count}} مهارات",
+    "skill_count_one": "{{count}} مهارة"
   },
   "navigator": {
     "title": "المواد",
@@ -97,13 +107,37 @@
       "school": "حقوق المدرسة",
       "state": "خدمات الولاية",
       "crisis": "موارد الأزمات"
-    }
+    },
+    "no_resources": "لا توجد موارد متاحة حتى الآن",
+    "disclaimer": "هذه معلومات عامة فقط. تختلف القوانين حسب الدولة. للحصول على مشورة محددة، استشر أحد المدافعين عن التعليم الخاص أو المحامي."
   },
   "community": {
     "title": "المجتمع",
     "subtitle": "تواصل مع الآباء الذين يفهمون",
     "coming_soon": "قريبًا",
-    "join_waitlist": "انضم لقائمة الانتظار"
+    "join_waitlist": "انضم لقائمة الانتظار",
+    "categories": {
+      "all": "الكل",
+      "general": "عام",
+      "questions": "أسئلة",
+      "tips": "نصائح",
+      "wins": "انتصارات",
+      "vent": "تنفيس"
+    },
+    "new_post": "مشاركة جديدة",
+    "post_button": "مشاركة",
+    "category_label": "الفئة",
+    "title_label": "العنوان",
+    "body_placeholder": "ما الذي يدور في ذهنك؟",
+    "no_posts": "لا توجد مشاركات حتى الآن",
+    "be_first": "كن أول من يشارك شيئًا ما مع المجتمع.",
+    "time": {
+      "just_now": "الآن فقط",
+      "minutes_ago": "منذ {{count}} م",
+      "hours_ago": "{{count}} منذ ساعة",
+      "days_ago": "{{count}} منذ",
+      "weeks_ago": "{{count}}منذ"
+    }
   },
   "crisis": {
     "title": "أنت لست وحدك",
@@ -132,6 +166,82 @@
     "done": "تم",
     "loading": "جار التحميل...",
     "error": "حدث خطأ ما",
-    "retry": "حاول مرة أخرى"
+    "retry": "حاول مرة أخرى",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "go_back": "العودة",
+    "categories": "الفئات",
+    "sources": "مصادر"
+  },
+  "assistant": {
+    "title": "مساعد الذكاء الاصطناعي",
+    "subtitle": "اطرح أسئلة حول مرض التوحد والعلاج وحقوقك",
+    "how_can_i_help": "كيف يمكنني المساعدة؟",
+    "intro": "يمكنني الإجابة على الأسئلة حول مرض التوحد، والعلاجات، والحقوق المدرسية، وأكثر من ذلك.",
+    "placeholder": "اكتب رسالة...",
+    "thinking": "أفكر...",
+    "error": "عذرًا، أواجه مشكلة في الاتصال الآن. الرجاء المحاولة مرة أخرى في لحظة.",
+    "source": "المصدر",
+    "prompt_1": "ما هي العلامات المبكرة للتوحد؟",
+    "prompt_2": "كيف أطلب برنامج IEP؟",
+    "prompt_3": "وأوضح العلاج ABA"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "child_profile": "الملف الشخصي للطفل",
+    "loves": "يحب",
+    "triggers": "المشغلات",
+    "edit_profile": "تحرير الملف الشخصي",
+    "setup_profile": "قم بإعداد ملف تعريف الطفل",
+    "section_app": "التطبيق",
+    "language": "اللغة",
+    "change": "التغيير",
+    "clear_chat": "مسح سجل الدردشة",
+    "section_account": "حساب",
+    "logout": "تسجيل الخروج",
+    "version": "Relate v1.0",
+    "logout_alert_title": "تسجيل الخروج",
+    "logout_alert_message": "سيؤدي هذا إلى إعادة تعيين التطبيق والعودة إلى الإعداد.",
+    "logout_confirm": "تسجيل الخروج",
+    "clear_chat_alert_title": "مسح سجل الدردشة",
+    "clear_chat_alert_message": "سيؤدي هذا إلى حذف جميع محادثات مساعد الذكاء الاصطناعي الخاصة بك.",
+    "clear_chat_confirm": "واضح",
+    "clear_chat_done_title": "تم",
+    "clear_chat_done_message": "سيتم مسح سجل الدردشة عند إعادة التشغيل التالية."
+  },
+  "post": {
+    "title": "مشاركة",
+    "loading": "جارٍ تحميل المشاركة...",
+    "not_found": "لم يتم العثور على آخر",
+    "not_found_detail": "ربما تمت إزالة هذه المشاركة أو أنها غير متوفرة مؤقتًا.",
+    "comments": "التعليقات",
+    "no_comments": "لا توجد تعليقات حتى الآن. ابدأ المحادثة!",
+    "comment_placeholder": "أكتب تعليق...",
+    "comment_count": "{{count}} تعليق",
+    "comment_count_one": "{{count}} تعليق",
+    "delete_title": "حذف المشاركة",
+    "delete_message": "هل أنت متأكد أنك تريد حذف هذه المشاركة؟ لا يمكن التراجع عن هذا.",
+    "delete_comment_title": "حذف التعليق",
+    "delete_comment_message": "هل أنت متأكد أنك تريد حذف هذا التعليق؟"
+  },
+  "resource": {
+    "loading": "جارٍ تحميل المورد...",
+    "not_found": "لم يتم العثور على المورد",
+    "summary": "ملخص",
+    "details": "التفاصيل",
+    "steps": "خطوات",
+    "count": "{{count}} من الموارد",
+    "count_one": "{{count}} مورد",
+    "no_resources": "لا توجد موارد متاحة حتى الآن",
+    "loading_resources": "جارٍ تحميل الموارد..."
+  },
+  "skill": {
+    "loading": "مهارة التحميل...",
+    "not_found": "لم يتم العثور على المهارة",
+    "why_it_matters": "لماذا يهم؟",
+    "steps_to_practice": "خطوات الممارسة",
+    "ages": "الأعمار {{range}}",
+    "no_skills": "لا توجد مهارات متاحة بعد",
+    "loading_skills": "تحميل المهارات..."
   }
 }

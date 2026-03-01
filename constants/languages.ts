@@ -22,6 +22,8 @@ export const LANGUAGES: Language[] = [
   },
   { code: "ko", name: "Korean", nativeName: "한국어", flag: "🇰🇷" },
   { code: "hi", name: "Hindi", nativeName: "हिन्दी", flag: "🇮🇳" },
-  { code: "am", name: "Amharic", nativeName: "አማርኛ", flag: "🇪🇹" },
+  { code: "ht", name: "Haitian Creole", nativeName: "Kreyòl Ayisyen", flag: "🇭🇹" },
   { code: "so", name: "Somali", nativeName: "Soomaali", flag: "🇸🇴" },
+  { code: "ru", name: "Russian", nativeName: "Русский", flag: "🇷🇺" },
+  { code: "bn", name: "Bengali", nativeName: "বাংলা", flag: "🇧🇩" },
 ];

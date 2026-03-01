@@ -76,10 +76,16 @@
       "log_skip": "Skip today"
     },
     "crisis": "Need help now?",
-    "streak": "{{count}} day streak"
+    "streak": "{{count}} day streak",
+    "quick_actions": {
+      "resources": "Resources",
+      "community": "Community",
+      "ask_ai": "Ask AI"
+    },
+    "todays_skill": "Today's Skill"
   },
   "skills": {
-    "title": "Self-Care School",
+    "title": "Teach Skills",
     "subtitle": "Learn skills to support your child every day",
     "coming_soon": "More skills coming soon",
     "categories": {
@@ -89,7 +95,9 @@
       "sleep": "Sleep",
       "feeding": "Feeding",
       "selfcare": "Self-Care"
-    }
+    },
+    "skill_count": "{{count}} skills",
+    "skill_count_one": "{{count}} skill"
   },
   "navigator": {
     "title": "Materials",
@@ -99,13 +107,39 @@
       "school": "School Rights (IEP/504)",
       "state": "State Services",
       "crisis": "Crisis Resources"
-    }
+    },
+    "no_resources": "No resources available yet",
+    "disclaimer": "This is general information only. Laws vary by state. For specific advice, consult a special education advocate or attorney."
   },
   "community": {
     "title": "Community",
     "subtitle": "Connect with parents who understand",
     "coming_soon": "Coming soon",
-    "join_waitlist": "Join waitlist"
+    "join_waitlist": "Join waitlist",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "questions": "Questions",
+      "tips": "Tips",
+      "wins": "Wins",
+      "vent": "Vent"
+    },
+    "new_post": "New Post",
+    "post_button": "Post",
+    "category_label": "Category",
+    "title_label": "Title",
+    "body_placeholder": "What's on your mind?",
+    "no_posts": "No posts yet",
+    "be_first": "Be the first to share something with the community.",
+    "time": {
+      "just_now": "just now",
+      "minutes_ago": "{{count}}m ago",
+      "hours_ago": "{{count}}h ago",
+      "days_ago": "{{count}}d ago",
+      "weeks_ago": "{{count}}w ago",
+      "months_ago": "{{count}}mo ago",
+      "years_ago": "{{count}}y ago"
+    }
   },
   "crisis": {
     "title": "You're not alone",
@@ -134,6 +168,82 @@
     "done": "Done",
     "loading": "Loading...",
     "error": "Something went wrong",
-    "retry": "Try again"
+    "retry": "Try again",
+    "edit": "Edit",
+    "delete": "Delete",
+    "go_back": "Go Back",
+    "categories": "Categories",
+    "sources": "Sources"
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "subtitle": "Ask questions about autism, therapy, and your rights",
+    "how_can_i_help": "How can I help?",
+    "intro": "I can answer questions about autism, therapies, school rights, and more.",
+    "placeholder": "Type a message...",
+    "thinking": "Thinking...",
+    "error": "Sorry, I'm having trouble connecting right now. Please try again in a moment.",
+    "source": "Source",
+    "prompt_1": "What are early signs of autism?",
+    "prompt_2": "How do I request an IEP?",
+    "prompt_3": "ABA therapy explained"
+  },
+  "settings": {
+    "title": "Settings",
+    "child_profile": "Child Profile",
+    "loves": "Loves",
+    "triggers": "Triggers",
+    "edit_profile": "Edit Profile",
+    "setup_profile": "Set Up Child Profile",
+    "section_app": "App",
+    "language": "Language",
+    "change": "Change",
+    "clear_chat": "Clear Chat History",
+    "section_account": "Account",
+    "logout": "Log Out",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Log Out",
+    "logout_alert_message": "This will reset the app and return to onboarding.",
+    "logout_confirm": "Log Out",
+    "clear_chat_alert_title": "Clear Chat History",
+    "clear_chat_alert_message": "This will delete all your AI assistant conversations.",
+    "clear_chat_confirm": "Clear",
+    "clear_chat_done_title": "Done",
+    "clear_chat_done_message": "Chat history will be cleared on next restart."
+  },
+  "post": {
+    "title": "Post",
+    "loading": "Loading post...",
+    "not_found": "Post not found",
+    "not_found_detail": "This post may have been removed or is temporarily unavailable.",
+    "comments": "Comments",
+    "no_comments": "No comments yet. Start the conversation!",
+    "comment_placeholder": "Write a comment...",
+    "comment_count": "{{count}} comments",
+    "comment_count_one": "{{count}} comment",
+    "delete_title": "Delete Post",
+    "delete_message": "Are you sure you want to delete this post? This cannot be undone.",
+    "delete_comment_title": "Delete Comment",
+    "delete_comment_message": "Are you sure you want to delete this comment?"
+  },
+  "resource": {
+    "loading": "Loading resource...",
+    "not_found": "Resource not found",
+    "summary": "Summary",
+    "details": "Details",
+    "steps": "Steps",
+    "count": "{{count}} resources",
+    "count_one": "{{count}} resource",
+    "no_resources": "No resources available yet",
+    "loading_resources": "Loading resources..."
+  },
+  "skill": {
+    "loading": "Loading skill...",
+    "not_found": "Skill not found",
+    "why_it_matters": "Why It Matters",
+    "steps_to_practice": "Steps to Practice",
+    "ages": "Ages {{range}}",
+    "no_skills": "No skills available yet",
+    "loading_skills": "Loading skills..."
   }
 }

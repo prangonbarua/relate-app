@@ -8,6 +8,7 @@ import { loadMaterialFiles } from "./rag";
 import { loadSkills } from "./skills";
 import { seedDatabase } from "./seed";
 
+import { languageMiddleware } from "./middleware/language";
 import authRouter from "./routes/auth";
 import profileRouter from "./routes/profile";
 import chatRouter from "./routes/chat";
@@ -52,6 +53,7 @@ app.use(cors({
   origin: ["http://localhost:8081", "http://localhost:19006", "http://10.0.2.2:8081"],
 }));
 app.use(express.json({ limit: "50kb" }));
+app.use(languageMiddleware);
 app.use(generalLimiter);
 
 // ── Startup initialization ───────────────────────────────────────────────────

@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Platform } from "react-native";
+import { useUserStore } from "./userStore";
 
 // Android emulator uses 10.0.2.2 for localhost, iOS simulator uses localhost
 const getBaseUrl = () => {
@@ -12,36 +13,8 @@ const getBaseUrl = () => {
 
 const BASE_URL = getBaseUrl();
 
-let autoLoginInProgress: Promise<string | null> | null = null;
-
 async function getToken(): Promise<string | null> {
-  const existing = await AsyncStorage.getItem("auth-token");
-  if (existing) return existing;
-
-  // Auto-login with demo account for hackathon demo
-  if (autoLoginInProgress) return autoLoginInProgress;
-
-  autoLoginInProgress = (async () => {
-    try {
-      const res = await fetch(`${BASE_URL}/api/auth/login`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: "maria@demo.com", password: "demo123" }),
-      });
-      if (res.ok) {
-        const data = await res.json();
-        await AsyncStorage.setItem("auth-token", data.token);
-        return data.token as string;
-      }
-    } catch {
-      // Backend not reachable — continue without token
-    }
-    return null;
-  })();
-
-  const token = await autoLoginInProgress;
-  autoLoginInProgress = null;
-  return token;
+  return AsyncStorage.getItem("auth-token");
 }
 
 export async function api<T = any>(
@@ -54,6 +27,11 @@ export async function api<T = any>(
     "Content-Type": "application/json",
     ...(options.headers as Record<string, string>),
   };
+
+  const language = useUserStore.getState().language;
+  if (language) {
+    headers["Accept-Language"] = language;
+  }
 
   if (token) {
     headers["Authorization"] = `Bearer ${token}`;

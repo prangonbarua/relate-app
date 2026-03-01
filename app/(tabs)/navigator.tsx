@@ -34,15 +34,13 @@ interface CategoryConfig {
 const CATEGORY_CONFIG: Record<string, CategoryConfig> = {
   education:           { icon: "school-outline",           color: "#10B981", bg: "#059669", lightBg: "#D1FAE5" },
   stateservices:       { icon: "business-outline",         color: "#F59E0B", bg: "#D97706", lightBg: "#FEF3C7" },
-  insurancefunding:    { icon: "shield-checkmark-outline", color: "#6366f1", bg: "#4F46E5", lightBg: "#EEF2FF" },
+  insurancefunding:    { icon: "shield-checkmark-outline", color: "#7FB4F9", bg: "#5A9AE6", lightBg: "#EBF3FE" },
   therapies:           { icon: "medkit-outline",           color: "#8B5CF6", bg: "#7C3AED", lightBg: "#EDE9FE" },
   immigration:         { icon: "people-outline",           color: "#0EA5E9", bg: "#0284C7", lightBg: "#E0F2FE" },
   federalprograms:     { icon: "flag-outline",             color: "#DC2626", bg: "#DC2626", lightBg: "#FEE2E2" },
   crisissupport:       { icon: "alert-circle-outline",     color: "#EA580C", bg: "#EA580C", lightBg: "#FFF7ED" },
-  skillstoteachathome: { icon: "bulb-outline",             color: "#F97316", bg: "#EA580C", lightBg: "#FFF7ED" },
   legalrights:         { icon: "document-text-outline",    color: "#0D9488", bg: "#0D9488", lightBg: "#CCFBF1" },
   familysupport:       { icon: "heart-outline",            color: "#EC4899", bg: "#DB2777", lightBg: "#FCE7F3" },
-  multilingualresources: { icon: "language-outline",       color: "#6366f1", bg: "#4F46E5", lightBg: "#EEF2FF" },
 };
 
 const DEFAULT_CONFIG: CategoryConfig = {
@@ -138,7 +136,7 @@ export default function NavigatorScreen() {
             <View style={{ alignItems: "center", paddingVertical: 64 }}>
               <Ionicons name="folder-open-outline" size={48} color={Colors.textMuted} />
               <Text style={{ color: Colors.textMuted, fontSize: 13, marginTop: 12 }}>
-                No resources available yet
+                {t("navigator.no_resources")}
               </Text>
             </View>
           ) : (
@@ -184,7 +182,7 @@ export default function NavigatorScreen() {
                       {cat.displayName}
                     </Text>
                     <Text style={{ fontSize: 11, color: Colors.textSecondary }}>
-                      {cat.count} {cat.count === 1 ? "resource" : "resources"}
+                      {t("resource.count", { count: cat.count })}
                     </Text>
                   </View>
                   <View style={{ height: 3, backgroundColor: cat.bg }} />
@@ -208,8 +206,7 @@ export default function NavigatorScreen() {
         >
           <Ionicons name="information-circle-outline" size={18} color="#D97706" />
           <Text style={{ fontSize: 12, color: "#92400E", flex: 1, lineHeight: 20 }}>
-            This is general information only. Laws vary by state. For specific
-            advice, consult a special education advocate or attorney.
+            {t("navigator.disclaimer")}
           </Text>
         </View>
       </ScrollView>

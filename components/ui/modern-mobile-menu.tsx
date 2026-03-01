@@ -96,6 +96,9 @@ const TabItem: React.FC<TabItemProps> = ({
         color={iconColor}
       />
       <Text
+        numberOfLines={1}
+        adjustsFontSizeToFit
+        minimumFontScale={0.8}
         onLayout={handleLayout}
         style={[styles.label, { color: iconColor }]}
       >

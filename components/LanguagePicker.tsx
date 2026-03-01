@@ -63,7 +63,7 @@ export function LanguagePicker({ onSelect }: LanguagePickerProps) {
                   <Text className="text-sm text-gray-500">{item.name}</Text>
                 </View>
                 {currentCode === item.code && (
-                  <Ionicons name="checkmark-circle" size={20} color="#6366f1" />
+                  <Ionicons name="checkmark-circle" size={20} color="#7FB4F9" />
                 )}
               </TouchableOpacity>
             )}

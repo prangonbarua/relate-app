@@ -9,6 +9,7 @@ import {
 import { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { router, useLocalSearchParams } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
@@ -45,9 +46,9 @@ const CATEGORY_STYLES: Record<string, CategoryStyle> = {
   },
   insurancefunding: {
     icon: "shield-checkmark-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
+    color: "#5A9AE6",
+    bg: "#5A9AE6",
+    lightBg: "#EBF3FE",
   },
   therapies: {
     icon: "medkit-outline",
@@ -106,6 +107,7 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
 }
 
 export default function ResourceDetailScreen() {
+  const { t } = useTranslation();
   const { id } = useLocalSearchParams<{ id: string }>();
   const resourceId = id ?? "";
 
@@ -159,7 +161,7 @@ export default function ResourceDetailScreen() {
             marginTop: 12,
           }}
         >
-          Loading resource...
+          {t("resource.loading")}
         </Text>
       </SafeAreaView>
     );
@@ -185,7 +187,7 @@ export default function ResourceDetailScreen() {
             textAlign: "center",
           }}
         >
-          Resource not found
+          {t("resource.not_found")}
         </Text>
         <TouchableOpacity onPress={() => router.back()} style={{ marginTop: 16 }}>
           <Text
@@ -194,7 +196,7 @@ export default function ResourceDetailScreen() {
               fontWeight: "600",
             }}
           >
-            Go Back
+            {t("common.go_back")}
           </Text>
         </TouchableOpacity>
       </SafeAreaView>
@@ -225,7 +227,7 @@ export default function ResourceDetailScreen() {
           >
             <Ionicons name="arrow-back" size={22} color={style.color} />
             <Text style={{ fontSize: 14, marginLeft: 4, color: style.color }}>
-              Back
+              {t("common.back")}
             </Text>
           </TouchableOpacity>
 
@@ -296,7 +298,7 @@ export default function ResourceDetailScreen() {
                 color: style.color,
               }}
             >
-              Summary
+              {t("resource.summary")}
             </Text>
           </View>
           <View
@@ -349,7 +351,7 @@ export default function ResourceDetailScreen() {
                   color: style.color,
                 }}
               >
-                Details
+                {t("resource.details")}
               </Text>
             </View>
             <View
@@ -399,7 +401,7 @@ export default function ResourceDetailScreen() {
                   color: style.color,
                 }}
               >
-                Steps
+                {t("resource.steps")}
               </Text>
             </View>
 
@@ -485,7 +487,7 @@ export default function ResourceDetailScreen() {
                   color: style.color,
                 }}
               >
-                Sources
+                {t("common.sources")}
               </Text>
             </View>
             <View

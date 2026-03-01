@@ -7,10 +7,11 @@ export interface MdChunk {
   heading: string;
   content: string; // capped at 2000 chars
   keywords: string[];
+  headingKeywords: string[]; // keywords from heading only, for relevance gating
 }
 
 // ── Module state ─────────────────────────────────────────────────────────────
-let chunks: MdChunk[] = [];
+const chunksByLang = new Map<string, MdChunk[]>();
 
 const STOPWORDS = new Set([
   "the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "for",
@@ -38,15 +39,21 @@ export function extractKeywords(text: string): string[] {
 }
 
 // ── loadMaterialFiles ────────────────────────────────────────────────────────
-export function loadMaterialFiles(): void {
-  const materialsDir = path.join(__dirname, "..", "..", "materials");
+export function loadMaterialFiles(language: string = "en"): void {
+  const baseDir = path.join(__dirname, "..", "..", "materials");
+  const materialsDir = language === "en"
+    ? baseDir
+    : path.join(baseDir, "locales", language);
 
   if (!fs.existsSync(materialsDir)) {
-    console.warn(`Materials directory not found at ${materialsDir} — RAG will have no knowledge base.`);
+    if (language === "en") {
+      console.warn(`Materials directory not found at ${materialsDir} — RAG will have no knowledge base.`);
+    }
     return;
   }
 
   const files = fs.readdirSync(materialsDir).filter((f) => f.endsWith(".md"));
+  const chunks: MdChunk[] = [];
 
   for (const file of files) {
     const filePath = path.join(materialsDir, file);
@@ -67,45 +74,72 @@ export function loadMaterialFiles(): void {
       if (!body) continue;
 
       const cappedContent = body.length > 2000 ? body.slice(0, 2000) : body;
-      const keywords = extractKeywords(heading + " " + cappedContent);
 
       chunks.push({
         file,
         heading,
         content: cappedContent,
-        keywords,
+        keywords: extractKeywords(heading + " " + cappedContent),
+        headingKeywords: extractKeywords(heading),
       });
     }
   }
 
-  console.log(`RAG: Loaded ${chunks.length} chunks from ${files.length} files`);
+  chunksByLang.set(language, chunks);
+  console.log(`RAG: Loaded ${chunks.length} chunks from ${files.length} files for language "${language}"`);
+}
+
+// ── getChunks ───────────────────────────────────────────────────────────────
+function getChunks(language: string): MdChunk[] {
+  if (!chunksByLang.has(language)) {
+    loadMaterialFiles(language);
+  }
+  return chunksByLang.get(language) ?? chunksByLang.get("en") ?? [];
 }
 
 // ── searchKnowledge ──────────────────────────────────────────────────────────
-export function searchKnowledge(query: string, topK: number = 5): MdChunk[] {
+export function searchKnowledge(query: string, topK: number = 5, language: string = "en"): MdChunk[] {
   const queryKeywords = extractKeywords(query);
+  const chunks = getChunks(language);
 
   if (queryKeywords.length === 0 || chunks.length === 0) {
-    return chunks.slice(0, topK);
+    return [];
   }
 
   const scored = chunks.map((chunk) => {
-    let score = 0;
+    let totalScore = 0;
+    let headingScore = 0;
 
     for (const qk of queryKeywords) {
+      // Score against all keywords (heading + body)
       for (const ck of chunk.keywords) {
         if (ck === qk) {
-          score += 3; // exact match
+          totalScore += 3;
         } else if (ck.includes(qk) || qk.includes(ck)) {
-          score += 1; // partial match
+          totalScore += 1;
+        }
+      }
+      // Score against heading keywords only
+      for (const hk of chunk.headingKeywords) {
+        if (hk === qk) {
+          headingScore += 3;
+        } else if (hk.includes(qk) || qk.includes(hk)) {
+          headingScore += 1;
         }
       }
     }
 
-    return { chunk, score };
+    return { chunk, totalScore, headingScore };
   });
 
-  scored.sort((a, b) => b.score - a.score);
+  scored.sort((a, b) => b.totalScore - a.totalScore);
 
-  return scored.slice(0, topK).map((s) => s.chunk);
+  // A chunk qualifies only if its heading is relevant (headingScore >= 3) AND
+  // the full content also scores well (totalScore >= 9). This prevents a
+  // single generic word in a heading (e.g. "need") from matching an
+  // unrelated document.
+  return scored
+    .filter((s) => s.headingScore >= 3 && s.totalScore >= 9)
+    .slice(0, topK)
+    .map((s) => s.chunk);
 }

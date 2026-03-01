@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "Edukasyon",
+    "title": "Individualized Education Program (IEP)",
+    "summary": "Isang legal na may bisang dokumento na nagbabalangkas sa mga serbisyo at layunin ng espesyal na edukasyon ng iyong anak.",
+    "details": "Ang isang IEP ay binuo ng isang pangkat na kinabibilangan ng mga magulang, guro, at mga espesyalista. Sa ilalim ng IDEA (Individuals with Disabilities Education Act), ang iyong anak ay may karapatan sa isang Free Appropriate Public Education (FAPE) sa Least Restrictive Environment (LRE). May karapatan kang lumahok sa bawat pagpupulong ng IEP at hindi sumang-ayon sa mga rekomendasyon ng paaralan. Ang mga IEP ay sinusuri nang hindi bababa sa taun-taon ngunit maaari kang humiling ng pagpupulong anumang oras.",
+    "steps": [
+      "Humiling ng pagsusuri nang nakasulat sa departamento ng espesyal na edukasyon ng iyong distrito ng paaralan.",
+      "Ang paaralan ay may 60 araw upang kumpletuhin ang pagsusuri pagkatapos mong magbigay ng pahintulot.",
+      "Dumalo sa pulong ng IEP — magdala ng sarili mong mga tala, obserbasyon, at anumang pribadong pagsusuri.",
+      "Suriing mabuti ang mga iminungkahing layunin. Maaari kang makipag-ayos at humiling ng mga pagbabago bago pumirma.",
+      "Subaybayan ang pag-unlad sa mga layunin ng IEP sa buong taon at humiling ng data mula sa paaralan.",
+      "Kung hindi ka sumasang-ayon, maaari kang maghain para sa pamamagitan o isang angkop na proseso ng pagdinig nang walang bayad sa iyo."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "Serbisyo ng Estado",
+    "title": "Mga Serbisyo ng Regional Center (California)",
+    "summary": "Libreng panghabambuhay na serbisyo para sa mga taga-California na may mga kapansanan sa pag-unlad, kabilang ang autism.",
+    "details": "Ang 21 Regional Centers ng California ay nagbibigay ng pagtatasa, pagsusuri, at mga serbisyo para sa mga indibidwal na may kapansanan sa pag-unlad anuman ang kita o katayuan sa imigrasyon. Maaaring kabilang sa mga serbisyo ang Applied Behavior Analysis (ABA), respite care, speech therapy, occupational therapy, social skills group, at suporta sa pamilya. Ang mga serbisyo ng Regional Center ay isang karapatan — kung ang iyong anak ay kwalipikado, hindi sila maaaring tanggihan ng mga serbisyo dahil sa pagpopondo.",
+    "steps": [
+      "Makipag-ugnayan sa iyong lokal na Regional Center at humiling ng appointment sa pagkuha.",
+      "Magdala ng anumang mga kasalukuyang pagsusuri, mga medikal na rekord, at mga dokumento ng paaralan.",
+      "Ang iyong anak ay tatasahin — ang prosesong ito ay maaaring tumagal ng hanggang 120 araw.",
+      "Kung karapat-dapat, makikipagtulungan ka sa isang Service Coordinator upang bumuo ng isang Individual Program Plan (IPP).",
+      "Humiling ng mga partikular na serbisyong kailangan mo — ABA, pahinga, speech therapy, atbp.",
+      "Suriin ang iyong IPP taun-taon at humiling ng mga pagbabago habang nagbabago ang mga pangangailangan ng iyong anak."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "Serbisyo ng Estado",
+    "title": "Maagang Pagsisimula ng Programa (Edad 0-3)",
+    "summary": "Ang programa ng maagang interbensyon ng California para sa mga sanggol at maliliit na bata na may mga pagkaantala sa pag-unlad.",
+    "details": "Ang programang Maagang Pagsisimula ay nagsisilbi sa mga bata mula sa kapanganakan hanggang sa edad na 3 na may pagkaantala sa pag-unlad o isang naitatag na kondisyon sa peligro. Ang mga serbisyo ay ibinibigay sa mga natural na kapaligiran (iyong tahanan, daycare, parke) at libre anuman ang kita. Ang maagang interbensyon sa panahon ng kritikal na panahon na ito ay maaaring makabuluhang mapabuti ang mga resulta. Pagkatapos ng edad na 3, lumipat ang mga bata sa mga serbisyo ng distrito ng paaralan sa pamamagitan ng proseso ng IEP.",
+    "steps": [
+      "Tawagan ang iyong lokal na Regional Center o distrito ng paaralan para i-refer ang iyong anak.",
+      "Ang isang pagsusuri ay iiskedyul sa loob ng 45 araw pagkatapos ng referral.",
+      "Kung karapat-dapat, ang isang Individualized Family Service Plan (IFSP) ay bubuo sa loob ng 45 araw ng pagiging kwalipikado.",
+      "Magsisimula ang mga serbisyo sa lalong madaling panahon pagkatapos malagdaan ang IFSP.",
+      "Sa edad na 2.5, magsisimula ang proseso ng pagpaplano ng paglipat sa mga serbisyo sa preschool.",
+      "Maaari mong ipagpatuloy ang mga serbisyo ng Regional Center pagkatapos ng edad na 3 sa pamamagitan ng isang hiwalay na proseso ng pagiging kwalipikado."
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "Insurance at Pagpopondo",
+    "title": "Insurance Coverage para sa Autism Services",
+    "summary": "Pag-unawa sa iyong mga karapatan sa mga therapy sa autism na sakop ng insurance at kung paano mag-apela ng mga pagtanggi.",
+    "details": "Karamihan sa mga estado ay may mga mandato ng seguro sa autism na nangangailangan ng saklaw para sa mga serbisyong nauugnay sa autism. Sa California, ang SB 946 ay nangangailangan ng mga planong pangkalusugan upang masakop ang paggamot sa kalusugan ng pag-uugali (kabilang ang ABA) para sa autism. Ang mga pederal na batas sa parity ng kalusugan ng isip ay nangangailangan din ng pantay na saklaw para sa kalusugan ng isip at mga kondisyong medikal. Kung tinanggihan ng iyong insurance ang saklaw, may karapatan kang mag-apela sa loob at labas. Ang California Department of Managed Health Care (DMHC) ay maaaring tumulong sa mga panlabas na apela.",
+    "steps": [
+      "Humiling ng kopya ng mga benepisyo ng iyong plano para sa autism at mga serbisyo sa kalusugan ng pag-uugali.",
+      "Kumuha ng nakasulat na referral mula sa doktor ng iyong anak na tumutukoy sa inirerekomendang paggamot.",
+      "Magsumite ng kahilingan sa pre-authorization sa iyong kompanya ng seguro.",
+      "Kung tinanggihan, hilingin ang pagtanggi nang nakasulat na may partikular na dahilan at pagsipi sa patakaran.",
+      "Maghain ng panloob na apela na may sulat ng medikal na pangangailangan mula sa iyong doktor.",
+      "Kung nabigo ang panloob na apela, maghain ng reklamo sa regulator ng seguro ng iyong estado (DMHC sa CA)."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "Edukasyon",
+    "title": "504 Planong Akomodasyon",
+    "summary": "Isang plano para sa mga kaluwagan sa silid-aralan na hindi nangangailangan ng pagiging karapat-dapat sa espesyal na edukasyon.",
+    "details": "Ang isang 504 Plan ay batay sa Seksyon 504 ng Rehabilitation Act at nagbibigay ng mga kaluwagan upang matiyak ang pantay na pag-access sa edukasyon. Hindi tulad ng isang IEP, ang isang 504 Plan ay hindi nangangailangan ng klasipikasyon ng espesyal na edukasyon — sinasaklaw nito ang sinumang batang may kapansanan na lubos na naglilimita sa isang pangunahing aktibidad sa buhay (kabilang ang pag-aaral at pakikipag-ugnayan sa lipunan). Kasama sa mga karaniwang kaluwagan ang mas pinipiling upuan, pinahabang oras sa mga pagsusulit, mga sensory break, at mga visual na iskedyul.",
+    "steps": [
+      "Sumulat ng liham sa iyong paaralan na humihiling ng 504 na pagsusuri, na binabanggit ang diagnosis ng iyong anak o pinaghihinalaang kapansanan.",
+      "Magbigay ng dokumentasyon: mga medikal na rekord, mga pagsusuri, mga obserbasyon ng guro.",
+      "Dumalo sa 504 na pagpupulong kasama ang pangkat ng paaralan upang talakayin ang mga akomodasyon.",
+      "Suriin ang mga iminungkahing akomodasyon at magmungkahi ng mga karagdagan batay sa mga pangangailangan ng iyong anak.",
+      "Ang plano ay dapat na suriin taun-taon — humiling ng isang pulong kung ang mga akomodasyon ay hindi ipinapatupad.",
+      "Kung tumanggi ang paaralan na suriin o magbigay ng 504, maaari kang magsampa ng reklamo sa Office for Civil Rights (OCR)."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "Mga therapy",
+    "title": "Speech and Language Therapy",
+    "summary": "Paano ma-access ang mga serbisyo ng speech therapy at kung ano ang aasahan mula sa paggamot.",
+    "details": "Ang mga Speech-Language Pathologist (SLPs) ay gumagawa ng higit pa sa pagsasalita — tinutugunan nila ang lahat ng aspeto ng komunikasyon kabilang ang pag-unawa sa wika, paggamit ng mga salita, komunikasyong panlipunan, at maging ang mga isyu sa pagpapakain/paglunok. Para sa mga batang autistic, madalas na gumagana ang mga SLP sa functional na komunikasyon (ang kakayahang magpahayag ng mga gusto at pangangailangan), pragmatic na wika (sosyal na paggamit ng wika), at augmentative at alternatibong komunikasyon (AAC) na mga device. Lubos na sinusuportahan ng pananaliksik ang pagpapanatili ng wikang tahanan sa mga bilingual na pamilya — hindi naaantala ng bilingualism ang pagbuo ng wika sa mga batang autistic.",
+    "steps": [
+      "Hilingin sa iyong pedyatrisyan ang isang referral sa isang speech-language pathologist na nakaranas ng autism.",
+      "Suriin ang maraming access point: insurance, Regional Center, school district (IEP), at mga klinika sa unibersidad (kadalasang mas mababang gastos).",
+      "Maghanap ng isang SLP na may karanasan sa AAC kung ang iyong anak ay minimally verbal — hindi lahat ng SLP ay dalubhasa dito.",
+      "Magtanong tungkol sa mga modelo ng pagtuturo ng magulang kung saan sinasanay ka ng SLP na suportahan ang komunikasyon sa buong araw.",
+      "Humiling ng masusukat na mga layunin at regular na ulat ng pag-unlad.",
+      "Kung bilingual ang iyong anak, humanap ng SLP na sumusuporta sa pagpapanatili ng home language o humiling ng interpreter."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "Mga therapy",
+    "title": "ABA Therapy: Ano ang Dapat Malaman",
+    "summary": "Pag-unawa sa Applied Behavior Analysis therapy — mga benepisyo, alalahanin, at kung paano maghanap ng mga provider na may kalidad.",
+    "details": "Ang Applied Behavior Analysis (ABA) ay ang pinakakaraniwang inirerekomenda at sinaliksik na therapy para sa autism. Ang modernong ABA ay nagbago nang malaki mula sa mga pinanggalingan nito at ngayon ay binibigyang-diin ang play-based, naturalistic approach na sumusunod sa mga interes ng bata. Gayunpaman, ang kalidad ay nag-iiba-iba sa pagitan ng mga provider. Ang magandang ABA ay mukhang masaya, nakakaengganyo na mga aktibidad — hindi mga drills sa isang table. Kasama sa mga pulang bandila ang pagbabalewala sa pagkabalisa ng bata, paggamit ng kawalan ng pagkain bilang pagganyak, o pagtutok lamang sa pagsunod. May karapatan kang mag-obserba ng mga session at dapat maging komportable sa paggamot ng iyong anak.",
+    "steps": [
+      "Magsaliksik nang mabuti sa mga provider — magtanong tungkol sa kanilang diskarte (naturalistic vs discrete trial) at mga ratio ng pangangasiwa.",
+      "Hilingin na obserbahan ang mga sesyon bago gumawa, at pana-panahon pagkatapos magsimula.",
+      "Tiyakin na ang programa ay pinangangasiwaan ng isang Board Certified Behavior Analyst (BCBA) na regular na nakikita ang iyong anak.",
+      "Pag-usapan ang mga layunin nang magkasama — unahin ang mga kasanayan sa pagganap at komunikasyon kaysa sa mga layuning nakabatay sa pagsunod.",
+      "Subaybayan ang emosyonal na kagalingan ng iyong anak — ang therapy ay hindi dapat magdulot ng pagkabalisa, pagkabalisa, o pag-iwas.",
+      "Mag-explore ng mga alternatibo o pandagdag: speech therapy, occupational therapy, developmental approach tulad ng DIR/Floortime."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "Immigration",
+    "title": "Mga Karapatan para sa Mga Pamilyang Walang Dokumento",
+    "summary": "Available ang mga serbisyo sa kapansanan anuman ang katayuan ng imigrasyon, at kung paano ma-access ang mga ito nang ligtas.",
+    "details": "Maraming kritikal na serbisyo para sa mga batang may autism ang magagamit anuman ang katayuan sa imigrasyon. Dapat turuan ng mga paaralan ang lahat ng bata (Plyler v. Doe), hindi maaaring magtanong ang mga Regional Center tungkol sa katayuan sa imigrasyon, at sinasaklaw ng Medi-Cal ang mga bata anuman ang katayuan sa pamamagitan ng mga programa tulad ng Medi-Cal for Children. Ang mga paaralan at tagapagbigay ng pangangalagang pangkalusugan na tumatanggap ng pederal na pagpopondo ay hindi maaaring magbahagi ng impormasyon sa pagpapatupad ng imigrasyon. May karapatan kang magdala ng tagapagtaguyod o interpreter sa anumang pagpupulong.",
+    "steps": [
+      "Makipag-ugnayan sa iyong lokal na Regional Center — ipinagbabawal silang magtanong tungkol sa katayuan sa imigrasyon.",
+      "Ipatala ang iyong anak sa paaralan — lahat ng bata ay may karapatan sa pampublikong edukasyon anuman ang katayuan.",
+      "Mag-apply para sa Medi-Cal para sa iyong anak sa pamamagitan ng opisina ng mga serbisyong panlipunan ng iyong county.",
+      "Humiling ng interpreter para sa lahat ng pagpupulong — ito ang iyong legal na karapatan.",
+      "Alamin ang iyong mga karapatan: hindi mo kailangang buksan ang iyong pinto sa ICE nang walang judicial warrant na pinirmahan ng isang hukom.",
+      "Kumonekta sa mga lokal na organisasyon ng mga karapatan ng imigrante para sa suporta sa mga serbisyo sa pag-navigate — marami ang nag-aalok ng mga libreng legal na klinika."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "Mga Pederal na Programa",
+    "title": "IDEA Part C — Maagang Pamamagitan (Kapanganakan hanggang Edad 3)",
+    "summary": "Libreng mga serbisyo ng pederal na maagang interbensyon para sa mga sanggol at maliliit na bata na may mga pagkaantala sa pag-unlad, kabilang ang autism.",
+    "details": "Ang Bahagi C ng Individuals with Disabilities Education Act (IDEA) ay isang federal grant program na tumutulong sa mga estado na magpatakbo ng komprehensibong mga serbisyo ng maagang interbensyon para sa mga sanggol at maliliit na bata (kapanganakan hanggang edad 2) na may mga kapansanan at kanilang mga pamilya. Kasama sa mga serbisyo ang speech therapy, occupational therapy, physical therapy, behavioral support, pantulong na teknolohiya, at pagsasanay sa pamilya. Ang bawat bata ay tumatanggap ng Individualized Family Service Plan (IFSP). Ang mga serbisyo ay ibinibigay sa mga natural na kapaligiran gaya ng tahanan o daycare. Palaging libre ang mga pagsusuri, at ibinibigay ang mga serbisyo nang walang bayad o mababang halaga depende sa iyong estado. MAHALAGA: Ang mga serbisyo ay magagamit sa LAHAT ng mga bata anuman ang katayuan sa imigrasyon.",
+    "steps": [
+      "Makipag-ugnayan sa programa ng maagang interbensyon ng Part C ng iyong estado — hanapin ang iyong coordinator ng estado sa ectacenter.org/contact/ptccoord.asp.",
+      "Humiling ng libreng pagsusuri sa pag-unlad para sa iyong anak — dapat itong kumpletuhin ng programa sa loob ng 45 araw.",
+      "Kung karapat-dapat, lumahok sa pagbuo ng Individualized Family Service Plan (IFSP) ng iyong anak kasama ng koponan.",
+      "Magsisimula ang mga serbisyo sa lalong madaling panahon pagkatapos mong lagdaan ang IFSP — magtanong tungkol sa pagsasalita, OT, PT, at suporta sa pag-uugali.",
+      "Suriin ang IFSP tuwing 6 na buwan at humiling ng mga pagbabago sa tuwing magbabago ang mga pangangailangan ng iyong anak.",
+      "Sa edad na 2.5, simulan ang pagpaplano ng paglipat sa Part B na mga serbisyo sa preschool (edad 3-21) sa pamamagitan ng iyong distrito ng paaralan."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "Mga Pederal na Programa",
+    "title": "IDEA Part B — Espesyal na Edukasyon (Edad 3-21)",
+    "summary": "Libreng espesyal na edukasyon at mga kaugnay na serbisyo para sa mga bata at kabataang may autism sa pamamagitan ng sistema ng pampublikong paaralan.",
+    "details": "Ang Bahagi B ng IDEA ay ginagarantiyahan ang lahat ng mga batang may kapansanan, kabilang ang autism, ang karapatan sa isang Libreng Angkop na Pampublikong Edukasyon (FAPE) sa Least Restrictive Environment (LRE). Ang autism ay isa sa 14 na kwalipikadong kategorya ng kapansanan. Ang iyong anak ay may karapatan sa isang Individualized Education Program (IEP) na nagbabalangkas ng mga partikular na layunin, serbisyo, at akomodasyon. Maaaring kabilang sa mga nauugnay na serbisyo ang speech therapy, occupational therapy, social skills training, behavioral support, at transportasyon. Sinasaklaw ng Seksyon 619 ang mga gawad sa preschool para sa mga batang edad 3-5. Ang lahat ng mga serbisyo ay ganap na libre. HINDI MAAARI magtanong ang mga paaralan tungkol sa katayuan sa imigrasyon sa ilalim ng desisyon ng Korte Suprema noong 1982 Plyler v. Doe.",
+    "steps": [
+      "Magsumite ng nakasulat na kahilingan para sa pagsusuri ng espesyal na edukasyon sa distrito ng paaralan ng iyong anak.",
+      "Dapat kumpletuhin ng paaralan ang pagsusuri sa loob ng 60 araw pagkatapos matanggap ang iyong nakasulat na pahintulot.",
+      "Dumalo sa pagpupulong ng IEP — ikaw ay pantay na miyembro ng pangkat at maaaring magdala ng tagapagtaguyod o interpreter.",
+      "Suriing mabuti ang mga iminungkahing layunin at serbisyo — makipag-ayos ng mga pagbabago at huwag pumirma hangga't hindi ka sumasang-ayon.",
+      "Subaybayan ang pag-unlad ng layunin ng IEP sa buong taon at humiling ng mga ulat ng data mula sa paaralan.",
+      "Kung hindi ka sumasang-ayon sa paaralan, humiling ng pamamagitan o file para sa isang angkop na proseso ng pagdinig nang walang bayad sa iyo."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "Mga Pederal na Programa",
+    "title": "Medicaid Waivers para sa Autism (ayon sa Estado)",
+    "summary": "Mga waiver sa Home and Community-Based Services (HCBS) na nagpopondo sa mga autism therapy, pangangalaga sa pahinga, at mga serbisyo ng suporta sa pamamagitan ng Medicaid.",
+    "details": "Ang mga waiver ng Medicaid Home and Community-Based Services (HCBS) ay nagpapahintulot sa mga estado na magbigay ng mga serbisyo sa mga taong may mga kapansanan (kabilang ang autism) sa kanilang mga tahanan at komunidad sa halip na sa mga institusyon. Ang mga waiver na ito ay malaki ang pagkakaiba-iba ayon sa estado ngunit karaniwang sumasaklaw sa ABA therapy, respite care, speech therapy, occupational therapy, personal na pangangalaga, suportadong trabaho, day habilitation, at pagsasanay sa pamilya. Ang ilang mga estado ay may mga waiver na partikular sa autism (tulad ng Autism Waiver ng Maryland), habang ang iba ay kinabibilangan ng autism sa ilalim ng mas malawak na mga waiver sa kapansanan sa pag-unlad. Maaaring mahaba ang mga listahan ng paghihintay — minsan taon — kaya mag-apply nang maaga hangga't maaari. Ang pagiging kwalipikado ay karaniwang nakabatay sa antas ng kapansanan ng bata, hindi sa kita ng pamilya.",
+    "steps": [
+      "Makipag-ugnayan sa opisina ng Medicaid ng iyong estado o ahensya ng mga kapansanan sa pag-unlad upang malaman kung aling mga waiver ang nagsisilbi sa mga batang may autism.",
+      "Mag-apply para sa lahat ng waiver na maaaring kuwalipikado ng iyong anak — maaari kang nasa maraming listahan ng paghihintay nang sabay-sabay.",
+      "Magtipon ng dokumentasyon: diagnosis ng autism, mga medikal na rekord, mga pagsusuri sa paaralan, at mga pagtatasa sa pagganap.",
+      "Kung inilagay sa listahan ng paghihintay, magtanong tungkol sa iyong posisyon at tinantyang oras ng paghihintay — regular na mag-follow up tuwing 3-6 na buwan.",
+      "Kapag naaprubahan na, makipagtulungan sa iyong service coordinator upang bumuo ng planong nakasentro sa tao na naglilista ng lahat ng kinakailangang serbisyo.",
+      "Suriin ang iyong plano taun-taon at humiling ng mga karagdagang serbisyo habang nagbabago ang mga pangangailangan ng iyong anak — may karapatan kang umapela sa anumang pagtanggi."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "Mga Pederal na Programa",
+    "title": "Mga Benepisyo ng SSI para sa mga Batang may Autism",
+    "summary": "Buwanang tulong na pera mula sa Social Security para sa mga pamilyang mababa ang kita na may mga anak na may malaking kapansanan na nauugnay sa autism.",
+    "details": "Ang Supplemental Security Income (SSI) ay nagbibigay ng buwanang cash na benepisyo sa mga batang may kapansanan na ang mga pamilya ay may limitadong kita at mga mapagkukunan. Ang rate ng benepisyo ng pederal ay humigit-kumulang $967 bawat buwan (2025), at maraming estado ang nagdaragdag ng karagdagang halaga. Ang Autism ay nakalista sa Blue Book ng Social Security Administration sa ilalim ng Seksyon 112.10 para sa mga bata. Upang maging kwalipikado, ang iyong anak ay dapat magkaroon ng medikal na dokumentasyon ng mga kakulangan sa verbal at nonverbal na komunikasyon, pakikipag-ugnayan sa lipunan, at pinaghihigpitan/paulit-ulit na mga pattern ng pag-uugali na makabuluhang naglilimita sa paggana. Ang mga batang tumatanggap ng SSI ay maaari ding awtomatikong maging kwalipikado para sa Medicaid sa maraming estado, na nagbibigay ng access sa mga serbisyo ng therapy. Tandaan: Tanging SSI (hindi SSDI) ang available para sa mga bata.",
+    "steps": [
+      "Mag-iskedyul ng appointment sa iyong lokal na tanggapan ng Social Security Administration (SSA) — hindi makukumpleto online ang mga aplikasyon ng SSI ng mga bata.",
+      "Ipunin ang mga kinakailangang dokumento: sertipiko ng kapanganakan ng bata, numero ng Social Security, mga rekord ng medikal, mga pagsusuri sa paaralan, at mga rekord ng pananalapi ng pamilya (kita, mga bank statement, iba pang mga benepisyo).",
+      "Kumpletuhin ang SSI application at ang Child Disability Report na nagdedetalye kung paano nakakaapekto ang autism sa pang-araw-araw na paggana ng iyong anak.",
+      "Makipagtulungan sa anumang karagdagang mga pagsusuri na maaaring hilingin ng SSA — libre ang mga ito at makakatulong na matukoy ang pagiging karapat-dapat.",
+      "Kung tinanggihan, maghain ng apela sa loob ng 60 araw — maraming claim ang naaprubahan sa apela. Isaalang-alang ang pakikipag-ugnayan sa isang abugado ng may kapansanan (marami ang nagtatrabaho sa contingency).",
+      "Kung naaprubahan, iulat ang anumang pagbabago sa kita, sitwasyon sa pamumuhay, o kondisyon ng iyong anak sa SSA upang mapanatili ang mga benepisyo."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "Mga Pederal na Programa",
+    "title": "Saklaw ng TRICARE Autism (Mga Pamilyang Militar)",
+    "summary": "Mga komprehensibong serbisyo ng autism para sa mga pamilyang militar kabilang ang ABA therapy sa pamamagitan ng Pagpapakita ng Autism Care ng TRICARE.",
+    "details": "Sinasaklaw ng TRICARE ang Applied Behavior Analysis at iba pang serbisyo ng autism para sa lahat ng benepisyaryo ng TRICARE sa pamamagitan ng Autism Care Demonstration (ACD), na tatakbo hanggang Disyembre 31, 2028. Ang iyong anak ay tumatanggap ng 6 na buwang awtorisasyon para sa mga serbisyo ng ABA, at ang isang bagong referral mula sa iyong ASD diagnosing provider ay kinakailangan bawat dalawang taon. Ang bawat bata sa ACD ay nakatalaga ng Autism Services Navigator (ASN) na tumutulong sa pag-uugnay ng pangangalaga sa pagitan ng speech therapy, ABA, at iyong pediatrician. Sinasaklaw din ng TRICARE ang speech therapy, occupational therapy, at iba pang medikal na kinakailangang paggamot para sa autism. Noong Setyembre 2025, inirerekomenda ng National Academy of Sciences na gawing permanenteng pangunahing benepisyo ng TRICARE ang ABA sa halip na isang demonstration program. Ang mga serbisyo ng ABA ay nangangailangan ng mga lokasyon na may mga board-certified na behavior analyst.",
+    "steps": [
+      "Kumuha ng diagnosis ng autism para sa iyong anak mula sa isang awtorisadong provider ng TRICARE (developmental pediatrician, psychologist, o psychiatrist).",
+      "Kumuha ng referral mula sa provider ng pag-diagnose ng iyong anak na partikular para sa ABA at anumang iba pang serbisyong nauugnay sa autism.",
+      "Makipag-ugnayan sa iyong nakatalagang Autism Services Navigator (ASN) — tutulungan ka nilang i-coordinate at i-access ang lahat ng available na serbisyo.",
+      "Maghanap ng TRICARE-authorized ABA providers sa iyong lugar sa pamamagitan ng TRICARE provider directory sa tricare.mil.",
+      "Tiyakin na ang awtorisasyon ng iyong anak ay na-renew bawat 6 na buwan at ang referral ay ina-update bawat 2 taon.",
+      "Kung nahaharap ka sa mga isyu sa pagtanggi o pag-access, makipag-ugnayan sa TRICARE Beneficiary Counseling and Assistance Coordinator (BCAC) para sa tulong sa mga apela."
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "Mga therapy",
+    "title": "Applied Behavior Analysis (ABA)",
+    "summary": "Ang pinaka sinaliksik na autism therapy — ay gumagamit ng positibong pampalakas upang bumuo ng mga kasanayan at bawasan ang mga mapaghamong gawi.",
+    "details": "Ang Applied Behavior Analysis ay itinuturing na batay sa ebidensya na pinakamahusay na kasanayan sa paggamot ng US Surgeon General at ng American Psychological Association. Hinahati ng ABA ang mga bagong kasanayan sa maliliit, mapapamahalaan na mga hakbang at gumagamit ng positibong pampalakas upang hikayatin ang mga gustong gawi. Ang isang Board Certified Behavior Analyst (BCBA) ay bumuo ng isang indibidwal na plano sa paggamot batay sa isang Functional Behavior Assessment. Binibigyang-diin ng modernong ABA ang naturalistic, play-based na mga diskarte na sumusunod sa mga interes ng bata. Maaaring ibigay ang therapy sa loob ng bahay, sa isang klinika, o sa mga setting ng paaralan, karaniwang mula 10 hanggang 40 oras bawat linggo depende sa mga pangangailangan ng bata. Ang mga magulang ay sinanay upang palakasin ang mga kasanayan sa buong araw.",
+    "steps": [
+      "Kumuha ng pormal na diagnosis ng autism at isang referral mula sa iyong pediatrician para sa mga serbisyo ng ABA.",
+      "Makipag-ugnayan sa iyong insurance, Medicaid, o ahensyang may kapansanan sa pag-unlad ng estado upang kumpirmahin ang saklaw ng ABA at maghanap ng mga aprubadong provider.",
+      "Mag-iskedyul ng Functional Behavior Assessment (FBA) na may BCBA — sinusuri nito ang mga lakas, hamon, at layunin ng pamilya ng iyong anak.",
+      "Suriin at aprubahan ang indibidwal na plano sa paggamot — tiyaking nakatuon ang mga layunin sa komunikasyon, mga kasanayan sa pagganap, at kalayaan.",
+      "Makilahok sa mga sesyon ng pagsasanay ng magulang upang mapalakas mo ang mga kasanayan nang palagian sa bahay.",
+      "Humiling ng mga regular na ulat sa pag-unlad na may data at dumalo sa mga pagsusuri sa plano — ayusin ang mga layunin habang lumalaki ang iyong anak."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "Mga therapy",
+    "title": "Speech-Language Therapy",
+    "summary": "Tumutulong sa mga bata na bumuo ng mga kasanayan sa komunikasyon — mula sa mga unang salita hanggang sa pag-uusap, kabilang ang mga pamamaraan ng komunikasyong hindi pasalita.",
+    "details": "Ang Speech-Language Therapy ay ang pinakakaraniwang developmental therapy para sa mga batang may autism, na ibinigay ng isang lisensyadong Speech-Language Pathologist (SLP). Tinutugunan nito ang pag-unawa sa wika (receptive), pagpapahayag ng mga kagustuhan at pangangailangan (expressive), panlipunang paggamit ng wika (pragmatic), artikulasyon, at paghihirap sa pagpapakain/paglunok. Para sa mga batang minimally verbal, maaaring ipakilala ng mga SLP ang Augmentative and Alternative Communication (AAC) gaya ng mga picture exchange system, sign language, o mga device na bumubuo ng pagsasalita. Ipinapakita ng pananaliksik na sa maagang interbensyon, dalawa sa tatlong preschooler na may autism ay makabuluhang nagpapabuti ng mga kasanayan sa komunikasyon. Ang mahalaga, HINDI naaantala ng bilingualism ang wika sa mga batang autistic — inirerekomenda ang pagpapanatili ng sariling wika.",
+    "steps": [
+      "Tanungin ang iyong pedyatrisyan para sa isang referral sa isang SLP na may karanasan sa autism spectrum disorder.",
+      "I-access ang mga serbisyo sa pamamagitan ng maraming channel: health insurance, Medicaid, school district IEP, state early intervention, o university speech clinics (kadalasang mas mababang gastos).",
+      "Sa panahon ng pagsusuri, magbahagi ng mga halimbawa kung paano nakikipag-usap ang iyong anak sa bahay — lubhang nakakatulong ang mga video.",
+      "Kung ang iyong anak ay minimally verbal, partikular na humiling ng SLP na may AAC expertise — hindi lahat ng SLP ay dalubhasa dito.",
+      "Magtanong tungkol sa mga modelo ng pagtuturo ng magulang kung saan sinasanay ka ng SLP na i-embed ang kasanayan sa komunikasyon sa pang-araw-araw na gawain.",
+      "Kung nagsasalita ang iyong pamilya ng ibang wika sa bahay, humiling ng bilingual na SLP o interpreter — ipagpatuloy ang paggamit ng iyong sariling wika sa iyong anak."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "Mga therapy",
+    "title": "Occupational Therapy (OT)",
+    "summary": "Bumubuo ng kalayaan sa pang-araw-araw na mga kasanayan sa pamumuhay, pagpoproseso ng pandama, at mahusay na mga kakayahan sa motor.",
+    "details": "Tinutulungan ng Occupational Therapy ang mga batang may autism na bumuo ng mga kasanayang kailangan para sa pang-araw-araw na pamumuhay at kalayaan. Gumagana ang mga OT sa mahusay na mga kasanayan sa motor (pagsulat, pag-button, paggamit ng mga kagamitan), pagpoproseso at regulasyon ng pandama (pagtulong sa mga bata na sobra o kulang sa sensitibo sa sensory input), mga gawain sa pag-aalaga sa sarili (pagbibihis, toileting, pagsisipilyo ng ngipin), mga kasanayan sa paglalaro, at kahandaan sa silid-aralan. Ang sensory integration therapy, na kadalasang ibinibigay ng mga OT, ay tumutulong sa mga bata na mas mahusay na magproseso at tumugon sa pandama na impormasyon na maaaring napakalaki o nakalilito. Ang mga OT ay gumagawa ng mga indibidwal na plano sa paggamot at gumagamit ng mga aktibidad na mukhang laro ngunit maingat na idinisenyo upang bumuo ng mga partikular na kasanayan. Inirerekomenda din nila ang mga pagbabago sa kapaligiran at mga kagamitang pandama para sa tahanan at paaralan.",
+    "steps": [
+      "Humiling ng pagsusuri sa OT sa pamamagitan ng iyong pediatrician, distrito ng paaralan, o programa ng maagang interbensyon ng estado.",
+      "Sa panahon ng pagsusuri, ilarawan ang pang-araw-araw na mga hamon ng iyong anak — pagkain, pagbibihis, paglipat, pagkasensitibo sa pandama.",
+      "Suriin ang plano ng paggamot at tiyaking matugunan ng mga layunin ang iyong pinakamataas na priyoridad na mga alalahanin sa pang-araw-araw na pamumuhay.",
+      "Humingi sa OT ng home sensory diet — isang personalized na plano ng mga aktibidad sa pandama na gagawin sa buong araw.",
+      "Magsanay nang tuluy-tuloy sa mga diskarte na inirerekomenda ng OT sa bahay, lalo na sa mga gawain tulad ng pagkain, oras ng pagligo, at pagbibihis.",
+      "Humiling ng school-based na OT sa pamamagitan ng IEP ng iyong anak kung ang mga pangangailangan ng fine motor, sensory, o self-care ay makakaapekto sa partisipasyon ng paaralan."
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "Mga therapy",
+    "title": "Physical Therapy (PT)",
+    "summary": "Nagpapabuti ng mga gross motor skills, koordinasyon, lakas, at pisikal na kumpiyansa para sa ligtas na paggalaw sa lahat ng kapaligiran.",
+    "details": "Tinutulungan ng Physical Therapy ang mga batang may autism na pahusayin ang gross motor skills (paglalakad, pagtakbo, paglukso, pag-akyat), balanse at koordinasyon, pangunahing lakas, kamalayan ng katawan, at spatial navigation. Sinusuri ng mga pisikal na therapist ang mga limitasyon ng motor na gumagana ng mga bata at gumagawa ng mga plano upang matugunan ang mga ito. Para sa mga batang nasa paaralan, ang mga PT ay tumutulong sa pag-navigate sa mga pasilyo, palaruan, cafeteria, at mga bus ng paaralan nang ligtas. Gumagawa din sila ng mga kasanayan sa paggalaw na kailangan upang lumahok sa mga larong panlipunan at pakikipag-ugnayan ng mga kasamahan. Maaaring maging kritikal ang PT para sa mga bata na may mababang tono ng kalamnan, kahirapan sa koordinasyon, o mga hamon sa pagpaplano ng motor na karaniwan sa autism. Maaaring ma-access ang mga serbisyo sa pamamagitan ng segurong pangkalusugan, mga programang maagang interbensyon, mga IEP ng paaralan, o mga klinika ng outpatient.",
+    "steps": [
+      "Hilingin sa iyong pedyatrisyan na suriin kung ang iyong anak ay may matinding pagkaantala sa motor o mga alalahanin sa koordinasyon na nangangailangan ng referral ng PT.",
+      "Mag-iskedyul ng pagsusuri sa PT — susuriin ng therapist ang balanse, koordinasyon, lakas, pagpaplano ng motor, at functional mobility.",
+      "Suriin ang plano ng paggamot at talakayin kung aling mga milestone ng motor at mga kasanayan sa paggana ang inuuna.",
+      "Isama ang mga pagsasanay na inirerekomenda ng PT sa pang-araw-araw na gawain — marami ang maaaring gawing masayang laro sa bahay.",
+      "Humiling ng PT na nakabase sa paaralan sa pamamagitan ng IEP kung ang mga problema sa motor ay nakakaapekto sa kakayahan ng iyong anak na mag-navigate nang ligtas sa paaralan.",
+      "Muling suriin ang pag-unlad bawat 3-6 na buwan at ayusin ang mga layunin habang ang iyong anak ay nagkakaroon ng mga bagong pisikal na kasanayan."
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "Mga therapy",
+    "title": "DIR/Floortime",
+    "summary": "Isang diskarte na nakabatay sa relasyon na sumusunod sa pangunguna ng bata sa panahon ng paglalaro upang bumuo ng panlipunan, emosyonal, at intelektwal na pundasyon.",
+    "details": "Ang DIR ay nangangahulugang Developmental, Individual-differences, Relationship-based. Binuo ni Dr. Stanley Greenspan noong 1980s, ang diskarteng ito ay bumubuo ng mga pundasyon para sa panlipunan, emosyonal, at intelektwal na paglago sa pamamagitan ng masayang pakikipag-ugnayan na pinangungunahan ng bata kaysa sa pag-target ng mga partikular na pag-uugali. Ang pangunahing diskarte ay nagsasangkot ng mga nasa hustong gulang sa pagpunta sa sahig at pagsunod sa mga interes ng bata upang palawakin ang 'mga lupon ng komunikasyon' — pabalik-balik na pakikipag-ugnayan. Karaniwang nagsasangkot ang floortime ng 2-5 oras bawat araw na hinati sa 20-30 minutong mga session. Ipinapakita ng pananaliksik ang pag-unlad sa komunikasyon, emosyonal na paggana, pang-araw-araw na kasanayan sa pamumuhay, at relasyon ng magulang-anak. Ang DIR/Floortime ay kinikilala ng National Professional Development Center on Autism Spectrum Disorder at maaaring gawin ng mga magulang sa bahay na may propesyonal na patnubay.",
+    "steps": [
+      "Alamin ang mga pangunahing kaalaman sa DIR/Floortime sa pamamagitan ng Interdisciplinary Council on Development and Learning (ICDL) sa icdl.com — nag-aalok sila ng mga mapagkukunan ng magulang.",
+      "Maghanap ng DIR/Floortime-trained na therapist sa pamamagitan ng direktoryo ng provider ng ICDL o humingi ng mga referral sa developmental pediatrician ng iyong anak.",
+      "Magsimula sa 20 minutong Floortime session: umupo sa sahig, sundin ang pangunguna ng iyong anak, at subukang palawakin ang pabalik-balik na pakikipag-ugnayan.",
+      "Tumutok muna sa emosyonal na koneksyon — sumali sa kung ano ang tinatamasa ng iyong anak nang hindi sinusubukang mag-redirect o magturo ng mga partikular na kasanayan.",
+      "Unti-unting taasan ang bilang at haba ng mga session, na naglalayong magkaroon ng maraming maiikling session sa buong araw.",
+      "Makipagtulungan sa isang sinanay na propesyonal upang matutunan kung paano tugunan ang indibidwal na pandama at profile ng pag-unlad ng iyong anak habang naglalaro."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "Mga therapy",
+    "title": "TEACCH (Structured Teaching)",
+    "summary": "Isang visual, structured na paraan ng pagtuturo na nag-aayos ng pisikal na kapaligiran upang matulungan ang mga batang autistic na matuto nang nakapag-iisa.",
+    "details": "Ang TEACCH (Treatment and Education of Autistic and Communication Handicapped Children) ay binuo sa University of North Carolina ni Dr. Eric Schopler at Dr. Robert Reichler noong 1960s. Binibigyang-diin nito ang structured na pagtuturo na iniayon sa kung paano nagpoproseso ng impormasyon ang mga autistic na indibidwal, partikular na sa pamamagitan ng mga visual na suporta. Ang mga pangunahing prinsipyo ay kinabibilangan ng organisasyon ng pisikal na kapaligiran, predictable sequence ng mga aktibidad, visual na iskedyul, structured work system, at visually organized na mga gawain. Binabawasan ng TEACCH ang pagkabalisa sa pamamagitan ng paggawa ng mga inaasahan na malinaw at mahuhulaan, at makabuluhang pinapabuti ang mga paglipat sa pagitan ng mga aktibidad. Ipinapakita ng pananaliksik ang pagtaas ng kalayaan sa mga pang-araw-araw na gawain, pangangalaga sa sarili, organisasyon, at pagsunod sa mga gawain. Maaaring ipatupad ng mga magulang ang mga prinsipyo ng TEACCH sa bahay sa pamamagitan ng paglikha ng mga visual na iskedyul at mga organisadong espasyo.",
+    "steps": [
+      "Alamin ang mga pangunahing kaalaman sa TEACCH sa pamamagitan ng TEACCH Autism Program sa UNC (teacch.com) — nag-aalok sila ng pagsasanay para sa mga magulang at propesyonal.",
+      "Gumawa ng visual na pang-araw-araw na iskedyul para sa iyong anak gamit ang mga larawan o larawan na nagpapakita ng pagkakasunod-sunod ng mga aktibidad sa buong araw.",
+      "Ayusin ang kapaligiran sa iyong tahanan: magtalaga ng mga malilinaw na lugar para sa mga partikular na aktibidad (lugar ng paglalaro, lugar ng trabaho, lugar na kalmado) na may mga visual na label.",
+      "Magpatupad ng mga sistema ng trabaho para sa mga gawain: gumamit ng kaliwa-papuntang-kanang layout na nagpapakita kung ano ang dapat gawin, gaano karaming dapat gawin, at kung ano ang susunod.",
+      "Gumamit ng mga visual na timer at mga babala sa paglipat (hal., 'unang takdang-aralin, pagkatapos ay iPad') upang mabawasan ang pagkabalisa sa panahon ng mga pagbabago sa aktibidad.",
+      "Kumonsulta sa isang propesyonal na sinanay sa TEACCH upang i-customize ang structured na diskarte sa pagtuturo para sa mga partikular na lakas at pangangailangan ng iyong anak."
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "Mga therapy",
+    "title": "Mga Pangkat ng Kasanayang Panlipunan",
+    "summary": "Structured group settings kung saan ang mga batang may autism ay nagsasanay sa pakikipag-ugnayan sa lipunan, pakikipag-usap, at pakikipagkaibigan sa mga kapantay.",
+    "details": "Pinagsasama-sama ng Mga Social Skills Group ang mga bata sa autism spectrum (minsan ay may halong neurotypical na mga kapantay) upang magsanay ng social interaction sa isang structured, supportive na kapaligiran. Sa pangunguna ng mga lisensyadong clinician tulad ng mga pathologist sa speech-language o psychologist, ang mga grupong ito ay nagtatrabaho sa mga kasanayan sa pakikipag-usap, pagbabasa ng mga social cue, pagkuha ng pananaw, paggawa at pagpapanatili ng mga pagkakaibigan, emosyonal na regulasyon, at pakikipagtulungan. Tinutukoy ng isang clinician ang mga indibidwal na layunin para sa bawat bata at sinusubaybayan ang pag-unlad linggu-linggo. Ang pananaliksik ay nagpapakita ng mga positibong epekto sa kakayahang panlipunan, kalidad ng pagkakaibigan, at pagbawas ng kalungkutan. Ang mga magulang ay madalas na nakikilahok sa mga parallel session na nag-aaral upang palakasin ang mga kasanayan sa tahanan. Maraming mga pamilya ang bumubuo ng pangmatagalang koneksyon sa ibang mga kalahok na pamilya.",
+    "steps": [
+      "Tanungin ang therapist, paaralan, o pediatrician ng iyong anak tungkol sa mga lokal na grupo ng mga kasanayang panlipunan — maaaring ihandog ang mga ito sa pamamagitan ng mga klinika, ospital, o mga organisasyong pangkomunidad.",
+      "Maghanap ng mga pangkat na tumutugma sa edad at antas ng pag-unlad ng iyong anak — ang ilang grupo ay nakabatay sa paglalaro habang ang iba ay mas nakaayos para sa mas matatandang mga bata.",
+      "Tiyaking ang grupo ay pinamumunuan ng isang lisensyadong clinician (SLP, psychologist, o BCBA) na nagtatakda ng mga indibidwal na layunin para sa bawat kalahok.",
+      "Dumalo sa oryentasyon ng magulang o parallel na mga sesyon ng magulang upang matutunan kung paano palakasin ang mga kasanayang panlipunan sa tahanan.",
+      "Magsanay ng mga natutunang kasanayan sa mga natural na setting — ayusin ang mga playdate sa mga kasamahan sa grupo upang gawing pangkalahatan ang mga kasanayang panlipunan.",
+      "Subaybayan ang antas ng kaginhawaan ng iyong anak — ang isang mahusay na grupo ay dapat bumuo ng kumpiyansa, hindi magpapataas ng pagkabalisa o pagkabigo."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "Mga therapy",
+    "title": "Music Therapy",
+    "summary": "Gumagamit ng mga aktibidad na batay sa musika upang mapabuti ang komunikasyon, pakikipag-ugnayan sa lipunan, mga kasanayan sa motor, at emosyonal na regulasyon.",
+    "details": "Ang Music Therapy para sa autism ay ibinibigay ng mga board-certified music therapist (MT-BC) na gumagamit ng pag-awit, pagtugtog ng instrumento, pagsulat ng kanta, at mga aktibidad sa ritmo upang matugunan ang mga therapeutic na layunin. Ang musika ay katangi-tanging nakikipag-ugnayan sa maraming bahagi ng utak nang sabay-sabay, na ginagawa itong partikular na epektibo para sa mga bata na maaaring hindi tumugon pati na rin sa mga tradisyonal na therapy na nakabatay sa usapan. Sinusuportahan ng pananaliksik ang mga pagpapabuti sa mga kasanayan sa komunikasyon at wika, pakikipag-ugnayan sa lipunan at magkasanib na atensyon, emosyonal na pagpapahayag at regulasyon, fine at gross na koordinasyon ng motor, at pagpoproseso ng pandama. Ang mga interactive na aktibidad sa musika ay lumilikha ng mga natural na pagkakataon para sa turn-taking, eye contact, at shared enjoyment sa mga kapantay at miyembro ng pamilya. Maraming batang may autism ang nagpapakita ng malakas na interes sa musika na maaaring magsilbing tulay sa iba pang pag-aaral.",
+    "steps": [
+      "Maghanap ng isang board-certified music therapist (MT-BC) sa pamamagitan ng direktoryo ng American Music Therapy Association sa musictherapy.org.",
+      "Talakayin ang mga partikular na layunin ng iyong anak — ang music therapy ay maaaring mag-target ng komunikasyon, mga kasanayang panlipunan, mga kasanayan sa motor, o emosyonal na regulasyon.",
+      "Magtanong tungkol sa format ng session: nagbibigay-daan ang mga indibidwal na session ng personalized na atensyon habang ang mga session ng grupo ay nagdaragdag ng kasanayan sa panlipunang kasanayan.",
+      "Isama ang musika sa mga gawain sa bahay — gumamit ng mga kanta para sa mga transition (kanta sa paglilinis), pang-araw-araw na gawain (kanta sa pagsipilyo ng ngipin), at emosyonal na regulasyon.",
+      "Suriin ang mga opsyon sa saklaw: ang ilang mga plano sa seguro, pagwawaksi ng Medicaid, at mga IEP ng paaralan ay maaaring pondohan ang therapy sa musika bilang isang kaugnay na serbisyo.",
+      "Bigyan ito ng ilang sesyon — ang ilang mga bata ay nangangailangan ng oras upang magpainit sa therapist at mag-format bago ipakita ang pag-unlad."
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "Mga therapy",
+    "title": "Equine-Assisted Therapy (Pagsakay sa Kabayo)",
+    "summary": "Therapeutic horseback riding na nagpapabuti sa panlipunang komunikasyon, emosyonal na regulasyon, at mga kasanayan sa motor sa pamamagitan ng pakikipag-ugnayan sa mga kabayo.",
+    "details": "Ginagamit ng Equine-Assisted Therapy ang ritmikong paggalaw at pagtugon ng mga kabayo upang matugunan ang mga layuning panterapeutika para sa mga batang may autism. Ang isang malaking randomized na pag-aaral sa Unibersidad ng Colorado ay natagpuan na ang 10 linggo ng therapeutic riding ay nagdulot ng pangmatagalang pagbawas sa pagkamayamutin at mga pagpapabuti sa panlipunang komunikasyon, hyperactivity, at katatasan ng salita sa mga batang may edad na 6-16. Ang natural na paggalaw ng kabayo ay nagpapasigla sa pangunahing lakas, balanse, at koordinasyon. Ang pakikipagtulungan sa mga kabayo ay nagbibigay din ng mga pagkakataong magsanay ng nonverbal na komunikasyon, empatiya, responsibilidad, at emosyonal na regulasyon sa isang nakakaganyak, panlabas na kapaligiran. Ang mga programa ay karaniwang pinamumunuan ng PATH International-certified instructor kasama ng mga therapist. Ang equine therapy ay maaaring makadagdag sa iba pang mga paggamot tulad ng ABA, pagsasalita, at OT.",
+    "steps": [
+      "Maghanap ng PATH International-certified therapeutic riding center na malapit sa iyo sa pathintl.org/find-a-center.",
+      "Mag-iskedyul ng pagsusuri — susuriin ng pangkat ang mga pisikal na kakayahan ng iyong anak, mga pangangailangan sa pag-uugali, at mga layunin sa paggamot.",
+      "Talakayin ang mga kinakailangan sa kaligtasan: mga helmet, angkop na damit, at anumang mga pandama na kaluwagan na maaaring kailanganin ng iyong anak.",
+      "Mag-commit sa mga regular na lingguhang session — ipinapakita ng pananaliksik na ang mga benepisyo ay nabubuo sa loob ng 8-10 linggo ng pare-parehong paglahok.",
+      "Magtanong tungkol sa hippotherapy (OT/PT/Speech on horseback) kumpara sa therapeutic riding — ginagamit ng hippotherapy ang paggalaw ng kabayo bilang isang tool sa paggamot at maaaring sakop ng insurance.",
+      "Suriin ang mga pinagmumulan ng pagpopondo: nag-aalok ang ilang nonprofit na riding center ng mga scholarship, at ang hippotherapy ay maaaring saklawin ng health insurance o Medicaid."
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "Mga therapy",
+    "title": "Aquatic Therapy",
+    "summary": "Water-based na therapy na bumubuo ng mga kasanayan sa motor, koordinasyon, pagtitiis, at kumpiyansa sa lipunan sa isang nagpapatahimik na kapaligirang pandama.",
+    "details": "Ginagamit ng Aquatic Therapy ang mga natatanging katangian ng tubig — buoyancy, resistensya, at hydrostatic pressure — upang matulungan ang mga batang may autism na bumuo ng mga kasanayan sa motor, koordinasyon, lakas, at tibay sa isang supportive na sensory na kapaligiran. Maraming mga bata na may autism na nahihirapan sa pag-eehersisyo na nakabatay sa lupa ay umunlad sa tubig. Ang sensory input mula sa maligamgam na tubig ay maaaring maging kalmado at umayos, na ginagawang mas madali para sa mga bata na tumuon at makilahok. Itinuturo din ng aquatic therapy ang kaligtasan sa tubig — isang kritikal na alalahanin dahil ang pagkalunod ay isang pangunahing sanhi ng kamatayan para sa mga batang may autism na maaaring gumala. Ang mga session ay maaaring gumana sa mga kasanayang panlipunan (turn-taking, pagsunod sa mga tagubilin sa isang grupo), body awareness, breath control, at pangkalahatang physical fitness. Ipinapakita ng pananaliksik ang mga pagpapabuti sa mga pakikipag-ugnayan sa lipunan at paggana ng motor.",
+    "steps": [
+      "Hilingin sa iyong pediatrician o therapist para sa isang referral sa isang aquatic therapy program, o maghanap ng mga pasilidad na may mga sertipikadong aquatic therapist.",
+      "Suriin kung nag-aalok ang OT o PT provider ng iyong anak ng mga sesyon ng aquatic therapy — maaaring saklawin ito ng insurance.",
+      "Magsimula sa mga indibidwal na sesyon upang matulungan ang iyong anak na masanay sa kapaligiran ng pool bago subukan ang mga sesyon ng grupo.",
+      "Talakayin ang mga layunin sa kaligtasan sa tubig bilang isang priyoridad — ang pagtuturo sa iyong anak na maging ligtas sa loob at paligid ng tubig ay maaaring makapagligtas ng buhay.",
+      "Magsanay ng mga aktibidad na nakabatay sa tubig sa bahay sa oras ng paliligo: pagbuhos, pagsipa, pag-ihip ng mga bula — ang mga ito ay nagbibigay ng ginhawa at kasanayan.",
+      "Tingnan ang mga programa sa paglangoy na adaptive sa komunidad sa mga lokal na YMCA, parke at departamento ng libangan, o Espesyal na Olympics — marami ang libre o mura."
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "Suporta sa Krisis",
+    "title": "988 Suicide at Crisis Lifeline",
+    "summary": "Libre, kumpidensyal na 24/7 na suporta sa krisis sa pamamagitan ng telepono, text, o chat para sa sinumang nasa emosyonal na pagkabalisa — available sa English at Spanish.",
+    "details": "Ang 988 Suicide & Crisis Lifeline ay isang pambansang network ng mga sentro ng krisis na nagbibigay ng libre, kumpidensyal na suporta 24 na oras sa isang araw, 7 araw sa isang linggo. Tumawag o mag-text sa 988 para kumonekta sa isang sinanay na tagapayo. Available ang mga serbisyo sa English at Spanish, at available ang live chat sa 988lifeline.org. Ang mga serbisyo ng videophone ay inaalok para sa mga taong bingi o mahirap makarinig gamit ang American Sign Language. Ang lifeline ay may mga mapagkukunang partikular na tumutugon sa mga indibidwal na may neurodivergence, kabilang ang autism. HINDI lang ito para sa pag-iisip ng pagpapakamatay — ito ay para sa anumang emosyonal na krisis, labis na stress, o emergency sa kalusugan ng isip. Ang Autism Society ay nakikipagtulungan sa mga sentro ng krisis sa buong bansa upang matiyak na ang mga tagapayo ay makakatanggap ng pagsasanay na partikular sa autism at mga kapansanan sa intelektwal/developmental.",
+    "steps": [
+      "Mag-save ng 988 sa iyong telepono ngayon — maaari kang tumawag o mag-text sa numerong ito anumang oras na ikaw o ang iyong miyembro ng pamilya ay nasa krisis.",
+      "Para sa agarang panganib, laging tumawag muna sa 911, pagkatapos ay mag-follow up sa 988 para sa patuloy na suporta.",
+      "Kung ang iyong autistic na anak o miyembro ng pamilya ay nasa emosyonal na krisis, tumawag sa 988 at ipaalam sa tagapayo ang tungkol sa autism diagnosis upang maiangkop nila ang kanilang diskarte.",
+      "Bisitahin ang 988lifeline.org para sa live chat kung mahirap ang mga tawag sa telepono — maaaring mas madali ang pakikipag-chat para sa ilang autistic na indibidwal o sa panahon ng sensory overwhelm.",
+      "Para sa suporta sa wikang Espanyol, tumawag sa 988 at pindutin ang 2 para sa linya ng wikang Espanyol.",
+      "Panatilihing nakikita ang numero sa iyong tahanan at ibahagi ito sa mga tagapag-alaga, miyembro ng pamilya, at paaralan ng iyong anak."
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "Suporta sa Krisis",
+    "title": "Linya ng Teksto ng Krisis",
+    "summary": "Libreng 24/7 crisis support sa pamamagitan ng text message — mainam para sa mga mas gustong mag-text kaysa sa mga tawag sa telepono.",
+    "details": "Ang Crisis Text Line ay nagbibigay ng libre, kumpidensyal na suporta sa krisis sa pamamagitan ng text message, na magagamit 24 oras sa isang araw, 7 araw sa isang linggo. I-text ang HOME sa 741741 para kumonekta sa isang sinanay na Crisis Counselor. Ang serbisyong ito ay partikular na mahalaga para sa mga autistic na indibidwal o mga magulang na nakakakita ng mga tawag sa telepono na napakarami o nangangailangan ng maingat na pag-access sa suporta. Ang mga pag-uusap ay nakabatay sa teksto, na maaaring maging mas madali para sa mga taong nagpoproseso ng nakasulat na komunikasyon nang mas mahusay kaysa sa berbal. Ang Crisis Counselors ay sinanay na mga boluntaryo na pinangangasiwaan ng mga lisensiyadong klinikal na kawani. Pinangangasiwaan ng serbisyo ang lahat ng uri ng krisis — pagkabalisa, depresyon, emosyonal na pagkabalisa, pag-iisip ng pagpapakamatay, salungatan sa pamilya, at pagkasunog sa pangangalaga. Ang average na oras ng paghihintay upang kumonekta sa isang tagapayo ay wala pang 5 minuto.",
+    "steps": [
+      "I-text ang HOME sa 741741 mula saanman sa US anumang oras para magsimula ng pakikipag-usap sa isang Crisis Counselor.",
+      "Isang sinanay na tagapayo ang tutugon at tutulong sa iyo na harapin ang krisis gamit ang aktibong pakikinig at pagtutulungang paglutas ng problema.",
+      "Maging tapat sa kung ano ang iyong nararanasan — walang maling dahilan para makipag-ugnayan, kasama ang pagka-burnout at pagka-overwhelm ng caregiver.",
+      "Kung nagte-text ka tungkol sa iyong anak, ipaalam sa tagapayo upang makapagbigay sila ng suporta at mga referral na may kaalaman sa autism.",
+      "I-save ang 741741 sa iyong mga contact bilang 'Crisis Text Line' para maihanda mo ito kapag kailangan mo ito.",
+      "Ibahagi ang mapagkukunang ito sa ibang mga magulang na may autism sa iyong komunidad — marami ang hindi nakakaalam na mayroong suporta sa krisis na nakabatay sa teksto."
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "Suporta sa Krisis",
+    "title": "Pambansang Helpline ng Autism Society",
+    "summary": "Libreng helpline na nagkokonekta sa mga pamilya sa mga lokal na mapagkukunan ng autism, mga serbisyo, at suporta sa pamamagitan ng mga sinanay na espesyalista.",
+    "details": "Ang National Helpline ng Autism Society (800-3-AUTISM / 800-328-8476) ay nag-uugnay sa iyo sa mga sinanay na Information & Referral (I&R) Specialist na tumutulong sa iyong makahanap ng mga mapagkukunan at serbisyo sa iyong lugar. Habang ang helpline ay hindi nagbibigay ng mga direktang serbisyo, ikokonekta ka ng mga espesyalista sa mga lokal na tagapagkaloob, mga programa ng estado, mga grupo ng suporta, at mga mapagkukunan ng komunidad para sa autism. Ito ay isang mahusay na unang tawag para sa mga pamilyang imigrante na bago sa sistema ng US at hindi sigurado kung saan magsisimula. Ang helpline ay maaaring tumulong sa paghahanap ng mga diagnostic na serbisyo, therapy provider, educational advocacy, financial assistance, at community support. MAHALAGA: HINDI ito linya ng krisis — para sa mga emergency sa kalusugan ng isip, gumamit ng 988 o tumawag sa 911.",
+    "steps": [
+      "Tumawag sa 800-328-8476 (800-3-AUTISM) sa mga oras ng negosyo upang makipag-usap sa isang Espesyalista sa Impormasyon at Referral.",
+      "Ipaliwanag ang iyong sitwasyon at kung anong mga mapagkukunan ang iyong hinahanap — ang espesyalista ay maghahanap ng mga serbisyo sa iyong lugar.",
+      "Magtanong tungkol sa mga lokal na kaakibat ng Autism Society — mayroong higit sa 70 sa buong US na nagbibigay ng direktang suporta sa komunidad.",
+      "Humiling ng impormasyon sa maraming paksa nang sabay-sabay: diagnosis, mga opsyon sa therapy, suporta sa paaralan, tulong pinansyal, at mga grupo ng suporta sa magulang.",
+      "Mag-follow up sa mga referral na ibinigay — panatilihin ang mga tala sa bawat pangalan ng contact, numero ng telepono, at mga susunod na hakbang.",
+      "Tumawag muli anumang oras na kailangan mo ng tulong sa pag-navigate sa isang bagong hamon — ang helpline ay nandiyan para sa patuloy na suporta, hindi lamang isang beses na paggamit."
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "Mga Legal na Karapatan",
+    "title": "IDEYA: Karapatan ng Iyong Anak sa Libreng Edukasyon",
+    "summary": "Ginagarantiyahan ng Individuals with Disabilities Education Act ang bawat batang may kapansanan ng karapatan sa isang libre, naaangkop na pampublikong edukasyon — anuman ang katayuan sa imigrasyon.",
+    "details": "Ang IDEA ay isang pederal na batas na nalalapat sa LAHAT ng mga bata sa United States, anuman ang katayuan sa imigrasyon, pagkamamamayan, o dokumentasyon. Sa ilalim ng IDEA, dapat kilalanin, suriin, at pagsilbihan ng mga pampublikong paaralan ang mga batang may kapansanan mula sa kapanganakan hanggang edad 21. Ginagarantiyahan ng batas ang FAPE (Libreng Angkop na Pampublikong Edukasyon) sa LRE (Least Restrictive Environment). Ang mga paaralan ay hindi maaaring magtanong tungkol sa katayuan sa imigrasyon bilang isang kondisyon ng pagpapatala o mga serbisyo. Kung ang iyong anak ay nasa pagitan ng 0-3, ang Part C ng IDEA ay nagbibigay ng mga serbisyo ng Early Intervention. Kung ang iyong anak ay 3-21, ang Bahagi B ay nagbibigay ng espesyal na edukasyon sa pamamagitan ng distrito ng paaralan. May karapatan ka sa isang interpreter sa lahat ng pagpupulong at tumanggap ng mga dokumento sa iyong gustong wika.",
+    "steps": [
+      "Ang iyong anak ay may karapatan sa isang libreng pagsusuri ng distrito ng paaralan kung pinaghihinalaan mo ang isang kapansanan — hilingin ito nang nakasulat.",
+      "HINDI MAAARI magtanong ang mga paaralan tungkol sa iyong katayuan sa imigrasyon. Kung gagawin nila, maaari kang tumanggi na sagutin at iulat ito.",
+      "May karapatan ka sa isang interpreter sa bawat pulong ng IEP — humiling ng isa nang maaga.",
+      "Kung hindi ka sumasang-ayon sa pagsusuri o paglalagay ng paaralan, maaari kang humiling ng Independent Educational Evaluation (IEE) sa gastos ng paaralan.",
+      "Makipag-ugnayan sa Parent Training and Information Center (PTI) ng iyong estado para sa libreng suporta sa adbokasiya sa iyong wika."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "Mga Legal na Karapatan",
+    "title": "Seksyon 504: Mga Akomodasyon na Walang IEP",
+    "summary": "Ang Seksyon 504 ng Rehabilitation Act ay nagbibigay ng mga kaluwagan para sa mga batang may kapansanan ngunit maaaring hindi kwalipikado para sa espesyal na edukasyon sa ilalim ng IDEA.",
+    "details": "Ang Seksyon 504 ay isang batas sa karapatang sibil na nagbabawal sa diskriminasyon laban sa mga indibidwal na may mga kapansanan sa mga programang tumatanggap ng pederal na pagpopondo, kabilang ang lahat ng pampublikong paaralan. Hindi tulad ng isang IEP, ang isang 504 na plano ay hindi nangangailangan ng isang partikular na kategorya ng kapansanan sa pag-aaral - anumang pisikal o mental na kapansanan na lubos na naglilimita sa isang pangunahing aktibidad sa buhay ay kwalipikado. Para sa mga batang autistic, maaari itong magsama ng mga kaluwagan tulad ng dagdag na oras sa mga pagsusulit, preferential seating, sensory break, binagong takdang-aralin, o isang tahimik na testing space. Ang isang 504 na plano ay kadalasang mas mabilis makuha kaysa sa isang IEP at maaaring maging isang magandang opsyon habang naghihintay ng isang buong pagsusuri. Ang mga magulang ay may karapatang lumahok sa proseso ng 504 at mag-apela ng mga desisyon.",
+    "steps": [
+      "Humiling ng 504 na pagsusuri sa sulat sa punong-guro ng paaralan o 504 coordinator ng iyong anak.",
+      "Magbigay ng dokumentasyon ng diagnosis ng iyong anak — sapat na ang isang sulat mula sa kanilang doktor o psychologist.",
+      "Dumalo sa 504 na pagpupulong at ilarawan kung paano naaapektuhan ng autism ang pagganap ng paaralan at pang-araw-araw na gawain ng iyong anak.",
+      "Suriin ang mga iminungkahing akomodasyon at magmungkahi ng mga partikular na pagbabago na alam mong makakatulong sa iyong anak — ikaw ang eksperto sa iyong anak.",
+      "Ang isang 504 na plano ay sinusuri taun-taon. Maaari kang humiling ng pagpupulong anumang oras kung ang mga akomodasyon ay nangangailangan ng pagsasaayos."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "Mga Legal na Karapatan",
+    "title": "FERPA: Pagprotekta sa Mga Tala sa Paaralan ng Iyong Anak",
+    "summary": "Pinoprotektahan ng FERPA ang pagkapribado ng mga rekord ng edukasyon ng iyong anak at mga limitasyon kung sino ang makaka-access ng impormasyon tungkol sa iyong anak — kabilang ang mga awtoridad sa imigrasyon.",
+    "details": "Ang Family Educational Rights and Privacy Act (FERPA) ay isang pederal na batas na nagpoprotekta sa privacy ng mga rekord ng edukasyon ng mag-aaral. Sa ilalim ng FERPA, hindi maaaring ilabas ng mga paaralan ang mga talaan ng iyong anak — kabilang ang katayuan ng kapansanan, mga dokumento ng IEP, pagdalo, o impormasyon ng magulang — nang wala ang iyong nakasulat na pahintulot. Nalalapat ito sa mga kahilingan mula sa ICE, mga awtoridad sa imigrasyon, o anumang ahensya ng gobyerno. Ang mga paaralan ay hindi maaaring magbahagi ng impormasyon ng direktoryo (pangalan, address, telepono) kung mag-opt out ka. May karapatan kang siyasatin ang lahat ng rekord na pinananatili ng paaralan tungkol sa iyong anak at humiling ng mga pagwawasto. Ang pag-unawa sa FERPA ay partikular na mahalaga para sa mga pamilyang imigrante na maaaring natatakot na ang paghahanap ng mga serbisyo sa paaralan ay maglantad sa katayuan ng kanilang pamilya.",
+    "steps": [
+      "Sa simula ng bawat taon ng pasukan, mag-opt out sa pagbabahagi ng impormasyon sa direktoryo — pinipigilan nito ang paaralan na ilabas ang pangalan at tirahan ng iyong anak.",
+      "Kung may humihingi sa paaralan ng mga talaan ng iyong anak, dapat kang abisuhan ng paaralan at kumuha muna ng nakasulat na pahintulot (na may limitadong mga pagbubukod).",
+      "May karapatan kang repasuhin ang LAHAT ng mga rekord na iniingatan ng paaralan tungkol sa iyong anak — hilingin ito nang nakasulat.",
+      "Kung makakita ka ng mga error sa mga talaan ng iyong anak, magsumite ng nakasulat na kahilingan sa pagwawasto. Dapat tumugon ang paaralan sa loob ng 45 araw.",
+      "Kung makikipag-ugnayan ang ICE o tagapagpatupad ng batas sa paaralan, hindi nila maa-access ang mga rekord ng mag-aaral nang walang utos ng hukuman. Alamin ito ng tama."
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "Mga Legal na Karapatan",
+    "title": "ADA: Mga Karapatan sa Kapansanan sa Mga Pampublikong Lugar",
+    "summary": "Pinoprotektahan ng Americans with Disabilities Act ang iyong anak mula sa diskriminasyon sa mga pampublikong akomodasyon, kabilang ang mga restaurant, tindahan, parke, at opisinang medikal.",
+    "details": "Ang ADA ay isang batas sa karapatang sibil na nagbabawal sa diskriminasyon laban sa mga indibidwal na may mga kapansanan sa lahat ng larangan ng pampublikong buhay. Saklaw ng Title III ang mga pampublikong akomodasyon — ang mga restaurant, tindahan, hotel, sinehan, opisina ng mga doktor, at mga pasilidad sa libangan ay dapat gumawa ng mga makatwirang pagbabago para sa mga taong may kapansanan. Para sa mga batang autistic, maaaring mangahulugan ito ng pagpayag sa mga sensory na akomodasyon, mga hayop sa serbisyo, o mga aparatong pangkomunikasyon. Hindi maaaring tanggihan ng mga negosyo ang serbisyo dahil sa pag-uugali na may kaugnayan sa kapansanan ng isang bata. Sinasaklaw din ng ADA ang trabaho (Title I) at mga serbisyo ng estado/lokal na pamahalaan (Title II). Mahalaga, nalalapat ang mga proteksyon ng ADA sa lahat sa United States anuman ang katayuan ng imigrasyon o pagkamamamayan.",
+    "steps": [
+      "Kung ang isang negosyo ay tumanggi na pagsilbihan ang iyong pamilya dahil sa pag-uugali na nauugnay sa autism ng iyong anak, maaaring ito ay isang paglabag sa ADA. Idokumento ang pangyayari.",
+      "Maaari kang maghain ng reklamo sa ADA sa Kagawaran ng Hustisya sa ada.gov — maaaring ihain ang mga reklamo nang hindi nagpapakilala.",
+      "Dapat payagan ng mga negosyo ang mga hayop sa serbisyo (ngunit hindi mga hayop na sumusuporta sa emosyonal) at hindi maaaring maningil ng karagdagang bayad para sa kanila.",
+      "Kung gumagamit ang iyong anak ng AAC device o communication board, ang mga negosyo ay dapat maglaan ng makatwirang oras para sa komunikasyon.",
+      "Ang iyong lokal na organisasyon ng mga karapatan sa kapansanan ay maaaring magbigay ng libreng legal na payo tungkol sa mga paglabag sa ADA — hanapin ang 'Proteksyon at Pagtataguyod' kasama ang iyong pangalan ng estado."
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "Mga Legal na Karapatan",
+    "title": "Medicaid EPSDT: Comprehensive Child Health Services",
+    "summary": "Kung ang iyong anak ay may Medicaid, sila ay may karapatan sa mga serbisyo ng Early and Periodic Screening, Diagnostic, and Treatment (EPSDT) — ang pinakakomprehensibong pakete ng benepisyo sa Medicaid.",
+    "details": "Ang EPSDT ay isang pederal na mandato na benepisyo ng Medicaid para sa lahat ng naka-enroll na bata sa ilalim ng 21. Ito ay nangangailangan ng mga estado na magbigay ng komprehensibong mga serbisyong pangkalusugan kabilang ang lahat ng medikal na kinakailangang paggamot, kahit na ang mga serbisyong iyon ay hindi saklaw ng plano ng Medicaid ng estado. Para sa mga batang autistic, maaaring kabilang dito ang ABA therapy, speech therapy, occupational therapy, psychological services, assistive technology, at higit pa. Ang mga estado ay hindi maaaring magpataw ng di-makatwirang mga limitasyon sa mga serbisyong ito kung ang mga ito ay itinuturing na medikal na kinakailangan. Maraming pamilya ang hindi nakakaalam tungkol sa EPSDT, at ang ilang mga estado ay nagtatangkang limitahan ang mga benepisyong ito — ngunit ang pederal na batas ay nilalampasan ang mga paghihigpit ng estado para sa mga bata. Kung tatanggihan ng Medicaid ang isang serbisyong kailangan ng iyong anak, may karapatan kang umapela.",
+    "steps": [
+      "Kung ang iyong anak ay may Medicaid at nangangailangan ng ABA, pagsasalita, OT, o iba pang therapy, humiling ng pahintulot na binanggit ang EPSDT — ang pamantayan ay 'medikal na kinakailangan.'",
+      "Kung tatanggihan ng Medicaid ang isang serbisyo, hilingin ang pagtanggi nang nakasulat. May karapatan kang umapela sa pamamagitan ng patas na pagdinig.",
+      "Makipag-ugnayan sa opisina ng Medicaid ng iyong estado at partikular na magtanong tungkol sa mga benepisyo ng EPSDT para sa mga batang may autism.",
+      "Kung sinabi ng iyong estado na ang isang serbisyo ay 'hindi sakop,' maaaring i-override iyon ng EPSDT para sa mga batang wala pang 21. Kumuha ng legal na tulong kung kinakailangan.",
+      "Matutulungan ka ng organisasyon ng Proteksyon at Pagtataguyod ng iyong estado na labanan ang mga pagtanggi sa Medicaid nang libre."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "Suporta sa Pamilya",
+    "title": "Pangangalaga sa Pahinga: Magpahinga",
+    "summary": "Ang pangangalaga sa pahinga ay nagbibigay ng pansamantalang kaluwagan para sa mga pangunahing tagapag-alaga ng mga batang may kapansanan — ito ay mahalaga para maiwasan ang pagka-burnout at pagpapanatili ng kapakanan ng pamilya.",
+    "details": "Ang pangangalaga sa pamamahinga ay panandaliang pangangalaga para sa iyong anak na ibinibigay ng isang sinanay na tagapag-alaga, na nagbibigay sa iyo ng oras upang magpahinga, pangasiwaan ang mga gawain, o pangalagaan ang iyong sariling mga pangangailangan. Ipinapakita ng pananaliksik na ang pagkasunog ng tagapag-alaga ay napakakaraniwan sa mga pamilya ng mga batang autistic, at ang regular na pag-aalaga ng pahinga ay isa sa mga pinakaepektibong diskarte sa pag-iwas. Ang pahinga ay maaaring nasa loob ng bahay (pumupunta ang isang sinanay na manggagawa sa iyong bahay), wala sa bahay (pumupunta ang iyong anak sa isang pasilidad o ibang pamilya), o impormal (isang sinanay na miyembro ng pamilya o kaibigan). Maraming estado ang nag-aalok ng pagpopondo sa pangangalaga sa pamamahinga sa pamamagitan ng mga programa sa pagwawaksi ng Medicaid, mga ahensya ng estado sa kapansanan, o mga programa sa suporta sa pamilya. Ang ilang mga organisasyon ay nag-aalok ng mga libreng kaganapan sa pahinga partikular para sa mga pamilya ng mga batang may autism.",
+    "steps": [
+      "Makipag-ugnayan sa ahensya ng kapansanan sa pag-unlad ng iyong estado at magtanong tungkol sa mga programa sa pangangalaga sa pahinga — marami ang may magagamit na pondo.",
+      "Suriin kung ang pagwawaksi ng Medicaid ng iyong anak ay may kasamang mga oras ng pahinga — maraming mga waiver sa bahay at batay sa komunidad.",
+      "Maghanap ng mga lokal na programa sa pagpahinga ng autism sa pamamagitan ng Autism Society of America (autism-society.org) o Easter Seals.",
+      "Tanungin ang mga therapist ng iyong anak kung alam nila ang mga sinanay na tagapagbigay ng pahinga sa iyong lugar na may karanasan sa autism.",
+      "Magsimula sa mga maikling panahon ng pahinga (1-2 oras) habang nananatili ka sa malapit, pagkatapos ay unti-unting pahabain habang nagiging komportable ang iyong anak."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "Suporta sa Pamilya",
+    "title": "Mga Grupo ng Suporta ng Magulang",
+    "summary": "Ang pagkonekta sa ibang mga magulang ng mga batang may autism ay nakakabawas sa paghihiwalay, nagbibigay ng praktikal na payo, at bumubuo ng isang komunidad na nakakaunawa sa iyong pang-araw-araw na karanasan.",
+    "details": "Ang pagpapalaki ng isang autistic na bata, lalo na bilang isang pamilyang imigrante, ay maaaring nakahiwalay. Ang mga grupo ng suporta ng magulang ay nagbibigay ng puwang upang magbahagi ng mga karanasan, matuto mula sa iba na nag-navigate sa parehong mga sistema, at bumuo ng mga pakikipagkaibigan sa mga taong tunay na nakakaunawa. Ang mga grupo ay maaaring personal, online, o pareho. Maraming mga grupo ang inorganisa ayon sa wika at kultura, na kinikilala na ang mga kultural na pananaw sa kapansanan ay malaki ang pagkakaiba-iba. Ipinapakita ng pananaliksik na ang mga magulang na lumalahok sa mga grupo ng suporta ay nag-uulat ng mas mababang stress, mas mahusay na mga kasanayan sa pagharap, at mas malakas na kakayahan sa pagtataguyod. Maraming grupo din ang nagsisilbing impormal na mga network ng impormasyon para sa paghahanap ng mga therapist, pag-navigate sa mga sistema ng paaralan, at pag-access ng mga benepisyo.",
+    "steps": [
+      "Maghanap ng mga lokal na grupo ng magulang ng autism sa pamamagitan ng Autism Society (autism-society.org) — i-filter ayon sa iyong estado.",
+      "Tingnan ang Facebook para sa mga grupo sa iyong wika: hanapin ang 'mga magulang ng autism [iyong wika]' o 'padres autismo' para sa mga pamilyang nagsasalita ng Espanyol.",
+      "Tanungin ang therapist, paaralan, o pedyatrisyan ng iyong anak para sa mga rekomendasyon - madalas silang nakakaalam ng mga lokal na grupo.",
+      "Kung walang lokal na grupo sa iyong wika, isaalang-alang ang pagsisimula ng isa — kahit na ang isang pangkat sa WhatsApp na may 3-4 na pamilya ay maaaring maging makapangyarihan.",
+      "Ang mga online na komunidad tulad ng MyAutismTeam.com ay nagkokonekta sa mga magulang sa buong bansa at may mga feature sa pagsasalin."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "Suporta sa Pamilya",
+    "title": "Pagsuporta sa mga Kapatid",
+    "summary": "Ang mga kapatid ng autistic na mga bata ay may mga natatanging pangangailangan at karanasan na nararapat pansinin — ang pagsuporta sa mga kapatid ay nagpapatibay sa buong pamilya.",
+    "details": "Ang mga kapatid ng mga autistic na bata ay kadalasang nakakaranas ng halo-halong pagmamahal, pagkabigo, pagmamataas, kahihiyan, pagiging maprotektahan, at sama ng loob — lahat ng ito ay normal. Maaari silang kumuha ng karagdagang mga responsibilidad, pakiramdam na hindi sila napapansin kapag ang kapatid na autistic ay nangangailangan ng higit na atensyon, o mag-alala tungkol sa hinaharap. Ipinapakita ng pananaliksik na ang mga kapatid na tumatanggap ng suporta at impormasyon tungkol sa autism ay nagkakaroon ng mas matibay na relasyon sa kanilang autistic na kapatid na lalaki o babae at nag-uulat ng mas mahusay na sikolohikal na kagalingan. Ang Sibling Support Project (siblingsupport.org) ay nag-aalok ng mga programang partikular na idinisenyo para sa mga kapatid ng mga batang may espesyal na pangangailangan. Ang pagkakaroon ng tapat, naaangkop sa edad na pag-uusap tungkol sa autism ay nakakatulong sa magkapatid na maunawaan at makayanan.",
+    "steps": [
+      "Magtabi ng regular na one-on-one na oras sa bawat kapatid — kahit na ang 15 minuto ng hindi nahahati na atensyon ay may malaking pagkakaiba.",
+      "Ipaliwanag ang autism sa mga terminong naaangkop sa edad: 'Ang kanilang utak ay gumagana nang iba. Ang ilang mga bagay ay mas mahirap para sa kanila, at ang ilang mga bagay na sila ay talagang mahusay sa.'",
+      "Kilalanin ang kanilang mga damdamin nang walang paghuhusga: 'Okay lang na mabigo kapag sumisigaw ang iyong kapatid. Normal na pakiramdam iyon.'",
+      "Maghanap ng mga programa ng Sibshop (siblingsupport.org) sa iyong lugar — ang mga peer support group na ito ay partikular para sa magkakapatid.",
+      "Iwasang gawing tagapag-alaga ang kapatid — maaari silang tumulong, ngunit ang pangunahing tungkulin nila ay ang pagiging bata at kapatid."
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "Suporta sa Pamilya",
+    "title": "Mga Istratehiya sa Pangangalaga sa Sarili ng Caregiver",
+    "summary": "Hindi ka maaaring magbuhos mula sa isang walang laman na tasa. Ang pagpapanatili ng iyong sariling pisikal at mental na kalusugan ay hindi makasarili — ito ay mahalaga para sa kapakanan ng iyong anak.",
+    "details": "Ang mga magulang ng mga batang autistic ay nakakaranas ng mas mataas na antas ng stress, pagkabalisa, depresyon, at mga problema sa pisikal na kalusugan kaysa sa mga magulang ng mga batang neurotypical. Ang mga magulang na imigrante ay nahaharap sa mga karagdagang stressor: mga hadlang sa wika, kultural na paghihiwalay, pag-navigate sa mga hindi pamilyar na sistema, at mga potensyal na takot na nauugnay sa imigrasyon. Ang pangangalaga sa sarili ay hindi isang luho — ito ay isang pangangailangan. Patuloy na ipinapakita ng pananaliksik na ang kapakanan ng magulang ay direktang nakakaapekto sa mga resulta ng bata. Kapag ang mga magulang ay nalulumbay at nasusunog, sila ay may kaunting pasensya, mas kaunting enerhiya para sa therapy carryover, at nababawasan ang kakayahang magsulong nang epektibo. Kahit na ang maliit, pare-parehong mga kasanayan sa pangangalaga sa sarili ay maaaring gumawa ng isang makabuluhang pagkakaiba.",
+    "steps": [
+      "Tukuyin ang isang maliit na pang-araw-araw na pagsasanay na nagpapalakas sa iyo: isang 10 minutong paglalakad, isang tasa ng tsaa sa katahimikan, isang tawag sa telepono sa isang kaibigan, o 5 minutong malalim na paghinga.",
+      "Huwag maghintay ng 'libreng oras' — mag-iskedyul ng pangangalaga sa sarili tulad ng isang appointment. Kahit 10 minuto ay mahalaga.",
+      "Kung nahihirapan ka sa pagkabalisa o depresyon, maraming community health center ang nag-aalok ng sliding-scale therapy sa maraming wika.",
+      "Kumonekta sa kahit isa pang magulang na nakakaunawa — ang paghihiwalay ay nagpapalaki ng stress. Kahit na ang isang text-based na pagkakaibigan ay nakakatulong.",
+      "Tandaan: ang paghingi ng tulong ay isang lakas, hindi isang kabiguan. Ang pagtanggap ng suporta mula sa pamilya, mga kaibigan, o mga propesyonal ay nagiging mas mabuting magulang."
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "Suporta sa Pamilya",
+    "title": "Tulong Pinansyal at Mga Benepisyo",
+    "summary": "Makakatulong ang maramihang programang pederal at estado na masakop ang mga gastos sa mga serbisyong nauugnay sa autism, therapy, at pang-araw-araw na pangangailangan — kahit para sa mga pamilyang may limitadong dokumentasyon.",
+    "details": "Ang pinansiyal na pasanin ng pagpapalaki ng isang autistic na bata ay makabuluhan — ang therapy, mga medikal na pagbisita, espesyal na kagamitan, at nawawalang sahod ay maaaring magpahirap sa badyet ng sinumang pamilya. Gayunpaman, maraming mga programa ng tulong ang umiiral. Ang SSI (Supplemental Security Income) ay nagbibigay ng buwanang pagbabayad para sa mga batang may kapansanan mula sa mga pamilyang mababa ang kita. Sinasaklaw ng Medicaid ang malawak na mga serbisyo ng therapy sa pamamagitan ng EPSDT. Maraming mga estado ang may mga programang waiver na partikular sa autism na sumasaklaw sa ABA, pahinga, at kagamitan sa pag-aangkop. Sinasaklaw ng Children's Health Insurance Program (CHIP) ang mga bata sa mga pamilyang kumikita ng sobra para sa Medicaid ngunit hindi kayang bumili ng pribadong insurance. Ang ilan sa mga programang ito ay magagamit anuman ang katayuan sa imigrasyon, lalo na para sa mga anak na mamamayan ng US ng mga hindi dokumentadong magulang.",
+    "steps": [
+      "Mag-apply para sa SSI (Supplemental Security Income) sa pamamagitan ng iyong lokal na tanggapan ng Social Security — ang mga batang may autism ay kadalasang kwalipikado batay sa pamantayan sa kapansanan.",
+      "Suriin kung ang iyong anak ay kwalipikado para sa Medicaid o CHIP — ang mga batang US-citizen ay kwalipikado kahit na ang mga magulang ay hindi dokumentado.",
+      "Makipag-ugnayan sa ahensya ng developmental disability ng iyong estado tungkol sa mga programa sa pagwawaksi sa autism — may mga waitlist, kaya mag-apply nang maaga.",
+      "Tingnan ang pahina ng mga mapagkukunang pinansyal ng Autism Speaks (autismspeaks.org/financial-resources) para sa mga grant at mga programa ng tulong.",
+      "Magtanong sa tagapagbigay ng therapy ng iyong anak tungkol sa mga sliding-scale na bayarin o pro bono spot — maraming mga kasanayan ang nagrereserba ng mga lugar para sa mga pamilyang nangangailangan.",
+      "Sumangguni sa mga lokal na nonprofit at simbahan para sa emergency na tulong sa mga gastos na nauugnay sa autism."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "Suporta sa Pamilya",
+    "title": "Alamin ang Iyong Mga Karapatan: Mga Serbisyo sa Imigrasyon at Kapansanan",
+    "summary": "Ang pag-access sa mga serbisyo ng kapansanan para sa iyong anak ay HINDI makakaapekto sa iyong kaso sa imigrasyon. Hindi ka maaaring iulat ng mga paaralan, ospital, at mga tagapagbigay ng therapy sa mga awtoridad sa imigrasyon.",
+    "details": "Maraming pamilyang imigrante ang umiiwas na humingi ng mga serbisyo para sa kanilang autistic na anak dahil sa takot na maakit nito ang pagpapatupad ng imigrasyon o maapektuhan ang kanilang kaso. Ang takot na ito ay naiintindihan ngunit higit sa lahat ay walang batayan. Ang pederal na batas ay nagbabawal sa mga paaralan na magtanong tungkol sa katayuan sa imigrasyon. Pinoprotektahan ng HIPAA ang privacy ng mga medikal na rekord. Ang paggamit ng Medicaid, WIC, mga programa sa pananghalian sa paaralan, o mga serbisyong may kapansanan para sa iyong anak na mamamayan ng US ay hindi binibilang bilang isyu ng 'pampublikong bayad' para sa mga layunin ng imigrasyon (ayon sa kasalukuyang patakaran). Ang mga provider ng therapy, paaralan, at ospital ay karaniwang itinuturing na 'mga sensitibong lokasyon' kung saan limitado ang pagpapatupad ng ICE. Ang pag-unawa sa mga proteksyong ito ay makakatulong sa mga pamilya na ma-access ang mga serbisyong kailangan ng kanilang mga anak nang walang takot.",
+    "steps": [
+      "HINDI MAAARI magtanong ang mga paaralan tungkol sa iyong katayuan sa imigrasyon o katayuan ng iyong anak bilang isang kondisyon ng pagpapatala o mga serbisyo.",
+      "Ang paggamit ng Medicaid, CHIP, o mga serbisyo ng espesyal na edukasyon para sa iyong anak ay HINDI ginagawang isang 'pampublikong bayad' — ang mga ito ay partikular na hindi kasama.",
+      "Kung sinuman sa isang paaralan o opisina ng medikal ay magtanong tungkol sa iyong katayuan sa imigrasyon, maaari kang tumanggi na sagutin. Iulat ito sa distrito ng paaralan.",
+      "Panatilihin ang isang card na naglalaman ng iyong mga karapatan at numero ng abogado ng pang-emergency na imigrasyon. Maraming organisasyon ng legal aid ang nagbibigay ng libreng 'Know Your Rights' card sa maraming wika.",
+      "Makipag-ugnayan sa iyong lokal na Legal Aid Society o ACLU chapter para sa libreng payong legal na nauugnay sa imigrasyon — marami ang may mga espesyal na programa para sa mga pamilyang may mga anak na may kapansanan."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "Edukasyon",
+    "title": "Maagang Pamamagitan (Bahagi C ng IDEA) — Edad 0-3",
+    "summary": "Mga serbisyo ng pederal na maagang interbensyon para sa mga sanggol at paslit na may mga pagkaantala sa pag-unlad, na magagamit ng lahat ng pamilya anuman ang katayuan sa imigrasyon.",
+    "details": "Ang Part C ng IDEA ay isang pederal na programa na nagbibigay ng mga serbisyo ng maagang interbensyon para sa mga sanggol at maliliit na bata (kapanganakan hanggang edad 2) na may mga pagkaantala sa pag-unlad o natukoy na mga kondisyon tulad ng autism. Ang bawat estado ay may namumunong ahensya na nagkoordina ng mga serbisyo kabilang ang speech therapy, occupational therapy, physical therapy, suporta sa pag-uugali, at pagsasanay sa pamilya. Ang mga serbisyo ay inihahatid sa mga natural na kapaligiran gaya ng tahanan o daycare. Palaging libre ang mga pagsusuri, at ibinibigay ang mga serbisyo nang walang bayad o mababang halaga depende sa iyong estado. Hindi kailangan ng isang bata ng pormal na diagnosis ng autism upang makatanggap ng mga serbisyo ng Part C — sapat na ang pagkaantala sa pag-unlad. Isa ito sa pinakamahalagang programa para sa mga pamilyang imigrante dahil ang pagiging karapat-dapat ay ganap na nakabatay sa pangangailangan sa pag-unlad, hindi katayuan sa imigrasyon o kakayahang magbayad.",
+    "steps": [
+      "Makipag-ugnayan sa programa ng maagang interbensyon ng Part C ng iyong estado — hanapin ang iyong estado sa ectacenter.org/contact/ptccord.asp.",
+      "Humiling ng libreng pagsusuri sa pag-unlad — dapat itong kumpletuhin ng programa sa loob ng 45 araw pagkatapos ng referral.",
+      "HINDI mo kailangan ng diagnosis ng autism upang makatanggap ng mga serbisyo — sapat na ang pagkaantala sa pag-unlad.",
+      "Kung karapat-dapat, tumulong sa pagbuo ng Individualized Family Service Plan (IFSP) ng iyong anak na naglilista ng lahat ng serbisyo.",
+      "Magsisimula ang mga serbisyo sa sandaling lagdaan mo ang IFSP — magtanong tungkol sa pagsasalita, OT, PT, at suporta sa pag-uugali.",
+      "Sa edad na 2.5, simulan ang pagpaplano ng paglipat sa mga serbisyo sa preschool (Bahagi B) sa pamamagitan ng iyong distrito ng paaralan."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "Edukasyon",
+    "title": "Pagpaplano ng Transisyon (Edad 14-22)",
+    "summary": "Inaatasan ng IDEA ang mga paaralan na magplano para sa paglipat ng iyong anak sa pang-adultong buhay, kabilang ang trabaho, edukasyon, at malayang pamumuhay, simula sa edad na 16 (edad 14 sa ilang estado).",
+    "details": "Ang pagpaplano ng paglipat ay isang pederal na mandato na bahagi ng IEP na naghahanda sa mga mag-aaral na may mga kapansanan para sa buhay pagkatapos ng high school. Sa ilalim ng IDEA, ang mga layunin at serbisyo sa paglipat ay dapat isama sa IEP simula nang hindi lalampas sa taon na ang mag-aaral ay naging 16, kahit na maraming estado ang nagsisimula sa 14. Ang mga plano ay dapat tumugon sa post-secondary na edukasyon o pagsasanay, trabaho, at kung saan naaangkop, independiyenteng mga kasanayan sa pamumuhay. Para sa mga autistic na mag-aaral, ang pagpaplano ng paglipat ay dapat magsama ng mga vocational assessment, pagsasanay sa mga kasanayan sa trabaho, pagtuturo na nakabatay sa komunidad, pagsasanay sa self-advocacy, at mga koneksyon sa mga ahensya ng serbisyong nasa hustong gulang. Ipinapakita ng pananaliksik na ang mga mag-aaral na may autism ay may ilan sa mga pinakamasamang resulta pagkatapos ng sekondarya kumpara sa iba pang mga kategorya ng kapansanan, na ginagawang kritikal ang kalidad ng pagpaplano ng paglipat. Dapat aktibong lumahok ang mga magulang at dapat anyayahan ang mag-aaral na dumalo sa sarili nilang mga pagpupulong sa IEP sa sandaling magsimula ang pagpaplano ng paglipat.",
+    "steps": [
+      "Hilingin na magsimula ang pagpaplano ng paglipat sa edad na 14 kahit na hindi ito hinihiling ng iyong estado hanggang 16 - ang maagang pagpaplano ay humahantong sa mas mahusay na mga resulta.",
+      "Tiyaking kasama sa IEP ang masusukat na mga layunin pagkatapos ng sekondarya sa edukasyon/pagsasanay, trabaho, at malayang pamumuhay.",
+      "Humiling ng mga vocational assessment at mga karanasan sa trabaho na nakabatay sa komunidad bilang bahagi ng plano ng paglipat.",
+      "Anyayahan ang iyong anak sa kanilang mga pagpupulong sa IEP — ang mga kasanayan sa self-advocacy ay mahalaga para sa tagumpay ng nasa hustong gulang.",
+      "Kumonekta sa ahensya ng bokasyonal na rehabilitasyon ng iyong estado bago umalis ang iyong anak sa paaralan — maaari silang magbigay ng suporta sa trabaho.",
+      "Magsaliksik sa mga ahensya ng serbisyong nasa hustong gulang sa iyong lugar (mga ahensya ng kapansanan sa pag-unlad, mga suportadong programa sa pagtatrabaho) at simulan ang mga referral bago ang edad na 18."
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "Edukasyon",
+    "title": "Mga Sentro ng Pagsasanay at Impormasyon ng Magulang (PTI)",
+    "summary": "Libre, pinondohan ng pederal na mga sentro sa bawat estado na tumutulong sa mga magulang na mag-navigate sa espesyal na edukasyon, maunawaan ang kanilang mga karapatan, at magtataguyod para sa kanilang mga anak.",
+    "details": "Ang Parent Training and Information Centers (PTIs) ay pinondohan sa pamamagitan ng IDEA at umiiral sa bawat estado. Nagbibigay sila ng libreng pagsasanay at suporta sa mga magulang ng mga batang may kapansanan mula sa kapanganakan hanggang edad 26. Tinutulungan ng mga kawani ng PTI ang mga pamilya na maunawaan ang batas sa espesyal na edukasyon, mabisang lumahok sa mga pulong ng IEP, lutasin ang mga hindi pagkakaunawaan sa mga paaralan, at kumonekta sa mga mapagkukunan ng komunidad. Maraming PTI ang nag-aalok ng mga serbisyo sa Espanyol at iba pang mga wika. Ang mga PTI ay hindi kumakatawan sa distrito ng paaralan — sila ay mga independiyenteng organisasyon na naglilingkod sa mga pamilya. Matutulungan ka nila na maunawaan ang iyong mga karapatan sa ilalim ng IDEA, Seksyon 504, at ang ADA. Para sa mga pamilyang imigrante, ang mga PTI ay partikular na mahalaga dahil nagbibigay sila ng libre, kaalamang suporta sa adbokasiya anuman ang katayuan sa imigrasyon.",
+    "steps": [
+      "Hanapin ang PTI ng iyong estado sa parentcenterhub.org/find-your-center — bawat estado ay may kahit isa.",
+      "Tumawag at magtanong tungkol sa mga libreng workshop sa mga karapatan sa IEP, batas sa espesyal na edukasyon, at mga serbisyo ng autism.",
+      "Humiling ng isa-sa-isang suporta para sa paparating na mga pagpupulong ng IEP — maraming PTI ang makakatulong sa iyo na maghanda o dumalo kasama mo.",
+      "Tanungin kung mayroon silang mga tauhan na nagsasalita ng iyong wika o maaaring magbigay ng mga serbisyo sa interpretasyon.",
+      "Dumalo sa mga event ng parent-to-parent na koneksyon upang matugunan ang iba pang mga pamilyang nagna-navigate sa mga katulad na hamon.",
+      "Gamitin ang kanilang resource library para sa mga sample na liham, mga gabay sa karapatan, at impormasyon tungkol sa mga lokal na serbisyo."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "Edukasyon",
+    "title": "Pantulong na Teknolohiya sa Mga Paaralan",
+    "summary": "Sa ilalim ng IDEA, dapat isaalang-alang ng mga paaralan ang pantulong na teknolohiya para sa bawat bata na may IEP at magbigay ng mga kagamitan at serbisyo nang walang bayad kung matukoy ng pangkat ng IEP na kailangan ang mga ito.",
+    "details": "Kasama sa teknolohiyang pantulong (AT) ang anumang device o serbisyo na tumutulong sa isang batang may kapansanan na ma-access ang edukasyon. Para sa mga batang autistic, maaaring isama ng AT ang mga communication device (AAC), visual schedule app, noise-canceling headphones, weighted vests, speech-generating device, text-to-speech software, at mga espesyal na keyboard. Sa ilalim ng IDEA, dapat isaalang-alang ng pangkat ng IEP kung ang isang bata ay nangangailangan ng mga AT device at serbisyo para makatanggap ng FAPE. Kung ang AT ay nakasulat sa IEP, dapat itong ibigay ng distrito ng paaralan nang walang bayad sa pamilya. Hindi maaaring tanggihan ng mga paaralan ang AT dahil sa gastos. Ang pagsasaalang-alang ng AT ay dapat mangyari sa bawat pagpupulong ng IEP, at ang mga pamilya ay maaaring humiling ng pagsusuri sa AT anumang oras. Maraming estado ang mayroon ding mga AT lending library kung saan maaaring humiram ang mga pamilya ng mga device upang subukan bago mag-commit.",
+    "steps": [
+      "Sa susunod na pulong ng IEP ng iyong anak, hilingin na pormal na isaalang-alang ang pantulong na teknolohiya — ito ay kinakailangan ng IDEA.",
+      "Kung kailangan ang AT, humiling ng pormal na pagsusuri sa AT ng isang espesyalista — dapat ibigay ito ng paaralan nang walang bayad.",
+      "Galugarin ang mga opsyon sa AT sa pamamagitan ng AT lending library ng iyong estado — karamihan sa mga estado ay mayroong isa (hanapin ang sa iyo sa atap.org).",
+      "Kung kasama ang AT sa IEP, dapat magkaloob, magpanatili, at magsanay ang paaralan ng mga tauhan sa paggamit ng mga device.",
+      "Maaaring dalhin ng iyong anak ang mga AT device sa bahay kung matukoy ng pangkat ng IEP na kailangan ang paggamit sa bahay para sa FAPE.",
+      "Kung tumanggi ang paaralan sa AT, hilingin ang pagtanggi nang nakasulat at isaalang-alang ang paghahain ng hindi pagkakaunawaan sa pamamagitan ng pamamagitan o angkop na proseso."
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "Serbisyo ng Estado",
+    "title": "Mga Ahensya ng May Kapansanan sa Pag-unlad ng Estado",
+    "summary": "Ang bawat estado ay may isang ahensya ng kapansanan sa pag-unlad na nag-uugnay ng mga serbisyo para sa mga indibidwal na may autism at iba pang mga kapansanan sa pag-unlad.",
+    "details": "Ang mga ahensya ng state developmental disability (DD) ay nangangasiwa ng mga programa at pagpopondo para sa mga indibidwal na may mga kapansanan sa pag-unlad kabilang ang autism. Karaniwang kasama sa mga serbisyo ang mga pagsusuri sa diagnostic, pamamahala ng kaso, mga serbisyong nakabatay sa tahanan at komunidad, mga suporta sa tirahan, mga programa sa araw, suportadong trabaho, pangangalaga sa pahinga, at suporta sa pamilya. Sa ilang mga estado (tulad ng California), ang mga serbisyo ay ibinibigay sa pamamagitan ng mga sentrong pangrehiyon. Sa iba, ang ahensya ng DD ng estado ay nakikipagkontrata sa mga lokal na tagapagkaloob. Ang mga ahensyang ito ay ang gateway sa Medicaid waiver programs, na maaaring pondohan ang ABA therapy, respite care, at iba pang kritikal na serbisyo. Maraming ahensya ng DD ang may mahabang listahan ng paghihintay, kaya mahalaga ang pag-apply nang maaga. Ang mga serbisyo ay karaniwang magagamit anuman ang katayuan sa imigrasyon, kahit na ang mga serbisyong pinondohan ng Medicaid ay maaaring may mga kinakailangan sa pagiging karapat-dapat.",
+    "steps": [
+      "Hanapin ang ahensya ng DD ng iyong estado sa nasddds.org/state-agencies — bawat estado ay may isa.",
+      "Makipag-ugnayan sa kanila upang malaman kung anong mga serbisyo ang magagamit para sa mga batang may autism sa iyong estado.",
+      "Magtanong tungkol sa mga programa ng pagwawaksi ng Medicaid — mag-aplay para sa lahat ng waiver na maaaring kuwalipikado ng iyong anak, dahil ang mga listahan ng paghihintay ay maaaring tumagal ng maraming taon.",
+      "Humiling ng service coordinator o case manager na makakatulong sa pag-navigate sa mga available na programa.",
+      "Magtanong tungkol sa mga serbisyo ng suporta sa pamilya: pagsasanay ng magulang, suporta sa kapatid, pangangalaga sa pahinga, at tulong pinansyal.",
+      "Kung ang iyong anak ay malapit nang matanda, magtanong tungkol sa mga serbisyo sa edad ng paglipat at mga suportadong programa sa pagtatrabaho."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "Serbisyo ng Estado",
+    "title": "Home and Community Based Services (HCBS) Waivers",
+    "summary": "Pinopondohan ng Medicaid HCBS ang mga serbisyo ng autism sa iyong tahanan at komunidad, kabilang ang ABA therapy, pangangalaga sa pahinga, at personal na suporta — madalas anuman ang kita ng pamilya.",
+    "details": "Ang mga waiver ng HCBS ay nagpapahintulot sa mga estado na magbigay ng mga serbisyong pinondohan ng Medicaid sa mga tahanan at komunidad kaysa sa mga institusyon. Para sa mga batang may autism, maaaring saklawin ng mga waiver na ito ang ABA therapy, speech therapy, occupational therapy, respite care, tulong sa personal na pangangalaga, suportadong trabaho, day habilitation, pantulong na teknolohiya, pagbabago sa kapaligiran, at pagsasanay sa pamilya. Ang pagiging karapat-dapat ay karaniwang nakabatay sa antas ng kapansanan ng bata, hindi sa kita ng pamilya — ang kita ng bata ay itinuturing na hiwalay sa mga magulang. Ang ilang mga estado ay may mga waiver na partikular sa autism (tulad ng Autism Waiver ng Maryland) habang ang iba ay kinabibilangan ng autism sa ilalim ng mas malawak na mga waiver ng DD. Ang mga listahan ng paghihintay ay maaaring napakahaba — minsan 5-10 taon — kaya ang pag-apply nang maaga hangga't maaari ay kritikal. Maaari kang nasa maramihang waiver wait list nang sabay-sabay.",
+    "steps": [
+      "Makipag-ugnayan sa opisina ng Medicaid ng iyong estado o ahensya ng DD para malaman kung aling mga waiver ng HCBS ang nagsisilbi sa mga batang may autism.",
+      "Mag-apply para sa bawat waiver na maaaring kuwalipikado ng iyong anak — maaari kang nasa maraming listahan ng paghihintay nang sabay.",
+      "Magtanong tungkol sa iyong posisyon sa listahan ng paghihintay at tinantyang oras ng paghihintay — mag-follow up tuwing 3-6 na buwan.",
+      "Magtipon ng dokumentasyon: autism diagnosis, functional assessments, medical records, at school evaluations.",
+      "Kapag naaprubahan, makipagtulungan sa iyong tagapag-ugnay ng serbisyo upang bumuo ng isang plano ng serbisyo na nakasentro sa tao.",
+      "Suriin ang iyong plano taun-taon at humiling ng mga pagbabago habang nagbabago ang mga pangangailangan — may karapatan kang umapela sa anumang pagtanggi sa serbisyo."
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "Serbisyo ng Estado",
+    "title": "Mga Serbisyo sa Vocational Rehabilitation (VR).",
+    "summary": "Libreng serbisyo sa trabaho na pinondohan ng estado para sa mga indibidwal na may mga kapansanan, kabilang ang pagsasanay sa trabaho, pagpapayo sa karera, suportadong trabaho, at paglalagay ng trabaho.",
+    "details": "Ang Vocational Rehabilitation (VR) ay isang state-federal na programa na pinahintulutan sa ilalim ng Rehabilitation Act of 1973 na tumutulong sa mga indibidwal na may mga kapansanan na maghanda, makakuha, at mapanatili ang trabaho. Ang bawat estado ay may VR agency na nagbibigay ng mga indibidwal na serbisyo kabilang ang career counseling, vocational assessments, job skills training, suportadong trabaho, pantulong na teknolohiya para sa trabaho, job coaching, at job placement. Para sa mga autistic na young adult at transition-age na kabataan, maaaring maging kritikal na tulay ang VR mula sa paaralan patungo sa trabaho. Ang mga serbisyo ng VR ay libre at magagamit ng sinumang may kapansanan na lumilikha ng malaking hadlang sa pagtatrabaho. Ang mga serbisyo sa paglipat ng pre-employment ay magagamit sa mga mag-aaral na may mga kapansanan na edad 14-21 bago pa man sila mag-apply para sa VR. Kumonekta sa VR bago umalis ang iyong anak sa paaralan para sa pinakamadaling paglipat.",
+    "steps": [
+      "Hanapin ang ahensya ng VR ng iyong estado sa rsa.ed.gov/about/states — mayroong 78 ahensya ng VR sa buong bansa.",
+      "Mag-apply para sa mga serbisyo ng VR — ang pagiging kwalipikado ay nangangailangan ng kapansanan na lumilikha ng malaking hadlang sa pagtatrabaho.",
+      "Kung ang iyong anak ay nasa paaralan pa rin (edad 14-21), magtanong tungkol sa mga serbisyo ng transisyon bago ang trabaho na available nang walang kumpletong VR application.",
+      "Makipagtulungan sa iyong tagapayo sa VR upang bumuo ng isang Individualized Plan for Employment (IPE) na may mga partikular na layunin.",
+      "Magtanong tungkol sa mga suportadong serbisyo sa pagtatrabaho kabilang ang job coaching at on-the-job na suporta para sa mga autistic na indibidwal.",
+      "Ang mga serbisyo ng VR ay nagpapatuloy hanggang sa makamit ng indibidwal ang matatag na trabaho — regular na mag-follow up sa iyong tagapayo."
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "Immigration",
+    "title": "Aplikasyon ng ITIN para sa Mga Pamilyang Walang Dokumento",
+    "summary": "Binibigyang-daan ka ng Individual Taxpayer Identification Number (ITIN) na maghain ng mga buwis, magbukas ng mga bank account, at mag-access ng ilang serbisyo nang walang Social Security number.",
+    "details": "Ang ITIN ay isang numero sa pagpoproseso ng buwis na ibinigay ng IRS sa mga indibidwal na kinakailangang magkaroon ng numero ng pagkakakilanlan ng nagbabayad ng buwis sa U.S. ngunit hindi kwalipikado para sa isang numero ng Social Security. Mula noong 1996, ang IRS ay nag-isyu ng mga ITIN sa mga undocumented na imigrante at sa kanilang mga dependent. Binibigyang-daan ka ng ITIN na maghain ng mga federal tax return, magbukas ng mga bank account, mag-apply para sa estado at lokal na mga benepisyo, at magtatag ng rekord sa pananalapi. Para mag-apply, kumpletuhin ang IRS Form W-7 at isumite ito kasama ng federal tax return at patunay ng pagkakakilanlan (pasaporte, consular ID, o iba pang tinatanggap na dokumento). Maaari kang mag-apply sa pamamagitan ng koreo, nang personal sa IRS Taxpayer Assistance Center, o sa pamamagitan ng Certified Acceptance Agent. TANDAAN: Kasalukuyang hinaharangan ng utos ng korte noong Nobyembre 2025 ang isang kasunduan sa pagbabahagi ng data ng IRS-ICE, ngunit dapat malaman ng mga pamilya na maaaring magbago ang sitwasyong ito.",
+    "steps": [
+      "Ipunin ang mga kinakailangang dokumento: ang isang wastong pasaporte ay ang pinakakaraniwang tinatanggap na standalone ID na dokumento.",
+      "Kumpletuhin ang IRS Form W-7 — maaari mong i-download ito sa irs.gov o humingi ng tulong mula sa isang Certified Acceptance Agent.",
+      "Isumite ang Form W-7 kasama ang iyong federal tax return (Form 1040) — Ang mga ITIN ay maaari lamang maibigay kapag nagsampa ng mga buwis.",
+      "Humanap ng Certified Acceptance Agent (CAA) na malapit sa iyo sa irs.gov — maaari nilang i-verify ang mga dokumento para hindi mo na kailangang magpadala sa koreo ng mga orihinal.",
+      "Maglaan ng 7-11 na linggo para sa pagproseso — mas matagal sa panahon ng buwis (Enero hanggang Abril).",
+      "I-renew ang iyong ITIN kung ito ay nag-expire na — ang mga hindi nagamit na ITIN ay mag-e-expire pagkatapos ng 3 magkakasunod na taon ng hindi paggamit."
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "Immigration",
+    "title": "Mga Community Health Center (FQHCs)",
+    "summary": "Ang mga Federally Qualified Health Center ay nagsisilbi sa lahat anuman ang katayuan sa imigrasyon o kakayahang magbayad, na may mga bayarin batay sa isang sliding scale na nakatali sa iyong kita.",
+    "details": "Ang Federally Qualified Health Centers (FQHCs) ay mga organisasyon sa pangangalagang pangkalusugan na nakabatay sa komunidad na nagbibigay ng komprehensibong pangunahing pangangalaga, dental, kalusugan ng isip, at mga serbisyo ng suporta sa mga populasyon na kulang sa serbisyo. Ayon sa batas, dapat pagsilbihan ng mga FQHC ang lahat ng pasyente anuman ang katayuan sa imigrasyon, saklaw ng insurance, o kakayahang magbayad. Gumagamit sila ng sliding fee scale batay sa kita ng sambahayan — ang mga pamilya sa o mas mababa sa 100% ng antas ng pederal na kahirapan ay karaniwang tumatanggap ng pangangalaga nang libre o para sa isang nominal na singil. Nagsilbi ang mga FQHC sa mahigit 30 milyong pasyente noong 2023, kabilang ang maraming pamilyang imigrante. Para sa mga batang autistic, ang mga FQHC ay maaaring magbigay ng mga pagsusuri sa pag-unlad, mga referral para sa mga pagsusuri sa diagnostic, pangunahing pangangalaga, at mga koneksyon sa mga espesyalista. Maraming mga FQHC ang mayroong bilingual na kawani at mga serbisyo sa interpretasyon.",
+    "steps": [
+      "Maghanap ng FQHC na malapit sa iyo sa findahealthcenter.hrsa.gov — ilagay ang iyong zip code para maghanap.",
+      "Tumawag para mag-iskedyul ng appointment — ipaliwanag na kailangan mo ng mga serbisyo at magtanong tungkol sa mga sliding-scale na bayarin.",
+      "Magdala ng patunay ng kita (mga pay stub, bank statement, o self-declaration) upang matukoy ang antas ng iyong bayad.",
+      "HINDI mo kailangang magbigay ng mga dokumento sa imigrasyon, numero ng Social Security, o insurance.",
+      "Magtanong tungkol sa mga pagsusuri sa pag-unlad para sa iyong anak at mga referral sa mga tagapagbigay ng pagsusuri sa autism.",
+      "Magtanong tungkol sa mga serbisyo sa kalusugan ng isip para sa iyong sarili — maraming FQHC ang nag-aalok ng pagpapayo sa maraming wika."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "Immigration",
+    "title": "Special Immigrant Juvenile Status (SIJS)",
+    "summary": "Isang landas patungo sa legal na permanenteng paninirahan para sa mga batang imigrante na wala pang 21 taong gulang na inabuso, inabandona, o pinabayaan ng isa o parehong mga magulang.",
+    "details": "Ang Special Immigrant Juvenile Status (SIJS) ay isang uri ng humanitarian na proteksyon na maaaring magbigay ng daan patungo sa green card para sa mga batang imigrante na nakaligtas sa pang-aabuso, pag-abandona, o pagpapabaya. Upang maging kwalipikado, ang bata ay dapat na wala pang 21 taong gulang, walang asawa, at may utos ng hukuman ng estado na napag-alaman na sila ay inabuso, pinabayaan, o inabandona ng isa o ng parehong mga magulang at na hindi para sa kanilang pinakamahusay na interes na bumalik sa kanilang sariling bansa. Para sa mga batang may autism, maaaring may kaugnayan ang SIJS kapag inabandona ng isang magulang ang pamilya o kapag ang bata ay nakaranas ng kapabayaan na may kaugnayan sa kanilang mga pangangailangan sa kapansanan. Ang proseso ay nagsasangkot ng parehong mga paglilitis sa korte ng estado (upang makuha ang mga kinakailangang natuklasan) at mga pederal na paglilitis sa imigrasyon (ang petisyon ng SIJS at aplikasyon ng green card). Ang libreng legal na tulong ay makukuha sa pamamagitan ng mga organisasyong legal na tulong sa imigrasyon.",
+    "steps": [
+      "Kumonsulta sa isang abogado ng imigrasyon na dalubhasa sa mga kaso ng mga bata — maraming organisasyon ng legal aid ang humahawak ng mga kaso ng SIJS nang libre.",
+      "Tukuyin kung natutugunan ng iyong anak ang mga kinakailangan: wala pang 21 taong gulang, walang asawa, at napapailalim sa pang-aabuso/pag-abandona/pagpapabaya ng isang magulang.",
+      "Kunin ang mga kinakailangang natuklasan mula sa korte ng estado (pamilya, juvenile, o probate court depende sa iyong estado).",
+      "I-file ang Form I-360 (Special Immigrant Petition) sa USCIS kasama ang utos ng hukuman ng estado.",
+      "Kapag naaprubahan ang SIJS, mag-apply para sa legal na permanenteng paninirahan (green card) sa pamamagitan ng pag-file ng Form I-485.",
+      "Makipag-ugnayan sa mga organisasyon tulad ng Safe Passage Project, NIJC, o CLINIC para sa libreng legal na representasyon."
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "Immigration",
+    "title": "Pampublikong Panuntunan sa Pagsingil: Ano ang Bilangin at Ano ang Hindi",
+    "summary": "Ang paggamit ng mga serbisyo sa kapansanan, Medicaid, CHIP, WIC, mga tanghalian sa paaralan, o espesyal na edukasyon para sa iyong anak ay HINDI ibibilang laban sa iyo sa mga paglilitis sa imigrasyon sa ilalim ng kasalukuyang batas.",
+    "details": "Ang tuntunin sa pagsingil ng publiko ay isa sa pinakamalaking pinagmumulan ng takot para sa mga pamilyang imigrante. Sa ilalim ng panuntunang kasalukuyang may bisa (2022), ang tanging mga benepisyo na binibilang sa pagtukoy ng pampublikong singil ay SSI (Supplemental Security Income), TANF cash assistance, at pangmatagalang institusyonalisasyon sa gastos ng gobyerno. Ang Medicaid (maliban sa pangmatagalang institusyonalisasyon), CHIP, SNAP, WIC, mga pananghalian sa paaralan, mga benepisyo sa pabahay, Head Start, espesyal na edukasyon, at mga serbisyo ng maagang interbensyon ay HINDI binibilang. Ang mga benepisyong natanggap ng iyong mga anak sa kanilang sariling ngalan ay HINDI iniuugnay sa iyo. Maaaring palawakin ng isang iminungkahing panuntunan na na-publish noong Nobyembre 2025 ang mahalaga, ngunit HINDI pa ito gumagana at nahaharap sa mga legal na hamon. Sa ilalim ng kasalukuyang batas, ang paggamit ng mga serbisyo sa kapansanan para sa iyong autistic na anak ay hindi makakaapekto sa iyong kaso sa imigrasyon.",
+    "steps": [
+      "Alamin ang mga katotohanan: Ang Medicaid, CHIP, WIC, SNAP, mga tanghalian sa paaralan, Head Start, at espesyal na edukasyon ay HINDI binibilang bilang pampublikong bayad.",
+      "Ang mga benepisyong natatanggap ng iyong mga anak na mamamayan ng US ay HINDI binibilang laban sa iyo — tanging ang mga benepisyong personal mong natatanggap ang mahalaga.",
+      "Ang tanging mga benepisyo na kasalukuyang binibilang ay SSI, TANF cash, at pangmatagalang institusyonalisasyon sa gastos ng gobyerno.",
+      "Kung mayroon kang mga alalahanin sa imigrasyon, kumunsulta sa isang abugado sa imigrasyon bago gumawa ng mga desisyon sa benepisyo — maraming organisasyon ng legal na tulong ang nag-aalok ng mga libreng konsultasyon.",
+      "Manatiling may alam tungkol sa mga pagbabago sa tuntunin sa pampublikong pagsingil sa pamamagitan ng NILC (nilc.org) at ILRC (ilrc.org).",
+      "Huwag umalis sa mga programang batay sa takot lamang — kumuha ng tumpak na payong legal na partikular sa iyong sitwasyon."
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "Insurance at Pagpopondo",
+    "title": "Mga Utos ng Seguro sa Autism ng Estado",
+    "summary": "Lahat ng 50 estado ay nangangailangan na ngayon ng mga plano sa seguro upang masakop ang mga serbisyo ng autism kabilang ang ABA therapy, kahit na ang mga detalye ng saklaw tulad ng mga limitasyon sa edad at mga limitasyon ng dolyar ay nag-iiba ayon sa estado.",
+    "details": "Ang lahat ng 50 estado sa US ay nagpatupad ng mga mandato ng seguro sa autism na nangangailangan ng mga plano sa segurong pangkalusugan upang masakop ang diagnosis at paggamot ng autism spectrum disorder, kabilang ang Applied Behavior Analysis (ABA). Gayunpaman, malaki ang pagkakaiba ng mga detalye ng saklaw ayon sa estado. Ang ilang mga estado ay nagtatakda ng mga taunang benepisyo ng ABA (mula sa $36,000 hanggang higit sa $72,000 bawat taon), habang ang iba ay walang limitasyon. Iba-iba ang mga limitasyon sa edad — ang ilang mga estado ay sumasakop lamang sa mga bata habang ang iba ay nag-uutos ng pagsakop para sa lahat ng edad. Ang mga plano ng tagapag-empleyo na pinondohan ng sarili (mga plano ng ERISA) ay hindi kasama sa mga mandato ng estado ngunit maaaring sumailalim sa mga kinakailangan sa parity ng pederal na kalusugan ng isip. Kung tinanggihan ng iyong insurance ang mga serbisyo ng autism, may karapatan kang umapela. Ang pederal na Mental Health Parity and Addiction Equity Act ay nag-aatas na ang mga benepisyo sa kalusugan ng isip (kabilang ang paggamot sa autism) ay saklawin sa par sa mga benepisyong medikal/operasyon.",
+    "steps": [
+      "Hanapin ang partikular na autism insurance mandate ng iyong estado sa ncsl.org/health/autism-and-insurance-coverage-state-laws.",
+      "Humiling ng kopya ng mga benepisyo ng autism ng iyong plano nang nakasulat — magtanong tungkol sa saklaw ng ABA, mga limitasyon sa edad, mga limitasyon sa session, at mga limitasyon ng dolyar.",
+      "Kumuha ng referral mula sa doktor ng iyong anak na tumutukoy sa inirerekomendang paggamot at medikal na pangangailangan.",
+      "Kung tinanggihan, hilingin ang pagtanggi sa pamamagitan ng sulat na may partikular na pagsipi sa patakaran at maghain ng panloob na apela.",
+      "Kung nabigo ang panloob na apela, maghain ng panlabas na apela sa departamento ng seguro ng iyong estado.",
+      "Makipag-ugnayan sa organisasyon ng Protection & Advocacy ng iyong estado para sa libreng tulong sa mga apela sa insurance."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "Insurance at Pagpopondo",
+    "title": "Katie Beckett / TEFRA Waiver",
+    "summary": "Nagbibigay ng saklaw ng Medicaid para sa mga batang may malubhang kapansanan na naninirahan sa bahay, batay sa kita ng bata (hindi ng mga magulang), na ginagawang karapat-dapat ang karamihan sa mga bata anuman ang kita ng pamilya.",
+    "details": "Ang opsyong Katie Beckett (tinatawag ding TEFRA) ay nagpapahintulot sa mga estado na magbigay ng Medicaid sa mga batang may malubhang kapansanan na nakatira sa bahay, sa pamamagitan ng pagbibilang lamang ng kita ng bata kaysa sa kita ng mga magulang. Dahil ang karamihan sa mga bata ay walang kita, ginagawa nitong karapat-dapat ang karamihan sa mga batang may makabuluhang kapansanan para sa Medicaid kahit gaano pa kalaki ang kinikita ng kanilang mga magulang. Ang programa ay nilikha noong 1982 matapos si Katie Beckett, isang bata na nasa ventilator, ay makakatanggap lamang ng pangangalagang pinondohan ng Medicaid sa isang ospital kaysa sa bahay dahil masyadong mataas ang kita ng kanyang mga magulang. Sa kasalukuyan, humigit-kumulang 24 na estado ang nag-aalok ng ilang anyo ng saklaw ng Katie Beckett/TEFRA. Para sa mga batang may autism na nangangailangan ng mga mamahaling therapy tulad ng ABA, ang programang ito ay maaaring makapagpabago ng buhay dahil nagbibigay ito ng saklaw ng Medicaid na kinabibilangan ng mga benepisyo ng EPSDT. Makipag-ugnayan sa opisina ng Medicaid ng iyong estado upang malaman kung ang iyong estado ay nag-aalok ng opsyong ito.",
+    "steps": [
+      "Suriin kung nag-aalok ang iyong estado ng opsyon na Katie Beckett/TEFRA sa kidswaivers.org o sa pamamagitan ng pagtawag sa opisina ng Medicaid ng estado mo.",
+      "Upang maging kwalipikado, dapat matugunan ng iyong anak ang pamantayan sa kapansanan para sa SSI (mga makabuluhang limitasyon sa pagganap dahil sa autism).",
+      "Mag-apply sa pamamagitan ng opisina ng Medicaid ng iyong estado — sinusuri ng aplikasyon ang antas ng kapansanan ng bata, hindi ang pananalapi ng pamilya.",
+      "Magtipon ng medikal na dokumentasyon: autism diagnosis, functional assessments, therapy records, at mga pahayag ng doktor tungkol sa mga pangangailangan sa pangangalaga.",
+      "Kung naaprubahan, ang iyong anak ay makakatanggap ng buong benepisyo ng Medicaid kabilang ang EPSDT — ABA, pagsasalita, OT, at lahat ng serbisyong medikal na kinakailangan.",
+      "Kung ang iyong estado ay hindi nag-aalok ng Katie Beckett, magtanong tungkol sa iba pang mga Medicaid pathway para sa mga batang may kapansanan (mga waiver ng HCBS, mga programang medikal na nangangailangan)."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "Insurance at Pagpopondo",
+    "title": "ABLE Accounts (Tax-Advantaged Savings)",
+    "summary": "Mga savings account na walang buwis para sa mga gastos na nauugnay sa kapansanan na hindi nakakaapekto sa pagiging karapat-dapat para sa SSI, Medicaid, o iba pang mga benepisyong nasubok sa paraan.",
+    "details": "Ang mga ABLE (Achieving a Better Life Experience), na pinahintulutan ng ABLE Act of 2014, ay mga tax-advantaged savings account para sa mga indibidwal na nagsimula ang kapansanan bago ang edad na 46. Ang mga kontribusyon ay lumalaki nang walang buwis at ang mga withdrawal ay walang buwis kapag ginamit para sa mga qualified disability expenses (QDEs) kabilang ang edukasyon, personal na suporta, teknolohiya sa transportasyon, kalusugan at serbisyo. Ang unang $100,000 sa isang ABLE account ay hindi kasama sa limitasyon ng mapagkukunan ng SSI na $2,000, ibig sabihin ay makakatipid ng pera ang iyong anak nang hindi nawawala ang pagiging karapat-dapat sa SSI o Medicaid. Ang mga limitasyon sa taunang kontribusyon ay $18,000 (2025), na may mga karagdagang kontribusyon na pinapayagan para sa mga nagtatrabahong benepisyaryo. Karamihan sa mga estado ay nag-aalok ng mga programang ABLE, at maaari kang magbukas ng account sa anumang estado. Para sa mga pamilya ng mga batang autistic, ang mga ABLE account ay isa sa mga pinakamahusay na tool para sa pag-iipon para sa mga gastos na may kaugnayan sa kapansanan habang pinapanatili ang pagiging kwalipikado sa mga benepisyo.",
+    "steps": [
+      "Suriin ang pagiging karapat-dapat: ang benepisyaryo ng account ay dapat na may kapansanan na nagsimula bago ang edad na 46.",
+      "Ihambing ang mga programang ABLE ng estado sa ablenrc.org — maaari kang magbukas ng account sa anumang estado, hindi lamang sa iyong sarili.",
+      "Magbukas ng account online sa pamamagitan ng ABLE program ng iyong napiling estado — ang proseso ay katulad ng pagbubukas ng bank account.",
+      "Mag-set up ng mga awtomatikong kontribusyon — kahit maliit na regular na halaga ay nabubuo sa paglipas ng panahon.",
+      "Panatilihin ang mga talaan ng lahat ng mga withdrawal at kung paano ginagastos ang mga pondo sa mga kwalipikadong gastusin sa kapansanan.",
+      "Ang unang $100,000 ay HINDI binibilang laban sa $2,000 na limitasyon ng mapagkukunan ng SSI — mag-ipon nang walang takot na mawalan ng mga benepisyo."
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "Insurance at Pagpopondo",
+    "title": "Mga Autism Grant at Scholarship Program",
+    "summary": "Mga pinansiyal na gawad mula sa mga nonprofit na organisasyon na tumutulong sa pagsakop sa mga gastos sa therapy, pagsusuri sa diagnostic, teknolohiyang pantulong, at iba pang mga gastos na nauugnay sa autism.",
+    "details": "Ang ilang mga nonprofit na organisasyon ay nagbibigay ng mga pinansyal na gawad sa mga pamilya ng mga batang may autism. Ang ACT Today (Autism Care and Treatment Today) ay nag-aalok ng mga gawad na hanggang $5,000 para sa mga pamilyang hindi kayang bayaran o ma-access ang paggamot. Ang Autism Speaks Autism Care Grant ay nagbibigay ng $500 para sa mga gastos na nauugnay sa autism. Ang United Healthcare Children's Foundation (UHCCF) ay nag-aalok ng mga gawad hanggang $5,000 bawat taon para sa mga gastusing medikal na hindi sakop ng insurance. Marami sa mga gawad na ito ay hindi nangangailangan ng numero ng Social Security o partikular na katayuan sa imigrasyon. Bukod pa rito, nag-aalok ang ilang estado ng mga programa sa iskolarsip ng autism na nagpopondo ng tuition o therapy sa pribadong paaralan para sa mga batang may autism (gaya ng Programa ng Autism Scholarship ng Ohio). Ang mga lokal na autism society, community foundation, at mga organisasyon ng serbisyo (Lions Club, Rotary, Elks) ay maaari ding magbigay ng tulong pinansyal.",
+    "steps": [
+      "Mag-apply para sa mga grant ng ACT Today sa act-today.org — mga grant na sumasaklaw sa therapy, mga pagsusuri, at teknolohiyang pantulong.",
+      "Mag-apply para sa Autism Speaks Autism Care Grant sa autismspeaks.org — $500 na gawad para sa mga gastos na nauugnay sa autism.",
+      "Tingnan ang mga gawad ng UHCCF sa uhccf.org — hanggang $5,000/taon para sa mga gastusing medikal na hindi saklaw ng insurance.",
+      "Maghanap ng mga autism scholarship sa iyong estado — pinopondohan ng ilang estado ang pribadong paaralan o therapy para sa mga batang autistic.",
+      "Makipag-ugnayan sa iyong lokal na kaakibat ng Autism Society para sa impormasyon tungkol sa mga lokal na gawad at mga programa sa tulong pinansyal.",
+      "Magtanong sa mga tagapagbigay ng therapy tungkol sa mga pro bono spot, sliding-scale na bayarin, o mga plano sa pagbabayad — maraming nakareserbang lugar para sa mga pamilyang nangangailangan."
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "Mga therapy",
+    "title": "Augmentative at Alternative Communication (AAC)",
+    "summary": "Mga sistema at device ng komunikasyon na tumutulong sa mga batang hindi nagsasalita o hindi gaanong nagsasalita na ipahayag ang kanilang mga iniisip, pangangailangan, at damdamin sa pamamagitan ng mga larawan, simbolo, o teknolohiyang bumubuo sa pagsasalita.",
+    "details": "Ang Augmentative and Alternative Communication (AAC) ay sumasaklaw sa lahat ng anyo ng komunikasyon maliban sa oral speech. Para sa autistic na mga bata na hindi nagsasalita o minimally verbal, ang AAC ay maaaring maging transformative. Ang mga opsyon ay mula sa low-tech (picture boards, PECS — Picture Exchange Communication System, mga aklat sa komunikasyon) hanggang sa high-tech (mga tablet-based na app tulad ng Proloquo2Go o TouchChat, mga dedikadong speech-generating device). Patuloy na ipinapakita ng pananaliksik na HINDI pinipigilan ng AAC ang mga bata na magkaroon ng pagsasalita — sa katunayan, ipinapakita ng mga pag-aaral na maaari nitong mapataas ang verbal na komunikasyon. Walang mga kinakailangan para sa paggamit ng AAC — ang mga bata sa anumang edad o antas ng kakayahan ay maaaring makinabang. Sa ilalim ng IDEA, kung ang isang AAC device ay natukoy na kinakailangan para sa FAPE, dapat itong ibigay ng paaralan nang walang bayad. Maaari ding saklawin ng Medicaid at insurance ang mga AAC device na may wastong dokumentasyon ng medikal na pangangailangan.",
+    "steps": [
+      "Tanungin ang SLP ng iyong anak tungkol sa mga opsyon sa AAC — dapat suriin ng isang speech-language pathologist kung aling uri ng AAC ang pinakamainam para sa iyong anak.",
+      "Magsimula sa kung ano ang gumagana: kahit na ang pagturo, mga galaw, at mga picture card ay binibilang bilang AAC — hindi mo kailangan ng mamahaling teknolohiya.",
+      "Subukan ang mga tablet-based na AAC app (Proloquo2Go, TouchChat, LAMP Words for Life) — marami ang nag-aalok ng mga libreng pagsubok.",
+      "Humiling ng pagsusuri sa AAC sa pamamagitan ng IEP ng paaralan ng iyong anak — kung kailangan ang AAC para sa edukasyon, dapat itong ibigay ng paaralan nang libre.",
+      "Mag-apply para sa pagpopondo ng AAC device sa pamamagitan ng Medicaid, insurance, o programang pantulong na teknolohiya ng iyong estado.",
+      "Gamitin ang modelong AAC sa iyong sarili — pindutin ang mga button sa device habang nagsasalita para ipakita sa iyong anak kung paano ito gumagana (ito ay tinatawag na 'aided language stimulation')."
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "Mga therapy",
+    "title": "Pagsasanay sa Pamamagitan na Ipinapatupad ng Magulang",
+    "summary": "Mga programang nakabatay sa ebidensya na nagsasanay sa mga magulang na maghatid ng mga therapeutic strategies kasama ang kanilang anak sa bahay, na makabuluhang nagpapalawak ng epekto ng propesyonal na therapy.",
+    "details": "Ang Parent-Implemented Intervention (PII) ay isang kasanayang nakabatay sa ebidensya na kinikilala ng National Professional Development Center sa ASD. Ang pananaliksik mula sa isang meta-analysis ng 51 randomized na kinokontrol na mga pagsubok na kinasasangkutan ng halos 3,000 mga bata ay nagpapakita na ang mga interbensyon na ipinatupad ng magulang ay gumagawa ng katamtamang malakas na mga benepisyo sa mga kasanayang panlipunan, komunikasyon, adaptive na pag-uugali, at pagbabawas ng mga mapaghamong pag-uugali. Ang PII ay partikular na mahalaga para sa mga pamilyang imigrante na maaaring may limitadong access sa mga propesyonal na therapist dahil sa insurance, heograpiko, o mga hadlang sa wika. Ang mga programa tulad ng Parents Taking Action (PTA) ay inangkop sa kultura para sa mga pamilyang Chinese at Korean na imigrante na may makabuluhang positibong resulta. Ang pagsasanay ng magulang ay kadalasang bahagi ng ABA, speech therapy, at mga serbisyo ng maagang interbensyon, at maaaring maihatid sa pamamagitan ng telehealth. Ang IDEA Part C ay tahasang sumusuporta sa parent coaching bilang isang modelo ng paghahatid ng serbisyo.",
+    "steps": [
+      "Tanungin ang therapist ng iyong anak (BCBA, SLP, o OT) tungkol sa mga bahagi ng pagsasanay ng magulang — karamihan sa mga programang nakabatay sa ebidensya ay kinabibilangan ng mga ito.",
+      "Humiling ng pagtuturo ng magulang bilang isang partikular na serbisyo sa IEP o IFSP ng iyong anak — maaari itong maging isang standalone na serbisyo.",
+      "Galugarin ang libreng online na pagsasanay ng magulang sa pamamagitan ng mga tool kit ng Autism Speaks at ang Autism Internet Modules (autisminternetmodules.org).",
+      "Maghanap ng mga programang inangkop sa kultura tulad ng Parents Taking Action (PTA) kung available sa iyong wika at komunidad.",
+      "Magsanay ng mga diskarte sa interbensyon sa mga pang-araw-araw na gawain — ang mga pagkain, oras ng pagligo, paglalaro, at mga gawain ay natural na mga pagkakataon sa pag-aaral.",
+      "Subaybayan ang pag-unlad ng iyong anak at magbahagi ng mga obserbasyon sa propesyonal na koponan — nakakatulong ang iyong data sa paggabay sa mga pagsasaayos ng paggamot."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "Suporta sa Krisis",
+    "title": "Pag-iwas sa Paglaboy-laboy/Pag-iwas (Malaking Pulang Kahong Pangkaligtasan)",
+    "summary": "Libreng toolkit para sa kaligtasan mula sa National Autism Association upang makatulong na maiwasan at tumugon sa mga mapanganib na insidente ng paglalagalag, na nakakaapekto sa halos kalahati ng lahat ng mga batang may autism.",
+    "details": "Humigit-kumulang 50% ng mga batang may autism ang lalayo o tatakas sa mga ligtas na kapaligiran, na ginagawang ang paglalagalag ay isa sa mga pinakaseryosong alalahanin sa kaligtasan para sa mga pamilya. Ang pagkalunod kasunod ng paglalagalag ay isang pangunahing sanhi ng pagkamatay ng mga batang may autism. Ang Big Red Safety Box ng National Autism Association ay isang libreng toolkit na ipinadala sa mga pamilya ng mga indibidwal na may autism na nasa panganib na gumala. Mula noong 2011, higit sa 70,000 mga kahon ang naipamahagi. Kasama sa toolkit ang mga visual na mapagkukunan ng kaligtasan, mga ID card, mga alarma sa bintana/pinto, at gabay sa paggawa ng komprehensibong plano sa kaligtasan. Kasama sa mga karagdagang hakbang ang mga GPS tracking device, mga medical ID bracelet, mga alarma sa pinto, pool fence, at pagbuo ng mga relasyon sa mga lokal na unang tumugon. Ang pagtuturo ng kaligtasan sa tubig at mga kasanayan sa paglangoy ay kritikal. Maraming pamilya din ang nakikinabang sa programang MedicAlert Found, na nagbibigay ng mga libreng medical ID bracelets at 24/7 wandering support services partikular para sa mga indibidwal na may autism.",
+    "steps": [
+      "Mag-apply para sa isang libreng Big Red Safety Box sa nationalautismassociation.org/big-red-safety-box — isa bawat pamilya habang may supply.",
+      "Mag-install ng mga alarma sa pinto at bintana, lalo na sa mga exit door — ang mga murang alarma ay makikita sa mga hardware store.",
+      "Isaalang-alang ang isang GPS tracking device para sa iyong anak — ang mga naisusuot na opsyon ay kinabibilangan ng AngelSense, Jiobit, at Apple AirTag holder.",
+      "Mag-enroll sa programang MedicAlert Found sa medicalert.org — libreng medical ID at 24/7 na suporta sa paggala para sa mga pamilyang autism.",
+      "Turuan nang maaga ang kaligtasan sa tubig at mga kasanayan sa paglangoy — ang mga aralin sa paglangoy na idinisenyo para sa mga batang may autism ay makukuha sa maraming komunidad.",
+      "Abisuhan ang lokal na pulisya at mga kagawaran ng bumbero tungkol sa autism ng iyong anak at panganib sa paggala — maraming departamento ang nagpapanatili ng mga boluntaryong pagpaparehistro."
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "Suporta sa Krisis",
+    "title": "Autism Emergency ID Card at Mga Alerto sa Medikal",
+    "summary": "Mga tool sa pagkilala sa medikal na nagbibigay ng diagnosis ng autism at kritikal na impormasyon sa mga unang tumugon, medikal na tauhan, at miyembro ng komunidad sa panahon ng mga emerhensiya.",
+    "details": "Dahil ang autism ay isang hindi nakikitang kondisyon, maaaring hindi ito makilala ng mga first responder at mga medikal na tauhan sa panahon ng mga emerhensiya, na posibleng humantong sa mga mapanganib na hindi pagkakaunawaan. Ang mga medikal na ID na pulseras, kuwintas, wallet card, at mga tag ng sapatos ay nagbibigay ng mahahalagang impormasyon: ang indibidwal ay may autism, maaaring hindi tumugon sa mga pandiwang utos, maaaring nonverbal, at mga detalye sa pakikipag-ugnayan sa emergency. Ang programang MedicAlert Found (sa pakikipagtulungan sa National Autism Association) ay nagbibigay ng libreng pagpapatala, isang libreng medikal na ID na bracelet o kuwintas, isang libreng medical ID na shoe tag, at 24/7 wandering support service partikular para sa autism community. Kasama sa iba pang mga opsyon ang mga QR-code bracelet na nagli-link sa mga detalyadong medikal na profile, ICE (In Case of Emergency) wallet card, at mga feature ng smartphone medical ID. Para sa mga bata na maaaring mag-alis ng tradisyonal na mga pulseras, kasama sa mga opsyon ang mga tag ng sapatos, mga label ng damit, at pansamantalang mga tattoo na may impormasyon sa pakikipag-ugnayan.",
+    "steps": [
+      "Mag-enroll sa programang MedicAlert Found sa medicalert.org — libreng medical ID at 24/7 na suporta para sa mga indibidwal na may autism.",
+      "Pumili ng naisusuot na ID na matitiis ng iyong anak — kasama sa mga opsyon ang mga pulseras, kuwintas, tag ng sapatos, at mga label ng damit.",
+      "Gumawa ng ICE (In Case of Emergency) card para sa wallet o backpack ng iyong anak na may diagnosis, mga gamot, pang-emergency na contact, at mga pangangailangan sa komunikasyon.",
+      "I-set up ang feature na Medical ID sa smartphone ng iyong anak (available sa iPhone at Android) na may kritikal na impormasyon sa kalusugan.",
+      "Isama ang mga tiyak na tagubilin sa komunikasyon: 'Ako ay autistic. Maaaring hindi ako tumugon sa mga pandiwang utos. Mangyaring gumamit ng simpleng wika at mga visual na pahiwatig.'",
+      "Regular na i-update ang impormasyon ng ID habang nagbabago ang mga gamot, contact, o kakayahan sa komunikasyon."
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "Suporta sa Krisis",
+    "title": "First Responder Autism Awareness Programs",
+    "summary": "Mga programa sa pagsasanay na nagtuturo sa mga pulis, bumbero, at EMT na kilalanin ang autism at gumamit ng ligtas, epektibong mga diskarte sa de-escalation sa panahon ng pakikipagtagpo sa mga autistic na indibidwal.",
+    "details": "Ang mga pakikipagtagpo sa pagitan ng mga autistic na indibidwal at tagapagpatupad ng batas ay maaaring maging mapanganib kapag ang mga opisyal ay mali ang kahulugan ng mga pag-uugaling nauugnay sa autism (hindi pakikipag-eye contact, hindi pagsunod sa mga utos sa salita, paulit-ulit na paggalaw, pagtakas) bilang hindi pagsunod o pagbabanta na pag-uugali. Tinuturuan ng mga first responder na mga programa sa pagsasanay sa kamalayan sa autism ang mga opisyal na kilalanin ang mga palatandaan ng autism, gumamit ng mahinahon at simpleng komunikasyon, payagan ang dagdag na oras sa pagproseso, bawasan ang sensory input, at gumamit ng mga diskarte sa de-escalation. Ang Autism Society of America's Safety on the Spectrum program ay nagtataguyod ng mga ligtas na pakikipag-ugnayan sa pagitan ng mga unang tumugon at ng komunidad ng autism. Ang International Board of Credentialing and Continuing Education Standards (IBCCES) ay nag-aalok ng pormal na first responder autism certification. Ang ilang mga estado (tulad ng Florida) ay nag-uutos ng pagsasanay sa autism para sa pagpapatupad ng batas. Ang mga pamilya ay maaaring aktibong bumuo ng mga relasyon sa lokal na pulisya at mga departamento ng bumbero sa pamamagitan ng pagbabahagi ng impormasyon tungkol sa kanilang anak.",
+    "steps": [
+      "Makipag-ugnayan sa iyong lokal na departamento ng pulisya at tanungin kung mayroon silang pagsasanay sa kamalayan sa autism — mag-alok na magbahagi ng mga mapagkukunan kung wala sila.",
+      "Bigyan ang iyong lokal na pulisya at istasyon ng bumbero ng isang pahinang profile ng iyong anak: larawan, pangalan, diagnosis, istilo ng komunikasyon, mga trigger, at mga diskarte sa pagpapatahimik.",
+      "Magtanong tungkol sa mga boluntaryong pagpapatala ng espesyal na pangangailangan na pinapanatili ng iyong lokal na 911 dispatch center.",
+      "Ibahagi ang mga mapagkukunan ng pagsasanay mula sa Autism Society (autismsociety.org/first-responder) sa iyong mga lokal na ahensya.",
+      "Magsanay ng mga pakikipag-ugnayan sa mga naka-unipormeng tauhan sa mahinahong mga setting upang maging pamilyar ang iyong anak sa kanila.",
+      "Magdala ng wallet card o ipasuot sa iyong anak ang isang medikal na ID na nagsasabing 'Ako ay autistic' na may mga partikular na tagubilin para sa mga unang tumugon."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

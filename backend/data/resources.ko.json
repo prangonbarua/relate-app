@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "교육",
+    "title": "개별 교육 프로그램(IEP)",
+    "summary": "자녀의 특수 교육 서비스 및 목표를 설명하는 법적 구속력이 있는 문서입니다.",
+    "details": "IEP는 학부모, 교사, 전문가로 구성된 팀에 의해 개발됩니다. IDEA(장애인 교육법)에 따라 귀하의 자녀는 최소 제한 환경(LRE)에서 무료로 적절한 공교육(FAPE)을 받을 자격이 있습니다. 귀하는 모든 IEP 회의에 참여하고 학교의 권장 사항에 동의하지 않을 권리가 있습니다. IEP는 최소한 매년 검토되지만 언제든지 회의를 요청할 수 있습니다.",
+    "steps": [
+      "해당 학군의 특수 교육 부서에 서면으로 평가를 요청하십시오.",
+      "학교는 귀하가 동의한 후 60일 이내에 평가를 완료해야 합니다.",
+      "IEP 회의에 참석하십시오. 자신의 메모, 관찰 내용 및 비공개 평가를 가져오십시오.",
+      "제안된 목표를 주의 깊게 검토하세요. 서명하기 전에 협상하고 변경을 요청할 수 있습니다.",
+      "연중 내내 IEP 목표의 진행 상황을 모니터링하고 학교에 데이터를 요청하십시오.",
+      "동의하지 않는 경우, 무료로 중재 또는 적법 절차 청문회를 신청할 수 있습니다."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "주정부 서비스",
+    "title": "지역 센터 서비스(캘리포니아)",
+    "summary": "자폐증을 포함한 발달 장애가 있는 캘리포니아 주민들을 위한 평생 무료 서비스입니다.",
+    "details": "캘리포니아의 21개 지역 센터에서는 소득이나 이민 상태에 관계없이 발달 장애가 있는 개인에게 평가, 진단 및 서비스를 제공합니다. 서비스에는 응용 행동 분석(ABA), 임시 간호, 언어 치료, 작업 치료, 사회적 기술 그룹 및 가족 지원이 포함될 수 있습니다. 지역 센터 서비스는 권리입니다. 귀하의 자녀가 자격이 있는 경우 자금 지원으로 인해 서비스가 거부될 수 없습니다.",
+    "steps": [
+      "지역 지역 센터에 연락하여 입학 예약을 요청하십시오.",
+      "기존 평가, 의료 기록 및 학교 문서를 가져오십시오.",
+      "귀하의 자녀는 평가를 받게 됩니다. 이 과정은 최대 120일이 소요될 수 있습니다.",
+      "자격이 있는 경우 서비스 코디네이터와 협력하여 개별 프로그램 계획(IPP)을 개발하게 됩니다.",
+      "ABA, 임시 간호, 언어 치료 등 필요한 특정 서비스를 요청하십시오.",
+      "매년 IPP를 검토하고 자녀의 필요 사항이 변화함에 따라 변경을 요청하십시오."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "주정부 서비스",
+    "title": "조기 시작 프로그램(0-3세)",
+    "summary": "발달 지연이 있는 영유아를 위한 캘리포니아의 조기 개입 프로그램입니다.",
+    "details": "Early Start 프로그램은 발달 지연이 있거나 위험 상태가 있는 출생부터 3세까지의 어린이에게 서비스를 제공합니다. 자연환경(가정, 어린이집, 공원)에서 서비스를 제공하며, 소득에 상관없이 무료입니다. 이 중요한 시기에 조기 개입하면 결과가 크게 향상될 수 있습니다. 3세 이후 어린이는 IEP 과정을 통해 학군 서비스로 전환됩니다.",
+    "steps": [
+      "자녀를 소개하려면 지역 센터나 교육구에 전화하십시오.",
+      "평가는 의뢰 후 45일 이내에 예정됩니다.",
+      "자격이 있는 경우, 자격이 생긴 후 45일 이내에 개별화된 가족 서비스 계획(IFSP)이 개발됩니다.",
+      "IFSP가 서명된 후 가능한 한 빨리 서비스가 시작됩니다.",
+      "2.5세가 되면 유아원 서비스로의 전환 계획 과정이 시작됩니다.",
+      "별도의 자격 절차를 통해 3세 이후에도 지역 센터 서비스를 계속할 수 있습니다."
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "보험 및 자금 조달",
+    "title": "자폐증 서비스에 대한 보험 보장",
+    "summary": "보험이 적용되는 자폐증 치료에 대한 귀하의 권리와 거부에 대해 이의를 제기하는 방법을 이해합니다.",
+    "details": "대부분의 주에는 자폐증 관련 서비스에 대한 보장을 요구하는 자폐증 보험 의무가 있습니다. 캘리포니아에서는 SB 946에 따라 건강 보험이 자폐증에 대한 행동 건강 치료(ABA 포함)를 보장하도록 요구합니다. 연방 정신 건강 평가법은 또한 정신 건강 및 의학적 상태에 대해 동일한 보장을 요구합니다. 귀하의 보험이 보장을 거부하는 경우, 귀하는 내부 및 외부적으로 이의를 제기할 권리가 있습니다. 캘리포니아 관리보건부(DMHC)는 외부 이의 제기에 도움을 줄 수 있습니다.",
+    "steps": [
+      "자폐증 및 행동 건강 서비스에 대한 귀하의 플랜 혜택 사본을 요청하십시오.",
+      "자녀의 담당 의사로부터 권장 치료법이 명시된 서면 추천서를 받으십시오.",
+      "보험회사에 사전 승인 요청을 제출하세요.",
+      "거부된 경우, 구체적인 이유와 정책 인용과 함께 서면으로 거부를 요청하세요.",
+      "담당 의사가 보낸 의학적 필요성 편지와 함께 내부 항소를 제출하세요.",
+      "내부 항소가 실패할 경우 해당 주의 보험 규제 기관(캘리포니아의 DMHC)에 불만 사항을 접수하십시오."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "교육",
+    "title": "504 계획 숙박",
+    "summary": "특수 교육 자격이 필요하지 않은 교실 편의 시설에 대한 계획입니다.",
+    "details": "504 계획은 재활법(Rehabilitation Act) 504조를 기반으로 하며 교육에 대한 평등한 접근을 보장하기 위한 편의 시설을 제공합니다. IEP와 달리 504 계획은 특수 교육 분류를 요구하지 않습니다. 이는 주요 생활 활동(학습 및 사회적 상호 작용 포함)을 실질적으로 제한하는 장애가 있는 모든 아동에게 적용됩니다. 일반적인 편의 사항에는 우선 좌석 배정, 시험 시간 연장, 감각 휴식 및 시각적 일정이 포함됩니다.",
+    "steps": [
+      "자녀의 진단 또는 의심되는 장애를 언급하여 504 평가를 요청하는 편지를 학교에 작성하십시오.",
+      "문서 제공: 의료 기록, 평가, 교사 관찰.",
+      "학교 팀과 함께 504 회의에 참석하여 편의 사항을 논의합니다.",
+      "제안된 편의 사항을 검토하고 자녀의 필요 사항에 따라 추가 사항을 제안하십시오.",
+      "계획은 매년 검토되어야 합니다. 편의가 구현되지 않는 경우 회의를 요청하십시오.",
+      "학교가 504 양식 평가 또는 제공을 거부하는 경우 민권 사무국(OCR)에 불만 사항을 제기할 수 있습니다."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "치료법",
+    "title": "언어치료",
+    "summary": "언어 치료 서비스를 이용하는 방법과 치료에서 기대할 수 있는 사항.",
+    "details": "언어병리학자(SLP)는 말하는 것 이상의 일을 합니다. 그들은 언어 이해, 단어 사용, 사회적 의사소통, 심지어 먹이기/삼키기 문제까지 포함하여 의사소통의 모든 측면을 다룹니다. 자폐 아동의 경우 SLP는 기능적 의사소통(원하는 것과 필요한 것을 표현하는 능력), 화용적 언어(언어의 사회적 사용), 보완대체의사소통(AAC) 장치를 다루는 경우가 많습니다. 연구에서는 이중 언어를 사용하는 가족의 가정 언어 유지를 강력하게 지원합니다. 이중 언어 사용은 자폐 아동의 언어 발달을 지연시키지 않습니다.",
+    "steps": [
+      "자폐증 경험이 있는 언어 병리학자를 소개해달라고 소아과 의사에게 문의하세요.",
+      "여러 액세스 지점을 확인하세요: 보험, 지역 센터, 학군(IEP), 대학 진료소(종종 저렴한 비용).",
+      "자녀가 최소한으로 언어를 구사하는 경우 AAC 경험이 있는 SLP를 찾으십시오. 모든 SLP가 이에 특화되어 있는 것은 아닙니다.",
+      "SLP가 하루 종일 의사소통을 지원하도록 교육하는 학부모 코칭 모델에 대해 문의하세요.",
+      "측정 가능한 목표와 정기적인 진행 보고서를 요청하세요.",
+      "자녀가 이중 언어를 구사하는 경우 가정 언어 유지를 지원하는 SLP를 찾거나 통역사를 요청하십시오."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "치료법",
+    "title": "ABA 치료: 알아야 할 사항",
+    "summary": "응용 행동 분석 치료 이해 - 이점, 우려 사항 및 우수한 서비스 제공자를 찾는 방법.",
+    "details": "응용 행동 분석(ABA)은 자폐증 치료에 가장 일반적으로 권장되고 연구되는 치료법입니다. 현대 ABA는 그 기원에서 크게 발전하여 이제 어린이의 관심을 따르는 놀이 기반의 자연주의적 접근 방식을 강조합니다. 그러나 품질은 공급자마다 크게 다릅니다. 좋은 ABA는 테이블 위에서 하는 훈련이 아니라 재미있고 매력적인 활동처럼 보입니다. 위험 신호에는 아동의 고통을 무시하거나, 식량 부족을 동기로 사용하거나, 규정 준수에만 집중하는 것이 포함됩니다. 귀하는 세션을 참관할 권리가 있으며 자녀의 치료에 대해 편안함을 느껴야 합니다.",
+    "steps": [
+      "연구 제공자에게 주의 깊게 접근 방식(자연주의 vs 개별 시험) 및 감독 비율에 대해 문의하십시오.",
+      "커밋하기 전과 시작 후 정기적으로 세션을 관찰하도록 요청합니다.",
+      "귀하의 자녀를 정기적으로 진료하는 BCBA(Board Certified Behavior Analyst)가 프로그램을 감독하는지 확인하십시오.",
+      "목표를 함께 논의하십시오. 규정 준수 기반 목표보다 기능적 기술과 의사소통을 우선시하십시오.",
+      "자녀의 정서적 안녕을 모니터링하십시오. 치료는 괴로움, 불안 또는 회피를 유발해서는 안 됩니다.",
+      "대안 또는 보완 요소 탐색: 언어 치료, 작업 치료, DIR/Floortime과 같은 발달 접근 방식."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "이민",
+    "title": "서류미비 가족의 권리",
+    "summary": "이민 신분에 상관없이 이용 가능한 장애인 서비스와 안전한 이용 방법.",
+    "details": "자폐 아동을 위한 많은 중요한 서비스는 이민 신분에 관계없이 이용 가능합니다. 학교는 모든 어린이를 교육해야 하며(Plyler v. Doe), 지역 센터는 이민 신분에 관해 질문할 수 없으며, Medi-Cal은 Medi-Cal for Children과 같은 프로그램을 통해 신분에 관계없이 어린이에게 혜택을 제공합니다. 연방 자금 지원을 받는 학교 및 의료 서비스 제공자는 이민 집행 기관과 정보를 공유할 수 없습니다. 귀하는 모든 회의에 옹호자나 통역사를 대동할 권리가 있습니다.",
+    "steps": [
+      "지역 센터에 문의하세요. 이민 신분에 대해 묻는 것은 금지되어 있습니다.",
+      "자녀를 학교에 등록하십시오. 모든 자녀는 지위에 관계없이 공교육을 받을 권리가 있습니다.",
+      "카운티 사회 복지 사무소를 통해 자녀를 위한 Medi-Cal을 신청하십시오.",
+      "모든 회의에 통역사를 요청하십시오. 이는 귀하의 법적 권리입니다.",
+      "귀하의 권리를 아십시오. 판사가 서명한 사법 영장 없이 ICE의 문을 열 필요는 없습니다.",
+      "탐색 서비스 지원을 위해 지역 이민자 권리 단체와 연결하세요. 많은 곳에서 무료 법률 클리닉을 제공합니다."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "연방 프로그램",
+    "title": "IDEA 파트 C — 조기 개입(출생~3세)",
+    "summary": "자폐증을 포함하여 발달 지연이 있는 영유아를 위한 무료 연방 조기 개입 서비스입니다.",
+    "details": "장애인 교육법(IDEA)의 파트 C는 주정부가 장애가 있는 영유아(출생~2세)와 그 가족을 위한 포괄적인 조기 개입 서비스를 운영하도록 돕는 연방 보조금 프로그램입니다. 서비스에는 언어 치료, 작업 치료, 물리 치료, 행동 지원, 보조 기술 및 가족 훈련이 포함됩니다. 각 자녀는 개별 가족 서비스 계획(IFSP)을 받습니다. 집이나 어린이집 등 자연환경에서 서비스가 제공됩니다. 평가는 항상 무료이며 서비스는 주에 따라 무료 또는 저렴한 비용으로 제공됩니다. 중요: 이민 신분에 관계없이 모든 어린이에게 서비스가 제공됩니다.",
+    "steps": [
+      "해당 주의 파트 C 조기 개입 프로그램에 문의하세요. ectacenter.org/contact/ptccoord.asp에서 해당 주의 코디네이터를 찾으세요.",
+      "자녀를 위한 무료 발달 평가를 요청하세요. 프로그램은 45일 이내에 완료해야 합니다.",
+      "자격이 있는 경우 팀과 함께 자녀의 개별 가족 서비스 계획(IFSP) 개발에 참여하십시오.",
+      "IFSP에 서명한 후 가능한 한 빨리 서비스가 시작됩니다. 연설, OT, PT 및 행동 지원에 대해 문의하십시오.",
+      "6개월마다 IFSP를 검토하고 자녀에게 필요한 사항이 변경될 때마다 변경을 요청하십시오.",
+      "2.5세가 되면 해당 학군을 통해 파트 B 유아원 서비스(3~21세)로의 전환 계획을 시작하십시오."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "연방 프로그램",
+    "title": "IDEA 파트 B — 특수 교육(3~21세)",
+    "summary": "공립학교 시스템을 통해 자폐 아동 및 청소년을 위한 무료 특수 교육 및 관련 서비스를 제공합니다.",
+    "details": "IDEA 파트 B는 자폐증을 포함한 모든 장애 아동이 최소 제한 환경(LRE)에서 무료 적절한 공교육(FAPE)을 받을 권리를 보장합니다. 자폐증은 14가지 적격 장애 범주 중 하나입니다. 귀하의 자녀는 특정 목표, 서비스 및 편의 사항을 설명하는 개별 교육 프로그램(IEP)을 받을 자격이 있습니다. 관련 서비스에는 언어 치료, 작업 치료, 사회적 기술 훈련, 행동 지원 및 교통수단이 포함될 수 있습니다. 섹션 619는 3~5세 아동을 위한 유아원 보조금을 다루고 있습니다. 모든 서비스는 완전 무료입니다. 학교는 1982년 대법원의 Plyler v. Doe 판결에 따라 이민 신분에 관해 질문할 수 없습니다.",
+    "steps": [
+      "자녀의 교육구에 특수 교육 평가에 대한 서면 요청서를 제출하십시오.",
+      "학교는 귀하의 서면 동의를 받은 후 60일 이내에 평가를 완료해야 합니다.",
+      "IEP 회의에 참석하십시오. 귀하는 팀의 동등한 구성원이며 옹호자 또는 통역사를 동반할 수 있습니다.",
+      "제안된 목표와 서비스를 주의 깊게 검토하십시오. 변경 사항에 대해 협상하고 동의할 때까지 서명하지 마십시오.",
+      "연중 내내 IEP 목표 진행 상황을 모니터링하고 학교에 데이터 보고서를 요청하십시오.",
+      "학교에 동의하지 않는 경우, 중재를 요청하거나 무료로 적법 절차 청문회를 신청하십시오."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "연방 프로그램",
+    "title": "자폐증에 대한 메디케이드 면제(주별)",
+    "summary": "Medicaid를 통해 자폐증 치료, 임시 간호, 지원 서비스에 자금을 지원하는 가정 및 지역사회 기반 서비스(HCBS) 면제.",
+    "details": "메디케이드 가정 및 지역사회 기반 서비스(HCBS) 면제를 통해 주에서는 기관이 아닌 가정과 지역사회에서 장애인(자폐증 포함)에게 서비스를 제공할 수 있습니다. 이러한 면제는 주마다 크게 다르지만 일반적으로 ABA 치료, 임시 간호, 언어 치료, 작업 치료, 개인 관리, 고용 지원, 주간 재활 및 가족 훈련을 포함합니다. 일부 주에는 자폐증 관련 면제(예: 메릴랜드의 자폐증 면제)가 있는 반면, 다른 주에서는 더 광범위한 발달 장애 면제에 따라 자폐증이 포함됩니다. 대기자 명단은 길 수 있으며 때로는 몇 년이 걸릴 수 있으므로 가능한 한 빨리 신청하십시오. 자격은 일반적으로 가족 소득이 아닌 자녀의 장애 수준을 기준으로 결정됩니다.",
+    "steps": [
+      "어떤 면제가 자폐증 아동에게 제공되는지 알아보려면 해당 주의 Medicaid 사무소나 발달 장애 기관에 문의하세요.",
+      "귀하의 자녀가 받을 수 있는 모든 면제를 신청하십시오. 귀하는 동시에 여러 대기자 명단에 등록될 수 있습니다.",
+      "문서 수집: 자폐증 진단, 의료 기록, 학교 평가, 기능 평가.",
+      "대기자 명단에 등록된 경우 위치와 예상 대기 시간에 대해 문의하고 3~6개월마다 정기적으로 후속 조치를 취하세요.",
+      "승인되면 서비스 코디네이터와 협력하여 필요한 모든 서비스를 나열하는 사람 중심의 계획을 개발하십시오.",
+      "매년 귀하의 계획을 검토하고 자녀에게 필요한 사항이 변경되면 추가 서비스를 요청하십시오. 귀하는 거부에 대해 이의를 제기할 권리가 있습니다."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "연방 프로그램",
+    "title": "자폐 아동을 위한 SSI 혜택",
+    "summary": "심각한 자폐 관련 장애가 있는 자녀가 있는 저소득 가정을 위해 사회보장국에서 월간 현금 지원을 제공합니다.",
+    "details": "생활보조금(SSI)은 가족의 소득과 자원이 제한된 장애 아동에게 매달 현금 혜택을 제공합니다. 연방 혜택 요율은 월(2025년)당 약 $967이며, 많은 주에서 추가 금액을 추가합니다. 자폐증은 사회보장국의 블루북(Blue Book) 아동에 대한 섹션 112.10에 등재되어 있습니다. 자격을 갖추려면 귀하의 자녀는 언어적, 비언어적 의사소통, 사회적 상호작용, 기능을 심각하게 제한하는 제한적/반복적 행동 패턴의 결함에 대한 의학적 문서를 보유해야 합니다. SSI를 받는 아동은 많은 주에서 치료 서비스를 받을 수 있는 Medicaid 자격을 자동으로 얻을 수도 있습니다. 참고: 어린이는 SSI(SSDI 아님)만 이용할 수 있습니다.",
+    "steps": [
+      "지역 사회보장국(SSA) 사무소에 약속을 잡으십시오. 아동의 SSI 신청은 온라인으로 완료할 수 없습니다.",
+      "필요한 서류를 준비하십시오: 자녀의 출생 증명서, 사회 보장 번호, 의료 기록, 학교 평가, 가족 재정 기록(소득, 은행 명세서, 기타 혜택).",
+      "자폐증이 자녀의 일상 생활에 어떤 영향을 미치는지 자세히 설명하는 SSI 신청서와 아동 장애 보고서를 작성하세요.",
+      "SSA가 요청할 수 있는 추가 평가에 협조하십시오. 이는 무료이며 자격 여부를 결정하는 데 도움이 됩니다.",
+      "거부된 경우 60일 이내에 항소를 제출하십시오. 항소를 통해 많은 청구가 승인됩니다. 장애인 전문 변호사에게 연락하는 것을 고려해보세요.",
+      "승인되면 소득, 생활 상황 또는 자녀의 상태에 변화가 있을 경우 SSA에 보고하여 혜택을 유지하십시오."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "연방 프로그램",
+    "title": "TRICARE 자폐증 보장(군인 가족)",
+    "summary": "TRICARE의 자폐증 치료 시연을 통한 ABA 치료를 포함한 군인 가족을 위한 종합적인 자폐증 서비스입니다.",
+    "details": "TRICARE는 2028년 12월 31일까지 진행되는 ACD(자폐증 치료 시범)를 통해 모든 TRICARE 수혜자를 위한 응용 행동 분석 및 기타 자폐증 서비스를 보장합니다. 귀하의 자녀는 ABA 서비스에 대해 6개월 승인을 받으며, 2년마다 ASD 진단 제공자로부터 새로운 추천을 받아야 합니다. ACD의 각 어린이에게는 언어 치료, ABA 및 소아과 의사 간의 치료를 조정하는 데 도움을 주는 자폐증 서비스 내비게이터(ASN)가 배정됩니다. TRICARE는 또한 언어 치료, 작업 치료 및 기타 자폐증에 대해 의학적으로 필요한 치료를 보장합니다. 2025년 9월 국립과학원(National Academy of Sciences)은 ABA를 시범 프로그램이 아닌 영구적인 기본 TRICARE 혜택으로 만들 것을 권장했습니다. ABA 서비스에는 위원회 인증을 받은 행동 분석가가 있는 장소가 필요합니다.",
+    "steps": [
+      "TRICARE가 승인한 서비스 제공자(발달 소아과 의사, 심리학자 또는 정신과 의사)로부터 자녀에 대한 자폐 진단을 받으십시오.",
+      "ABA 및 기타 자폐 관련 서비스에 대해서는 자녀의 진단 서비스 제공자로부터 의뢰를 받으십시오.",
+      "담당 ASN(Autism Services Navigator)에게 연락하세요. 이용 가능한 모든 서비스를 조정하고 이용하는데 도움을 드릴 것입니다.",
+      "tricare.mil의 TRICARE 제공자 디렉토리를 통해 해당 지역의 TRICARE 공인 ABA 제공자를 찾으십시오.",
+      "자녀의 승인이 6개월마다 갱신되고 추천이 2년마다 업데이트되는지 확인하십시오.",
+      "거부 또는 액세스 문제가 발생하는 경우 TRICARE 수혜자 상담 및 지원 코디네이터(BCAC)에게 연락하여 항소에 대한 도움을 받으십시오."
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "치료법",
+    "title": "응용행동분석(ABA)",
+    "summary": "가장 많이 연구된 자폐증 치료법은 긍정적인 강화를 사용하여 기술을 구축하고 도전적인 행동을 줄이는 것입니다.",
+    "details": "응용 행동 분석(Applied Behavior Analysis)은 미국 공중보건국장(US Surgeon General)과 미국 심리학 협회(American Psychological Association)에 의해 증거 기반의 모범 사례 치료법으로 간주됩니다. ABA는 새로운 기술을 작고 관리 가능한 단계로 나누고 긍정적 강화를 사용하여 원하는 행동을 장려합니다. BCBA(Board Certified Behavior Analyst)는 기능적 행동 평가를 기반으로 개별화된 치료 계획을 개발합니다. 현대 ABA는 어린이의 관심을 따르는 자연주의적이고 놀이 기반의 접근 방식을 강조합니다. 치료는 가정, 진료소 또는 학교 환경에서 제공될 수 있으며 일반적으로 아동의 필요에 따라 주당 10~40시간 범위입니다. 부모는 하루 종일 기술을 강화하도록 훈련을 받습니다.",
+    "steps": [
+      "공식적인 자폐 진단을 받고 담당 소아과 의사로부터 ABA 서비스 추천을 받으세요.",
+      "ABA 보장 범위를 확인하고 승인된 서비스 제공자를 찾으려면 보험, Medicaid 또는 주 발달 장애 기관에 문의하세요.",
+      "BCBA와 함께 기능적 행동 평가(FBA)를 예약하세요. 이를 통해 자녀의 장점, 과제 및 가족 목표를 평가할 수 있습니다.",
+      "개별화된 치료 계획을 검토하고 승인합니다. 의사소통, 기능적 기술 및 독립성에 초점을 맞춘 목표를 보장합니다.",
+      "집에서 지속적으로 기술을 강화할 수 있도록 부모 교육 세션에 참여하세요.",
+      "데이터가 포함된 정기적인 진행 보고서를 요청하고 계획 검토에 참여하세요. 자녀의 성장에 따라 목표를 조정하세요."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "치료법",
+    "title": "언어치료",
+    "summary": "비언어적 의사소통 방법을 포함하여 첫 단어부터 대화에 이르기까지 아이들이 의사소통 기술을 개발하도록 돕습니다.",
+    "details": "언어 치료는 자격을 갖춘 언어 병리학자(SLP)가 제공하는 자폐 아동을 위한 가장 일반적인 발달 치료입니다. 언어 이해(수용), 욕구와 필요 표현(표현), 언어의 사회적 사용(화용), 표현, 수유/삼키기의 어려움을 다룹니다. 최소한으로 언어를 사용하는 어린이의 경우 SLP는 그림 교환 시스템, 수화 또는 음성 생성 장치와 같은 보완 및 대체 의사소통(AAC)을 도입할 수 있습니다. 연구에 따르면 조기 개입을 통해 자폐증이 있는 미취학 아동 3명 중 2명이 의사소통 기술을 크게 향상시키는 것으로 나타났습니다. 중요한 것은 이중 언어 사용이 자폐 아동의 언어를 지연시키지 않는다는 것입니다. 가정 언어를 유지하는 것이 좋습니다.",
+    "steps": [
+      "자폐 스펙트럼 장애를 경험한 SLP에 대한 의뢰를 소아과 의사에게 요청하십시오.",
+      "건강 보험, Medicaid, 학군 IEP, 주 조기 개입 또는 대학 언어 클리닉(종종 저렴한 비용) 등 다양한 채널을 통해 서비스에 액세스하세요.",
+      "평가하는 동안 자녀가 집에서 의사소통하는 방법에 대한 예를 공유하십시오. 비디오는 매우 도움이 됩니다.",
+      "귀하의 자녀가 최소한의 언어만을 사용하는 경우 AAC 전문 지식을 갖춘 SLP를 구체적으로 요청하십시오. 모든 SLP가 이를 전문으로 하는 것은 아닙니다.",
+      "SLP가 일상 생활에 의사소통 연습을 포함하도록 교육하는 학부모 코칭 모델에 대해 문의하세요.",
+      "가족이 집에서 다른 언어를 사용하는 경우 이중 언어 SLP나 통역사를 요청하십시오. 자녀와 함께 가정 언어를 계속 사용하십시오."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "치료법",
+    "title": "작업치료(OT)",
+    "summary": "일상 생활 기술, 감각 처리 및 미세한 운동 능력의 독립성을 구축합니다.",
+    "details": "작업 치료는 자폐 아동이 일상 생활과 독립에 필요한 기술을 개발하도록 돕습니다. OT는 소근육 운동 기술(쓰기, 단추 누르기, 도구 사용), 감각 처리 및 조절(감각 입력에 과도하거나 과민한 어린이 지원), 자기 관리 루틴(옷 입기, 화장실 가기, 양치질), 놀이 기술 및 교실 준비를 다룹니다. 종종 OT에서 제공되는 감각 통합 치료는 어린이가 압도적이거나 혼란스러울 수 있는 감각 정보를 더 잘 처리하고 반응하도록 돕습니다. OT는 개별화된 치료 계획을 세우고 놀이처럼 보이지만 특정 기술을 구축하도록 세심하게 고안된 활동을 사용합니다. 그들은 또한 가정과 학교를 위한 환경 수정과 감각 도구를 권장합니다.",
+    "steps": [
+      "소아과 의사, 학군 또는 주 조기 개입 프로그램을 통해 OT 평가를 요청하십시오.",
+      "평가하는 동안 자녀의 일상적인 문제(식사, 옷 입기, 전환, 감각 민감성)에 대해 설명하십시오.",
+      "치료 계획을 검토하고 목표가 귀하의 최우선 순위인 일상 생활 문제를 해결하는지 확인하십시오.",
+      "하루 종일 할 수 있는 감각 활동에 대한 개인화된 계획인 가정 감각 다이어트를 OT에 요청하세요.",
+      "집에서 특히 식사, 목욕 시간, 옷 입기 등 일상적인 활동 중에 OT 권장 전략을 일관되게 실천하세요.",
+      "정밀한 운동, 감각 또는 자기 관리 요구 사항이 학교 참여에 영향을 미치는 경우 자녀의 IEP를 통해 학교 기반 OT를 요청하십시오."
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "치료법",
+    "title": "물리치료(PT)",
+    "summary": "모든 환경에서 안전한 움직임을 위한 총체적 운동 능력, 조정력, 근력 및 신체적 자신감을 향상시킵니다.",
+    "details": "물리 치료는 자폐 아동의 대근육 운동 능력(걷기, 달리기, 점프, 오르기), 균형 및 조정, 핵심 근력, 신체 인식 및 공간 탐색 능력을 향상시키는 데 도움이 됩니다. 물리치료사는 어린이의 기능적 운동 제한을 평가하고 이를 해결하기 위한 계획을 세웁니다. 취학 연령 아동의 경우 PT는 복도, 운동장, 구내식당, 스쿨버스 등을 안전하게 이동하는 데 도움을 줍니다. 또한 소셜 게임 및 또래 상호 작용에 참여하는 데 필요한 동작 기술을 학습합니다. PT는 근육긴장도가 낮고, 협응 장애가 있거나, 자폐증에서 흔히 나타나는 운동 계획 문제가 있는 어린이에게 매우 중요할 수 있습니다. 건강 보험, 조기 개입 프로그램, 학교 IEP 또는 외래 진료소를 통해 서비스를 이용할 수 있습니다.",
+    "steps": [
+      "귀하의 자녀에게 PT 의뢰가 필요한 심한 운동 지연이나 협응 문제가 있는지 평가하도록 소아과 의사에게 문의하세요.",
+      "PT 평가를 예약하세요. 치료사는 균형, 협응, 근력, 운동 계획 및 기능적 이동성을 평가합니다.",
+      "치료 계획을 검토하고 어떤 운동 이정표와 기능적 기술이 우선시되는지 논의하십시오.",
+      "PT가 권장하는 운동을 일상 생활에 포함시키세요. 많은 운동을 집에서 재미있는 게임으로 만들 수 있습니다.",
+      "운동 장애로 인해 자녀가 안전하게 학교를 다닐 수 있는 능력에 영향을 미치는 경우 IEP를 통해 학교 기반 PT를 요청하십시오.",
+      "3~6개월마다 진행 상황을 재평가하고 자녀가 새로운 신체 능력을 개발함에 따라 목표를 조정하십시오."
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "치료법",
+    "title": "DIR/플로어타임",
+    "summary": "놀이 중 어린이의 주도에 따라 사회적, 정서적, 지적 기반을 구축하는 관계 기반 접근 방식입니다.",
+    "details": "DIR은 발달, 개인차, 관계 기반을 의미합니다. 1980년대 스탠리 그린스펀(Stanley Greenspan) 박사가 개발한 이 접근 방식은 특정 행동을 목표로 삼기보다는 아이들이 주도하는 즐거운 상호 작용을 통해 사회적, 정서적, 지적 성장을 위한 기반을 구축합니다. 기본 전략은 어른들이 현장에 나와 아동의 관심 사항을 따라가면서 '의사소통 범위', 즉 앞뒤로 상호 작용하는 것을 확장하는 것입니다. 플로어타임은 일반적으로 하루 2~5시간을 20~30분 세션으로 나눕니다. 연구에 따르면 의사소통, 정서적 기능, 일상 생활 기술 및 부모-자녀 관계의 발전이 나타났습니다. DIR/플로어타임(Floortime)은 자폐 스펙트럼 장애에 관한 국립 전문 개발 센터(National Professional Development Center)에서 인정한 프로그램으로 부모가 전문적인 지도를 받아 집에서 할 수 있습니다.",
+    "steps": [
+      "icdl.com에서 ICDL(Interdisciplinary Council on Development and Learning)을 통해 DIR/Floortime의 기본 사항을 알아보세요. ICDL에서는 학부모 리소스를 제공합니다.",
+      "ICDL 제공자 명부를 통해 DIR/현장 교육을 받은 치료사를 찾거나 자녀의 발달 소아과 의사에게 추천을 요청하십시오.",
+      "20분 플로어타임 세션으로 시작하십시오. 바닥에 앉아 자녀의 지시를 따르며 앞뒤로 상호 작용을 확장해 보십시오.",
+      "먼저 감정적인 연결에 집중하십시오. 특정 기술을 다른 방향으로 바꾸거나 가르치려고 하지 말고 자녀가 즐기는 것에 참여하십시오.",
+      "하루 종일 여러 개의 짧은 세션을 목표로 세션 수와 길이를 점차적으로 늘립니다.",
+      "숙련된 전문가와 협력하여 놀이 중 자녀의 개별적인 감각 및 발달 프로필을 다루는 방법을 배우십시오."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "치료법",
+    "title": "TEACCH(구조화된 교육)",
+    "summary": "자폐 아동이 독립적으로 학습할 수 있도록 물리적 환경을 구성하는 시각적이고 구조화된 교육 방법입니다.",
+    "details": "TEACCH(자폐 및 의사소통 장애 아동 치료 및 교육)는 1960년대 노스캐롤라이나 대학의 Eric Schopler 박사와 Robert Reichler 박사에 의해 개발되었습니다. 특히 시각적 지원을 통해 자폐인이 정보를 처리하는 방식에 맞춰 구조화된 교육을 강조합니다. 핵심 원칙에는 물리적 환경의 구성, 예측 가능한 활동 순서, 시각적 일정, 구조화된 작업 시스템 및 시각적으로 구성된 작업이 포함됩니다. TEACCH는 기대치를 명확하고 예측 가능하게 만들어 불안을 줄이고 활동 간 전환을 크게 개선합니다. 연구에 따르면 일상 업무, 자기 관리, 조직화 및 일상 생활에서 독립성이 향상되는 것으로 나타났습니다. 부모는 시각적 일정과 체계적인 공간을 만들어 집에서 TEACCH 원칙을 구현할 수 있습니다.",
+    "steps": [
+      "UNC(teacch.com)의 TEACCH 자폐증 프로그램을 통해 TEACCH 기본 사항을 배우십시오. 이 프로그램에서는 부모와 전문가를 위한 교육을 제공합니다.",
+      "하루 동안의 활동 순서를 보여주는 사진이나 사진을 사용하여 자녀를 위한 시각적인 일일 일정을 만드세요.",
+      "집 환경 정리: 시각적 라벨을 사용하여 특정 활동(놀이 공간, 작업 공간, 차분한 공간)을 위한 명확한 공간을 지정합니다.",
+      "작업을 위한 작업 시스템 구현: 수행할 작업, 수행할 작업의 양, 다음에 수행할 작업을 표시하는 왼쪽에서 오른쪽 레이아웃을 사용합니다.",
+      "시각적 타이머와 전환 경고(예: '첫 번째 숙제, 그 다음 iPad')를 사용하여 활동 변경 중 불안을 줄이세요.",
+      "TEACCH 교육을 받은 전문가와 상담하여 자녀의 특정 강점과 요구 사항에 맞게 구조화된 교육 방식을 맞춤화하세요."
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "치료법",
+    "title": "사회적 기술 그룹",
+    "summary": "자폐 아동이 또래와의 사회적 상호작용, 대화, 우정 기술을 연습할 수 있는 구조화된 그룹 환경입니다.",
+    "details": "사회적 기술 그룹(Social Skills Group)은 자폐 스펙트럼이 있는 어린이(때때로 전형적인 또래와 혼합)를 모아 체계적이고 지원적인 환경에서 사회적 상호 작용을 연습합니다. 언어 병리학자 또는 심리학자와 같은 자격을 갖춘 임상의가 이끄는 이 그룹은 대화 기술, 사회적 신호 읽기, 관점 수용, 우정 만들기 및 유지, 감정 조절 및 협력 놀이에 대해 연구합니다. 임상의는 각 어린이의 개별화된 목표를 식별하고 매주 진행 상황을 추적합니다. 연구에 따르면 사회적 능력, 우정의 질, 외로움 감소에 긍정적인 영향을 미치는 것으로 나타났습니다. 부모들은 종종 집에서 기술을 강화하는 방법을 배우는 병행 세션에 참여합니다. 많은 가족이 참여하는 다른 가족과 지속적인 관계를 형성합니다.",
+    "steps": [
+      "자녀의 치료사, 학교 또는 소아과 의사에게 지역 사회 기술 그룹에 대해 문의하십시오. 이러한 그룹은 진료소, 병원 또는 지역 사회 조직을 통해 제공될 수 있습니다.",
+      "자녀의 연령과 발달 수준에 맞는 그룹을 찾으십시오. 일부 그룹은 놀이 기반인 반면 다른 그룹은 좀 더 나이가 많은 어린이를 위해 구성되어 있습니다.",
+      "각 참가자에 대해 개별화된 목표를 설정하는 자격을 갖춘 임상의(SLP, 심리학자 또는 BCBA)가 그룹을 주도하는지 확인하십시오.",
+      "가정에서 사회적 기술을 강화하는 방법을 알아보려면 부모 오리엔테이션이나 병행 부모 세션에 참석하세요.",
+      "자연스러운 환경에서 학습한 기술을 연습하세요. 사회적 기술을 일반화하기 위해 그룹 동료들과 함께 플레이 데이트를 준비하세요.",
+      "자녀의 편안함 수준을 모니터링하십시오. 좋은 그룹은 불안이나 좌절감을 증가시키는 것이 아니라 자신감을 키워야 합니다."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "치료법",
+    "title": "음악치료",
+    "summary": "음악 기반 활동을 사용하여 의사소통, 사회적 상호작용, 운동 능력 및 감정 조절을 향상시킵니다.",
+    "details": "자폐증을 위한 음악 치료는 치료 목표를 달성하기 위해 노래, 악기 연주, 작사, 리듬 활동을 사용하는 보드 인증 음악 치료사(MT-BC)에 의해 제공됩니다. 음악은 독특하게도 여러 뇌 영역을 동시에 활용하므로 전통적인 대화 기반 치료법에 잘 반응하지 않는 어린이에게 특히 효과적입니다. 연구는 의사소통 및 언어 능력, 사회적 상호 작용 및 공동 주의력, 감정 표현 및 조절, 미세하고 총체적인 운동 조정, 감각 처리의 향상을 지원합니다. 상호 작용하는 음악 활동은 순서를 바꾸고, 눈을 마주치고, 동료 및 가족과 함께 즐거움을 공유할 수 있는 자연스러운 기회를 만듭니다. 자폐증이 있는 많은 어린이들은 다른 학습에 대한 다리 역할을 할 수 있는 강한 음악적 관심을 보여줍니다.",
+    "steps": [
+      "musictherapy.org의 미국 음악 치료 협회 디렉토리를 통해 위원회 인증 음악 치료사(MT-BC)를 찾으십시오.",
+      "자녀의 구체적인 목표에 대해 논의하십시오. 음악 치료는 의사소통, 사회적 기술, 운동 기술 또는 감정 조절을 목표로 할 수 있습니다.",
+      "세션 형식에 대해 물어보세요. 개별 세션에서는 개인화된 관심을 받을 수 있고 그룹 세션에서는 사회적 기술 연습이 추가됩니다.",
+      "음악을 가정 루틴에 포함시키십시오. 전환(청소 노래), 일상 루틴(칫솔질 노래) 및 감정 조절을 위한 노래를 사용하십시오.",
+      "적용 범위 옵션을 확인하십시오. 일부 보험 플랜, Medicaid 면제 및 학교 IEP는 관련 서비스로 음악 치료에 자금을 지원할 수 있습니다.",
+      "여러 세션을 제공하십시오. 일부 어린이는 치료사에게 몸을 풀 시간이 필요하고 진행 상황을 보여주기 전에 형식을 정해야 합니다."
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "치료법",
+    "title": "말 보조 치료(승마)",
+    "summary": "말과의 상호작용을 통해 사회적 의사소통, 감정 조절, 운동 능력을 향상시키는 치료 승마입니다.",
+    "details": "말 보조 치료는 말의 리드미컬한 움직임과 반응성을 사용하여 자폐증 아동의 치료 목표를 달성합니다. 콜로라도 대학의 대규모 무작위 연구에서는 10주간의 치료 승마가 6~16세 어린이의 과민성을 지속적으로 감소시키고 사회적 의사소통, 과잉 행동 및 단어 유창성을 향상시키는 것으로 나타났습니다. 말의 자연스러운 움직임은 핵심 근력, 균형 및 조정력을 자극합니다. 말과 함께 일하는 것은 또한 동기를 부여하는 야외 환경에서 비언어적 의사소통, 공감, 책임감 및 정서적 조절을 연습할 수 있는 기회를 제공합니다. 프로그램은 일반적으로 치료사와 함께 PATH International 인증 강사가 주도합니다. 말 치료는 ABA, 언어 치료, OT와 같은 다른 치료를 보완할 수 있습니다.",
+    "steps": [
+      "pathintl.org/find-a-center에서 가까운 PATH 국제 인증 치료 승마 센터를 찾아보세요.",
+      "평가 일정을 잡으십시오. 팀은 자녀의 신체 능력, 행동 요구 사항 및 치료 목표를 평가합니다.",
+      "안전 요구사항에 대해 논의하십시오: 헬멧, 적절한 의복, 자녀에게 필요할 수 있는 감각 조절 장치.",
+      "정기적인 주간 세션에 참여하세요. 연구에 따르면 8~10주 동안 지속적으로 참여하면 혜택이 쌓이는 것으로 나타났습니다.",
+      "히포테라피(OT/PT/말을 타고 말하기)와 치료적 승마에 대해 문의하세요. 히포테라피는 말의 움직임을 치료 도구로 사용하며 보험으로 보장될 수 있습니다.",
+      "자금 출처를 확인하세요. 일부 비영리 승마 센터에서는 장학금을 제공하고, 히포테라피는 건강 보험이나 메디케이드의 적용을 받을 수도 있습니다."
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "치료법",
+    "title": "수중치료",
+    "summary": "차분한 감각 환경에서 운동 능력, 협응력, 지구력, 사회적 자신감을 키우는 수성 치료입니다.",
+    "details": "Aquatic Therapy는 부력, 저항 및 정수압과 같은 물의 고유한 특성을 사용하여 자폐증 아동이 지원적인 감각 환경에서 운동 능력, 조정력, 힘 및 지구력을 개발하도록 돕습니다. 육상 운동에 어려움을 겪는 많은 자폐 아동은 물 속에서도 잘 자랍니다. 따뜻한 물의 감각 입력은 차분해지고 조절되어 아이들이 더 쉽게 집중하고 참여할 수 있게 해줍니다. 수중 요법은 또한 물에 대한 안전을 가르칩니다. 익사는 방황할 수 있는 자폐증 아동의 주요 사망 원인이기 때문에 매우 중요한 문제입니다. 세션에서는 사회적 기술(순서대로 진행하기, 그룹 내 지시 따르기), 신체 인식, 호흡 조절 및 전반적인 신체 건강을 강화할 수 있습니다. 연구에 따르면 사회적 상호작용과 운동 기능이 개선된 것으로 나타났습니다.",
+    "steps": [
+      "담당 소아과 의사나 치료사에게 수중 치료 프로그램 소개를 요청하거나 인증된 수중 치료사가 있는 시설을 찾아보세요.",
+      "자녀의 OT 또는 PT 제공자가 수중 치료 세션을 제공하는지 확인하십시오. 이는 보험으로 보장될 수 있습니다.",
+      "그룹 세션을 시도하기 전에 자녀가 수영장 환경에 적응할 수 있도록 개별 세션으로 시작하십시오.",
+      "물 안전 목표를 우선적으로 논의하십시오. 자녀에게 물 안팎에서 안전하도록 가르치는 것은 생명을 구할 수 있습니다.",
+      "목욕 시간 동안 집에서 물을 이용한 활동(물 붓기, 발로 차기, 거품 불기)을 연습하세요. 이러한 활동은 편안함과 기술을 키워줍니다.",
+      "지역 YMCA, 공원 및 레크리에이션 부서, 스페셜 올림픽에서 제공되는 지역사회 적응형 수영 프로그램을 살펴보세요. 많은 프로그램이 무료이거나 저렴합니다."
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "위기지원",
+    "title": "988 자살과 위기 생명선",
+    "summary": "감정적 고통을 겪고 있는 모든 사람을 위해 전화, 문자, 채팅을 통해 연중무휴 24시간 비밀이 유지되는 무료 위기 지원이 영어와 스페인어로 제공됩니다.",
+    "details": "988 자살 및 위기 라이프라인(988 Suicide & Crisis Lifeline)은 연중무휴 24시간 무료 비밀 지원을 제공하는 전국 위기 센터 네트워크입니다. 숙련된 상담사와 연결하려면 988로 전화하거나 문자를 보내세요. 서비스는 영어와 스페인어로 제공되며 988lifeline.org에서 실시간 채팅이 가능합니다. 미국 수화를 사용하여 청각 장애가 있거나 난청이 있는 사람들을 위해 화상 전화 서비스가 제공됩니다. 생명선에는 자폐증을 포함하여 신경발산이 있는 개인을 구체적으로 다루는 리소스가 있습니다. 이것은 단지 자살 충동만을 위한 것이 아닙니다. 정서적 위기, 압도적인 스트레스 또는 정신 건강 응급 상황에 대한 것입니다. 자폐증 협회(Autism Society)는 상담사가 자폐증 및 지적/발달 장애와 관련된 교육을 받을 수 있도록 전국 위기 센터와 협력하고 있습니다.",
+    "steps": [
+      "지금 휴대전화에 988을 저장해 두세요. 귀하나 귀하의 가족이 위기에 처했을 때 언제든지 이 번호로 전화하거나 문자를 보낼 수 있습니다.",
+      "즉각적인 위험이 있는 경우 항상 먼저 911에 전화한 다음 988에 연락하여 지속적인 지원을 받으십시오.",
+      "자폐아 또는 가족 구성원이 정서적 위기에 처해 있는 경우 988에 전화하여 상담사에게 자폐 진단에 대해 알리고 접근 방식을 조정할 수 있도록 하세요.",
+      "전화통화가 어려울 경우 988lifeline.org를 방문하여 실시간 채팅을 하십시오. 자폐증이 있거나 감각이 압도되는 경우 채팅이 더 쉬울 수 있습니다.",
+      "스페인어 지원을 받으려면 988로 전화하고 스페인어 회선인 경우 2번을 누르세요.",
+      "전화번호를 집에서 볼 수 있도록 유지하고 보호자, 가족, 자녀의 학교와 공유하세요."
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "위기지원",
+    "title": "위기 텍스트 라인",
+    "summary": "문자 메시지를 통한 연중무휴 무료 위기 지원 - 전화 통화보다 문자 메시지를 선호하는 사람들에게 이상적입니다.",
+    "details": "Crisis Text Line은 문자 메시지를 통해 연중무휴 24시간 무료로 기밀 위기 지원을 제공합니다. 숙련된 위기 상담사에게 연결하려면 741741번으로 HOME 문자를 보내세요. 이 서비스는 전화 통화가 너무 부담스럽거나 지원을 받기 위해 신중한 접근이 필요한 자폐인이나 부모에게 특히 유용합니다. 대화는 텍스트 기반이므로 구두보다 서면 의사소통을 더 잘 처리하는 사람들에게는 더 쉬울 수 있습니다. 위기 상담사는 자격증을 갖춘 임상 직원의 감독을 받는 훈련받은 자원봉사자입니다. 이 서비스는 불안, 우울증, 정서적 고통, 자살 충동, 가족 갈등, 간병 소진 등 모든 유형의 위기를 처리합니다. 상담사와 연결되기까지 평균 대기 시간은 5분 미만입니다.",
+    "steps": [
+      "위기 상담사와 대화를 시작하려면 미국 전역 어디에서나 741741번으로 HOME 문자를 보내세요.",
+      "숙련된 상담사가 적극적으로 경청하고 협력적인 문제 해결을 통해 위기 상황을 헤쳐나가도록 도와줄 것입니다.",
+      "귀하가 겪고 있는 상황에 대해 솔직하게 말하십시오. 간병인의 피로와 압도를 포함하여 연락해야 할 잘못된 이유가 없습니다.",
+      "자녀에 관해 문자 메시지를 보내는 경우 상담사에게 알리면 자폐증 관련 지원과 소개를 제공할 수 있습니다.",
+      "연락처에 741741을 '위기 문자 메시지'로 저장하면 필요할 때 바로 사용할 수 있습니다.",
+      "이 자료를 지역 사회의 다른 자폐증 부모와 공유하십시오. 많은 사람들이 텍스트 기반 위기 지원이 존재한다는 것을 모릅니다."
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "위기지원",
+    "title": "자폐증 협회 전국 헬프라인",
+    "summary": "훈련된 전문가를 통해 가족에게 지역 자폐증 자원, 서비스 및 지원을 연결하는 무료 헬프라인입니다.",
+    "details": "자폐증 협회의 전국 헬프라인(800-3-AUTISM / 800-328-8476)은 귀하가 해당 지역에서 자원과 서비스를 찾는 데 도움을 주는 숙련된 정보 및 추천(I&R) 전문가와 귀하를 연결해 줍니다. 헬프라인은 직접적인 서비스를 제공하지 않지만 전문가가 귀하를 지역 서비스 제공자, 주정부 프로그램, 지원 그룹 및 자폐증에 대한 지역 사회 자원에 연결해 줄 것입니다. 이것은 미국 시스템이 처음이고 어디서부터 시작해야 할지 확신이 없는 이민자 가족을 위한 훌륭한 첫 전화입니다. 헬프라인은 진단 서비스, 치료 제공자, 교육 옹호, 재정 지원 및 지역 사회 지원을 찾는 데 도움을 줄 수 있습니다. 중요: 이것은 위기 전화가 아닙니다. 정신 건강 응급 상황의 경우 988을 사용하거나 911에 전화하십시오.",
+    "steps": [
+      "업무 시간 중에 800-328-8476(800-3-AUTISM)으로 전화하여 정보 및 추천 전문가와 통화하세요.",
+      "귀하의 상황과 귀하가 찾고 있는 자원이 무엇인지 설명하십시오. 전문가가 귀하의 지역에서 서비스를 검색할 것입니다.",
+      "지역 자폐증 협회 계열사에 대해 문의해 보세요. 미국 전역에 70개 이상이 지역 사회에 직접적인 지원을 제공하고 있습니다.",
+      "진단, 치료 옵션, 학교 지원, 재정 지원, 학부모 지원 그룹 등 여러 주제에 대한 정보를 한 번에 요청하세요.",
+      "제공된 추천에 대한 후속 조치를 취하고 모든 연락처 이름, 전화번호 및 다음 단계를 기록해 두십시오.",
+      "새로운 과제를 해결하는 데 도움이 필요할 때마다 다시 전화하세요. 헬프라인은 일회성 지원이 아닌 지속적인 지원을 위해 존재합니다."
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "법적 권리",
+    "title": "IDEA: 자녀의 무료 교육에 대한 권리",
+    "summary": "장애인 교육법은 이민 신분에 관계없이 모든 장애 아동이 무료로 적절한 공교육을 받을 권리를 보장합니다.",
+    "details": "IDEA는 이민 신분, 시민권 또는 서류에 관계없이 미국의 모든 어린이에게 적용되는 연방법입니다. IDEA에 따라 공립학교는 출생부터 21세까지 장애 아동을 식별, 평가 및 서비스해야 합니다. 법은 LRE(최소 제한 환경)에서 FAPE(무료 적절한 공교육)를 보장합니다. 학교는 등록이나 서비스 조건으로 이민 신분에 관해 질문할 수 없습니다. 자녀가 0~3세인 경우 IDEA 파트 C는 조기 개입 서비스를 제공합니다. 귀하의 자녀가 3-21세인 경우 파트 B는 학군을 통해 특수 교육을 제공합니다. 귀하는 모든 회의에서 통역사를 고용하고 귀하가 선호하는 언어로 문서를 받을 권리가 있습니다.",
+    "steps": [
+      "장애가 의심되는 경우 귀하의 자녀는 교육구로부터 무료 평가를 받을 자격이 있습니다. 이를 서면으로 요청하십시오.",
+      "학교에서는 귀하의 이민 신분에 관해 질문할 수 없습니다. 그럴 경우 답변을 거부하고 신고할 수 있습니다.",
+      "귀하는 모든 IEP 회의에서 통역사를 이용할 권리가 있습니다. 사전에 요청하십시오.",
+      "학교 평가나 배치에 동의하지 않는 경우 학교 비용으로 독립 교육 평가(IEE)를 요청할 수 있습니다.",
+      "귀하의 언어로 제공되는 무료 옹호 지원을 받으려면 해당 주의 학부모 훈련 및 정보 센터(PTI)에 문의하십시오."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "법적 권리",
+    "title": "섹션 504: IEP 없는 편의 제공",
+    "summary": "재활법(Rehabilitation Act) 제 504조는 장애가 있지만 IDEA에 따른 특수 교육을 받을 자격이 없는 아동에게 편의를 제공합니다.",
+    "details": "504조는 모든 공립학교를 포함하여 연방 자금 지원을 받는 프로그램에서 장애인에 대한 차별을 금지하는 민권법입니다. IEP와 달리 504 계획은 특정 학습 장애 범주를 요구하지 않습니다. 주요 생활 활동을 실질적으로 제한하는 모든 신체적 또는 정신적 장애는 자격이 있습니다. 자폐 아동의 경우 여기에는 시험 추가 시간, 우선 좌석, 감각 휴식, 수정된 과제 또는 조용한 시험 공간과 같은 편의 시설이 포함될 수 있습니다. 504 계획은 IEP보다 획득 속도가 빠른 경우가 많으며 전체 평가를 기다리는 동안 좋은 선택이 될 수 있습니다. 부모는 504 절차에 참여하고 결정에 대해 이의를 제기할 권리가 있습니다.",
+    "steps": [
+      "자녀의 학교 교장이나 504 코디네이터에게 서면으로 504 평가를 요청하십시오.",
+      "자녀의 진단에 대한 문서를 제공하십시오. 의사나 심리학자의 편지로 충분합니다.",
+      "504 회의에 참석하여 자폐증이 자녀의 학교 성적과 일상 활동에 어떤 영향을 미치는지 설명하십시오.",
+      "제안된 편의 사항을 검토하고 자녀에게 도움이 된다고 알고 있는 구체적인 변경 사항을 제안하십시오. 귀하는 자녀에 대한 전문가입니다.",
+      "504 계획은 매년 검토됩니다. 숙박 시설 조정이 필요한 경우 언제든지 회의를 요청할 수 있습니다."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "법적 권리",
+    "title": "FERPA: 자녀의 학교 기록 보호",
+    "summary": "FERPA는 자녀의 교육 기록의 개인 정보를 보호하고 이민 당국을 포함하여 자녀에 대한 정보에 접근할 수 있는 사람을 제한합니다.",
+    "details": "가족 교육 권리 및 개인 정보 보호법(FERPA)은 학생 교육 기록의 개인 정보를 보호하는 연방법입니다. FERPA에 따라 학교는 귀하의 서면 동의 없이 장애 상태, IEP 문서, 출석 또는 학부모 정보를 포함한 자녀의 기록을 공개할 수 없습니다. 이는 ICE, 이민 당국 또는 정부 기관의 요청에 적용됩니다. 귀하가 탈퇴하는 경우 학교는 인명 정보(이름, 주소, 전화번호)를 공유할 수 없습니다. 귀하는 학교가 귀하의 자녀에 관해 보관하고 있는 모든 기록을 검사하고 정정을 요청할 권리가 있습니다. FERPA를 이해하는 것은 학교 서비스를 추구하면 가족의 지위가 노출될 것을 두려워하는 이민자 가족에게 특히 중요합니다.",
+    "steps": [
+      "매 학년 초에 인명록 정보 공유를 거부하십시오. 이렇게 하면 학교에서 자녀의 이름과 주소를 공개하는 것을 방지할 수 있습니다.",
+      "누구든지 학교에 자녀의 기록을 요청하는 경우, 학교는 귀하에게 이를 통지하고 먼저 서면 동의를 받아야 합니다(제한된 예외가 있음).",
+      "귀하는 학교가 귀하의 자녀에 관해 보관하고 있는 모든 기록을 검토할 권리가 있습니다. 이를 서면으로 요청하십시오.",
+      "자녀의 기록에서 오류를 발견한 경우 서면 수정 요청을 제출하십시오. 학교는 45일 이내에 응답해야 합니다.",
+      "ICE 또는 법 집행 기관이 학교에 연락하는 경우 법원 명령 없이는 학생 기록에 접근할 수 없습니다. 이것을 바로 알아두세요."
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "법적 권리",
+    "title": "ADA: 공공 장소에서의 장애인 권리",
+    "summary": "미국 장애인법(Americans with Disability Act)은 식당, 상점, 공원, 진료소 등 공공 시설에서 귀하의 자녀를 차별로부터 보호합니다.",
+    "details": "ADA는 공공 생활의 모든 영역에서 장애인에 대한 차별을 금지하는 민권법입니다. Title III는 공공 시설에 적용됩니다. 레스토랑, 상점, 호텔, 극장, 진료소 및 레크리에이션 시설은 장애인을 위해 합리적인 개조를 해야 합니다. 자폐 아동의 경우 이는 감각 조정, 보조 동물 또는 의사소통 장치를 허용하는 것을 의미할 수 있습니다. 기업은 아동의 장애 관련 행동을 이유로 서비스를 거부할 수 없습니다. ADA는 또한 고용(Title I)과 주/지방 정부 서비스(Title II)에도 적용됩니다. 중요한 점은 ADA 보호가 이민 또는 시민권 상태에 관계없이 미국 내 모든 사람에게 적용된다는 것입니다.",
+    "steps": [
+      "귀하 자녀의 자폐 관련 행동으로 인해 기업이 귀하 가족에게 서비스 제공을 거부하는 경우 이는 ADA 위반일 수 있습니다. 사건을 문서화하세요.",
+      "ada.gov에서 법무부에 ADA 불만 사항을 제출할 수 있습니다. 불만 사항은 익명으로 제출할 수 있습니다.",
+      "사업체는 장애인 보조 동물(정서적 지원 동물 제외)을 허용해야 하며, 이들에게 추가 요금을 청구할 수 없습니다.",
+      "귀하의 자녀가 AAC 장치나 의사소통 보드를 사용하는 경우, 기업은 의사소통을 위한 합리적인 시간을 허용해야 합니다.",
+      "지역 장애인 권리 단체는 ADA 위반에 대한 무료 법률 조언을 제공할 수 있습니다. '보호 및 옹호'와 주 이름을 검색해 보세요."
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "법적 권리",
+    "title": "Medicaid EPSDT: 종합 아동 건강 서비스",
+    "summary": "귀하의 자녀가 Medicaid에 가입되어 있는 경우, Medicaid에서 가장 포괄적인 혜택 패키지인 EPSDT(조기 및 정기 검사, 진단 및 치료) 서비스를 받을 수 있습니다.",
+    "details": "EPSDT는 21세 미만의 모든 등록 아동을 대상으로 하는 연방정부 의무 Medicaid 혜택입니다. 주에서는 해당 서비스가 주의 Medicaid 플랜에서 달리 보장되지 않는 경우에도 의학적으로 필요한 모든 치료를 포함하여 포괄적인 의료 서비스를 제공해야 합니다. 자폐 아동의 경우 여기에는 ABA 치료, 언어 치료, 작업 치료, 심리 서비스, 보조 기술 등이 포함될 수 있습니다. 주정부는 의학적으로 필요하다고 판단되는 경우 이러한 서비스에 임의의 한도를 부과할 수 없습니다. 많은 가족들이 EPSDT에 대해 모르고 일부 주에서는 이러한 혜택을 제한하려고 시도합니다. 그러나 연방법은 어린이에 대한 주 제한을 무시합니다. Medicaid가 귀하의 자녀에게 필요한 서비스를 거부하는 경우 귀하는 이의를 제기할 권리가 있습니다.",
+    "steps": [
+      "자녀에게 Medicaid가 있고 ABA, 언어, OT 또는 기타 치료가 필요한 경우 EPSDT를 인용하여 승인을 요청하세요. 표준은 '의학적 필요'입니다.",
+      "Medicaid가 서비스를 거부하는 경우 서면으로 거부를 요청하십시오. 귀하는 공정한 심리를 통해 항소할 권리가 있습니다.",
+      "해당 주의 Medicaid 사무소에 연락하여 자폐 아동을 위한 EPSDT 혜택에 대해 구체적으로 문의하십시오.",
+      "해당 주에서 해당 서비스가 '보장되지 않는다'고 명시한 경우 EPSDT는 21세 미만 자녀에 대해 해당 서비스를 무시할 수 있습니다. 필요한 경우 법적 도움을 받으십시오.",
+      "해당 주의 보호 및 옹호 기관은 귀하가 Medicaid 거부에 맞서 싸울 수 있도록 무료로 도와드릴 수 있습니다."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "가족 지원",
+    "title": "임시 간호: 휴식을 취하기",
+    "summary": "임시 간호는 장애 아동의 주 보호자에게 일시적인 안정감을 제공합니다. 이는 소진을 예방하고 가족의 안녕을 유지하는 데 필수적입니다.",
+    "details": "임시 간호는 훈련받은 간병인이 제공하는 단기 간병으로 귀하에게 휴식을 취하고 심부름을 처리하거나 자신의 필요 사항을 돌볼 수 있는 시간을 제공합니다. 연구에 따르면 간병인의 탈진은 자폐 아동의 가족에게 매우 흔하며 정기적인 임시 간호는 가장 효과적인 예방 전략 중 하나입니다. 임시 위탁은 집 내(훈련받은 직원이 귀하의 집에 옴), 집 밖(귀하의 자녀가 시설이나 다른 가족에게 가음) 또는 비공식(훈련받은 가족이나 친구)일 수 있습니다. 많은 주에서는 Medicaid 면제 프로그램, 주 장애 기관 또는 가족 지원 프로그램을 통해 임시 간호 자금을 제공합니다. 일부 조직에서는 자폐증이 있는 아동의 가족을 위해 특별히 무료 휴식 이벤트를 제공합니다.",
+    "steps": [
+      "해당 주의 발달 장애 기관에 연락하여 임시 간호 프로그램에 대해 문의하세요. 많은 기관에서 자금을 지원받을 수 있습니다.",
+      "자녀의 Medicaid 면제에 임시 휴식 시간이 포함되어 있는지 확인하십시오. 많은 가정 및 지역사회 기반 면제에는 포함되어 있습니다.",
+      "미국 자폐증 협회(autism-society.org) 또는 Easter Seals를 통해 지역 자폐증 임시 간호 프로그램을 검색해 보세요.",
+      "귀하의 지역에 자폐증 경험이 있는 훈련된 임시 간호 제공자를 알고 있는지 자녀의 치료사에게 문의하십시오.",
+      "근처에 머무르는 동안 짧은 휴식 시간(1-2시간)으로 시작한 다음, 자녀가 편안해지면 점차적으로 시간을 늘리십시오."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "가족 지원",
+    "title": "학부모 지원 그룹",
+    "summary": "자폐 아동의 다른 부모들과 연결되면 고립이 줄어들고 실용적인 조언을 제공하며 귀하의 일상 경험을 이해하는 커뮤니티가 구축됩니다.",
+    "details": "특히 이민자 가족으로서 자폐아를 키우는 것은 고립될 수 있습니다. 학부모 지원 그룹은 경험을 공유하고, 동일한 시스템을 사용해 본 다른 사람들로부터 배우고, 진정으로 이해하는 사람들과 우정을 쌓을 수 있는 공간을 제공합니다. 그룹은 직접, 온라인 또는 둘 다일 수 있습니다. 장애에 대한 문화적 관점이 매우 다양하다는 점을 인식하여 많은 그룹이 언어와 문화별로 조직되어 있습니다. 연구에 따르면 지원 그룹에 참여하는 부모는 스트레스가 낮고 대처 기술이 향상되며 옹호 능력이 강화된 것으로 나타났습니다. 많은 그룹은 또한 치료사를 찾고, 학교 시스템을 탐색하고, 혜택을 받기 위한 비공식 정보 네트워크 역할을 합니다.",
+    "steps": [
+      "Autism Society(autism-society.org)를 통해 지역 자폐증 부모 그룹을 검색하세요. 거주하는 주별로 필터링하세요.",
+      "Facebook에서 귀하의 언어로 된 그룹을 확인하세요. 스페인어를 사용하는 가족을 찾으려면 'autism Parents [귀하의 언어]' 또는 'padres autismo'를 검색하세요.",
+      "자녀의 치료사, 학교 또는 소아과 의사에게 권장 사항을 문의하십시오. 그들은 종종 지역 그룹에 대해 알고 있습니다.",
+      "귀하의 언어로 된 지역 그룹이 없다면 하나 시작하는 것을 고려해 보십시오. 심지어 3~4명의 가족이 있는 WhatsApp 그룹도 강력할 수 있습니다.",
+      "MyAutismTeam.com과 같은 온라인 커뮤니티는 전국의 부모를 연결하고 번역 기능을 제공합니다."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "가족 지원",
+    "title": "형제자매를 지원하다",
+    "summary": "자폐 아동의 형제자매들은 관심을 받을 만한 특별한 필요 사항과 경험을 가지고 있습니다. 형제자매를 지원하면 가족 전체가 강화됩니다.",
+    "details": "자폐아의 형제자매는 종종 사랑, 좌절, 자부심, 당혹감, 방어심, 분노가 혼합된 감정을 경험합니다. 이 모든 것은 정상적인 현상입니다. 그들은 추가적인 책임을 맡을 수도 있고, 자폐 형제자매에게 더 많은 관심이 필요할 때 간과된다고 느끼거나 미래에 대해 걱정할 수도 있습니다. 연구에 따르면 자폐증에 대한 지원과 정보를 받은 형제자매는 자폐증이 있는 형제자매와 더 강한 관계를 형성하고 더 나은 심리적 웰빙을 보고하는 것으로 나타났습니다. 형제자매 지원 프로젝트(siblingsupport.org)는 특별한 도움이 필요한 아동의 형제자매를 위해 특별히 고안된 프로그램을 제공합니다. 자폐증에 관해 연령에 맞는 솔직한 대화를 나누면 형제자매가 이해하고 대처하는 데 도움이 됩니다.",
+    "steps": [
+      "각 형제자매와 정기적인 일대일 시간을 따로 마련하세요. 15분 동안만 집중해도 큰 차이가 있습니다.",
+      "자폐증을 연령에 맞는 용어로 설명합니다. '그들의 뇌는 다르게 작동합니다. 어떤 것들은 더 힘들기도 하고 어떤 것들은 정말 잘해요.'",
+      "판단하지 말고 그들의 감정을 인정하라: '형이 소리를 지르면 좌절감을 느껴도 괜찮습니다. 그건 정상적인 감정이에요.'",
+      "해당 지역의 Sibshop 프로그램(siblingsupport.org)을 찾아보세요. 이러한 동료 지원 그룹은 특별히 형제자매를 위한 것입니다.",
+      "형제자매를 돌보는 사람으로 만들지 마십시오. 그들은 도움을 줄 수 있지만, 그들의 주요 역할은 아이이자 형제/자매가 되는 것이어야 합니다."
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "가족 지원",
+    "title": "간병인 자기 관리 전략",
+    "summary": "빈 컵으로는 부을 수 없습니다. 자신의 신체적, 정신적 건강을 유지하는 것은 이기적인 것이 아니라 자녀의 복지를 위해 필수적입니다.",
+    "details": "자폐 아동의 부모는 신경증 아동의 부모보다 스트레스, 불안, 우울증 및 신체 건강 문제를 훨씬 더 많이 경험합니다. 이민자 부모는 언어 장벽, 문화적 고립, 익숙하지 않은 시스템 탐색, 잠재적인 이민 관련 두려움 등 추가적인 스트레스 요인에 직면합니다. 자기 관리는 사치가 아니라 필수입니다. 연구에 따르면 부모의 행복이 자녀의 결과에 직접적인 영향을 미치는 것으로 일관되게 나타났습니다. 부모가 압도당하고 탈진하면 인내심이 떨어지고 치료를 지속할 에너지가 줄어들며 효과적인 옹호 능력이 감소합니다. 작고 일관된 자기 관리 실천도 상당한 변화를 가져올 수 있습니다.",
+    "steps": [
+      "10분 걷기, 조용히 차 한잔하기, 친구와 전화 통화하기, 5분간 심호흡하기 등 재충전할 수 있는 작은 일일 실천을 찾아보세요.",
+      "'자유 시간'을 기다리지 말고 약속처럼 자기 관리 일정을 잡으세요. 10분이라도 소중한 시간입니다.",
+      "불안이나 우울증으로 어려움을 겪고 있는 경우, 많은 지역 보건 센터에서 다양한 언어로 차등 치료를 제공합니다.",
+      "고립이 스트레스를 증폭시킨다는 사실을 이해하고 있는 최소한 한 명의 다른 부모와 연결하십시오. 문자 기반의 우정도 도움이 됩니다.",
+      "기억하세요: 도움을 요청하는 것은 실패가 아니라 강점입니다. 가족, 친구, 전문가의 지원을 받아들이면 더 나은 부모가 될 수 있습니다."
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "가족 지원",
+    "title": "재정 지원 및 혜택",
+    "summary": "다양한 연방 및 주 프로그램은 서류가 제한된 가족의 경우에도 자폐 관련 서비스, 치료 및 일상적인 필요 비용을 충당하는 데 도움이 될 수 있습니다.",
+    "details": "자폐아를 양육하는 데 따른 재정적 부담은 상당합니다. 치료, 병원 방문, 특수 장비, 임금 손실 등으로 인해 가족의 예산이 부담될 수 있습니다. 그러나 많은 지원 프로그램이 존재합니다. SSI(Supplemental Security Income)는 저소득 가정의 장애 아동에게 매월 지급금을 제공합니다. Medicaid는 EPSDT를 통해 광범위한 치료 서비스를 보장합니다. 많은 주에는 ABA, 임시 휴식 및 적응 장비를 포함하는 자폐증 관련 면제 프로그램이 있습니다. 아동 건강 보험 프로그램(CHIP)은 Medicaid에 대한 수입이 너무 많지만 개인 보험을 감당할 수 없는 가정의 아동을 대상으로 합니다. 이러한 프로그램 중 일부는 이민 신분에 관계없이, 특히 서류미비 부모를 둔 미국 시민 자녀의 경우 이용할 수 있습니다.",
+    "steps": [
+      "지역 사회보장 사무소를 통해 SSI(생활보조금)를 신청하세요. 자폐 아동은 장애 기준에 따라 자격을 갖추는 경우가 많습니다.",
+      "귀하의 자녀가 Medicaid 또는 CHIP 자격이 있는지 확인하십시오. 미국 시민권자 자녀는 부모가 서류미비자이더라도 자격이 됩니다.",
+      "자폐증 면제 프로그램에 관해 해당 주의 발달 장애 기관에 문의하십시오. 대기자 명단이 있으므로 일찍 신청하십시오.",
+      "보조금 및 지원 프로그램에 대해서는 Autism Speaks의 재정 자원 페이지(autismspeaks.org/financial-resources)를 살펴보세요.",
+      "자녀의 치료 제공자에게 차등 비용이나 무료 자리에 대해 문의하십시오. 많은 관행이 도움이 필요한 가족을 위해 자리를 예약합니다.",
+      "자폐증 관련 비용에 대한 긴급 지원을 받으려면 지역 비영리 단체 및 교회에 문의하세요."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "가족 지원",
+    "title": "귀하의 권리를 아십시오: 이민 및 장애 서비스",
+    "summary": "귀하의 자녀를 위한 장애 서비스 이용은 귀하의 이민 사건에 영향을 미치지 않습니다. 학교, 병원, 치료 제공자는 귀하를 이민 당국에 신고할 수 없습니다.",
+    "details": "많은 이민자 가족들은 이민 집행을 유도하거나 사건에 영향을 미칠 것이라는 두려움 때문에 자폐아를 위한 서비스를 찾는 것을 기피합니다. 이러한 두려움은 이해할 수 있지만 대체로 근거가 없습니다. 연방법은 학교가 이민 신분에 관해 질문하는 것을 금지하고 있습니다. HIPAA는 의료 기록의 개인 정보를 보호합니다. 미국 시민권자 자녀를 위해 Medicaid, WIC, 학교 급식 프로그램 또는 장애 서비스를 이용하는 것은 이민 목적상 '생활 보호 대상' 문제로 간주되지 않습니다(현재 정책에 따라). 치료 제공자, 학교 및 병원은 일반적으로 ICE 집행이 제한되는 '민감한 장소'로 간주됩니다. 이러한 보호 조치를 이해하면 가족이 두려움 없이 자녀에게 필요한 서비스를 이용할 수 있도록 도울 수 있습니다.",
+    "steps": [
+      "학교는 등록이나 서비스 조건으로 귀하의 이민 신분이나 자녀의 신분에 관해 질문할 수 없습니다.",
+      "귀하의 자녀가 Medicaid, CHIP 또는 특수 교육 서비스를 이용한다고 해서 '생활 보호 대상'이 되는 것은 아니며, 이는 특별히 제외됩니다.",
+      "학교나 진료소의 누군가가 귀하의 이민 신분에 관해 질문하는 경우 귀하는 답변을 거부할 수 있습니다. 이를 교육청에 신고하세요.",
+      "귀하의 권리가 적힌 카드와 긴급 이민 변호사 번호를 보관하십시오. 많은 법률 구조 기관에서는 여러 언어로 '귀하의 권리를 아십시오' 카드를 무료로 제공합니다.",
+      "무료 이민 관련 법적 조언을 얻으려면 지역 법률 구조 협회 또는 ACLU 지부에 문의하십시오. 많은 곳에서 장애 아동이 있는 가족을 위한 특별 프로그램이 있습니다."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "교육",
+    "title": "조기 개입(IDEA 파트 C) — 0~3세",
+    "summary": "발달 지연이 있는 영유아를 위한 연방 조기 개입 서비스로 이민 신분에 관계없이 모든 가족이 이용할 수 있습니다.",
+    "details": "IDEA 파트 C는 발달 지연이 있거나 자폐증과 같은 진단을 받은 영유아(출생~2세)에게 조기 개입 서비스를 제공하는 연방 프로그램입니다. 각 주에는 언어 치료, 작업 치료, 물리 치료, 행동 지원, 가족 훈련 등의 서비스를 조정하는 주요 기관이 있습니다. 서비스는 집이나 어린이집 등 자연환경에서 제공됩니다. 평가는 항상 무료이며 서비스는 주에 따라 무료 또는 저렴한 비용으로 제공됩니다. 아동이 파트 C 서비스를 받기 위해 정식 자폐 진단을 받을 필요는 없습니다. 발달 지연이면 충분합니다. 자격은 전적으로 이민 신분이나 지불 능력이 아닌 발달 필요에 따라 결정되기 때문에 이는 이민자 가족에게 가장 중요한 프로그램 중 하나입니다.",
+    "steps": [
+      "해당 주의 파트 C 조기 개입 프로그램에 문의하십시오. ectacenter.org/contact/ptccoord.asp에서 해당 주를 찾으십시오.",
+      "무료 발달 평가를 요청하세요. 프로그램은 추천 후 45일 이내에 완료해야 합니다.",
+      "서비스를 받기 위해 자폐 진단이 필요하지 않습니다. 발달 지연이면 충분합니다.",
+      "자격이 있는 경우, 모든 서비스가 나열된 자녀의 개별 가족 서비스 계획(IFSP) 개발을 도와주십시오.",
+      "IFSP에 서명하자마자 서비스가 시작됩니다. 연설, OT, PT 및 행동 지원에 대해 문의하십시오.",
+      "2.5세가 되면 해당 학군을 통해 유아원 서비스(파트 B)로의 전환 계획을 시작하십시오."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "교육",
+    "title": "전환 계획(14~22세)",
+    "summary": "IDEA에서는 학교가 16세(일부 주에서는 14세)부터 자녀의 취업, 교육, 독립 생활을 포함하여 성인 생활로의 전환을 계획하도록 요구합니다.",
+    "details": "전환 계획은 장애 학생의 고등학교 졸업 후 생활을 준비시키는 IEP의 연방 의무 구성 요소입니다. IDEA에 따라 전환 목표와 서비스는 학생이 16세가 되는 해부터 IEP에 포함되어야 하지만 많은 주에서는 14세에 시작합니다. 계획은 고등 교육 또는 훈련, 취업, 적절한 경우 독립 생활 기술을 다루어야 합니다. 자폐증 학생의 전환 계획에는 직업 평가, 직업 기술 훈련, 지역사회 기반 교육, 자기 옹호 훈련, 성인 서비스 기관과의 연결이 포함되어야 합니다. 연구에 따르면 자폐증이 있는 학생은 다른 장애 범주에 비해 중등 이후 교육 결과가 최악이므로 양질의 전환 계획이 중요합니다. 학부모는 적극적으로 참여해야 하며 학생은 전환 계획이 시작되면 자체 IEP 회의에 참석하도록 초대되어야 합니다.",
+    "steps": [
+      "귀하의 주에서 16세까지 전환 계획을 요구하지 않더라도 14세부터 전환 계획을 시작하도록 요청하십시오. 조기 계획은 더 나은 결과로 이어집니다.",
+      "IEP에 교육/훈련, 취업 및 독립 생활에 대한 측정 가능한 고등 교육 목표가 포함되어 있는지 확인하십시오.",
+      "전환 계획의 일환으로 직업 평가와 지역사회 기반 업무 경험을 요청하세요.",
+      "자녀를 IEP 회의에 초대하십시오. 자기 옹호 기술은 성인의 성공에 매우 중요합니다.",
+      "자녀가 학교를 떠나기 전에 해당 주의 직업 재활 기관에 연락하세요. 취업 지원을 제공할 수 있습니다.",
+      "해당 지역의 성인 서비스 기관(발달 장애 기관, 지원 고용 프로그램)을 조사하고 18세 이전에 추천을 시작하십시오."
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "교육",
+    "title": "학부모 교육 및 정보 센터(PTI)",
+    "summary": "모든 주에서 연방정부가 자금을 지원하는 무료 센터는 부모가 특수 교육을 탐색하고, 권리를 이해하고, 자녀를 옹호하는 데 도움을 줍니다.",
+    "details": "학부모 훈련 및 정보 센터(PTI)는 IDEA를 통해 자금을 지원받으며 모든 주에 존재합니다. 그들은 출생부터 26세까지 장애 아동의 부모에게 무료 교육 및 지원을 제공합니다. PTI 직원은 가족이 특수 교육법을 이해하고, IEP 회의에 효과적으로 참여하고, 학교와의 분쟁을 해결하고, 지역 사회 자원과 연결되도록 돕습니다. 많은 PTI는 스페인어 및 기타 언어로 서비스를 제공합니다. PTI는 학군을 대표하지 않으며 가족에게 서비스를 제공하는 독립적인 조직입니다. IDEA, 504조 및 ADA에 따른 귀하의 권리를 이해하는 데 도움이 될 수 있습니다. 이민자 가족의 경우 PTI는 이민 신분에 관계없이 지식이 풍부한 옹호 지원을 무료로 제공하기 때문에 특히 가치가 있습니다.",
+    "steps": [
+      "parentcenterhub.org/find-your-center에서 해당 주의 PTI를 찾으세요. 모든 주에는 최소한 하나가 있습니다.",
+      "IEP 권리, 특수교육법, 자폐증 서비스에 대한 무료 워크숍에 대해 전화해서 문의하세요.",
+      "다가오는 IEP 회의에 대한 일대일 지원을 요청하세요. 많은 PTI가 귀하와 함께 준비하거나 참석하는 데 도움을 줄 수 있습니다.",
+      "귀하의 언어를 구사하는 직원이 있거나 통역 서비스를 제공할 수 있는지 문의하십시오.",
+      "비슷한 어려움을 겪고 있는 다른 가족들을 만나기 위해 부모 대 부모 연결 행사에 참석하십시오.",
+      "샘플 편지, 권리 가이드 및 지역 서비스에 대한 정보를 보려면 리소스 라이브러리를 사용하십시오."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "교육",
+    "title": "학교에서의 보조 기술",
+    "summary": "IDEA에 따라 학교는 IEP가 있는 모든 아동에 대해 보조 기술을 고려해야 하며 IEP 팀이 필요하다고 판단하는 경우 장치 및 서비스를 무료로 제공해야 합니다.",
+    "details": "보조 기술(AT)에는 장애가 있는 아동의 교육을 돕는 모든 장치 또는 서비스가 포함됩니다. 자폐 아동의 경우 AT에는 통신 장치(AAC), 시각적 일정 앱, 소음 제거 헤드폰, 중량 조끼, 음성 생성 장치, 텍스트 음성 변환 소프트웨어 및 특수 키보드가 포함될 수 있습니다. IDEA에 따라 IEP 팀은 아동이 FAPE를 받기 위해 AT 장치 및 서비스가 필요한지 여부를 고려해야 합니다. AT가 IEP에 기록된 경우, 교육구는 이를 가족에게 무료로 제공해야 합니다. 학교는 비용 문제로 AT를 거부할 수 없습니다. AT 고려사항은 모든 IEP 회의에서 이루어져야 하며 가족은 언제든지 AT 평가를 요청할 수 있습니다. 많은 주에는 또한 가족들이 약속하기 전에 시험해 볼 수 있는 장치를 빌릴 수 있는 AT 대출 도서관이 있습니다.",
+    "steps": [
+      "자녀의 다음 IEP 회의에서 보조 기술을 공식적으로 고려하도록 요청하십시오. 이는 IDEA에서 요구하는 사항입니다.",
+      "AT가 필요한 경우 전문가에게 정식 AT 평가를 요청하십시오. 학교는 이를 무료로 제공해야 합니다.",
+      "해당 주의 AT 대출 도서관을 통해 AT 옵션을 살펴보세요. 대부분의 주에는 하나가 있습니다(atap.org에서 찾으세요).",
+      "AT가 IEP에 포함된 경우 학교는 장치 사용에 대해 직원을 제공, 유지 및 교육해야 합니다.",
+      "IEP 팀이 FAPE에 가정용 사용이 필요하다고 판단하는 경우 귀하의 자녀는 AT 장치를 집으로 가져갈 수 있습니다.",
+      "학교가 AT를 거부하는 경우 서면으로 거부를 요청하고 중재 또는 적법 절차를 통해 분쟁 제기를 고려하십시오."
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "주정부 서비스",
+    "title": "주 발달 장애 기관",
+    "summary": "모든 주에는 자폐증 및 기타 발달 장애가 있는 개인을 위한 서비스를 조정하는 발달 장애 기관이 있습니다.",
+    "details": "주 발달 장애(DD) 기관은 자폐증을 포함한 발달 장애가 있는 개인을 위한 프로그램과 자금 지원을 관리합니다. 서비스에는 일반적으로 진단 평가, 사례 관리, 가정 및 지역사회 기반 서비스, 주거 지원, 주간 프로그램, 고용 지원, 임시 간호 및 가족 지원이 포함됩니다. 캘리포니아 등 일부 주에서는 지역 센터를 통해 서비스가 제공됩니다. 다른 경우에는 주정부 DD 기관이 지역 서비스 제공자와 계약을 맺습니다. 이들 기관은 ABA 치료, 임시 간호 및 기타 중요한 서비스에 자금을 지원할 수 있는 Medicaid 면제 프로그램의 관문입니다. 많은 DD 기관에는 대기자 명단이 길기 때문에 조기 지원이 필수적입니다. 서비스는 일반적으로 이민 신분에 관계없이 이용 가능하지만 Medicaid 지원 서비스에는 자격 요건이 있을 수 있습니다.",
+    "steps": [
+      "nasddds.org/state-agency에서 해당 주의 DD 기관을 찾으세요. 모든 주에 기관이 있습니다.",
+      "해당 주에서 자폐증이 있는 아동을 위해 어떤 서비스를 이용할 수 있는지 알아보려면 해당 기관에 문의하세요.",
+      "Medicaid 면제 프로그램에 대해 문의하십시오. 대기자 명단은 수년이 걸릴 수 있으므로 귀하의 자녀가 받을 수 있는 모든 면제를 신청하십시오.",
+      "이용 가능한 프로그램 탐색에 도움을 줄 수 있는 서비스 코디네이터나 사례 관리자를 요청하세요.",
+      "부모 교육, 형제자매 지원, 임시 간호, 재정 지원 등 가족 지원 서비스에 대해 문의하세요.",
+      "자녀가 성인기에 가까워지고 있는 경우 전환 연령 서비스 및 지원 고용 프로그램에 대해 문의하십시오."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "주정부 서비스",
+    "title": "가정 및 지역사회 기반 서비스(HCBS) 면제",
+    "summary": "Medicaid HCBS 면제는 ABA 치료, 임시 간호 및 개인 지원을 포함하여 가정 및 지역 사회에서 자폐증 서비스에 자금을 지원하며 종종 가족 소득에 관계없이 제공됩니다.",
+    "details": "HCBS 면제를 통해 주에서는 기관이 아닌 가정과 지역 사회에서 Medicaid 지원 서비스를 제공할 수 있습니다. 자폐증이 있는 아동의 경우 이러한 면제에는 ABA 치료, 언어 치료, 작업 치료, 임시 간호, 개인 관리 지원, 고용 지원, 주간 재활, 보조 기술, 환경 수정 및 가족 훈련이 포함될 수 있습니다. 자격은 일반적으로 가족 소득이 아닌 자녀의 장애 수준에 따라 결정됩니다. 자녀의 소득은 부모와 별도로 고려됩니다. 일부 주에서는 자폐증 관련 면제(예: 메릴랜드의 자폐증 면제)를 제공하는 반면 다른 주에서는 더 광범위한 DD 면제에 따라 자폐증을 포함합니다. 대기자 명단은 매우 길 수 있으며 때로는 5~10년까지 걸릴 수 있으므로 가능한 한 빨리 신청하는 것이 중요합니다. 여러 웨이버 대기자 명단에 동시에 등록될 수 있습니다.",
+    "steps": [
+      "자폐 아동에게 어떤 HCBS 면제가 제공되는지 알아보려면 해당 주의 Medicaid 사무소나 DD 기관에 문의하세요.",
+      "귀하의 자녀가 받을 자격이 있는 모든 면제를 신청하세요. 귀하는 동시에 여러 대기자 명단에 등록될 수 있습니다.",
+      "대기자 명단의 위치와 예상 대기 시간에 대해 문의하십시오. 3~6개월마다 후속 조치를 취하십시오.",
+      "문서 수집: 자폐증 진단, 기능 평가, 의료 기록, 학교 평가.",
+      "승인되면 서비스 코디네이터와 협력하여 사람 중심의 서비스 계획을 개발하십시오.",
+      "매년 귀하의 계획을 검토하고 필요에 따라 변경을 요청하십시오. 귀하는 서비스 거부에 대해 이의를 제기할 권리가 있습니다."
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "주정부 서비스",
+    "title": "직업 재활(VR) 서비스",
+    "summary": "직업 훈련, ​​직업 상담, 취업 지원, 취업 알선 등 장애가 있는 개인을 위한 무료 주정부 지원 고용 서비스입니다.",
+    "details": "직업 재활(VR)은 1973년 재활법(Rehabilitation Act of 1973)에 따라 승인된 주 연방 프로그램으로, 장애인이 취업을 준비하고, 구하고, 유지할 수 있도록 도와줍니다. 각 주에는 진로 상담, 직업 평가, 직업 기술 훈련, 취업 지원, 업무 보조 기술, 직업 코칭, 취업 알선 등을 포함한 개별화된 서비스를 제공하는 VR 에이전시가 있습니다. 자폐 청소년과 전환 연령 청소년에게 VR은 학교에서 취업까지 중요한 가교 역할을 할 수 있습니다. VR 서비스는 고용에 상당한 장벽을 초래하는 장애가 있는 사람이라면 누구나 무료로 이용할 수 있습니다. 취업 전 전환 서비스는 VR을 신청하기 전이라도 14~21세의 장애 학생에게 제공됩니다. 가장 원활한 전환을 위해 자녀가 학교를 떠나기 전에 VR에 연결하세요.",
+    "steps": [
+      "rsa.ed.gov/about/states에서 해당 주의 VR 에이전시를 찾으세요. 전국적으로 78개의 VR 에이전시가 있습니다.",
+      "VR 서비스 신청 - 자격을 갖추려면 취업에 상당한 장벽을 만드는 장애가 필요합니다.",
+      "자녀가 아직 학교에 다니고 있는 경우(14~21세), 전체 VR 애플리케이션 없이 사용할 수 있는 취업 전 전환 서비스에 대해 문의하세요.",
+      "VR 상담사와 협력하여 구체적인 목표를 가진 개별 고용 계획(IPE)을 개발하세요.",
+      "자폐인을 위한 직업 코칭 및 현장 지원을 포함한 지원 취업 서비스에 대해 문의하세요.",
+      "VR 서비스는 개인이 안정적인 취업을 달성할 때까지 계속됩니다. 상담사와 정기적으로 후속 조치를 취하세요."
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "이민",
+    "title": "서류미비 가족을 위한 ITIN 신청",
+    "summary": "개인 납세자 식별 번호(ITIN)를 사용하면 사회 보장 번호 없이 세금을 신고하고, 은행 계좌를 개설하고, 특정 서비스를 이용할 수 있습니다.",
+    "details": "ITIN은 미국 납세자 식별 번호가 필요하지만 사회 보장 번호를 받을 자격이 없는 개인에게 IRS가 발급하는 세금 처리 번호입니다. 1996년부터 IRS는 서류미비 이민자와 그 부양가족에게 ITIN을 발급해 왔습니다. ITIN을 사용하면 연방 세금 신고서를 제출하고, 은행 계좌를 개설하고, 주 및 지방 혜택을 신청하고, 재무 기록을 작성할 수 있습니다. 신청하려면 IRS 양식 W-7을 작성하고 연방 세금 신고서 및 신원 증명서(여권, 영사 ID 또는 기타 허용되는 서류)와 함께 제출하세요. 우편으로 신청하거나 IRS 납세자 지원 센터에 직접 방문하거나 공인 접수 대리인을 통해 신청할 수 있습니다. 참고: 2025년 11월 법원 명령에 따라 현재 IRS-ICE 데이터 공유 계약이 금지되어 있지만, 가족들은 이 상황이 바뀔 수 있다는 점을 인지해야 합니다.",
+    "steps": [
+      "필수 서류 준비: 유효한 여권이 가장 일반적으로 허용되는 독립형 신분증입니다.",
+      "IRS 양식 W-7을 작성하세요. irs.gov에서 다운로드하거나 공인 접수 대리인의 도움을 받을 수 있습니다.",
+      "연방 세금 신고서(양식 1040)와 함께 양식 W-7을 제출하세요. ITIN은 세금을 신고할 때만 발급될 수 있습니다.",
+      "irs.gov에서 가까운 CAA(인증 접수 대리인)를 찾으십시오. CAA가 문서를 검증해 주므로 원본을 우편으로 보낼 필요가 없습니다.",
+      "처리하는 데 7~11주가 소요됩니다. 세금 시즌(1월~4월)에는 더 길어집니다.",
+      "ITIN이 만료된 경우 갱신하십시오. 사용하지 않은 ITIN은 연속 3년 동안 사용하지 않으면 만료됩니다."
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "이민",
+    "title": "지역사회 보건센터(FQHC)",
+    "summary": "연방 공인 보건 센터는 이민 신분이나 지불 능력에 관계없이 모든 사람에게 서비스를 제공하며, 소득에 따라 차등제로 수수료를 부과합니다.",
+    "details": "연방 공인 의료 센터(FQHC)는 소외된 인구에게 포괄적인 1차 진료, 치과, 정신 건강 및 지원 서비스를 제공하는 지역사회 기반 의료 기관입니다. 법에 따라 FQHC는 이민 상태, 보험 적용 범위 또는 지불 능력에 관계없이 모든 환자에게 서비스를 제공해야 합니다. 이들은 가계 소득에 따라 차등 요금을 사용합니다. 연방 빈곤 수준이 100% 이하인 가족은 일반적으로 무료 또는 명목상의 비용으로 진료를 받습니다. FQHC는 많은 이민자 가족을 포함하여 2023년에 3천만 명 이상의 환자에게 서비스를 제공했습니다. 자폐 아동의 경우 FQHC는 발달 검사, 진단 평가 의뢰, 일차 진료 및 전문가 연결을 제공할 수 있습니다. 많은 FQHC에는 이중 언어를 구사하는 직원과 통역 서비스가 있습니다.",
+    "steps": [
+      "findahealthcenter.hrsa.gov에서 가까운 FQHC를 찾으세요. 검색하려면 우편번호를 입력하세요.",
+      "전화로 약속을 잡으세요. 서비스가 필요하다고 설명하고 차등 요금에 대해 문의하세요.",
+      "수수료 수준을 확인하려면 소득 증명(급여 명세서, 은행 명세서 또는 자기 신고서)을 지참하세요.",
+      "이민 서류, 사회 보장 번호 또는 보험을 제공할 필요가 없습니다.",
+      "자녀의 발달 검사 및 자폐증 평가 제공자 추천에 대해 문의하십시오.",
+      "자신을 위한 정신 건강 서비스에 대해 문의하십시오. 많은 FQHC에서는 여러 언어로 상담을 제공합니다."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "이민",
+    "title": "특별 이민자 청소년 신분(SIJS)",
+    "summary": "부모 중 한 명 또는 두 명 모두에게 학대, 버림, 방치를 당한 21세 미만 이민자 자녀를 위한 합법적인 영주권 취득 경로입니다.",
+    "details": "특별 이민자 청소년 신분(SIJS)은 학대, 유기 또는 방치에서 살아남은 이민자 자녀에게 영주권을 받을 수 있는 길을 제공할 수 있는 인도주의적 보호의 한 형태입니다. 자격을 갖추려면 자녀가 21세 미만이고 미혼이어야 하며 주 법원 명령에 따라 부모 중 한 명 또는 두 명 모두에 의해 학대, 방치 또는 버림받았으며 본국으로 돌아가는 것이 최선의 이익이 되지 않는다는 판결이 있어야 합니다. 자폐 아동의 경우, SIJS는 부모가 가족을 버렸을 때나 아동이 장애로 인해 방치를 경험했을 때 관련될 수 있습니다. 이 과정에는 주 법원 절차(필요한 결과를 얻기 위한)와 연방 이민 절차(SIJS 청원 및 영주권 신청)가 모두 포함됩니다. 이민 법률 지원 기관을 통해 무료 법률 지원을 받을 수 있습니다.",
+    "steps": [
+      "아동 사건 전문 이민 변호사와 상담하세요. 많은 법률 지원 기관이 SIJS 사건을 무료로 처리합니다.",
+      "귀하의 자녀가 21세 미만, 미혼, 부모에 의해 학대/버림/방임 대상이라는 요건을 충족하는지 확인하십시오.",
+      "주 법원(주에 따라 가정법원, 청소년 법원, 검인 법원)에서 필요한 조사 결과를 얻으십시오.",
+      "주 법원 명령과 함께 I-360(특별 이민자 청원서) 양식을 USCIS에 제출하십시오.",
+      "SIJS가 승인되면 I-485 양식을 제출하여 합법적인 영주권(그린카드)을 신청하세요.",
+      "무료 법적 대리를 받으려면 Safe Passage Project, NIJC 또는 CLINIC과 같은 조직에 문의하세요."
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "이민",
+    "title": "공적 부담 규칙: 중요한 것과 중요하지 않은 것",
+    "summary": "자녀를 위한 장애 서비스, Medicaid, CHIP, WIC, 학교 급식 또는 특수 교육을 이용하는 것은 현행법에 따른 이민 절차에서 불리하게 간주되지 않습니다.",
+    "details": "공적 부조 규정은 이민자 가족에게 가장 큰 두려움의 원인 중 하나입니다. 현재 시행 중인 규정(2022년)에 따라 생활보호 대상자 결정에 포함되는 유일한 혜택은 SSI(보충적 보장 소득), TANF 현금 지원, 정부 비용으로 장기 시설 수용 등입니다. Medicaid(장기 시설 수용 제외), CHIP, SNAP, WIC, 학교 급식, 주택 혜택, Head Start, 특수 교육 및 조기 개입 서비스는 포함되지 않습니다. 귀하의 자녀가 스스로 받은 혜택은 귀하에게 귀속되지 않습니다. 2025년 11월에 발표된 제안된 규칙은 중요한 내용을 확장할 수 있지만 아직 시행되지 않았으며 법적 문제에 직면해 있습니다. 현행법에 따르면 자폐아를 위한 장애 서비스를 이용하는 것은 이민 사건에 영향을 미치지 않습니다.",
+    "steps": [
+      "사실을 숙지하십시오: Medicaid, CHIP, WIC, SNAP, 학교 급식, Head Start 및 특수 교육은 공적 부담으로 간주되지 않습니다.",
+      "귀하의 미국 시민 자녀가 받는 혜택은 귀하에게 불리하게 계산되지 않습니다. 귀하가 개인적으로 받는 혜택만 중요합니다.",
+      "현재 계산되는 유일한 혜택은 SSI, TANF 현금, 정부 비용으로 운영되는 장기 시설화입니다.",
+      "이민 문제가 있는 경우 혜택 결정을 내리기 전에 이민 변호사와 상담하십시오. 많은 법률 지원 기관에서 무료 상담을 제공합니다.",
+      "NILC(nilc.org) 및 ILRC(ilrc.org)를 통해 생활 보호 규정 변경 사항에 대한 최신 정보를 받아보세요.",
+      "단지 두려움 때문에 프로그램을 중단하지 마십시오. 귀하의 상황에 맞는 정확한 법적 조언을 받으십시오."
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "보험 및 자금 조달",
+    "title": "주 자폐증 보험 의무사항",
+    "summary": "이제 50개 주 모두 ABA 치료를 포함한 자폐증 서비스를 보장하기 위해 보험 계획을 요구하지만 연령 제한 및 달러 한도와 같은 보장 세부 사항은 주마다 다릅니다.",
+    "details": "미국의 50개 주 모두 ABA(Applied Behavior Analysis)를 포함하여 자폐 스펙트럼 장애의 진단 및 치료를 보장하는 건강 보험 계획을 요구하는 자폐증 보험 명령을 제정했습니다. 그러나 보장 내용은 주마다 크게 다릅니다. 일부 주에서는 연간 ABA 혜택을 제한합니다(연간 $36,000에서 $72,000 이상). 반면 다른 주에서는 제한이 없습니다. 연령 제한은 다양합니다. 일부 주에서는 어린이에게만 적용되는 반면 다른 주에서는 모든 연령에 대한 적용을 의무화합니다. 자체 자금 조달 고용주 계획(ERISA 계획)은 주 명령에서 면제되지만 연방 정신 건강 평가 요구 사항이 적용될 수 있습니다. 귀하의 보험이 자폐증 서비스를 거부하는 경우, 귀하는 이의를 제기할 권리가 있습니다. 연방 정신 건강 평등 및 중독 형평성법(Mental Health Parity and Addiction Equity Act)은 정신 건강 혜택(자폐증 치료 포함)이 의료/수술 혜택과 동등하게 보장되도록 요구합니다.",
+    "steps": [
+      "ncsl.org/health/autism-and-insurance-coverage-state-laws에서 해당 주의 특정 자폐증 보험 규정을 찾아보세요.",
+      "귀하의 플랜의 자폐증 혜택 사본을 서면으로 요청하십시오. ABA 보장 범위, 연령 제한, 세션 제한 및 달러 한도에 대해 문의하십시오.",
+      "권장되는 치료법과 의학적 필요성을 명시한 자녀의 담당 의사로부터 진료 의뢰를 받으십시오.",
+      "거부된 경우, 구체적인 정책 인용과 함께 서면으로 거부를 요청하고 내부 항소를 제기하세요.",
+      "내부 항소가 실패하면 해당 주의 보험 부서에 외부 항소를 제출하십시오.",
+      "보험 항소에 대한 무료 도움을 받으려면 해당 주의 보호 및 옹호 기관에 문의하세요."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "보험 및 자금 조달",
+    "title": "케이티 베켓 / TEFRA 면제",
+    "summary": "부모의 소득이 아닌 자녀의 소득을 기준으로 집에 거주하는 심각한 장애가 있는 자녀에게 Medicaid 보장을 제공하여 대부분의 자녀가 가족 소득에 관계없이 자격을 갖추도록 합니다.",
+    "details": "Katie Beckett(TEFRA라고도 함) 옵션을 통해 주에서는 부모의 소득이 아닌 자녀의 소득만 계산하여 집에 거주하는 중증 장애 아동에게 Medicaid를 제공할 수 있습니다. 대부분의 어린이는 소득이 없기 때문에 심각한 장애가 있는 대다수의 어린이는 부모의 소득에 관계없이 Medicaid 수혜 자격이 있습니다. 이 프로그램은 인공호흡기를 착용하고 있는 케이티 베켓(Katie Beckett)이 부모의 수입이 너무 높아 집이 아닌 병원에서만 메디케이드 지원 치료를 받을 수 있었던 이후 1982년에 만들어졌습니다. 현재 약 24개 주에서 Katie Beckett/TEFRA 보장을 제공하고 있습니다. ABA와 같은 고가의 치료법이 필요한 자폐증 아동의 경우 이 프로그램은 EPSDT 혜택이 포함된 Medicaid 보장을 제공하므로 인생을 바꿀 수 있습니다. 해당 주에서 이 옵션을 제공하는지 알아보려면 해당 주의 Medicaid 사무소에 문의하세요.",
+    "steps": [
+      "해당 주에서 Katie Beckett/TEFRA 옵션을 제공하는지 확인하려면 kidswaivers.org를 방문하거나 해당 주 Medicaid 사무소에 전화하세요.",
+      "자격을 갖추려면 귀하의 자녀가 SSI 장애 기준(자폐증으로 인한 심각한 기능 제한)을 충족해야 합니다.",
+      "해당 주의 Medicaid 사무소를 통해 신청하십시오. 신청서는 가족 재정이 아닌 자녀의 장애 수준을 평가합니다.",
+      "의료 문서를 수집하십시오: 자폐증 진단, 기능 평가, 치료 기록, 치료 요구 사항에 대한 의사 진술.",
+      "승인되면 귀하의 자녀는 EPSDT(ABA, 언어, OT 및 모든 의학적으로 필요한 서비스)를 포함한 전체 Medicaid 혜택을 받게 됩니다.",
+      "해당 주에서 Katie Beckett을 제공하지 않는 경우 장애 아동을 위한 다른 Medicaid 경로(HCBS 면제, 의학적으로 필요한 프로그램)에 대해 문의하십시오."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "보험 및 자금 조달",
+    "title": "ABLE계좌(세금우대적금)",
+    "summary": "SSI, Medicaid 또는 기타 자산 조사 혜택에 대한 자격에 영향을 주지 않는 장애 관련 비용에 대한 면세 저축 계좌입니다.",
+    "details": "2014년 ABLE 법에 따라 승인된 ABLE(Achieving a Better Life Experience) 계좌는 46세 이전에 장애가 시작된 개인을 위한 세금 혜택을 받는 저축 계좌입니다. 교육, 주택, 교통, 건강 관리, 보조 기술 및 개인 지원 서비스를 포함한 적격 장애 비용(QDE)에 사용되는 경우 기부금은 세금이 면제되고 인출금은 세금이 면제됩니다. ABLE 계좌의 첫 $100,000는 SSI 자원 한도인 $2,000에서 면제됩니다. 이는 귀하의 자녀가 SSI 또는 Medicaid 자격을 잃지 않고 돈을 저축할 수 있음을 의미합니다. 연간 기부금 한도는 $18,000(2025년)이며, 근로 수혜자에게는 추가 기부금이 허용됩니다. 대부분의 주에서는 ABLE 프로그램을 제공하며 어느 주에서나 계좌를 개설할 수 있습니다. 자폐 아동 가족의 경우 ABLE 계좌는 혜택 자격을 유지하면서 장애 관련 비용을 절약할 수 있는 최고의 도구 중 하나입니다.",
+    "steps": [
+      "자격 확인: 계좌 수혜자는 46세 이전에 시작된 장애가 있어야 합니다.",
+      "ablenrc.org에서 주 ABLE 프로그램을 비교해 보세요. 자신의 주뿐만 아니라 어떤 주에서도 계좌를 개설할 수 있습니다.",
+      "선택한 주의 ABLE 프로그램을 통해 온라인으로 계좌를 개설하세요. 과정은 은행 계좌를 개설하는 것과 유사합니다.",
+      "자동 기부를 설정하세요. 적은 금액이라도 시간이 지남에 따라 누적됩니다.",
+      "모든 인출 내역과 적격 장애 비용에 자금이 사용된 방식을 기록해 두십시오.",
+      "처음 $100,000는 $2,000 SSI 자원 한도에 포함되지 않습니다. 혜택을 잃을 염려 없이 저축하십시오."
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "보험 및 자금 조달",
+    "title": "자폐증 보조금 및 장학금 프로그램",
+    "summary": "치료 비용, 진단 평가, 보조 기술 및 기타 자폐증 관련 비용을 충당하는 데 도움이 되는 비영리 단체의 재정 보조금입니다.",
+    "details": "몇몇 비영리 단체는 자폐증 아동의 가족에게 재정적 보조금을 제공합니다. ACT Today(Autism Care and Treatment Today)는 치료를 받을 여유가 없거나 치료를 받을 수 없는 가족에게 최대 5,000달러의 보조금을 제공합니다. Autism Speaks Autism Care Grant는 자폐증 관련 비용으로 $500를 제공합니다. United Healthcare Children's Foundation(UHCCF)은 보험이 적용되지 않는 의료 비용에 대해 연간 최대 $5,000까지 보조금을 제공합니다. 이러한 보조금 중 상당수는 사회보장번호나 특정 이민 신분을 요구하지 않습니다. 또한 일부 주에서는 자폐증 아동을 위한 사립학교 등록금이나 치료비를 지원하는 자폐증 장학금 프로그램(예: 오하이오주의 자폐증 장학금 프로그램)을 제공합니다. 지역 자폐 협회, 지역 사회 재단, 봉사 단체(라이온스 클럽, 로타리, 엘크)에서도 재정 지원을 제공할 수 있습니다.",
+    "steps": [
+      "act-today.org에서 ACT Today 보조금을 신청하세요. 보장 치료, 평가 및 보조 기술을 보조금으로 제공합니다.",
+      "autismspeaks.org에서 Autism Speaks 자폐증 치료 보조금을 신청하세요. 자폐증 관련 비용으로 $500의 보조금을 받으실 수 있습니다.",
+      "uhccf.org에서 UHCCF 보조금을 확인하세요. 보험이 적용되지 않는 의료 비용의 경우 연간 최대 $5,000까지 가능합니다.",
+      "거주하는 주에서 자폐증 장학금을 찾아보세요. 일부 주에서는 사립학교에 자금을 지원하거나 자폐아를 위한 치료비를 지원합니다.",
+      "지역 보조금 및 재정 지원 프로그램에 대한 정보는 지역 자폐증 협회 제휴사에 문의하세요.",
+      "치료 제공자에게 무료 자리, 차등 요금 또는 지불 계획에 대해 문의하세요. 도움이 필요한 가족을 위한 자리가 많이 있습니다."
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "치료법",
+    "title": "보완대체의사소통(AAC)",
+    "summary": "말을 하지 않거나 최소한의 언어로 표현하는 어린이가 그림, 기호 또는 음성 생성 기술을 통해 자신의 생각, 필요 및 감정을 표현할 수 있도록 돕는 의사소통 시스템 및 장치입니다.",
+    "details": "보완대체의사소통(AAC)은 구두 말하기 이외의 모든 형태의 의사소통을 포함합니다. 말을 하지 않거나 최소한으로만 말하는 자폐아에게 AAC는 변화를 가져올 수 있습니다. 옵션은 저급 기술(그림판, PECS - 그림 교환 통신 시스템, 통신 서적)부터 첨단 기술(Proloquo2Go 또는 TouchChat과 같은 태블릿 기반 앱, 전용 음성 생성 장치)까지 다양합니다. 연구에 따르면 AAC는 어린이의 언어 발달을 방해하지 않으며 실제로 언어 의사소통을 향상시킬 수 있다는 연구 결과도 있습니다. AAC를 사용하기 위한 전제 조건은 없습니다. 모든 연령이나 능력 수준의 어린이가 혜택을 누릴 수 있습니다. IDEA에 따라 FAPE에 AAC 장치가 필요하다고 판단되면 학교는 해당 장치를 무료로 제공해야 합니다. Medicaid 및 보험은 의학적 필요성에 대한 적절한 문서가 있는 AAC 장치에도 적용할 수 있습니다.",
+    "steps": [
+      "AAC 옵션에 대해 자녀의 SLP에 문의하십시오. 언어 병리학자는 자녀에게 가장 적합한 AAC 유형을 평가해야 합니다.",
+      "작동하는 것부터 시작하세요. 포인팅, 제스처, 그림 카드도 AAC로 간주되므로 값비싼 기술이 필요하지 않습니다.",
+      "태블릿 기반 AAC 앱(Proloquo2Go, TouchChat, LAMP Words for Life)을 사용해 보세요. 많은 앱이 무료 평가판을 제공합니다.",
+      "자녀의 학교 IEP를 통해 AAC 평가를 요청하십시오. AAC가 교육에 필요한 경우 학교는 이를 무료로 제공해야 합니다.",
+      "Medicaid, 보험 또는 해당 주의 보조 기술 프로그램을 통해 AAC 장치 자금 지원을 신청하세요.",
+      "모델 AAC를 직접 사용하세요. 말하는 동안 장치의 버튼을 눌러 자녀에게 작동 방식을 보여주세요(이를 '보조 언어 자극'이라고 합니다)."
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "치료법",
+    "title": "부모가 실시하는 중재 교육",
+    "summary": "집에서 자녀와 함께 치료 전략을 제공하도록 부모를 교육하는 증거 기반 프로그램으로 전문 치료의 효과를 크게 확대합니다.",
+    "details": "부모 실행 중재(PII)는 ASD에 대한 국립 전문 개발 센터에서 인정한 증거 기반 관행입니다. 거의 3,000명의 어린이를 대상으로 한 51개의 무작위 대조 시험에 대한 메타 분석 연구에 따르면 부모가 실행하는 개입은 사회적 기술, 의사소통, 적응 행동 및 도전적인 행동 감소에 약간 강한 이점을 제공하는 것으로 나타났습니다. PII는 보험, 지리적 또는 언어 장벽으로 인해 전문 치료사에 대한 접근이 제한된 이민자 가족에게 특히 유용합니다. PTA(Parents Take Action)와 같은 프로그램은 중국 및 한국 이민자 가족에게 문화적으로 적용되어 상당히 긍정적인 결과를 얻었습니다. 부모 교육은 ABA, 언어 치료, 조기 개입 서비스의 구성 요소인 경우가 많으며 원격 의료를 통해 제공될 수 있습니다. IDEA 파트 C는 서비스 제공 모델로서 학부모 코칭을 명시적으로 지원합니다.",
+    "steps": [
+      "자녀의 치료사(BCBA, SLP 또는 OT)에게 부모 교육 구성 요소에 대해 문의하세요. 대부분의 증거 기반 프로그램에는 이러한 구성 요소가 포함되어 있습니다.",
+      "자녀의 IEP 또는 IFSP의 특정 서비스로 부모 코칭을 요청하세요. 독립형 서비스일 수도 있습니다.",
+      "Autism Speaks 도구 키트와 Autism Internet Modules(autisminternetmodules.org)를 통해 무료 온라인 부모 교육을 살펴보세요.",
+      "귀하의 언어와 지역 사회에서 이용 가능한 경우 PTA(Parents Take Action)와 같이 문화적으로 적응된 프로그램을 찾으십시오.",
+      "식사, 목욕 시간, 놀이, 심부름은 자연스러운 학습 기회입니다.",
+      "자녀의 진행 상황을 추적하고 관찰 내용을 전문 팀과 공유하십시오. 귀하의 데이터는 치료 조정을 안내하는 데 도움이 됩니다."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "위기지원",
+    "title": "배회/도출방지(큰빨간 금고)",
+    "summary": "전국 자폐증 협회(National Autism Association)의 무료 안전 툴킷은 자폐증이 있는 모든 어린이의 거의 절반에 영향을 미치는 위험한 방황 사고를 예방하고 대응하는 데 도움이 됩니다.",
+    "details": "자폐 아동의 약 50%는 안전한 환경에서 방황하거나 도망치게 되므로 방황은 가족에게 가장 심각한 안전 문제 중 하나가 됩니다. 방황에 따른 익사는 자폐증 아동의 주요 사망 원인입니다. 국립 자폐증 협회(National Autism Association)의 Big Red Safety Box는 배회 위험에 처한 자폐증 환자의 가족에게 배송되는 무료 도구 키트입니다. 2011년부터 70,000개 이상의 상자가 배포되었습니다. 툴킷에는 시각적 안전 리소스, ID 카드, 창문/문 경보기, 종합적인 안전 계획 수립에 대한 지침이 포함되어 있습니다. 추가 조치에는 GPS 추적 장치, 의료 ID 팔찌, 도어 알람, 수영장 울타리, 현지 최초 대응자와의 관계 구축 등이 포함됩니다. 수중 안전과 수영 기술을 가르치는 것이 중요합니다. 또한 많은 가족들은 특히 자폐증이 있는 개인을 위해 무료 의료 ID 팔찌와 연중무휴 방황 지원 서비스를 제공하는 MedicAlert Found 프로그램의 혜택을 받습니다.",
+    "steps": [
+      "nationalautismassociation.org/big-red-safety-box에서 무료 Big Red 안전 상자를 신청하세요. 재고가 소진될 때까지 가족당 하나씩입니다.",
+      "특히 출구 문에 문과 창문 경보 장치를 설치하십시오. 저렴한 경보 장치는 철물점에서 찾을 수 있습니다.",
+      "자녀를 위한 GPS 추적 장치를 고려해 보십시오. 웨어러블 옵션에는 AngelSense, Jiobit 및 Apple AirTag 홀더가 포함됩니다.",
+      "Medicalert.org에서 MedicAlert Found 프로그램에 등록하세요. 무료 의료 ID와 자폐증 가족을 위한 연중무휴 24시간 방황 지원이 제공됩니다.",
+      "수상 안전과 수영 기술을 조기에 가르치십시오. 자폐증이 있는 어린이를 위해 고안된 수영 강습이 많은 지역사회에서 제공됩니다.",
+      "자녀의 자폐증 및 배회 위험에 대해 지역 경찰 및 소방서에 알리십시오. 많은 부서에서 자발적인 등록을 유지하고 있습니다."
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "위기지원",
+    "title": "자폐증 응급 ID 카드 및 의료 경고",
+    "summary": "응급 상황 시 응급 구조대원, 의료진, 지역 사회 구성원에게 자폐 진단 및 중요한 정보를 전달하는 의료 식별 도구입니다.",
+    "details": "자폐증은 눈에 보이지 않는 질환이기 때문에 긴급 구조대원과 의료진이 응급 상황에서 이를 인지하지 못할 수 있으며, 이는 잠재적으로 위험한 오해로 이어질 수 있습니다. 의료 ID 팔찌, 목걸이, 지갑 카드 및 신발 태그는 필수 정보를 전달합니다. 개인은 자폐증이 있고 언어 명령에 응답하지 않을 수 있으며 비언어적일 수 있으며 비상 연락처 정보가 있을 수 있습니다. MedicAlert Found 프로그램(전국 자폐증 협회와 제휴)은 무료 등록, 무료 의료 ID 팔찌 또는 목걸이, 무료 의료 ID 신발 태그, 자폐증 커뮤니티를 위한 연중무휴 방황 지원 서비스를 제공합니다. 다른 옵션으로는 상세한 의료 프로필에 연결되는 QR 코드 팔찌, ICE(긴급 상황 발생 시) 지갑 카드, 스마트폰 의료 ID 기능이 있습니다. 기존 팔찌를 제거할 수 있는 어린이의 경우 신발 태그, 의류 라벨, 연락처 정보가 있는 임시 문신 등의 옵션이 있습니다.",
+    "steps": [
+      "Medicalert.org에서 MedicAlert Found 프로그램에 등록하세요. 자폐증이 있는 개인을 위한 무료 의료 ID 및 연중무휴 지원을 제공합니다.",
+      "자녀가 사용할 수 있는 웨어러블 ID를 선택하세요. 옵션에는 팔찌, 목걸이, 신발 태그, 의류 라벨이 포함됩니다.",
+      "진단, 약물, 비상 연락처 및 통신 요구 사항이 포함된 자녀의 지갑이나 배낭에 사용할 ICE(긴급 상황 발생 시) 카드를 만드세요.",
+      "중요한 건강 정보가 포함된 자녀의 스마트폰(iPhone 및 Android 모두에서 사용 가능)에 의료 ID 기능을 설정하세요.",
+      "구체적인 의사소통 지침을 포함하십시오: '나는 자폐증이 있습니다. 나는 구두 명령에 응답하지 않을 수도 있습니다. 간단한 언어와 시각적 신호를 사용하세요.'",
+      "약물, 연락처 또는 의사소통 능력이 변경되면 ID 정보를 정기적으로 업데이트하십시오."
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "위기지원",
+    "title": "최초 대응자 자폐증 인식 프로그램",
+    "summary": "경찰, 소방관, 구급대원에게 자폐증을 인식하고 자폐인을 대할 때 안전하고 효과적인 단계적 완화 기술을 사용하도록 가르치는 훈련 프로그램입니다.",
+    "details": "자폐인과 법 집행 기관 사이의 만남은 경찰관이 자폐 관련 행동(눈을 마주치지 않거나, 구두 명령을 따르지 않거나, 반복적으로 움직이거나, 도주하는 등)을 비준수 또는 위협적인 행동으로 잘못 해석할 때 위험해질 수 있습니다. 최초 대응자 자폐증 인식 교육 프로그램은 경찰관에게 자폐증 징후를 인식하고, 조용하고 간단한 의사소통을 사용하고, 추가 처리 시간을 허용하고, 감각 입력을 최소화하고 단계적 완화 기술을 사용하도록 가르칩니다. 미국 자폐증 협회(Autism Society of America)의 스펙트럼 안전(Safety on the Spectrum) 프로그램은 응급 구조대원과 자폐증 커뮤니티 간의 안전한 상호 작용을 촉진합니다. IBCCES(International Board of Credentialing and Continuing Education Standards)는 공식 최초 대응자 자폐증 인증을 제공합니다. 플로리다와 같은 일부 주에서는 법 집행 기관에 자폐증 교육을 의무화합니다. 가족은 자녀에 대한 정보를 공유함으로써 지역 경찰 및 소방서와 적극적으로 관계를 구축할 수 있습니다.",
+    "steps": [
+      "지역 경찰서에 연락하여 자폐증 인식 교육을 받았는지 물어보세요. 그렇지 않은 경우 자원을 공유하겠다고 제안하십시오.",
+      "지역 경찰서와 소방서에 사진, 이름, 진단, 의사소통 스타일, 유발 요인, 진정 전략 등 자녀의 한 페이지 프로필을 제공하십시오.",
+      "지역 911 파견 센터에서 관리하는 자발적인 특별 지원 등록에 대해 문의하세요.",
+      "자폐증 협회(autismsociety.org/first-responder)의 교육 자료를 지역 기관과 공유하세요.",
+      "자녀가 친숙해질 수 있도록 차분한 환경에서 제복을 입은 직원과 상호 작용하는 연습을 하십시오.",
+      "지갑 카드를 가지고 다니거나 응급 구조대원을 위한 구체적인 지침과 함께 '나는 자폐증입니다'라고 적힌 의료 신분증을 자녀에게 착용하게 하십시오."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

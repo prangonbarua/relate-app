@@ -1,0 +1,121 @@
+{
+  "community": {
+    "categories": {
+      "all": "Tout",
+      "general": "Jeneral",
+      "questions": "Kesyon",
+      "tips": "Konsèy",
+      "wins": "Genyen",
+      "vent": "Vant"
+    },
+    "new_post": "Nouvo Post",
+    "post_button": "Post",
+    "category_label": "Kategori",
+    "title_label": "Tit",
+    "body_placeholder": "Ki sa ki nan tèt ou?",
+    "no_posts": "Pa gen pòs ankò",
+    "be_first": "Se pou premye moun ki pataje yon bagay ak kominote a.",
+    "time": {
+      "just_now": "jis kounye a",
+      "minutes_ago": "{{count}}m de sa",
+      "hours_ago": "{{count}} èdtan de sa",
+      "days_ago": "{{count}} d de sa",
+      "weeks_ago": "{{count}}w de sa"
+    }
+  },
+  "assistant": {
+    "title": "AI Asistan",
+    "subtitle": "Poze kesyon sou otis, terapi, ak dwa w",
+    "how_can_i_help": "Kouman mwen ka ede?",
+    "intro": "Mwen ka reponn kesyon sou otis, terapi, dwa lekòl, ak plis ankò.",
+    "placeholder": "Tape yon mesaj...",
+    "thinking": "Panse...",
+    "error": "Padon, mwen gen pwoblèm pou konekte kounye a. Tanpri eseye ankò nan yon ti moman.",
+    "source": "Sous",
+    "prompt_1": "Ki premye siy otis?",
+    "prompt_2": "Kouman pou mwen mande yon IEP?",
+    "prompt_3": "Terapi ABA eksplike"
+  },
+  "settings": {
+    "title": "Anviwònman",
+    "child_profile": "Pwofil Timoun",
+    "loves": "Renmen",
+    "triggers": "Deklanche",
+    "edit_profile": "Edit Profile",
+    "setup_profile": "Fikse Profil Timoun",
+    "section_app": "App",
+    "language": "Lang",
+    "change": "Chanje",
+    "clear_chat": "Klè istwa chat",
+    "section_account": "Kont",
+    "logout": "Dekonekte",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Dekonekte",
+    "logout_alert_message": "Sa a pral reset aplikasyon an epi retounen nan abònman.",
+    "logout_confirm": "Dekonekte",
+    "clear_chat_alert_title": "Klè istwa chat",
+    "clear_chat_alert_message": "Sa a pral efase tout konvèsasyon asistan AI ou yo.",
+    "clear_chat_confirm": "Klè",
+    "clear_chat_done_title": "Fè",
+    "clear_chat_done_message": "Istwa chat ap efase sou pwochen rekòmanse."
+  },
+  "home": {
+    "quick_actions": {
+      "resources": "Resous",
+      "community": "Kominote",
+      "ask_ai": "Mande AI"
+    },
+    "todays_skill": "Konpetans jodi a"
+  },
+  "navigator": {
+    "no_resources": "Pa gen resous ki disponib ankò",
+    "disclaimer": "Sa a se enfòmasyon jeneral sèlman. Lwa yo varye selon eta. Pou konsèy espesifik, konsilte yon avoka edikasyon espesyal oswa yon avoka."
+  },
+  "skills": {
+    "title": "Anseye ladrès",
+    "skill_count": "{{count}} konpetans",
+    "skill_count_one": "{{count}} konpetans"
+  },
+  "post": {
+    "title": "Post",
+    "loading": "Chaje pòs...",
+    "not_found": "Post pa jwenn",
+    "not_found_detail": "Pòs sa a ka retire oswa li pa disponib pou yon ti tan.",
+    "comments": "Kòmantè",
+    "no_comments": "Pa gen kòmantè ankò. Kòmanse konvèsasyon an!",
+    "comment_placeholder": "Ekri yon kòmantè...",
+    "comment_count": "{{count}} kòmantè",
+    "comment_count_one": "{{count}} kòmantè",
+    "delete_title": "Efase Post",
+    "delete_message": "Èske w sèten ou vle efase pòs sa a? Sa a pa ka defèt.",
+    "delete_comment_title": "Efase kòmantè",
+    "delete_comment_message": "Èske w sèten ou vle efase kòmantè sa a?"
+  },
+  "common": {
+    "edit": "Edit",
+    "delete": "Efase",
+    "go_back": "Ale tounen",
+    "categories": "Kategori",
+    "sources": "Sous"
+  },
+  "resource": {
+    "loading": "Chaje resous...",
+    "not_found": "Resous pa jwenn",
+    "summary": "Rezime",
+    "details": "Detay yo",
+    "steps": "Etap",
+    "count": "{{count}} resous",
+    "count_one": "{{count}} resous",
+    "no_resources": "Pa gen resous ki disponib ankò",
+    "loading_resources": "Chaje resous..."
+  },
+  "skill": {
+    "loading": "Chaje konpetans...",
+    "not_found": "Konpetans pa jwenn",
+    "why_it_matters": "Poukisa li enpòtan",
+    "steps_to_practice": "Etap yo pratike",
+    "ages": "Laj {{range}}",
+    "no_skills": "Pa gen ladrès ki disponib ankò",
+    "loading_skills": "Chaje konpetans..."
+  }
+}

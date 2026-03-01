@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "诊断前",
@@ -74,7 +76,13 @@
       "log_skip": "今天跳过"
     },
     "crisis": "现在需要帮助？",
-    "streak": "连续 {{count}} 天"
+    "streak": "连续 {{count}} 天",
+    "quick_actions": {
+      "resources": "资源",
+      "community": "社区",
+      "ask_ai": "询问人工智能"
+    },
+    "todays_skill": "今日技能"
   },
   "skills": {
     "title": "自我护理学校",
@@ -87,7 +95,9 @@
       "sleep": "睡眠",
       "feeding": "饮食",
       "selfcare": "自我护理"
-    }
+    },
+    "skill_count": "{{count}} 项技能",
+    "skill_count_one": "{{count}} 技能"
   },
   "navigator": {
     "title": "资料",
@@ -97,13 +107,37 @@
       "school": "学校权利",
       "state": "州政府服务",
       "crisis": "危机资源"
-    }
+    },
+    "no_resources": "还没有可用资源",
+    "disclaimer": "这只是一般信息。法律因州而异。如需具体建议，请咨询特殊教育倡导者或律师。"
   },
   "community": {
     "title": "社区",
     "subtitle": "与理解您的父母联系",
     "coming_soon": "即将推出",
-    "join_waitlist": "加入等待名单"
+    "join_waitlist": "加入等待名单",
+    "categories": {
+      "all": "全部",
+      "general": "一般",
+      "questions": "问题",
+      "tips": "温馨提示",
+      "wins": "胜利",
+      "vent": "通风口"
+    },
+    "new_post": "新帖子",
+    "post_button": "邮政",
+    "category_label": "类别",
+    "title_label": "标题",
+    "body_placeholder": "你在想什么？",
+    "no_posts": "还没有帖子",
+    "be_first": "成为第一个与社区分享内容的人。",
+    "time": {
+      "just_now": "刚才",
+      "minutes_ago": "{{count}} 分钟前",
+      "hours_ago": "{{count}}小时前",
+      "days_ago": "{{count}}天前",
+      "weeks_ago": "{{count}}w 前"
+    }
   },
   "crisis": {
     "title": "您并不孤单",
@@ -132,6 +166,82 @@
     "done": "完成",
     "loading": "加载中...",
     "error": "出了点问题",
-    "retry": "重试"
+    "retry": "重试",
+    "edit": "编辑",
+    "delete": "删除",
+    "go_back": "返回",
+    "categories": "类别",
+    "sources": "来源"
+  },
+  "assistant": {
+    "title": "人工智能助手",
+    "subtitle": "询问有关自闭症、治疗和您的权利的问题",
+    "how_can_i_help": "我能提供什么帮助吗？",
+    "intro": "我可以回答有关自闭症、治疗、学校权利等的问题。",
+    "placeholder": "输入消息...",
+    "thinking": "想着……",
+    "error": "抱歉，我现在无法连接。请稍后重试。",
+    "source": "来源",
+    "prompt_1": "自闭症的早期症状有哪些？",
+    "prompt_2": "我如何申请 IEP？",
+    "prompt_3": "ABA疗法解释"
+  },
+  "settings": {
+    "title": "设置",
+    "child_profile": "儿童档案",
+    "loves": "喜欢",
+    "triggers": "触发器",
+    "edit_profile": "编辑个人资料",
+    "setup_profile": "设置儿童档案",
+    "section_app": "应用程序",
+    "language": "语言",
+    "change": "改变",
+    "clear_chat": "清除聊天记录",
+    "section_account": "帐户",
+    "logout": "退出",
+    "version": "Relate v1.0",
+    "logout_alert_title": "退出",
+    "logout_alert_message": "这将重置应用程序并返回到入门状态。",
+    "logout_confirm": "退出",
+    "clear_chat_alert_title": "清除聊天记录",
+    "clear_chat_alert_message": "这将删除您所有的 AI 助手对话。",
+    "clear_chat_confirm": "清除",
+    "clear_chat_done_title": "完成",
+    "clear_chat_done_message": "聊天记录将在下次重新启动时清除。"
+  },
+  "post": {
+    "title": "邮政",
+    "loading": "正在加载帖子...",
+    "not_found": "找不到帖子",
+    "not_found_detail": "该帖子可能已被删除或暂时不可用。",
+    "comments": "评论",
+    "no_comments": "还没有评论。开始对话！",
+    "comment_placeholder": "写评论...",
+    "comment_count": "{{count}} 条评论",
+    "comment_count_one": "{{count}} 条评论",
+    "delete_title": "删除帖子",
+    "delete_message": "您确定要删除此帖子吗？此操作无法撤消。",
+    "delete_comment_title": "删除评论",
+    "delete_comment_message": "您确定要删除此评论吗？"
+  },
+  "resource": {
+    "loading": "正在加载资源...",
+    "not_found": "找不到资源",
+    "summary": "总结",
+    "details": "详情",
+    "steps": "步骤",
+    "count": "{{count}} 资源",
+    "count_one": "{{count}} 资源",
+    "no_resources": "还没有可用资源",
+    "loading_resources": "正在加载资源..."
+  },
+  "skill": {
+    "loading": "技能加载中...",
+    "not_found": "未找到技能",
+    "why_it_matters": "为什么它很重要",
+    "steps_to_practice": "练习步骤",
+    "ages": "年龄 {{range}}",
+    "no_skills": "还没有可用的技能",
+    "loading_skills": "技能加载中..."
   }
 }

@@ -26,13 +26,41 @@ function cleanAIResponse(text: string): string {
 // Detect whether a message is a substantive question that warrants RAG lookup,
 // vs. a simple greeting or chitchat that should get a natural conversational reply.
 function isSubstantiveQuery(message: string): boolean {
-  const trimmed = message.replace(/[^\w\s]/g, "").trim().toLowerCase();
+  const trimmed = message.replace(/[^\w\s\u0600-\u06FF\u0980-\u09FF\u0900-\u097F\u3000-\u9FFF\uAC00-\uD7AF\u0410-\u044F]/g, "").trim().toLowerCase();
   const greetings = [
+    // English
     "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
     "thanks", "thank you", "bye", "goodbye", "ok", "okay", "yes", "no", "sure",
+    // Spanish
+    "hola", "buenos días", "buenas tardes", "buenas noches", "gracias", "adiós", "sí",
+    // French
+    "bonjour", "bonsoir", "salut", "merci", "au revoir", "oui", "non",
+    // Portuguese
+    "olá", "oi", "bom dia", "boa tarde", "boa noite", "obrigado", "obrigada", "tchau", "sim", "não",
+    // Arabic (transliterated)
+    "مرحبا", "شكرا", "نعم", "لا", "مع السلامة",
+    // Hindi
+    "नमस्ते", "धन्यवाद", "हां", "नहीं", "अलविदा",
+    // Bengali
+    "নমস্কার", "ধন্যবাদ", "হ্যাঁ", "না",
+    // Korean
+    "안녕하세요", "안녕", "감사합니다", "네", "아니요",
+    // Chinese
+    "你好", "谢谢", "再见", "是", "不是",
+    // Vietnamese
+    "xin chào", "cảm ơn", "tạm biệt",
+    // Tagalog
+    "kumusta", "salamat", "paalam", "oo", "hindi",
+    // Russian
+    "привет", "здравствуйте", "спасибо", "да", "нет", "пока",
+    // Haitian Creole
+    "bonjou", "mèsi", "orevwa", "wi", "non",
+    // Somali
+    "salaam", "mahadsanid",
   ];
   if (greetings.includes(trimmed)) return false;
-  if (trimmed.split(/\s+/).length <= 2) return false;
+  // Short messages (1-2 words) are usually not substantive
+  if (trimmed.split(/\s+/).length <= 2 && trimmed.length < 20) return false;
   return true;
 }
 
@@ -51,15 +79,32 @@ router.post("/", async (req: AuthRequest, res: Response) => {
       return;
     }
 
-    // Get child profile for context
+    // Get parent name and child profile for context
+    const parentUser = db
+      .prepare("SELECT name FROM users WHERE id = ?")
+      .get(req.userId!) as { name: string } | undefined;
+
     const profile = db
       .prepare("SELECT * FROM child_profiles WHERE user_id = ?")
       .get(req.userId!) as any | undefined;
 
     // Only search the knowledge base for substantive questions — skip for
     // greetings and chitchat so the AI can respond naturally.
+    // For non-English queries, try RAG with original query first (technical
+    // terms like IEP, ABA, autism often appear in any language). Only
+    // translate if the direct search finds nothing — avoids a ~10s LLM call.
     const substantive = isSubstantiveQuery(message);
-    const knowledgeChunks = substantive ? searchKnowledge(message, 2) : [];
+    const lang = (req as any).language ?? language ?? "en";
+    let knowledgeChunks: ReturnType<typeof searchKnowledge> = [];
+
+    if (substantive) {
+      // Search knowledge base with original query. English technical terms
+      // (IEP, ABA, autism) match regardless of query language. For pure
+      // non-English queries the LLM answers from its own knowledge — this
+      // keeps responses fast by avoiding a slow translation LLM call.
+      knowledgeChunks = searchKnowledge(message, 2, lang);
+    }
+
     const knowledgeContext = knowledgeChunks
       .map((c) => `[${c.heading}]\n${c.content.slice(0, 500)}`)
       .join("\n\n");
@@ -70,28 +115,29 @@ router.post("/", async (req: AuthRequest, res: Response) => {
     }));
 
     // Build system prompt
-    let systemPrompt = `You are a friendly, supportive companion for parents of autistic children in the Relate app. Think of yourself as a warm, knowledgeable friend — not a textbook.
+    let systemPrompt = `You are a warm, supportive companion for parents of autistic children. Be a knowledgeable friend, not a textbook.
 
-Guidelines:
-- If the parent greets you or makes small talk, respond naturally and warmly. Only provide educational or resource information when they ask a question.
-- Be empathetic, encouraging, and non-judgmental
-- When answering questions, be specific and actionable — focus on what was actually asked
-- Keep responses concise — under 150 words
-- Acknowledge that every child is unique
-- Never provide medical diagnoses — encourage professional evaluation
-- Use simple, conversational language`;
+Rules:
+- Answer ONLY the current message. Do not recap previous messages.
+- For greetings/small talk, respond naturally. Only give advice when asked.
+- Be empathetic, specific, actionable. Under 120 words.
+- Every child is unique. Never diagnose — recommend professional evaluation.
+- Use simple, conversational language.`;
+
+    if (parentUser) {
+      systemPrompt += `\n\nParent's name: ${parentUser.name.split(" ")[0]}. Address them by name when natural.`;
+    }
 
     if (profile) {
-      systemPrompt += `\n\nChild Profile Context:
+      systemPrompt += `\n\nChild Profile:
 - Child's name: ${profile.name}
 - Age: ${profile.age}
 - Communication level: ${profile.communication_level}
-- Diagnosis status: ${profile.diagnosis_status}
 - Triggers: ${profile.triggers}
 - Loves/interests: ${profile.loves}
 - Notes: ${profile.notes}
 
-Use this context to personalize your responses. Reference the child by name when appropriate.`;
+Refer to the child by name. This parent is caring for their child — personalize advice accordingly.`;
     }
 
     if (knowledgeContext) {
@@ -105,23 +151,27 @@ Use this information to inform your response when relevant. Cite specific resour
       systemPrompt += `\n\nIMPORTANT: Respond in the language with code "${language}". The user prefers to communicate in this language.`;
     }
 
-    // Get last 4 messages from chat history for conversation context
+    // Get last 2 messages from chat history for conversation context.
+    // Injected into the system prompt as reference text (not as separate chat turns)
+    // so the model answers the current question without continuing previous topics.
     const history = db
       .prepare(
-        "SELECT role, content FROM chat_history WHERE user_id = ? ORDER BY created_at DESC LIMIT 4"
+        "SELECT role, content FROM chat_history WHERE user_id = ? ORDER BY created_at DESC LIMIT 2"
       )
       .all(req.userId!) as { role: string; content: string }[];
 
-    // Reverse to chronological order
     history.reverse();
+
+    if (history.length > 0) {
+      const historyLines = history
+        .map((h) => `${h.role === "user" ? "Parent" : "Assistant"}: ${h.content.slice(0, 100)}`)
+        .join("\n");
+      systemPrompt += `\n\nRecent conversation (reference only — do not repeat or expand on these topics unless the parent explicitly asks again):\n${historyLines}`;
+    }
 
     // Append /no_think to disable qwen3 reasoning mode (much faster responses)
     const messages: { role: "system" | "user" | "assistant"; content: string }[] = [
       { role: "system", content: systemPrompt },
-      ...history.map((h) => ({
-        role: h.role as "user" | "assistant",
-        content: h.content,
-      })),
       { role: "user", content: message + " /no_think" },
     ];
 
@@ -129,8 +179,8 @@ Use this information to inform your response when relevant. Cite specific resour
     const completion = await openai.chat.completions.create({
       model: LM_STUDIO_MODEL,
       messages,
-      temperature: 0.7,
-      max_tokens: 400,
+      temperature: 0.4,
+      max_tokens: 300,
     });
 
     const rawReply = completion.choices[0]?.message?.content || "I'm sorry, I couldn't generate a response. Please try again.";

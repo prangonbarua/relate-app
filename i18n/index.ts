@@ -12,8 +12,10 @@ import tl from "./locales/tl.json";
 import vi from "./locales/vi.json";
 import ko from "./locales/ko.json";
 import hi from "./locales/hi.json";
-import am from "./locales/am.json";
+import ht from "./locales/ht.json";
 import so from "./locales/so.json";
+import ru from "./locales/ru.json";
+import bn from "./locales/bn.json";
 
 const resources = {
   en: { translation: en },
@@ -26,8 +28,10 @@ const resources = {
   vi: { translation: vi },
   ko: { translation: ko },
   hi: { translation: hi },
-  am: { translation: am },
+  ht: { translation: ht },
   so: { translation: so },
+  ru: { translation: ru },
+  bn: { translation: bn },
 };
 
 const deviceLanguage = getLocales()[0]?.languageCode ?? "en";

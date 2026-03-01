@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "giáo dục",
+    "title": "Chương trình Giáo dục Cá nhân hóa (IEP)",
+    "summary": "Một tài liệu ràng buộc về mặt pháp lý nêu rõ các mục tiêu và dịch vụ giáo dục đặc biệt của con bạn.",
+    "details": "IEP được phát triển bởi một nhóm bao gồm phụ huynh, giáo viên và chuyên gia. Theo IDEA (Đạo luật giáo dục cá nhân khuyết tật), con bạn có quyền được hưởng nền giáo dục công phù hợp miễn phí (FAPE) trong Môi trường ít hạn chế nhất (LRE). Bạn có quyền tham gia vào mọi cuộc họp IEP và không đồng ý với các khuyến nghị của nhà trường. IEP được xem xét ít nhất hàng năm nhưng bạn có thể yêu cầu một cuộc họp bất cứ lúc nào.",
+    "steps": [
+      "Yêu cầu đánh giá bằng văn bản gửi đến phòng giáo dục đặc biệt của khu học chánh của bạn.",
+      "Nhà trường có 60 ngày để hoàn thành việc đánh giá sau khi bạn đồng ý.",
+      "Tham dự cuộc họp IEP - mang theo những ghi chú, quan sát của riêng bạn và mọi đánh giá riêng tư.",
+      "Xem xét cẩn thận các mục tiêu được đề xuất. Bạn có thể thương lượng và yêu cầu thay đổi trước khi ký.",
+      "Theo dõi tiến độ đạt được các mục tiêu IEP trong suốt năm và yêu cầu dữ liệu từ nhà trường.",
+      "Nếu không đồng ý, bạn có thể nộp đơn yêu cầu hòa giải hoặc điều trần theo thủ tục pháp lý miễn phí."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "Dịch vụ Nhà nước",
+    "title": "Dịch vụ Trung tâm Khu vực (California)",
+    "summary": "Các dịch vụ miễn phí suốt đời dành cho người dân California bị khuyết tật phát triển, bao gồm cả bệnh tự kỷ.",
+    "details": "21 Trung tâm Khu vực của California cung cấp dịch vụ đánh giá, chẩn đoán và dịch vụ cho những người khuyết tật phát triển bất kể thu nhập hay tình trạng nhập cư. Các dịch vụ có thể bao gồm Phân tích hành vi ứng dụng (ABA), chăm sóc thay thế, trị liệu ngôn ngữ, trị liệu nghề nghiệp, nhóm kỹ năng xã hội và hỗ trợ gia đình. Các dịch vụ của Trung tâm Khu vực là một quyền lợi - nếu con bạn đủ điều kiện, chúng không thể bị từ chối các dịch vụ do nguồn tài trợ.",
+    "steps": [
+      "Hãy liên hệ với Trung tâm Khu vực tại địa phương của bạn và yêu cầu một cuộc hẹn tiếp nhận.",
+      "Mang theo mọi đánh giá, hồ sơ y tế và tài liệu của trường hiện có.",
+      "Con của bạn sẽ được đánh giá - quá trình này có thể mất tới 120 ngày.",
+      "Nếu đủ điều kiện, bạn sẽ làm việc với Điều phối viên Dịch vụ để phát triển Kế hoạch Chương trình Cá nhân (IPP).",
+      "Yêu cầu các dịch vụ cụ thể mà bạn cần - ABA, thời gian nghỉ ngơi, trị liệu ngôn ngữ, v.v.",
+      "Xem xét IPP của bạn hàng năm và yêu cầu thay đổi khi nhu cầu của con bạn tăng lên."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "Dịch vụ Nhà nước",
+    "title": "Chương trình bắt đầu sớm (0-3 tuổi)",
+    "summary": "Chương trình can thiệp sớm của California dành cho trẻ sơ sinh và trẻ mới biết đi chậm phát triển.",
+    "details": "Chương trình Early Start phục vụ trẻ em từ sơ sinh đến 3 tuổi bị chậm phát triển hoặc có tình trạng rủi ro đã xác định. Các dịch vụ được cung cấp trong môi trường tự nhiên (tại nhà, nhà giữ trẻ, công viên) và miễn phí bất kể thu nhập. Can thiệp sớm trong giai đoạn quan trọng này có thể cải thiện đáng kể kết quả. Sau 3 tuổi, trẻ em chuyển sang các dịch vụ của khu học chánh thông qua quy trình IEP.",
+    "steps": [
+      "Hãy gọi cho Trung tâm Khu vực hoặc khu học chánh tại địa phương của bạn để giới thiệu con bạn.",
+      "Việc đánh giá sẽ được lên lịch trong vòng 45 ngày kể từ ngày được giới thiệu.",
+      "Nếu đủ điều kiện, Kế hoạch Dịch vụ Gia đình Cá nhân hóa (IFSP) sẽ được phát triển trong vòng 45 ngày kể từ ngày đủ điều kiện.",
+      "Các dịch vụ bắt đầu càng sớm càng tốt sau khi IFSP được ký.",
+      "Ở tuổi 2,5, quá trình lập kế hoạch chuyển tiếp sang các dịch vụ mầm non bắt đầu.",
+      "Bạn có thể tiếp tục các dịch vụ của Trung tâm Khu vực sau 3 tuổi thông qua quy trình đủ điều kiện riêng."
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "Bảo hiểm & Tài trợ",
+    "title": "Bảo hiểm cho các dịch vụ tự kỷ",
+    "summary": "Hiểu các quyền của bạn đối với các liệu pháp điều trị chứng tự kỷ được bảo hiểm chi trả và cách khiếu nại các quyết định từ chối.",
+    "details": "Hầu hết các bang đều có quy định về bảo hiểm bệnh tự kỷ yêu cầu bảo hiểm cho các dịch vụ liên quan đến bệnh tự kỷ. Tại California, SB 946 yêu cầu các chương trình y tế chi trả cho việc điều trị sức khỏe hành vi (bao gồm ABA) đối với bệnh tự kỷ. Luật ngang bằng về sức khỏe tâm thần của liên bang cũng yêu cầu bảo hiểm bình đẳng cho các tình trạng sức khỏe tâm thần và y tế. Nếu bảo hiểm của bạn từ chối bảo hiểm, bạn có quyền khiếu nại nội bộ và bên ngoài. Bộ Chăm sóc Sức khỏe có Quản lý California (DMHC) có thể hỗ trợ giải quyết các khiếu nại bên ngoài.",
+    "steps": [
+      "Yêu cầu bản sao quyền lợi của chương trình đối với các dịch vụ chăm sóc bệnh tự kỷ và sức khỏe hành vi.",
+      "Nhận giấy giới thiệu từ bác sĩ của con bạn, nêu rõ phương pháp điều trị được khuyến nghị.",
+      "Gửi yêu cầu ủy quyền trước cho công ty bảo hiểm của bạn.",
+      "Nếu bị từ chối, hãy yêu cầu từ chối bằng văn bản kèm theo lý do cụ thể và trích dẫn chính sách.",
+      "Nộp đơn kháng cáo nội bộ kèm theo thư yêu cầu về mặt y tế từ bác sĩ của bạn.",
+      "Nếu kháng nghị nội bộ không thành công, hãy nộp đơn khiếu nại lên cơ quan quản lý bảo hiểm của tiểu bang bạn (DMHC ở CA)."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "giáo dục",
+    "title": "Kế hoạch 504 Điều chỉnh",
+    "summary": "Một kế hoạch bố trí chỗ ở trong lớp học không yêu cầu phải hội đủ điều kiện giáo dục đặc biệt.",
+    "details": "Kế hoạch 504 dựa trên Mục 504 của Đạo luật Phục hồi và cung cấp các biện pháp điều chỉnh để đảm bảo khả năng tiếp cận giáo dục bình đẳng. Không giống như IEP, Kế hoạch 504 không yêu cầu phân loại giáo dục đặc biệt - nó bao gồm bất kỳ đứa trẻ khuyết tật nào làm hạn chế đáng kể một hoạt động quan trọng trong cuộc sống (bao gồm học tập và giao tiếp xã hội). Các điều kiện chung bao gồm ưu tiên chỗ ngồi, kéo dài thời gian làm bài kiểm tra, nghỉ giải lao và lịch trình trực quan.",
+    "steps": [
+      "Viết thư cho trường của bạn yêu cầu đánh giá 504, trích dẫn chẩn đoán hoặc nghi ngờ khuyết tật của con bạn.",
+      "Cung cấp tài liệu: hồ sơ bệnh án, đánh giá, quan sát của giáo viên.",
+      "Tham dự cuộc họp 504 với nhóm nhà trường để thảo luận về chỗ ở.",
+      "Xem xét các điều chỉnh được đề xuất và đề xuất bổ sung dựa trên nhu cầu của con bạn.",
+      "Kế hoạch nên được xem xét hàng năm - yêu cầu một cuộc họp nếu các biện pháp điều chỉnh không được thực hiện.",
+      "Nếu nhà trường từ chối đánh giá hoặc cung cấp 504, bạn có thể nộp đơn khiếu nại lên Văn phòng Dân quyền (OCR)."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "Liệu pháp",
+    "title": "Trị liệu ngôn ngữ và lời nói",
+    "summary": "Cách tiếp cận các dịch vụ trị liệu ngôn ngữ và những gì mong đợi từ việc điều trị.",
+    "details": "Các nhà nghiên cứu bệnh học về ngôn ngữ-ngôn ngữ (SLP) làm việc nhiều hơn là nói - họ giải quyết tất cả các khía cạnh của giao tiếp bao gồm hiểu ngôn ngữ, sử dụng từ ngữ, giao tiếp xã hội và thậm chí cả các vấn đề về ăn/nuốt. Đối với trẻ tự kỷ, SLP thường hoạt động trên giao tiếp chức năng (khả năng bày tỏ mong muốn và nhu cầu), ngôn ngữ thực dụng (sử dụng ngôn ngữ xã hội) và các thiết bị giao tiếp tăng cường và thay thế (AAC). Nghiên cứu ủng hộ mạnh mẽ việc duy trì ngôn ngữ ở nhà trong các gia đình song ngữ - song ngữ không làm trì hoãn sự phát triển ngôn ngữ ở trẻ tự kỷ.",
+    "steps": [
+      "Hãy hỏi bác sĩ nhi khoa của bạn để được giới thiệu đến một nhà nghiên cứu bệnh học về ngôn ngữ-ngôn ngữ có kinh nghiệm mắc chứng tự kỷ.",
+      "Kiểm tra nhiều điểm truy cập: bảo hiểm, Trung tâm khu vực, khu học chánh (IEP) và phòng khám trường đại học (thường có chi phí thấp hơn).",
+      "Hãy tìm một SLP có kinh nghiệm về AAC nếu con bạn ít nói bằng lời nói - không phải tất cả SLP đều chuyên về lĩnh vực này.",
+      "Hỏi về các mô hình huấn luyện phụ huynh trong đó SLP đào tạo bạn cách hỗ trợ giao tiếp suốt cả ngày.",
+      "Yêu cầu các mục tiêu có thể đo lường được và báo cáo tiến độ thường xuyên.",
+      "Nếu con bạn nói được hai thứ tiếng, hãy tìm một SLP hỗ trợ duy trì ngôn ngữ tại nhà hoặc yêu cầu một thông dịch viên."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "Liệu pháp",
+    "title": "Trị liệu ABA: Những điều cần biết",
+    "summary": "Hiểu liệu pháp Phân tích Hành vi Ứng dụng - lợi ích, mối quan tâm và cách tìm nhà cung cấp chất lượng.",
+    "details": "Phân tích hành vi ứng dụng (ABA) là liệu pháp được nghiên cứu và khuyên dùng phổ biến nhất cho bệnh tự kỷ. ABA hiện đại đã phát triển đáng kể so với nguồn gốc của nó và hiện nhấn mạnh các phương pháp tiếp cận tự nhiên, dựa trên trò chơi, phù hợp với sở thích của trẻ. Tuy nhiên, chất lượng rất khác nhau giữa các nhà cung cấp. ABA tốt có vẻ giống như những hoạt động thú vị, hấp dẫn — không phải các bài tập tại bàn. Dấu hiệu đỏ bao gồm việc phớt lờ nỗi đau khổ của trẻ, lấy việc thiếu ăn làm động lực hoặc chỉ tập trung vào việc tuân thủ. Bạn có quyền quan sát các buổi điều trị và cảm thấy thoải mái với việc điều trị cho con mình.",
+    "steps": [
+      "Các nhà cung cấp nghiên cứu cẩn thận - hỏi về cách tiếp cận của họ (thử nghiệm tự nhiên và rời rạc) và tỷ lệ giám sát.",
+      "Yêu cầu quan sát các phiên trước khi cam kết và định kỳ sau khi bắt đầu.",
+      "Đảm bảo chương trình được giám sát bởi Nhà phân tích hành vi được chứng nhận của Hội đồng (BCBA), người thường xuyên gặp con bạn.",
+      "Cùng nhau thảo luận về các mục tiêu - ưu tiên các kỹ năng chức năng và giao tiếp hơn các mục tiêu dựa trên sự tuân thủ.",
+      "Theo dõi sức khỏe tinh thần của con bạn - liệu pháp trị liệu không được gây đau khổ, lo lắng hoặc trốn tránh.",
+      "Khám phá các lựa chọn thay thế hoặc bổ sung: trị liệu ngôn ngữ, trị liệu nghề nghiệp, các phương pháp phát triển như DIR/Floortime."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "nhập cư",
+    "title": "Quyền dành cho các gia đình không có giấy tờ",
+    "summary": "Các dịch vụ dành cho người khuyết tật luôn sẵn có bất kể tình trạng nhập cư và cách tiếp cận chúng một cách an toàn.",
+    "details": "Nhiều dịch vụ quan trọng dành cho trẻ tự kỷ luôn sẵn có bất kể tình trạng nhập cư. Các trường học phải giáo dục tất cả trẻ em (Plyler kiện Doe), Trung tâm Khu vực không thể hỏi về tình trạng nhập cư và Medi-Cal chi trả cho trẻ em bất kể tình trạng nào thông qua các chương trình như Medi-Cal dành cho Trẻ em. Các trường học và nhà cung cấp dịch vụ chăm sóc sức khỏe nhận tài trợ của liên bang không thể chia sẻ thông tin với cơ quan thực thi di trú. Bạn có quyền mang theo một người bào chữa hoặc thông dịch viên đến bất kỳ cuộc họp nào.",
+    "steps": [
+      "Hãy liên hệ với Trung tâm Khu vực tại địa phương của bạn — họ bị cấm hỏi về tình trạng nhập cư.",
+      "Ghi danh cho con bạn vào trường - tất cả trẻ em đều có quyền được hưởng nền giáo dục công lập bất kể địa vị.",
+      "Đăng ký Medi-Cal cho con bạn thông qua văn phòng dịch vụ xã hội quận của bạn.",
+      "Yêu cầu thông dịch viên cho tất cả các cuộc họp — đây là quyền hợp pháp của bạn.",
+      "Biết các quyền của mình: bạn không cần phải mở cửa cho ICE nếu không có lệnh tư pháp do thẩm phán ký.",
+      "Kết nối với các tổ chức bảo vệ quyền của người nhập cư tại địa phương để hỗ trợ các dịch vụ định hướng — nhiều tổ chức cung cấp các phòng khám pháp lý miễn phí."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "Các chương trình liên bang",
+    "title": "IDEA Phần C — Can thiệp sớm (Từ sơ sinh đến 3 tuổi)",
+    "summary": "Các dịch vụ can thiệp sớm miễn phí của liên bang dành cho trẻ sơ sinh và trẻ mới biết đi bị chậm phát triển, bao gồm cả bệnh tự kỷ.",
+    "details": "Phần C của Đạo luật Giáo dục Người khuyết tật (IDEA) là một chương trình tài trợ của liên bang giúp các tiểu bang vận hành các dịch vụ can thiệp sớm toàn diện cho trẻ sơ sinh và trẻ mới biết đi (từ sơ sinh đến 2 tuổi) bị khuyết tật và gia đình các em. Các dịch vụ bao gồm trị liệu ngôn ngữ, trị liệu nghề nghiệp, vật lý trị liệu, hỗ trợ hành vi, công nghệ hỗ trợ và đào tạo gia đình. Mỗi đứa trẻ nhận được Kế hoạch Dịch vụ Gia đình Cá nhân hóa (IFSP). Các dịch vụ được cung cấp trong môi trường tự nhiên như ở nhà hoặc nhà giữ trẻ. Việc đánh giá luôn miễn phí và các dịch vụ được cung cấp miễn phí hoặc chi phí thấp tùy thuộc vào tiểu bang của bạn. QUAN TRỌNG: Các dịch vụ được cung cấp cho TẤT CẢ trẻ em bất kể tình trạng nhập cư.",
+    "steps": [
+      "Liên hệ với chương trình can thiệp sớm Phần C của tiểu bang của bạn — tìm điều phối viên tiểu bang của bạn tại ectacenter.org/contact/ptccoord.asp.",
+      "Yêu cầu đánh giá sự phát triển miễn phí cho con bạn - chương trình phải hoàn thành việc đánh giá này trong vòng 45 ngày.",
+      "Nếu đủ điều kiện, hãy tham gia phát triển Kế hoạch Dịch vụ Gia đình Cá nhân hóa (IFSP) của con bạn cùng với nhóm.",
+      "Các dịch vụ bắt đầu càng sớm càng tốt sau khi bạn ký IFSP — hãy hỏi về hỗ trợ về lời nói, OT, PT và hành vi.",
+      "Xem lại IFSP 6 tháng một lần và yêu cầu thay đổi bất cứ khi nào nhu cầu của con bạn thay đổi.",
+      "Ở tuổi 2,5, hãy bắt đầu lập kế hoạch chuyển tiếp sang các dịch vụ mầm non Phần B (3-21 tuổi) thông qua khu học chánh của bạn."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "Các chương trình liên bang",
+    "title": "IDEA Phần B — Giáo Dục Đặc Biệt (3-21 Tuổi)",
+    "summary": "Giáo dục đặc biệt miễn phí và các dịch vụ liên quan cho trẻ em và thanh thiếu niên mắc chứng tự kỷ thông qua hệ thống trường công.",
+    "details": "Phần B của IDEA đảm bảo tất cả trẻ em khuyết tật, bao gồm cả bệnh tự kỷ, quyền được hưởng Giáo dục công phù hợp miễn phí (FAPE) trong Môi trường ít hạn chế nhất (LRE). Tự kỷ là một trong 14 loại khuyết tật đủ tiêu chuẩn. Con bạn có quyền tham gia Chương trình Giáo dục Cá nhân hóa (IEP) trong đó nêu rõ các mục tiêu, dịch vụ và điều chỉnh cụ thể. Các dịch vụ liên quan có thể bao gồm trị liệu ngôn ngữ, trị liệu nghề nghiệp, đào tạo kỹ năng xã hội, hỗ trợ hành vi và vận chuyển. Mục 619 bao gồm các khoản trợ cấp mầm non cho trẻ em từ 3-5 tuổi. Tất cả các dịch vụ đều hoàn toàn miễn phí. Các trường KHÔNG THỂ hỏi về tình trạng nhập cư theo quyết định của Plyler kiện Doe năm 1982 của Tòa án Tối cao.",
+    "steps": [
+      "Gửi yêu cầu bằng văn bản về đánh giá giáo dục đặc biệt tới khu học chánh của con bạn.",
+      "Nhà trường phải hoàn thành việc đánh giá trong vòng 60 ngày kể từ ngày nhận được sự đồng ý bằng văn bản của bạn.",
+      "Tham dự cuộc họp IEP — bạn là thành viên bình đẳng trong nhóm và có thể mang theo người bào chữa hoặc thông dịch viên.",
+      "Xem xét cẩn thận các mục tiêu và dịch vụ được đề xuất — thương lượng các thay đổi và không ký cho đến khi bạn đồng ý.",
+      "Theo dõi tiến độ mục tiêu IEP trong suốt năm và yêu cầu báo cáo dữ liệu từ nhà trường.",
+      "Nếu bạn không đồng ý với nhà trường, hãy yêu cầu hòa giải hoặc nộp đơn yêu cầu điều trần theo đúng thủ tục miễn phí."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "Các chương trình liên bang",
+    "title": "Miễn trừ Medicaid cho bệnh tự kỷ (theo tiểu bang)",
+    "summary": "Miễn trừ Dịch vụ tại nhà và cộng đồng (HCBS) tài trợ cho các liệu pháp tự kỷ, chăm sóc thay thế và các dịch vụ hỗ trợ thông qua Medicaid.",
+    "details": "Các miễn trừ của Medicaid Home và Community-Based Services (HCBS) cho phép các tiểu bang cung cấp dịch vụ cho người khuyết tật (bao gồm cả bệnh tự kỷ) tại nhà và cộng đồng của họ thay vì tại các cơ sở. Những miễn trừ này khác nhau đáng kể tùy theo tiểu bang nhưng thường bao gồm liệu pháp ABA, chăm sóc thay thế, trị liệu ngôn ngữ, trị liệu nghề nghiệp, chăm sóc cá nhân, việc làm được hỗ trợ, phục vụ ban ngày và đào tạo gia đình. Một số tiểu bang có các miễn trừ dành riêng cho chứng tự kỷ (chẳng hạn như Miễn trừ Tự kỷ của Maryland), trong khi các tiểu bang khác bao gồm chứng tự kỷ theo các miễn trừ khuyết tật phát triển rộng hơn. Danh sách chờ có thể dài — đôi khi nhiều năm — vì vậy hãy đăng ký càng sớm càng tốt. Khả năng hội đủ điều kiện thường dựa trên mức độ khuyết tật của trẻ chứ không phải thu nhập của gia đình.",
+    "steps": [
+      "Liên hệ với văn phòng Medicaid hoặc cơ quan khuyết tật phát triển ở tiểu bang của bạn để tìm hiểu những miễn trừ nào dành cho trẻ tự kỷ.",
+      "Đăng ký tất cả các miễn trừ mà con bạn có thể đủ điều kiện - bạn có thể có tên trong nhiều danh sách chờ cùng một lúc.",
+      "Thu thập tài liệu: chẩn đoán bệnh tự kỷ, hồ sơ y tế, đánh giá trường học và đánh giá chức năng.",
+      "Nếu được đưa vào danh sách chờ, hãy hỏi về vị trí của bạn và thời gian chờ ước tính - theo dõi thường xuyên sau mỗi 3-6 tháng.",
+      "Sau khi được phê duyệt, hãy làm việc với điều phối viên dịch vụ của bạn để phát triển một kế hoạch lấy con người làm trung tâm liệt kê tất cả các dịch vụ cần thiết.",
+      "Xem lại kế hoạch của bạn hàng năm và yêu cầu các dịch vụ bổ sung khi nhu cầu của con bạn thay đổi - bạn có quyền kháng cáo bất kỳ sự từ chối nào."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "Các chương trình liên bang",
+    "title": "Phúc lợi SSI cho trẻ tự kỷ",
+    "summary": "Hỗ trợ tiền mặt hàng tháng từ An Sinh Xã Hội cho các gia đình có thu nhập thấp có trẻ em bị khuyết tật nghiêm trọng liên quan đến chứng tự kỷ.",
+    "details": "Thu nhập An sinh Bổ sung (SSI) cung cấp trợ cấp tiền mặt hàng tháng cho trẻ em khuyết tật có gia đình có thu nhập và nguồn lực hạn chế. Mức trợ cấp liên bang là khoảng $967 mỗi tháng (năm 2025) và nhiều tiểu bang bổ sung thêm một khoản tiền bổ sung. Bệnh tự kỷ được liệt kê trong Sách Xanh của Cơ quan An sinh Xã hội theo Mục 112.10 dành cho trẻ em. Để đủ điều kiện, con bạn phải có tài liệu y tế về những khiếm khuyết trong giao tiếp bằng lời nói và phi ngôn ngữ, tương tác xã hội và các kiểu hành vi bị hạn chế/lặp đi lặp lại làm hạn chế đáng kể chức năng hoạt động. Trẻ em nhận SSI cũng có thể tự động đủ điều kiện nhận Medicaid ở nhiều tiểu bang, cung cấp khả năng tiếp cận các dịch vụ trị liệu. Lưu ý: Chỉ có SSI (không phải SSDI) dành cho trẻ em.",
+    "steps": [
+      "Lên lịch cuộc hẹn tại văn phòng Cơ quan Quản lý An sinh Xã hội (SSA) tại địa phương của bạn - đơn đăng ký SSI của trẻ em không thể hoàn thành trực tuyến.",
+      "Thu thập các tài liệu cần thiết: giấy khai sinh của trẻ, số An sinh xã hội, hồ sơ y tế, đánh giá của trường và hồ sơ tài chính gia đình (thu nhập, báo cáo ngân hàng, các lợi ích khác).",
+      "Hoàn thành đơn đăng ký SSI và Báo cáo tình trạng khuyết tật ở trẻ em nêu chi tiết bệnh tự kỷ ảnh hưởng như thế nào đến hoạt động hàng ngày của con bạn.",
+      "Hợp tác với bất kỳ đánh giá bổ sung nào mà SSA có thể yêu cầu - đây là những đánh giá miễn phí và giúp xác định tính đủ điều kiện.",
+      "Nếu bị từ chối, hãy nộp đơn kháng cáo trong vòng 60 ngày - nhiều yêu cầu khiếu nại sẽ được chấp thuận khi kháng cáo. Hãy cân nhắc việc liên hệ với một luật sư về khuyết tật (nhiều công việc có tính chất dự phòng).",
+      "Nếu được chấp thuận, hãy báo cáo mọi thay đổi về thu nhập, hoàn cảnh sống hoặc tình trạng của con bạn cho SSA để duy trì phúc lợi."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "Các chương trình liên bang",
+    "title": "Bảo hiểm bệnh tự kỷ TRICARE (Gia đình quân nhân)",
+    "summary": "Các dịch vụ tự kỷ toàn diện dành cho các gia đình quân nhân bao gồm liệu pháp ABA thông qua Chứng minh Chăm sóc Tự kỷ của TRICARE.",
+    "details": "TRICARE bao trả Phân tích hành vi ứng dụng và các dịch vụ tự kỷ khác cho tất cả những người thụ hưởng TRICARE thông qua Chương trình chứng minh chăm sóc tự kỷ (ACD), kéo dài đến ngày 31 tháng 12 năm 2028. Con bạn nhận được ủy quyền 6 tháng cho các dịch vụ ABA và cần có giấy giới thiệu mới từ nhà cung cấp dịch vụ chẩn đoán ASD của bạn hai năm một lần. Mỗi đứa trẻ trong ACD được chỉ định một Người điều hướng Dịch vụ Tự kỷ (ASN), người giúp điều phối việc chăm sóc giữa liệu pháp ngôn ngữ, ABA và bác sĩ nhi khoa của bạn. TRICARE cũng chi trả cho liệu pháp ngôn ngữ, trị liệu nghề nghiệp và các phương pháp điều trị cần thiết về mặt y tế khác cho bệnh tự kỷ. Vào tháng 9 năm 2025, Viện Hàn lâm Khoa học Quốc gia đã khuyến nghị biến ABA thành một lợi ích TRICARE cơ bản lâu dài thay vì một chương trình trình diễn. Các dịch vụ ABA yêu cầu các địa điểm có nhà phân tích hành vi được hội đồng chứng nhận.",
+    "steps": [
+      "Nhận chẩn đoán bệnh tự kỷ cho con bạn từ nhà cung cấp được TRICARE ủy quyền (bác sĩ nhi khoa phát triển, nhà tâm lý học hoặc bác sĩ tâm thần).",
+      "Nhận giấy giới thiệu từ nhà cung cấp dịch vụ chẩn đoán dành riêng cho ABA và bất kỳ dịch vụ nào khác liên quan đến chứng tự kỷ của con bạn.",
+      "Hãy liên hệ với Điều phối viên Dịch vụ Tự kỷ (ASN) được chỉ định của bạn - họ sẽ giúp bạn điều phối và tiếp cận tất cả các dịch vụ hiện có.",
+      "Tìm nhà cung cấp ABA được TRICARE ủy quyền trong khu vực của bạn thông qua danh mục nhà cung cấp TRICARE tại tricare.mil.",
+      "Đảm bảo giấy phép của con bạn được gia hạn 6 tháng một lần và giấy giới thiệu được cập nhật 2 năm một lần.",
+      "Nếu bạn gặp phải vấn đề bị từ chối hoặc truy cập, hãy liên hệ với Điều phối viên Hỗ trợ và Tư vấn cho Người thụ hưởng TRICARE (BCAC) để được trợ giúp khiếu nại."
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "Liệu pháp",
+    "title": "Phân tích hành vi ứng dụng (ABA)",
+    "summary": "Liệu pháp tự kỷ được nghiên cứu nhiều nhất - sử dụng biện pháp củng cố tích cực để xây dựng kỹ năng và giảm bớt các hành vi thách thức.",
+    "details": "Phân tích hành vi ứng dụng được coi là phương pháp điều trị thực hành tốt nhất dựa trên bằng chứng bởi Tổng bác sĩ phẫu thuật Hoa Kỳ và Hiệp hội Tâm lý Hoa Kỳ. ABA chia các kỹ năng mới thành các bước nhỏ, dễ quản lý và sử dụng biện pháp củng cố tích cực để khuyến khích các hành vi mong muốn. Nhà phân tích hành vi được chứng nhận của Hội đồng (BCBA) phát triển một kế hoạch điều trị cá nhân dựa trên Đánh giá hành vi chức năng. ABA hiện đại nhấn mạnh các phương pháp tiếp cận dựa trên trò chơi, tự nhiên, phù hợp với sở thích của trẻ. Liệu pháp trị liệu có thể được thực hiện tại nhà, tại phòng khám hoặc tại trường học, thường từ 10 đến 40 giờ mỗi tuần tùy theo nhu cầu của trẻ. Cha mẹ được đào tạo để củng cố các kỹ năng trong suốt cả ngày.",
+    "steps": [
+      "Nhận chẩn đoán tự kỷ chính thức và giấy giới thiệu từ bác sĩ nhi khoa của bạn về các dịch vụ ABA.",
+      "Liên hệ với cơ quan bảo hiểm, Medicaid hoặc cơ quan khuyết tật phát triển của tiểu bang để xác nhận phạm vi bảo hiểm ABA và tìm nhà cung cấp được phê duyệt.",
+      "Lên lịch Đánh giá Hành vi Chức năng (FBA) bằng BCBA - việc này đánh giá điểm mạnh, thách thức và mục tiêu gia đình của con bạn.",
+      "Xem xét và phê duyệt kế hoạch điều trị cá nhân hóa - đảm bảo các mục tiêu tập trung vào giao tiếp, kỹ năng chức năng và tính độc lập.",
+      "Tham gia các buổi đào tạo dành cho phụ huynh để bạn có thể củng cố các kỹ năng một cách nhất quán ở nhà.",
+      "Yêu cầu báo cáo tiến độ thường xuyên cùng với dữ liệu và tham gia đánh giá kế hoạch - điều chỉnh mục tiêu khi con bạn lớn lên."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "Liệu pháp",
+    "title": "Trị liệu ngôn ngữ-ngôn ngữ",
+    "summary": "Giúp trẻ phát triển kỹ năng giao tiếp - từ những lời nói đầu tiên đến cuộc trò chuyện, bao gồm cả các phương pháp giao tiếp không lời.",
+    "details": "Trị liệu Ngôn ngữ-Ngôn ngữ là liệu pháp phát triển phổ biến nhất dành cho trẻ tự kỷ, được cung cấp bởi Nhà nghiên cứu Bệnh học về Ngôn ngữ-Ngôn ngữ (SLP) được cấp phép. Nó đề cập đến việc hiểu ngôn ngữ (tiếp thu), bày tỏ mong muốn và nhu cầu (biểu cảm), sử dụng ngôn ngữ trong xã hội (thực dụng), phát âm và những khó khăn khi ăn/nuốt. Đối với trẻ ít nói, SLP có thể giới thiệu Giao tiếp thay thế và tăng cường (AAC) chẳng hạn như hệ thống trao đổi hình ảnh, ngôn ngữ ký hiệu hoặc thiết bị tạo giọng nói. Nghiên cứu cho thấy rằng với sự can thiệp sớm, hai trong số ba trẻ mẫu giáo mắc chứng tự kỷ sẽ cải thiện đáng kể kỹ năng giao tiếp. Điều quan trọng là, song ngữ KHÔNG làm chậm trễ ngôn ngữ ở trẻ tự kỷ - nên duy trì ngôn ngữ ở nhà.",
+    "steps": [
+      "Hãy hỏi bác sĩ nhi khoa của bạn để được giới thiệu đến một SLP có kinh nghiệm về rối loạn phổ tự kỷ.",
+      "Tiếp cận các dịch vụ thông qua nhiều kênh: bảo hiểm y tế, Medicaid, IEP của khu học chánh, can thiệp sớm của tiểu bang hoặc phòng khám ngôn ngữ của trường đại học (thường có chi phí thấp hơn).",
+      "Trong quá trình đánh giá, hãy chia sẻ các ví dụ về cách con bạn giao tiếp ở nhà - video rất hữu ích.",
+      "Nếu con bạn ít nói bằng lời nói, hãy yêu cầu cụ thể một SLP có chuyên môn về AAC - không phải tất cả SLP đều chuyên về lĩnh vực này.",
+      "Hỏi về các mô hình huấn luyện dành cho phụ huynh trong đó SLP đào tạo bạn cách đưa thực hành giao tiếp vào thói quen hàng ngày.",
+      "Nếu gia đình bạn nói ngôn ngữ khác ở nhà, hãy yêu cầu SLP hoặc thông dịch viên song ngữ - tiếp tục sử dụng ngôn ngữ ở nhà của bạn với con bạn."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "Liệu pháp",
+    "title": "Trị liệu nghề nghiệp (OT)",
+    "summary": "Xây dựng tính độc lập trong kỹ năng sống hàng ngày, xử lý giác quan và khả năng vận động tinh.",
+    "details": "Trị liệu nghề nghiệp giúp trẻ tự kỷ phát triển các kỹ năng cần thiết cho cuộc sống hàng ngày và khả năng tự lập. OT hoạt động trên các kỹ năng vận động tinh (viết, cài khuy, sử dụng đồ dùng), xử lý và điều chỉnh giác quan (giúp trẻ quá nhạy cảm hoặc kém nhạy cảm với đầu vào giác quan), thói quen tự chăm sóc (mặc quần áo, đi vệ sinh, đánh răng), kỹ năng vui chơi và sự sẵn sàng trong lớp học. Liệu pháp tích hợp cảm giác, thường do OT cung cấp, giúp trẻ xử lý và phản ứng tốt hơn với những thông tin cảm giác có thể khiến trẻ choáng ngợp hoặc khó hiểu. OT tạo ra các kế hoạch điều trị cá nhân và sử dụng các hoạt động giống như vui chơi nhưng được thiết kế cẩn thận để xây dựng các kỹ năng cụ thể. Họ cũng đề xuất sửa đổi môi trường và các công cụ cảm giác cho gia đình và trường học.",
+    "steps": [
+      "Yêu cầu đánh giá OT thông qua bác sĩ nhi khoa, khu học chánh hoặc chương trình can thiệp sớm của tiểu bang.",
+      "Trong quá trình đánh giá, hãy mô tả những thách thức trong thói quen hàng ngày của con bạn - ăn uống, mặc quần áo, chuyển đổi, sự nhạy cảm về giác quan.",
+      "Xem lại kế hoạch điều trị và đảm bảo các mục tiêu giải quyết được mối quan tâm hàng ngày được ưu tiên cao nhất của bạn.",
+      "Yêu cầu OT cung cấp chế độ ăn uống cảm giác tại nhà - một kế hoạch cá nhân hóa cho các hoạt động giác quan để thực hiện trong ngày.",
+      "Thực hành các chiến lược được OT khuyến nghị một cách nhất quán ở nhà, đặc biệt là trong các hoạt động thường ngày như bữa ăn, lúc tắm và mặc quần áo.",
+      "Yêu cầu OT tại trường thông qua IEP của con bạn nếu các nhu cầu về vận động, cảm giác hoặc tự chăm sóc ảnh hưởng đến việc tham gia vào trường học."
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "Liệu pháp",
+    "title": "Vật lý trị liệu (PT)",
+    "summary": "Cải thiện kỹ năng vận động thô, khả năng phối hợp, sức mạnh và sự tự tin về thể chất để di chuyển an toàn trong mọi môi trường.",
+    "details": "Vật lý trị liệu giúp trẻ tự kỷ cải thiện các kỹ năng vận động thô (đi, chạy, nhảy, leo trèo), giữ thăng bằng và phối hợp, sức mạnh cốt lõi, nhận thức cơ thể và định hướng không gian. Các nhà trị liệu vật lý đánh giá những hạn chế về vận động chức năng của trẻ và lập kế hoạch để giải quyết chúng. Đối với trẻ em trong độ tuổi đi học, PT giúp điều hướng hành lang, sân chơi, nhà ăn và xe buýt trường học một cách an toàn. Họ cũng rèn luyện các kỹ năng vận động cần thiết để tham gia vào các trò chơi xã hội và tương tác với bạn bè. PT có thể rất quan trọng đối với trẻ có trương lực cơ thấp, khó phối hợp hoặc gặp khó khăn trong việc lập kế hoạch vận động thường gặp ở bệnh tự kỷ. Các dịch vụ có thể được tiếp cận thông qua bảo hiểm y tế, các chương trình can thiệp sớm, IEP của trường hoặc phòng khám ngoại trú.",
+    "steps": [
+      "Hãy hỏi bác sĩ nhi khoa của bạn để đánh giá xem con bạn có chậm vận động hoặc có mối lo ngại về khả năng phối hợp cần được chuyển đến PT hay không.",
+      "Lên lịch đánh giá PT - nhà trị liệu sẽ đánh giá sự cân bằng, phối hợp, sức mạnh, lập kế hoạch vận động và khả năng vận động chức năng.",
+      "Xem lại kế hoạch điều trị và thảo luận về những cột mốc vận động và kỹ năng chức năng nào được ưu tiên.",
+      "Kết hợp các bài tập do PT khuyến nghị vào thói quen hàng ngày - nhiều bài tập có thể biến thành trò chơi thú vị tại nhà.",
+      "Yêu cầu PT tại trường thông qua IEP nếu khó khăn về vận động ảnh hưởng đến khả năng di chuyển đến trường một cách an toàn của con bạn.",
+      "Đánh giá lại sự tiến bộ sau mỗi 3-6 tháng và điều chỉnh mục tiêu khi con bạn phát triển các kỹ năng thể chất mới."
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "Liệu pháp",
+    "title": "TRỰC TIẾP/Thời gian sàn",
+    "summary": "Một cách tiếp cận dựa trên mối quan hệ theo sự dẫn dắt của trẻ trong khi chơi để xây dựng nền tảng xã hội, cảm xúc và trí tuệ.",
+    "details": "DIR là viết tắt của Phát triển, Khác biệt cá nhân, Dựa trên mối quan hệ. Được phát triển bởi Tiến sĩ Stanley Greenspan vào những năm 1980, phương pháp này xây dựng nền tảng cho sự phát triển về mặt xã hội, cảm xúc và trí tuệ thông qua các tương tác vui vẻ do trẻ dẫn dắt thay vì nhắm vào các hành vi cụ thể. Chiến lược chính là người lớn lên sàn và làm theo sở thích của trẻ để mở rộng 'vòng giao tiếp' - tương tác qua lại. Floortime thường bao gồm 2-5 giờ mỗi ngày được chia thành các buổi 20-30 phút. Nghiên cứu cho thấy sự tiến bộ trong giao tiếp, chức năng cảm xúc, kỹ năng sống hàng ngày và mối quan hệ cha mẹ và con cái. DIR/Floortime được Trung tâm Phát triển Chuyên môn Quốc gia về Rối loạn Phổ Tự kỷ công nhận và phụ huynh có thể thực hiện tại nhà với sự hướng dẫn chuyên môn.",
+    "steps": [
+      "Tìm hiểu những kiến ​​thức cơ bản về DIR/Floortime thông qua Hội đồng Phát triển và Học tập Liên ngành (ICDL) tại icdl.com — họ cung cấp các tài nguyên dành cho phụ huynh.",
+      "Tìm một nhà trị liệu được đào tạo DIR/Floortime thông qua danh mục nhà cung cấp ICDL hoặc yêu cầu bác sĩ nhi khoa về phát triển của con bạn giới thiệu.",
+      "Bắt đầu với các buổi Floortime kéo dài 20 phút: ngồi trên sàn, làm theo sự hướng dẫn của con bạn và cố gắng mở rộng các tương tác qua lại.",
+      "Trước tiên hãy tập trung vào kết nối cảm xúc - tham gia vào những gì con bạn thích mà không cố gắng chuyển hướng hoặc dạy các kỹ năng cụ thể.",
+      "Tăng dần số lượng và thời lượng của các buổi tập, hướng tới nhiều buổi tập ngắn trong ngày.",
+      "Làm việc với một chuyên gia được đào tạo để tìm hiểu cách giải quyết hồ sơ phát triển và giác quan cá nhân của con bạn trong khi chơi."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "Liệu pháp",
+    "title": "TEACCH (Dạy có cấu trúc)",
+    "summary": "Một phương pháp giảng dạy có cấu trúc, trực quan, tổ chức môi trường vật chất để giúp trẻ tự kỷ học tập một cách độc lập.",
+    "details": "TEACCH (Điều trị và Giáo dục Trẻ khuyết tật Giao tiếp và Tự kỷ) được phát triển tại Đại học Bắc Carolina bởi Tiến sĩ Eric Schopler và Tiến sĩ Robert Reichler vào những năm 1960. Nó nhấn mạnh việc giảng dạy có cấu trúc phù hợp với cách các cá nhân tự kỷ xử lý thông tin, đặc biệt thông qua hỗ trợ trực quan. Các nguyên tắc cốt lõi bao gồm tổ chức môi trường vật chất, trình tự hoạt động có thể dự đoán được, lịch trình trực quan, hệ thống làm việc có cấu trúc và các nhiệm vụ được tổ chức trực quan. TEACCH làm giảm sự lo lắng bằng cách đặt ra những kỳ vọng rõ ràng và có thể dự đoán được, đồng thời cải thiện đáng kể sự chuyển đổi giữa các hoạt động. Nghiên cứu cho thấy sự độc lập ngày càng tăng trong các công việc hàng ngày, tự chăm sóc, tổ chức và tuân theo các thói quen. Phụ huynh có thể thực hiện các nguyên tắc TEACCH tại nhà bằng cách tạo lịch trình trực quan và không gian có tổ chức.",
+    "steps": [
+      "Tìm hiểu những điều cơ bản về TEACCH thông qua Chương trình Tự kỷ TEACCH tại UNC (teacch.com) - họ cung cấp chương trình đào tạo cho phụ huynh và các chuyên gia.",
+      "Tạo một lịch trình trực quan hàng ngày cho con bạn bằng cách sử dụng các bức tranh hoặc hình ảnh thể hiện trình tự các hoạt động trong ngày.",
+      "Tổ chức môi trường gia đình của bạn: chỉ định các khu vực rõ ràng cho các hoạt động cụ thể (khu vui chơi, khu vực làm việc, không gian yên tĩnh) bằng nhãn trực quan.",
+      "Triển khai hệ thống làm việc cho các nhiệm vụ: sử dụng bố cục từ trái sang phải hiển thị những việc cần làm, số lượng việc cần làm và những việc tiếp theo.",
+      "Sử dụng bộ hẹn giờ trực quan và cảnh báo chuyển tiếp (ví dụ: 'đầu tiên làm bài tập về nhà, sau đó là iPad') để giảm bớt lo lắng khi thay đổi hoạt động.",
+      "Tham khảo ý kiến ​​của chuyên gia được TEACCH đào tạo để tùy chỉnh phương pháp giảng dạy có cấu trúc phù hợp với điểm mạnh và nhu cầu cụ thể của con bạn."
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "Liệu pháp",
+    "title": "Nhóm kỹ năng xã hội",
+    "summary": "Môi trường nhóm có cấu trúc nơi trẻ tự kỷ thực hành các kỹ năng tương tác xã hội, trò chuyện và tình bạn với bạn bè.",
+    "details": "Các Nhóm Kỹ năng Xã hội tập hợp trẻ em mắc chứng tự kỷ (đôi khi được kết hợp với các trẻ cùng lứa tuổi có bệnh thần kinh) để thực hành tương tác xã hội trong một môi trường có tổ chức và hỗ trợ. Được dẫn dắt bởi các bác sĩ lâm sàng được cấp phép như nhà nghiên cứu bệnh học ngôn ngữ-ngôn ngữ hoặc nhà tâm lý học, các nhóm này làm việc về kỹ năng đàm thoại, đọc các tín hiệu xã hội, quan điểm, tạo dựng và duy trì tình bạn, điều tiết cảm xúc và chơi hợp tác. Bác sĩ lâm sàng xác định các mục tiêu cá nhân cho từng trẻ và theo dõi sự tiến bộ hàng tuần. Nghiên cứu cho thấy tác động tích cực đến năng lực xã hội, chất lượng tình bạn và giảm bớt sự cô đơn. Phụ huynh thường tham gia song song các buổi học để củng cố kỹ năng ở nhà. Nhiều gia đình hình thành mối liên kết lâu dài với các gia đình tham gia khác.",
+    "steps": [
+      "Hãy hỏi nhà trị liệu, trường học hoặc bác sĩ nhi khoa của con bạn về các nhóm kỹ năng xã hội tại địa phương - chúng có thể được cung cấp thông qua các phòng khám, bệnh viện hoặc tổ chức cộng đồng.",
+      "Hãy tìm các nhóm phù hợp với độ tuổi và trình độ phát triển của con bạn - một số nhóm dựa trên hoạt động vui chơi trong khi những nhóm khác có cấu trúc chặt chẽ hơn dành cho trẻ lớn hơn.",
+      "Đảm bảo nhóm được dẫn dắt bởi bác sĩ lâm sàng được cấp phép (SLP, nhà tâm lý học hoặc BCBA), người đặt ra các mục tiêu cá nhân cho mỗi người tham gia.",
+      "Tham dự buổi định hướng dành cho phụ huynh hoặc các buổi họp phụ huynh song song để tìm hiểu cách củng cố các kỹ năng xã hội ở nhà.",
+      "Thực hành các kỹ năng đã học trong môi trường tự nhiên - sắp xếp các buổi vui chơi với các bạn trong nhóm để khái quát các kỹ năng xã hội.",
+      "Theo dõi mức độ thoải mái của con bạn - một nhóm tốt sẽ xây dựng sự tự tin, không làm tăng thêm lo lắng hay thất vọng."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "Liệu pháp",
+    "title": "Trị liệu bằng âm nhạc",
+    "summary": "Sử dụng các hoạt động dựa trên âm nhạc để cải thiện khả năng giao tiếp, tương tác xã hội, kỹ năng vận động và điều tiết cảm xúc.",
+    "details": "Liệu pháp âm nhạc cho bệnh tự kỷ được cung cấp bởi các nhà trị liệu âm nhạc được hội đồng chứng nhận (MT-BC), những người sử dụng các hoạt động ca hát, chơi nhạc cụ, sáng tác và nhịp điệu để đạt được các mục tiêu trị liệu. Âm nhạc tác động đồng thời đến nhiều vùng não một cách độc đáo, khiến nó đặc biệt hiệu quả đối với những trẻ có thể không đáp ứng tốt với các liệu pháp dựa trên trò chuyện truyền thống. Nghiên cứu hỗ trợ cải thiện kỹ năng giao tiếp và ngôn ngữ, tương tác xã hội và sự chú ý chung, biểu hiện và điều chỉnh cảm xúc, phối hợp vận động tinh và thô cũng như xử lý giác quan. Các hoạt động âm nhạc tương tác tạo cơ hội tự nhiên cho việc thay phiên nhau, giao tiếp bằng mắt và chia sẻ niềm vui với bạn bè và các thành viên trong gia đình. Nhiều trẻ tự kỷ thể hiện sở thích âm nhạc mạnh mẽ và có thể đóng vai trò là cầu nối cho việc học tập khác.",
+    "steps": [
+      "Tìm nhà trị liệu âm nhạc được hội đồng chứng nhận (MT-BC) thông qua danh mục của Hiệp hội Trị liệu Âm nhạc Hoa Kỳ tại musictherapy.org.",
+      "Thảo luận về các mục tiêu cụ thể của con bạn - liệu pháp âm nhạc có thể nhắm mục tiêu vào giao tiếp, kỹ năng xã hội, kỹ năng vận động hoặc điều tiết cảm xúc.",
+      "Hỏi về hình thức buổi học: các buổi học cá nhân cho phép sự chú ý được cá nhân hóa trong khi các buổi học nhóm bổ sung thêm việc thực hành các kỹ năng xã hội.",
+      "Kết hợp âm nhạc vào các thói quen ở nhà - sử dụng các bài hát để chuyển tiếp (bài hát dọn dẹp), thói quen hàng ngày (bài hát đánh răng) và điều chỉnh cảm xúc.",
+      "Kiểm tra các lựa chọn bảo hiểm: một số chương trình bảo hiểm, miễn trừ Medicaid và IEP của trường có thể tài trợ cho liệu pháp âm nhạc như một dịch vụ liên quan.",
+      "Hãy thực hiện vài buổi - một số trẻ cần thời gian để làm quen với nhà trị liệu và định hình trước khi thể hiện sự tiến bộ."
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "Liệu pháp",
+    "title": "Liệu pháp hỗ trợ bằng ngựa (Cưỡi ngựa)",
+    "summary": "Cưỡi ngựa trị liệu giúp cải thiện giao tiếp xã hội, điều chỉnh cảm xúc và kỹ năng vận động thông qua tương tác với ngựa.",
+    "details": "Trị liệu được hỗ trợ bằng ngựa sử dụng chuyển động nhịp nhàng và khả năng phản ứng của ngựa để giải quyết các mục tiêu điều trị cho trẻ tự kỷ. Một nghiên cứu ngẫu nhiên lớn tại Đại học Colorado cho thấy 10 tuần cưỡi ngựa trị liệu giúp giảm bớt sự cáu kỉnh và cải thiện khả năng giao tiếp xã hội, tính hiếu động thái quá và khả năng nói trôi chảy ở trẻ em từ 6-16 tuổi. Chuyển động tự nhiên của ngựa kích thích sức mạnh cốt lõi, sự cân bằng và phối hợp. Làm việc với ngựa cũng mang lại cơ hội thực hành giao tiếp phi ngôn ngữ, sự đồng cảm, trách nhiệm và điều tiết cảm xúc trong một khung cảnh ngoài trời đầy động lực. Các chương trình thường được dẫn dắt bởi các giảng viên được chứng nhận quốc tế PATH cùng với các nhà trị liệu. Trị liệu bằng ngựa có thể bổ sung cho các phương pháp điều trị khác như ABA, lời nói và OT.",
+    "steps": [
+      "Tìm trung tâm cưỡi ngựa trị liệu được chứng nhận quốc tế PATH gần bạn tại pathintl.org/find-a-center.",
+      "Lên lịch đánh giá - nhóm sẽ đánh giá khả năng thể chất, nhu cầu hành vi và mục tiêu điều trị của con bạn.",
+      "Thảo luận về các yêu cầu an toàn: mũ bảo hiểm, quần áo phù hợp và bất kỳ phương tiện hỗ trợ giác quan nào mà con bạn có thể cần.",
+      "Cam kết tham gia các buổi tập đều đặn hàng tuần - nghiên cứu cho thấy lợi ích sẽ tăng lên sau 8-10 tuần tham gia đều đặn.",
+      "Hỏi về liệu pháp hà mã (OT/PT/Bài phát biểu trên lưng ngựa) so với cưỡi ngựa trị liệu - liệu pháp hà mã sử dụng chuyển động của ngựa như một công cụ điều trị và có thể được bảo hiểm chi trả.",
+      "Kiểm tra các nguồn tài trợ: một số trung tâm cưỡi ngựa phi lợi nhuận cung cấp học bổng và liệu pháp trị liệu bằng hà mã có thể được bảo hiểm y tế hoặc Medicaid chi trả."
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "Liệu pháp",
+    "title": "Trị liệu dưới nước",
+    "summary": "Liệu pháp dựa trên nước giúp xây dựng các kỹ năng vận động, phối hợp, sức bền và sự tự tin trong xã hội trong môi trường giác quan êm dịu.",
+    "details": "Trị liệu dưới nước sử dụng các đặc tính độc đáo của nước - sức nổi, sức cản và áp suất thủy tĩnh - để giúp trẻ tự kỷ phát triển các kỹ năng vận động, phối hợp, sức mạnh và sức bền trong môi trường giác quan hỗ trợ. Nhiều trẻ tự kỷ gặp khó khăn khi tập thể dục trên cạn sẽ phát triển tốt ở dưới nước. Cảm giác đầu vào từ nước ấm có thể làm dịu và điều chỉnh, giúp trẻ dễ tập trung và tham gia hơn. Liệu pháp dưới nước cũng dạy về an toàn dưới nước - một mối quan tâm hàng đầu vì đuối nước là nguyên nhân hàng đầu gây tử vong cho trẻ tự kỷ có thể đi lang thang. Các buổi học có thể rèn luyện các kỹ năng xã hội (theo lượt, làm theo hướng dẫn trong nhóm), nhận thức về cơ thể, kiểm soát hơi thở và thể lực tổng thể. Nghiên cứu cho thấy sự cải thiện trong tương tác xã hội và chức năng vận động.",
+    "steps": [
+      "Hãy hỏi bác sĩ nhi khoa hoặc nhà trị liệu của bạn để được giới thiệu đến một chương trình trị liệu dưới nước hoặc tìm kiếm cơ sở có nhà trị liệu dưới nước được chứng nhận.",
+      "Kiểm tra xem nhà cung cấp OT hoặc PT của con bạn có cung cấp các buổi trị liệu dưới nước hay không - những buổi này có thể được bảo hiểm chi trả.",
+      "Bắt đầu với các buổi tập cá nhân để giúp con bạn thích nghi với môi trường hồ bơi trước khi thử các buổi tập nhóm.",
+      "Thảo luận về các mục tiêu an toàn dưới nước là ưu tiên hàng đầu - dạy con bạn an toàn trong và xung quanh nước có thể cứu sống con bạn.",
+      "Thực hành các hoạt động dưới nước tại nhà trong thời gian tắm: đổ, đá, thổi bong bóng - những hoạt động này tạo ra sự thoải mái và kỹ năng.",
+      "Xem xét các chương trình bơi lội thích ứng với cộng đồng tại YMCA địa phương, các công viên và khu giải trí hoặc Thế vận hội Đặc biệt - nhiều chương trình miễn phí hoặc chi phí thấp."
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "988 Đường dây cứu trợ tự tử và khủng hoảng",
+    "summary": "Hỗ trợ khủng hoảng 24/7 miễn phí, bí mật qua điện thoại, tin nhắn hoặc trò chuyện cho bất kỳ ai đang gặp khó khăn về mặt tinh thần - có sẵn bằng tiếng Anh và tiếng Tây Ban Nha.",
+    "details": "Đường dây cứu hộ tự tử & khủng hoảng 988 là một mạng lưới quốc gia gồm các trung tâm khủng hoảng cung cấp hỗ trợ miễn phí, bí mật 24 giờ một ngày, 7 ngày một tuần. Gọi hoặc nhắn tin tới 988 để kết nối với nhân viên tư vấn đã được đào tạo. Dịch vụ có sẵn bằng tiếng Anh và tiếng Tây Ban Nha và trò chuyện trực tiếp có sẵn tại 988lifeline.org. Dịch vụ điện thoại truyền hình được cung cấp cho những người bị điếc hoặc lãng tai sử dụng Ngôn ngữ Ký hiệu Hoa Kỳ. Đường dây cứu sinh có các tài nguyên dành riêng cho những cá nhân mắc chứng rối loạn thần kinh, bao gồm cả chứng tự kỷ. Điều này KHÔNG chỉ dành cho ý nghĩ tự tử - nó dành cho bất kỳ cuộc khủng hoảng cảm xúc, căng thẳng quá mức hoặc trường hợp khẩn cấp về sức khỏe tâm thần. Hiệp hội Tự kỷ đang làm việc với các trung tâm khủng hoảng trên toàn quốc để đảm bảo các cố vấn được đào tạo cụ thể về bệnh tự kỷ và khuyết tật trí tuệ/phát triển.",
+    "steps": [
+      "Hãy lưu ngay 988 vào điện thoại của bạn — bạn có thể gọi hoặc nhắn tin tới số này bất cứ lúc nào bạn hoặc thành viên gia đình bạn đang gặp khủng hoảng.",
+      "Đối với trường hợp nguy hiểm trước mắt, hãy luôn gọi 911 trước, sau đó gọi 988 để được hỗ trợ liên tục.",
+      "Nếu trẻ tự kỷ hoặc thành viên gia đình bạn đang gặp khủng hoảng về mặt cảm xúc, hãy gọi 988 và cho nhân viên tư vấn biết về chẩn đoán bệnh tự kỷ để họ có thể điều chỉnh cách tiếp cận của mình.",
+      "Hãy truy cập 988lifeline.org để trò chuyện trực tiếp nếu gặp khó khăn khi gọi điện thoại — trò chuyện có thể dễ dàng hơn đối với một số người mắc chứng tự kỷ hoặc khi cảm giác bị choáng ngợp.",
+      "Để được hỗ trợ bằng tiếng Tây Ban Nha, hãy gọi 988 và nhấn số 2 cho đường dây tiếng Tây Ban Nha.",
+      "Giữ số này hiển thị trong nhà của bạn và chia sẻ nó với người chăm sóc, các thành viên trong gia đình và trường học của con bạn."
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "Dòng văn bản khủng hoảng",
+    "summary": "Hỗ trợ khủng hoảng miễn phí 24/7 qua tin nhắn văn bản — lý tưởng cho những ai thích nhắn tin hơn gọi điện thoại.",
+    "details": "Đường dây văn bản khủng hoảng cung cấp hỗ trợ khủng hoảng bí mật, miễn phí qua tin nhắn văn bản, hoạt động 24 giờ một ngày, 7 ngày một tuần. Nhắn tin HOME tới 741741 để kết nối với Cố vấn khủng hoảng đã được đào tạo. Dịch vụ này đặc biệt có giá trị đối với những cá nhân hoặc cha mẹ mắc chứng tự kỷ, những người thấy quá tải các cuộc gọi điện thoại hoặc những người cần được hỗ trợ một cách kín đáo. Cuộc trò chuyện dựa trên văn bản, điều này có thể dễ dàng hơn đối với những người xử lý giao tiếp bằng văn bản tốt hơn bằng lời nói. Cố vấn khủng hoảng là những tình nguyện viên được đào tạo được giám sát bởi nhân viên lâm sàng được cấp phép. Dịch vụ này xử lý tất cả các loại khủng hoảng - lo lắng, trầm cảm, đau khổ về cảm xúc, ý nghĩ tự tử, xung đột gia đình và kiệt sức khi chăm sóc. Thời gian chờ trung bình để kết nối với nhân viên tư vấn là dưới 5 phút.",
+    "steps": [
+      "Nhắn tin HOME tới 741741 từ bất kỳ nơi nào ở Hoa Kỳ vào bất kỳ lúc nào để bắt đầu cuộc trò chuyện với Cố vấn Khủng hoảng.",
+      "Một cố vấn được đào tạo sẽ phản hồi và giúp bạn vượt qua khủng hoảng bằng cách lắng nghe tích cực và giải quyết vấn đề hợp tác.",
+      "Thành thật về những gì bạn đang trải qua - không có lý do gì sai để liên hệ, bao gồm cả sự kiệt sức và choáng ngợp của người chăm sóc.",
+      "Nếu bạn đang nhắn tin về con mình, hãy cho nhân viên tư vấn biết để họ có thể cung cấp hỗ trợ và giới thiệu về bệnh tự kỷ.",
+      "Lưu 741741 trong danh bạ của bạn dưới dạng 'Dòng văn bản khủng hoảng' để bạn luôn sẵn sàng khi cần.",
+      "Chia sẻ tài nguyên này với các bậc cha mẹ tự kỷ khác trong cộng đồng của bạn - nhiều người không biết sự tồn tại của hỗ trợ khủng hoảng dựa trên văn bản."
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "Đường dây trợ giúp quốc gia của Hiệp hội Tự kỷ",
+    "summary": "Đường dây trợ giúp miễn phí kết nối các gia đình với các nguồn lực, dịch vụ và hỗ trợ về chứng tự kỷ tại địa phương thông qua các chuyên gia được đào tạo.",
+    "details": "Đường dây trợ giúp quốc gia của Hiệp hội Tự kỷ (800-3-AUTISM / 800-328-8476) kết nối bạn với các Chuyên gia Thông tin & Giới thiệu (I&R) được đào tạo để giúp bạn tìm các nguồn lực và dịch vụ trong khu vực của bạn. Mặc dù đường dây trợ giúp không cung cấp dịch vụ trực tiếp nhưng các chuyên gia sẽ kết nối bạn với các nhà cung cấp địa phương, các chương trình của tiểu bang, các nhóm hỗ trợ và các nguồn lực cộng đồng dành cho bệnh tự kỷ. Đây là lời kêu gọi đầu tiên tuyệt vời dành cho những gia đình nhập cư mới làm quen với hệ thống Hoa Kỳ và không biết bắt đầu từ đâu. Đường dây trợ giúp có thể hỗ trợ tìm kiếm các dịch vụ chẩn đoán, nhà cung cấp liệu pháp, vận động giáo dục, hỗ trợ tài chính và hỗ trợ cộng đồng. QUAN TRỌNG: Đây KHÔNG phải là đường dây khủng hoảng — đối với các trường hợp cấp cứu về sức khỏe tâm thần, hãy sử dụng 988 hoặc gọi 911.",
+    "steps": [
+      "Gọi 800-328-8476 (800-3-AUTISM) trong giờ làm việc để nói chuyện với Chuyên gia Thông tin & Giới thiệu.",
+      "Giải thích tình huống của bạn và những nguồn lực bạn đang tìm kiếm - chuyên gia sẽ tìm kiếm các dịch vụ trong khu vực của bạn.",
+      "Hỏi về các chi nhánh của Hiệp hội Tự kỷ tại địa phương - có hơn 70 chi nhánh trên khắp Hoa Kỳ cung cấp hỗ trợ trực tiếp cho cộng đồng.",
+      "Yêu cầu thông tin về nhiều chủ đề cùng một lúc: chẩn đoán, lựa chọn trị liệu, hỗ trợ trường học, hỗ trợ tài chính và các nhóm hỗ trợ phụ huynh.",
+      "Theo dõi những lời giới thiệu được cung cấp - ghi chú từng tên liên hệ, số điện thoại và các bước tiếp theo.",
+      "Gọi lại bất cứ lúc nào bạn cần trợ giúp để vượt qua thử thách mới — đường dây trợ giúp luôn sẵn sàng hỗ trợ liên tục chứ không chỉ sử dụng một lần."
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "Quyền pháp lý",
+    "title": "IDEA: Quyền được giáo dục miễn phí của con bạn",
+    "summary": "Đạo luật Giáo dục Người khuyết tật đảm bảo mọi trẻ em khuyết tật đều có quyền được hưởng nền giáo dục công lập phù hợp, miễn phí - bất kể tình trạng nhập cư.",
+    "details": "IDEA là luật liên bang áp dụng cho TẤT CẢ trẻ em ở Hoa Kỳ, bất kể tình trạng nhập cư, quốc tịch hay giấy tờ. Theo IDEA, các trường công lập phải xác định, đánh giá và phục vụ trẻ em khuyết tật từ sơ sinh đến 21 tuổi. Luật đảm bảo FAPE (Giáo dục công phù hợp miễn phí) trong LRE (Môi trường ít hạn chế nhất). Các trường học không thể hỏi về tình trạng nhập cư như một điều kiện để đăng ký hoặc sử dụng dịch vụ. Nếu con bạn ở độ tuổi từ 0-3, Phần C của IDEA sẽ cung cấp các dịch vụ Can thiệp Sớm. Nếu con bạn từ 3 đến 21 tuổi, Phần B sẽ cung cấp chương trình giáo dục đặc biệt thông qua khu học chánh. Bạn có quyền có thông dịch viên tại tất cả các cuộc họp và nhận tài liệu bằng ngôn ngữ ưa thích của bạn.",
+    "steps": [
+      "Con bạn có quyền được khu học chánh đánh giá miễn phí nếu bạn nghi ngờ có khuyết tật - hãy yêu cầu điều này bằng văn bản.",
+      "Các trường KHÔNG THỂ hỏi về tình trạng nhập cư của bạn. Nếu họ làm vậy, bạn có thể từ chối trả lời và báo cáo điều này.",
+      "Bạn có quyền có thông dịch viên tại mỗi cuộc họp IEP - hãy yêu cầu trước.",
+      "Nếu bạn không đồng ý với đánh giá hoặc xếp lớp của trường, bạn có thể yêu cầu Đánh giá Giáo dục Độc lập (IEE) do nhà trường chi trả.",
+      "Hãy liên hệ với Trung tâm Thông tin và Đào tạo Phụ huynh (PTI) tại tiểu bang của bạn để được hỗ trợ vận động miễn phí bằng ngôn ngữ của bạn."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "Quyền pháp lý",
+    "title": "Mục 504: Điều chỉnh không có IEP",
+    "summary": "Mục 504 của Đạo luật Phục hồi chức năng cung cấp chỗ ở cho trẻ em khuyết tật nhưng có thể không đủ điều kiện nhận giáo dục đặc biệt theo IDEA.",
+    "details": "Mục 504 là luật dân quyền cấm phân biệt đối xử với người khuyết tật trong các chương trình nhận tài trợ của liên bang, bao gồm tất cả các trường công lập. Không giống như IEP, kế hoạch 504 không yêu cầu loại khuyết tật học tập cụ thể - bất kỳ khiếm khuyết về thể chất hoặc tinh thần nào làm hạn chế đáng kể một hoạt động quan trọng trong cuộc sống đều đủ điều kiện. Đối với trẻ tự kỷ, điều này có thể bao gồm các điều chỉnh như thêm thời gian cho bài kiểm tra, chỗ ngồi ưu tiên, nghỉ giải lao, bài tập được sửa đổi hoặc không gian kiểm tra yên tĩnh. Kế hoạch 504 thường được thực hiện nhanh hơn IEP và có thể là một lựa chọn tốt trong khi chờ đánh giá đầy đủ. Phụ huynh có quyền tham gia vào quá trình 504 và kháng cáo các quyết định.",
+    "steps": [
+      "Yêu cầu đánh giá 504 bằng văn bản gửi cho hiệu trưởng trường học của con bạn hoặc điều phối viên 504.",
+      "Cung cấp tài liệu về chẩn đoán của con bạn - một lá thư từ bác sĩ hoặc nhà tâm lý học là đủ.",
+      "Tham dự cuộc họp 504 và mô tả bệnh tự kỷ ảnh hưởng như thế nào đến kết quả học tập và hoạt động hàng ngày của con bạn.",
+      "Xem xét các điều chỉnh được đề xuất và đề xuất những thay đổi cụ thể mà bạn biết sẽ giúp ích cho con mình - bạn là chuyên gia về con mình.",
+      "Kế hoạch 504 được xem xét hàng năm. Bạn có thể yêu cầu một cuộc họp bất cứ lúc nào nếu chỗ ở cần điều chỉnh."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "Quyền pháp lý",
+    "title": "FERPA: Bảo vệ hồ sơ trường học của con bạn",
+    "summary": "FERPA bảo vệ quyền riêng tư của hồ sơ giáo dục của con bạn và giới hạn những người có thể truy cập thông tin về con bạn - bao gồm cả cơ quan di trú.",
+    "details": "Đạo luật về quyền riêng tư và quyền giáo dục gia đình (FERPA) là luật liên bang bảo vệ quyền riêng tư của hồ sơ giáo dục học sinh. Theo FERPA, các trường học không thể tiết lộ hồ sơ của con bạn - bao gồm tình trạng khuyết tật, tài liệu IEP, chuyên cần hoặc thông tin phụ huynh - mà không có sự đồng ý bằng văn bản của bạn. Điều này áp dụng cho các yêu cầu từ ICE, cơ quan quản lý nhập cư hoặc bất kỳ cơ quan chính phủ nào. Các trường học không được chia sẻ thông tin danh bạ (tên, địa chỉ, số điện thoại) nếu bạn chọn không tham gia. Bạn có quyền kiểm tra tất cả hồ sơ mà nhà trường lưu giữ về con bạn và yêu cầu chỉnh sửa. Hiểu FERPA đặc biệt quan trọng đối với các gia đình nhập cư vì họ có thể lo sợ rằng việc tìm kiếm các dịch vụ của trường học sẽ làm lộ địa vị của gia đình họ.",
+    "steps": [
+      "Vào đầu mỗi năm học, hãy từ chối chia sẻ thông tin danh bạ - điều này ngăn cản nhà trường tiết lộ tên và địa chỉ của con bạn.",
+      "Nếu có ai yêu cầu nhà trường cung cấp hồ sơ của con bạn, nhà trường phải thông báo cho bạn và nhận được sự đồng ý bằng văn bản trước (với một số trường hợp ngoại lệ).",
+      "Bạn có quyền xem xét TẤT CẢ hồ sơ mà nhà trường lưu giữ về con bạn - hãy yêu cầu điều này bằng văn bản.",
+      "Nếu bạn tìm thấy sai sót trong hồ sơ của con bạn, hãy gửi yêu cầu chỉnh sửa bằng văn bản. Nhà trường phải trả lời trong vòng 45 ngày.",
+      "Nếu ICE hoặc cơ quan thực thi pháp luật liên hệ với trường, họ không thể truy cập hồ sơ học sinh nếu không có lệnh của tòa án. Biết điều này đúng."
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "Quyền pháp lý",
+    "title": "ADA: Quyền của người khuyết tật ở không gian công cộng",
+    "summary": "Đạo luật Người khuyết tật Hoa Kỳ bảo vệ con bạn khỏi sự phân biệt đối xử ở những nơi công cộng, bao gồm nhà hàng, cửa hàng, công viên và văn phòng y tế.",
+    "details": "ADA là luật dân quyền nghiêm cấm phân biệt đối xử đối với người khuyết tật trong mọi lĩnh vực của đời sống công cộng. Tiêu đề III bao gồm các cơ sở lưu trú công cộng - nhà hàng, cửa hàng, khách sạn, rạp hát, văn phòng bác sĩ và các cơ sở giải trí phải có những điều chỉnh hợp lý cho người khuyết tật. Đối với trẻ tự kỷ, điều này có thể có nghĩa là cho phép điều chỉnh giác quan, động vật phục vụ hoặc thiết bị liên lạc. Doanh nghiệp không thể từ chối dịch vụ vì hành vi liên quan đến khuyết tật của trẻ. ADA cũng bao gồm việc làm (Tiêu đề I) và các dịch vụ của chính quyền tiểu bang/địa phương (Tiêu đề II). Điều quan trọng là các biện pháp bảo vệ của ADA áp dụng cho tất cả mọi người ở Hoa Kỳ bất kể tình trạng nhập cư hay quốc tịch.",
+    "steps": [
+      "Nếu một doanh nghiệp từ chối phục vụ gia đình bạn vì hành vi liên quan đến chứng tự kỷ của con bạn, đây có thể là vi phạm ADA. Ghi lại sự việc.",
+      "Bạn có thể nộp đơn khiếu nại ADA với Bộ Tư pháp tại ada.gov — đơn khiếu nại có thể được gửi ẩn danh.",
+      "Các doanh nghiệp phải cho phép động vật phục vụ (nhưng không cho phép động vật hỗ trợ tinh thần) và không được tính thêm phí đối với chúng.",
+      "Nếu con bạn sử dụng thiết bị AAC hoặc bảng liên lạc, doanh nghiệp phải dành thời gian hợp lý để liên lạc.",
+      "Tổ chức bảo vệ quyền cho người khuyết tật tại địa phương của bạn có thể cung cấp tư vấn pháp lý miễn phí về các vi phạm ADA — tìm kiếm 'Bảo vệ & Vận động' cùng với tên tiểu bang của bạn."
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "Quyền pháp lý",
+    "title": "Medicaid EPSDT: Dịch vụ sức khỏe trẻ em toàn diện",
+    "summary": "Nếu con bạn có Medicaid, chúng có quyền nhận các dịch vụ Sàng lọc, Chẩn đoán và Điều trị Sớm và Định kỳ (EPSDT) - gói phúc lợi toàn diện nhất trong Medicaid.",
+    "details": "EPSDT là một phúc lợi Medicaid do liên bang quy định dành cho tất cả trẻ em đăng ký dưới 21 tuổi. Nó yêu cầu các tiểu bang cung cấp các dịch vụ y tế toàn diện bao gồm tất cả các phương pháp điều trị cần thiết về mặt y tế, ngay cả khi những dịch vụ đó không được chương trình Medicaid của tiểu bang chi trả. Đối với trẻ tự kỷ, điều này có thể bao gồm liệu pháp ABA, trị liệu ngôn ngữ, trị liệu nghề nghiệp, dịch vụ tâm lý, công nghệ hỗ trợ, v.v. Các tiểu bang không thể áp đặt giới hạn tùy tiện đối với các dịch vụ này nếu chúng được coi là cần thiết về mặt y tế. Nhiều gia đình không biết về EPSDT và một số tiểu bang cố gắng hạn chế những lợi ích này - nhưng luật liên bang lại ghi đè lên các hạn chế của tiểu bang đối với trẻ em. Nếu Medicaid từ chối một dịch vụ mà con bạn cần, bạn có quyền kháng cáo.",
+    "steps": [
+      "Nếu con bạn có Medicaid và cần ABA, ngôn ngữ, OT hoặc liệu pháp khác, hãy yêu cầu ủy quyền trích dẫn EPSDT - tiêu chuẩn là 'cần thiết về mặt y tế'.",
+      "Nếu Medicaid từ chối một dịch vụ, hãy yêu cầu từ chối bằng văn bản. Bạn có quyền kháng cáo thông qua một phiên điều trần công bằng.",
+      "Hãy liên hệ với văn phòng Medicaid ở tiểu bang của bạn và hỏi cụ thể về phúc lợi EPSDT dành cho trẻ tự kỷ.",
+      "Nếu tiểu bang của bạn cho biết một dịch vụ 'không được chi trả', EPSDT có thể ghi đè điều đó đối với trẻ em dưới 21 tuổi. Nhận trợ giúp pháp lý nếu cần.",
+      "Tổ chức Bảo vệ & Bênh vực của tiểu bang của bạn có thể giúp bạn chống lại việc từ chối Medicaid miễn phí."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "Hỗ trợ gia đình",
+    "title": "Chăm sóc thay thế: Nghỉ ngơi",
+    "summary": "Chăm sóc thay thế mang lại sự trợ giúp tạm thời cho người chăm sóc chính cho trẻ khuyết tật — điều này rất cần thiết để ngăn ngừa tình trạng kiệt sức và duy trì hạnh phúc gia đình.",
+    "details": "Chăm sóc thay thế là dịch vụ chăm sóc ngắn hạn cho con bạn được cung cấp bởi một người chăm sóc đã được đào tạo, giúp bạn có thời gian nghỉ ngơi, giải quyết công việc vặt hoặc chăm sóc các nhu cầu của riêng bạn. Nghiên cứu cho thấy tình trạng kiệt sức của người chăm sóc là cực kỳ phổ biến trong các gia đình có trẻ tự kỷ và chăm sóc thay thế thường xuyên là một trong những chiến lược phòng ngừa hiệu quả nhất. Chăm sóc thay thế có thể ở nhà (một nhân viên đã qua đào tạo đến nhà bạn), ở ngoài nhà (con bạn đến một cơ sở hoặc một gia đình khác), hoặc không chính thức (một thành viên gia đình hoặc bạn bè đã được đào tạo). Nhiều tiểu bang cung cấp kinh phí chăm sóc thay thế thông qua các chương trình miễn trừ Medicaid, các cơ quan khuyết tật của tiểu bang hoặc các chương trình hỗ trợ gia đình. Một số tổ chức cung cấp các sự kiện nghỉ ngơi miễn phí dành riêng cho gia đình có trẻ tự kỷ.",
+    "steps": [
+      "Liên hệ với cơ quan khuyết tật phát triển của tiểu bang của bạn và hỏi về các chương trình chăm sóc thay thế - nhiều chương trình có sẵn nguồn tài trợ.",
+      "Kiểm tra xem quyền miễn trừ Medicaid của con bạn có bao gồm số giờ nghỉ ngơi hay không - nhiều trường hợp miễn trừ tại nhà và cộng đồng đều có.",
+      "Tìm kiếm các chương trình chăm sóc bệnh tự kỷ tại địa phương thông qua Hiệp hội Tự kỷ Hoa Kỳ (autism-society.org) hoặc Easter Seals.",
+      "Hãy hỏi các nhà trị liệu của con bạn xem họ có biết những nhà cung cấp dịch vụ chăm sóc thay thế được đào tạo trong khu vực của bạn có kinh nghiệm về bệnh tự kỷ hay không.",
+      "Bắt đầu với những khoảng thời gian nghỉ ngơi ngắn (1-2 giờ) khi bạn ở gần, sau đó dần dần kéo dài khi con bạn cảm thấy thoải mái."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "Hỗ trợ gia đình",
+    "title": "Nhóm hỗ trợ phụ huynh",
+    "summary": "Kết nối với các bậc cha mẹ khác của trẻ tự kỷ giúp giảm sự cô lập, đưa ra lời khuyên thiết thực và xây dựng một cộng đồng hiểu được trải nghiệm hàng ngày của bạn.",
+    "details": "Nuôi dạy một đứa trẻ tự kỷ, đặc biệt là trong một gia đình nhập cư, có thể rất cô lập. Các nhóm hỗ trợ phụ huynh cung cấp không gian để chia sẻ kinh nghiệm, học hỏi từ những người khác đã điều hướng cùng hệ thống và xây dựng tình bạn với những người thực sự hiểu biết. Các nhóm có thể trực tiếp, trực tuyến hoặc cả hai. Nhiều nhóm được tổ chức theo ngôn ngữ và văn hóa, thừa nhận rằng quan điểm văn hóa về khuyết tật có sự khác biệt đáng kể. Nghiên cứu cho thấy các bậc cha mẹ tham gia vào các nhóm hỗ trợ cho biết mức độ căng thẳng thấp hơn, kỹ năng đối phó tốt hơn và khả năng vận động mạnh mẽ hơn. Nhiều nhóm cũng đóng vai trò là mạng lưới thông tin không chính thức để tìm kiếm các nhà trị liệu, điều hướng hệ thống trường học và tiếp cận các lợi ích.",
+    "steps": [
+      "Tìm kiếm các nhóm phụ huynh mắc chứng tự kỷ tại địa phương thông qua Hiệp hội Tự kỷ (autism-society.org) - lọc theo tiểu bang của bạn.",
+      "Kiểm tra Facebook để tìm các nhóm bằng ngôn ngữ của bạn: tìm kiếm 'cha mẹ tự kỷ [ngôn ngữ của bạn]' hoặc 'padres tự kỷ' cho các gia đình nói tiếng Tây Ban Nha.",
+      "Hãy hỏi nhà trị liệu, trường học hoặc bác sĩ nhi khoa của con bạn để biết các khuyến nghị - họ thường biết về các nhóm địa phương.",
+      "Nếu không có nhóm địa phương nào tồn tại bằng ngôn ngữ của bạn, hãy cân nhắc việc thành lập một nhóm — thậm chí một nhóm WhatsApp có 3-4 nhóm cũng có thể có sức ảnh hưởng lớn.",
+      "Các cộng đồng trực tuyến như MyAutismTeam.com kết nối các bậc phụ huynh trên toàn quốc và có tính năng dịch thuật."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "Hỗ trợ gia đình",
+    "title": "Hỗ trợ anh chị em",
+    "summary": "Anh chị em của trẻ tự kỷ có những nhu cầu và trải nghiệm riêng đáng được quan tâm - việc hỗ trợ anh chị em sẽ củng cố cả gia đình.",
+    "details": "Anh chị em của trẻ tự kỷ thường trải qua những cảm xúc đan xen giữa tình yêu, sự thất vọng, niềm tự hào, sự bối rối, sự bảo vệ và sự oán giận - tất cả đều là bình thường. Họ có thể đảm nhận nhiều trách nhiệm hơn, cảm thấy bị bỏ qua khi anh chị em mắc chứng tự kỷ cần được quan tâm nhiều hơn hoặc lo lắng về tương lai. Nghiên cứu cho thấy rằng anh chị em ruột nhận được sự hỗ trợ và thông tin về bệnh tự kỷ sẽ phát triển mối quan hệ bền chặt hơn với anh chị em mắc chứng tự kỷ và cho thấy sức khỏe tâm lý tốt hơn. Dự án Hỗ trợ Anh chị em (siblingsupport.org) cung cấp các chương trình được thiết kế đặc biệt cho anh chị em của trẻ em có nhu cầu đặc biệt. Những cuộc trò chuyện trung thực, phù hợp với lứa tuổi về chứng tự kỷ sẽ giúp anh chị em hiểu và đối phó.",
+    "steps": [
+      "Dành thời gian riêng tư thường xuyên với mỗi anh chị em - thậm chí 15 phút dành sự chú ý hoàn toàn cũng tạo nên sự khác biệt đáng kể.",
+      "Giải thích bệnh tự kỷ theo thuật ngữ phù hợp với lứa tuổi: 'Bộ não của chúng hoạt động khác nhau. Một số việc khó hơn đối với họ và một số việc họ thực sự giỏi.'",
+      "Thừa nhận cảm xúc của họ mà không phán xét: 'Bạn có thể cảm thấy bực bội khi anh trai mình la hét. Đó là cảm giác bình thường.”",
+      "Hãy tìm các chương trình của Sibshop (siblingsupport.org) trong khu vực của bạn - những nhóm hỗ trợ đồng đẳng này dành riêng cho anh chị em.",
+      "Tránh để anh chị em trở thành người chăm sóc - họ có thể giúp đỡ, nhưng vai trò chính của họ phải là một đứa trẻ và một người anh/em."
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "Hỗ trợ gia đình",
+    "title": "Chiến lược tự chăm sóc của người chăm sóc",
+    "summary": "Bạn không thể rót từ một chiếc cốc rỗng. Duy trì sức khỏe thể chất và tinh thần của chính bạn không phải là ích kỷ - điều đó cần thiết cho sức khỏe của con bạn.",
+    "details": "Cha mẹ của trẻ tự kỷ có tỷ lệ căng thẳng, lo lắng, trầm cảm và các vấn đề về sức khỏe thể chất cao hơn đáng kể so với cha mẹ của trẻ mắc bệnh thần kinh. Cha mẹ nhập cư phải đối mặt với các yếu tố căng thẳng khác: rào cản ngôn ngữ, sự cô lập về văn hóa, điều hướng các hệ thống xa lạ và những nỗi sợ hãi tiềm ẩn liên quan đến nhập cư. Tự chăm sóc bản thân không phải là điều xa xỉ - đó là điều cần thiết. Nghiên cứu luôn cho thấy rằng sức khỏe của cha mẹ ảnh hưởng trực tiếp đến kết quả của trẻ. Khi cha mẹ bị choáng ngợp và kiệt sức, họ sẽ kém kiên nhẫn hơn, ít năng lượng hơn để tiếp tục trị liệu và giảm khả năng vận động hiệu quả. Ngay cả những thực hành tự chăm sóc nhỏ và nhất quán cũng có thể tạo ra sự khác biệt đáng kể.",
+    "steps": [
+      "Xác định một bài tập nhỏ hàng ngày giúp bạn nạp lại năng lượng: đi bộ 10 phút, uống một tách trà trong im lặng, gọi điện thoại với bạn bè hoặc 5 phút hít thở sâu.",
+      "Đừng chờ đợi 'thời gian rảnh' - hãy lên lịch chăm sóc bản thân giống như một cuộc hẹn. Thậm chí 10 phút cũng có giá trị.",
+      "Nếu bạn đang vật lộn với chứng lo âu hoặc trầm cảm, nhiều trung tâm y tế cộng đồng cung cấp liệu pháp điều trị theo thang trượt bằng nhiều ngôn ngữ.",
+      "Kết nối với ít nhất một phụ huynh khác để hiểu - sự cô lập sẽ làm tăng thêm căng thẳng. Ngay cả tình bạn dựa trên tin nhắn cũng có ích.",
+      "Hãy nhớ rằng: yêu cầu giúp đỡ là sức mạnh chứ không phải thất bại. Chấp nhận sự hỗ trợ từ gia đình, bạn bè hoặc chuyên gia sẽ giúp bạn trở thành cha mẹ tốt hơn."
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "Hỗ trợ gia đình",
+    "title": "Hỗ trợ tài chính và lợi ích",
+    "summary": "Nhiều chương trình liên bang và tiểu bang có thể giúp trang trải chi phí cho các dịch vụ, trị liệu và nhu cầu hàng ngày liên quan đến chứng tự kỷ - ngay cả đối với những gia đình có giấy tờ hạn chế.",
+    "details": "Gánh nặng tài chính của việc nuôi dạy một đứa trẻ tự kỷ là rất lớn - liệu pháp điều trị, thăm khám y tế, thiết bị chuyên dụng và mất tiền lương có thể gây căng thẳng cho ngân sách của bất kỳ gia đình nào. Tuy nhiên, có nhiều chương trình hỗ trợ tồn tại. SSI (Thu nhập An sinh Bổ sung) cung cấp các khoản thanh toán hàng tháng cho trẻ em khuyết tật từ các gia đình có thu nhập thấp. Medicaid đài thọ các dịch vụ trị liệu mở rộng thông qua EPSDT. Nhiều tiểu bang có các chương trình miễn trừ dành riêng cho bệnh tự kỷ bao gồm ABA, thiết bị chăm sóc thay thế và thiết bị thích ứng. Chương trình Bảo hiểm Y tế Trẻ em (CHIP) chi trả cho trẻ em trong các gia đình kiếm được quá nhiều tiền từ Medicaid nhưng không đủ khả năng mua bảo hiểm tư nhân. Một số chương trình này được cung cấp bất kể tình trạng nhập cư, đặc biệt dành cho trẻ em là công dân Hoa Kỳ có cha mẹ không có giấy tờ.",
+    "steps": [
+      "Đăng ký SSI (Thu nhập An sinh Bổ sung) thông qua văn phòng An sinh Xã hội tại địa phương của bạn - trẻ mắc chứng tự kỷ thường đủ điều kiện dựa trên tiêu chí khuyết tật.",
+      "Kiểm tra xem con bạn có đủ điều kiện nhận Medicaid hoặc CHIP hay không - Trẻ em là công dân Hoa Kỳ đủ điều kiện ngay cả khi cha mẹ không có giấy tờ hợp lệ.",
+      "Liên hệ với cơ quan khuyết tật phát triển ở tiểu bang của bạn về các chương trình miễn trừ bệnh tự kỷ - có danh sách chờ, vì vậy hãy đăng ký sớm.",
+      "Hãy xem trang tài nguyên tài chính của Autism Speaks (autismspeaks.org/financial-resources) để biết các khoản trợ cấp và chương trình hỗ trợ.",
+      "Hãy hỏi nhà cung cấp dịch vụ trị liệu của con bạn về mức phí theo thang trượt hoặc các suất miễn phí - nhiều cơ sở thực hành dành chỗ cho các gia đình có nhu cầu.",
+      "Kiểm tra với các tổ chức phi lợi nhuận và nhà thờ địa phương để được hỗ trợ khẩn cấp về các chi phí liên quan đến chứng tự kỷ."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "Hỗ trợ gia đình",
+    "title": "Biết quyền của bạn: Dịch vụ nhập cư và người khuyết tật",
+    "summary": "Việc tiếp cận các dịch vụ khuyết tật cho con bạn sẽ KHÔNG ảnh hưởng đến trường hợp nhập cư của bạn. Trường học, bệnh viện và nhà cung cấp dịch vụ trị liệu không thể báo cáo bạn với cơ quan di trú.",
+    "details": "Nhiều gia đình nhập cư tránh tìm kiếm các dịch vụ cho đứa trẻ tự kỷ của họ vì sợ rằng điều đó sẽ thu hút cơ quan thực thi nhập cư hoặc ảnh hưởng đến trường hợp của họ. Nỗi lo sợ này có thể hiểu được nhưng phần lớn là vô căn cứ. Luật liên bang cấm các trường học hỏi về tình trạng nhập cư. HIPAA bảo vệ quyền riêng tư của hồ sơ y tế. Việc sử dụng Medicaid, WIC, các chương trình ăn trưa ở trường hoặc các dịch vụ dành cho người khuyết tật cho con là công dân Hoa Kỳ của bạn không được tính là vấn đề 'gánh nặng xã hội' cho mục đích nhập cư (theo chính sách hiện hành). Các nhà cung cấp dịch vụ trị liệu, trường học và bệnh viện thường được coi là 'các địa điểm nhạy cảm' nơi việc thực thi ICE bị hạn chế. Hiểu được những biện pháp bảo vệ này có thể giúp các gia đình tiếp cận các dịch vụ mà con cái họ cần mà không phải lo sợ.",
+    "steps": [
+      "Các trường KHÔNG THỂ hỏi về tình trạng nhập cư của bạn hoặc tình trạng của con bạn như một điều kiện để đăng ký hoặc nhận dịch vụ.",
+      "Việc sử dụng Medicaid, CHIP hoặc các dịch vụ giáo dục đặc biệt cho con bạn KHÔNG khiến bạn trở thành 'gánh nặng xã hội' - những điều này đặc biệt bị loại trừ.",
+      "Nếu có ai ở trường học hoặc văn phòng y tế hỏi về tình trạng nhập cư của bạn, bạn có thể từ chối trả lời. Hãy báo cáo việc này với khu học chánh.",
+      "Giữ một thẻ có các quyền của bạn và số luật sư nhập cư khẩn cấp. Nhiều tổ chức trợ giúp pháp lý cung cấp thẻ 'Biết Quyền của Bạn' miễn phí bằng nhiều ngôn ngữ.",
+      "Hãy liên hệ với Hiệp hội Trợ giúp Pháp lý tại địa phương của bạn hoặc chi nhánh ACLU để được tư vấn pháp lý miễn phí liên quan đến nhập cư — nhiều nơi có các chương trình đặc biệt dành cho gia đình có trẻ em khuyết tật."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "giáo dục",
+    "title": "Can thiệp sớm (Phần C của IDEA) — Độ tuổi 0-3",
+    "summary": "Các dịch vụ can thiệp sớm của liên bang dành cho trẻ sơ sinh và trẻ mới biết đi chậm phát triển, dành cho tất cả các gia đình bất kể tình trạng nhập cư.",
+    "details": "Phần C của IDEA là một chương trình liên bang cung cấp các dịch vụ can thiệp sớm cho trẻ sơ sinh và trẻ mới biết đi (từ sơ sinh đến 2 tuổi) bị chậm phát triển hoặc được chẩn đoán mắc các bệnh như tự kỷ. Mỗi tiểu bang có một cơ quan chính điều phối các dịch vụ bao gồm trị liệu ngôn ngữ, trị liệu nghề nghiệp, vật lý trị liệu, hỗ trợ hành vi và đào tạo gia đình. Dịch vụ được cung cấp trong môi trường tự nhiên như ở nhà hoặc nhà giữ trẻ. Việc đánh giá luôn miễn phí và các dịch vụ được cung cấp miễn phí hoặc chi phí thấp tùy thuộc vào tiểu bang của bạn. Trẻ không cần chẩn đoán tự kỷ chính thức để nhận các dịch vụ Phần C - chậm phát triển là đủ. Đây là một trong những chương trình quan trọng nhất dành cho các gia đình nhập cư vì khả năng hội đủ điều kiện hoàn toàn dựa trên nhu cầu phát triển chứ không phải tình trạng nhập cư hay khả năng chi trả.",
+    "steps": [
+      "Liên hệ với chương trình can thiệp sớm Phần C của tiểu bang của bạn — tìm tiểu bang của bạn tại ectacenter.org/contact/ptccoord.asp.",
+      "Yêu cầu đánh giá phát triển miễn phí — chương trình phải hoàn thành đánh giá này trong vòng 45 ngày kể từ ngày được giới thiệu.",
+      "Bạn KHÔNG cần chẩn đoán bệnh tự kỷ để nhận được dịch vụ - chậm phát triển là đủ.",
+      "Nếu đủ điều kiện, hãy giúp phát triển Kế hoạch Dịch vụ Gia đình Cá nhân hóa (IFSP) của con bạn liệt kê tất cả các dịch vụ.",
+      "Các dịch vụ bắt đầu ngay khi bạn ký IFSP — hỏi về hỗ trợ về lời nói, OT, PT và hành vi.",
+      "Ở tuổi 2,5, hãy bắt đầu lập kế hoạch chuyển tiếp sang các dịch vụ mầm non (Phần B) thông qua khu học chánh của bạn."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "giáo dục",
+    "title": "Lập kế hoạch chuyển tiếp (14-22 tuổi)",
+    "summary": "IDEA yêu cầu các trường học lập kế hoạch cho quá trình chuyển tiếp của con bạn sang cuộc sống trưởng thành, bao gồm việc làm, giáo dục và sống tự lập, bắt đầu từ 16 tuổi (14 tuổi ở một số tiểu bang).",
+    "details": "Lập kế hoạch chuyển tiếp là một phần bắt buộc của liên bang trong IEP nhằm chuẩn bị cho học sinh khuyết tật bước vào cuộc sống sau trung học. Theo IDEA, các mục tiêu và dịch vụ chuyển tiếp phải được đưa vào IEP bắt đầu không muộn hơn năm học sinh bước sang tuổi 16, mặc dù nhiều tiểu bang bắt đầu ở tuổi 14. Các kế hoạch phải đề cập đến giáo dục hoặc đào tạo sau trung học, việc làm và khi thích hợp, các kỹ năng sống độc lập. Đối với học sinh tự kỷ, kế hoạch chuyển tiếp nên bao gồm đánh giá nghề, đào tạo kỹ năng công việc, hướng dẫn dựa vào cộng đồng, đào tạo tự vận động và kết nối với các cơ quan dịch vụ người lớn. Nghiên cứu cho thấy rằng học sinh mắc chứng tự kỷ có một số kết quả sau trung học tồi tệ nhất so với các loại khuyết tật khác, khiến việc lập kế hoạch chuyển tiếp có chất lượng trở nên quan trọng. Phụ huynh nên tham gia tích cực và học sinh phải được mời tham dự các cuộc họp IEP của chính họ sau khi bắt đầu lập kế hoạch chuyển tiếp.",
+    "steps": [
+      "Yêu cầu lập kế hoạch chuyển tiếp bắt đầu ở tuổi 14 ngay cả khi tiểu bang của bạn không yêu cầu điều đó cho đến khi 16 tuổi - lập kế hoạch sớm sẽ mang lại kết quả tốt hơn.",
+      "Đảm bảo IEP bao gồm các mục tiêu sau trung học có thể đo lường được về giáo dục/đào tạo, việc làm và cuộc sống độc lập.",
+      "Yêu cầu đánh giá nghề nghiệp và kinh nghiệm làm việc dựa vào cộng đồng như một phần của kế hoạch chuyển đổi.",
+      "Mời con bạn tham dự các cuộc họp IEP của chúng - kỹ năng tự vận động là rất quan trọng cho sự thành công của người lớn.",
+      "Kết nối với cơ quan phục hồi nghề nghiệp của tiểu bang trước khi con bạn rời trường - họ có thể hỗ trợ việc làm.",
+      "Nghiên cứu các cơ quan dịch vụ dành cho người lớn trong khu vực của bạn (các cơ quan hỗ trợ người khuyết tật phát triển, các chương trình việc làm được hỗ trợ) và bắt đầu giới thiệu trước 18 tuổi."
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "giáo dục",
+    "title": "Trung tâm Thông tin & Huấn luyện Phụ huynh (PTI)",
+    "summary": "Các trung tâm miễn phí, được liên bang tài trợ ở mọi tiểu bang giúp phụ huynh định hướng chương trình giáo dục đặc biệt, hiểu rõ quyền của họ và ủng hộ con cái họ.",
+    "details": "Trung tâm Thông tin và Đào tạo Phụ huynh (PTI) được tài trợ thông qua IDEA và tồn tại ở mọi tiểu bang. Họ cung cấp đào tạo và hỗ trợ miễn phí cho cha mẹ của trẻ khuyết tật từ sơ sinh đến 26 tuổi. Nhân viên PTI giúp các gia đình hiểu luật giáo dục đặc biệt, tham gia hiệu quả vào các cuộc họp IEP, giải quyết tranh chấp với nhà trường và kết nối với các nguồn lực cộng đồng. Nhiều PTI cung cấp dịch vụ bằng tiếng Tây Ban Nha và các ngôn ngữ khác. PTI không đại diện cho khu học chánh — họ là các tổ chức độc lập phục vụ các gia đình. Họ có thể giúp bạn hiểu các quyền của mình theo IDEA, Mục 504 và ADA. Đối với các gia đình nhập cư, PTI đặc biệt có giá trị vì chúng cung cấp sự hỗ trợ vận động có hiểu biết và miễn phí bất kể tình trạng nhập cư.",
+    "steps": [
+      "Tìm PTI của tiểu bang của bạn tại parentcenterhub.org/find-your-center — mỗi tiểu bang đều có ít nhất một PTI.",
+      "Gọi và hỏi về các buổi hội thảo miễn phí về quyền IEP, luật giáo dục đặc biệt và các dịch vụ dành cho bệnh tự kỷ.",
+      "Yêu cầu hỗ trợ trực tiếp cho các cuộc họp IEP sắp tới - nhiều PTI có thể giúp bạn chuẩn bị hoặc tham dự cùng bạn.",
+      "Hãy hỏi xem họ có nhân viên nói được ngôn ngữ của bạn hoặc có thể cung cấp dịch vụ thông dịch hay không.",
+      "Tham dự các sự kiện kết nối phụ huynh với phụ huynh để gặp gỡ các gia đình khác đang vượt qua những thách thức tương tự.",
+      "Sử dụng thư viện tài nguyên của họ để lấy thư mẫu, hướng dẫn về quyền và thông tin về các dịch vụ địa phương."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "giáo dục",
+    "title": "Công nghệ hỗ trợ trong trường học",
+    "summary": "Theo IDEA, các trường học phải xem xét công nghệ hỗ trợ cho mọi trẻ em có IEP và cung cấp các thiết bị và dịch vụ miễn phí nếu nhóm IEP xác định rằng chúng cần thiết.",
+    "details": "Công nghệ hỗ trợ (AT) bao gồm bất kỳ thiết bị hoặc dịch vụ nào giúp trẻ khuyết tật tiếp cận giáo dục. Đối với trẻ tự kỷ, AT có thể bao gồm các thiết bị liên lạc (AAC), ứng dụng lịch trình trực quan, tai nghe chống ồn, áo khoác có trọng lượng, thiết bị tạo giọng nói, phần mềm chuyển văn bản thành giọng nói và bàn phím chuyên dụng. Theo IDEA, nhóm IEP phải xem xét liệu trẻ có cần thiết bị và dịch vụ AT để nhận FAPE hay không. Nếu AT được ghi vào IEP, khu học chánh phải cung cấp miễn phí cho gia đình. Các trường không thể từ chối AT do chi phí. Việc xem xét AT sẽ diễn ra tại mỗi cuộc họp IEP và các gia đình có thể yêu cầu đánh giá AT bất kỳ lúc nào. Nhiều tiểu bang cũng có thư viện cho mượn AT, nơi các gia đình có thể mượn thiết bị để dùng thử trước khi cam kết.",
+    "steps": [
+      "Tại cuộc họp IEP tiếp theo của con bạn, hãy yêu cầu chính thức xem xét công nghệ hỗ trợ - điều này được IDEA yêu cầu.",
+      "Nếu cần AT, hãy yêu cầu một chuyên gia đánh giá AT chính thức - nhà trường phải cung cấp dịch vụ này miễn phí.",
+      "Khám phá các tùy chọn AT thông qua thư viện cho vay AT của tiểu bang của bạn - hầu hết các tiểu bang đều có một (tìm thư viện của bạn tại atap.org).",
+      "Nếu AT được đưa vào IEP, nhà trường phải cung cấp, bảo trì và đào tạo nhân viên cách sử dụng thiết bị.",
+      "Con bạn có thể mang thiết bị AT về nhà nếu nhóm IEP xác định việc sử dụng tại nhà là cần thiết để đảm bảo FAPE.",
+      "Nếu nhà trường từ chối AT, hãy yêu cầu từ chối bằng văn bản và xem xét việc nộp đơn tranh chấp thông qua hòa giải hoặc thủ tục tố tụng hợp pháp."
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "Dịch vụ Nhà nước",
+    "title": "Cơ quan Khuyết tật Phát triển Tiểu bang",
+    "summary": "Mỗi tiểu bang đều có một cơ quan về khuyết tật phát triển điều phối các dịch vụ dành cho những người mắc chứng tự kỷ và các khuyết tật phát triển khác.",
+    "details": "Các cơ quan về khuyết tật phát triển (DD) của tiểu bang quản lý các chương trình và tài trợ cho các cá nhân bị khuyết tật phát triển bao gồm cả bệnh tự kỷ. Các dịch vụ thường bao gồm đánh giá chẩn đoán, quản lý trường hợp, dịch vụ tại nhà và cộng đồng, hỗ trợ nội trú, chương trình ban ngày, việc làm được hỗ trợ, chăm sóc thay thế và hỗ trợ gia đình. Ở một số tiểu bang (như California), các dịch vụ được cung cấp thông qua các trung tâm khu vực. Ở những nơi khác, cơ quan DD của tiểu bang ký hợp đồng với các nhà cung cấp địa phương. Các cơ quan này là cửa ngõ vào các chương trình miễn trừ Medicaid, có thể tài trợ cho liệu pháp ABA, chăm sóc thay thế và các dịch vụ quan trọng khác. Nhiều cơ quan DD có danh sách chờ đợi dài nên việc nộp đơn sớm là điều cần thiết. Các dịch vụ thường có sẵn bất kể tình trạng nhập cư, mặc dù các dịch vụ do Medicaid tài trợ có thể có các yêu cầu về tính đủ điều kiện.",
+    "steps": [
+      "Tìm cơ quan DD ở tiểu bang của bạn tại nasddds.org/state-aggency — mỗi tiểu bang đều có một cơ quan.",
+      "Hãy liên hệ với họ để tìm hiểu những dịch vụ nào hiện có dành cho trẻ tự kỷ ở tiểu bang của bạn.",
+      "Hỏi về các chương trình miễn trừ Medicaid - đăng ký tất cả các chương trình miễn trừ mà con bạn có thể đủ điều kiện vì danh sách chờ có thể kéo dài nhiều năm.",
+      "Yêu cầu điều phối viên dịch vụ hoặc người quản lý hồ sơ có thể giúp điều hướng các chương trình có sẵn.",
+      "Hỏi về các dịch vụ hỗ trợ gia đình: đào tạo cha mẹ, hỗ trợ anh chị em, chăm sóc thay thế và hỗ trợ tài chính.",
+      "Nếu con bạn sắp trưởng thành, hãy hỏi về các dịch vụ dành cho độ tuổi chuyển tiếp và các chương trình việc làm được hỗ trợ."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "Dịch vụ Nhà nước",
+    "title": "Miễn trừ Dịch vụ tại nhà và cộng đồng (HCBS)",
+    "summary": "Các khoản miễn trừ HCBS của Medicaid tài trợ cho các dịch vụ chữa bệnh tự kỷ tại nhà và cộng đồng của bạn, bao gồm liệu pháp ABA, chăm sóc thay thế và hỗ trợ cá nhân - thường bất kể thu nhập của gia đình.",
+    "details": "Việc miễn trừ HCBS cho phép các tiểu bang cung cấp các dịch vụ do Medicaid tài trợ tại nhà và cộng đồng thay vì các tổ chức. Đối với trẻ tự kỷ, những miễn trừ này có thể bao gồm liệu pháp ABA, trị liệu ngôn ngữ, trị liệu nghề nghiệp, chăm sóc thay thế, hỗ trợ chăm sóc cá nhân, việc làm được hỗ trợ, hoạt động ban ngày, công nghệ hỗ trợ, sửa đổi môi trường và đào tạo gia đình. Khả năng hội đủ điều kiện thường dựa trên mức độ khuyết tật của trẻ chứ không phải thu nhập của gia đình - thu nhập của trẻ được xem xét riêng biệt với cha mẹ. Một số tiểu bang có các miễn trừ dành riêng cho chứng tự kỷ (chẳng hạn như Miễn trừ Tự kỷ của Maryland) trong khi các tiểu bang khác bao gồm chứng tự kỷ theo các miễn trừ DD rộng hơn. Danh sách chờ có thể rất dài — đôi khi 5-10 năm — vì vậy việc nộp đơn càng sớm càng tốt là rất quan trọng. Bạn có thể có mặt trong nhiều danh sách chờ miễn trừ cùng một lúc.",
+    "steps": [
+      "Hãy liên hệ với văn phòng Medicaid hoặc cơ quan DD ở tiểu bang của bạn để tìm hiểu xem chương trình miễn trừ HCBS nào phục vụ trẻ tự kỷ.",
+      "Nộp đơn xin miễn trừ cho mọi trường hợp miễn trừ mà con bạn có thể đủ điều kiện - bạn có thể có tên trong nhiều danh sách chờ cùng một lúc.",
+      "Hỏi về vị trí của bạn trong danh sách chờ và thời gian chờ ước tính - theo dõi sau mỗi 3-6 tháng.",
+      "Thu thập tài liệu: chẩn đoán bệnh tự kỷ, đánh giá chức năng, hồ sơ y tế và đánh giá trường học.",
+      "Sau khi được phê duyệt, hãy làm việc với điều phối viên dịch vụ của bạn để phát triển kế hoạch dịch vụ lấy con người làm trung tâm.",
+      "Xem lại kế hoạch của bạn hàng năm và yêu cầu thay đổi khi nhu cầu phát triển — bạn có quyền khiếu nại bất kỳ sự từ chối dịch vụ nào."
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "Dịch vụ Nhà nước",
+    "title": "Dịch vụ Phục hồi chức năng nghề nghiệp (VR)",
+    "summary": "Các dịch vụ việc làm miễn phí do tiểu bang tài trợ dành cho người khuyết tật, bao gồm đào tạo nghề, tư vấn nghề nghiệp, việc làm được hỗ trợ và giới thiệu việc làm.",
+    "details": "Phục hồi chức năng nghề nghiệp (VR) là một chương trình liên bang-tiểu bang được ủy quyền theo Đạo luật Phục hồi chức năng năm 1973 nhằm giúp những người khuyết tật chuẩn bị, có được và duy trì việc làm. Mỗi tiểu bang có một cơ quan VR cung cấp các dịch vụ cá nhân bao gồm tư vấn nghề nghiệp, đánh giá nghề, đào tạo kỹ năng làm việc, việc làm được hỗ trợ, công nghệ hỗ trợ cho công việc, huấn luyện việc làm và giới thiệu việc làm. Đối với thanh niên mắc chứng tự kỷ và thanh niên trong độ tuổi chuyển tiếp, VR có thể là cầu nối quan trọng từ trường học đến việc làm. Các dịch vụ VR miễn phí và được cung cấp cho bất kỳ ai bị khuyết tật, điều này tạo ra rào cản đáng kể cho việc làm. Các dịch vụ chuyển tiếp trước khi đi làm được cung cấp cho sinh viên khuyết tật từ 14-21 tuổi ngay cả trước khi họ đăng ký VR. Kết nối với VR trước khi con bạn rời trường để có quá trình chuyển tiếp suôn sẻ nhất.",
+    "steps": [
+      "Tìm cơ quan VR ở tiểu bang của bạn tại rsa.ed.gov/about/states - có 78 cơ quan VR trên toàn quốc.",
+      "Đăng ký các dịch vụ VR - khả năng hội đủ điều kiện đòi hỏi phải có tình trạng khuyết tật tạo ra rào cản đáng kể đối với việc làm.",
+      "Nếu con bạn vẫn đang đi học (14-21 tuổi), hãy hỏi về các dịch vụ chuyển tiếp trước khi đi làm có sẵn mà không cần đăng ký VR đầy đủ.",
+      "Làm việc với cố vấn VR của bạn để phát triển Kế hoạch Việc làm Cá nhân hóa (IPE) với các mục tiêu cụ thể.",
+      "Hỏi về các dịch vụ việc làm được hỗ trợ bao gồm huấn luyện công việc và hỗ trợ tại chỗ cho người tự kỷ.",
+      "Các dịch vụ VR sẽ tiếp tục cho đến khi cá nhân đó có được việc làm ổn định — hãy liên hệ thường xuyên với nhân viên tư vấn của bạn."
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "nhập cư",
+    "title": "Đơn xin ITIN dành cho các gia đình không có giấy tờ",
+    "summary": "Mã số Nhận dạng Người nộp thuế Cá nhân (ITIN) cho phép bạn khai thuế, mở tài khoản ngân hàng và truy cập một số dịch vụ nhất định mà không cần số An sinh Xã hội.",
+    "details": "ITIN là mã số xử lý thuế do IRS cấp cho các cá nhân bắt buộc phải có mã số nhận dạng người đóng thuế ở Hoa Kỳ nhưng không đủ điều kiện nhận mã số An sinh xã hội. Từ năm 1996, IRS đã cấp ITIN cho người nhập cư không có giấy tờ và người phụ thuộc của họ. ITIN cho phép bạn khai thuế liên bang, mở tài khoản ngân hàng, nộp đơn xin trợ cấp của tiểu bang và địa phương cũng như lập hồ sơ tài chính. Để đăng ký, hãy điền vào Mẫu W-7 của IRS và gửi kèm tờ khai thuế liên bang và bằng chứng nhận dạng (hộ chiếu, ID lãnh sự hoặc các tài liệu được chấp nhận khác). Bạn có thể nộp đơn qua đường bưu điện, trực tiếp tại Trung tâm Hỗ trợ Người nộp thuế IRS hoặc thông qua Đại lý Chấp nhận được Chứng nhận. LƯU Ý: Lệnh tòa án tháng 11 năm 2025 hiện chặn thỏa thuận chia sẻ dữ liệu IRS-ICE, nhưng các gia đình nên biết rằng tình huống này có thể thay đổi.",
+    "steps": [
+      "Thu thập các tài liệu cần thiết: hộ chiếu hợp lệ là tài liệu ID độc lập được chấp nhận phổ biến nhất.",
+      "Hoàn thành Mẫu W-7 của IRS — bạn có thể tải xuống tại irs.gov hoặc nhận trợ giúp từ Đại lý Chấp nhận được Chứng nhận.",
+      "Gửi Mẫu W-7 cùng với tờ khai thuế liên bang của bạn (Mẫu 1040) — ITIN chỉ có thể được cấp khi nộp thuế.",
+      "Tìm Đại lý Chấp nhận được Chứng nhận (CAA) gần bạn tại irs.gov — họ có thể xác minh tài liệu nên bạn không cần phải gửi bản gốc qua đường bưu điện.",
+      "Dành 7-11 tuần để xử lý - lâu hơn trong mùa thuế (từ tháng 1 đến tháng 4).",
+      "Hãy gia hạn ITIN của bạn nếu nó đã hết hạn — các ITIN chưa sử dụng sẽ hết hạn sau 3 năm liên tiếp không sử dụng."
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "nhập cư",
+    "title": "Trung tâm Y tế Cộng đồng (FQHC)",
+    "summary": "Các Trung tâm Y tế Đạt tiêu chuẩn Liên bang phục vụ tất cả mọi người bất kể tình trạng nhập cư hay khả năng chi trả, với mức phí dựa trên thang trượt gắn liền với thu nhập của bạn.",
+    "details": "Trung tâm Y tế Đủ tiêu chuẩn Liên bang (FQHC) là các tổ chức chăm sóc sức khỏe dựa vào cộng đồng cung cấp các dịch vụ chăm sóc ban đầu, nha khoa, sức khỏe tâm thần và hỗ trợ toàn diện cho những nhóm dân cư chưa được phục vụ đầy đủ. Theo luật, FQHC phải phục vụ tất cả bệnh nhân bất kể tình trạng nhập cư, bảo hiểm hay khả năng chi trả. Họ sử dụng thang phí trượt dựa trên thu nhập hộ gia đình - các gia đình ở mức bằng hoặc dưới 100% mức nghèo liên bang thường được chăm sóc miễn phí hoặc với một khoản phí danh nghĩa. FQHC đã phục vụ hơn 30 triệu bệnh nhân vào năm 2023, trong đó có nhiều gia đình nhập cư. Đối với trẻ tự kỷ, FQHC có thể cung cấp sàng lọc phát triển, giới thiệu đánh giá chẩn đoán, chăm sóc ban đầu và kết nối với các chuyên gia. Nhiều FQHC có nhân viên song ngữ và dịch vụ thông dịch.",
+    "steps": [
+      "Tìm FQHC gần bạn tại findahealthcenter.hrsa.gov — nhập mã vùng của bạn để tìm kiếm.",
+      "Gọi để đặt lịch hẹn - giải thích rằng bạn cần dịch vụ và hỏi về mức phí theo thang trượt.",
+      "Mang theo bằng chứng thu nhập (cuống lương, bảng kê ngân hàng hoặc bản tự khai) để xác định mức phí của bạn.",
+      "Bạn KHÔNG cần cung cấp giấy tờ nhập cư, số An sinh xã hội hoặc bảo hiểm.",
+      "Hỏi về sàng lọc phát triển cho con bạn và giới thiệu đến các nhà cung cấp dịch vụ đánh giá bệnh tự kỷ.",
+      "Hãy hỏi về các dịch vụ sức khỏe tâm thần cho chính bạn - nhiều FQHC cung cấp dịch vụ tư vấn bằng nhiều ngôn ngữ."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "nhập cư",
+    "title": "Tình trạng vị thành niên nhập cư đặc biệt (SIJS)",
+    "summary": "Con đường đến nơi thường trú hợp pháp cho trẻ em nhập cư dưới 21 tuổi đã bị cha hoặc mẹ lạm dụng, bỏ rơi hoặc bỏ rơi.",
+    "details": "Tình trạng Vị thành niên Nhập cư Đặc biệt (SIJS) là một hình thức bảo vệ nhân đạo có thể cung cấp con đường dẫn đến thẻ xanh cho trẻ em nhập cư sống sót sau khi bị lạm dụng, bỏ rơi hoặc bỏ mặc. Để đủ điều kiện, đứa trẻ phải dưới 21 tuổi, chưa lập gia đình và có lệnh của tòa án tiểu bang phát hiện rằng chúng bị lạm dụng, bỏ bê hoặc bị bỏ rơi bởi một hoặc cả hai cha mẹ và việc trở về quê hương không mang lại lợi ích tốt nhất cho chúng. Đối với trẻ tự kỷ, SIJS có thể phù hợp khi cha mẹ bỏ rơi gia đình hoặc khi trẻ bị bỏ rơi liên quan đến nhu cầu khuyết tật của mình. Quá trình này bao gồm cả thủ tục tố tụng tại tòa án tiểu bang (để có được những phát hiện cần thiết) và thủ tục nhập cư liên bang (đơn yêu cầu SIJS và đơn xin thẻ xanh). Trợ giúp pháp lý miễn phí có sẵn thông qua các tổ chức trợ giúp pháp lý nhập cư.",
+    "steps": [
+      "Hãy tham khảo ý kiến ​​của luật sư nhập cư chuyên về các trường hợp trẻ em - nhiều tổ chức trợ giúp pháp lý xử lý các trường hợp SIJS miễn phí.",
+      "Xác định xem con bạn có đáp ứng các yêu cầu: dưới 21 tuổi, chưa lập gia đình và bị cha mẹ ngược đãi/bỏ rơi/bỏ bê hay không.",
+      "Nhận kết quả cần thiết từ tòa án tiểu bang (tòa án gia đình, vị thành niên hoặc chứng thực di chúc tùy thuộc vào tiểu bang của bạn).",
+      "Nộp Mẫu I-360 (Đơn xin nhập cư đặc biệt) cho USCIS cùng với lệnh của tòa án tiểu bang.",
+      "Sau khi SIJS được chấp thuận, hãy nộp đơn xin thường trú hợp pháp (thẻ xanh) bằng cách nộp Mẫu I-485.",
+      "Liên hệ với các tổ chức như Safe Passage Project, NIJC hoặc CLINIC để được đại diện pháp lý miễn phí."
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "nhập cư",
+    "title": "Quy tắc gánh nặng xã hội: Điều gì được tính và điều gì không",
+    "summary": "Việc sử dụng các dịch vụ dành cho người khuyết tật, Medicaid, CHIP, WIC, bữa trưa ở trường hoặc giáo dục đặc biệt cho con bạn sẽ KHÔNG bị tính là bất lợi cho bạn trong thủ tục nhập cư theo luật hiện hành.",
+    "details": "Quy định về gánh nặng xã hội là một trong những nguyên nhân gây lo sợ lớn nhất cho các gia đình nhập cư. Theo quy định hiện có hiệu lực (2022), các phúc lợi duy nhất được tính vào quyết định gánh nặng xã hội là SSI (Thu nhập An sinh Bổ sung), hỗ trợ tiền mặt TANF và việc nhập viện dài hạn bằng chi phí của chính phủ. KHÔNG tính Medicaid (ngoại trừ thể chế dài hạn), CHIP, SNAP, WIC, bữa trưa ở trường, phúc lợi nhà ở, Head Start, giáo dục đặc biệt và các dịch vụ can thiệp sớm. Những lợi ích mà con bạn nhận được thay mặt chúng KHÔNG được quy cho bạn. Một quy tắc được đề xuất được công bố vào tháng 11 năm 2025 có thể mở rộng những nội dung được tính đến, nhưng nó CHƯA có hiệu lực và phải đối mặt với những thách thức pháp lý. Theo luật hiện hành, việc sử dụng các dịch vụ dành cho người khuyết tật cho trẻ tự kỷ sẽ không ảnh hưởng đến trường hợp nhập cư của bạn.",
+    "steps": [
+      "Biết sự thật: Medicaid, CHIP, WIC, SNAP, bữa trưa ở trường, Head Start và giáo dục đặc biệt KHÔNG được tính là gánh nặng xã hội.",
+      "Những lợi ích mà con cái công dân Hoa Kỳ của bạn nhận được KHÔNG được tính vào bạn - chỉ những lợi ích bạn nhận được mới là vấn đề cá nhân.",
+      "Các lợi ích duy nhất hiện được tính là SSI, tiền mặt TANF và thể chế hóa dài hạn bằng chi phí của chính phủ.",
+      "Nếu bạn có thắc mắc về vấn đề nhập cư, hãy tham khảo ý kiến ​​của luật sư nhập cư trước khi đưa ra quyết định về quyền lợi - nhiều tổ chức trợ giúp pháp lý cung cấp dịch vụ tư vấn miễn phí.",
+      "Luôn cập nhật về những thay đổi đối với quy tắc gánh nặng xã hội thông qua NILC (nilc.org) và ILRC (ilrc.org).",
+      "Đừng rút lui khỏi các chương trình chỉ vì sợ hãi - hãy nhận lời khuyên pháp lý chính xác cụ thể cho trường hợp của bạn."
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "Bảo hiểm & Tài trợ",
+    "title": "Nhiệm vụ của Bảo hiểm Tự kỷ Tiểu bang",
+    "summary": "Tất cả 50 tiểu bang hiện yêu cầu các chương trình bảo hiểm chi trả cho các dịch vụ tự kỷ bao gồm cả liệu pháp ABA, mặc dù các chi tiết bảo hiểm như giới hạn độ tuổi và giới hạn đô la sẽ khác nhau tùy theo tiểu bang.",
+    "details": "Tất cả 50 tiểu bang của Hoa Kỳ đã ban hành quy định về bảo hiểm bệnh tự kỷ yêu cầu các chương trình bảo hiểm y tế chi trả cho việc chẩn đoán và điều trị rối loạn phổ tự kỷ, bao gồm Phân tích hành vi ứng dụng (ABA). Tuy nhiên, chi tiết bảo hiểm thay đổi đáng kể tùy theo tiểu bang. Một số tiểu bang giới hạn phúc lợi ABA hàng năm (từ $36.000 đến hơn $72.000 mỗi năm), trong khi những tiểu bang khác không có giới hạn. Giới hạn độ tuổi khác nhau - một số tiểu bang chỉ bảo hiểm cho trẻ em trong khi các tiểu bang khác bắt buộc bảo hiểm cho mọi lứa tuổi. Các chương trình sử dụng lao động tự tài trợ (các chương trình ERISA) được miễn các quy định của tiểu bang nhưng có thể phải tuân theo các yêu cầu ngang bằng về sức khỏe tâm thần của liên bang. Nếu bảo hiểm của bạn từ chối dịch vụ tự kỷ, bạn có quyền kháng cáo. Đạo luật Công bằng về Sức khỏe Tâm thần và Nghiện ngập của liên bang yêu cầu các quyền lợi về sức khỏe tâm thần (bao gồm cả điều trị chứng tự kỷ) phải được chi trả ngang bằng với các quyền lợi y tế/phẫu thuật.",
+    "steps": [
+      "Tra cứu quy định bảo hiểm bệnh tự kỷ cụ thể của tiểu bang của bạn tại ncsl.org/health/autism-and-insurance-coverage-state-laws.",
+      "Yêu cầu bản sao quyền lợi tự kỷ của chương trình của bạn bằng văn bản - hỏi về phạm vi bảo hiểm ABA, giới hạn độ tuổi, giới hạn phiên và giới hạn đô la.",
+      "Nhận giấy giới thiệu từ bác sĩ của con bạn, nêu rõ phương pháp điều trị được khuyến nghị và sự cần thiết về mặt y tế.",
+      "Nếu bị từ chối, hãy yêu cầu từ chối bằng văn bản kèm theo trích dẫn chính sách cụ thể và nộp đơn kháng cáo nội bộ.",
+      "Nếu kháng cáo nội bộ không thành công, hãy nộp đơn kháng cáo bên ngoài lên bộ phận bảo hiểm của tiểu bang của bạn.",
+      "Hãy liên hệ với tổ chức Bảo vệ & Vận động của tiểu bang bạn để được trợ giúp miễn phí về các khiếu nại về bảo hiểm."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "Bảo hiểm & Tài trợ",
+    "title": "Katie Beckett / Miễn trừ TEFRA",
+    "summary": "Cung cấp bảo hiểm Medicaid cho trẻ em bị khuyết tật nghiêm trọng sống tại nhà, dựa trên thu nhập của trẻ (không phải của cha mẹ), khiến hầu hết trẻ em đều đủ điều kiện bất kể thu nhập của gia đình.",
+    "details": "Tùy chọn Katie Beckett (còn gọi là TEFRA) cho phép các tiểu bang cung cấp Medicaid cho trẻ em khuyết tật nặng sống ở nhà, bằng cách chỉ tính thu nhập của trẻ chứ không phải thu nhập của cha mẹ. Vì hầu hết trẻ em không có thu nhập nên điều này khiến đại đa số trẻ em bị khuyết tật nặng đều đủ điều kiện nhận Medicaid bất kể cha mẹ chúng kiếm được bao nhiêu tiền. Chương trình này được thành lập vào năm 1982 sau khi Katie Beckett, một đứa trẻ phải thở máy, chỉ có thể được chăm sóc do Medicaid tài trợ tại bệnh viện thay vì ở nhà vì thu nhập của cha mẹ cô quá cao. Hiện tại có khoảng 24 tiểu bang cung cấp một số hình thức bảo hiểm Katie Beckett/TEFRA. Đối với trẻ tự kỷ cần các liệu pháp đắt tiền như ABA, chương trình này có thể thay đổi cuộc sống vì nó cung cấp bảo hiểm Medicaid bao gồm các phúc lợi EPSDT. Hãy liên hệ với văn phòng Medicaid ở tiểu bang của bạn để tìm hiểu xem tiểu bang của bạn có cung cấp tùy chọn này hay không.",
+    "steps": [
+      "Kiểm tra xem tiểu bang của bạn có cung cấp tùy chọn Katie Beckett/TEFRA hay không tại Kidswaivers.org hoặc bằng cách gọi đến văn phòng Medicaid tại tiểu bang của bạn.",
+      "Để đủ điều kiện, con bạn phải đáp ứng các tiêu chí về khuyết tật đối với SSI (hạn chế đáng kể về chức năng do bệnh tự kỷ).",
+      "Đăng ký thông qua văn phòng Medicaid ở tiểu bang của bạn - đơn đăng ký đánh giá mức độ khuyết tật của trẻ chứ không phải tài chính gia đình.",
+      "Thu thập tài liệu y tế: chẩn đoán bệnh tự kỷ, đánh giá chức năng, hồ sơ trị liệu và báo cáo của bác sĩ về nhu cầu chăm sóc.",
+      "Nếu được chấp thuận, con bạn sẽ nhận được đầy đủ các quyền lợi Medicaid bao gồm EPSDT - ABA, ngôn ngữ, OT và tất cả các dịch vụ cần thiết về mặt y tế.",
+      "Nếu tiểu bang của bạn không cung cấp Katie Beckett, hãy hỏi về các lộ trình Medicaid khác dành cho trẻ em khuyết tật (miễn trừ HCBS, các chương trình có nhu cầu về mặt y tế)."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "Bảo hiểm & Tài trợ",
+    "title": "Tài khoản ABLE (Tiết kiệm được ưu đãi thuế)",
+    "summary": "Tài khoản tiết kiệm miễn thuế dành cho các chi phí liên quan đến tình trạng khuyết tật không ảnh hưởng đến khả năng hội đủ điều kiện nhận SSI, Medicaid hoặc các phúc lợi xét nghiệm phương tiện khác.",
+    "details": "Các tài khoản ABLE (Đạt được Trải nghiệm Cuộc sống Tốt đẹp hơn), được Đạo luật ABLE năm 2014 ủy quyền, là các tài khoản tiết kiệm được ưu đãi về thuế dành cho những cá nhân bị khuyết tật bắt đầu trước 46 tuổi. Các khoản đóng góp sẽ được miễn thuế và số tiền rút ra sẽ được miễn thuế khi được sử dụng cho các chi phí dành cho người khuyết tật đủ tiêu chuẩn (QDE) bao gồm giáo dục, nhà ở, giao thông, chăm sóc sức khỏe, công nghệ hỗ trợ và các dịch vụ hỗ trợ cá nhân. 100.000 USD đầu tiên trong tài khoản ABLE được miễn giới hạn nguồn SSI là 2.000 USD, nghĩa là con bạn có thể tiết kiệm tiền mà không mất khả năng hội đủ điều kiện nhận SSI hoặc Medicaid. Giới hạn đóng góp hàng năm là 18.000 USD (2025), với những khoản đóng góp bổ sung được phép cho những người thụ hưởng đang làm việc. Hầu hết các tiểu bang đều cung cấp các chương trình ABLE và bạn có thể mở tài khoản ở bất kỳ tiểu bang nào. Đối với các gia đình có trẻ tự kỷ, tài khoản ABLE là một trong những công cụ tốt nhất để tiết kiệm các chi phí liên quan đến khuyết tật trong khi vẫn đảm bảo đủ điều kiện nhận trợ cấp.",
+    "steps": [
+      "Kiểm tra tính đủ điều kiện: người thụ hưởng tài khoản phải bị khuyết tật bắt đầu trước 46 tuổi.",
+      "So sánh các chương trình ABLE trạng thái tại Ablenrc.org - bạn có thể mở tài khoản ở bất kỳ trạng thái nào, không chỉ của riêng bạn.",
+      "Mở tài khoản trực tuyến thông qua chương trình ABLE của tiểu bang bạn đã chọn - quy trình này tương tự như mở tài khoản ngân hàng.",
+      "Thiết lập các khoản đóng góp tự động - ngay cả số tiền nhỏ đều đặn sẽ được xây dựng theo thời gian.",
+      "Lưu giữ hồ sơ về tất cả các khoản rút tiền và cách chi tiêu quỹ cho các chi phí dành cho người khuyết tật đủ tiêu chuẩn.",
+      "100.000 USD đầu tiên KHÔNG được tính vào giới hạn nguồn lực SSI 2.000 USD — hãy tiết kiệm mà không sợ mất phúc lợi."
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "Bảo hiểm & Tài trợ",
+    "title": "Các chương trình học bổng và trợ cấp tự kỷ",
+    "summary": "Các khoản tài trợ từ các tổ chức phi lợi nhuận giúp trang trải chi phí trị liệu, đánh giá chẩn đoán, công nghệ hỗ trợ và các chi phí khác liên quan đến bệnh tự kỷ.",
+    "details": "Một số tổ chức phi lợi nhuận cung cấp tài chính cho các gia đình có trẻ tự kỷ. ACT Today (Chăm sóc và Điều trị Tự kỷ Ngày nay) cung cấp các khoản trợ cấp lên tới 5.000 USD cho những gia đình không đủ khả năng hoặc không thể tiếp cận điều trị. Trợ cấp Chăm sóc Tự kỷ của Autism Speaks cung cấp $500 cho các chi phí liên quan đến chứng tự kỷ. Quỹ Nhi đồng United Healthcare (UHCCF) cung cấp các khoản trợ cấp lên tới 5.000 USD mỗi năm cho các chi phí y tế không được bảo hiểm chi trả. Nhiều khoản trợ cấp này không yêu cầu số An sinh xã hội hoặc tình trạng nhập cư cụ thể. Ngoài ra, một số bang còn cung cấp các chương trình học bổng về chứng tự kỷ để tài trợ học phí hoặc trị liệu ở trường tư cho trẻ tự kỷ (chẳng hạn như Chương trình Học bổng Tự kỷ của Ohio). Các hội tự kỷ địa phương, các tổ chức cộng đồng và các tổ chức dịch vụ (Lions Club, Rotary, Elks) cũng có thể cung cấp hỗ trợ tài chính.",
+    "steps": [
+      "Đăng ký tài trợ ACT Today tại Act-today.org - tài trợ chi phí trị liệu, đánh giá và công nghệ hỗ trợ.",
+      "Đăng ký Trợ cấp Chăm sóc Bệnh tự kỷ tại Autism Speaks.org - trợ cấp 500 USD cho các chi phí liên quan đến bệnh tự kỷ.",
+      "Kiểm tra các khoản trợ cấp UHCCF tại uhccf.org - lên tới $5.000/năm cho các chi phí y tế không được bảo hiểm chi trả.",
+      "Tìm kiếm học bổng tự kỷ ở tiểu bang của bạn - một số tiểu bang tài trợ cho trường tư hoặc liệu pháp điều trị cho trẻ tự kỷ.",
+      "Liên hệ với chi nhánh của Hiệp hội Tự kỷ tại địa phương của bạn để biết thông tin về các khoản trợ cấp địa phương và các chương trình hỗ trợ tài chính.",
+      "Hỏi các nhà cung cấp dịch vụ trị liệu về các suất miễn phí, phí theo thang trượt hoặc kế hoạch thanh toán — nhiều suất dành riêng cho các gia đình có nhu cầu."
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "Liệu pháp",
+    "title": "Truyền thông tăng cường và thay thế (AAC)",
+    "summary": "Các hệ thống và thiết bị giao tiếp giúp trẻ chưa biết nói hoặc ít nói thể hiện suy nghĩ, nhu cầu và cảm xúc của mình thông qua hình ảnh, biểu tượng hoặc công nghệ tạo giọng nói.",
+    "details": "Giao tiếp tăng cường và thay thế (AAC) bao gồm tất cả các hình thức giao tiếp khác ngoài lời nói. Đối với trẻ tự kỷ không nói được hoặc ít nói, AAC có thể mang lại nhiều thay đổi. Các tùy chọn bao gồm từ công nghệ thấp (bảng hình ảnh, PECS — Hệ thống liên lạc trao đổi hình ảnh, sách giao tiếp) đến công nghệ cao (các ứng dụng dựa trên máy tính bảng như Proloquo2Go hoặc TouchChat, các thiết bị tạo giọng nói chuyên dụng). Nghiên cứu nhất quán cho thấy rằng AAC KHÔNG ngăn cản trẻ phát triển khả năng nói - trên thực tế, các nghiên cứu cho thấy nó thực sự có thể làm tăng khả năng giao tiếp bằng lời nói. Không có điều kiện tiên quyết nào để sử dụng AAC - trẻ em ở mọi lứa tuổi hoặc trình độ khả năng đều có thể được hưởng lợi. Theo IDEA, nếu thiết bị AAC được xác định là cần thiết cho FAPE thì nhà trường phải cung cấp miễn phí. Medicaid và bảo hiểm cũng có thể chi trả cho các thiết bị AAC có tài liệu phù hợp về tính cần thiết về mặt y tế.",
+    "steps": [
+      "Hỏi SLP của con bạn về các lựa chọn AAC - nhà nghiên cứu bệnh học về ngôn ngữ nói sẽ đánh giá loại AAC nào là tốt nhất cho con bạn.",
+      "Bắt đầu với những gì hiệu quả: ngay cả việc chỉ tay, cử chỉ và thẻ hình ảnh cũng được tính là AAC — bạn không cần công nghệ đắt tiền.",
+      "Hãy dùng thử các ứng dụng AAC dựa trên máy tính bảng (Proloquo2Go, TouchChat, LAMP Words for Life) — nhiều ứng dụng cung cấp bản dùng thử miễn phí.",
+      "Yêu cầu đánh giá AAC thông qua IEP của trường con bạn - nếu AAC cần cho giáo dục thì nhà trường phải cung cấp miễn phí.",
+      "Đăng ký tài trợ cho thiết bị AAC thông qua Medicaid, bảo hiểm hoặc chương trình công nghệ hỗ trợ của tiểu bang của bạn.",
+      "Hãy tự sử dụng mô hình AAC - nhấn các nút trên thiết bị trong khi nói để chỉ cho con bạn cách hoạt động của thiết bị (điều này được gọi là 'kích thích ngôn ngữ được hỗ trợ')."
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "Liệu pháp",
+    "title": "Đào tạo can thiệp do phụ huynh thực hiện",
+    "summary": "Các chương trình dựa trên bằng chứng đào tạo cha mẹ đưa ra các chiến lược trị liệu cho con họ tại nhà, mở rộng đáng kể tác động của liệu pháp chuyên nghiệp.",
+    "details": "Can thiệp do phụ huynh thực hiện (PII) là một phương pháp thực hành dựa trên bằng chứng được Trung tâm Phát triển Chuyên môn Quốc gia về ASD công nhận. Nghiên cứu từ phân tích tổng hợp của 51 thử nghiệm ngẫu nhiên có đối chứng với gần 3.000 trẻ em chứng minh rằng các biện pháp can thiệp do cha mẹ thực hiện mang lại lợi ích khá mạnh về kỹ năng xã hội, giao tiếp, hành vi thích ứng và giảm các hành vi thách thức. PII đặc biệt có giá trị đối với các gia đình nhập cư, những người có thể bị hạn chế tiếp cận với các nhà trị liệu chuyên nghiệp do rào cản về bảo hiểm, địa lý hoặc ngôn ngữ. Các chương trình như Cha mẹ hành động (PTA) đã được điều chỉnh về mặt văn hóa cho các gia đình nhập cư Trung Quốc và Hàn Quốc với kết quả tích cực đáng kể. Đào tạo dành cho phụ huynh thường là một phần của các dịch vụ ABA, trị liệu ngôn ngữ và can thiệp sớm và có thể được cung cấp qua telehealth. IDEA Phần C rõ ràng hỗ trợ việc huấn luyện phụ huynh như một mô hình cung cấp dịch vụ.",
+    "steps": [
+      "Hỏi nhà trị liệu của con bạn (BCBA, SLP hoặc OT) về các thành phần đào tạo dành cho cha mẹ - hầu hết các chương trình dựa trên bằng chứng đều bao gồm chúng.",
+      "Yêu cầu huấn luyện phụ huynh như một dịch vụ cụ thể trong IEP hoặc IFSP của con bạn — đây có thể là một dịch vụ độc lập.",
+      "Khám phá chương trình đào tạo trực tuyến miễn phí dành cho phụ huynh thông qua bộ công cụ của Autism Speaks và Mô-đun Internet về Tự kỷ (autisminternetmodules.org).",
+      "Tìm kiếm các chương trình phù hợp với văn hóa như Phụ huynh Hành động (PTA) nếu có sẵn bằng ngôn ngữ và cộng đồng của bạn.",
+      "Thực hành các chiến lược can thiệp trong sinh hoạt hàng ngày - bữa ăn, giờ tắm, vui chơi và làm việc vặt là những cơ hội học tập tự nhiên.",
+      "Theo dõi tiến trình của con bạn và chia sẻ quan sát với nhóm chuyên môn — dữ liệu của bạn giúp hướng dẫn điều chỉnh điều trị."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "Phòng chống lang thang/bỏ trốn (Hộp an toàn lớn màu đỏ)",
+    "summary": "Bộ công cụ an toàn miễn phí từ Hiệp hội Tự kỷ Quốc gia nhằm giúp ngăn ngừa và ứng phó với các sự cố đi lang thang nguy hiểm, ảnh hưởng đến gần một nửa số trẻ em mắc chứng tự kỷ.",
+    "details": "Khoảng 50% trẻ tự kỷ sẽ đi lang thang hoặc trốn khỏi môi trường an toàn, khiến việc lang thang trở thành một trong những mối lo ngại an toàn nghiêm trọng nhất đối với các gia đình. Đuối nước sau khi đi lang thang là nguyên nhân hàng đầu gây tử vong cho trẻ tự kỷ. Hộp An toàn Big Red của Hiệp hội Tự kỷ Quốc gia là một bộ công cụ miễn phí được chuyển đến các gia đình có người mắc chứng tự kỷ có nguy cơ đi lang thang. Kể từ năm 2011, hơn 70.000 hộp đã được phân phối. Bộ công cụ bao gồm các tài nguyên an toàn trực quan, thẻ ID, cảnh báo cửa sổ/cửa ra vào và hướng dẫn cách lập kế hoạch an toàn toàn diện. Các biện pháp bổ sung bao gồm thiết bị theo dõi GPS, vòng đeo tay ID y tế, chuông báo cửa, hàng rào hồ bơi và phát triển mối quan hệ với những người ứng phó đầu tiên tại địa phương. Dạy kỹ năng an toàn dưới nước và bơi lội là rất quan trọng. Nhiều gia đình cũng được hưởng lợi từ chương trình MedicAlert Found, chương trình cung cấp vòng đeo tay ID y tế miễn phí và dịch vụ hỗ trợ lang thang 24/7 dành riêng cho những người mắc chứng tự kỷ.",
+    "steps": [
+      "Đăng ký Hộp An toàn Big Red miễn phí tại nationalautismassocia.org/big-red-safety-box - mỗi gia đình một hộp cho đến khi hết hàng.",
+      "Lắp thiết bị báo động ở cửa và cửa sổ, đặc biệt là trên cửa thoát hiểm - bạn có thể tìm thấy thiết bị báo động rẻ tiền ở các cửa hàng kim khí.",
+      "Hãy xem xét một thiết bị theo dõi GPS cho con bạn - các tùy chọn có thể đeo bao gồm giá đỡ AngelSense, Jiobit và Apple AirTag.",
+      "Đăng ký tham gia chương trình MedicAlert Found tạiMedicert.org - ID y tế miễn phí và hỗ trợ di chuyển 24/7 cho các gia đình tự kỷ.",
+      "Dạy sớm kỹ năng bơi lội và an toàn dưới nước - các bài học bơi được thiết kế cho trẻ tự kỷ hiện có ở nhiều cộng đồng.",
+      "Thông báo cho cảnh sát địa phương và sở cứu hỏa về nguy cơ tự kỷ và lang thang của con bạn - nhiều sở duy trì đăng ký tự nguyện."
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "Thẻ ID khẩn cấp về bệnh tự kỷ và cảnh báo y tế",
+    "summary": "Các công cụ nhận dạng y tế truyền đạt chẩn đoán bệnh tự kỷ và thông tin quan trọng tới những người ứng phó đầu tiên, nhân viên y tế và thành viên cộng đồng trong trường hợp khẩn cấp.",
+    "details": "Vì chứng tự kỷ là một tình trạng vô hình nên những người ứng phó đầu tiên và nhân viên y tế có thể không nhận ra nó trong trường hợp khẩn cấp, có khả năng dẫn đến những hiểu lầm nguy hiểm. Vòng tay ID y tế, dây chuyền, thẻ ví và thẻ giày truyền đạt thông tin cần thiết: cá nhân mắc chứng tự kỷ, có thể không phản ứng với các lệnh bằng lời nói, có thể là chi tiết phi ngôn ngữ và liên lạc khẩn cấp. Chương trình MedicAlert Found (hợp tác với Hiệp hội Tự kỷ Quốc gia) cung cấp đăng ký miễn phí, vòng tay hoặc vòng cổ ID y tế miễn phí, thẻ giày ID y tế miễn phí và dịch vụ hỗ trợ lang thang 24/7 dành riêng cho cộng đồng tự kỷ. Các tùy chọn khác bao gồm vòng đeo tay có mã QR liên kết đến hồ sơ y tế chi tiết, thẻ ví ICE (Trong trường hợp khẩn cấp) và tính năng ID y tế trên điện thoại thông minh. Đối với trẻ em có thể tháo vòng tay truyền thống, các lựa chọn bao gồm thẻ giày, nhãn quần áo và hình xăm tạm thời có thông tin liên hệ.",
+    "steps": [
+      "Đăng ký tham gia chương trình MedicAlert Found tạiMedicert.org — ID y tế miễn phí và hỗ trợ 24/7 cho những người mắc chứng tự kỷ.",
+      "Chọn một ID thiết bị đeo mà con bạn sẽ chấp nhận - các tùy chọn bao gồm vòng tay, dây chuyền, thẻ giày và nhãn quần áo.",
+      "Tạo thẻ ICE (Trong trường hợp khẩn cấp) cho ví hoặc ba lô của con bạn với thông tin chẩn đoán, thuốc men, số liên lạc khẩn cấp và nhu cầu liên lạc.",
+      "Thiết lập tính năng ID y tế trên điện thoại thông minh của con bạn (có sẵn trên cả iPhone và Android) với thông tin sức khỏe quan trọng.",
+      "Bao gồm các hướng dẫn giao tiếp cụ thể: 'Tôi mắc chứng tự kỷ. Tôi có thể không đáp lại các mệnh lệnh bằng lời nói. Vui lòng sử dụng ngôn ngữ đơn giản và tín hiệu thị giác.'",
+      "Cập nhật thông tin ID thường xuyên khi thuốc, người liên hệ hoặc khả năng giao tiếp thay đổi."
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "Hỗ trợ khủng hoảng",
+    "title": "Chương trình nâng cao nhận thức về bệnh tự kỷ dành cho người ứng phó đầu tiên",
+    "summary": "Các chương trình đào tạo dạy cảnh sát, lính cứu hỏa và EMT cách nhận biết bệnh tự kỷ và sử dụng các kỹ thuật giảm leo thang an toàn, hiệu quả khi gặp gỡ người tự kỷ.",
+    "details": "Cuộc chạm trán giữa người tự kỷ và cơ quan thực thi pháp luật có thể trở nên nguy hiểm khi cảnh sát hiểu sai các hành vi liên quan đến chứng tự kỷ (không giao tiếp bằng mắt, không tuân theo mệnh lệnh bằng lời nói, cử động lặp đi lặp lại, bỏ chạy) là hành vi không tuân thủ hoặc đe dọa. Các chương trình đào tạo nâng cao nhận thức về bệnh tự kỷ cho người ứng phó đầu tiên dạy cho các sĩ quan cách nhận biết các dấu hiệu của bệnh tự kỷ, sử dụng cách giao tiếp bình tĩnh và đơn giản, cho phép thêm thời gian xử lý, giảm thiểu đầu vào cảm giác và sử dụng các kỹ thuật giảm leo thang. Chương trình An toàn trên Quang phổ của Hiệp hội Tự kỷ Hoa Kỳ thúc đẩy sự tương tác an toàn giữa những người ứng phó đầu tiên và cộng đồng người tự kỷ. Ủy ban Quốc tế về Chứng nhận và Tiêu chuẩn Giáo dục Thường xuyên (IBCCES) cung cấp chứng nhận tự kỷ chính thức cho người ứng phó đầu tiên. Một số bang (như Florida) bắt buộc cơ quan thực thi pháp luật phải đào tạo chứng tự kỷ. Các gia đình có thể chủ động xây dựng mối quan hệ với cảnh sát và sở cứu hỏa địa phương bằng cách chia sẻ thông tin về con mình.",
+    "steps": [
+      "Liên hệ với sở cảnh sát địa phương của bạn và hỏi xem họ có được đào tạo về nhận thức về bệnh tự kỷ hay không - đề nghị chia sẻ tài nguyên nếu họ không có.",
+      "Cung cấp cho cảnh sát địa phương và trạm cứu hỏa một hồ sơ dài một trang về con bạn: ảnh, tên, chẩn đoán, phong cách giao tiếp, yếu tố kích hoạt và chiến lược xoa dịu.",
+      "Hỏi về sổ đăng ký nhu cầu đặc biệt tự nguyện được duy trì bởi trung tâm điều phối 911 tại địa phương của bạn.",
+      "Chia sẻ tài nguyên đào tạo từ Hiệp hội Tự kỷ (autismsociety.org/first-responder) với các cơ quan địa phương của bạn.",
+      "Thực hành tương tác với nhân viên mặc đồng phục trong môi trường yên tĩnh để con bạn làm quen với họ.",
+      "Mang theo thẻ ví hoặc yêu cầu con bạn đeo thẻ y tế có ghi 'Tôi mắc chứng tự kỷ' kèm theo hướng dẫn cụ thể dành cho những người ứng phó đầu tiên."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

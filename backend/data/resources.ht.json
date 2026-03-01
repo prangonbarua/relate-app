@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "Edikasyon",
+    "title": "Pwogram Edikasyon Endividyalize (IEP)",
+    "summary": "Yon dokiman legalman obligatwa ki dekri sèvis ak objektif edikasyon espesyal pitit ou a.",
+    "details": "Yon ekip devlope yon IEP ki gen ladann paran, pwofesè, ak espesyalis. Dapre IDEA (Lwa sou Edikasyon Moun ki Andikape yo), pitit ou a gen dwa pou yon Edikasyon Piblik Approprie Gratis (FAPE) nan Anviwònman ki pi piti a (Least Restrictive Environment, LRE). Ou gen dwa pou patisipe nan chak reyinyon IEP epi pou w pa dakò ak rekòmandasyon lekòl la. Yo revize IEP yo omwen chak ane men ou ka mande yon reyinyon nenpòt ki lè.",
+    "steps": [
+      "Mande yon evalyasyon alekri bay depatman edikasyon espesyal distri lekòl ou a.",
+      "Lekòl la gen 60 jou pou konplete evalyasyon an apre ou bay konsantman an.",
+      "Ale nan reyinyon IEP a — pote pwòp nòt ou, obsèvasyon, ak nenpòt evalyasyon prive.",
+      "Revize objektif yo pwopoze yo ak anpil atansyon. Ou ka negosye epi mande chanjman anvan ou siyen.",
+      "Siveye pwogrè nan objektif IEP pandan ane a epi mande enfòmasyon nan men lekòl la.",
+      "Si ou pa dakò, ou ka ranpli pou medyasyon oswa yon odyans sou pwosedi jis gratis pou ou."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "Sèvis Leta",
+    "title": "Sèvis Sant Rejyonal (California)",
+    "summary": "Sèvis gratis pandan tout lavi pou Kalifòni ki gen andikap devlopman, ki gen ladan otis.",
+    "details": "21 Sant Rejyonal Kalifòni bay evalyasyon, dyagnostik, ak sèvis pou moun ki gen andikap devlopman kèlkeswa revni oswa sitiyasyon imigrasyon. Sèvis yo ka gen ladan Analiz Konpòtman Aplike (ABA), swen relèv, terapi lapawòl, terapi okipasyonèl, gwoup ladrès sosyal, ak sipò fanmi. Sèvis Sant Rejyonal yo se yon dwa — si pitit ou a kalifye, yo pa ka refize yo sèvis akòz finansman.",
+    "steps": [
+      "Kontakte Sant Rejyonal lokal ou a epi mande yon randevou.",
+      "Pote nenpòt evalyasyon ki egziste deja, dosye medikal, ak dokiman lekòl yo.",
+      "Y ap evalye pitit ou a — pwosesis sa a ka pran jiska 120 jou.",
+      "Si w kalifye, w ap travay avèk yon Kowòdonatè Sèvis pou devlope yon Plan Pwogram Endividyèl (IPP).",
+      "Mande sèvis espesifik ou bezwen — ABA, relèv, terapi lapawòl, elatriye.",
+      "Revize IPP ou a chak ane epi mande chanjman pandan bezwen pitit ou a ap evolye."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "Sèvis Leta",
+    "title": "Pwogram Early Start (Laj 0-3)",
+    "summary": "Pwogram entèvansyon bonè Kalifòni pou tibebe ak timoun piti ki gen reta nan devlopman.",
+    "details": "Pwogram Early Start la ap sèvi timoun depi nesans rive jiska laj 3 an ki gen yon reta nan devlopman oswa yon kondisyon risk etabli. Sèvis yo bay nan anviwònman natirèl (lakay ou, gadri, pak) epi yo gratis kèlkeswa revni ou. Entèvansyon bonè pandan peryòd kritik sa a ka amelyore rezilta yo anpil. Apre laj 3 zan, timoun yo fè tranzisyon nan sèvis distri lekòl la atravè pwosesis IEP a.",
+    "steps": [
+      "Rele Sant Rejyonal lokal ou a oswa distri lekòl ou a pou refere pitit ou a.",
+      "Y ap pwograme yon evalyasyon nan lespas 45 jou apre referans.",
+      "Si w kalifye, yo devlope yon Plan Sèvis pou Fanmi Endividyalize (IFSP) nan lespas 45 jou apre w kalifye.",
+      "Sèvis yo kòmanse pi vit posib apre yo fin siyen IFSP la.",
+      "A laj 2.5 an, pwosesis planifikasyon tranzisyon an nan sèvis lekòl matènèl kòmanse.",
+      "Ou ka kontinye sèvis Sant Rejyonal apre laj 3 an atravè yon pwosesis kalifikasyon apa."
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "Asirans ak Finansman",
+    "title": "Kouvèti Asirans pou Sèvis Otis",
+    "summary": "Konprann dwa w genyen pou terapi otis ki kouvri ak asirans epi kijan pou fè apèl kont refi.",
+    "details": "Pifò eta yo gen manda asirans otis ki egzije pwoteksyon pou sèvis ki gen rapò ak otis. Nan Kalifòni, SB 946 mande pou plan sante yo kouvri tretman sante konpòtman (ki gen ladan ABA) pou otis. Lwa federal sante mantal egalite egzije tou pou garanti egalite pou sante mantal ak kondisyon medikal. Si asirans ou refize pwoteksyon, ou gen dwa fè apèl anndan ak deyò. Depatman Swen Sante Jere Kalifòni (DMHC) ka ede ak apèl ekstèn.",
+    "steps": [
+      "Mande yon kopi avantaj plan w genyen pou sèvis otis ak sante konpòtmantal.",
+      "Jwenn yon referans alekri nan men doktè pitit ou a ki espesifye tretman rekòmande a.",
+      "Soumèt yon demann pre-otorizasyon bay konpayi asirans ou a.",
+      "Si yo refize, mande refi a alekri ak rezon espesifik ak sitasyon politik la.",
+      "Depoze yon apèl entèn ak yon lèt nesesite medikal nan men doktè ou.",
+      "Si apèl entèn la echwe, pote yon plent ak regilatè asirans eta ou a (DMHC nan CA)."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "Edikasyon",
+    "title": "504 Plan Akomodasyon",
+    "summary": "Yon plan pou akomodasyon nan salklas ki pa mande pou kalifikasyon edikasyon espesyal.",
+    "details": "Yon Plan 504 baze sou Seksyon 504 Lwa Reyabilitasyon an epi li bay aranjman pou asire aksè egal nan edikasyon. Kontrèman ak yon IEP, yon Plan 504 pa mande pou yon klasifikasyon edikasyon espesyal - li kouvri nenpòt timoun ki gen yon andikap ki limite anpil yon gwo aktivite lavi (ki gen ladan aprantisaj ak entèraksyon sosyal). Akomodasyon komen yo enkli plas preferansyèl, tan pwolonje nan tès yo, poz sansoryèl, ak orè vizyèl.",
+    "steps": [
+      "Ekri yon lèt bay lekòl ou a pou mande yon evalyasyon 504, kote w ap site dyagnostik pitit ou a oswa sispèk andikap.",
+      "Bay dokimantasyon: dosye medikal, evalyasyon, obsèvasyon pwofesè yo.",
+      "Ale nan reyinyon 504 la ak ekip lekòl la pou diskite sou aranjman.",
+      "Revize akomodasyon yo pwopoze a epi sijere adisyon selon bezwen pitit ou a.",
+      "Plan an ta dwe revize chak ane — mande yon reyinyon si aranjman yo pa ap aplike.",
+      "Si lekòl la refize evalye oswa bay yon 504, ou ka depoze yon plent nan Office for Civil Rights (OCR)."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "Terapi",
+    "title": "Terapi lapawòl ak langaj",
+    "summary": "Ki jan yo jwenn aksè nan sèvis terapi lapawòl ak sa ou dwe atann nan tretman an.",
+    "details": "Speech-Language Pathologists (SLP) travay sou pi plis pase lapawòl - yo adrese tout aspè nan kominikasyon ki gen ladan konpreyansyon langaj, sèvi ak mo, kominikasyon sosyal, e menm pwoblèm manje / vale. Pou timoun otis yo, SLP yo souvan travay sou kominikasyon fonksyonèl (kapasite pou eksprime dezi ak bezwen), langaj pragmatik (itilizasyon sosyal lang), ak aparèy kominikasyon ogmante ak altènatif (AAC). Rechèch sipòte fòtman kenbe lang lakay yo nan fanmi bileng — bileng pa retade devlopman langaj nan timoun otis yo.",
+    "steps": [
+      "Mande pedyat ou a pou yon referans bay yon patolojis lapawòl ki gen eksperyans ak otis.",
+      "Tcheke plizyè pwen aksè: asirans, Sant Rejyonal, distri lekòl (IEP), ak klinik inivèsite (souvan pi ba pri).",
+      "Chèche yon SLP ki gen eksperyans nan AAC si pitit ou a se yon ti kras vèbal — se pa tout SLP espesyalize nan sa.",
+      "Mande sou modèl coaching paran kote SLP a fòme w pou sipòte kominikasyon pandan tout jounen an.",
+      "Mande objektif mezirab ak rapò sou pwogrè regilye.",
+      "Si pitit ou a bileng, jwenn yon SLP ki sipòte antretyen lang lakay ou oswa mande yon entèprèt."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "Terapi",
+    "title": "Terapi ABA: Kisa pou w konnen",
+    "summary": "Konprann terapi Applied Behavior Analysis — benefis, enkyetid, ak fason pou jwenn bon kalite founisè.",
+    "details": "Analiz Konpòtman Aplike (ABA) se terapi ki pi souvan rekòmande ak rechèch pou otis. Modèn ABA te evolye siyifikativman depi orijin li e kounye a, mete aksan sou apwòch natiralistik ki baze sou jwèt ki swiv enterè timoun nan. Sepandan, bon jan kalite a varye anpil ant founisè yo. Bon ABA sanble aktivite amizan, enteresan - pa egzèsis sou yon tab. Drapo wouj yo enkli inyore detrès timoun nan, itilize privasyon manje kòm motivasyon, oswa konsantre sèlman sou konfòmite. Ou gen dwa pou obsève sesyon yo epi ou ta dwe santi w alèz ak tretman pitit ou a.",
+    "steps": [
+      "Founisè rechèch ak anpil atansyon — mande sou apwòch yo (esè natirèl kont esè disrè) ak rapò sipèvizyon yo.",
+      "Mande pou obsève sesyon yo anvan yo komèt, epi detanzantan apre yo kòmanse.",
+      "Asire w ke pwogram nan sipèvize pa yon Komisyon Konsèy Sètifye Konpòtman Analyst (BCBA) ki wè pitit ou regilyèman.",
+      "Diskite sou objektif ansanm — bay priyorite ladrès fonksyonèl ak kominikasyon sou objektif ki baze sou konfòmite.",
+      "Siveye byennèt emosyonèl pitit ou a — terapi pa ta dwe lakòz detrès, enkyetid, oswa evite.",
+      "Eksplore altènativ oswa konpleman: terapi lapawòl, terapi okipasyonèl, apwòch devlopman tankou DIR/Floortime."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "Imigrasyon",
+    "title": "Dwa pou Fanmi san papye",
+    "summary": "Sèvis andikap disponib kèlkeswa sitiyasyon imigrasyon, ak fason pou jwenn aksè nan yo san danje.",
+    "details": "Gen anpil sèvis enpòtan pou timoun ki gen otis ki disponib kèlkeswa sitiyasyon imigrasyon yo. Lekòl yo dwe edike tout timoun (Plyler v. Doe), Sant Rejyonal yo pa kapab mande sou sitiyasyon imigrasyon, epi Medi-Cal garanti timoun yo kèlkeswa sitiyasyon atravè pwogram tankou Medi-Cal pou Timoun yo. Lekòl yo ak founisè swen sante k ap resevwa finansman federal pa kapab pataje enfòmasyon ak ranfòsman imigrasyon. Ou gen dwa pou w mennen yon avoka oswa yon entèprèt nan nenpòt reyinyon.",
+    "steps": [
+      "Kontakte Sant Rejyonal lokal ou a — yo entèdi pou yo mande sou estati imigrasyon.",
+      "Enskri pitit ou a nan lekòl — tout timoun gen dwa pou edikasyon piblik kèlkeswa sitiyasyon an.",
+      "Aplike pou Medi-Cal pou pitit ou a atravè biwo sèvis sosyal konte w la.",
+      "Mande yon entèprèt pou tout reyinyon yo — sa a se dwa legal ou.",
+      "Konnen dwa w: ou pa oblije louvri pòt ou nan ICE san yon manda jidisyè siyen pa yon jij.",
+      "Konekte ak òganizasyon dwa imigran lokal yo pou jwenn sèvis sipò navigasyon — anpil moun ofri klinik legal gratis."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "Pwogram Federal yo",
+    "title": "IDEA Pati C — Entèvansyon Bonè (Nesans rive laj 3 an)",
+    "summary": "Sèvis federal entèvansyon bonè gratis pou tibebe ak timoun piti ki gen reta nan devlopman, ki gen ladan otis.",
+    "details": "Pati C nan Lwa sou Edikasyon Moun ki Andikape yo (IDEA) se yon pwogram sibvansyon federal ki ede eta yo opere sèvis entèvansyon bonè konplè pou tibebe ak timoun piti (nesans jiska laj 2) ki gen andikap ak fanmi yo. Sèvis yo enkli terapi lapawòl, terapi okipasyonèl, terapi fizik, sipò konpòtman, teknoloji asistans, ak fòmasyon fanmi. Chak timoun resevwa yon Plan Sèvis pou Fanmi Endividyalize (IFSP). Sèvis yo bay nan anviwònman natirèl tankou kay la oswa gadri. Evalyasyon yo toujou gratis, epi sèvis yo bay gratis oswa pri ki ba selon eta ou. ENPÒTAN: Sèvis yo disponib pou TOUT timoun kèlkeswa sitiyasyon imigrasyon yo.",
+    "steps": [
+      "Kontakte pwogram entèvansyon bonè Pati C eta ou a — jwenn kowòdonatè eta ou a nan ectacenter.org/contact/ptccoord.asp.",
+      "Mande yon evalyasyon devlopman gratis pou pitit ou a — pwogram nan dwe konplete li nan 45 jou.",
+      "Si w kalifye, patisipe nan devlope Plan Sèvis Fanmi Endividyalize (IFSP) pitit ou a ak ekip la.",
+      "Sèvis yo kòmanse pi vit posib apre ou fin siyen IFSP la — mande sou sipò pou lapawòl, OT, PT, ak konpòtman.",
+      "Revize IFSP a chak 6 mwa epi mande chanjman chak fwa bezwen pitit ou a chanje.",
+      "Nan laj 2.5 an, kòmanse planifikasyon tranzisyon an nan sèvis lekòl matènèl Pati B (laj 3-21) atravè distri lekòl ou a."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "Pwogram Federal yo",
+    "title": "IDEA Pati B — Edikasyon Espesyal (Laj 3-21)",
+    "summary": "Edikasyon espesyal gratis ak sèvis ki gen rapò ak timoun ak jèn ki gen otis atravè sistèm lekòl piblik la.",
+    "details": "Pati B IDEA garanti tout timoun ki gen andikap, ki gen ladan otis, dwa pou yo jwenn yon Edikasyon Piblik Gratis Apwopriye (FAPE) nan Anviwònman Pi piti Restriksyon (LRE). Otis se youn nan 14 kategori andikap ki kalifye yo. Pitit ou a gen dwa a yon Pwogram Edikasyon Endividyalize (IEP) ki dekri objektif espesifik, sèvis, ak aranjman. Sèvis ki asosye yo ka gen ladan terapi lapawòl, terapi okipasyonèl, fòmasyon sou ladrès sosyal, sipò konpòtman, ak transpò. Seksyon 619 kouvri sibvansyon lekòl matènèl pou timoun ki gen laj 3-5. Tout sèvis yo konplètman gratis. Lekòl yo PA KAPAB mande sou estati imigrasyon dapre Desizyon 1982 Plyler v. Doe nan Tribinal Siprèm lan.",
+    "steps": [
+      "Soumèt yon demann alekri pou yon evalyasyon edikasyon espesyal bay distri lekòl pitit ou a.",
+      "Lekòl la dwe konplete evalyasyon an nan 60 jou apre li resevwa konsantman ou alekri.",
+      "Ale nan reyinyon IEP a — ou se yon manm egal nan ekip la epi ou ka mennen yon avoka oswa yon entèprèt.",
+      "Revize objektif ak sèvis yo pwopoze ak anpil atansyon — negosye chanjman epi pa siyen jiskaske ou dakò.",
+      "Siveye pwogrè objektif IEP pandan ane a epi mande lekòl la rapò enfòmasyon.",
+      "Si ou pa dakò ak lekòl la, mande medyasyon oswa ranpli yon odyans sou pwosedi lalwa gratis pou ou."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "Pwogram Federal yo",
+    "title": "Egzansyon Medicaid pou Otis (pa Eta)",
+    "summary": "Dispans pou Sèvis ki baze nan kay ak kominotè (HCBS) ki finanse terapi otis, swen pou relèv, ak sèvis sipò atravè Medicaid.",
+    "details": "Dispans Medicaid Home and Community-Based Services (HCBS) pèmèt eta yo bay sèvis pou moun ki gen andikap (tankou otis) lakay yo ak kominote yo olye yo nan enstitisyon yo. Egzansyon sa yo varye anpil pa eta a, men souvan yo kouvri terapi ABA, swen relèv, terapi lapawòl, terapi okipasyonèl, swen pèsonèl, travay sipò, abilitasyon lajounen, ak fòmasyon fanmi. Gen kèk eta ki gen dispans espesifik pou otis (tankou Maryland's Autism Waiver), pandan ke lòt gen ladan otis anba dispans pi laj pou andikap devlopman. Lis datant yo ka long - pafwa ane - kidonk aplike pi bonè posib. Elijiblite anjeneral baze sou nivo andikap timoun nan, pa revni fanmi an.",
+    "steps": [
+      "Kontakte biwo Medicaid leta w la oswa ajans andikap devlopmantal pou w konnen ki dispans ki sèvi timoun ki gen otis.",
+      "Aplike pou tout egzansyon pitit ou a ka kalifye pou yo — ou ka sou plizyè lis datant an menm tan.",
+      "Rasanble dokiman: dyagnostik otis, dosye medikal, evalyasyon lekòl, ak evalyasyon fonksyonèl.",
+      "Si yo mete yo sou yon lis datant, mande enfòmasyon sou pozisyon ou ak tan datant estime - swiv regilyèman chak 3-6 mwa.",
+      "Yon fwa ke yo apwouve, travay ak koòdonatè sèvis ou a pou devlope yon plan ki santre sou moun ki bay lis tout sèvis ki nesesè yo.",
+      "Revize plan w la chak ane epi mande sèvis adisyonèl pandan bezwen pitit ou a chanje — ou gen dwa fè apèl kont nenpòt refi."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "Pwogram Federal yo",
+    "title": "Benefis SSI pou Timoun ki gen Otis",
+    "summary": "Asistans lajan mansyèl nan men Sekirite Sosyal pou fanmi ki gen ti revni ki gen timoun ki gen gwo andikap ki gen rapò ak otis.",
+    "details": "Revni Sekirite Siplemantè (SSI) bay benefis lajan chak mwa pou timoun ki gen andikap ki gen fanmi ki gen revni ak resous limite. To benefis federal la se apeprè $967 pa mwa (2025), epi anpil eta ajoute yon montan siplemantè. Otis yo ekri nan Liv Ble Administrasyon Sekirite Sosyal anba Seksyon 112.10 pou timoun yo. Pou li kalifye, pitit ou a dwe genyen dokiman medikal ki montre defisi nan kominikasyon vèbal ak non vèbal, entèraksyon sosyal, ak modèl konpòtman ki limite/repetitif ki limite fonksyonman siyifikativman. Timoun k ap resevwa SSI kapab otomatikman kalifye tou pou Medicaid nan anpil eta, pou bay aksè a sèvis terapi. Remak: Se sèlman SSI (pa SSDI) ki disponib pou timoun yo.",
+    "steps": [
+      "Pran yon randevou nan biwo Administrasyon Sekirite Sosyal (SSA) lokal ou a — aplikasyon SSI timoun yo pa ka ranpli sou Entènèt.",
+      "Rasanble dokiman ki obligatwa yo: batistè timoun nan, nimewo Sekirite Sosyal, dosye medikal, evalyasyon lekòl la, ak dosye finansye fanmi (revni, deklarasyon labank, lòt benefis).",
+      "Ranpli aplikasyon SSI a ak Rapò sou Enfimite Timoun an detaye kijan otis afekte fonksyonman pitit ou a chak jou.",
+      "Kolabore ak nenpòt lòt evalyasyon SSA ka mande — sa yo gratis epi ede detèmine kalifikasyon.",
+      "Si yo refize, depoze yon kontestasyon nan 60 jou — anpil reklamasyon yo apwouve nan kontestasyon. Konsidere kontakte yon avoka andikape (anpil travay sou enprevi).",
+      "Si yo apwouve, rapòte nenpòt chanjman nan revni, sitiyasyon lavi, oswa kondisyon pitit ou a bay SSA pou kenbe benefis yo."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "Pwogram Federal yo",
+    "title": "TRICARE Kouvèti Otis (Fanmi Militè)",
+    "summary": "Sèvis otis konplè pou fanmi militè yo ki gen ladan terapi ABA atravè Demonstrasyon Swen Otis TRICARE a.",
+    "details": "TRICARE kouvri Applied Behavior Analysis ak lòt sèvis otis pou tout benefisyè TRICARE atravè Autism Care Demonstration (ACD), ki pral rive jiska 31 desanm 2028. Pitit ou a resevwa yon otorizasyon 6 mwa pou sèvis ABA, epi yon nouvo rekòmandasyon nan men founisè dyagnostik ASD ou obligatwa chak dezan. Yo bay chak timoun nan ACD yon Autism Services Navigator (ASN) ki ede kowòdone swen ant terapi lapawòl, ABA, ak pedyat ou. TRICARE kouvri tou terapi lapawòl, terapi okipasyonèl, ak lòt tretman medikal ki nesesè pou otis. Nan mwa septanm 2025, Akademi Nasyonal Syans yo te rekòmande pou ABA vin tounen yon benefis TRICARE debaz pèmanan olye ke yon pwogram demonstrasyon. Sèvis ABA yo mande kote ki gen analis konpòtman ki sètifye nan konsèy la.",
+    "steps": [
+      "Jwenn yon dyagnostik otis pou pitit ou a nan men yon founisè TRICARE otorize (pedyat devlopman, sikològ, oswa sikyat).",
+      "Jwenn yon referans nan men founisè dyagnostik pitit ou a espesyalman pou ABA ak nenpòt lòt sèvis ki gen rapò ak otis.",
+      "Kontakte Autism Services Navigator (ASN) ki te asiyen w la — yo pral ede w kowòdone ak jwenn aksè nan tout sèvis ki disponib yo.",
+      "Jwenn founisè ABA otorize TRICARE nan zòn ou an atravè anyè founisè TRICARE nan tricare.mil.",
+      "Asire w ke otorizasyon pitit ou a renouvle chak 6 mwa epi li mete rekòmandasyon an ajou chak 2 zan.",
+      "Si w rankontre refi oswa pwoblèm aksè, kontakte Kowòdonatè Konsèy ak Asistans Benefisyè TRICARE (BCAC) pou èd ak apèl yo."
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "Terapi",
+    "title": "Analiz Konpòtman Aplike (ABA)",
+    "summary": "Terapi otis ki pi rechèch la — sèvi ak ranfòsman pozitif pou devlope ladrès ak diminye konpòtman difisil.",
+    "details": "Applied Behavior Analysis konsidere kòm yon tretman meyè pratik ki baze sou prèv pa US Chirijyen Jeneral ak Asosyasyon Sikolojik Ameriken an. ABA kraze nouvo ladrès an ti etap jere epi sèvi ak ranfòsman pozitif pou ankouraje konpòtman vle. Yon Analis Konpòtman Sètifye Komisyon Konsèy (BCBA) devlope yon plan tretman endividyèl ki baze sou yon Evalyasyon Konpòtman Fonksyonèl. ABA modèn mete aksan sou apwòch natiralistik ki baze sou jwèt ki swiv enterè timoun nan. Yo ka bay terapi nan kay la, nan yon klinik, oswa nan anviwònman lekòl la, tipikman sòti nan 10 a 40 èdtan pa semèn depann de bezwen timoun nan. Paran yo resevwa fòmasyon pou ranfòse konpetans yo pandan tout jounen an.",
+    "steps": [
+      "Jwenn yon dyagnostik fòmèl otis ak yon referans nan men pedyat ou a pou sèvis ABA.",
+      "Kontakte asirans ou a, Medicaid, oswa ajans andikap devlopmantal eta a pou konfime pwoteksyon ABA epi jwenn founisè ki apwouve yo.",
+      "Pwograme yon Evalyasyon Konpòtman Fonksyonèl (FBA) ak yon BCBA — sa a evalye fòs pitit ou, defi, ak objektif fanmi ou.",
+      "Revize epi apwouve plan tretman endividyèl la — asire ke objektif yo konsantre sou kominikasyon, ladrès fonksyonèl, ak endepandans.",
+      "Patisipe nan sesyon fòmasyon paran yo pou w ka ranfòse konpetans yo toujou lakay ou.",
+      "Mande rapò sou pwogrè regilye ak done epi ale nan revizyon plan yo — ajiste objektif yo pandan pitit ou a ap grandi."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "Terapi",
+    "title": "Terapi Lapawòl-Lang",
+    "summary": "Ede timoun yo devlope ladrès kominikasyon - soti nan premye mo yo nan konvèsasyon, ki gen ladan metòd kominikasyon ki pa vèbal.",
+    "details": "Terapi Lapawòl-Lang se terapi devlopman ki pi komen pou timoun ki gen otis, yon patolojis lapawòl (SLP) ki gen lisans. Li adrese konpreyansyon langaj (reseptif), eksprime vle ak bezwen (ekspresif), itilizasyon sosyal langaj (pragmatik), atikilasyon, ak difikilte pou manje/vale. Pou timoun ki minim vèbal, SLP yo ka entwodui Kominikasyon Ogmante ak Altènatif (AAC) tankou sistèm echanj foto, lang siy, oswa aparèy pou jenere lapawòl. Rechèch montre ke ak entèvansyon bonè, de sou twa timoun preskolè ki gen otis amelyore anpil ladrès kominikasyon. Sa ki enpòtan, bilengwis PA retade lang nan timoun otis yo - yo rekòmande kenbe lang lakay yo.",
+    "steps": [
+      "Mande pedyat ou a pou yon referans bay yon SLP ki gen eksperyans ak maladi spectre otis.",
+      "Aksede sèvis atravè plizyè kanal: asirans sante, Medicaid, distri lekòl IEP, entèvansyon bonè leta, oswa klinik diskou inivèsite (souvan pri pi ba).",
+      "Pandan evalyasyon an, pataje egzanp sou fason pitit ou a kominike lakay ou — videyo yo trè itil.",
+      "Si pitit ou a se yon ti kras vèbal, mande espesyalman yon SLP ki gen ekspètiz AAC - se pa tout SLP espesyalize nan sa.",
+      "Mande sou modèl antrenè paran kote SLP a fòme w pou entegre pratik kominikasyon nan woutin chak jou.",
+      "Si fanmi w pale yon lòt lang lakay ou, mande yon SLP oswa yon entèprèt bileng — kontinye itilize lang lakay ou ak pitit ou a."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "Terapi",
+    "title": "Terapi okipasyonèl (OT)",
+    "summary": "Bati endepandans nan ladrès lavi chak jou, pwosesis sansoryèl, ak kapasite motè amann.",
+    "details": "Terapi okipasyonèl ede timoun ki gen otis devlope ladrès ki nesesè pou lavi chak jou ak endepandans. OT travay sou ladrès motè amann (ekri, bouton, sèvi ak istansil), pwosesis sansoryèl ak règleman (ede timoun ki twò sansib oswa mwens sansib a opinyon sansoryèl), woutin swen pwòp tèt ou (abiye, twalèt, bwose dan), ladrès pou jwe, ak preparasyon pou salklas. Terapi entegrasyon sansoryèl, souvan bay OT yo, ede timoun yo pi byen trete ak reponn a enfòmasyon sansoryèl ki ka akablan oswa konfizyon. OT yo kreye plan tretman endividyalize epi sèvi ak aktivite ki sanble ak jwèt, men ki ak anpil atansyon fèt pou devlope ladrès espesifik. Yo rekòmande tou modifikasyon anviwònman ak zouti sansoryèl pou kay ak lekòl.",
+    "steps": [
+      "Mande yon evalyasyon OT atravè pedyat ou, distri lekòl la, oswa pwogram entèvansyon bonè leta w la.",
+      "Pandan evalyasyon an, dekri defi woutin pitit ou a chak jou — manje, abiye, tranzisyon, sansibilite sansoryèl.",
+      "Revize plan tretman an epi asire ke objektif yo adrese pwoblèm lavi chak jou ki pi gwo priyorite w yo.",
+      "Mande OT pou yon rejim sansoryèl lakay - yon plan pèsonalize aktivite sansoryèl pou fè pandan jounen an.",
+      "Pratike estrateji OT-rekòmande yo toujou lakay ou, espesyalman pandan woutin tankou manje, lè benyen, ak abiye.",
+      "Mande OT ki baze nan lekòl la atravè IEP pitit ou a si bezwen motè, sansoryèl, oswa swen pwòp tèt ou afekte patisipasyon lekòl la."
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "Terapi",
+    "title": "Terapi Fizik (PT)",
+    "summary": "Amelyore ladrès motè brit, kowòdinasyon, fòs, ak konfyans fizik pou mouvman an sekirite nan tout anviwònman.",
+    "details": "Terapi fizik ede timoun ki gen otis amelyore ladrès motè brit (mache, kouri, sote, grenpe), balans ak kowòdinasyon, fòs debaz, konsyans kò, ak navigasyon espasyal. Terapis fizik evalye limit fonksyonèl motè timoun yo epi kreye plan pou adrese yo. Pou timoun ki gen laj lekòl, PT yo ede navige nan koulwa, lakou rekreyasyon, kafeterya, ak otobis lekòl yo san danje. Yo travay tou sou ladrès mouvman ki nesesè pou patisipe nan jwèt sosyal ak entèraksyon kanmarad. PT ka kritik pou timoun ki gen yon ton nan misk ki ba, difikilte kowòdinasyon, oswa defi planifikasyon motè ki komen nan otis. Ou ka jwenn sèvis atravè asirans sante, pwogram entèvansyon bonè, IEP lekòl la, oswa klinik pou pasyan ekstèn.",
+    "steps": [
+      "Mande pedyat ou pou evalye si pitit ou a gen gwo reta nan motè oswa pwoblèm kowòdinasyon ki jistifye yon referans PT.",
+      "Pwograme yon evalyasyon PT — terapis la pral evalye balans, kowòdinasyon, fòs, planifikasyon motè, ak mobilite fonksyonèl.",
+      "Revize plan tretman an epi diskite sou ki etap motè ak ladrès fonksyonèl yo priyorite.",
+      "Enkòpore egzèsis PT-rekòmande nan woutin chak jou - anpil ka fè nan jwèt amizan lakay ou.",
+      "Mande PT ki baze nan lekòl la atravè IEP a si pwoblèm motè yo afekte kapasite pitit ou a pou l navige lekòl san danje.",
+      "Reevalye pwogrè chak 3-6 mwa epi ajiste objektif yo pandan pitit ou a devlope nouvo ladrès fizik."
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "Terapi",
+    "title": "DIR/Floortime",
+    "summary": "Yon apwòch ki baze sou relasyon ki swiv direksyon timoun nan pandan jwe pou konstwi fondasyon sosyal, emosyonèl ak entelektyèl.",
+    "details": "DIR la vle di Devlopman, diferans endividyèl, ki baze sou relasyon. Devlope pa Doktè Stanley Greenspan nan ane 1980 yo, apwòch sa a bati fondasyon pou kwasans sosyal, emosyonèl, ak entelektyèl atravè entèraksyon lajwa, ki dirije ak timoun olye ke vize konpòtman espesifik. Estrateji prensipal la enplike granmoun yo vin sou planche a epi swiv enterè timoun nan pou elaji 'sèk kominikasyon' - entèraksyon ale-an. Floortime tipikman enplike 2-5 èdtan pa jou kase nan sesyon 20-30 minit. Rechèch montre pwogrè nan kominikasyon, fonksyone emosyonèl, ladrès lavi chak jou, ak relasyon paran-pitit. Sant Nasyonal Devlopman Pwofesyonèl sou Twoub Spectrum Otis rekonèt DIR/Floortime e paran yo ka fè lakay yo avèk konsèy pwofesyonèl.",
+    "steps": [
+      "Aprann baz DIR/Floortime atravè Konsèy Entèdisiplinè pou Devlopman ak Aprantisaj (ICDL) nan icdl.com — yo ofri resous paran yo.",
+      "Jwenn yon terapis ki resevwa fòmasyon DIR/Floortime atravè anyè founisè ICDL oswa mande pedyat devlopman pitit ou a pou referans.",
+      "Kòmanse ak sesyon Floortime 20 minit: chita sou planche a, swiv egzanp pitit ou a, epi eseye elaji entèraksyon an-an-an.",
+      "Konsantre sou koneksyon emosyonèl an premye — rantre nan sa pitit ou a jwi san yo pa eseye redireksyon oswa anseye ladrès espesifik.",
+      "Piti piti ogmante kantite ak longè sesyon yo, vize pou plizyè sesyon kout pandan tout jounen an.",
+      "Travay ak yon pwofesyonèl ki resevwa fòmasyon pou aprann kijan pou adrese pwofil sansoryèl ak devlopman endividyèl pitit ou a pandan y ap jwe."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "Terapi",
+    "title": "TEACCH (Ansèyman Estriktire)",
+    "summary": "Yon metòd ansèyman vizyèl, estriktire ki òganize anviwònman fizik pou ede timoun otis aprann poukont yo.",
+    "details": "TEACCH (Tretman ak Edikasyon pou Timoun Otis ak Kominikasyon Andikape) te devlope nan University of North Carolina pa Dr Eric Schopler ak Dr Robert Reichler nan ane 1960 yo. Li mete aksan sou ansèyman estriktire ki adapte a fason moun ki otis yo trete enfòmasyon, patikilyèman atravè sipò vizyèl. Prensip debaz yo enkli òganizasyon anviwònman fizik la, sekans aktivite previzib, orè vizyèl, sistèm travay estriktire, ak travay ki òganize vizyèlman. TEACCH diminye enkyetid lè li fè atant klè ak previzib, epi siyifikativman amelyore tranzisyon ant aktivite yo. Rechèch montre endepandans ogmante nan travay chak jou, swen pwòp tèt ou, òganizasyon, ak swiv woutin. Paran yo ka aplike prensip TEACCH lakay yo lè yo kreye orè vizyèl ak espas òganize.",
+    "steps": [
+      "Aprann baz TEACCH atravè Pwogram Otis TEACCH nan UNC (teacch.com) — yo ofri fòmasyon pou paran ak pwofesyonèl.",
+      "Kreye yon orè vizyèl chak jou pou pitit ou a lè l sèvi avèk foto oswa foto ki montre sekans aktivite yo pandan tout jounen an.",
+      "Òganize anviwònman lakay ou: deziyen zòn klè pou aktivite espesifik (zòn jwe, zòn travay, espas kalme) ak etikèt vizyèl.",
+      "Aplike sistèm travay pou travay: sèvi ak yon Layout goch-a-dwat ki montre sa yo dwe fè, konbyen yo fè, ak sa ki vini apre.",
+      "Sèvi ak revèy vizyèl ak avètisman tranzisyon (pa egzanp, 'premye devwa, apre iPad') pou diminye enkyetid pandan chanjman aktivite yo.",
+      "Konsilte ak yon pwofesyonèl ki resevwa fòmasyon TEACCH pou pèsonalize apwòch ansèyman estriktire pou fòs ak bezwen espesifik pitit ou a."
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "Terapi",
+    "title": "Gwoup Ladrès Sosyal yo",
+    "summary": "Anviwònman gwoup estriktire kote timoun ki gen otis pratike entèraksyon sosyal, konvèsasyon, ak ladrès amitye ak kamarad yo.",
+    "details": "Gwoup Konpetans Sosyal reyini timoun ki sou spectre otis la (pafwa melanje ak kamarad nerotipik) pou pratike entèraksyon sosyal nan yon anviwonman estriktire, ki bay sipò. Dirije pa klinisyen ki gen lisans tankou patolojis lapawòl oswa sikològ, gwoup sa yo travay sou ladrès konvèsasyon, lekti siyal sosyal, pran pèspektiv, fè ak kenbe zanmi, règleman emosyonèl, ak jwèt koperativ. Yon klinisyen idantifye objektif endividyèl pou chak timoun epi swiv pwogrè chak semèn. Rechèch montre enpak pozitif sou konpetans sosyal, kalite amitye, ak solitid redwi. Paran yo souvan patisipe nan sesyon paralèl yo aprann ranfòse konpetans lakay yo. Anpil fanmi fòme koneksyon dirab ak lòt fanmi k ap patisipe yo.",
+    "steps": [
+      "Mande terapis, lekòl, oswa pedyat pitit ou a konsènan gwoup konpetans sosyal lokal yo — yo ka ofri yo atravè klinik, lopital, oswa òganizasyon kominotè.",
+      "Chèche gwoup ki koresponn ak laj pitit ou a ak nivo devlòpmantal la — kèk gwoup ki baze sou jwe pandan ke lòt yo gen plis estriktire pou timoun ki pi gran yo.",
+      "Asire ke gwoup la dirije pa yon klinisyen ki gen lisans (SLP, sikològ, oswa BCBA) ki fikse objektif endividyèl pou chak patisipan.",
+      "Patisipe nan oryantasyon paran yo oswa sesyon paran yo paralèl pou aprann kijan pou ranfòse ladrès sosyal lakay yo.",
+      "Pratike ladrès yo aprann nan anviwònman natirèl — fè aranjman pou jwe ak kamarad gwoup yo jeneralize ladrès sosyal.",
+      "Siveye nivo konfò pitit ou a — yon bon gwoup ta dwe devlope konfyans, pa ogmante enkyetid oswa fristrasyon."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "Terapi",
+    "title": "Terapi Mizik",
+    "summary": "Sèvi ak aktivite ki baze sou mizik pou amelyore kominikasyon, entèraksyon sosyal, ladrès motè, ak règleman emosyonèl.",
+    "details": "Terapis mizik pou otis yo ofri pa terapis mizik ki sètifye nan konsèy (MT-BC) ki sèvi ak chante, jwe enstriman, ekri chante, ak aktivite ritm pou adrese objektif terapetik yo. Mizik inikman angaje plizyè zòn nan sèvo ansanm, sa ki fè li patikilyèman efikas pou timoun ki pa ka reponn tou nan terapi tradisyonèl ki baze sou pale. Rechèch sipòte amelyorasyon nan ladrès kominikasyon ak langaj, entèraksyon sosyal ak atansyon jwenti, ekspresyon emosyonèl ak règleman, kowòdinasyon motè amann ak brit, ak pwosesis sansoryèl. Aktivite mizik entèaktif kreye opòtinite natirèl pou vire, kontak zye, ak plezi pataje ak kamarad ak manm fanmi yo. Anpil timoun ki gen otis montre gwo enterè mizik ki ka sèvi kòm yon pon nan lòt aprantisaj.",
+    "steps": [
+      "Jwenn yon terapis mizik ki sètifye (MT-BC) atravè anyè American Music Therapy Association nan musictherapy.org.",
+      "Diskite sou objektif espesifik pitit ou a — terapi mizik kapab vize kominikasyon, ladrès sosyal, ladrès motè, oswa règleman emosyonèl.",
+      "Mande sou fòma sesyon yo: sesyon endividyèl yo pèmèt atansyon pèsonalize pandan sesyon gwoup yo ajoute pratik ladrès sosyal.",
+      "Mete mizik nan woutin lakay yo — sèvi ak chante pou tranzisyon (chant netwayaj), woutin chak jou (chante bwose dan), ak règleman emosyonèl.",
+      "Tcheke opsyon kouvèti asirans yo: kèk plan asirans, dispans Medicaid, ak IEP lekòl yo ka finanse terapi mizik kòm yon sèvis ki gen rapò.",
+      "Bay li plizyè sesyon — kèk timoun bezwen tan pou chofe ak terapis la ak fòma anvan yo montre pwogrè."
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "Terapi",
+    "title": "Terapi Asistans Equine (Cheval)",
+    "summary": "Monte cheval terapetik ki amelyore kominikasyon sosyal, règleman emosyonèl, ak ladrès motè atravè entèraksyon ak chwal.",
+    "details": "Terapi Asistans Equine itilize mouvman ritmik ak repons chwal yo pou adrese objektif terapetik pou timoun ki gen otis. Yon gwo etid owaza nan University of Colorado te jwenn ke 10 semèn nan monte ki ka geri ou pwodui rediksyon dirab nan chimerik ak amelyorasyon nan kominikasyon sosyal, ipèaktivite, ak pale mo nan timoun ki gen laj 6-16. Mouvman natirèl chwal la stimul fòs debaz, balans, ak kowòdinasyon. Travay ak chwal tou bay opòtinite pou pratike kominikasyon ki pa vèbal, senpati, responsablite, ak règleman emosyonèl nan yon anviwònman motivasyon, deyò. Pwogram yo anjeneral dirije pa enstriktè PATH entènasyonal ki sètifye ansanm ak terapis. Terapi equine ka konplete lòt tretman tankou ABA, lapawòl, ak OT.",
+    "steps": [
+      "Jwenn yon sant ke PATH entènasyonal ki sètifye terapetik ki toupre w nan pathintl.org/find-a-center.",
+      "Pwograme yon evalyasyon — ekip la ap evalye kapasite fizik pitit ou a, bezwen konpòtman, ak objektif terapetik.",
+      "Diskite sou kondisyon sekirite yo: kas, rad apwopriye, ak nenpòt akomodasyon sansoryèl pitit ou a ka bezwen.",
+      "Angaje nan sesyon regilye chak semèn - rechèch montre benefis yo devlope sou 8-10 semèn patisipasyon konsistan.",
+      "Mande sou ipoterapi (OT/PT/Lapawòl sou cheval) kont monte terapetik — ipoterapi sèvi ak mouvman chwal la kòm yon zouti tretman epi yo ka kouvri pa asirans.",
+      "Tcheke sous finansman: kèk sant monte san bi likratif ofri bous detid, epi ipoterapi ka kouvri pa asirans sante oswa Medicaid."
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "Terapi",
+    "title": "Terapi akwatik",
+    "summary": "Terapi ki baze sou dlo ki devlope ladrès motè, kowòdinasyon, andirans, ak konfyans sosyal nan yon anviwònman sansoryèl kalme.",
+    "details": "Terapi akwatik sèvi ak pwopriyete inik dlo — flotans, rezistans, ak presyon idrostatik — pou ede timoun ki gen otis devlope ladrès motè, kowòdinasyon, fòs, ak andirans nan yon anviwònman sansoryèl ki bay sipò. Anpil timoun ki gen otis ki ap lite ak fè egzèsis ki baze sou tè a byen devlope nan dlo a. Dlo sansoryèl ki soti nan dlo tyèd kapab kalme ak reglemante, sa ki fè li pi fasil pou timoun yo konsantre ak patisipe. Terapi akwatik anseye tou sekirite dlo - yon enkyetid kritik paske nwaye se yon kòz prensipal nan lanmò pou timoun ki gen otis ki ka moute desann. Sesyon yo ka travay sou ladrès sosyal (vire-pran, swiv enstriksyon nan yon gwoup), konsyans kò, kontwòl souf, ak kapasite fizik an jeneral. Rechèch montre amelyorasyon nan entèraksyon sosyal ak fonksyon motè.",
+    "steps": [
+      "Mande pedyat ou oswa terapis ou pou yon rekòmandasyon nan yon pwogram terapi akwatik, oswa chèche enstalasyon ak terapis akwatik sètifye.",
+      "Tcheke si founisè OT oswa PT pitit ou a ofri sesyon terapi akwatik—sa yo ka kouvri pa asirans.",
+      "Kòmanse ak sesyon endividyèl yo pou ede pitit ou a aklimate ak anviwònman pisin lan anvan li eseye sesyon an gwoup.",
+      "Diskite sou objektif sekirite dlo yo kòm yon priyorite — anseye pitit ou a pou li an sekirite nan dlo ak alantou dlo a kapab sove lavi.",
+      "Pratike aktivite ki baze sou dlo lakay ou pandan lè benyen: vide, choute, mouche bul - sa yo bati konfò ak konpetans.",
+      "Gade nan pwogram naje adaptive kominote a nan YMCA lokal yo, pak ak depatman rekreyasyon, oswa Special Olympics - anpil yo gratis oswa a pri ki ba."
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "Sipò pou kriz",
+    "title": "988 Suicide & Crisis Lifeline",
+    "summary": "Gratis, konfidansyèl sipò kriz 24/7 pa telefòn, tèks, oswa chat pou nenpòt moun ki nan detrès emosyonèl — disponib nan angle ak panyòl.",
+    "details": "988 Suicide & Crisis Lifeline se yon rezo nasyonal sant kriz ki bay sipò gratis, konfidansyèl 24 èdtan pa jou, 7 jou pa semèn. Rele oswa voye tèks 988 pou konekte avèk yon konseye ki resevwa fòmasyon. Sèvis yo disponib an Angle ak Panyòl, epi chat an dirèk disponib nan 988lifeline.org. Yo ofri sèvis Videyofòn pou moun ki soud oswa ki mal tande ki sèvi ak Lang siy Ameriken. Sovtaj la gen resous espesyalman adrese moun ki gen neurodivergence, ki gen ladan otis. Sa a se PA sèlman pou panse swisid - li se pou nenpòt kriz emosyonèl, estrès akablan, oswa ijans sante mantal. Sosyete Otis la ap travay ak sant kriz atravè peyi a pou asire ke konseye yo resevwa fòmasyon espesifik pou otis ak andikap entelektyèl/devlopman.",
+    "steps": [
+      "Sove 988 nan telefòn ou kounye a — ou ka rele oswa voye tèks nimewo sa a nenpòt lè oumenm oswa manm fanmi ou nan kriz.",
+      "Pou danje imedyat, toujou rele 911 an premye, epi swiv 988 pou sipò kontinyèl.",
+      "Si pitit otis ou oswa manm fanmi w nan kriz emosyonèl, rele 988 epi fè konseye a konnen sou dyagnostik otis la pou yo ka adapte apwòch yo.",
+      "Vizite 988lifeline.org pou chat an dirèk si apèl nan telefòn yo difisil — chat ka pi fasil pou kèk moun ki otis oswa pandan debòde sansoryèl.",
+      "Pou sipò nan lang Panyòl, rele 988 epi peze 2 pou liy lang Panyòl la.",
+      "Kenbe nimewo a vizib lakay ou epi pataje li ak moun k ap bay swen yo, manm fanmi yo ak lekòl pitit ou a."
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "Sipò pou kriz",
+    "title": "Liy tèks kriz",
+    "summary": "Sipò pou kriz gratis 24/24 atravè mesaj tèks - ideyal pou moun ki prefere voye tèks sou apèl nan telefòn.",
+    "details": "Crisis Text Line bay sipò kriz konfidansyèl gratis atravè mesaj tèks, ki disponib 24 èdtan pa jou, 7 jou pa semèn. Tèks HOME nan 741741 pou w konekte ak yon Konseye Kriz ki resevwa fòmasyon. Sèvis sa a se patikilyèman enpòtan pou moun otis oswa paran ki jwenn apèl nan telefòn akablan oswa ki bezwen aksè sekrè nan sipò. Konvèsasyon yo baze sou tèks, sa ki ka pi fasil pou moun ki trete kominikasyon ekri pi byen pase vèbal. Konseye Kriz yo se volontè ki resevwa fòmasyon ki sipèvize pa anplwaye klinik ki gen lisans. Sèvis la jere tout kalite kriz — enkyetid, depresyon, detrès emosyonèl, panse swisid, konfli fanmi, ak burnout pou swen. Tan an mwayèn tann pou konekte avèk yon konseye se mwens pase 5 minit.",
+    "steps": [
+      "Tèks HOME nan 741741 soti nenpòt kote nan peyi Etazini a nenpòt ki lè pou kòmanse yon konvèsasyon ak yon Konseye Kriz.",
+      "Yon konseye ki resevwa fòmasyon pral reponn epi ede w travay atravè kriz la lè l sèvi avèk koute aktif ak rezoud pwoblèm kolaborasyon.",
+      "Ou dwe onèt sou sa w ap fè eksperyans - pa gen okenn move rezon pou w kontakte, ki gen ladan moun k ap pran swen ou ki fatige l.",
+      "Si w ap voye mesaj tèks sou pitit ou a, fè konseye a konnen pou yo ka bay sipò ak referans otis.",
+      "Sove 741741 nan kontak ou yo kòm 'Crisis Text Line' pou ou gen li pare lè ou bezwen li.",
+      "Pataje resous sa a ak lòt paran otis nan kominote w la — anpil moun pa konnen ki gen sipò pou kriz ki baze sou tèks."
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "Sipò pou kriz",
+    "title": "Liy Asistans Nasyonal Autism Society",
+    "summary": "Liy èd gratis ki konekte fanmi yo ak resous lokal otis, sèvis, ak sipò atravè espesyalis ki resevwa fòmasyon.",
+    "details": "Liy Asistans Nasyonal Autism Society a (800-3-AUTISM / 800-328-8476) konekte ou ak Espesyalis Enfòmasyon ak Referans (I&R) ki resevwa fòmasyon ki ede w jwenn resous ak sèvis nan zòn ou an. Pandan ke liy asistans lan pa bay sèvis dirèk, espesyalis yo pral konekte ou ak founisè lokal yo, pwogram eta a, gwoup sipò, ak resous kominotè pou otis. Sa a se yon premye apèl ekselan pou fanmi imigran ki nouvo nan sistèm Etazini an epi ki pa sèten ki kote yo kòmanse. Liy èd la ka ede jwenn sèvis dyagnostik, founisè terapi, defans edikasyon, asistans finansyè, ak sipò kominotè. ENPÒTAN: Sa a se PA yon liy kriz — pou ijans sante mantal, itilize 988 oswa rele 911.",
+    "steps": [
+      "Rele 800-328-8476 (800-3-AUTISM) pandan lè biznis pou pale ak yon Espesyalis Enfòmasyon ak Referans.",
+      "Eksplike sitiyasyon w ak ki resous w ap chèche — espesyalis la ap chèche sèvis nan zòn ou an.",
+      "Mande sou afilye lokal Autism Society — gen plis pase 70 atravè peyi Etazini ki bay sipò dirèk nan kominote a.",
+      "Mande enfòmasyon sou plizyè sijè alafwa: dyagnostik, opsyon terapi, sipò lekòl, asistans finansye, ak gwoup sipò paran.",
+      "Swiv referans yo bay yo — kenbe nòt sou chak non kontak, nimewo telefòn, ak pwochen etap yo.",
+      "Rele nenpòt lè ou bezwen èd pou navige nan yon nouvo defi — liy asistans la la pou sipò kontinyèl, pa sèlman yon sèl fwa."
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "Dwa Legal",
+    "title": "IDEA: Dwa Pitit Ou a Edikasyon Gratis",
+    "summary": "Lwa sou Edikasyon pou Moun ki Andikape yo garanti tout timoun ki gen yon andikap gen dwa a yon edikasyon piblik gratis, ki apwopriye — kèlkeswa sitiyasyon imigrasyon.",
+    "details": "IDEA se yon lwa federal ki aplike pou TOUT timoun Ozetazini, kèlkeswa sitiyasyon imigrasyon, sitwayènte, oswa dokiman. Dapre IDEA, lekòl leta yo dwe idantifye, evalye, epi sèvi timoun ki gen andikap depi yo fèt jiska laj 21 an. Lalwa garanti FAPE (Edikasyon Piblik Apwopriye Gratis) nan LRE (Anviwònman Pi piti Restriksyon). Lekòl yo pa kapab mande sou estati imigrasyon kòm yon kondisyon pou enskripsyon oswa sèvis yo. Si pitit ou a ant 0-3, Pati C IDEA bay sèvis Entèvansyon Bonè. Si pitit ou a gen 3-21 ane, Pati B bay edikasyon espesyal atravè distri lekòl la. Ou gen dwa pou w jwenn yon entèprèt nan tout reyinyon yo epi pou w resevwa dokiman nan lang ou prefere a.",
+    "steps": [
+      "Pitit ou a gen dwa pou yon evalyasyon gratis nan distri lekòl la si ou sispèk yon andikap — mande sa alekri.",
+      "Lekòl yo PA KAPAB mande sou sitiyasyon imigrasyon ou. Si yo fè sa, ou ka refize reponn epi rapòte sa.",
+      "Ou gen dwa pou jwenn yon entèprèt nan chak reyinyon IEP — mande youn davans.",
+      "Si ou pa dakò ak evalyasyon oswa plasman lekòl la, ou ka mande yon Evalyasyon Edikasyon Endepandan (IEE) sou frè lekòl la.",
+      "Kontakte Sant Fòmasyon ak Enfòmasyon pou Paran (PTI) eta ou a pou jwenn sipò gratis nan lang ou."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "Dwa Legal",
+    "title": "Seksyon 504: Akomodasyon san yon IEP",
+    "summary": "Seksyon 504 Lwa Reyabilitasyon bay akomodasyon pou timoun ki gen yon andikap men ki pa ka kalifye pou edikasyon espesyal dapre IDEA.",
+    "details": "Seksyon 504 se yon lwa dwa sivil ki entèdi diskriminasyon kont moun ki gen andikap nan pwogram k ap resevwa finansman federal, enkli tout lekòl leta yo. Kontrèman ak yon IEP, yon plan 504 pa mande pou yon kategori andikap aprantisaj espesifik - nenpòt andikap fizik oswa mantal ki limite anpil yon gwo aktivite lavi kalifye. Pou timoun otis, sa ka gen ladan akomodasyon tankou tan siplemantè nan tès yo, plas preferansyèl, repo sansoryèl, devwa modifye, oswa yon espas tès trankil. Yon plan 504 souvan jwenn pi vit pase yon IEP epi li ka yon bon opsyon pandan y ap tann yon evalyasyon konplè. Paran yo gen dwa pou yo patisipe nan pwosesis 504 la epi pou yo fè apèl kont desizyon yo.",
+    "steps": [
+      "Mande yon evalyasyon 504 alekri bay direktè lekòl pitit ou a oswa kowòdonatè 504.",
+      "Bay dokiman sou dyagnostik pitit ou a — yon lèt doktè oswa sikològ li sifi.",
+      "Ale nan reyinyon 504 la epi dekri kijan otis afekte pèfòmans lekòl pitit ou a ak aktivite chak jou yo.",
+      "Revize aranjman yo pwopoze a epi sijere chanjman espesifik ou konnen ede pitit ou a — ou se ekspè sou pitit ou a.",
+      "Yon plan 504 revize chak ane. Ou ka mande yon reyinyon nenpòt ki lè si aranjman bezwen ajisteman."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "Dwa Legal",
+    "title": "FERPA: Pwoteje Dosye Lekòl Pitit Ou",
+    "summary": "FERPA pwoteje konfidansyalite dosye edikasyon pitit ou a ak limit ki moun ki ka gen aksè a enfòmasyon sou pitit ou a — enkli otorite imigrasyon yo.",
+    "details": "Family Educational Rights and Privacy Act (FERPA) se yon lwa federal ki pwoteje enfòmasyon prive dosye edikasyon elèv yo. Dapre FERPA, lekòl yo pa kapab divilge dosye pitit ou a — ki enkli estati andikap, dokiman IEP, prezans, oswa enfòmasyon paran — san konsantman ou alekri. Sa a aplike a demann ki soti nan ICE, otorite imigrasyon yo, oswa nenpòt ajans gouvènman an. Lekòl yo pa gendwa pataje enfòmasyon anyè (non, adrès, telefòn) si w refize. Ou gen dwa pou w enspekte tout dosye lekòl la kenbe sou pitit ou a epi pou w mande koreksyon. Konprann FERPA se patikilyèman enpòtan pou fanmi imigran ki ka pè pou chèche sèvis lekòl pral ekspoze estati fanmi yo.",
+    "steps": [
+      "Nan kòmansman chak ane eskolè, refize pataje enfòmasyon anyè — sa anpeche lekòl la divilge non ak adrès pitit ou a.",
+      "Si yon moun mande lekòl la pou dosye pitit ou a, lekòl la dwe notifye w epi jwenn konsantman alekri dabò (ak kèk eksepsyon limite).",
+      "Ou gen dwa pou revize TOUT dosye lekòl la kenbe sou pitit ou a — mande sa alekri.",
+      "Si w jwenn erè nan dosye pitit ou a, soumèt yon demann koreksyon alekri. Lekòl la dwe reponn nan 45 jou.",
+      "Si ICE oswa lapolis kontakte lekòl la, yo pa kapab jwenn aksè nan dosye elèv yo san yon lòd tribinal. Konnen dwa sa a."
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "Dwa Legal",
+    "title": "ADA: Dwa Enfimite nan Espas Piblik yo",
+    "summary": "Lwa Ameriken andikape yo pwoteje pitit ou kont diskriminasyon nan akomodasyon piblik yo, tankou restoran, magazen, pak, ak biwo medikal.",
+    "details": "ADA a se yon lwa dwa sivil ki entèdi diskriminasyon kont moun ki gen andikap nan tout domèn nan lavi piblik. Tit III kouvri akomodasyon piblik — restoran, magazen, otèl, teyat, biwo doktè, ak enstalasyon rekreyasyon dwe fè modifikasyon rezonab pou moun ki andikape. Pou timoun otis, sa ka vle di pèmèt akomodasyon sansoryèl, bèt sèvis, oswa aparèy kominikasyon. Biznis yo pa kapab refize sèvis akòz konpòtman yon timoun ki gen rapò ak andikap. ADA a kouvri tou travay (Tit I) ak sèvis leta/gouvènman lokal yo (Tit II). Sa ki enpòtan, pwoteksyon ADA aplike pou tout moun Ozetazini kèlkeswa sitiyasyon imigrasyon oswa sitwayènte.",
+    "steps": [
+      "Si yon biznis refize sèvi fanmi w poutèt konpòtman pitit ou a ki gen rapò ak otis, sa ka yon vyolasyon ADA. Dokimante ensidan an.",
+      "Ou ka depoze yon plent ADA ak Depatman Jistis nan ada.gov — yo ka depoze plent yo anonim.",
+      "Biznis yo dwe pèmèt bèt sèvis (men se pa bèt sipò emosyonèl) epi yo pa kapab mande frè siplemantè pou yo.",
+      "Si pitit ou a sèvi ak yon aparèy AAC oswa yon tablo kominikasyon, biznis yo dwe bay yon tan rezonab pou kominikasyon.",
+      "Òganizasyon lokal pou dwa moun andikape w yo ka bay konsèy legal gratis sou vyolasyon ADA — chèche 'Protection & Advocacy' plis non eta ou."
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "Dwa Legal",
+    "title": "Medicaid EPSDT: Sèvis Sante pou Timoun konplè",
+    "summary": "Si pitit ou a gen Medicaid, li gen dwa pou yo resevwa sèvis deteksyon, dyagnostik, ak tretman bonè ak peryodik (EPSDT) — pake benefis ki pi konplè nan Medicaid.",
+    "details": "EPSDT se yon benefis Medicaid ki otorize federalman pou tout timoun ki enskri ki poko gen 21 an. Li egzije eta yo bay sèvis sante konplè ki gen ladan tout tretman ki nesesè sou plan medikal, menmsi sèvis sa yo pa kouvri nan plan Medicaid eta a. Pou timoun otis, sa ka gen ladan terapi ABA, terapi lapawòl, terapi okipasyonèl, sèvis sikolojik, teknoloji asistans, ak plis ankò. Eta yo pa kapab enpoze limit abitrè sou sèvis sa yo si yo jije yo medikalman nesesè. Anpil fanmi pa konnen sou EPSDT, ak kèk eta eseye limite benefis sa yo - men lwa federal pase sou restriksyon eta a pou timoun yo. Si Medicaid refize yon sèvis pitit ou bezwen, ou gen dwa pou fè apèl.",
+    "steps": [
+      "Si pitit ou a gen Medicaid epi li bezwen ABA, lapawòl, OT, oswa lòt terapi, mande otorizasyon pou site EPSDT — estanda a se 'medikalman nesesè'.",
+      "Si Medicaid refize yon sèvis, mande refi a alekri. Ou gen dwa pou fè apèl atravè yon odyans san patipri.",
+      "Kontakte biwo Medicaid eta ou a epi mande espesyalman sou benefis EPSDT pou timoun ki gen otis.",
+      "Si eta w di yon sèvis 'pa kouvri,' EPSDT ka pase sou sa pou timoun ki poko gen 21 an. Jwenn èd legal si sa nesesè.",
+      "Òganizasyon Pwoteksyon ak Defans eta a ka ede w goumen kont refi Medicaid gratis."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "Sipò pou Fanmi",
+    "title": "Swen relèv: Pran yon ti repo",
+    "summary": "Swen relèv bay yon soulajman tanporè pou moun k ap pran swen timoun ki gen andikap yo — li ​​esansyèl pou anpeche burnout epi kenbe byennèt fanmi an.",
+    "details": "Swen relèv se swen yon kout tèm pou pitit ou a yon moun k ap bay swen ki resevwa fòmasyon, ki ba ou tan pou w repoze, fè komisyon, oswa pran swen pwòp bezwen w. Rechèch yo montre ke burnout moun k ap bay swen yo trè komen nan fanmi timoun otis yo, e swen regilye pou relèv se youn nan estrateji prevansyon ki pi efikas. Relèv yo ka lakay ou (yon travayè ki resevwa fòmasyon vini lakay ou), andeyò lakay ou (pitit ou ale nan yon etablisman oswa yon lòt fanmi), oswa enfòmèl (yon manm fanmi oswa yon zanmi ki resevwa fòmasyon). Anpil eta ofri finansman swen pou relèv atravè pwogram dispans Medicaid, ajans andikap leta yo, oswa pwogram sipò pou fanmi yo. Gen kèk òganizasyon ki ofri evènman relèv gratis espesyalman pou fanmi timoun ki gen otis.",
+    "steps": [
+      "Kontakte ajans pou andikap devlòpmantal eta w la epi mande enfòmasyon sou pwogram swen pou relèv — anpil moun gen finansman ki disponib.",
+      "Tcheke si egzansyon Medicaid pitit ou a gen ladann lè relèv — anpil egzansyon nan kay ak nan kominote a fè sa.",
+      "Chèche pwogram relèv otis lokal yo atravè Autism Society of America (autism-society.org) oswa Easter Seals.",
+      "Mande terapis pitit ou a si yo konnen ki gen moun k ap bay relèv ki resevwa fòmasyon nan zòn ou an ki gen eksperyans ak otis.",
+      "Kòmanse ak peryòd relèv kout (1-2 èdtan) pandan w ap rete toupre, apresa pwolonje piti piti pandan pitit ou a vin konfòtab."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "Sipò pou Fanmi",
+    "title": "Gwoup Sipò pou Paran yo",
+    "summary": "Konekte ak lòt paran timoun otis diminye izolasyon, bay konsèy pratik, epi bati yon kominote ki konprann eksperyans ou chak jou.",
+    "details": "Leve yon timoun otis, espesyalman kòm yon fanmi imigran, ka izole. Gwoup sipò paran yo bay yon espas pou pataje eksperyans, aprann nan men lòt moun ki te navige nan menm sistèm yo, epi bati amitye ak moun ki vrèman konprann. Gwoup yo ka an pèsòn, sou entènèt, oswa toude. Anpil gwoup yo òganize pa lang ak kilti, yo rekonèt ke pèspektiv kiltirèl sou andikap yo varye anpil. Rechèch yo montre ke paran ki patisipe nan gwoup sipò yo rapòte pi ba estrès, pi bon ladrès pou siviv, ak pi fò kapasite defans. Anpil gwoup sèvi tou kòm rezo enfòmasyon enfòmèl pou jwenn terapis, navige sistèm lekòl yo, ak aksè nan benefis yo.",
+    "steps": [
+      "Chèche gwoup paran otis lokal yo atravè Autism Society (autism-society.org) — filtre pa eta w.",
+      "Tcheke Facebook pou gwoup nan lang ou: chèche 'paran otis [lang ou]' oswa 'padres autismo' pou fanmi ki pale Panyòl.",
+      "Mande terapis, lekòl, oswa pedyat pitit ou a pou rekòmandasyon - yo souvan konnen gwoup lokal yo.",
+      "Si pa gen okenn gwoup lokal nan lang ou a, konsidere kòmanse yon sèl - menm yon gwoup WhatsApp ak 3-4 fanmi kapab pwisan.",
+      "Kominote sou entènèt tankou MyAutismTeam.com konekte paran yo nan tout peyi a epi yo gen karakteristik tradiksyon."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "Sipò pou Fanmi",
+    "title": "Sipòte frè ak sè",
+    "summary": "Frè ak sè timoun otis yo gen bezwen ak eksperyans inik ki merite atansyon — sipòte frè ak sè yo fòtifye tout fanmi an.",
+    "details": "Frè ak sè timoun otis yo souvan fè eksperyans yon melanj de lanmou, fristrasyon, fyète, anbarasman, pwoteksyon, ak resantiman - tout bagay nòmal. Yo ka pran responsablite siplemantè, santi yo neglije lè frè ak sè otis la mande plis atansyon, oswa enkyete sou lavni an. Rechèch montre ke frè ak sè ki resevwa sipò ak enfòmasyon sou otis devlope relasyon pi solid ak frè oswa sè otis yo epi rapòte pi bon byennèt sikolojik. Sibling Support Project (siblingsupport.org) ofri pwogram ki fèt espesyalman pou frè ak sè timoun ki gen bezwen espesyal. Lè w gen konvèsasyon onèt, ki apwopriye pou laj sou otis, ede frè ak sè yo konprann epi fè fas.",
+    "steps": [
+      "Mete sou kote yon sèl-a-yon tan regilye ak chak frè ak sè - menm 15 minit nan atansyon endividi fè yon diferans enpòtan.",
+      "Eksplike otis nan tèm ki apwopriye pou laj yo: 'Sèvo yo travay yon fason diferan. Gen kèk bagay ki pi difisil pou yo, ak kèk bagay yo vrèman bon nan.'",
+      "Rekonèt santiman yo san yo pa jije: 'Li oke pou w santi w fristre lè frè w ap rele. Sa se yon santiman nòmal.'",
+      "Chèche pwogram Sibshop (siblingsupport.org) nan zòn ou an — gwoup sipò kanmarad sa yo se espesyalman pou frè ak sè.",
+      "Evite fè frè ak sè a yon moun k ap okipe yo - yo ka ede, men wòl prensipal yo ta dwe se yon timoun ak yon frè / sè."
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "Sipò pou Fanmi",
+    "title": "Estrateji Oto-Swen Moun kap Swen yo",
+    "summary": "Ou pa ka vide nan yon tas vid. Kenbe pwòp sante fizik ak mantal ou pa egoyis - li esansyèl pou byennèt pitit ou a.",
+    "details": "Paran timoun otis yo fè eksperyans pi gwo pousantaj estrès, enkyetid, depresyon, ak pwoblèm sante fizik pase paran timoun nerotipik yo. Paran imigran yo fè fas ak lòt estrès: baryè langaj, izolasyon kiltirèl, navige nan sistèm yo pa abitye, ak potansyèl laperèz ki gen rapò ak imigrasyon. Swen pwòp tèt ou se pa yon liks - li se yon nesesite. Rechèch toujou montre ke byennèt paran yo afekte dirèkteman rezilta timoun yo. Lè paran yo akable ak boule, yo gen mwens pasyans, mwens enèji pou tretman terapi, ak kapasite redwi pou defann yon fason efikas. Menm ti pratik pwòp tèt ou ki konsistan ka fè yon diferans enpòtan.",
+    "steps": [
+      "Idantifye yon ti pratik chak jou ki rechaje ou: yon ti mache 10 minit, yon tas te an silans, yon apèl nan telefòn ak yon zanmi, oswa 5 minit pou respire pwofon.",
+      "Pa tann 'tan lib' - pran swen tèt ou tankou yon randevou. Menm 10 minit gen anpil valè.",
+      "Si w ap konbat ak enkyetid oswa depresyon, anpil sant sante kominotè ofri terapi glisman-echèl nan plizyè lang.",
+      "Konekte ak omwen yon lòt paran ki konprann - izolasyon anplifye estrès. Menm yon amitye ki baze sou tèks ede.",
+      "Sonje byen: mande èd se yon fòs, se pa yon echèk. Aksepte sipò nan men fanmi, zanmi, oswa pwofesyonèl fè ou yon pi bon paran."
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "Sipò pou Fanmi",
+    "title": "Asistans Finansye ak Benefis",
+    "summary": "Plizyè pwogram federal ak eta ka ede kouvri depans sèvis ki gen rapò ak otis, terapi, ak bezwen chak jou — menm pou fanmi ki gen dokiman ki limite.",
+    "details": "Fado finansye pou elve yon timoun otis la enpòtan — terapi, vizit medikal, ekipman espesyalize, ak salè ki pèdi yo ka fè presyon sou bidjè nenpòt fanmi an. Sepandan, anpil pwogram asistans egziste. SSI (Revni Sekirite Siplemantè) bay peman chak mwa pou timoun andikape ki soti nan fanmi ki gen revni fèb. Medicaid kouvri anpil sèvis terapi atravè EPSDT. Anpil eta gen pwogram egzansyon espesifik pou otis ki kouvri ABA, relèv, ak ekipman adaptasyon. Pwogram Asirans Sante pou Timoun yo (CHIP) kouvri timoun nan fanmi ki touche twòp lajan pou Medicaid men ki pa gen mwayen asirans prive. Kèk nan pwogram sa yo disponib kèlkeswa sitiyasyon imigrasyon yo, sitou pou timoun ki sitwayen ameriken ki gen paran ki pa gen papye.",
+    "steps": [
+      "Aplike pou SSI (Revni Sekirite Siplemantè) nan biwo Sekirite Sosyal lokal ou a — timoun ki gen otis souvan kalifye selon kritè andikap.",
+      "Tcheke si pitit ou a kalifye pou Medicaid oswa CHIP — timoun ki sitwayen ameriken kalifye menm si paran yo pa gen papye.",
+      "Kontakte ajans andikap devlòpmantal eta w la konsènan pwogram dispans pou otis — lis datant egziste, kidonk aplike bonè.",
+      "Gade nan paj resous finansye Autism Speaks (autismspeaks.org/financial-resources) pou jwenn sibvansyon ak pwogram asistans.",
+      "Mande pwofesyonèl swen sante pitit ou a sou frè ki ba yo oswa sou plas pro bono — anpil pratik rezève plas pou fanmi ki nan bezwen.",
+      "Tcheke ak òganizasyon san bi likratif lokal yo ak legliz pou asistans ijans ak depans ki gen rapò ak otis."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "Sipò pou Fanmi",
+    "title": "Konnen Dwa Ou: Sèvis Imigrasyon ak Enfimite",
+    "summary": "Aksede sèvis andikap pou pitit ou a PAP afekte ka imigrasyon w la. Lekòl, lopital, ak founisè terapi pa kapab rapòte w bay otorite imigrasyon yo.",
+    "details": "Anpil fanmi imigran evite chèche sèvis pou pitit otis yo paske yo pè ke li pral atire ranfòsman imigrasyon oswa afekte ka yo. Laperèz sa a se konprann men lajman san fondman. Lwa federal entèdi lekòl yo pou yo mande sou sitiyasyon imigrasyon. HIPAA pwoteje konfidansyalite dosye medikal yo. Sèvi ak Medicaid, WIC, pwogram manje midi lekòl la, oswa sèvis andikap pou pitit ou a ki sitwayen ameriken pa konte kòm yon pwoblèm 'chaj piblik' pou rezon imigrasyon (dapre règleman aktyèl la). Founisè terapi, lekòl, ak lopital yo jeneralman konsidere kòm 'kote sansib' kote ranfòsman ICE limite. Konprann pwoteksyon sa yo ka ede fanmi yo jwenn aksè nan sèvis pitit yo bezwen san pè.",
+    "steps": [
+      "Lekòl yo PA KAPAB mande sou sitiyasyon imigrasyon ou oswa sou sitiyasyon pitit ou a kòm yon kondisyon pou enskripsyon oswa sèvis yo.",
+      "Sèvi ak Medicaid, CHIP, oswa sèvis edikasyon espesyal pou pitit ou a PA fè w tounen yon \"chaj piblik\" - sa yo espesyalman eskli.",
+      "Si yon moun nan yon lekòl oswa biwo medikal mande sou sitiyasyon imigrasyon ou, ou ka refize reponn. Rapòte sa bay distri lekòl la.",
+      "Kenbe yon kat ki gen dwa w ak nimewo yon avoka imigrasyon. Anpil òganizasyon èd legal bay kat gratis 'Konnen dwa ou yo' nan plizyè lang.",
+      "Kontakte Legal Aid Society oswa chapit ACLU lokal ou a pou jwenn konsèy legal gratis ki gen rapò ak imigrasyon — anpil moun gen pwogram espesyal pou fanmi ki gen timoun andikape."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "Edikasyon",
+    "title": "Entèvansyon Bonè (Pati C IDEA) — Laj 0-3",
+    "summary": "Sèvis federal entèvansyon bonè pou tibebe ak timoun piti ki gen reta nan devlopman, disponib pou tout fanmi kèlkeswa sitiyasyon imigrasyon yo.",
+    "details": "Pati C IDEA se yon pwogram federal ki bay sèvis entèvansyon bonè pou tibebe ak timoun piti (nesans jiska laj 2 an) ki gen reta nan devlopman oswa dyagnostike kondisyon tankou otis. Chak eta gen yon ajans dirijan ki kowòdone sèvis ki gen ladan terapi lapawòl, terapi okipasyonèl, terapi fizik, sipò konpòtman, ak fòmasyon fanmi. Sèvis yo delivre nan anviwònman natirèl tankou kay la oswa gadri. Evalyasyon yo toujou gratis, epi sèvis yo bay gratis oswa pri ki ba selon eta ou. Yon timoun pa bezwen yon dyagnostik fòmèl otis pou resevwa sèvis Pati C — reta devlopman se ase. Sa a se youn nan pwogram ki pi enpòtan pou fanmi imigran yo paske elijiblite a baze antyèman sou bezwen devlopman, pa estati imigrasyon oswa kapasite pou peye.",
+    "steps": [
+      "Kontakte pwogram entèvansyon bonè Pati C nan eta w la — jwenn eta w nan ectacenter.org/contact/ptccoord.asp.",
+      "Mande yon evalyasyon devlopman gratis — pwogram nan dwe ranpli li nan 45 jou apre referans.",
+      "Ou PA bezwen yon dyagnostik otis pou resevwa sèvis — reta nan devlopman se ase.",
+      "Si w kalifye, ede w devlope Plan Sèvis pou Fanmi Endividyalize (IFSP) pitit ou a ki bay lis tout sèvis yo.",
+      "Sèvis yo kòmanse le pli vit ke ou siyen IFSP a — mande sou lapawòl, OT, PT, ak sipò konpòtman.",
+      "Nan laj 2.5 an, kòmanse planifye tranzisyon nan sèvis matènèl (Pati B) atravè distri lekòl ou a."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "Edikasyon",
+    "title": "Planifikasyon Tranzisyon (Laj 14-22)",
+    "summary": "IDEA mande pou lekòl yo planifye pou tranzisyon pitit ou a nan lavi adilt, ki gen ladan travay, edikasyon, ak lavi endepandan, kòmanse nan laj 16 an (laj 14 nan kèk eta).",
+    "details": "Planifikasyon tranzisyon an se yon eleman IEP ki otorize federal la ki prepare elèv ki gen andikap pou lavi apre lekòl segondè. Dapre IDEA, objektif tranzisyon ak sèvis yo dwe enkli nan IEP a kòmanse pa pita nan ane elèv la vin gen 16, menm si anpil eta kòmanse nan 14. Plan yo dwe adrese edikasyon apre segondè oswa fòmasyon, travay, ak kote sa apwopriye, ladrès lavi endepandan. Pou elèv otis yo, planifikasyon tranzisyon an ta dwe gen ladan evalyasyon pwofesyonèl, fòmasyon konpetans pou travay, ansèyman ki baze sou kominote a, fòmasyon pou defann tèt yo, ak koneksyon ak ajans sèvis pou granmoun. Rechèch yo montre ke elèv ki gen otis yo gen kèk nan pi move rezilta apre lekòl segondè yo konpare ak lòt kategori andikap, sa ki fè bon jan kalite tranzisyon planifikasyon kritik. Paran yo ta dwe patisipe aktivman epi yo dwe envite elèv la ale nan reyinyon IEP pa yo yon fwa planifikasyon tranzisyon an kòmanse.",
+    "steps": [
+      "Mande pou planifikasyon tranzisyon an kòmanse a laj 14 an menm si eta ou a pa egzije sa jiska 16 an — planifikasyon bonè mennen nan pi bon rezilta.",
+      "Asire ke IEP a gen ladann objektif apre lekòl segondè ki mezirab nan edikasyon/fòmasyon, travay, ak lavi endepandan.",
+      "Mande evalyasyon pwofesyonèl ak eksperyans travay nan kominote a kòm yon pati nan plan tranzisyon an.",
+      "Envite pitit ou a nan reyinyon IEP yo — ladrès pou defann tèt li se yon bagay ki enpòtan pou granmoun yo reyisi.",
+      "Konekte ak ajans reyabilitasyon pwofesyonèl eta w la anvan pitit ou a kite lekòl la — yo ka bay sipò pou travay.",
+      "Chèche ajans sèvis pou granmoun nan zòn ou an (ajans pou andikap devlopman, pwogram travay sipòte) epi kòmanse referans anvan laj 18 an."
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "Edikasyon",
+    "title": "Sant Fòmasyon ak Enfòmasyon pou Paran (PTIs)",
+    "summary": "Sant gratis, ki finanse federalman nan chak eta ki ede paran yo navige nan edikasyon espesyal, konprann dwa yo, epi defann pitit yo.",
+    "details": "Sant Fòmasyon ak Enfòmasyon pou Paran (PTIs) yo finanse atravè IDEA epi yo egziste nan chak eta. Yo bay paran timoun andikape fòmasyon ak sipò gratis depi yo fèt jiska laj 26 an. Anplwaye PTI ede fanmi yo konprann lwa edikasyon espesyal, patisipe efektivman nan reyinyon IEP yo, rezoud konfli ak lekòl yo, epi konekte ak resous kominote yo. Anpil PTI ofri sèvis nan lang panyòl ak lòt lang. PTI yo pa reprezante distri lekòl la — yo se òganizasyon endepandan k ap sèvi fanmi yo. Yo ka ede w konprann dwa w dapre IDEA, Seksyon 504, ak ADA. Pou fanmi imigran yo, PTI yo patikilyèman enpòtan paske yo bay sipò gratis, ki gen konesans kèlkeswa sitiyasyon imigrasyon yo.",
+    "steps": [
+      "Jwenn PTI eta w la sou parentcenterhub.org/find-your-center — chak eta gen omwen youn.",
+      "Rele epi mande enfòmasyon sou atelye gratis sou dwa IEP, lwa edikasyon espesyal, ak sèvis otis.",
+      "Mande sipò youn a youn pou reyinyon IEP k ap vini yo — anpil PTI ka ede w prepare oswa patisipe avèk ou.",
+      "Mande si yo gen anplwaye ki pale lang ou oswa ki ka bay sèvis entèpretasyon.",
+      "Ale nan evènman koneksyon paran-a-paran pou rankontre lòt fanmi kap navige defi menm jan an.",
+      "Sèvi ak bibliyotèk resous yo pou echantiyon lèt, gid dwa, ak enfòmasyon sou sèvis lokal yo."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "Edikasyon",
+    "title": "Teknoloji Asistans nan Lekòl yo",
+    "summary": "Dapre IDEA, lekòl yo dwe konsidere teknoloji asistans pou chak timoun ki gen yon IEP epi bay aparèy ak sèvis gratis si ekip IEP a detèmine yo nesesè.",
+    "details": "Teknoloji asistans (AT) gen ladan nenpòt aparèy oswa sèvis ki ede yon timoun ki gen yon andikap jwenn aksè nan edikasyon. Pou timoun otis, AT ka gen ladan aparèy kominikasyon (AAC), aplikasyon pou orè vizyèl, kas ekoutè ki anile bri, vès ki gen filaplon, aparèy pou jenere lapawòl, lojisyèl tèks-a-lapawòl, ak klavye espesyalize. Dapre IDEA, ekip IEP a dwe konsidere si yon timoun bezwen aparèy ak sèvis AT pou resevwa FAPE. Si yo ekri AT nan IEP a, distri lekòl la dwe bay fanmi an li gratis. Lekòl yo pa kapab refize AT akòz pri. Konsiderasyon AT ta dwe fèt nan chak reyinyon IEP, epi fanmi yo ka mande yon evalyasyon AT nenpòt ki lè. Anpil eta gen bibliyotèk AT ki prete tou kote fanmi yo ka prete aparèy pou eseye anvan yo komèt.",
+    "steps": [
+      "Nan pwochen reyinyon IEP pitit ou a, mande pou yo konsidere fòmèlman teknoloji asistans — IDEA mande sa.",
+      "Si AT nesesè, mande yon espesyalis yon evalyasyon fòmèl AT — lekòl la dwe bay sa a gratis.",
+      "Eksplore opsyon AT atravè bibliyotèk prete AT eta ou a — pifò eta gen youn (jwenn pa w la nan atap.org).",
+      "Si AT enkli nan IEP a, lekòl la dwe bay, kenbe ak fòme anplwaye yo sou itilizasyon aparèy yo.",
+      "Pitit ou a ka pran aparèy AT lakay ou si ekip IEP a detèmine itilizasyon lakay li nesesè pou FAPE.",
+      "Si lekòl la refize AT, mande refi a alekri epi konsidere depoze yon diskisyon atravè medyasyon oswa yon pwosedi jis."
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "Sèvis Leta",
+    "title": "Ajans Eta Devlopman Andikape",
+    "summary": "Chak eta gen yon ajans pou andikap devlòpmantal ki kowòdone sèvis pou moun ki gen otis ak lòt andikap devlòpmantal.",
+    "details": "Ajans Eta Devlopman Andikap (DD) administre pwogram ak finansman pou moun ki gen andikap devlòpmantal ki gen ladan otis. Sèvis tipikman gen ladan evalyasyon dyagnostik, jesyon ka, sèvis nan kay ak nan kominote a, sipò rezidansyèl, pwogram lajounen, travay sipò, swen pou relèv, ak sipò fanmi. Nan kèk eta (tankou Kalifòni), sèvis yo bay nan sant rejyonal yo. Nan lòt moun, ajans DD eta a fè kontra ak founisè lokal yo. Ajans sa yo se pòtay nan pwogram egzansyon Medicaid, ki ka finanse terapi ABA, swen relèv, ak lòt sèvis enpòtan. Anpil ajans DD gen lis datant ki long, kidonk li esansyèl pou aplike bonè. Sèvis yo disponib jeneralman kèlkeswa sitiyasyon imigrasyon, menm si sèvis Medicaid finanse yo ka gen kondisyon pou kalifikasyon.",
+    "steps": [
+      "Jwenn ajans DD eta ou a nan nasddds.org/state-agencies — chak eta gen youn.",
+      "Kontakte yo pou w konnen ki sèvis ki disponib pou timoun ki gen otis nan eta w la.",
+      "Mande sou pwogram dispans Medicaid — aplike pou tout egzansyon pitit ou a ka kalifye pou yo, paske lis datant yo ka dire plizyè ane.",
+      "Mande yon koòdonatè sèvis oswa yon manadjè ka ki ka ede navige nan pwogram ki disponib yo.",
+      "Mande sou sèvis sipò fanmi yo: fòmasyon paran, sipò frè ak sè, swen pou relèv, ak asistans finansye.",
+      "Si pitit ou a ap pwoche laj granmoun, mande enfòmasyon sou sèvis laj tranzisyon ak pwogram travay sipòte."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "Sèvis Leta",
+    "title": "Egzansyon Sèvis ki baze nan kay ak kominotè (HCBS).",
+    "summary": "Dispans Medicaid HCBS finanse sèvis otis lakay ou ak nan kominote w, tankou terapi ABA, swen pou relèv, ak sipò pèsonèl — souvan kèlkeswa revni fanmi w.",
+    "details": "Dispans HCBS pèmèt eta yo bay sèvis ki finanse ak Medicaid nan kay ak kominote olye ke nan enstitisyon. Pou timoun ki gen otis, egzansyon sa yo ka kouvri terapi ABA, terapi lapawòl, terapi okipasyonèl, swen relèv, asistans swen pèsonèl, travay sipò, abilitasyon lajounen, teknoloji asistans, modifikasyon anviwònman, ak fòmasyon fanmi. Elijiblite anjeneral baze sou nivo andikap timoun nan, pa revni fanmi an - revni timoun nan konsidere separeman ak paran yo. Gen kèk eta ki gen dispans espesifik pou otis (tankou Maryland's Autism Waiver) pandan ke lòt gen ladan otis anba pi laj egzansyon DD. Lis datant yo ka trè long - pafwa 5-10 ane - kidonk aplike pi bonè posib se kritik. Ou ka nan plizyè lis datant pou dispans an menm tan.",
+    "steps": [
+      "Kontakte biwo Medicaid eta ou oswa ajans DD pou konnen ki egzansyon HCBS ki sèvi timoun ki gen otis.",
+      "Aplike pou chak egzansyon pitit ou a ka kalifye pou yo — ou ka sou plizyè lis datant an menm tan.",
+      "Mande sou pozisyon ou sou lis datant la ak tan datant estime — swiv chak 3-6 mwa.",
+      "Rasanble dokiman: dyagnostik otis, evalyasyon fonksyonèl, dosye medikal, ak evalyasyon lekòl la.",
+      "Yon fwa yo apwouve, travay avèk kowòdonatè sèvis ou a pou devlope yon plan sèvis ki santre sou moun.",
+      "Revize plan w la chak ane epi mande chanjman pandan bezwen yo ap evolye — ou gen dwa fè apèl kont nenpòt refi sèvis."
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "Sèvis Leta",
+    "title": "Sèvis Reyabilitasyon Pwofesyonèl (VR).",
+    "summary": "Sèvis travay gratis leta finanse pou moun ki gen andikap, tankou fòmasyon pou travay, konsèy sou karyè, travay sipò, ak plasman nan travay.",
+    "details": "Reyabilitasyon Pwofesyonèl (VR) se yon pwogram leta-federal ki otorize dapre Lwa Reyabilitasyon 1973 ki ede moun ki gen andikap prepare, jwenn ak kenbe travay. Chak eta gen yon ajans VR ki bay sèvis endividyalize tankou konsèy karyè, evalyasyon pwofesyonèl, fòmasyon sou konpetans travay, travay sipò, teknoloji asistans pou travay, antrenè travay, ak plasman nan travay. Pou jèn adilt otis ak jèn ki gen laj tranzisyon, VR kapab yon pon enpòtan soti nan lekòl la nan travay. Sèvis VR yo gratis epi yo disponib pou nenpòt moun ki gen yon andikap ki kreye yon gwo baryè pou travay. Sèvis tranzisyon anvan travay yo disponib pou elèv ki gen andikap ki gen laj 14-21 menm anvan yo aplike pou VR. Konekte ak VR anvan pitit ou a kite lekòl la pou tranzisyon ki pi fasil la.",
+    "steps": [
+      "Jwenn ajans VR eta ou a sou rsa.ed.gov/about/states — gen 78 ajans VR nan tout peyi a.",
+      "Aplike pou sèvis VR — kalifikasyon mande pou yon andikap ki kreye yon gwo baryè nan travay.",
+      "Si pitit ou a toujou lekòl (laj 14-21), mande enfòmasyon sou sèvis tranzisyon anvan travay ki disponib san yon aplikasyon VR konplè.",
+      "Travay ak konseye VR ou a pou devlope yon Plan Endividyalize pou Travay (IPE) ak objektif espesifik.",
+      "Mande enfòmasyon sou sèvis travay ki sipòte yo ki gen ladan fòmasyon travay ak sipò nan travay pou moun ki otis yo.",
+      "Sèvis VR yo kontinye jiskaske moun nan jwenn yon travay ki estab — swiv regilyèman avèk konseye w la."
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "Imigrasyon",
+    "title": "Aplikasyon ITIN pou Fanmi san papye",
+    "summary": "Yon Nimewo Idantifikasyon Endividyèl Taxpayer (ITIN) pèmèt ou ranpli taks, louvri kont labank, ak aksè nan sèten sèvis san yon nimewo Sekirite Sosyal.",
+    "details": "ITIN a se yon nimewo pou trete taks IRS bay moun ki oblije gen yon nimewo idantifikasyon kontribyab ameriken men ki pa kalifye pou yon nimewo Sekirite Sosyal. Depi 1996, IRS te bay ITIN pou imigran san papye ak depandan yo. Yon ITIN pèmèt ou ranpli deklarasyon taks federal, louvri kont labank, aplike pou benefis leta ak lokal, epi etabli yon dosye finansye. Pou aplike, ranpli Fòm W-7 IRS epi soumèt li ak yon deklarasyon taks federal ak prèv idantite (paspò, idantite konsila, oswa lòt dokiman aksepte). Ou ka aplike pa lapòs, an pèsòn nan yon Sant Asistans pou Kontribyab IRS, oswa atravè yon Ajan Akseptasyon Sètifye. REMAK: Yon lòd tribinal Novanm 2025 kounye a bloke yon akò IRS-ICE pataje done, men fanmi yo ta dwe konnen sitiyasyon sa a ka chanje.",
+    "steps": [
+      "Rasanble dokiman obligatwa yo: yon paspò valab se dokiman idantite otonòm ki pi souvan aksepte.",
+      "Ranpli Fòm W-7 IRS — ou ka telechaje li sou irs.gov oswa jwenn èd nan men yon Ajan Akseptasyon Sètifye.",
+      "Soumèt Fòm W-7 ak deklarasyon taks federal ou (Fòm 1040) — Yo ka bay ITIN sèlman lè w ap ranpli taks.",
+      "Jwenn yon Ajan Sètifye Akseptasyon (CAA) toupre w nan irs.gov — yo ka verifye dokiman yo pou w pa bezwen voye orijinal yo pa lapòs.",
+      "Pèmèt 7-11 semèn pou pwosesis - pi long pandan sezon taks (janvye jiska avril).",
+      "Renouvle ITIN ou a si li ekspire — ITIN ki pa itilize yo ekspire apre 3 ane youn apre lòt lè yo pa itilize yo."
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "Imigrasyon",
+    "title": "Sant Sante Kominotè (FQHCs)",
+    "summary": "Sant Sante ki kalifye federalman sèvi tout moun kèlkeswa sitiyasyon imigrasyon oswa kapasite pou peye, ak frè ki baze sou yon echèl glisman ki mare ak revni ou.",
+    "details": "Sant Sante Kalifye Federal (FQHCs) se òganizasyon swen sante ki baze nan kominote a ki bay swen prensipal konplè, dantè, sante mantal, ak sèvis sipò pou popilasyon ki pa desèvi. Dapre lalwa, FQHC yo dwe sèvi tout pasyan kèlkeswa sitiyasyon imigrasyon, kouvèti asirans, oswa kapasite pou peye. Yo itilize yon echèl frè glisman ki baze sou revni kay la — fanmi ki nan oswa pi ba pase 100% nivo povrete federal la anjeneral resevwa swen gratis oswa pou yon frè nominal. FQHC yo te sèvi plis pase 30 milyon pasyan an 2023, ki gen ladan anpil fanmi imigran. Pou timoun otis, FQHC yo ka bay tès depistaj devlopman, referans pou evalyasyon dyagnostik, swen prensipal, ak koneksyon ak espesyalis. Anpil FQHC gen anplwaye bileng ak sèvis entèpretasyon.",
+    "steps": [
+      "Jwenn yon FQHC toupre w nan findahealthcenter.hrsa.gov — antre kòd postal ou pou fè rechèch.",
+      "Rele pou w pran yon randevou — eksplike w bezwen sèvis epi mande w konsènan frè k ap monte.",
+      "Pote prèv revni (souch peman, deklarasyon labank, oswa yon deklarasyon pwòp tèt ou) pou detèmine nivo frè ou.",
+      "Ou PA bezwen bay dokiman imigrasyon, yon nimewo Sekirite Sosyal, oswa asirans.",
+      "Mande sou tès depistaj devlopman pou pitit ou a ak referans bay founisè evalyasyon otis.",
+      "Mande sou sèvis sante mantal pou tèt ou — anpil FQHC ofri konsèy nan plizyè lang."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "Imigrasyon",
+    "title": "Estati Espesyal Imigran Jivenil (SIJS)",
+    "summary": "Yon chemen ki mennen nan rezidans pèmanan legal pou timoun imigran ki poko gen 21 an ki te abi, abandone, oswa neglije pa youn oswa toude paran.",
+    "details": "Espesyal Estati Imigran Jivenil (SIJS) se yon fòm pwoteksyon imanitè ki ka bay yon chemen pou yon kat vèt pou timoun imigran ki te siviv abi, abandon, oswa neglijans. Pou kalifye, timoun nan dwe gen mwens pase 21 ane, li pa marye, epi li dwe gen yon òdonans tribinal eta ki konstate ke youn oswa toude paran yo te abize yo, neglije yo oswa abandone yo e ke li pa nan pi bon enterè yo pou yo retounen nan peyi yo. Pou timoun ki gen otis, SIJS ka enpòtan lè yon paran te abandone fanmi an oswa lè timoun nan te fè eksperyans neglijans ki gen rapò ak bezwen andikap yo. Pwosesis la enplike tou de pwosedi tribinal eta a (pou jwenn rezilta ki nesesè yo) ak pwosedi imigrasyon federal (petisyon SIJS ak aplikasyon pou kat vèt). Èd legal gratis disponib atravè òganizasyon èd legal imigrasyon yo.",
+    "steps": [
+      "Konsilte ak yon avoka imigrasyon ki espesyalize nan ka timoun — anpil òganizasyon èd legal okipe ka SIJS gratis.",
+      "Detèmine si pitit ou a satisfè egzijans yo: ki poko gen 21 an, li pa marye, epi li sibi abi/abandon/neglijans yon paran.",
+      "Jwenn konklizyon ki nesesè yo nan yon tribinal eta (fanmi, jivenil, oswa omologasyon selon eta ou).",
+      "Depoze Fòm I-360 (Petisyon Espesyal Imigran) ak USCIS ansanm ak lòd tribinal eta a.",
+      "Yon fwa SIJS apwouve, aplike pou rezidans pèmanan legal (kat vèt) lè w ranpli Fòm I-485.",
+      "Kontakte òganizasyon tankou Safe Passage Project, NIJC, oswa CLINIC pou jwenn reprezantasyon legal gratis."
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "Imigrasyon",
+    "title": "Règ chaj piblik: Sa ki konte ak sa ki pa",
+    "summary": "Sèvi ak sèvis andikap, Medicaid, CHIP, WIC, manje midi lekòl, oswa edikasyon espesyal pou pitit ou a PA ap ​​konte kont ou nan pwosedi imigrasyon dapre lalwa aktyèl la.",
+    "details": "Règ chaj piblik la se youn nan pi gwo sous laperèz pou fanmi imigran yo. Dapre règ ki an vigè kounye a (2022), sèlman benefis ki konte nan yon detèminasyon chaj piblik se SSI (Revni Sekirite Siplemantè), asistans lajan kach TANF, ak enstitisyonalizasyon alontèm sou depans gouvènman an. Medicaid (eksepte enstitisyon alontèm), CHIP, SNAP, WIC, manje midi lekòl, avantaj lojman, Head Start, edikasyon espesyal, ak sèvis entèvansyon bonè PA konte. Benefis pitit ou yo resevwa pou pwòp non yo PA atribiye a ou. Yon règ pwopoze ki te pibliye an Novanm 2025 ta ka elaji sa ki konte, men li poko anvigè epi li fè fas ak defi legal. Dapre lalwa aktyèl la, lè w sèvi ak sèvis andikap pou pitit ou a pa pral afekte ka imigrasyon w lan.",
+    "steps": [
+      "Konnen enfòmasyon yo: Medicaid, CHIP, WIC, SNAP, manje midi lekòl, Head Start, ak edikasyon espesyal PA konte kòm chaj piblik.",
+      "Benefis pitit sitwayen ameriken ou resevwa yo PA konte sou ou — sèlman benefis ou resevwa pèsonèlman enpòtan.",
+      "Sèl benefis ki konte kounye a se SSI, TANF lajan kach, ak enstitisyonalizasyon alontèm sou depans gouvènman an.",
+      "Si w gen enkyetid sou imigrasyon, konsilte avèk yon avoka imigrasyon anvan ou pran desizyon sou benefis - anpil òganizasyon èd legal ofri konsiltasyon gratis.",
+      "Rete enfòme sou chanjman nan règ chaj piblik la atravè NILC (nilc.org) ak ILRC (ilrc.org).",
+      "Pa retire nan pwogram ki baze sou laperèz sèlman - jwenn konsèy legal egzat espesifik nan sitiyasyon ou."
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "Asirans ak Finansman",
+    "title": "Manda Asirans Otis Eta a",
+    "summary": "Tout 50 eta kounye a egzije plan asirans pou kouvri sèvis otis ki gen ladan terapi ABA, menm si detay sou kouvèti asirans tankou limit laj ak limit dola varye selon eta.",
+    "details": "Tout 50 eta Ozetazini yo te adopte manda asirans otis ki egzije plan asirans sante pou kouvri dyagnostik ak tretman maladi spectre otis, ki gen ladan Analiz Konpòtman Aplike (ABA). Sepandan, detay kouvèti yo varye anpil pa eta a. Gen kèk eta ki limite benefis ABA anyèl yo (ki soti nan $36,000 jiska plis pase $72,000 pa ane), pandan ke lòt pa gen okenn limit. Limit laj yo varye — kèk eta yo kouvri timoun yo sèlman, pandan ke lòt yo mande pwoteksyon pou tout laj yo. Plan anplwayè ki finanse pwòp tèt ou (plan ERISA) yo egzante de manda eta yo, men yo ka sijè a kondisyon federal sante mantal egalite. Si asirans ou refize sèvis otis, ou gen dwa fè apèl. Lwa federal sou egalite nan sante mantal ak sou egalite pou adiksyon an egzije pou benefis sante mantal (ki gen ladan tretman otis) kouvri menm jan ak benefis medikal/chirijikal yo.",
+    "steps": [
+      "Chèche mandat espesifik asirans otis eta ou a nan ncsl.org/health/autism-and-insurance-coverage-state-laws.",
+      "Mande yon kopi benefis otis plan w la alekri — mande enfòmasyon sou kouvèti ABA, limit laj, limit sesyon, ak limit dola.",
+      "Jwenn yon referans nan men doktè pitit ou a ki espesifye tretman rekòmande a ak nesesite medikal.",
+      "Si yo refize, mande refi a alekri ak sitasyon politik espesifik la epi depoze yon apèl entèn.",
+      "Si apèl entèn la echwe, depoze yon apèl ekstèn nan depatman asirans eta w la.",
+      "Kontakte òganizasyon Pwoteksyon & Defans eta a pou jwenn èd gratis ak kontestasyon asirans."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "Asirans ak Finansman",
+    "title": "Katie Beckett / Egzansyon TEFRA",
+    "summary": "Bay pwoteksyon Medicaid pou timoun ki gen andikap grav k ap viv lakay yo, dapre revni timoun nan (pa paran yo), ki fè pifò timoun yo kalifye kèlkeswa revni fanmi an.",
+    "details": "Opsyon Katie Beckett (yo rele tou TEFRA) pèmèt eta yo bay Medicaid timoun ki gen andikap grav k ap viv lakay yo, lè yo konte sèlman revni timoun nan olye ke revni paran yo. Piske pifò timoun pa gen revni, sa fè gwo majorite timoun ki gen gwo andikap elijib pou Medicaid kèlkeswa kantite lajan paran yo touche. Pwogram nan te kreye an 1982 apre Katie Beckett, yon timoun sou vantilatè, te kapab sèlman resevwa swen Medicaid finanse nan yon lopital olye ke nan kay la paske revni paran li yo te twò wo. Kounye a apeprè 24 eta ofri kèk fòm pwoteksyon Katie Beckett/TEFRA. Pou timoun ki gen otis ki bezwen terapi chè tankou ABA, pwogram sa a ka chanje lavi paske li bay pwoteksyon Medicaid ki gen ladan benefis EPSDT. Kontakte biwo Medicaid eta ou a pou konnen si eta ou ofri opsyon sa a.",
+    "steps": [
+      "Tcheke si eta w la ofri yon opsyon Katie Beckett/TEFRA nan kidswaivers.org oswa lè w rele biwo Medicaid eta w la.",
+      "Pou kalifye, pitit ou a dwe satisfè kritè andikap pou SSI (limit fonksyonèl enpòtan akòz otis).",
+      "Aplike nan biwo Medicaid eta ou a — aplikasyon an evalye nivo andikap timoun nan, pa finans fanmi an.",
+      "Rasanble dokiman medikal: dyagnostik otis, evalyasyon fonksyonèl, dosye terapi, ak deklarasyon doktè sou bezwen swen.",
+      "Si yo apwouve li, pitit ou a ap resevwa tout avantaj Medicaid ki gen ladan EPSDT — ABA, lapawòl, OT, ak tout sèvis ki nesesè sou plan medikal.",
+      "Si eta w pa ofri Katie Beckett, mande sou lòt chemen Medicaid pou timoun andikape (egzanpsyon HCBS, pwogram ki nan bezwen medikal)."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "Asirans ak Finansman",
+    "title": "Kont ABLE (Epay ki avantaje taks)",
+    "summary": "Kont depay san taks pou depans ki gen rapò ak andikap ki pa afekte kalifikasyon pou SSI, Medicaid, oswa lòt benefis ki gen tès mwayen.",
+    "details": "Kont ABLE (Achieving a Better Life Experience), ki otorize pa Lwa ABLE 2014 la, se kont epay avantaje taks pou moun ki andikape yo te kòmanse anvan laj 46 an. Kontribisyon yo san taks epi retrè yo gratis lè yo itilize yo pou depans pou andikap kalifye (QDEs) ki gen ladan edikasyon, swen pèsonèl, sèvis sipò, teknoloji ak sèvis sipò. Premye $100,000 ki nan yon kont ABLE yo egzante de limit resous SSI ki se $2,000, sa vle di pitit ou a ka ekonomize lajan san li pa pèdi kalifikasyon SSI oswa Medicaid. Limit kontribisyon anyèl yo se $18,000 (2025), ak kontribisyon adisyonèl pèmèt pou benefisyè k ap travay. Pifò eta yo ofri pwogram ABLE, epi ou ka louvri yon kont nan nenpòt eta. Pou fanmi timoun otis yo, kont ABLE yo se youn nan pi bon zouti pou ekonomize pou depans ki gen rapò ak andikap pandan y ap konsève kalifikasyon pou benefis yo.",
+    "steps": [
+      "Tcheke kalifikasyon: benefisyè kont la dwe genyen yon andikap ki te kòmanse anvan laj 46 an.",
+      "Konpare pwogram ABLE eta yo sou ablenrc.org — ou ka louvri yon kont nan nenpòt eta, pa sèlman kont ou.",
+      "Louvri yon kont sou Entènèt atravè pwogram ABLE eta ou chwazi a — pwosesis la sanble ak ouvèti yon kont labank.",
+      "Mete kanpe kontribisyon otomatik yo - menm ti kantite regilye yo bati sou tan.",
+      "Kenbe dosye sou tout retrè ak fason yo depanse lajan pou depans pou andikap kalifye.",
+      "Premye $100,000 yo PA konte nan limit resous $2,000 SSI a — sove san yo pa pè pèdi benefis yo."
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "Asirans ak Finansman",
+    "title": "Sibvansyon Otis ak Pwogram Bousdetid",
+    "summary": "Sibvansyon finansye ki soti nan òganizasyon san bi likratif ki ede kouvri depans terapi, evalyasyon dyagnostik, teknoloji asistans, ak lòt depans ki gen rapò ak otis.",
+    "details": "Plizyè òganizasyon san bi likratif bay sibvansyon finansye bay fanmi timoun ki gen otis. ACT Today (Autism Care and Treatment Today) ofri sibvansyon jiska $5,000 pou fanmi ki pa gen mwayen oswa ki pa kapab jwenn tretman. Autism Speaks Autism Care Grant bay $500 pou depans ki gen rapò ak otis. United Healthcare Children's Foundation (UHCCF) ofri sibvansyon jiska $5,000 pa ane pou depans medikal ki pa kouvri pa asirans. Anpil nan sibvansyon sa yo pa mande pou yon nimewo Sekirite Sosyal oswa estati imigrasyon espesifik. Anplis de sa, kèk eta ofri pwogram bousdetid otis ki finanse ekolaj oswa terapi lekòl prive pou timoun ki gen otis (tankou Pwogram Bousdetid Otis Ohio). Sosyete otis lokal yo, fondasyon kominotè yo, ak òganizasyon sèvis yo (Lions Club, Rotary, Elks) ka bay asistans finansye tou.",
+    "steps": [
+      "Aplike pou sibvansyon ACT Today nan act-today.org — sibvansyon yo kouvri terapi, evalyasyon, ak teknoloji asistans.",
+      "Aplike pou Autism Speaks Autism Care Grant nan autismspeaks.org — sibvansyon $500 pou depans ki gen rapò ak otis.",
+      "Tcheke sibvansyon UHCCF sou uhccf.org — jiska $5,000/ane pou depans medikal ki pa kouvri pa asirans.",
+      "Chèche bous detid otis nan eta w la - kèk eta finanse lekòl prive oswa terapi pou timoun otis.",
+      "Kontakte afilye Autism Society lokal ou a pou w jwenn enfòmasyon sou sibvansyon lokal yo ak pwogram asistans finansye yo.",
+      "Mande founisè terapi yo sou plas pro bono, frè glisman-echèl, oswa plan peman - anpil plas rezève pou fanmi ki nan bezwen."
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "Terapi",
+    "title": "Kominikasyon Ogmante ak Altènatif (AAC)",
+    "summary": "Sistèm kominikasyon ak aparèy ki ede timoun ki pa pale oswa ki minim vèbal eksprime panse yo, bezwen yo, ak santiman yo atravè foto, senbòl, oswa teknoloji jenere lapawòl.",
+    "details": "Kominikasyon Ogmante ak Altènatif (AAC) anglobe tout fòm kominikasyon ki pa pale oral. Pou timoun otis ki pa pale oswa ki minim vèbal, AAC ka transfòme. Opsyon yo varye ant teknoloji ki ba (tablo foto, PECS — Picture Exchange Communication System, liv kominikasyon) ak gwo teknoloji (aplikasyon ki baze sou tablèt tankou Proloquo2Go oswa TouchChat, aparèy dedye pou jenere lapawòl). Rechèch toujou montre ke AAC PA anpeche timoun yo devlope lapawòl - an reyalite, etid yo montre li ka aktyèlman ogmante kominikasyon vèbal. Pa gen okenn kondisyon pou itilize AAC - timoun nenpòt laj oswa nivo kapasite yo ka benefisye. Dapre IDEA, si yo detèmine yon aparèy AAC nesesè pou FAPE, lekòl la dwe bay li gratis. Medicaid ak asirans ka kouvri tou aparèy AAC ak dokiman apwopriye sou nesesite medikal.",
+    "steps": [
+      "Mande SLP pitit ou a sou opsyon AAC — yon patolojis lapawòl-lang ta dwe evalye ki kalite AAC ki pi bon pou pitit ou a.",
+      "Kòmanse ak sa ki travay: menm montre, jès, ak kat foto yo konte kòm AAC - ou pa bezwen teknoloji chè.",
+      "Eseye aplikasyon AAC ki baze sou tablèt (Proloquo2Go, TouchChat, LAMP Words for Life) — anpil ofri esè gratis.",
+      "Mande yon evalyasyon AAC atravè IEP lekòl pitit ou a — si AAC bezwen pou edikasyon, lekòl la dwe bay li gratis.",
+      "Aplike pou finansman aparèy AAC atravè Medicaid, asirans, oswa pwogram teknoloji asistans leta w la.",
+      "Modèl AAC sèvi ak tèt ou — peze bouton sou aparèy la pandan w ap pale pou montre pitit ou a kijan li fonksyone (yo rele sa 'estimulasyon langaj asistans')."
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "Terapi",
+    "title": "Fòmasyon Entèvansyon Paran Enplemante",
+    "summary": "Pwogram ki baze sou prèv ki fòme paran yo pou yo bay estrateji terapetik ak pitit yo lakay yo, ki pwolonje anpil enpak terapi pwofesyonèl.",
+    "details": "Parent-Implemented Intervention (PII) se yon pratik ki baze sou prèv ke Sant Nasyonal Devlopman Pwofesyonèl sou ASD rekonèt. Rechèch ki soti nan yon meta-analiz sou 51 esè kontwole owaza ki enplike prèske 3,000 timoun demontre ke entèvansyon paran yo aplike yo pwodui avantaj modéré fò nan ladrès sosyal, kominikasyon, konpòtman adaptasyon, ak rediksyon nan konpòtman difisil. PII se patikilyèman enpòtan pou fanmi imigran ki ka gen aksè limite a terapis pwofesyonèl akòz asirans, jeyografik, oswa baryè lang. Pwogram tankou Parents Taking Action (PTA) yo te adapte kiltirèlman pou fanmi imigran Chinwa ak Kore ak rezilta pozitif enpòtan. Fòmasyon paran se souvan yon eleman nan ABA, terapi lapawòl, ak sèvis entèvansyon bonè, epi yo ka delivre atravè telesante. IDEA Pati C sipòte klèman antrenè paran kòm yon modèl livrezon sèvis.",
+    "steps": [
+      "Mande terapis pitit ou a (BCBA, SLP, oswa OT) sou eleman fòmasyon paran yo — pifò pwogram ki baze sou prèv yo enkli yo.",
+      "Mande fòmasyon paran yo kòm yon sèvis espesifik nan IEP oswa IFSP pitit ou a — li ​​kapab yon sèvis otonòm.",
+      "Eksplore fòmasyon gratis sou entènèt pou paran atravè twous zouti Autism Speaks ak Autism Internet Modules (autisminternetmodules.org).",
+      "Chèche pwogram ki adapte kiltirèl tankou Paran yo pran aksyon (PTA) si yo disponib nan lang ou ak kominote w la.",
+      "Pratike estrateji entèvansyon pandan woutin chak jou — repa, lè benyen, jwèt, ak fè komisyon se opòtinite aprantisaj natirèl.",
+      "Swiv pwogrè pitit ou a epi pataje obsèvasyon yo ak ekip pwofesyonèl la — done ou yo ede gide ajisteman tretman an."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "Sipò pou kriz",
+    "title": "Prevansyon Wandering/Elopement (Big Red Safety Box)",
+    "summary": "Kit zouti sekirite gratis ki soti nan Asosyasyon Nasyonal Otis la pou ede anpeche epi reponn a ensidan k ap pèdi wout danjere, ki afekte prèske mwatye nan tout timoun ki gen otis.",
+    "details": "Apeprè 50% nan timoun ki gen otis yo pral flannen oswa chape soti nan anviwònman ki an sekirite, fè moute desann youn nan pwoblèm sekirite ki pi grav pou fanmi yo. Neye apre pèdi wout se yon kòz prensipal lanmò pou timoun ki gen otis. Gwo Bwat Sekirite Wouj Asosyasyon Nasyonal Otis la se yon bwat zouti gratis ki voye bay fanmi moun ki gen otis ki riske pèdi wout yo. Depi 2011, plis pase 70,000 bwat yo te distribye. Zouti a gen ladan resous sekirite vizyèl, kat idantite, alam fenèt/pòt, ak konsèy sou kreye yon plan sekirite konplè. Lòt mezi yo enkli aparèy pou swiv GPS, braslè idantite medikal, alam pòt, kloti pisin, ak devlope relasyon ak premye sekouris lokal yo. Ansèyman sekirite dlo ak konpetans naje se kritik. Anpil fanmi benefisye tou de pwogram MedicAlert Found la, ki bay braslè idantite medikal gratis ak sèvis sipò 24/24 7/7 espesyalman pou moun ki gen otis.",
+    "steps": [
+      "Aplike pou yon Big Red Safety Box gratis nan nationalautismassociation.org/big-red-safety-box — yonn pou chak fanmi pandan tout pwovizyon yo te dire.",
+      "Enstale alam pòt yo ak fenèt yo, espesyalman sou pòt sòti - yo ka jwenn alam ki pa chè nan magazen pyès ki nan konpitè.",
+      "Konsidere yon aparèy pou swiv GPS pou pitit ou a - opsyon pou mete yo enkli AngelSense, Jiobit, ak Apple AirTag.",
+      "Enskri nan pwogram MedicAlert Found nan medicalert.org — ID medikal gratis ak sipò 24/7 pou fanmi otis yo.",
+      "Anseye sekirite dlo ak konpetans naje bonè — leson naje ki fèt pou timoun ki gen otis yo disponib nan anpil kominote.",
+      "Enfòme lapolis lokal yo ak depatman ponpye yo konsènan otis pitit ou a ak risk pou yo pèdi wout li — anpil depatman kenbe rejis volontè."
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "Sipò pou kriz",
+    "title": "Kat idantite ijans otis ak Alèt Medikal",
+    "summary": "Zouti idantifikasyon medikal ki kominike dyagnostik otis ak enfòmasyon enpòtan bay premye sekouris yo, pèsonèl medikal, ak manm kominote yo pandan ijans yo.",
+    "details": "Paske otis se yon kondisyon envizib, premye sekouris yo ak pèsonèl medikal yo ka pa rekonèt li pandan ijans yo, ki kapab mennen nan malantandi danjere. Braslè idantite medikal, kolye, kat bous, ak etikèt soulye kominike enfòmasyon esansyèl: moun nan gen otis, ka pa reponn a kòmandman vèbal, ka pa vèbal, ak detay kontak ijans. Pwogram MedicAlert Found (an patenarya ak Asosyasyon Nasyonal Otis la) bay enskripsyon gratis, yon braslè oswa kolye idantite medikal gratis, yon etikèt sou soulye idantite medikal gratis, ak sèvis sipò 24 sou 24, 7jou sou 7 espesyalman pou kominote otis la. Lòt opsyon yo enkli braslè kòd QR ki konekte ak pwofil medikal detaye, kat bous ICE (An Case of Emergency) ak karakteristik ID medikal smartphone. Pou timoun ki ka retire braslè tradisyonèl yo, opsyon yo enkli tags soulye, etikèt rad, ak tatoo tanporè ak enfòmasyon kontak.",
+    "steps": [
+      "Enskri nan pwogram MedicAlert Found nan medicalert.org — ID medikal gratis ak sipò 24/7 pou moun ki gen otis.",
+      "Chwazi yon ID pitit ou a ap tolere — opsyon yo enkli braslè, kolye, etikèt soulye, ak etikèt sou rad.",
+      "Kreye yon kat ICE (An Case of Emergency) pou bous oswa sak lekòl pitit ou a ak dyagnostik, medikaman, kontak ijans, ak bezwen kominikasyon.",
+      "Mete karakteristik ID medikal la sou smartphone pitit ou a (ki disponib sou iPhone ak Android) ak enfòmasyon enpòtan sou sante.",
+      "Mete enstriksyon espesifik kominikasyon yo: 'Mwen se otis. Mwen ka pa reponn a kòmandman vèbal yo. Tanpri itilize langaj senp ak siyal vizyèl.'",
+      "Mete ajou enfòmasyon idantite regilyèman pandan medikaman, kontak, oswa kapasite kominikasyon yo chanje."
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "Sipò pou kriz",
+    "title": "Pwogram konsyantizasyon pou premye moun ki reponn otis yo",
+    "summary": "Pwogram fòmasyon ki anseye lapolis, ponpye, ak EMT yo rekonèt otis epi sèvi ak teknik san danje, efikas de-eskalasyon pandan rankont ak moun ki gen otis.",
+    "details": "Rankont ant moun otis ak lapolis ka vin danjere lè ofisye yo mal entèprete konpòtman ki gen rapò ak otis (pa fè kontak zye, pa swiv kòmandman vèbal, mouvman repetitif, kouri) kòm konpòtman ki pa respekte oswa menas. Premye sekouris pwogram fòmasyon konsyantizasyon otis yo anseye ofisye yo rekonèt siy otis, sèvi ak kominikasyon kalm ak senp, pèmèt plis tan pwosesis, minimize opinyon sansoryèl, epi sèvi ak teknik de-eskalasyon. Autism Society of America's Safety on the Spectrum pwogram ankouraje entèraksyon an sekirite ant premye sekouris yo ak kominote otis la. Creole Board of Credentialing and Continuing Education Standards (IBCCES) ofri sètifikasyon fòmèl pou premye sekouris otis. Kèk eta (tankou Florid) mande fòmasyon otis pou fè respekte lalwa. Fanmi yo ka devlope relasyon ak lapolis lokal yo ak depatman ponpye yo lè yo pataje enfòmasyon sou pitit yo.",
+    "steps": [
+      "Kontakte depatman lapolis lokal ou a epi mande si yo gen fòmasyon sou konsyantizasyon otis — ofri yo pataje resous yo si yo pa genyen.",
+      "Bay lapolis ak ponpye lokal ou a yon pwofil yon paj sou pitit ou a: foto, non, dyagnostik, style kominikasyon, deklanche, ak estrateji kalme.",
+      "Mande sou rejis volontè pou bezwen espesyal sant dispatch 911 lokal ou a kenbe.",
+      "Pataje resous fòmasyon ki soti nan Autism Society (autismsociety.org/first-responder) ak ajans lokal ou yo.",
+      "Pratike entèraksyon ak pèsonèl inifòm nan yon anviwònman kalm pou pitit ou a vin abitye avèk yo.",
+      "Pote yon kat bous oswa fè pitit ou a mete yon idantite medikal ki di 'Mwen se otis' ak enstriksyon espesifik pou premye sekouris yo."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

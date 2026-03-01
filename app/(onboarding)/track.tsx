@@ -1,10 +1,11 @@
-import { View, Text, TouchableOpacity, ScrollView, SafeAreaView } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, SafeAreaView, StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
 import { useUserStore } from "../../store/userStore";
 import { TRACKS } from "../../constants/tracks";
 import { UserTrack } from "../../types";
+import { Colors, Radius, Shadow } from "../../constants/theme";
 
 const ICON_MAP: Record<string, keyof typeof Ionicons.glyphMap> = {
   search: "search-outline",
@@ -29,74 +30,80 @@ export default function TrackSelection() {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-white">
-      <ScrollView className="flex-1 px-6 pt-12" showsVerticalScrollIndicator={false}>
+    <SafeAreaView style={styles.container}>
+      <ScrollView style={{ flex: 1, paddingHorizontal: 24, paddingTop: 48 }} showsVerticalScrollIndicator={false}>
         <TouchableOpacity
           onPress={() => router.back()}
-          className="mb-6 w-10 h-10 items-center justify-center rounded-full bg-gray-100"
+          style={styles.backButton}
         >
-          <Ionicons name="arrow-back" size={20} color="#374151" />
+          <Ionicons name="arrow-back" size={20} color={Colors.textSecondary} />
         </TouchableOpacity>
 
-        <Text className="text-3xl font-bold text-gray-900 mb-2">
+        <Text style={styles.title}>
           {t("onboarding.track.title")}
         </Text>
-        <Text className="text-base text-gray-500 mb-8">
+        <Text style={styles.subtitle}>
           {t("onboarding.track.subtitle")}
         </Text>
 
-        <View className="gap-4 mb-8">
-          {TRACKS.map((track) => (
-            <TouchableOpacity
-              key={track.id}
-              onPress={() => handleSelectTrack(track.id)}
-              className={`p-5 rounded-2xl border-2 flex-row items-center gap-4 ${
-                currentTrack === track.id
-                  ? "border-indigo-500 bg-indigo-50"
-                  : "border-gray-100 bg-gray-50"
-              }`}
-            >
-              <View
-                className={`w-12 h-12 rounded-xl items-center justify-center ${
-                  currentTrack === track.id ? "bg-indigo-500" : "bg-gray-200"
-                }`}
+        <View style={{ gap: 16, marginBottom: 32 }}>
+          {TRACKS.map((track) => {
+            const selected = currentTrack === track.id;
+            return (
+              <TouchableOpacity
+                key={track.id}
+                onPress={() => handleSelectTrack(track.id)}
+                style={[
+                  styles.trackCard,
+                  selected ? styles.trackCardSelected : styles.trackCardDefault,
+                ]}
               >
-                <Ionicons
-                  name={ICON_MAP[track.icon]}
-                  size={22}
-                  color={currentTrack === track.id ? "white" : "#6B7280"}
-                />
-              </View>
-              <View className="flex-1">
-                <Text
-                  className={`font-bold text-base mb-1 ${
-                    currentTrack === track.id ? "text-indigo-700" : "text-gray-900"
-                  }`}
+                <View
+                  style={[
+                    styles.trackIcon,
+                    { backgroundColor: selected ? Colors.primary : Colors.borderLight },
+                  ]}
                 >
-                  {t(track.titleKey)}
-                </Text>
-                <Text className="text-sm text-gray-500 leading-5">
-                  {t(track.descriptionKey)}
-                </Text>
-              </View>
-              {currentTrack === track.id && (
-                <Ionicons name="checkmark-circle" size={24} color="#6366f1" />
-              )}
-            </TouchableOpacity>
-          ))}
+                  <Ionicons
+                    name={ICON_MAP[track.icon]}
+                    size={22}
+                    color={selected ? "#FFFFFF" : Colors.textSecondary}
+                  />
+                </View>
+                <View style={{ flex: 1 }}>
+                  <Text
+                    style={[
+                      styles.trackTitle,
+                      { color: selected ? Colors.primaryDark : Colors.text },
+                    ]}
+                  >
+                    {t(track.titleKey)}
+                  </Text>
+                  <Text style={styles.trackDesc}>
+                    {t(track.descriptionKey)}
+                  </Text>
+                </View>
+                {selected && (
+                  <Ionicons name="checkmark-circle" size={24} color={Colors.primary} />
+                )}
+              </TouchableOpacity>
+            );
+          })}
         </View>
 
         <TouchableOpacity
           onPress={handleContinue}
           disabled={!currentTrack}
-          className={`py-4 rounded-2xl items-center mb-8 ${
-            currentTrack ? "bg-indigo-500" : "bg-gray-200"
-          }`}
+          style={[
+            styles.continueButton,
+            { backgroundColor: currentTrack ? Colors.primary : Colors.borderLight },
+          ]}
         >
           <Text
-            className={`font-bold text-base ${
-              currentTrack ? "text-white" : "text-gray-400"
-            }`}
+            style={[
+              styles.continueText,
+              { color: currentTrack ? "#FFFFFF" : Colors.textMuted },
+            ]}
           >
             {t("onboarding.track.button")}
           </Text>
@@ -105,3 +112,73 @@ export default function TrackSelection() {
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.surface,
+  },
+  backButton: {
+    marginBottom: 24,
+    width: 40,
+    height: 40,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 20,
+    backgroundColor: Colors.background,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "700",
+    color: Colors.text,
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: Colors.textSecondary,
+    marginBottom: 32,
+  },
+  trackCard: {
+    padding: 20,
+    borderRadius: Radius.lg,
+    borderWidth: 2,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 16,
+  },
+  trackCardSelected: {
+    borderColor: Colors.primary,
+    backgroundColor: Colors.primaryLight,
+  },
+  trackCardDefault: {
+    borderColor: Colors.border,
+    backgroundColor: Colors.background,
+  },
+  trackIcon: {
+    width: 48,
+    height: 48,
+    borderRadius: Radius.md,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  trackTitle: {
+    fontWeight: "700",
+    fontSize: 16,
+    marginBottom: 4,
+  },
+  trackDesc: {
+    fontSize: 14,
+    color: Colors.textSecondary,
+    lineHeight: 20,
+  },
+  continueButton: {
+    paddingVertical: 16,
+    borderRadius: Radius.lg,
+    alignItems: "center",
+    marginBottom: 32,
+  },
+  continueText: {
+    fontWeight: "700",
+    fontSize: 16,
+  },
+});

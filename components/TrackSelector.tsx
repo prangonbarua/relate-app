@@ -55,7 +55,7 @@ export function TrackSelector({ selectedTrack, onSelect }: TrackSelectorProps) {
             </Text>
           </View>
           {selectedTrack === track.id && (
-            <Ionicons name="checkmark-circle" size={20} color="#6366f1" />
+            <Ionicons name="checkmark-circle" size={20} color="#7FB4F9" />
           )}
         </TouchableOpacity>
       ))}

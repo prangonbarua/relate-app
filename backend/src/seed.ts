@@ -63,7 +63,7 @@ export function seedDatabase(): void {
     mariaId,
     "Our first IEP meeting — what I wish I'd known",
     "We just had our first IEP meeting for Lucas and I was so nervous going in. Here's what helped: I brought a one-page summary of Lucas's strengths and challenges, I recorded the meeting (with permission), and I asked for every recommendation in writing. The biggest thing I learned is that you can disagree with the school's assessment and request an independent evaluation. Don't be afraid to advocate — your child deserves it. For other Spanish-speaking parents: you have the right to an interpreter and translated documents!",
-    "success-story",
+    "wins",
     24,
     ago(45) // ~6 weeks ago
   );
@@ -72,7 +72,7 @@ export function seedDatabase(): void {
     fatimaId,
     "How do you handle speech therapy in a bilingual household?",
     "Our speech therapist suggested we only speak English at home to 'avoid confusing' our son. This doesn't feel right — Arabic is our family language, and his grandparents only speak Arabic. Has anyone else dealt with this? I've read that bilingualism doesn't delay language development in autistic children, but I'd love to hear from families who have navigated this. What did your SLP recommend?",
-    "question",
+    "questions",
     31,
     ago(30) // ~4 weeks ago
   );
@@ -81,7 +81,7 @@ export function seedDatabase(): void {
     weiId,
     "Sensory-friendly grocery shopping — our routine that works",
     "Grocery stores used to be a nightmare for us. Here's what changed everything: We go at 7am on Tuesday when the store is nearly empty. I let my daughter wear her noise-cancelling headphones. We use a visual shopping list with pictures she helped pick. She gets to choose one 'surprise item' each trip. We've gone from meltdowns every visit to actually enjoying our Tuesday morning routine. It took about 6 weeks of consistency to get here.",
-    "success-story",
+    "wins",
     42,
     ago(21) // 3 weeks ago
   );
@@ -90,7 +90,7 @@ export function seedDatabase(): void {
     mariaId,
     "Insurance denied ABA therapy — what are my options?",
     "We just got a denial letter from our insurance for ABA therapy. The reason given was 'not medically necessary' even though our pediatrician and developmental pediatrician both recommended it. Has anyone successfully appealed an insurance denial? I'm feeling overwhelmed by the process. We're in California if that matters. Also — are there any low-cost alternatives while we fight the appeal?",
-    "question",
+    "questions",
     18,
     ago(14) // 2 weeks ago
   );
@@ -99,7 +99,7 @@ export function seedDatabase(): void {
     fatimaId,
     "Free resources that actually helped us",
     "I wanted to share some free resources that have made a real difference for our family:\n\n1. ASQ screening tool (online, free) — helped us prepare for the pediatrician\n2. CDC's 'Learn the Signs' app — milestone tracker with photos\n3. Local library sensory storytime — check your library system!\n4. Autism Speaks First 100 Days Kit — available in multiple languages\n5. YouTube: 'Teaching 2 and 3 year olds' channel — great for activity ideas\n\nWhat free resources have helped your family?",
-    "resource",
+    "tips",
     37,
     ago(10) // 10 days ago
   );
@@ -108,7 +108,7 @@ export function seedDatabase(): void {
     weiId,
     "Toilet training at age 5 — we finally made progress!",
     "I know this is a sensitive topic but I want to share because I felt so alone during this journey. Our son didn't show readiness signs until almost 5. We tried every method out there. What finally worked: a visual schedule in the bathroom, a specific routine tied to times (not asking 'do you need to go?'), a reward system with his favorite stickers, and the biggest thing — backing off pressure completely. It took 3 months of the new approach, but he's now mostly independent. Please don't compare your timeline to neurotypical children.",
-    "success-story",
+    "wins",
     53,
     ago(5) // 5 days ago
   );
@@ -117,7 +117,7 @@ export function seedDatabase(): void {
     mariaId,
     "Seeking parents in the Bay Area for weekend meetups",
     "Hi everyone! I'm looking to connect with other autism parents in the San Francisco Bay Area. I'd love to organize weekend meetups at sensory-friendly parks or indoor play spaces. It would be great for our kids to play together in a judgment-free zone, and honestly, the parent support would mean everything. I speak English and Spanish. Drop a comment if you're interested or know of good venues!",
-    "community",
+    "general",
     15,
     ago(2) // 2 days ago
   );
@@ -126,7 +126,7 @@ export function seedDatabase(): void {
     fatimaId,
     "Understanding sensory processing — resources that helped me 'get it'",
     "When our son was first evaluated, the OT mentioned 'sensory processing differences' and I had no idea what that meant. These resources helped me truly understand my child:\n\n- 'The Out-of-Sync Child' by Carol Kranowitz — the classic intro book\n- Sensory Processing Disorder Foundation website — great parent guides\n- Ask your OT for a sensory profile assessment — it changed how we set up our home\n- Instagram: @thesensoryproject — daily tips and visuals\n\nOnce I understood that my son wasn't being 'difficult' — he was overwhelmed — everything changed in how I responded to meltdowns.",
-    "resource",
+    "tips",
     29,
     ago(0.5) // 12 hours ago
   );

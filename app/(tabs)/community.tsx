@@ -16,9 +16,11 @@ import {
 } from "react-native";
 import { useTranslation } from "react-i18next";
 import { Ionicons } from "@expo/vector-icons";
-import { useRouter } from "expo-router";
+import { useRouter, useFocusEffect } from "expo-router";
+import { Alert } from "react-native";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 import { api } from "../../store/apiClient";
+import { useAuthStore } from "../../store/authStore";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -53,15 +55,6 @@ interface PostsResponse {
 const CATEGORIES = ["all", "general", "questions", "tips", "wins", "vent"] as const;
 type Category = (typeof CATEGORIES)[number];
 
-const CATEGORY_LABELS: Record<Category, string> = {
-  all: "All",
-  general: "General",
-  questions: "Questions",
-  tips: "Tips",
-  wins: "Wins",
-  vent: "Vent",
-};
-
 const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {
   general: { bg: "#E0E7FF", text: "#4338CA" },
   questions: { bg: "#FEF3C7", text: "#92400E" },
@@ -77,15 +70,16 @@ const POST_CATEGORIES = CATEGORIES.filter((c) => c !== "all") as Exclude<Categor
 // Helpers
 // ---------------------------------------------------------------------------
 
-function formatTimeAgo(dateStr: string): string {
+function formatTimeAgo(dateStr: string, t: (key: string, opts?: any) => string): string {
   const diff = Date.now() - new Date(dateStr).getTime();
   const minutes = Math.floor(diff / 60000);
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes}m ago`;
+  if (minutes < 1) return t("community.time.just_now");
+  if (minutes < 60) return t("community.time.minutes_ago", { count: minutes });
   const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}h ago`;
+  if (hours < 24) return t("community.time.hours_ago", { count: hours });
   const days = Math.floor(hours / 24);
-  return days < 7 ? `${days}d ago` : `${Math.floor(days / 7)}w ago`;
+  if (days < 7) return t("community.time.days_ago", { count: days });
+  return t("community.time.weeks_ago", { count: Math.floor(days / 7) });
 }
 
 function getInitial(name: string): string {
@@ -99,6 +93,8 @@ function getInitial(name: string): string {
 export default function CommunityScreen() {
   const { t } = useTranslation();
   const router = useRouter();
+  const storeUserId = useAuthStore((s) => s.user?.id);
+  const [currentUserId, setCurrentUserId] = useState<number | null>(storeUserId ?? null);
 
   // Feed state
   const [posts, setPosts] = useState<Post[]>([]);
@@ -136,12 +132,23 @@ export default function CommunityScreen() {
     [selectedCategory]
   );
 
-  // Initial load & category change
+  // Fetch current user ID if not in store
   useEffect(() => {
-    setLoading(true);
-    setPage(1);
-    fetchPosts(1, true).finally(() => setLoading(false));
-  }, [fetchPosts]);
+    if (!currentUserId) {
+      api<{ user: { id: number } }>("/api/auth/me")
+        .then((data) => setCurrentUserId(data.user.id))
+        .catch(() => {});
+    }
+  }, [currentUserId]);
+
+  // Reload when screen gains focus (covers returning after delete) & category change
+  useFocusEffect(
+    useCallback(() => {
+      setLoading(true);
+      setPage(1);
+      fetchPosts(1, true).finally(() => setLoading(false));
+    }, [fetchPosts])
+  );
 
   // Pull to refresh
   const onRefresh = useCallback(async () => {
@@ -223,45 +230,82 @@ export default function CommunityScreen() {
   }, [newTitle, newBody, newCategory, submitting]);
 
   // ------------------------------------------------------------------
+  // Delete post from feed
+  // ------------------------------------------------------------------
+
+  const handleDeletePost = useCallback((postId: number) => {
+    Alert.alert(t("post.delete_title"), t("post.delete_message"), [
+      { text: t("common.cancel"), style: "cancel" },
+      {
+        text: t("common.delete"),
+        style: "destructive",
+        onPress: async () => {
+          try {
+            await api(`/api/community/posts/${postId}`, { method: "DELETE" });
+            setPosts((prev) => prev.filter((p) => p.id !== postId));
+          } catch {}
+        },
+      },
+    ]);
+  }, []);
+
+  const handlePostOptions = useCallback((post: Post) => {
+    Alert.alert(post.title, undefined, [
+      {
+        text: t("common.edit"),
+        onPress: () => router.push({ pathname: "/post/[id]", params: { id: String(post.id) } }),
+      },
+      {
+        text: t("common.delete"),
+        style: "destructive",
+        onPress: () => handleDeletePost(post.id),
+      },
+      { text: t("common.cancel"), style: "cancel" },
+    ]);
+  }, [handleDeletePost, router]);
+
+  // ------------------------------------------------------------------
   // Renderers
   // ------------------------------------------------------------------
 
   const renderCategoryTabs = () => (
-    <ScrollView
-      horizontal
-      showsHorizontalScrollIndicator={false}
-      contentContainerStyle={{ paddingHorizontal: 20, paddingBottom: 12, gap: 8 }}
-    >
-      {CATEGORIES.map((cat) => {
-        const active = selectedCategory === cat;
-        return (
-          <TouchableOpacity
-            key={cat}
-            onPress={() => setSelectedCategory(cat)}
-            activeOpacity={0.7}
-            style={{
-              paddingHorizontal: 16,
-              paddingVertical: 8,
-              borderRadius: Radius.full,
-              backgroundColor: active ? Colors.primary : Colors.surface,
-              borderWidth: active ? 0 : 1,
-              borderColor: Colors.border,
-              ...Shadow.soft,
-            }}
-          >
-            <Text
+    <View style={{ height: 44 }}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={{ paddingHorizontal: 20, gap: 8, alignItems: "center", height: 44 }}
+      >
+        {CATEGORIES.map((cat) => {
+          const active = selectedCategory === cat;
+          return (
+            <TouchableOpacity
+              key={cat}
+              onPress={() => setSelectedCategory(cat)}
+              activeOpacity={0.7}
               style={{
-                fontSize: 13,
-                fontWeight: "600",
-                color: active ? "#FFFFFF" : Colors.textSecondary,
+                paddingHorizontal: 16,
+                height: 34,
+                justifyContent: "center",
+                borderRadius: 17,
+                backgroundColor: active ? Colors.primary : Colors.surface,
+                borderWidth: active ? 0 : 1,
+                borderColor: Colors.border,
               }}
             >
-              {CATEGORY_LABELS[cat]}
-            </Text>
-          </TouchableOpacity>
-        );
-      })}
-    </ScrollView>
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontWeight: "600",
+                  color: active ? "#FFFFFF" : Colors.textSecondary,
+                }}
+              >
+                {t(`community.categories.${cat}`)}
+              </Text>
+            </TouchableOpacity>
+          );
+        })}
+      </ScrollView>
+    </View>
   );
 
   const renderPostCard = ({ item }: { item: Post }) => {
@@ -281,34 +325,18 @@ export default function CommunityScreen() {
           ...Shadow.card,
         }}
       >
-        <View style={{ flexDirection: "row" }}>
-          {/* Vote column */}
-          <View style={{ alignItems: "center", marginRight: 12, width: 36 }}>
+        <View>
+          {/* Owner actions row */}
+          {Number(item.user_id) === Number(currentUserId) && (
             <TouchableOpacity
-              onPress={() => handleVote(item.id, "up")}
-              hitSlop={{ top: 6, bottom: 6, left: 6, right: 6 }}
+              onPress={() => handlePostOptions(item)}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              style={{ position: "absolute", top: 0, right: 0, zIndex: 1, padding: 4 }}
             >
-              <Ionicons name="chevron-up" size={22} color={Colors.primary} />
+              <Ionicons name="ellipsis-horizontal" size={18} color={Colors.textMuted} />
             </TouchableOpacity>
-            <Text
-              style={{
-                fontSize: 14,
-                fontWeight: "700",
-                color: Colors.text,
-                marginVertical: 2,
-              }}
-            >
-              {item.votes}
-            </Text>
-            <TouchableOpacity
-              onPress={() => handleVote(item.id, "down")}
-              hitSlop={{ top: 6, bottom: 6, left: 6, right: 6 }}
-            >
-              <Ionicons name="chevron-down" size={22} color={Colors.textMuted} />
-            </TouchableOpacity>
-          </View>
-
-          {/* Content column */}
+          )}
+          {/* Content */}
           <View style={{ flex: 1 }}>
             {/* Category badge */}
             <View
@@ -322,7 +350,7 @@ export default function CommunityScreen() {
               }}
             >
               <Text style={{ fontSize: 11, fontWeight: "600", color: catColor.text }}>
-                {item.category.charAt(0).toUpperCase() + item.category.slice(1)}
+                {t(`community.categories.${item.category}`)}
               </Text>
             </View>
 
@@ -364,7 +392,7 @@ export default function CommunityScreen() {
                 {item.author_name}
               </Text>
               <Text style={{ fontSize: 12, color: Colors.textMuted, marginRight: 12 }}>
-                {formatTimeAgo(item.created_at)}
+                {formatTimeAgo(item.created_at, t)}
               </Text>
               <View style={{ flexDirection: "row", alignItems: "center" }}>
                 <Ionicons
@@ -410,7 +438,7 @@ export default function CommunityScreen() {
             textAlign: "center",
           }}
         >
-          No posts yet
+          {t("community.no_posts")}
         </Text>
         <Text
           style={{
@@ -421,7 +449,7 @@ export default function CommunityScreen() {
             lineHeight: 20,
           }}
         >
-          Be the first to share something with the community!
+          {t("community.be_first")}
         </Text>
       </View>
     );
@@ -465,10 +493,10 @@ export default function CommunityScreen() {
             }}
           >
             <TouchableOpacity onPress={() => setModalVisible(false)}>
-              <Text style={{ fontSize: 15, color: Colors.textSecondary }}>Cancel</Text>
+              <Text style={{ fontSize: 15, color: Colors.textSecondary }}>{t("common.cancel")}</Text>
             </TouchableOpacity>
             <Text style={{ fontSize: 17, fontWeight: "700", color: Colors.text }}>
-              New Post
+              {t("community.new_post")}
             </Text>
             <TouchableOpacity
               onPress={handleCreatePost}
@@ -494,7 +522,7 @@ export default function CommunityScreen() {
                       newTitle.trim() && newBody.trim() ? "#FFFFFF" : Colors.textMuted,
                   }}
                 >
-                  Post
+                  {t("community.post_button")}
                 </Text>
               )}
             </TouchableOpacity>
@@ -516,7 +544,7 @@ export default function CommunityScreen() {
                 letterSpacing: 0.5,
               }}
             >
-              Category
+              {t("community.category_label")}
             </Text>
             <ScrollView
               horizontal
@@ -547,7 +575,7 @@ export default function CommunityScreen() {
                         color: active ? catColor.text : Colors.textSecondary,
                       }}
                     >
-                      {CATEGORY_LABELS[cat]}
+                      {t(`community.categories.${cat}`)}
                     </Text>
                   </TouchableOpacity>
                 );
@@ -556,7 +584,7 @@ export default function CommunityScreen() {
 
             {/* Title input */}
             <TextInput
-              placeholder="Title"
+              placeholder={t("community.title_label")}
               placeholderTextColor={Colors.textMuted}
               value={newTitle}
               onChangeText={setNewTitle}
@@ -577,7 +605,7 @@ export default function CommunityScreen() {
 
             {/* Body input */}
             <TextInput
-              placeholder="What's on your mind?"
+              placeholder={t("community.body_placeholder")}
               placeholderTextColor={Colors.textMuted}
               value={newBody}
               onChangeText={setNewBody}

@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "Pré-diagnóstico",
@@ -74,7 +76,13 @@
       "log_skip": "Pular hoje"
     },
     "crisis": "Precisa de ajuda agora?",
-    "streak": "{{count}} dia(s) seguidos"
+    "streak": "{{count}} dia(s) seguidos",
+    "quick_actions": {
+      "resources": "Recursos",
+      "community": "Comunidade",
+      "ask_ai": "Pergunte à IA"
+    },
+    "todays_skill": "Habilidade de hoje"
   },
   "skills": {
     "title": "Escola de autocuidado",
@@ -87,7 +95,9 @@
       "sleep": "Sono",
       "feeding": "Alimentação",
       "selfcare": "Autocuidado"
-    }
+    },
+    "skill_count": "{{count}} habilidades",
+    "skill_count_one": "{{count}} habilidade"
   },
   "navigator": {
     "title": "Materiais",
@@ -97,13 +107,37 @@
       "school": "Direitos escolares (IEP/504)",
       "state": "Serviços estaduais",
       "crisis": "Recursos de crise"
-    }
+    },
+    "no_resources": "Ainda não há recursos disponíveis",
+    "disclaimer": "Esta é apenas uma informação geral. As leis variam de acordo com o estado. Para obter conselhos específicos, consulte um defensor ou advogado de educação especial."
   },
   "community": {
     "title": "Comunidade",
     "subtitle": "Conecte-se com pais que entendem",
     "coming_soon": "Em breve",
-    "join_waitlist": "Entrar na lista de espera"
+    "join_waitlist": "Entrar na lista de espera",
+    "categories": {
+      "all": "Todos",
+      "general": "Geral",
+      "questions": "Perguntas",
+      "tips": "Dicas",
+      "wins": "Vitórias",
+      "vent": "Ventilação"
+    },
+    "new_post": "Nova postagem",
+    "post_button": "Postar",
+    "category_label": "Categoria",
+    "title_label": "Título",
+    "body_placeholder": "O que está em sua mente?",
+    "no_posts": "Nenhuma postagem ainda",
+    "be_first": "Seja o primeiro a compartilhar algo com a comunidade.",
+    "time": {
+      "just_now": "agora mesmo",
+      "minutes_ago": "{{count}}m atrás",
+      "hours_ago": "{{count}}h atrás",
+      "days_ago": "{{count}} dias atrás",
+      "weeks_ago": "{{count}}há pouco"
+    }
   },
   "crisis": {
     "title": "Você não está sozinho/a",
@@ -132,6 +166,82 @@
     "done": "Concluído",
     "loading": "Carregando...",
     "error": "Algo deu errado",
-    "retry": "Tentar novamente"
+    "retry": "Tentar novamente",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "go_back": "Voltar",
+    "categories": "Categorias",
+    "sources": "Fontes"
+  },
+  "assistant": {
+    "title": "Assistente de IA",
+    "subtitle": "Faça perguntas sobre autismo, terapia e seus direitos",
+    "how_can_i_help": "Como posso ajudar?",
+    "intro": "Posso responder perguntas sobre autismo, terapias, direitos escolares e muito mais.",
+    "placeholder": "Digite uma mensagem...",
+    "thinking": "Pensando...",
+    "error": "Desculpe, estou tendo problemas para me conectar no momento. Por favor, tente novamente em alguns instantes.",
+    "source": "Fonte",
+    "prompt_1": "Quais são os primeiros sinais de autismo?",
+    "prompt_2": "Como solicito um IEP?",
+    "prompt_3": "Terapia ABA explicada"
+  },
+  "settings": {
+    "title": "Configurações",
+    "child_profile": "Perfil infantil",
+    "loves": "Amores",
+    "triggers": "Gatilhos",
+    "edit_profile": "Editar perfil",
+    "setup_profile": "Configurar perfil infantil",
+    "section_app": "Aplicativo",
+    "language": "Idioma",
+    "change": "Mudança",
+    "clear_chat": "Limpar histórico de bate-papo",
+    "section_account": "Conta",
+    "logout": "Sair",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Sair",
+    "logout_alert_message": "Isso redefinirá o aplicativo e retornará à integração.",
+    "logout_confirm": "Sair",
+    "clear_chat_alert_title": "Limpar histórico de bate-papo",
+    "clear_chat_alert_message": "Isso excluirá todas as suas conversas do assistente de IA.",
+    "clear_chat_confirm": "Limpar",
+    "clear_chat_done_title": "Concluído",
+    "clear_chat_done_message": "O histórico de bate-papo será apagado na próxima reinicialização."
+  },
+  "post": {
+    "title": "Postar",
+    "loading": "Carregando postagem...",
+    "not_found": "Postagem não encontrada",
+    "not_found_detail": "Esta postagem pode ter sido removida ou está temporariamente indisponível.",
+    "comments": "Comentários",
+    "no_comments": "Nenhum comentário ainda. Comece a conversa!",
+    "comment_placeholder": "Escreva um comentário...",
+    "comment_count": "{{count}} comentários",
+    "comment_count_one": "{{count}} comentário",
+    "delete_title": "Excluir postagem",
+    "delete_message": "Tem certeza de que deseja excluir esta postagem? Isto não pode ser desfeito.",
+    "delete_comment_title": "Excluir comentário",
+    "delete_comment_message": "Tem certeza de que deseja excluir este comentário?"
+  },
+  "resource": {
+    "loading": "Carregando recurso...",
+    "not_found": "Recurso não encontrado",
+    "summary": "Resumo",
+    "details": "Detalhes",
+    "steps": "Passos",
+    "count": "{{count}} recursos",
+    "count_one": "{{count}} recurso",
+    "no_resources": "Ainda não há recursos disponíveis",
+    "loading_resources": "Carregando recursos..."
+  },
+  "skill": {
+    "loading": "Carregando habilidade...",
+    "not_found": "Habilidade não encontrada",
+    "why_it_matters": "Por que é importante",
+    "steps_to_practice": "Passos para praticar",
+    "ages": "Idades {{range}}",
+    "no_skills": "Nenhuma habilidade disponível ainda",
+    "loading_skills": "Carregando habilidades..."
   }
 }

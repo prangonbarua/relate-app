@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "res-iep",
+    "category": "Éducation",
+    "title": "Programme d'enseignement individualisé (IEP)",
+    "summary": "Un document juridiquement contraignant qui décrit les services et les objectifs d'éducation spécialisée de votre enfant.",
+    "details": "Un PEI est élaboré par une équipe composée de parents, d'enseignants et de spécialistes. En vertu de l'IDEA (Individuals with Disabilities Education Act), votre enfant a droit à un enseignement public gratuit et approprié (FAPE) dans l'environnement le moins restrictif (LRE). Vous avez le droit de participer à chaque réunion de l'IEP et d'être en désaccord avec les recommandations de l'école. Les PEI sont révisés au moins une fois par an, mais vous pouvez demander une réunion à tout moment.",
+    "steps": [
+      "Demandez une évaluation par écrit au service d'éducation spécialisée de votre district scolaire.",
+      "L'école dispose de 60 jours pour terminer l'évaluation après que vous ayez donné votre consentement.",
+      "Assistez à la réunion IEP – apportez vos propres notes, observations et éventuelles évaluations privées.",
+      "Examinez attentivement les objectifs proposés. Vous pouvez négocier et demander des modifications avant de signer.",
+      "Surveillez les progrès réalisés par rapport aux objectifs de l'IEP tout au long de l'année et demandez des données à l'école.",
+      "Si vous n’êtes pas d’accord, vous pouvez demander une médiation ou une audience selon une procédure régulière sans frais pour vous."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-regional-center",
+    "category": "Services de l'État",
+    "title": "Services des centres régionaux (Californie)",
+    "summary": "Services gratuits à vie pour les Californiens ayant une déficience intellectuelle, y compris l'autisme.",
+    "details": "Les 21 centres régionaux de Californie fournissent des évaluations, des diagnostics et des services aux personnes ayant une déficience intellectuelle, quel que soit leur revenu ou leur statut d'immigration. Les services peuvent inclure l'analyse appliquée du comportement (ABA), les soins de répit, l'orthophonie, l'ergothérapie, les groupes de compétences sociales et le soutien familial. Les services du Centre régional constituent un droit : si votre enfant est admissible, les services ne peuvent lui être refusés en raison du financement.",
+    "steps": [
+      "Contactez votre centre régional local et demandez un rendez-vous d'admission.",
+      "Apportez toutes les évaluations, dossiers médicaux et documents scolaires existants.",
+      "Votre enfant sera évalué — ce processus peut prendre jusqu'à 120 jours.",
+      "Si vous êtes éligible, vous travaillerez avec un coordonnateur de services pour développer un plan de programme individuel (IPP).",
+      "Demandez les services spécifiques dont vous avez besoin : ABA, répit, orthophonie, etc.",
+      "Révisez votre RRI chaque année et demandez des modifications à mesure que les besoins de votre enfant évoluent."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)"
+    ]
+  },
+  {
+    "id": "res-early-start",
+    "category": "Services de l'État",
+    "title": "Programme de démarrage anticipé (0 à 3 ans)",
+    "summary": "Programme d'intervention précoce de Californie pour les nourrissons et les tout-petits présentant des retards de développement.",
+    "details": "Le programme Early Start s'adresse aux enfants de la naissance à 3 ans qui présentent un retard de développement ou une condition à risque établie. Les services sont offerts dans les milieux naturels (votre domicile, garderie, parc) et sont gratuits quel que soit le revenu. Une intervention précoce pendant cette période critique peut améliorer considérablement les résultats. Après l'âge de 3 ans, les enfants font la transition vers les services du district scolaire via le processus IEP.",
+    "steps": [
+      "Appelez votre centre régional local ou votre district scolaire pour référer votre enfant.",
+      "Une évaluation sera programmée dans les 45 jours suivant la référence.",
+      "S'il est éligible, un plan de services familiaux individualisé (IFSP) est élaboré dans les 45 jours suivant l'éligibilité.",
+      "Les services commencent dès que possible après la signature de l'IFSP.",
+      "À l’âge de 2,5 ans, le processus de planification de la transition vers les services préscolaires commence.",
+      "Vous pouvez continuer les services du Centre régional après l'âge de 3 ans via un processus d'éligibilité distinct."
+    ],
+    "icon": "happy-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)"
+    ]
+  },
+  {
+    "id": "res-insurance",
+    "category": "Assurance et financement",
+    "title": "Couverture d'assurance pour les services liés à l'autisme",
+    "summary": "Comprendre vos droits aux thérapies contre l'autisme couvertes par une assurance et comment faire appel des refus.",
+    "details": "La plupart des États ont des mandats d'assurance contre l'autisme exigeant une couverture pour les services liés à l'autisme. En Californie, le SB 946 exige que les régimes de santé couvrent le traitement de santé comportementale (y compris l'ABA) pour l'autisme. Les lois fédérales sur la parité en matière de santé mentale exigent également une couverture égale pour la santé mentale et les problèmes médicaux. Si votre assurance refuse la couverture, vous avez le droit de faire appel en interne et en externe. Le Département californien des soins de santé gérés (DMHC) peut vous aider avec les appels externes.",
+    "steps": [
+      "Demandez une copie des prestations de votre régime pour les services d'autisme et de santé comportementale.",
+      "Obtenez une référence écrite du médecin de votre enfant précisant le traitement recommandé.",
+      "Soumettez une demande de préautorisation à votre compagnie d’assurance.",
+      "En cas de refus, demandez le refus par écrit avec la raison spécifique et la citation de la politique.",
+      "Déposez un recours interne avec une lettre de nécessité médicale de votre médecin.",
+      "Si l'appel interne échoue, déposez une plainte auprès du régulateur des assurances de votre état (DMHC en Californie)."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)"
+    ]
+  },
+  {
+    "id": "res-504",
+    "category": "Éducation",
+    "title": "504 Plan d'aménagement",
+    "summary": "Un plan d'aménagement en classe qui ne nécessite pas d'éligibilité à l'éducation spécialisée.",
+    "details": "Un plan 504 est basé sur l'article 504 de la loi sur la réadaptation et prévoit des aménagements pour garantir l'égalité d'accès à l'éducation. Contrairement à un IEP, un plan 504 ne nécessite pas de classification d'éducation spéciale : il couvre tout enfant ayant un handicap qui limite considérablement une activité majeure de la vie (y compris l'apprentissage et l'interaction sociale). Les aménagements courants comprennent des sièges préférentiels, une durée prolongée des tests, des pauses sensorielles et des horaires visuels.",
+    "steps": [
+      "Écrivez une lettre à votre école demandant une évaluation 504, citant le diagnostic de votre enfant ou un handicap présumé.",
+      "Fournir de la documentation : dossiers médicaux, évaluations, observations des enseignants.",
+      "Assistez à la réunion 504 avec l’équipe de l’école pour discuter des aménagements.",
+      "Examinez les aménagements proposés et suggérez des ajouts en fonction des besoins de votre enfant.",
+      "Le plan doit être révisé chaque année – demandez une réunion si des aménagements ne sont pas mis en œuvre.",
+      "Si l'école refuse d'évaluer ou de fournir un 504, vous pouvez déposer une plainte auprès de l'Office des droits civils (OCR)."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)"
+    ]
+  },
+  {
+    "id": "res-speech",
+    "category": "Thérapies",
+    "title": "Orthophonie",
+    "summary": "Comment accéder aux services d’orthophonie et à quoi s’attendre du traitement.",
+    "details": "Les orthophonistes travaillent sur bien plus que la parole : ils abordent tous les aspects de la communication, y compris la compréhension du langage, l'utilisation des mots, la communication sociale et même les problèmes d'alimentation/de déglutition. Pour les enfants autistes, les orthophonistes travaillent souvent sur la communication fonctionnelle (la capacité d'exprimer des désirs et des besoins), le langage pragmatique (l'utilisation sociale du langage) et les dispositifs de communication augmentée et alternative (CAA). La recherche soutient fortement le maintien de la langue maternelle dans les familles bilingues : le bilinguisme ne retarde pas le développement du langage chez les enfants autistes.",
+    "steps": [
+      "Demandez à votre pédiatre de vous orienter vers un orthophoniste expérimenté en autisme.",
+      "Vérifiez plusieurs points d'accès : assurance, centre régional, district scolaire (IEP) et cliniques universitaires (souvent à moindre coût).",
+      "Recherchez un orthophoniste expérimenté en CAA si votre enfant est peu verbal – tous les orthophonistes ne sont pas spécialisés dans ce domaine.",
+      "Renseignez-vous sur les modèles de coaching parental dans lesquels l'orthophoniste vous forme à soutenir la communication tout au long de la journée.",
+      "Demandez des objectifs mesurables et des rapports d’avancement réguliers.",
+      "Si votre enfant est bilingue, trouvez un orthophoniste qui prend en charge le maintien de la langue parlée à la maison ou demandez un interprète."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)"
+    ]
+  },
+  {
+    "id": "res-aba",
+    "category": "Thérapies",
+    "title": "Thérapie ABA : ce qu'il faut savoir",
+    "summary": "Comprendre la thérapie d’analyse appliquée du comportement – ​​avantages, préoccupations et comment trouver des prestataires de qualité.",
+    "details": "L’analyse appliquée du comportement (ABA) est la thérapie la plus couramment recommandée et étudiée pour l’autisme. L'ABA moderne a considérablement évolué depuis ses origines et met désormais l'accent sur des approches naturalistes et ludiques qui suivent les intérêts de l'enfant. Cependant, la qualité varie énormément selon les fournisseurs. Une bonne ABA ressemble à des activités amusantes et engageantes – pas à des exercices autour d’une table. Les signaux d’alarme incluent le fait d’ignorer la détresse de l’enfant, d’utiliser la privation de nourriture comme motivation ou de se concentrer uniquement sur la conformité. Vous avez le droit d'observer les séances et devez vous sentir à l'aise avec le traitement de votre enfant.",
+    "steps": [
+      "Recherchez attentivement les prestataires – renseignez-vous sur leur approche (essai naturaliste ou essai discret) et sur les ratios de supervision.",
+      "Demander à observer les sessions avant de s'engager et périodiquement après le démarrage.",
+      "Assurez-vous que le programme est supervisé par un analyste du comportement certifié (BCBA) qui voit votre enfant régulièrement.",
+      "Discutez des objectifs ensemble – donnez la priorité aux compétences fonctionnelles et à la communication plutôt qu’aux objectifs basés sur la conformité.",
+      "Surveillez le bien-être émotionnel de votre enfant : la thérapie ne doit pas provoquer de détresse, d'anxiété ou d'évitement.",
+      "Explorez des alternatives ou des compléments : orthophonie, ergothérapie, approches développementales comme DIR/Floortime."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)"
+    ]
+  },
+  {
+    "id": "res-undocumented",
+    "category": "Immigration",
+    "title": "Droits des familles sans papiers",
+    "summary": "Services pour personnes handicapées disponibles quel que soit le statut d'immigration et comment y accéder en toute sécurité.",
+    "details": "De nombreux services essentiels pour les enfants autistes sont disponibles quel que soit le statut d'immigration. Les écoles doivent éduquer tous les enfants (Plyler c. Doe), les centres régionaux ne peuvent pas poser de questions sur le statut d'immigration et Medi-Cal couvre les enfants quel que soit leur statut grâce à des programmes comme Medi-Cal for Children. Les écoles et les prestataires de soins de santé recevant un financement fédéral ne peuvent pas partager d'informations avec les autorités chargées de l'immigration. Vous avez le droit d’être accompagné d’un avocat ou d’un interprète à toute réunion.",
+    "steps": [
+      "Contactez votre centre régional local – il lui est interdit de poser des questions sur le statut d'immigration.",
+      "Inscrivez votre enfant à l'école : tous les enfants ont droit à l'éducation publique, quel que soit leur statut.",
+      "Faites une demande de Medi-Cal pour votre enfant auprès du bureau des services sociaux de votre comté.",
+      "Demandez un interprète pour toutes les réunions – c’est votre droit légal.",
+      "Connaissez vos droits : vous n'êtes pas obligé d'ouvrir votre porte à l'ICE sans un mandat judiciaire signé par un juge.",
+      "Connectez-vous avec des organisations locales de défense des droits des immigrants pour obtenir des services d’aide à la navigation – beaucoup proposent des cliniques juridiques gratuites."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)"
+    ]
+  },
+  {
+    "id": "res-idea-part-c",
+    "category": "Programmes fédéraux",
+    "title": "IDÉE Partie C — Intervention précoce (de la naissance à 3 ans)",
+    "summary": "Services fédéraux gratuits d’intervention précoce pour les nourrissons et les tout-petits présentant des retards de développement, y compris l’autisme.",
+    "details": "La partie C de la Loi sur l'éducation des personnes handicapées (IDEA) est un programme de subventions fédéral qui aide les États à mettre en place des services complets d'intervention précoce pour les nourrissons et les tout-petits (de la naissance à l'âge de 2 ans) handicapés et leurs familles. Les services comprennent l'orthophonie, l'ergothérapie, la physiothérapie, le soutien comportemental, la technologie d'assistance et la formation familiale. Chaque enfant reçoit un plan de services familiaux individualisés (IFSP). Les services sont offerts dans des milieux naturels comme le domicile ou la garderie. Les évaluations sont toujours gratuites et les services sont fournis gratuitement ou à faible coût selon votre état. IMPORTANT : Les services sont disponibles pour TOUS les enfants, quel que soit leur statut d'immigration.",
+    "steps": [
+      "Contactez le programme d'intervention précoce partie C de votre état - trouvez votre coordinateur d'état sur ectacenter.org/contact/ptccoord.asp.",
+      "Demandez une évaluation développementale gratuite pour votre enfant — le programme doit la terminer dans les 45 jours.",
+      "Si vous êtes éligible, participez à l’élaboration du plan de services familiaux individualisés (IFSP) de votre enfant avec l’équipe.",
+      "Les services commencent dès que possible après la signature de l'IFSP - renseignez-vous sur le soutien à la parole, à l'ergothérapie, au PT et au comportement.",
+      "Consultez l'IFSP tous les 6 mois et demandez des modifications chaque fois que les besoins de votre enfant changent.",
+      "À l'âge de 2,5 ans, commencez à planifier la transition vers les services préscolaires de la partie B (3 à 21 ans) par l'intermédiaire de votre district scolaire."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)"
+    ]
+  },
+  {
+    "id": "res-idea-part-b",
+    "category": "Programmes fédéraux",
+    "title": "IDÉE Partie B — Éducation spécialisée (3 à 21 ans)",
+    "summary": "Éducation spécialisée gratuite et services connexes pour les enfants et les jeunes autistes par le biais du système scolaire public.",
+    "details": "La partie B de l'IDEA garantit à tous les enfants handicapés, y compris autistes, le droit à une éducation publique appropriée et gratuite (FAPE) dans l'environnement le moins restrictif (LRE). L'autisme est l'une des 14 catégories de handicap admissibles. Votre enfant a droit à un programme d'éducation individualisé (PEI) qui décrit des objectifs, des services et des aménagements spécifiques. Les services connexes peuvent inclure l'orthophonie, l'ergothérapie, la formation aux compétences sociales, le soutien comportemental et le transport. L'article 619 couvre les subventions préscolaires pour les enfants âgés de 3 à 5 ans. Tous les services sont entièrement gratuits. Les écoles NE PEUVENT PAS poser de questions sur le statut d'immigration en vertu de la décision Plyler c. Doe de la Cour suprême de 1982.",
+    "steps": [
+      "Soumettez une demande écrite d’évaluation de l’éducation spécialisée au district scolaire de votre enfant.",
+      "L'école doit terminer l'évaluation dans les 60 jours suivant la réception de votre consentement écrit.",
+      "Assistez à la réunion du PEI – vous êtes un membre à part entière de l’équipe et pouvez amener un avocat ou un interprète.",
+      "Examinez attentivement les objectifs et les services proposés – négociez les changements et ne signez pas tant que vous n’êtes pas d’accord.",
+      "Surveillez la progression des objectifs de l’IEP tout au long de l’année et demandez des rapports de données à l’école.",
+      "Si vous n'êtes pas d'accord avec l'école, demandez une médiation ou demandez une audience selon une procédure régulière, sans frais pour vous."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)"
+    ]
+  },
+  {
+    "id": "res-medicaid-waivers",
+    "category": "Programmes fédéraux",
+    "title": "Dispenses Medicaid pour l'autisme (par État)",
+    "summary": "Les dérogations aux services à domicile et communautaires (HCBS) qui financent les thérapies contre l'autisme, les soins de répit et les services de soutien via Medicaid.",
+    "details": "Les dérogations Medicaid Home and Community-Based Services (HCBS) permettent aux États de fournir des services aux personnes handicapées (y compris l'autisme) à leur domicile et dans leur communauté plutôt que dans des institutions. Ces dérogations varient considérablement selon les États, mais couvrent généralement la thérapie ABA, les soins de répit, l'orthophonie, l'ergothérapie, les soins personnels, l'emploi assisté, l'adaptation de jour et la formation familiale. Certains États ont des dérogations spécifiques à l'autisme (telles que l'Autism Waiver du Maryland), tandis que d'autres incluent l'autisme dans des dérogations plus larges pour les déficiences développementales. Les listes d’attente peuvent être longues – parfois des années – alors postulez le plus tôt possible. L'admissibilité est généralement basée sur le niveau de handicap de l'enfant et non sur le revenu familial.",
+    "steps": [
+      "Contactez le bureau Medicaid de votre état ou l'agence chargée des déficiences développementales pour savoir quelles dérogations s'appliquent aux enfants autistes.",
+      "Demandez toutes les dérogations auxquelles votre enfant peut être admissible : vous pouvez figurer sur plusieurs listes d'attente simultanément.",
+      "Rassemblez la documentation : diagnostic d'autisme, dossiers médicaux, évaluations scolaires et évaluations fonctionnelles.",
+      "Si vous êtes inscrit sur une liste d’attente, renseignez-vous sur votre poste et le temps d’attente estimé – effectuez un suivi régulier tous les 3 à 6 mois.",
+      "Une fois approuvé, travaillez avec votre coordonnateur de services pour élaborer un plan centré sur la personne répertoriant tous les services nécessaires.",
+      "Révisez votre plan chaque année et demandez des services supplémentaires à mesure que les besoins de votre enfant évoluent. Vous avez le droit de faire appel de tout refus."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)"
+    ]
+  },
+  {
+    "id": "res-ssi-children",
+    "category": "Programmes fédéraux",
+    "title": "Prestations SSI pour les enfants autistes",
+    "summary": "Aide mensuelle en espèces de la Sécurité sociale pour les familles à faible revenu avec des enfants atteints d'importants handicaps liés à l'autisme.",
+    "details": "Le revenu supplémentaire de sécurité (SSI) fournit des prestations mensuelles en espèces aux enfants handicapés dont les familles ont des revenus et des ressources limités. Le taux des prestations fédérales est d'environ 967 $ par mois (2025), et de nombreux États ajoutent un montant supplémentaire. L'autisme est répertorié dans le livre bleu de la Social Security Administration sous la section 112.10 pour les enfants. Pour être admissible, votre enfant doit avoir des documents médicaux attestant de déficits de communication verbale et non verbale, d'interaction sociale et de comportements restreints/répétitifs qui limitent considérablement son fonctionnement. Les enfants bénéficiant du SSI peuvent également automatiquement bénéficier de Medicaid dans de nombreux États, donnant ainsi accès à des services de thérapie. Remarque : Seul SSI (et non SSDI) est disponible pour les enfants.",
+    "steps": [
+      "Prenez rendez-vous à votre bureau local de la Social Security Administration (SSA) – les demandes SSI pour enfants ne peuvent pas être complétées en ligne.",
+      "Rassemblez les documents requis : acte de naissance de l'enfant, numéro de sécurité sociale, dossiers médicaux, évaluations scolaires et dossiers financiers familiaux (revenus, relevés bancaires, autres avantages).",
+      "Remplissez la demande SSI et le rapport sur le handicap de l'enfant détaillant comment l'autisme affecte le fonctionnement quotidien de votre enfant.",
+      "Coopérez avec toutes les évaluations supplémentaires que la SSA peut demander – celles-ci sont gratuites et aident à déterminer l’éligibilité.",
+      "En cas de refus, faites appel dans les 60 jours – de nombreuses réclamations sont approuvées en appel. Pensez à contacter un avocat spécialisé en invalidité (beaucoup travaillent en cas d'urgence).",
+      "Si votre demande est approuvée, signalez tout changement dans vos revenus, votre situation de vie ou l'état de votre enfant à la SSA pour maintenir vos prestations."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)"
+    ]
+  },
+  {
+    "id": "res-tricare-autism",
+    "category": "Programmes fédéraux",
+    "title": "Couverture de l'autisme TRICARE (familles de militaires)",
+    "summary": "Services complets en matière d'autisme pour les familles des militaires, y compris la thérapie ABA dans le cadre de la démonstration de soins pour l'autisme de TRICARE.",
+    "details": "TRICARE couvre l'analyse appliquée du comportement et d'autres services autisme pour tous les bénéficiaires de TRICARE par le biais de la démonstration de soins autisme (ACD), qui se déroule jusqu'au 31 décembre 2028. Votre enfant reçoit une autorisation de 6 mois pour les services ABA, et une nouvelle référence de votre fournisseur de diagnostic de TSA est requise tous les deux ans. Chaque enfant de l'ACD se voit attribuer un navigateur des services d'autisme (ASN) qui aide à coordonner les soins entre l'orthophonie, l'ABA et votre pédiatre. TRICARE couvre également l'orthophonie, l'ergothérapie et d'autres traitements médicalement nécessaires pour l'autisme. En septembre 2025, l'Académie nationale des sciences a recommandé que l'ABA devienne un avantage TRICARE de base permanent plutôt qu'un programme de démonstration. Les services ABA nécessitent des emplacements avec des analystes du comportement certifiés.",
+    "steps": [
+      "Obtenez un diagnostic d'autisme pour votre enfant auprès d'un prestataire agréé TRICARE (pédiatre du développement, psychologue ou psychiatre).",
+      "Obtenez une référence du fournisseur de diagnostic de votre enfant spécifiquement pour l'ABA et tout autre service lié à l'autisme.",
+      "Contactez votre navigateur de services d'autisme (ASN) désigné - il vous aidera à coordonner et à accéder à tous les services disponibles.",
+      "Trouvez des prestataires ABA agréés TRICARE dans votre région via le répertoire des prestataires TRICARE sur tricare.mil.",
+      "Assurez-vous que l'autorisation de votre enfant est renouvelée tous les 6 mois et que la référence est mise à jour tous les 2 ans.",
+      "Si vous faites face à des refus ou à des problèmes d'accès, contactez le coordonnateur du conseil et de l'assistance aux bénéficiaires de TRICARE (BCAC) pour obtenir de l'aide lors des appels."
+    ],
+    "icon": "flag-outline",
+    "sources": [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)"
+    ]
+  },
+  {
+    "id": "res-therapy-aba",
+    "category": "Thérapies",
+    "title": "Analyse appliquée du comportement (ABA)",
+    "summary": "La thérapie contre l'autisme la plus étudiée — utilise le renforcement positif pour développer des compétences et réduire les comportements difficiles.",
+    "details": "L'analyse appliquée du comportement est considérée comme un traitement fondé sur les meilleures pratiques fondées sur des preuves par le US Surgeon General et l'American Psychological Association. L'ABA décompose les nouvelles compétences en petites étapes gérables et utilise le renforcement positif pour encourager les comportements souhaités. Un analyste du comportement certifié (BCBA) élabore un plan de traitement individualisé basé sur une évaluation du comportement fonctionnel. L'ABA moderne met l'accent sur des approches naturalistes et basées sur le jeu qui suivent les intérêts de l'enfant. La thérapie peut être dispensée à domicile, dans une clinique ou en milieu scolaire, allant généralement de 10 à 40 heures par semaine selon les besoins de l'enfant. Les parents sont formés pour renforcer leurs compétences tout au long de la journée.",
+    "steps": [
+      "Obtenez un diagnostic formel d'autisme et une référence de votre pédiatre pour les services ABA.",
+      "Contactez votre assurance, Medicaid ou votre agence nationale pour les personnes handicapées développementales pour confirmer la couverture ABA et trouver des prestataires agréés.",
+      "Planifiez une évaluation du comportement fonctionnel (FBA) avec un BCBA – cela évalue les forces, les défis et les objectifs familiaux de votre enfant.",
+      "Examinez et approuvez le plan de traitement individualisé – assurez-vous que les objectifs se concentrent sur la communication, les compétences fonctionnelles et l’indépendance.",
+      "Participez à des séances de formation pour les parents afin de pouvoir renforcer les compétences de manière cohérente à la maison.",
+      "Demandez des rapports de progression réguliers avec des données et assistez aux révisions du plan – ajustez les objectifs à mesure que votre enfant grandit."
+    ],
+    "icon": "fitness-outline",
+    "sources": [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "res-therapy-speech",
+    "category": "Thérapies",
+    "title": "Orthophonie",
+    "summary": "Aide les enfants à développer leurs compétences en communication, des premiers mots à la conversation, en passant par les méthodes de communication non verbales.",
+    "details": "L'orthophonie est la thérapie développementale la plus courante chez les enfants autistes, dispensée par un orthophoniste agréé (SLP). Il aborde la compréhension du langage (réceptif), l'expression des désirs et des besoins (expressif), l'utilisation sociale du langage (pragmatique), l'articulation et les difficultés d'alimentation/déglutition. Pour les enfants peu verbaux, les orthophonistes peuvent introduire une communication améliorée et alternative (CAA) telle que des systèmes d'échange d'images, la langue des signes ou des dispositifs de génération de parole. La recherche montre qu’avec une intervention précoce, deux enfants d’âge préscolaire autistes sur trois améliorent considérablement leurs compétences en communication. Il est important de noter que le bilinguisme ne retarde PAS le langage chez les enfants autistes : il est recommandé de conserver la langue maternelle.",
+    "steps": [
+      "Demandez à votre pédiatre de vous orienter vers un orthophoniste expérimenté dans les troubles du spectre autistique.",
+      "Accédez aux services via plusieurs canaux : assurance maladie, Medicaid, IEP du district scolaire, intervention précoce de l'État ou cliniques d'orthophonie universitaires (souvent à moindre coût).",
+      "Pendant l’évaluation, partagez des exemples de la façon dont votre enfant communique à la maison : les vidéos sont très utiles.",
+      "Si votre enfant est peu verbal, demandez spécifiquement un orthophoniste possédant une expertise en CAA – tous les orthophonistes ne sont pas spécialisés dans ce domaine.",
+      "Renseignez-vous sur les modèles de coaching parental dans lesquels l'orthophoniste vous forme à intégrer la pratique de la communication dans les routines quotidiennes.",
+      "Si votre famille parle une autre langue à la maison, demandez un orthophoniste ou un interprète bilingue – continuez à utiliser votre langue maternelle avec votre enfant."
+    ],
+    "icon": "chatbubbles-outline",
+    "sources": [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)"
+    ]
+  },
+  {
+    "id": "res-therapy-ot",
+    "category": "Thérapies",
+    "title": "Ergothérapie (OT)",
+    "summary": "Développe l'indépendance dans les compétences de la vie quotidienne, le traitement sensoriel et la motricité fine.",
+    "details": "L'ergothérapie aide les enfants autistes à développer les compétences nécessaires à la vie quotidienne et à l'indépendance. Les ergothérapeutes travaillent sur la motricité fine (écrire, boutonner, utiliser des ustensiles), le traitement et la régulation sensorielles (aider les enfants qui sont trop ou sous-sensibles aux entrées sensorielles), les routines de soins personnels (s'habiller, aller aux toilettes, se brosser les dents), les aptitudes au jeu et la préparation en classe. La thérapie d'intégration sensorielle, souvent dispensée par les ergothérapeutes, aide les enfants à mieux traiter et réagir aux informations sensorielles qui peuvent être accablantes ou déroutantes. Les ergothérapeutes créent des plans de traitement individualisés et utilisent des activités qui ressemblent à du jeu mais sont soigneusement conçues pour développer des compétences spécifiques. Ils recommandent également des modifications environnementales et des outils sensoriels pour la maison et l'école.",
+    "steps": [
+      "Demandez une évaluation en ergothérapie auprès de votre pédiatre, de votre district scolaire ou du programme d'intervention précoce de l'État.",
+      "Pendant l'évaluation, décrivez les défis quotidiens de votre enfant : manger, s'habiller, transitions, sensibilités sensorielles.",
+      "Passez en revue le plan de traitement et assurez-vous que les objectifs répondent à vos préoccupations quotidiennes les plus prioritaires.",
+      "Demandez à l’ergothérapeute un régime sensoriel à domicile – un plan personnalisé d’activités sensorielles à réaliser tout au long de la journée.",
+      "Pratiquez systématiquement les stratégies recommandées par les ergothérapeutes à la maison, en particulier pendant les routines comme les repas, l'heure du bain et l'habillage.",
+      "Demandez des séances d'ergothérapie en milieu scolaire via l'IEP de votre enfant si les besoins en matière de motricité fine, sensorielle ou de soins personnels affectent la participation scolaire."
+    ],
+    "icon": "hand-left-outline",
+    "sources": [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-pt",
+    "category": "Thérapies",
+    "title": "Physiothérapie (PT)",
+    "summary": "Améliore la motricité globale, la coordination, la force et la confiance physique pour des mouvements en toute sécurité dans tous les environnements.",
+    "details": "La physiothérapie aide les enfants autistes à améliorer leur motricité globale (marcher, courir, sauter, grimper), leur équilibre et leur coordination, leur force de base, leur conscience corporelle et leur navigation spatiale. Les physiothérapeutes évaluent les limitations motrices fonctionnelles des enfants et créent des plans pour y remédier. Pour les enfants d'âge scolaire, les physiothérapeutes aident à naviguer en toute sécurité dans les couloirs, les terrains de jeux, les cafétérias et les autobus scolaires. Ils travaillent également sur les habiletés motrices nécessaires pour participer à des jeux sociaux et aux interactions avec leurs pairs. La physiothérapie peut être essentielle pour les enfants qui ont un faible tonus musculaire, des difficultés de coordination ou des problèmes de planification motrice courants dans l'autisme. Les services sont accessibles via l'assurance maladie, les programmes d'intervention précoce, les PEI scolaires ou les cliniques ambulatoires.",
+    "steps": [
+      "Demandez à votre pédiatre d'évaluer si votre enfant présente des retards moteurs bruts ou des problèmes de coordination qui justifient une référence à un physiothérapeute.",
+      "Planifiez une évaluation PT - le thérapeute évaluera l'équilibre, la coordination, la force, la planification motrice et la mobilité fonctionnelle.",
+      "Passez en revue le plan de traitement et discutez des étapes motrices et des compétences fonctionnelles qui sont prioritaires.",
+      "Incorporez les exercices recommandés par le physiothérapeute dans vos routines quotidiennes – beaucoup peuvent être transformés en jeux amusants à la maison.",
+      "Demandez un PT en milieu scolaire via l'IEP si des difficultés motrices affectent la capacité de votre enfant à naviguer à l'école en toute sécurité.",
+      "Réévaluez les progrès tous les 3 à 6 mois et ajustez les objectifs à mesure que votre enfant développe de nouvelles compétences physiques."
+    ],
+    "icon": "walk-outline",
+    "sources": [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)"
+    ]
+  },
+  {
+    "id": "res-therapy-floortime",
+    "category": "Thérapies",
+    "title": "DIR/Temps de parole",
+    "summary": "Une approche relationnelle qui suit l'exemple de l'enfant pendant le jeu pour construire des fondations sociales, émotionnelles et intellectuelles.",
+    "details": "DIR signifie Développement, Différences individuelles, Basé sur les relations. Développée par le Dr Stanley Greenspan dans les années 1980, cette approche jette les bases d'une croissance sociale, émotionnelle et intellectuelle grâce à des interactions joyeuses dirigées par l'enfant plutôt que de cibler des comportements spécifiques. La stratégie principale consiste à ce que les adultes se mettent par terre et suivent les intérêts de l'enfant pour élargir les « cercles de communication » – des interactions de va-et-vient. Le temps passé au sol implique généralement 2 à 5 heures par jour, réparties en séances de 20 à 30 minutes. La recherche montre des progrès dans la communication, le fonctionnement émotionnel, les compétences de la vie quotidienne et les relations parent-enfant. DIR/Floortime est reconnu par le Centre national de développement professionnel sur les troubles du spectre autistique et peut être réalisé par les parents à la maison avec l'aide d'un professionnel.",
+    "steps": [
+      "Apprenez les bases de DIR/Floortime grâce au Conseil interdisciplinaire sur le développement et l'apprentissage (ICDL) sur icdl.com – ils offrent des ressources aux parents.",
+      "Trouvez un thérapeute formé par DIR/Floortime dans le répertoire des prestataires ICDL ou demandez des références au pédiatre du développement de votre enfant.",
+      "Commencez par des séances Floortime de 20 minutes : asseyez-vous par terre, suivez l'exemple de votre enfant et essayez d'élargir les interactions de va-et-vient.",
+      "Concentrez-vous d’abord sur le lien émotionnel – participez à ce que votre enfant aime sans essayer de le rediriger ou d’enseigner des compétences spécifiques.",
+      "Augmentez progressivement le nombre et la durée des séances, en visant plusieurs séances courtes tout au long de la journée.",
+      "Travaillez avec un professionnel qualifié pour apprendre à répondre au profil sensoriel et développemental individuel de votre enfant pendant le jeu."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)"
+    ]
+  },
+  {
+    "id": "res-therapy-teacch",
+    "category": "Thérapies",
+    "title": "TEACCH (Enseignement Structuré)",
+    "summary": "Une méthode pédagogique visuelle et structurée qui organise l'environnement physique pour aider les enfants autistes à apprendre de manière autonome.",
+    "details": "TEACCH (Traitement et éducation des enfants autistes et handicapés de la communication) a été développé à l'Université de Caroline du Nord par le Dr Eric Schopler et le Dr Robert Reichler dans les années 1960. Il met l'accent sur un enseignement structuré adapté à la manière dont les personnes autistes traitent l'information, notamment via des supports visuels. Les principes de base comprennent l'organisation de l'environnement physique, des séquences d'activités prévisibles, des horaires visuels, des systèmes de travail structurés et des tâches organisées visuellement. TEACCH réduit l'anxiété en rendant les attentes claires et prévisibles, et améliore considérablement les transitions entre les activités. La recherche montre une indépendance accrue dans les tâches quotidiennes, les soins personnels, l'organisation et le respect des routines. Les parents peuvent mettre en œuvre les principes TEACCH à la maison en créant des horaires visuels et des espaces organisés.",
+    "steps": [
+      "Apprenez les bases de TEACCH grâce au programme TEACCH sur l'autisme de l'UNC (teacch.com) - ils offrent une formation aux parents et aux professionnels.",
+      "Créez un horaire quotidien visuel pour votre enfant à l'aide d'images ou de photos montrant la séquence d'activités tout au long de la journée.",
+      "Organisez votre environnement domestique : désignez des zones claires pour des activités spécifiques (espace de jeu, espace de travail, espace de calme) avec des étiquettes visuelles.",
+      "Mettez en œuvre des systèmes de travail pour les tâches : utilisez une disposition de gauche à droite indiquant ce qu'il faut faire, combien de choses doivent faire et ce qui vient ensuite.",
+      "Utilisez des minuteries visuelles et des avertissements de transition (par exemple, « d'abord les devoirs, puis l'iPad ») pour réduire l'anxiété lors des changements d'activité.",
+      "Consultez un professionnel formé par TEACCH pour personnaliser l'approche pédagogique structurée en fonction des forces et des besoins spécifiques de votre enfant."
+    ],
+    "icon": "grid-outline",
+    "sources": [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)"
+    ]
+  },
+  {
+    "id": "res-therapy-social-skills",
+    "category": "Thérapies",
+    "title": "Groupes de compétences sociales",
+    "summary": "Des groupes structurés où les enfants autistes mettent en pratique leurs compétences en matière d'interaction sociale, de conversation et d'amitié avec leurs pairs.",
+    "details": "Les groupes de compétences sociales rassemblent des enfants atteints du spectre autistique (parfois mélangés à des pairs neurotypiques) pour pratiquer l'interaction sociale dans un environnement structuré et favorable. Dirigés par des cliniciens agréés tels que des orthophonistes ou des psychologues, ces groupes travaillent sur les compétences conversationnelles, la lecture des signaux sociaux, la prise de perspective, l'établissement et le maintien d'amitiés, la régulation émotionnelle et le jeu coopératif. Un clinicien identifie des objectifs individualisés pour chaque enfant et suit les progrès chaque semaine. La recherche montre des impacts positifs sur les compétences sociales, la qualité des amitiés et la réduction de la solitude. Les parents participent souvent à des séances parallèles d'apprentissage pour renforcer leurs compétences à la maison. De nombreuses familles nouent des liens durables avec d’autres familles participantes.",
+    "steps": [
+      "Renseignez-vous auprès du thérapeute, de l'école ou du pédiatre de votre enfant sur les groupes locaux de compétences sociales : ils peuvent être proposés par des cliniques, des hôpitaux ou des organismes communautaires.",
+      "Recherchez des groupes adaptés à l'âge et au niveau de développement de votre enfant : certains groupes sont basés sur le jeu tandis que d'autres sont plus structurés pour les enfants plus âgés.",
+      "Assurez-vous que le groupe est dirigé par un clinicien agréé (SLP, psychologue ou BCBA) qui fixe des objectifs individualisés pour chaque participant.",
+      "Assistez à l'orientation des parents ou à des séances parallèles pour les parents pour apprendre à renforcer les compétences sociales à la maison.",
+      "Mettez en pratique les compétences acquises dans un environnement naturel – organisez des rendez-vous de jeu avec des pairs du groupe pour généraliser les compétences sociales.",
+      "Surveillez le niveau de confort de votre enfant : un bon groupe doit renforcer la confiance et non accroître l'anxiété ou la frustration."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)"
+    ]
+  },
+  {
+    "id": "res-therapy-music",
+    "category": "Thérapies",
+    "title": "Musicothérapie",
+    "summary": "Utilise des activités basées sur la musique pour améliorer la communication, l’interaction sociale, la motricité et la régulation émotionnelle.",
+    "details": "La musicothérapie pour l'autisme est dispensée par des musicothérapeutes certifiés (MT-BC) qui utilisent le chant, le jeu d'instruments, l'écriture de chansons et les activités rythmiques pour atteindre les objectifs thérapeutiques. La musique engage de manière unique plusieurs zones cérébrales simultanément, ce qui la rend particulièrement efficace pour les enfants qui ne réagissent peut-être pas aussi bien aux thérapies traditionnelles basées sur la parole. La recherche soutient l'amélioration des compétences de communication et de langage, de l'interaction sociale et de l'attention conjointe, de l'expression et de la régulation émotionnelles, de la coordination motrice fine et globale et du traitement sensoriel. Les activités musicales interactives créent des opportunités naturelles de tour de rôle, de contact visuel et de plaisir partagé avec les pairs et les membres de la famille. De nombreux enfants autistes manifestent un fort intérêt musical qui peut servir de pont vers d’autres apprentissages.",
+    "steps": [
+      "Trouvez un musicothérapeute certifié (MT-BC) via le répertoire de l'American Music Therapy Association sur musictherapy.org.",
+      "Discutez des objectifs spécifiques de votre enfant : la musicothérapie peut cibler la communication, les compétences sociales, la motricité ou la régulation émotionnelle.",
+      "Renseignez-vous sur le format des séances : les séances individuelles permettent une attention personnalisée tandis que les séances de groupe ajoutent la pratique des compétences sociales.",
+      "Incorporez de la musique aux routines familiales – utilisez des chansons pour les transitions (chanson de nettoyage), les routines quotidiennes (chanson pour le brossage des dents) et la régulation émotionnelle.",
+      "Vérifiez les options de couverture : certains régimes d'assurance, les dispenses de Medicaid et les PEI scolaires peuvent financer la musicothérapie en tant que service connexe.",
+      "Donnez-lui plusieurs séances – certains enfants ont besoin de temps pour s’habituer au thérapeute et au format avant de montrer des progrès."
+    ],
+    "icon": "musical-notes-outline",
+    "sources": [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)"
+    ]
+  },
+  {
+    "id": "res-therapy-equine",
+    "category": "Thérapies",
+    "title": "Thérapie assistée par les chevaux (équitation)",
+    "summary": "Équitation thérapeutique qui améliore la communication sociale, la régulation émotionnelle et la motricité grâce à l'interaction avec les chevaux.",
+    "details": "La thérapie assistée par les chevaux utilise le mouvement rythmique et la réactivité des chevaux pour atteindre les objectifs thérapeutiques des enfants autistes. Une vaste étude randomisée menée à l'Université du Colorado a révélé que 10 semaines d'équitation thérapeutique produisaient une réduction durable de l'irritabilité et des améliorations de la communication sociale, de l'hyperactivité et de la maîtrise des mots chez les enfants âgés de 6 à 16 ans. Le mouvement naturel du cheval stimule la force, l’équilibre et la coordination. Travailler avec des chevaux offre également la possibilité de pratiquer la communication non verbale, l’empathie, la responsabilité et la régulation émotionnelle dans un cadre extérieur motivant. Les programmes sont généralement dirigés par des instructeurs certifiés PATH International aux côtés de thérapeutes. La thérapie équine peut compléter d'autres traitements comme l'ABA, la parole et l'OT.",
+    "steps": [
+      "Trouvez un centre d'équitation thérapeutique certifié PATH International près de chez vous sur pathintl.org/find-a-center.",
+      "Planifiez une évaluation - l'équipe évaluera les capacités physiques, les besoins comportementaux et les objectifs thérapeutiques de votre enfant.",
+      "Discutez des exigences de sécurité : casques, vêtements appropriés et tout aménagement sensoriel dont votre enfant pourrait avoir besoin.",
+      "Engagez-vous à des séances hebdomadaires régulières : les recherches montrent que les avantages s'accumulent sur 8 à 10 semaines de participation constante.",
+      "Renseignez-vous sur l'hippothérapie (OT/PT/Discours à cheval) par rapport à l'équitation thérapeutique : l'hippothérapie utilise le mouvement du cheval comme outil de traitement et peut être couverte par une assurance.",
+      "Vérifiez les sources de financement : certains centres équestres à but non lucratif proposent des bourses et l'hippothérapie peut être couverte par l'assurance maladie ou par Medicaid."
+    ],
+    "icon": "paw-outline",
+    "sources": [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)"
+    ]
+  },
+  {
+    "id": "res-therapy-aquatic",
+    "category": "Thérapies",
+    "title": "Thérapie aquatique",
+    "summary": "Thérapie à base d'eau qui développe la motricité, la coordination, l'endurance et la confiance sociale dans un environnement sensoriel apaisant.",
+    "details": "La thérapie aquatique utilise les propriétés uniques de l'eau (flottabilité, résistance et pression hydrostatique) pour aider les enfants autistes à développer leurs capacités motrices, leur coordination, leur force et leur endurance dans un environnement sensoriel favorable. De nombreux enfants autistes qui ont du mal à faire de l’exercice sur terre s’épanouissent dans l’eau. L’apport sensoriel de l’eau chaude peut être apaisant et régulateur, permettant aux enfants de se concentrer et de participer plus facilement. La thérapie aquatique enseigne également la sécurité de l'eau – une préoccupation majeure puisque la noyade est l'une des principales causes de décès chez les enfants autistes susceptibles d'errer. Les séances peuvent travailler sur les compétences sociales (tour de rôle, suivre des instructions en groupe), la conscience du corps, le contrôle de la respiration et la forme physique globale. La recherche montre des améliorations dans les interactions sociales et la fonction motrice.",
+    "steps": [
+      "Demandez à votre pédiatre ou à votre thérapeute de vous orienter vers un programme de thérapie aquatique, ou recherchez des installations avec des thérapeutes aquatiques certifiés.",
+      "Vérifiez si le prestataire d'ergothérapie ou de physiothérapie de votre enfant propose des séances de thérapie aquatique – celles-ci peuvent être couvertes par une assurance.",
+      "Commencez par des séances individuelles pour aider votre enfant à s'acclimater à l'environnement de la piscine avant d'essayer des séances en groupe.",
+      "Discutez des objectifs de sécurité aquatique en priorité : apprendre à votre enfant à être en sécurité dans et autour de l’eau peut lui sauver la vie.",
+      "Pratiquez des activités aquatiques à la maison pendant l’heure du bain : verser, donner des coups de pied, souffler des bulles – cela renforce le confort et les compétences.",
+      "Recherchez les programmes communautaires de natation adaptée dans les YMCA locaux, les services des parcs et des loisirs ou les Jeux olympiques spéciaux – beaucoup sont gratuits ou peu coûteux."
+    ],
+    "icon": "water-outline",
+    "sources": [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)"
+    ]
+  },
+  {
+    "id": "res-crisis-988",
+    "category": "Soutien en cas de crise",
+    "title": "988 Bouée de sauvetage en cas de suicide et de crise",
+    "summary": "Assistance de crise gratuite et confidentielle 24h/24 et 7j/7 par téléphone, SMS ou chat pour toute personne en détresse émotionnelle - disponible en anglais et en espagnol.",
+    "details": "Le 988 Suicide & Crisis Lifeline est un réseau national de centres de crise offrant une assistance gratuite et confidentielle 24 heures sur 24, 7 jours sur 7. Appelez ou envoyez un SMS au 988 pour entrer en contact avec un conseiller qualifié. Les services sont disponibles en anglais et en espagnol, et le chat en direct est disponible sur 988lifeline.org. Des services de visiophonie sont proposés aux personnes sourdes ou malentendantes utilisant la langue des signes américaine. La bouée de sauvetage propose des ressources s'adressant spécifiquement aux personnes atteintes de neurodivergence, y compris l'autisme. Il ne s'agit PAS uniquement des pensées suicidaires, mais de toute crise émotionnelle, stress accablant ou urgence de santé mentale. L'Autisme Society travaille avec des centres de crise à travers le pays pour garantir que les conseillers reçoivent une formation spécifique à l'autisme et aux déficiences intellectuelles/développementales.",
+    "steps": [
+      "Enregistrez le 988 sur votre téléphone maintenant – vous pouvez appeler ou envoyer un SMS à ce numéro chaque fois que vous ou un membre de votre famille êtes en crise.",
+      "En cas de danger immédiat, appelez toujours d’abord le 911, puis faites un suivi auprès du 988 pour obtenir une assistance continue.",
+      "Si votre enfant autiste ou un membre de votre famille est en crise émotionnelle, appelez le 988 et informez le conseiller du diagnostic d'autisme afin qu'il puisse adapter son approche.",
+      "Visitez 988lifeline.org pour un chat en direct si les appels téléphoniques sont difficiles – le chat peut être plus facile pour certaines personnes autistes ou en cas de dépassement sensoriel.",
+      "Pour obtenir une assistance en espagnol, appelez le 988 et appuyez sur 2 pour accéder à la ligne en espagnol.",
+      "Gardez le numéro visible chez vous et partagez-le avec les soignants, les membres de la famille et l'école de votre enfant."
+    ],
+    "icon": "call-outline",
+    "sources": [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)"
+    ]
+  },
+  {
+    "id": "res-crisis-text",
+    "category": "Soutien en cas de crise",
+    "title": "Ligne de texte de crise",
+    "summary": "Assistance en cas de crise gratuite 24h/24 et 7j/7 par SMS - idéale pour ceux qui préfèrent envoyer des SMS plutôt que des appels téléphoniques.",
+    "details": "Crisis Text Line fournit une assistance de crise gratuite et confidentielle par SMS, disponible 24 heures sur 24, 7 jours sur 7. Envoyez HOME par SMS au 741741 pour entrer en contact avec un conseiller de crise qualifié. Ce service est particulièrement utile aux personnes autistes ou aux parents qui trouvent les appels téléphoniques insupportables ou qui ont besoin d'un accès discret à de l'aide. Les conversations sont basées sur du texte, ce qui peut être plus facile pour les personnes qui traitent mieux la communication écrite que verbale. Les conseillers de crise sont des bénévoles formés et supervisés par du personnel clinique agréé. Le service gère tous les types de crises : anxiété, dépression, détresse émotionnelle, pensées suicidaires, conflits familiaux et épuisement professionnel. Le temps d'attente moyen pour entrer en contact avec un conseiller est inférieur à 5 minutes.",
+    "steps": [
+      "Envoyez HOME au 741741 depuis n’importe où aux États-Unis et à tout moment pour entamer une conversation avec un conseiller de crise.",
+      "Un conseiller qualifié répondra et vous aidera à traverser la crise en utilisant une écoute active et une résolution collaborative de problèmes.",
+      "Soyez honnête à propos de ce que vous vivez : il n’y a aucune mauvaise raison de tendre la main, y compris l’épuisement professionnel et le dépassement des aidants.",
+      "Si vous envoyez des SMS à propos de votre enfant, informez-en le conseiller afin qu'il puisse vous fournir un soutien et des références tenant compte de l'autisme.",
+      "Enregistrez le 741741 dans vos contacts sous le nom de « Ligne de texte de crise » afin de l'avoir prêt lorsque vous en avez besoin.",
+      "Partagez cette ressource avec d’autres parents autistes de votre communauté – beaucoup ne savent pas qu’il existe une aide en cas de crise par SMS."
+    ],
+    "icon": "chatbox-ellipses-outline",
+    "sources": [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)"
+    ]
+  },
+  {
+    "id": "res-crisis-autism-society",
+    "category": "Soutien en cas de crise",
+    "title": "Ligne d'assistance nationale de la Société de l'autisme",
+    "summary": "Ligne d'assistance gratuite reliant les familles aux ressources, services et soutien locaux en matière d'autisme par des spécialistes qualifiés.",
+    "details": "La ligne d'assistance nationale de la Société de l'autisme (800-3-AUTISM / 800-328-8476) vous met en contact avec des spécialistes qualifiés de l'information et de l'orientation (I&R) qui vous aident à trouver des ressources et des services dans votre région. Bien que la ligne d'assistance ne fournisse pas de services directs, des spécialistes vous mettront en contact avec des prestataires locaux, des programmes publics, des groupes de soutien et des ressources communautaires pour l'autisme. Il s'agit d'un excellent premier appel pour les familles immigrantes qui découvrent le système américain et qui ne savent pas par où commencer. La ligne d'assistance peut vous aider à trouver des services de diagnostic, des prestataires de thérapie, des services de sensibilisation à l'éducation, une aide financière et un soutien communautaire. IMPORTANT : Il ne s'agit PAS d'une ligne de crise : pour les urgences en matière de santé mentale, utilisez le 988 ou appelez le 911.",
+    "steps": [
+      "Appelez le 800-328-8476 (800-3-AUTISM) pendant les heures de bureau pour parler avec un spécialiste de l'information et de l'orientation.",
+      "Expliquez votre situation et les ressources que vous recherchez : le spécialiste recherchera des services dans votre région.",
+      "Renseignez-vous sur les affiliés locaux de l'Autisme Society : il y en a plus de 70 aux États-Unis qui fournissent un soutien communautaire direct.",
+      "Demandez des informations sur plusieurs sujets à la fois : diagnostic, options thérapeutiques, soutien scolaire, aide financière et groupes de soutien aux parents.",
+      "Suivez les références fournies – prenez des notes sur chaque nom de contact, numéro de téléphone et prochaines étapes.",
+      "Rappelez-vous chaque fois que vous avez besoin d’aide pour relever un nouveau défi : la ligne d’assistance est là pour une assistance continue, et pas seulement pour une utilisation ponctuelle."
+    ],
+    "icon": "information-circle-outline",
+    "sources": [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)"
+    ]
+  },
+  {
+    "id": "res-legal-idea",
+    "category": "Droits légaux",
+    "title": "IDÉE : Le droit de votre enfant à une éducation gratuite",
+    "summary": "La loi sur l’éducation des personnes handicapées garantit à chaque enfant handicapé le droit à une éducation publique gratuite et appropriée, quel que soit son statut d’immigration.",
+    "details": "IDEA est une loi fédérale qui s'applique à TOUS les enfants aux États-Unis, quel que soit leur statut d'immigration, leur citoyenneté ou leurs documents. Dans le cadre d'IDEA, les écoles publiques doivent identifier, évaluer et servir les enfants handicapés de la naissance à 21 ans. La loi garantit le FAPE (enseignement public gratuit et approprié) dans le LRE (environnement le moins restrictif). Les écoles ne peuvent pas poser de questions sur le statut d'immigration comme condition d'inscription ou de services. Si votre enfant a entre 0 et 3 ans, la partie C d'IDEA fournit des services d'intervention précoce. Si votre enfant a entre 3 et 21 ans, la partie B propose un enseignement spécialisé par l'intermédiaire du district scolaire. Vous avez droit à un interprète à toutes les réunions et à recevoir les documents dans la langue de votre choix.",
+    "steps": [
+      "Votre enfant a droit à une évaluation gratuite par le district scolaire si vous soupçonnez un handicap – demandez-le par écrit.",
+      "Les écoles NE PEUVENT PAS vous poser de questions sur votre statut d’immigration. Si tel est le cas, vous pouvez refuser de répondre et le signaler.",
+      "Vous avez droit à un interprète à chaque réunion de l’IEP – demandez-en un à l’avance.",
+      "Si vous n'êtes pas d'accord avec l'évaluation ou le placement de l'école, vous pouvez demander une évaluation pédagogique indépendante (IEE) aux frais de l'école.",
+      "Contactez le Centre de formation et d'information des parents (PTI) de votre État pour obtenir un soutien gratuit en matière de plaidoyer dans votre langue."
+    ],
+    "icon": "document-text-outline",
+    "sources": [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)"
+    ]
+  },
+  {
+    "id": "res-legal-section504",
+    "category": "Droits légaux",
+    "title": "Article 504 : Aménagements sans PEI",
+    "summary": "L'article 504 de la loi sur la réadaptation prévoit des aménagements pour les enfants handicapés mais qui ne peuvent pas être admissibles à une éducation spéciale au titre de l'IDEA.",
+    "details": "L'article 504 est une loi sur les droits civils qui interdit la discrimination à l'égard des personnes handicapées dans les programmes recevant un financement fédéral, y compris dans toutes les écoles publiques. Contrairement à un IEP, un plan 504 ne nécessite pas de catégorie spécifique de troubles d'apprentissage : toute déficience physique ou mentale qui limite considérablement une activité majeure de la vie est admissible. Pour les enfants autistes, cela peut inclure des aménagements comme du temps supplémentaire pour les tests, des sièges préférentiels, des pauses sensorielles, des devoirs modifiés ou un espace de test calme. Un plan 504 est souvent plus rapide à obtenir qu’un IEP et peut être une bonne option en attendant une évaluation complète. Les parents ont le droit de participer au processus 504 et de faire appel des décisions.",
+    "steps": [
+      "Demandez une évaluation 504 par écrit au directeur de l'école de votre enfant ou au coordinateur 504.",
+      "Fournissez la documentation du diagnostic de votre enfant – une lettre de son médecin ou de son psychologue suffit.",
+      "Assistez à la réunion 504 et décrivez comment l'autisme affecte les résultats scolaires et les activités quotidiennes de votre enfant.",
+      "Examinez les aménagements proposés et suggérez des changements spécifiques qui, selon vous, aideront votre enfant – vous êtes l’expert de votre enfant.",
+      "Un plan 504 est révisé chaque année. Vous pouvez demander une réunion à tout moment si les hébergements nécessitent des ajustements."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)"
+    ]
+  },
+  {
+    "id": "res-legal-ferpa",
+    "category": "Droits légaux",
+    "title": "FERPA : Protéger les dossiers scolaires de votre enfant",
+    "summary": "FERPA protège la confidentialité des dossiers scolaires de votre enfant et limite les personnes qui peuvent accéder aux informations sur votre enfant, y compris les autorités de l'immigration.",
+    "details": "La loi FERPA (Family Educational Rights and Privacy Act) est une loi fédérale qui protège la confidentialité des dossiers scolaires des étudiants. En vertu de la FERPA, les écoles ne peuvent pas divulguer les dossiers de votre enfant – y compris le statut de handicap, les documents IEP, l'assiduité ou les informations sur les parents – sans votre consentement écrit. Cela s'applique aux demandes de l'ICE, des autorités de l'immigration ou de toute agence gouvernementale. Les écoles ne peuvent pas partager les informations de l'annuaire (nom, adresse, téléphone) si vous vous désabonnez. Vous avez le droit d'inspecter tous les dossiers que l'école tient sur votre enfant et de demander des corrections. Comprendre la FERPA est particulièrement important pour les familles immigrantes qui peuvent craindre que le recours aux services scolaires ne révèle le statut de leur famille.",
+    "steps": [
+      "Au début de chaque année scolaire, désactivez le partage des informations de l'annuaire : cela empêche l'école de divulguer le nom et l'adresse de votre enfant.",
+      "Si quelqu'un demande à l'école les dossiers de votre enfant, l'école doit d'abord vous en informer et obtenir un consentement écrit (avec des exceptions limitées).",
+      "Vous avez le droit de consulter TOUS les dossiers que l'école conserve sur votre enfant – demandez-le par écrit.",
+      "Si vous trouvez des erreurs dans le dossier de votre enfant, soumettez une demande écrite de correction. L'école doit répondre dans les 45 jours.",
+      "Si l'ICE ou les forces de l'ordre contactent l'école, ils ne peuvent pas accéder aux dossiers des élèves sans ordonnance du tribunal. Sachez-le bien."
+    ],
+    "icon": "lock-closed-outline",
+    "sources": [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)"
+    ]
+  },
+  {
+    "id": "res-legal-ada",
+    "category": "Droits légaux",
+    "title": "ADA : Droits des personnes handicapées dans les espaces publics",
+    "summary": "L'Americans with Disabilities Act protège votre enfant de la discrimination dans les lieux publics, notamment les restaurants, les magasins, les parcs et les cabinets médicaux.",
+    "details": "L'ADA est une loi sur les droits civils qui interdit la discrimination à l'égard des personnes handicapées dans tous les domaines de la vie publique. Le titre III couvre les hébergements publics : les restaurants, magasins, hôtels, théâtres, cabinets de médecins et installations de loisirs doivent apporter des modifications raisonnables pour les personnes handicapées. Pour les enfants autistes, cela peut impliquer d’autoriser des aménagements sensoriels, des animaux d’assistance ou des appareils de communication. Les entreprises ne peuvent pas refuser un service en raison du comportement lié au handicap d'un enfant. L'ADA couvre également l'emploi (Titre I) et les services gouvernementaux étatiques/locaux (Titre II). Il est important de noter que les protections de l'ADA s'appliquent à toute personne aux États-Unis, quel que soit son statut d'immigration ou de citoyenneté.",
+    "steps": [
+      "Si une entreprise refuse de servir votre famille en raison du comportement lié à l'autisme de votre enfant, cela peut constituer une violation de l'ADA. Documentez l’incident.",
+      "Vous pouvez déposer une plainte ADA auprès du ministère de la Justice sur ada.gov – les plaintes peuvent être déposées de manière anonyme.",
+      "Les entreprises doivent autoriser les animaux d’assistance (mais pas les animaux de soutien émotionnel) et ne peuvent pas facturer de frais supplémentaires pour eux.",
+      "Si votre enfant utilise un appareil de CAA ou un tableau de communication, les entreprises doivent prévoir un délai raisonnable pour la communication.",
+      "Votre organisation locale de défense des droits des personnes handicapées peut fournir des conseils juridiques gratuits sur les violations de l'ADA : recherchez « Protection et plaidoyer » ainsi que le nom de votre État."
+    ],
+    "icon": "accessibility-outline",
+    "sources": [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-legal-medicaid-rights",
+    "category": "Droits légaux",
+    "title": "Medicaid EPSDT : Services complets de santé infantile",
+    "summary": "Si votre enfant bénéficie de Medicaid, il a droit aux services de dépistage, de diagnostic et de traitement précoces et périodiques (EPSDT) – l'ensemble d'avantages sociaux le plus complet de Medicaid.",
+    "details": "L'EPSDT est une prestation Medicaid mandatée par le gouvernement fédéral pour tous les enfants inscrits de moins de 21 ans. Elle oblige les États à fournir des services de santé complets, y compris tous les traitements médicalement nécessaires, même si ces services ne sont pas autrement couverts par le plan Medicaid de l'État. Pour les enfants autistes, cela peut inclure la thérapie ABA, l’orthophonie, l’ergothérapie, les services psychologiques, les technologies d’assistance, etc. Les États ne peuvent pas imposer de plafonds arbitraires à ces services s’ils sont jugés médicalement nécessaires. De nombreuses familles ne connaissent pas l'EPSDT et certains États tentent de limiter ces prestations, mais la loi fédérale annule les restrictions des États concernant les enfants. Si Medicaid refuse un service dont votre enfant a besoin, vous avez le droit de faire appel.",
+    "steps": [
+      "Si votre enfant bénéficie de Medicaid et a besoin d'ABA, d'orthophonie, d'ergothérapie ou d'une autre thérapie, demandez une autorisation en citant l'EPSDT - la norme est « médicalement nécessaire ».",
+      "Si Medicaid refuse un service, demandez le refus par écrit. Vous avez le droit de faire appel dans le cadre d’une audience équitable.",
+      "Contactez le bureau Medicaid de votre état et renseignez-vous spécifiquement sur les prestations EPSDT pour les enfants autistes.",
+      "Si votre état déclare qu'un service « n'est pas couvert », l'EPSDT peut l'annuler pour les enfants de moins de 21 ans. Obtenez une aide juridique si nécessaire.",
+      "L'organisation de protection et de défense de votre État peut vous aider à lutter gratuitement contre les refus de Medicaid."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)"
+    ]
+  },
+  {
+    "id": "res-family-respite",
+    "category": "Soutien familial",
+    "title": "Soins de répit : faire une pause",
+    "summary": "Les soins de répit offrent un soulagement temporaire aux principaux soignants d'enfants handicapés : ils sont essentiels pour prévenir l'épuisement professionnel et maintenir le bien-être de la famille.",
+    "details": "Les soins de répit sont des soins à court terme pour votre enfant fournis par un soignant qualifié, vous donnant le temps de vous reposer, de faire vos courses ou de répondre à vos propres besoins. La recherche montre que l’épuisement professionnel des soignants est extrêmement courant dans les familles d’enfants autistes, et que des soins de répit réguliers constituent l’une des stratégies de prévention les plus efficaces. Le répit peut être à domicile (un travailleur qualifié vient chez vous), à l'extérieur (votre enfant va dans un établissement ou dans une autre famille) ou informel (un membre de la famille ou un ami formé). De nombreux États offrent un financement pour les soins de répit par le biais de programmes d'exemption de Medicaid, d'agences nationales pour les personnes handicapées ou de programmes de soutien familial. Certaines organisations proposent des événements de répit gratuits spécifiquement pour les familles d'enfants autistes.",
+    "steps": [
+      "Contactez l'agence pour les personnes handicapées développementales de votre État et renseignez-vous sur les programmes de soins de répit - beaucoup disposent d'un financement.",
+      "Vérifiez si la dispense Medicaid de votre enfant comprend des heures de répit – de nombreuses dispenses à domicile et dans la communauté le font.",
+      "Recherchez des programmes locaux de répit pour l'autisme via l'Autism Society of America (autism-society.org) ou Easter Seals.",
+      "Demandez aux thérapeutes de votre enfant s'ils connaissent des prestataires de répit qualifiés dans votre région qui ont de l'expérience avec l'autisme.",
+      "Commencez par de courtes périodes de répit (1 à 2 heures) pendant que vous restez à proximité, puis prolongez progressivement à mesure que votre enfant se sent à l'aise."
+    ],
+    "icon": "heart-outline",
+    "sources": [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)"
+    ]
+  },
+  {
+    "id": "res-family-parent-groups",
+    "category": "Soutien familial",
+    "title": "Groupes de soutien aux parents",
+    "summary": "Se connecter avec d'autres parents d'enfants autistes réduit l'isolement, fournit des conseils pratiques et construit une communauté qui comprend votre expérience quotidienne.",
+    "details": "Élever un enfant autiste, surtout dans une famille immigrante, peut être source d'isolement. Les groupes de soutien aux parents offrent un espace pour partager des expériences, apprendre des autres qui ont traversé les mêmes systèmes et nouer des amitiés avec des personnes qui comprennent vraiment. Les groupes peuvent être en personne, en ligne ou les deux. De nombreux groupes sont organisés par langue et culture, reconnaissant que les perspectives culturelles sur le handicap varient considérablement. La recherche montre que les parents qui participent à des groupes de soutien signalent moins de stress, de meilleures capacités d'adaptation et de plus grandes capacités de plaidoyer. De nombreux groupes servent également de réseaux d'information informels pour trouver des thérapeutes, naviguer dans les systèmes scolaires et accéder aux prestations.",
+    "steps": [
+      "Recherchez des groupes locaux de parents autistes via l'Autism Society (autism-society.org) - filtrez par votre état.",
+      "Recherchez sur Facebook des groupes dans votre langue : recherchez « parents autistes [votre langue] » ou « padres autismo » pour les familles hispanophones.",
+      "Demandez des recommandations au thérapeute, à l'école ou au pédiatre de votre enfant – ils connaissent souvent des groupes locaux.",
+      "S’il n’existe aucun groupe local dans votre langue, envisagez d’en créer un : même un groupe WhatsApp composé de 3 à 4 familles peut s’avérer puissant.",
+      "Les communautés en ligne comme MyAutismTeam.com connectent les parents dans tout le pays et disposent de fonctionnalités de traduction."
+    ],
+    "icon": "people-circle-outline",
+    "sources": [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)"
+    ]
+  },
+  {
+    "id": "res-family-sibling-support",
+    "category": "Soutien familial",
+    "title": "Soutenir les frères et sœurs",
+    "summary": "Les frères et sœurs d’enfants autistes ont des besoins et des expériences uniques qui méritent attention : soutenir les frères et sœurs renforce la famille entière.",
+    "details": "Les frères et sœurs d’enfants autistes éprouvent souvent un mélange d’amour, de frustration, de fierté, d’embarras, de protection et de ressentiment – ​​tout cela est normal. Ils peuvent assumer des responsabilités supplémentaires, se sentir négligés lorsque le frère ou la sœur autiste a besoin de plus d'attention ou s'inquiéter pour l'avenir. La recherche montre que les frères et sœurs qui reçoivent du soutien et des informations sur l'autisme développent des relations plus solides avec leur frère ou leur sœur autiste et déclarent un meilleur bien-être psychologique. Le Sibling Support Project (siblingsupport.org) propose des programmes spécialement conçus pour les frères et sœurs d'enfants ayant des besoins spéciaux. Avoir des conversations honnêtes et adaptées à leur âge sur l'autisme aide les frères et sœurs à comprendre et à y faire face.",
+    "steps": [
+      "Prévoyez du temps en tête-à-tête régulier avec chaque frère ou sœur – même 15 minutes d’attention sans partage font une différence significative.",
+      "Expliquez l'autisme en termes adaptés à votre âge : « Leur cerveau fonctionne différemment. Certaines choses sont plus difficiles pour eux, et d'autres pour lesquelles ils sont vraiment bons.",
+      "Reconnaissez leurs sentiments sans les juger : « C'est normal de se sentir frustré quand ton frère crie. C'est un sentiment normal.",
+      "Recherchez les programmes Sibshop (siblingsupport.org) dans votre région – ces groupes de soutien par les pairs sont spécifiquement destinés aux frères et sœurs.",
+      "Évitez de faire du frère ou de la sœur un tuteur : ils peuvent aider, mais leur rôle principal devrait être d'être un enfant et un frère/sœur."
+    ],
+    "icon": "heart-half-outline",
+    "sources": [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)"
+    ]
+  },
+  {
+    "id": "res-family-self-care",
+    "category": "Soutien familial",
+    "title": "Stratégies de soins personnels pour les soignants",
+    "summary": "Vous ne pouvez pas verser d'une tasse vide. Maintenir votre propre santé physique et mentale n’est pas égoïste : c’est essentiel au bien-être de votre enfant.",
+    "details": "Les parents d’enfants autistes connaissent des taux de stress, d’anxiété, de dépression et de problèmes de santé physique nettement plus élevés que les parents d’enfants neurotypiques. Les parents immigrants sont confrontés à des facteurs de stress supplémentaires : barrières linguistiques, isolement culturel, navigation dans des systèmes inconnus et craintes potentielles liées à l'immigration. Prendre soin de soi n'est pas un luxe, c'est une nécessité. La recherche montre systématiquement que le bien-être des parents affecte directement les résultats des enfants. Lorsque les parents sont débordés et épuisés, ils ont moins de patience, moins d’énergie pour poursuivre la thérapie et une capacité réduite à défendre efficacement leurs intérêts. Même de petites pratiques cohérentes de soins personnels peuvent faire une différence significative.",
+    "steps": [
+      "Identifiez une petite pratique quotidienne qui vous ressource : une marche de 10 minutes, une tasse de thé en silence, un appel téléphonique avec un ami ou 5 minutes de respiration profonde.",
+      "N'attendez pas le « temps libre » : planifiez des soins personnels comme un rendez-vous. Même 10 minutes sont précieuses.",
+      "Si vous souffrez d'anxiété ou de dépression, de nombreux centres de santé communautaires proposent une thérapie à échelle mobile dans plusieurs langues.",
+      "Connectez-vous avec au moins un autre parent qui comprend : l’isolement amplifie le stress. Même une amitié basée sur des textes aide.",
+      "N’oubliez pas : demander de l’aide est une force et non un échec. Accepter le soutien de la famille, des amis ou des professionnels fait de vous un meilleur parent."
+    ],
+    "icon": "leaf-outline",
+    "sources": [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)"
+    ]
+  },
+  {
+    "id": "res-family-financial",
+    "category": "Soutien familial",
+    "title": "Aide financière et avantages",
+    "summary": "Plusieurs programmes fédéraux et étatiques peuvent aider à couvrir les coûts des services, de la thérapie et des besoins quotidiens liés à l'autisme, même pour les familles disposant de documents limités.",
+    "details": "Le fardeau financier que représente l'éducation d'un enfant autiste est important : la thérapie, les visites médicales, l'équipement spécialisé et la perte de salaire peuvent mettre à rude épreuve le budget de n'importe quelle famille. Cependant, de nombreux programmes d'aide existent. Le SSI (Supplemental Security Income) prévoit des paiements mensuels pour les enfants handicapés issus de familles à faible revenu. Medicaid couvre de nombreux services de thérapie via l'EPSDT. De nombreux États ont des programmes de dérogation spécifiques à l'autisme qui couvrent l'ABA, le répit et l'équipement adaptatif. Le programme d'assurance maladie pour enfants (CHIP) couvre les enfants des familles qui gagnent trop pour Medicaid mais qui ne peuvent pas se permettre une assurance privée. Certains de ces programmes sont disponibles quel que soit le statut d'immigration, en particulier pour les enfants citoyens américains de parents sans papiers.",
+    "steps": [
+      "Faites une demande de SSI (Supplemental Security Income) auprès de votre bureau local de sécurité sociale – les enfants autistes sont souvent admissibles en fonction de critères de handicap.",
+      "Vérifiez si votre enfant est admissible à Medicaid ou CHIP – les enfants citoyens américains sont admissibles même si leurs parents sont sans papiers.",
+      "Contactez l'agence pour les personnes handicapées développementales de votre État au sujet des programmes d'exonération de l'autisme - des listes d'attente existent, alors postulez tôt.",
+      "Consultez la page de ressources financières d'Autism Speaks (autismspeaks.org/financial-resources) pour connaître les subventions et les programmes d'assistance.",
+      "Renseignez-vous auprès du prestataire de thérapie de votre enfant sur les tarifs dégressifs ou les places pro bono – de nombreux cabinets réservent des places aux familles dans le besoin.",
+      "Renseignez-vous auprès des organisations à but non lucratif et des églises locales pour obtenir une aide d'urgence concernant les dépenses liées à l'autisme."
+    ],
+    "icon": "cash-outline",
+    "sources": [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)"
+    ]
+  },
+  {
+    "id": "res-family-immigration-safety",
+    "category": "Soutien familial",
+    "title": "Connaissez vos droits : services d'immigration et de personnes handicapées",
+    "summary": "L’accès aux services pour personnes handicapées pour votre enfant n’affectera PAS votre dossier d’immigration. Les écoles, les hôpitaux et les prestataires de thérapie ne peuvent pas vous dénoncer aux autorités de l'immigration.",
+    "details": "De nombreuses familles d'immigrés évitent de recourir à des services pour leur enfant autiste, de peur que cela n'attire l'attention des services d'immigration ou n'affecte leur cas. Cette crainte est compréhensible mais largement infondée. La loi fédérale interdit aux écoles de poser des questions sur le statut d'immigration. HIPAA protège la confidentialité des dossiers médicaux. L'utilisation de Medicaid, WIC, des programmes de restauration scolaire ou des services pour personnes handicapées pour votre enfant citoyen américain ne compte pas comme un problème de « charge publique » à des fins d'immigration (conformément à la politique actuelle). Les prestataires de thérapie, les écoles et les hôpitaux sont généralement considérés comme des « lieux sensibles » où l'application de l'ICE est limitée. Comprendre ces protections peut aider les familles à accéder sans crainte aux services dont leurs enfants ont besoin.",
+    "steps": [
+      "Les écoles NE PEUVENT PAS poser de questions sur votre statut d'immigration ou celui de votre enfant comme condition d'inscription ou de services.",
+      "L'utilisation de Medicaid, CHIP ou des services d'éducation spécialisée pour votre enfant ne fait PAS de vous une « charge publique » – ceux-ci sont spécifiquement exclus.",
+      "Si quelqu'un dans une école ou un cabinet médical vous pose des questions sur votre statut d'immigration, vous pouvez refuser de répondre. Signalez-le au district scolaire.",
+      "Conservez une carte avec vos droits et le numéro d'un avocat spécialisé en immigration. De nombreuses organisations d'aide juridique proposent des cartes gratuites « Connaissez vos droits » dans plusieurs langues.",
+      "Contactez votre société d'aide juridique locale ou la section ACLU pour obtenir des conseils juridiques gratuits liés à l'immigration - beaucoup ont des programmes spéciaux pour les familles avec enfants handicapés."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)"
+    ]
+  },
+  {
+    "id": "res-edu-early-intervention",
+    "category": "Éducation",
+    "title": "Intervention précoce (partie C d'IDEA) - 0 à 3 ans",
+    "summary": "Services fédéraux d'intervention précoce pour les nourrissons et les tout-petits présentant des retards de développement, accessibles à toutes les familles, quel que soit leur statut d'immigration.",
+    "details": "La partie C d'IDEA est un programme fédéral fournissant des services d'intervention précoce aux nourrissons et aux tout-petits (de la naissance jusqu'à l'âge de 2 ans) qui présentent des retards de développement ou des maladies diagnostiquées comme l'autisme. Chaque État dispose d'une agence principale qui coordonne les services, notamment l'orthophonie, l'ergothérapie, la physiothérapie, le soutien comportemental et la formation familiale. Les services sont dispensés dans des milieux naturels comme le domicile ou la garderie. Les évaluations sont toujours gratuites et les services sont fournis gratuitement ou à faible coût selon votre état. Un enfant n’a pas besoin d’un diagnostic formel d’autisme pour recevoir les services de la partie C – un retard de développement est suffisant. Il s'agit de l'un des programmes les plus importants pour les familles immigrantes, car l'admissibilité repose entièrement sur les besoins de développement et non sur le statut d'immigrant ou la capacité de payer.",
+    "steps": [
+      "Contactez le programme d'intervention précoce Partie C de votre état – recherchez votre état sur ectacenter.org/contact/ptccoord.asp.",
+      "Demandez une évaluation de développement gratuite – le programme doit la terminer dans les 45 jours suivant la référence.",
+      "Vous n’avez PAS besoin d’un diagnostic d’autisme pour recevoir des services – un retard de développement est suffisant.",
+      "Si vous êtes éligible, aidez à élaborer le plan de services familiaux individualisés (IFSP) de votre enfant répertoriant tous les services.",
+      "Les services commencent dès que vous signez l'IFSP - renseignez-vous sur le soutien à la parole, à l'ergothérapie, au PT et au comportement.",
+      "À l'âge de 2,5 ans, commencez à planifier la transition vers les services préscolaires (partie B) par l'intermédiaire de votre district scolaire."
+    ],
+    "icon": "body-outline",
+    "sources": [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)"
+    ]
+  },
+  {
+    "id": "res-edu-transition-planning",
+    "category": "Éducation",
+    "title": "Planification de la transition (14-22 ans)",
+    "summary": "IDEA exige que les écoles planifient la transition de votre enfant vers la vie adulte, y compris l'emploi, l'éducation et la vie indépendante, à partir de 16 ans (14 ans dans certains États).",
+    "details": "La planification de la transition est une composante mandatée par le gouvernement fédéral du PEI qui prépare les élèves handicapés à la vie après l'école secondaire. Dans le cadre d'IDEA, les objectifs et les services de transition doivent être inclus dans l'IEP au plus tard l'année où l'élève atteint l'âge de 16 ans, bien que de nombreux États commencent à 14 ans. Les plans doivent aborder l'éducation ou la formation postsecondaire, l'emploi et, le cas échéant, les compétences de vie autonome. Pour les étudiants autistes, la planification de la transition devrait inclure des évaluations professionnelles, une formation professionnelle, un enseignement communautaire, une formation à l'auto-représentation et des connexions avec des agences de services pour adultes. La recherche montre que les étudiants autistes ont certains des pires résultats postsecondaires par rapport aux autres catégories de handicap, ce qui rend une planification de transition de qualité essentielle. Les parents doivent être activement impliqués et l'élève doit être invité à assister à ses propres réunions du PEI une fois la planification de la transition commencée.",
+    "steps": [
+      "Demandez que la planification de la transition commence à 14 ans même si votre état ne l’exige pas avant 16 ans – une planification précoce conduit à de meilleurs résultats.",
+      "Veiller à ce que le PEI comprenne des objectifs postsecondaires mesurables en matière d'éducation/formation, d'emploi et de vie autonome.",
+      "Demandez des évaluations professionnelles et des expériences de travail communautaires dans le cadre du plan de transition.",
+      "Invitez votre enfant à ses réunions IEP – les compétences d’auto-représentation sont essentielles à la réussite des adultes.",
+      "Connectez-vous avec l'agence de réadaptation professionnelle de votre État avant que votre enfant ne quitte l'école - elle peut fournir une aide à l'emploi.",
+      "Recherchez les agences de services aux adultes dans votre région (agences pour les personnes handicapées développementales, programmes d'emploi assisté) et lancez des références avant l'âge de 18 ans."
+    ],
+    "icon": "trending-up-outline",
+    "sources": [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)"
+    ]
+  },
+  {
+    "id": "res-edu-pti-centers",
+    "category": "Éducation",
+    "title": "Centres de formation et d'information pour les parents (PTI)",
+    "summary": "Des centres gratuits financés par le gouvernement fédéral dans chaque État qui aident les parents à s'orienter dans l'éducation spécialisée, à comprendre leurs droits et à défendre les intérêts de leurs enfants.",
+    "details": "Les centres de formation et d'information pour les parents (PTI) sont financés par IDEA et existent dans chaque État. Ils offrent une formation et un soutien gratuits aux parents d'enfants handicapés de la naissance à 26 ans. Le personnel du PTI aide les familles à comprendre la loi sur l'éducation spéciale, à participer efficacement aux réunions de l'IEP, à résoudre les différends avec les écoles et à se connecter aux ressources communautaires. De nombreux PTI proposent des services en espagnol et dans d’autres langues. Les PTI ne représentent pas le district scolaire – ce sont des organisations indépendantes au service des familles. Ils peuvent vous aider à comprendre vos droits en vertu de l'IDEA, de l'article 504 et de l'ADA. Pour les familles immigrées, les PTI sont particulièrement utiles car ils fournissent un soutien de plaidoyer gratuit et compétent, quel que soit le statut d'immigration.",
+    "steps": [
+      "Trouvez le PTI de votre état sur parentcenterhub.org/find-your-center – chaque état en a au moins un.",
+      "Appelez et renseignez-vous sur les ateliers gratuits sur les droits du PEI, la loi sur l'éducation spécialisée et les services pour l'autisme.",
+      "Demandez une assistance individuelle pour les prochaines réunions IEP – de nombreux PTI peuvent vous aider à vous préparer ou à y assister avec vous.",
+      "Demandez-leur s’ils ont du personnel qui parle votre langue ou s’ils peuvent fournir des services d’interprétation.",
+      "Assistez à des événements de connexion parent-à-parent pour rencontrer d’autres familles confrontées à des défis similaires.",
+      "Utilisez leur bibliothèque de ressources pour obtenir des exemples de lettres, des guides de droits et des informations sur les services locaux."
+    ],
+    "icon": "school-outline",
+    "sources": [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)"
+    ]
+  },
+  {
+    "id": "res-edu-assistive-tech",
+    "category": "Éducation",
+    "title": "Technologie d'assistance dans les écoles",
+    "summary": "Dans le cadre d'IDEA, les écoles doivent envisager une technologie d'assistance pour chaque enfant bénéficiant d'un IEP et fournir des appareils et des services gratuitement si l'équipe IEP détermine qu'ils sont nécessaires.",
+    "details": "La technologie d'assistance (TA) comprend tout appareil ou service qui aide un enfant handicapé à accéder à l'éducation. Pour les enfants autistes, l'AT peut inclure des appareils de communication (CAA), des applications de planification visuelle, des écouteurs antibruit, des gilets lestés, des appareils de génération de parole, des logiciels de synthèse vocale et des claviers spécialisés. Dans le cadre d'IDEA, l'équipe IEP doit déterminer si un enfant a besoin d'appareils et de services AT pour recevoir le FAPE. Si l'AT est inscrit dans l'IEP, le district scolaire doit le fournir gratuitement à la famille. Les écoles ne peuvent pas refuser l'AT en raison du coût. L'examen de l'AT doit avoir lieu à chaque réunion de l'IEP, et les familles peuvent demander une évaluation de l'AT à tout moment. De nombreux États disposent également de bibliothèques de prêt AT où les familles peuvent emprunter des appareils pour les essayer avant de s'engager.",
+    "steps": [
+      "Lors de la prochaine réunion IEP de votre enfant, demandez que la technologie d'assistance soit officiellement prise en compte - ceci est requis par IDEA.",
+      "Si l'AT est nécessaire, demandez une évaluation formelle de l'AT par un spécialiste - l'école doit la fournir gratuitement.",
+      "Explorez les options AT via la bibliothèque de prêt AT de votre état – la plupart des États en ont une (trouvez la vôtre sur atap.org).",
+      "Si l'AT est inclus dans l'IEP, l'école doit fournir, entretenir et former le personnel à l'utilisation des appareils.",
+      "Votre enfant peut emporter les appareils AT à la maison si l'équipe IEP détermine que son utilisation à domicile est nécessaire pour le FAPE.",
+      "Si l'école refuse l'AT, demandez le refus par écrit et envisagez de déposer un litige par médiation ou selon une procédure régulière."
+    ],
+    "icon": "hardware-chip-outline",
+    "sources": [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)"
+    ]
+  },
+  {
+    "id": "res-state-dd-agencies",
+    "category": "Services de l'État",
+    "title": "Agences nationales de déficience développementale",
+    "summary": "Chaque État dispose d'une agence pour les personnes handicapées développementales qui coordonne les services destinés aux personnes atteintes d'autisme et d'autres déficiences développementales.",
+    "details": "Les agences nationales de déficience développementale (DD) administrent des programmes et des financements pour les personnes ayant une déficience développementale, y compris l'autisme. Les services comprennent généralement des évaluations diagnostiques, la gestion de cas, des services à domicile et communautaires, des soutiens résidentiels, des programmes de jour, un emploi assisté, des soins de répit et un soutien familial. Dans certains États (comme la Californie), les services sont fournis par l'intermédiaire de centres régionaux. Dans d’autres, l’agence nationale de DD passe des contrats avec des prestataires locaux. Ces agences sont la porte d'entrée vers les programmes de dispense de Medicaid, qui peuvent financer la thérapie ABA, les soins de répit et d'autres services essentiels. De nombreuses agences DD ont de longues listes d'attente, il est donc essentiel de postuler tôt. Les services sont généralement disponibles quel que soit le statut d'immigration, bien que les services financés par Medicaid puissent avoir des conditions d'éligibilité.",
+    "steps": [
+      "Trouvez l'agence DD de votre état sur nasddds.org/state-agencies - chaque état en a une.",
+      "Contactez-les pour savoir quels services sont disponibles pour les enfants autistes dans votre état.",
+      "Renseignez-vous sur les programmes de dispense de Medicaid – demandez toutes les dérogations auxquelles votre enfant peut avoir droit, car les listes d'attente peuvent durer des années.",
+      "Demandez un coordonnateur de services ou un gestionnaire de cas qui peut vous aider à naviguer dans les programmes disponibles.",
+      "Renseignez-vous sur les services de soutien familial : formation des parents, soutien aux frères et sœurs, soins de répit et aide financière.",
+      "Si votre enfant approche de l’âge adulte, renseignez-vous sur les services destinés aux personnes en âge de transition et les programmes d’emploi assisté."
+    ],
+    "icon": "business-outline",
+    "sources": [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)"
+    ]
+  },
+  {
+    "id": "res-state-hcbs-waivers",
+    "category": "Services de l'État",
+    "title": "Dispenses relatives aux services à domicile et communautaires (HCBS)",
+    "summary": "Les dérogations Medicaid HCBS financent les services liés à l'autisme à votre domicile et dans votre communauté, y compris la thérapie ABA, les soins de répit et le soutien personnel, souvent quel que soit le revenu familial.",
+    "details": "Les dérogations au HCBS permettent aux États de fournir des services financés par Medicaid dans les foyers et les communautés plutôt que dans les institutions. Pour les enfants autistes, ces dérogations peuvent couvrir la thérapie ABA, l'orthophonie, l'ergothérapie, les soins de répit, l'assistance aux soins personnels, l'emploi assisté, l'adaptation de jour, la technologie d'assistance, les modifications de l'environnement et la formation familiale. L'admissibilité est généralement basée sur le niveau de handicap de l'enfant et non sur le revenu familial – le revenu de l'enfant est considéré séparément de celui des parents. Certains États ont des dérogations spécifiques à l'autisme (telles que l'Autism Waiver du Maryland), tandis que d'autres incluent l'autisme dans des dérogations DD plus larges. Les listes d’attente peuvent être extrêmement longues – parfois de 5 à 10 ans – il est donc essentiel de postuler le plus tôt possible. Vous pouvez figurer simultanément sur plusieurs listes d’attente de dispense.",
+    "steps": [
+      "Contactez le bureau Medicaid de votre état ou l'agence DD pour savoir quelles dérogations HCBS s'adressent aux enfants autistes.",
+      "Faites une demande pour chaque dispense à laquelle votre enfant peut avoir droit – vous pouvez figurer sur plusieurs listes d’attente en même temps.",
+      "Renseignez-vous sur votre position sur la liste d’attente et le temps d’attente estimé – faites un suivi tous les 3 à 6 mois.",
+      "Rassemblez de la documentation : diagnostic d'autisme, évaluations fonctionnelles, dossiers médicaux et évaluations scolaires.",
+      "Une fois approuvé, travaillez avec votre coordonnateur de services pour élaborer un plan de services centré sur la personne.",
+      "Révisez votre plan chaque année et demandez des modifications à mesure que les besoins évoluent. Vous avez le droit de faire appel de tout refus de service."
+    ],
+    "icon": "home-outline",
+    "sources": [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)"
+    ]
+  },
+  {
+    "id": "res-state-vocational-rehab",
+    "category": "Services de l'État",
+    "title": "Services de réadaptation professionnelle (VR)",
+    "summary": "Services d'emploi gratuits financés par l'État pour les personnes handicapées, notamment formation professionnelle, orientation professionnelle, emploi assisté et placement professionnel.",
+    "details": "La réadaptation professionnelle (VR) est un programme étatique-fédéral autorisé en vertu de la loi sur la réadaptation de 1973 qui aide les personnes handicapées à se préparer, à obtenir et à conserver un emploi. Chaque État dispose d'une agence de réalité virtuelle qui fournit des services individualisés, notamment des conseils de carrière, des évaluations professionnelles, une formation professionnelle, un emploi assisté, une technologie d'assistance au travail, un coaching professionnel et un placement professionnel. Pour les jeunes adultes autistes et les jeunes en âge de transition, la réalité virtuelle peut constituer un pont essentiel entre l’école et l’emploi. Les services de réalité virtuelle sont gratuits et accessibles à toute personne ayant un handicap qui crée un obstacle important à l'emploi. Des services de transition préalable à l'emploi sont disponibles pour les étudiants handicapés âgés de 14 à 21 ans avant même de postuler à la RV. Connectez-vous à la réalité virtuelle avant que votre enfant ne quitte l'école pour une transition plus fluide.",
+    "steps": [
+      "Trouvez l'agence VR de votre état sur rsa.ed.gov/about/states – il existe 78 agences VR dans tout le pays.",
+      "Postulez aux services VR – l’éligibilité nécessite un handicap qui crée un obstacle substantiel à l’emploi.",
+      "Si votre enfant est encore à l'école (âgé de 14 à 21 ans), renseignez-vous sur les services de transition préalable à l'emploi disponibles sans application VR complète.",
+      "Travaillez avec votre conseiller VR pour élaborer un plan d'emploi individualisé (IPE) avec des objectifs spécifiques.",
+      "Renseignez-vous sur les services d'emploi assisté, notamment le coaching professionnel et le soutien en cours d'emploi pour les personnes autistes.",
+      "Les services de réalité virtuelle se poursuivent jusqu'à ce que la personne obtienne un emploi stable – faites un suivi régulier avec votre conseiller."
+    ],
+    "icon": "briefcase-outline",
+    "sources": [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)"
+    ]
+  },
+  {
+    "id": "res-imm-itin",
+    "category": "Immigration",
+    "title": "Demande ITIN pour les familles sans papiers",
+    "summary": "Un numéro d'identification de contribuable individuel (ITIN) vous permet de déclarer vos impôts, d'ouvrir des comptes bancaires et d'accéder à certains services sans numéro de sécurité sociale.",
+    "details": "L'ITIN est un numéro de traitement fiscal délivré par l'IRS aux personnes qui doivent avoir un numéro d'identification de contribuable américain mais qui ne sont pas éligibles à un numéro de sécurité sociale. Depuis 1996, l'IRS délivre des ITIN aux immigrants sans papiers et aux personnes à leur charge. Un ITIN vous permet de produire des déclarations de revenus fédérales, d'ouvrir des comptes bancaires, de demander des prestations nationales et locales et d'établir un dossier financier. Pour postuler, remplissez le formulaire IRS W-7 et soumettez-le avec une déclaration de revenus fédérale et une preuve d'identité (passeport, carte d'identité consulaire ou autres documents acceptés). Vous pouvez postuler par courrier, en personne dans un centre d'assistance aux contribuables de l'IRS ou par l'intermédiaire d'un agent d'acceptation certifié. REMARQUE : Une ordonnance du tribunal de novembre 2025 bloque actuellement un accord de partage de données IRS-ICE, mais les familles doivent être conscientes que cette situation peut changer.",
+    "steps": [
+      "Rassemblez les documents requis : un passeport valide est le document d’identité autonome le plus couramment accepté.",
+      "Remplissez le formulaire IRS W-7 – vous pouvez le télécharger sur irs.gov ou obtenir l’aide d’un agent d’acceptation certifié.",
+      "Soumettez le formulaire W-7 avec votre déclaration de revenus fédérale (formulaire 1040) – Les ITIN ne peuvent être émis que lors de la déclaration de revenus.",
+      "Trouvez un agent d'acceptation certifié (CAA) près de chez vous sur irs.gov – ils peuvent vérifier les documents afin que vous n'ayez pas besoin d'envoyer les originaux par courrier.",
+      "Prévoyez 7 à 11 semaines pour le traitement – ​​plus longtemps pendant la saison des impôts (de janvier à avril).",
+      "Renouvelez votre ITIN s’il a expiré : les ITIN non utilisés expirent après 3 années consécutives de non-utilisation."
+    ],
+    "icon": "card-outline",
+    "sources": [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)"
+    ]
+  },
+  {
+    "id": "res-imm-fqhc",
+    "category": "Immigration",
+    "title": "Centres de santé communautaire (FQHC)",
+    "summary": "Les centres de santé agréés par le gouvernement fédéral servent tout le monde, quel que soit le statut d'immigration ou la capacité de payer, avec des frais basés sur une échelle mobile liée à votre revenu.",
+    "details": "Les centres de santé fédéraux (FQHC) sont des organismes de santé communautaires qui fournissent des services complets de soins primaires, dentaires, de santé mentale et de soutien aux populations mal desservies. Selon la loi, les FQHC doivent servir tous les patients, quel que soit leur statut d'immigration, leur couverture d'assurance ou leur capacité de payer. Ils utilisent une échelle tarifaire mobile basée sur le revenu du ménage – les familles égales ou inférieures à 100 % du niveau de pauvreté fédéral reçoivent généralement des soins gratuitement ou pour une somme symbolique. Les FQHC ont servi plus de 30 millions de patients en 2023, dont de nombreuses familles immigrées. Pour les enfants autistes, les FQHC peuvent proposer des dépistages développementaux, des références pour des évaluations diagnostiques, des soins primaires et des connexions avec des spécialistes. De nombreux FQHC disposent d’un personnel et de services d’interprétation bilingues.",
+    "steps": [
+      "Trouvez un FQHC près de chez vous sur findahealthcenter.hrsa.gov – entrez votre code postal pour rechercher.",
+      "Appelez pour prendre rendez-vous – expliquez que vous avez besoin de services et renseignez-vous sur les tarifs dégressifs.",
+      "Apportez une preuve de revenu (fiches de salaire, relevés bancaires ou auto-déclaration) pour déterminer votre niveau de frais.",
+      "Vous n'avez PAS besoin de fournir de documents d'immigration, de numéro de sécurité sociale ou d'assurance.",
+      "Renseignez-vous sur les dépistages développementaux de votre enfant et les références aux prestataires d'évaluation de l'autisme.",
+      "Renseignez-vous par vous-même sur les services de santé mentale : de nombreux FQHC proposent des conseils en plusieurs langues."
+    ],
+    "icon": "medkit-outline",
+    "sources": [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)"
+    ]
+  },
+  {
+    "id": "res-imm-sijs",
+    "category": "Immigration",
+    "title": "Statut Spécial d'Immigrant Juvénile (SIJS)",
+    "summary": "Une voie vers la résidence permanente légale pour les enfants immigrants de moins de 21 ans qui ont été maltraités, abandonnés ou négligés par l'un ou les deux parents.",
+    "details": "Le statut spécial d'immigrant juvénile (SIJS) est une forme de protection humanitaire qui peut ouvrir la voie à une carte verte pour les enfants immigrants qui ont survécu à des abus, à un abandon ou à une négligence. Pour être admissible, l'enfant doit être âgé de moins de 21 ans, célibataire et avoir obtenu une décision d'un tribunal de l'État concluant qu'il a été maltraité, négligé ou abandonné par l'un ou les deux parents et qu'il n'est pas dans son intérêt de retourner dans son pays d'origine. Pour les enfants autistes, le SIJS peut être pertinent lorsqu'un parent a abandonné la famille ou lorsque l'enfant a subi une négligence liée à ses besoins en matière de handicap. Le processus implique à la fois une procédure judiciaire d'État (pour obtenir les conclusions nécessaires) et une procédure fédérale d'immigration (la requête SIJS et la demande de carte verte). Une aide juridique gratuite est disponible auprès des organisations d'aide juridique en matière d'immigration.",
+    "steps": [
+      "Consultez un avocat spécialisé en immigration spécialisé dans les cas d'enfants - de nombreuses organisations d'aide juridique traitent gratuitement les cas SIJS.",
+      "Déterminez si votre enfant répond aux exigences : âgé de moins de 21 ans, célibataire et sujet à des abus/abandons/négligences de la part d'un parent.",
+      "Obtenez les conclusions nécessaires auprès d'un tribunal d'État (tribunal de la famille, de la jeunesse ou des successions selon votre État).",
+      "Déposez le formulaire I-360 (pétition spéciale d'immigration) auprès de l'USCIS avec l'ordonnance du tribunal de l'État.",
+      "Une fois le SIJS approuvé, demandez la résidence permanente légale (carte verte) en déposant le formulaire I-485.",
+      "Contactez des organisations comme Safe Passage Project, NIJC ou CLINIC pour une représentation juridique gratuite."
+    ],
+    "icon": "document-attach-outline",
+    "sources": [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)"
+    ]
+  },
+  {
+    "id": "res-imm-public-charge",
+    "category": "Immigration",
+    "title": "Règle de charge publique : ce qui compte et ce qui ne compte pas",
+    "summary": "L'utilisation des services d'invalidité, Medicaid, CHIP, WIC, des repas scolaires ou une éducation spéciale pour votre enfant ne comptera PAS contre vous dans les procédures d'immigration en vertu de la loi en vigueur.",
+    "details": "La règle de la charge publique est l’une des plus grandes sources de crainte pour les familles immigrées. Selon la règle actuellement en vigueur (2022), les seuls avantages pris en compte pour la détermination des charges publiques sont le SSI (Supplemental Security Income), l’aide en espèces TANF et l’institutionnalisation à long terme aux frais du gouvernement. Medicaid (sauf institutionnalisation à long terme), CHIP, SNAP, WIC, les repas scolaires, les aides au logement, Head Start, l'éducation spécialisée et les services d'intervention précoce ne comptent PAS. Les prestations reçues par vos enfants pour leur propre compte ne vous sont PAS attribuées. Une proposition de règle publiée en novembre 2025 pourrait élargir ce qui compte, mais elle n’est PAS encore en vigueur et fait face à des contestations juridiques. En vertu de la loi actuelle, le recours aux services d'invalidité pour votre enfant autiste n'affectera pas votre dossier d'immigration.",
+    "steps": [
+      "Connaissez les faits : Medicaid, CHIP, WIC, SNAP, les repas scolaires, Head Start et l'éducation spécialisée ne comptent PAS comme des frais publics.",
+      "Les prestations que reçoivent vos enfants citoyens américains ne sont PAS imputées à vous : seules les prestations que vous recevez personnellement comptent.",
+      "Les seuls avantages qui comptent actuellement sont le SSI, l’argent du TANF et l’institutionnalisation à long terme aux frais du gouvernement.",
+      "Si vous avez des problèmes en matière d'immigration, consultez un avocat spécialisé en droit de l'immigration avant de prendre une décision en matière de prestations : de nombreuses organisations d'aide juridique proposent des consultations gratuites.",
+      "Restez informé des modifications apportées à la règle de charge publique via NILC (nilc.org) et ILRC (ilrc.org).",
+      "Ne vous retirez pas des programmes uniquement par peur. Obtenez des conseils juridiques précis et spécifiques à votre situation."
+    ],
+    "icon": "alert-circle-outline",
+    "sources": [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-mandates",
+    "category": "Assurance et financement",
+    "title": "Mandats d’assurance nationale contre l’autisme",
+    "summary": "Les 50 États exigent désormais que les régimes d'assurance couvrent les services liés à l'autisme, y compris la thérapie ABA, bien que les détails de la couverture tels que les limites d'âge et les plafonds monétaires varient selon les États.",
+    "details": "Les 50 États américains ont adopté des mandats d'assurance contre l'autisme exigeant que les régimes d'assurance maladie couvrent le diagnostic et le traitement des troubles du spectre autistique, y compris l'analyse appliquée du comportement (ABA). Cependant, les détails de la couverture varient considérablement selon les États. Certains États plafonnent les prestations annuelles de l'ABA (allant de 36 000 $ à plus de 72 000 $ par an), tandis que d'autres n'ont aucun plafond. Les limites d'âge varient : certains États couvrent uniquement les enfants tandis que d'autres imposent une couverture pour tous les âges. Les régimes d'employeur autofinancés (régimes ERISA) sont exemptés des mandats de l'État mais peuvent être soumis aux exigences fédérales de parité en matière de santé mentale. Si votre assurance refuse les services liés à l'autisme, vous avez le droit de faire appel. La Loi fédérale sur la parité en matière de santé mentale et l’équité en matière de toxicomanie exige que les prestations de santé mentale (y compris le traitement de l’autisme) soient couvertes au même titre que les prestations médicales/chirurgicales.",
+    "steps": [
+      "Recherchez le mandat spécifique d'assurance contre l'autisme de votre État sur ncsl.org/health/autism-and-insurance-coverage-state-laws.",
+      "Demandez par écrit une copie des prestations en matière d'autisme de votre régime - renseignez-vous sur la couverture ABA, les limites d'âge, les limites de sessions et les plafonds monétaires.",
+      "Obtenez une référence du médecin de votre enfant précisant le traitement recommandé et la nécessité médicale.",
+      "En cas de refus, demandez le refus par écrit avec la citation spécifique de la politique et déposez un appel interne.",
+      "Si l'appel interne échoue, déposez un appel externe auprès du service des assurances de votre État.",
+      "Contactez l'organisation de protection et de défense de votre état pour obtenir une aide gratuite concernant les appels en matière d'assurance."
+    ],
+    "icon": "shield-checkmark-outline",
+    "sources": [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)"
+    ]
+  },
+  {
+    "id": "res-fund-katie-beckett",
+    "category": "Assurance et financement",
+    "title": "Katie Beckett / Renonciation TEFRA",
+    "summary": "Offre une couverture Medicaid aux enfants gravement handicapés vivant à la maison, en fonction du revenu de l'enfant (et non de celui des parents), ce qui rend la plupart des enfants éligibles quel que soit le revenu familial.",
+    "details": "L'option Katie Beckett (également appelée TEFRA) permet aux États de fournir Medicaid aux enfants gravement handicapés qui vivent à la maison, en comptant uniquement le revenu de l'enfant plutôt que celui des parents. Étant donné que la plupart des enfants n’ont aucun revenu, la grande majorité des enfants présentant un handicap important sont éligibles à Medicaid, quel que soit le revenu de leurs parents. Le programme a été créé en 1982 après que Katie Beckett, une enfant sous respirateur, ne pouvait recevoir des soins financés par Medicaid que dans un hôpital plutôt qu'à la maison parce que les revenus de ses parents étaient trop élevés. Actuellement, environ 24 États offrent une certaine forme de couverture Katie Beckett/TEFRA. Pour les enfants autistes qui ont besoin de thérapies coûteuses comme l’ABA, ce programme peut changer la vie car il offre une couverture Medicaid qui inclut les prestations EPSDT. Contactez le bureau Medicaid de votre état pour savoir si votre état propose cette option.",
+    "steps": [
+      "Vérifiez si votre État propose une option Katie Beckett/TEFRA sur kidswaivers.org ou en appelant le bureau Medicaid de votre État.",
+      "Pour être admissible, votre enfant doit répondre aux critères de handicap du SSI (limitations fonctionnelles importantes dues à l'autisme).",
+      "Faites une demande auprès du bureau Medicaid de votre État – la demande évalue le niveau de handicap de l'enfant, et non les finances familiales.",
+      "Rassemblez la documentation médicale : diagnostic d'autisme, évaluations fonctionnelles, dossiers de thérapie et déclarations du médecin sur les besoins en matière de soins.",
+      "S'il est approuvé, votre enfant reçoit l'intégralité des prestations Medicaid, y compris l'EPSDT – ABA, la parole, l'ergothérapie et tous les services médicalement nécessaires.",
+      "Si votre état n'offre pas Katie Beckett, renseignez-vous sur les autres parcours Medicaid pour les enfants handicapés (dérogations HCBS, programmes médicalement nécessiteux)."
+    ],
+    "icon": "medical-outline",
+    "sources": [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)"
+    ]
+  },
+  {
+    "id": "res-fund-able-accounts",
+    "category": "Assurance et financement",
+    "title": "Comptes ABLE (épargne fiscalement avantageuse)",
+    "summary": "Comptes d'épargne libres d'impôt pour les dépenses liées au handicap qui n'affectent pas l'éligibilité au SSI, à Medicaid ou à d'autres prestations soumises à conditions de ressources.",
+    "details": "Les comptes ABLE (Achieving a Better Life Experience), autorisés par la loi ABLE de 2014, sont des comptes d'épargne fiscalement avantageux pour les personnes dont le handicap a commencé avant l'âge de 46 ans. Les cotisations augmentent en franchise d'impôt et les retraits sont exonérés d'impôt lorsqu'ils sont utilisés pour des dépenses d'invalidité admissibles (QDE), notamment l'éducation, le logement, le transport, les soins de santé, la technologie d'assistance et les services de soutien personnel. Les premiers 100 000 $ d'un compte ABLE sont exonérés de la limite de ressources SSI de 2 000 $, ce qui signifie que votre enfant peut économiser de l'argent sans perdre son éligibilité au SSI ou à Medicaid. Les plafonds de cotisation annuels sont de 18 000 $ (2025), avec des cotisations supplémentaires autorisées pour les bénéficiaires qui travaillent. La plupart des États proposent des programmes ABLE et vous pouvez ouvrir un compte dans n'importe quel État. Pour les familles d'enfants autistes, les comptes ABLE sont l'un des meilleurs outils pour épargner pour les dépenses liées au handicap tout en préservant l'éligibilité aux prestations.",
+    "steps": [
+      "Vérifier l'éligibilité : le bénéficiaire du compte doit être atteint d'un handicap ayant débuté avant 46 ans.",
+      "Comparez les programmes ABLE d'État sur ablenrc.org - vous pouvez ouvrir un compte dans n'importe quel État, pas seulement dans le vôtre.",
+      "Ouvrez un compte en ligne via le programme ABLE de l'État de votre choix – le processus est similaire à l'ouverture d'un compte bancaire.",
+      "Établissez des cotisations automatiques : même de petits montants réguliers s’accumulent au fil du temps.",
+      "Tenez des registres de tous les retraits et de la façon dont les fonds sont dépensés pour les dépenses d'invalidité admissibles.",
+      "Les premiers 100 000 $ ne sont PAS pris en compte dans la limite de ressources SSI de 2 000 $ – économisez sans craindre de perdre des avantages."
+    ],
+    "icon": "wallet-outline",
+    "sources": [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)"
+    ]
+  },
+  {
+    "id": "res-fund-autism-scholarships",
+    "category": "Assurance et financement",
+    "title": "Programmes de subventions et de bourses d'études en autisme",
+    "summary": "Subventions financières d'organisations à but non lucratif qui aident à couvrir les frais de thérapie, les évaluations diagnostiques, les technologies d'assistance et d'autres dépenses liées à l'autisme.",
+    "details": "Plusieurs organisations à but non lucratif offrent des subventions financières aux familles d'enfants autistes. ACT Today (Autism Care and Treatment Today) offre des subventions allant jusqu'à 5 000 $ aux familles qui n'ont pas les moyens de se permettre ou d'accéder à un traitement. La subvention Autism Speaks Autism Care fournit 500 $ pour les dépenses liées à l'autisme. La United Healthcare Children's Foundation (UHCCF) offre des subventions allant jusqu'à 5 000 $ par an pour les frais médicaux non couverts par l'assurance. Beaucoup de ces subventions ne nécessitent pas de numéro de sécurité sociale ni de statut d'immigration spécifique. De plus, certains États proposent des programmes de bourses d'études en autisme qui financent les frais de scolarité dans les écoles privées ou la thérapie pour les enfants autistes (comme le programme de bourses d'études en autisme de l'Ohio). Les sociétés locales d'autisme, les fondations communautaires et les organismes de services (Lions Club, Rotary, Elks) peuvent également fournir une aide financière.",
+    "steps": [
+      "Demandez des subventions ACT Today sur act-today.org – les subventions couvrent la thérapie, les évaluations et la technologie d'assistance.",
+      "Demandez la subvention Autism Speaks Autism Care sur autismspeaks.org – subventions de 500 $ pour les dépenses liées à l’autisme.",
+      "Vérifiez les subventions UHCCF sur uhccf.org – jusqu'à 5 000 $/an pour les frais médicaux non couverts par l'assurance.",
+      "Recherchez des bourses d'études en autisme dans votre État – certains États financent des écoles privées ou une thérapie pour les enfants autistes.",
+      "Contactez votre affilié local de la Société de l'Autisme pour obtenir des informations sur les subventions locales et les programmes d'aide financière.",
+      "Renseignez-vous auprès des prestataires de thérapie sur les places pro bono, les tarifs dégressifs ou les plans de paiement – ​​de nombreuses places réservées aux familles dans le besoin."
+    ],
+    "icon": "gift-outline",
+    "sources": [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)"
+    ]
+  },
+  {
+    "id": "res-therapy-aac",
+    "category": "Thérapies",
+    "title": "Communication Augmentative et Alternative (CAA)",
+    "summary": "Systèmes et appareils de communication qui aident les enfants non parlants ou peu verbaux à exprimer leurs pensées, leurs besoins et leurs sentiments au moyen d'images, de symboles ou de technologies de génération de parole.",
+    "details": "La Communication Augmentative et Alternative (CAA) englobe toutes les formes de communication autres que la parole orale. Pour les enfants autistes qui ne parlent pas ou qui s’expriment peu, la CAA peut être transformatrice. Les options vont de la basse technologie (tableaux illustrés, PECS – Picture Exchange Communication System, livres de communication) à la haute technologie (applications sur tablette comme Proloquo2Go ou TouchChat, appareils dédiés à la génération de parole). Les recherches montrent systématiquement que la CAA n’empêche PAS les enfants de développer la parole ; en fait, des études montrent qu’elle peut en réalité améliorer la communication verbale. Il n’y a aucune condition préalable à l’utilisation de la CAA : les enfants de tout âge et de tout niveau de capacité peuvent en bénéficier. Selon IDEA, si un appareil de CAA est jugé nécessaire pour la FAPE, l'école doit le fournir gratuitement. Medicaid et l'assurance peuvent également couvrir les appareils de CAA avec une documentation appropriée sur la nécessité médicale.",
+    "steps": [
+      "Renseignez-vous auprès de l'orthophoniste de votre enfant sur les options de CAA : un orthophoniste devrait évaluer quel type de CAA convient le mieux à votre enfant.",
+      "Commencez par ce qui fonctionne : même le pointage, les gestes et les cartes illustrées comptent comme de la CAA – vous n'avez pas besoin d'une technologie coûteuse.",
+      "Essayez les applications de CAA sur tablette (Proloquo2Go, TouchChat, LAMP Words for Life) – beaucoup proposent des essais gratuits.",
+      "Demandez une évaluation de la CAA via le PEI de l'école de votre enfant. Si la CAA est nécessaire pour l'éducation, l'école doit la fournir gratuitement.",
+      "Faites une demande de financement pour un appareil de CAA via Medicaid, une assurance ou le programme de technologie d'assistance de votre état.",
+      "Utilisez le modèle AAC vous-même : appuyez sur les boutons de l'appareil tout en parlant pour montrer à votre enfant comment il fonctionne (c'est ce qu'on appelle la « stimulation assistée du langage »)."
+    ],
+    "icon": "tablet-portrait-outline",
+    "sources": [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "res-therapy-parent-intervention",
+    "category": "Thérapies",
+    "title": "Formation d'intervention mise en œuvre par les parents",
+    "summary": "Programmes fondés sur des données probantes qui forment les parents à mettre en œuvre des stratégies thérapeutiques avec leur enfant à la maison, prolongeant ainsi considérablement l'impact de la thérapie professionnelle.",
+    "details": "L'intervention mise en œuvre par les parents (PII) est une pratique fondée sur des preuves reconnue par le Centre national de développement professionnel sur les TSA. Les recherches issues d'une méta-analyse de 51 essais contrôlés randomisés portant sur près de 3 000 enfants démontrent que les interventions mises en œuvre par les parents produisent des avantages modérément importants en termes de compétences sociales, de communication, de comportement adaptatif et de réduction des comportements difficiles. Les informations personnelles sont particulièrement utiles pour les familles immigrantes qui peuvent avoir un accès limité aux thérapeutes professionnels en raison de barrières d'assurance, géographiques ou linguistiques. Des programmes comme Parents Taking Action (PTA) ont été adaptés culturellement aux familles d'immigrants chinois et coréens avec des résultats positifs significatifs. La formation des parents fait souvent partie des services d'ABA, d'orthophonie et d'intervention précoce, et peut être dispensée via la télésanté. IDEA Part C prend explicitement en charge le coaching parental en tant que modèle de prestation de services.",
+    "steps": [
+      "Renseignez-vous auprès du thérapeute de votre enfant (BCBA, SLP ou OT) sur les éléments de formation des parents : la plupart des programmes fondés sur des données probantes les incluent.",
+      "Demandez un coaching parental en tant que service spécifique dans l'IEP ou l'IFSP de votre enfant - il peut s'agir d'un service autonome.",
+      "Explorez la formation gratuite en ligne pour les parents grâce aux kits d'outils d'Autism Speaks et aux modules Internet sur l'autisme (autisminternetmodules.org).",
+      "Recherchez des programmes culturellement adaptés comme Parents Taking Action (PTA) s’ils sont disponibles dans votre langue et votre communauté.",
+      "Pratiquez des stratégies d’intervention au cours des routines quotidiennes : les repas, l’heure du bain, les jeux et les courses sont des opportunités d’apprentissage naturelles.",
+      "Suivez les progrès de votre enfant et partagez vos observations avec l'équipe professionnelle : vos données aident à guider les ajustements du traitement."
+    ],
+    "icon": "people-outline",
+    "sources": [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)"
+    ]
+  },
+  {
+    "id": "res-crisis-wandering",
+    "category": "Soutien en cas de crise",
+    "title": "Prévention de l'errance et des fuites (Big Red Safety Box)",
+    "summary": "Boîte à outils de sécurité gratuite de la National Autism Association pour aider à prévenir et à répondre aux incidents d'errance dangereux, qui touchent près de la moitié de tous les enfants autistes.",
+    "details": "Environ 50 % des enfants autistes errent ou s'enfuient d'environnements sûrs, ce qui fait de l'errance l'un des problèmes de sécurité les plus sérieux pour les familles. La noyade consécutive à l'errance est l'une des principales causes de décès chez les enfants autistes. La Big Red Safety Box de la National Autism Association est une boîte à outils gratuite envoyée aux familles de personnes autistes qui risquent d'errer. Depuis 2011, plus de 70 000 cartons ont été distribués. La boîte à outils comprend des ressources de sécurité visuelle, des cartes d'identité, des alarmes de fenêtre/porte et des conseils sur la création d'un plan de sécurité complet. Des mesures supplémentaires incluent des dispositifs de suivi GPS, des bracelets d'identification médicale, des alarmes de porte, des clôtures de piscine et le développement de relations avec les premiers intervenants locaux. Enseigner la sécurité aquatique et les techniques de natation est essentiel. De nombreuses familles bénéficient également du programme MedicAlert Found, qui fournit des bracelets d'identification médicale gratuits et des services d'assistance à l'errance 24h/24 et 7j/7, spécifiquement destinés aux personnes autistes.",
+    "steps": [
+      "Demandez une Big Red Safety Box gratuite sur nationalautismassociation.org/big-red-safety-box – une par famille jusqu'à épuisement des stocks.",
+      "Installez des alarmes pour portes et fenêtres, en particulier sur les portes de sortie : des alarmes bon marché peuvent être trouvées dans les quincailleries.",
+      "Envisagez un appareil de suivi GPS pour votre enfant – les options portables incluent les supports AngelSense, Jiobit et Apple AirTag.",
+      "Inscrivez-vous au programme MedicAlert Found sur medicalert.org – une carte d'identité médicale gratuite et une assistance itinérante 24h/24 et 7j/7 pour les familles autistes.",
+      "Enseignez très tôt la sécurité aquatique et les techniques de natation : des cours de natation conçus pour les enfants autistes sont disponibles dans de nombreuses communautés.",
+      "Informez la police locale et les pompiers de l'autisme et du risque d'errance de votre enfant – de nombreux services tiennent des registres volontaires."
+    ],
+    "icon": "navigate-outline",
+    "sources": [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)"
+    ]
+  },
+  {
+    "id": "res-crisis-emergency-id",
+    "category": "Soutien en cas de crise",
+    "title": "Cartes d'identité d'urgence pour l'autisme et alertes médicales",
+    "summary": "Outils d'identification médicale qui communiquent le diagnostic d'autisme et les informations critiques aux premiers intervenants, au personnel médical et aux membres de la communauté en cas d'urgence.",
+    "details": "L’autisme étant une maladie invisible, les premiers intervenants et le personnel médical peuvent ne pas le reconnaître en cas d’urgence, ce qui peut conduire à de dangereux malentendus. Les bracelets d'identification médicale, les colliers, les cartes de portefeuille et les étiquettes de chaussures communiquent des informations essentielles : la personne est autiste, peut ne pas répondre aux commandes verbales, peut être non verbale et les coordonnées d'urgence. Le programme MedicAlert Found (en partenariat avec la National Autism Association) propose une inscription gratuite, un bracelet ou un collier d'identification médicale gratuit, une étiquette de chaussure d'identification médicale gratuite et un service d'assistance à l'errance 24h/24 et 7j/7 spécifiquement destiné à la communauté de l'autisme. D'autres options incluent des bracelets à code QR qui renvoient à des profils médicaux détaillés, des cartes portefeuille ICE (en cas d'urgence) et des fonctionnalités d'identification médicale sur smartphone. Pour les enfants susceptibles de retirer les bracelets traditionnels, les options incluent des étiquettes de chaussures, des étiquettes de vêtements et des tatouages ​​temporaires avec des informations de contact.",
+    "steps": [
+      "Inscrivez-vous au programme MedicAlert Found sur medicalert.org – identification médicale gratuite et assistance 24h/24 et 7j/7 pour les personnes autistes.",
+      "Choisissez une pièce d'identité portable que votre enfant tolérera : les options incluent des bracelets, des colliers, des étiquettes de chaussures et des étiquettes de vêtements.",
+      "Créez une carte ICE (En cas d'urgence) pour le portefeuille ou le sac à dos de votre enfant avec le diagnostic, les médicaments, les contacts d'urgence et les besoins de communication.",
+      "Configurez la fonction d'identification médicale sur le smartphone de votre enfant (disponible sur iPhone et Android) avec des informations de santé critiques.",
+      "Incluez des instructions de communication spécifiques : « Je suis autiste. Je ne peux pas répondre aux commandes verbales. Veuillez utiliser un langage simple et des repères visuels.",
+      "Mettez régulièrement à jour vos informations d’identification à mesure que les médicaments, les contacts ou les capacités de communication changent."
+    ],
+    "icon": "id-card-outline",
+    "sources": [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)"
+    ]
+  },
+  {
+    "id": "res-crisis-first-responders",
+    "category": "Soutien en cas de crise",
+    "title": "Programmes de sensibilisation à l'autisme des premiers intervenants",
+    "summary": "Programmes de formation qui apprennent à la police, aux pompiers et aux ambulanciers à reconnaître l'autisme et à utiliser des techniques de désescalade sûres et efficaces lors de rencontres avec des personnes autistes.",
+    "details": "Les rencontres entre personnes autistes et forces de l’ordre peuvent devenir dangereuses lorsque les agents interprètent à tort les comportements liés à l’autisme (ne pas établir de contact visuel, ne pas suivre les ordres verbaux, les mouvements répétitifs, fuir) comme un comportement de non-conformité ou de menace. Les programmes de formation de sensibilisation à l'autisme des premiers intervenants apprennent aux agents à reconnaître les signes de l'autisme, à utiliser une communication calme et simple, à accorder un temps de traitement supplémentaire, à minimiser les apports sensoriels et à utiliser des techniques de désescalade. Le programme Safety on the Spectrum de l'Autism Society of America promeut des interactions sûres entre les premiers intervenants et la communauté de l'autisme. L'International Board of Credentialing and Continuing Education Standards (IBCCES) propose une certification formelle en matière d'autisme pour les premiers intervenants. Certains États (comme la Floride) imposent une formation sur l'autisme aux forces de l'ordre. Les familles peuvent établir de manière proactive des relations avec la police locale et les pompiers en partageant des informations sur leur enfant.",
+    "steps": [
+      "Contactez votre service de police local et demandez-lui s’il a suivi une formation de sensibilisation à l’autisme – proposez-lui de partager des ressources s’il n’en a pas.",
+      "Fournissez à votre police locale et à votre caserne de pompiers un profil d'une page de votre enfant : photo, nom, diagnostic, style de communication, déclencheurs et stratégies d'apaisement.",
+      "Renseignez-vous sur les registres volontaires de besoins spéciaux tenus par votre centre de répartition local du 911.",
+      "Partagez les ressources de formation de l’Autism Society (autismsociety.org/first-responder) avec vos agences locales.",
+      "Entraînez-vous à interagir avec le personnel en uniforme dans un environnement calme afin que votre enfant se familiarise avec lui.",
+      "Emportez une carte portefeuille ou demandez à votre enfant de porter une pièce d'identité médicale indiquant « Je suis autiste » avec des instructions spécifiques pour les premiers intervenants."
+    ],
+    "icon": "shield-outline",
+    "sources": [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)"
+    ]
+  }
+]

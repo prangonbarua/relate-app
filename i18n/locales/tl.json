@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "Bago ang Diagnosis",
@@ -74,7 +76,13 @@
       "log_skip": "Laktawan ngayon"
     },
     "crisis": "Kailangan ng tulong ngayon?",
-    "streak": "{{count}} araw na sunud-sunod"
+    "streak": "{{count}} araw na sunud-sunod",
+    "quick_actions": {
+      "resources": "Mga mapagkukunan",
+      "community": "Komunidad",
+      "ask_ai": "Itanong mo kay AI"
+    },
+    "todays_skill": "Kasanayan Ngayon"
   },
   "skills": {
     "title": "Paaralan ng Pag-aalaga sa Sarili",
@@ -87,7 +95,9 @@
       "sleep": "Tulog",
       "feeding": "Pagkain",
       "selfcare": "Pag-aalaga sa Sarili"
-    }
+    },
+    "skill_count": "{{count}} kasanayan",
+    "skill_count_one": "{{count}} kasanayan"
   },
   "navigator": {
     "title": "Mga Materyales",
@@ -97,13 +107,37 @@
       "school": "Mga Karapatan sa Paaralan",
       "state": "Mga Serbisyo ng Estado",
       "crisis": "Mga Mapagkukunan sa Krisis"
-    }
+    },
+    "no_resources": "Wala pang magagamit na mapagkukunan",
+    "disclaimer": "Pangkalahatang impormasyon lamang ito. Ang mga batas ay nag-iiba ayon sa estado. Para sa partikular na payo, kumunsulta sa isang tagapagtaguyod ng espesyal na edukasyon o abogado."
   },
   "community": {
     "title": "Komunidad",
     "subtitle": "Kumonekta sa mga magulang na nakakaunawa",
     "coming_soon": "Malapit nang dumating",
-    "join_waitlist": "Sumali sa listahan ng paghihintay"
+    "join_waitlist": "Sumali sa listahan ng paghihintay",
+    "categories": {
+      "all": "Lahat",
+      "general": "Heneral",
+      "questions": "Mga tanong",
+      "tips": "Mga tip",
+      "wins": "Panalo",
+      "vent": "Vent"
+    },
+    "new_post": "Bagong Post",
+    "post_button": "Post",
+    "category_label": "Kategorya",
+    "title_label": "Pamagat",
+    "body_placeholder": "Ano ang nasa isip mo?",
+    "no_posts": "Wala pang post",
+    "be_first": "Maging una na magbahagi ng isang bagay sa komunidad.",
+    "time": {
+      "just_now": "ngayon lang",
+      "minutes_ago": "{{count}}m ang nakalipas",
+      "hours_ago": "{{count}}h ang nakalipas",
+      "days_ago": "{{count}}d ang nakalipas",
+      "weeks_ago": "{{count}}w ang nakalipas"
+    }
   },
   "crisis": {
     "title": "Hindi ka nag-iisa",
@@ -132,6 +166,82 @@
     "done": "Tapos na",
     "loading": "Naglo-load...",
     "error": "May naganap na mali",
-    "retry": "Subukan muli"
+    "retry": "Subukan muli",
+    "edit": "I-edit",
+    "delete": "Tanggalin",
+    "go_back": "Bumalik ka",
+    "categories": "Mga kategorya",
+    "sources": "Mga pinagmumulan"
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "subtitle": "Magtanong tungkol sa autism, therapy, at iyong mga karapatan",
+    "how_can_i_help": "Paano ako makakatulong?",
+    "intro": "Masasagot ko ang mga tanong tungkol sa autism, mga therapy, mga karapatan sa paaralan, at higit pa.",
+    "placeholder": "Mag-type ng mensahe...",
+    "thinking": "Iniisip...",
+    "error": "Paumanhin, nagkakaproblema ako sa pagkonekta ngayon. Pakisubukang muli sa ilang sandali.",
+    "source": "Pinagmulan",
+    "prompt_1": "Ano ang mga unang palatandaan ng autism?",
+    "prompt_2": "Paano ako hihingi ng IEP?",
+    "prompt_3": "Ipinaliwanag ng ABA therapy"
+  },
+  "settings": {
+    "title": "Mga setting",
+    "child_profile": "Profile ng Bata",
+    "loves": "Nagmamahal",
+    "triggers": "Mga nag-trigger",
+    "edit_profile": "I-edit ang Profile",
+    "setup_profile": "I-set Up ang Profile ng Bata",
+    "section_app": "App",
+    "language": "Wika",
+    "change": "Baguhin",
+    "clear_chat": "I-clear ang History ng Chat",
+    "section_account": "Account",
+    "logout": "Log Out",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Log Out",
+    "logout_alert_message": "Ire-reset nito ang app at babalik sa onboarding.",
+    "logout_confirm": "Log Out",
+    "clear_chat_alert_title": "I-clear ang History ng Chat",
+    "clear_chat_alert_message": "Ide-delete nito ang lahat ng iyong pag-uusap sa AI assistant.",
+    "clear_chat_confirm": "Maaliwalas",
+    "clear_chat_done_title": "Tapos na",
+    "clear_chat_done_message": "Maki-clear ang history ng chat sa susunod na pag-restart."
+  },
+  "post": {
+    "title": "Post",
+    "loading": "Nilo-load ang post...",
+    "not_found": "Hindi nahanap ang post",
+    "not_found_detail": "Maaaring naalis ang post na ito o pansamantalang hindi available.",
+    "comments": "Mga komento",
+    "no_comments": "Wala pang komento. Simulan ang usapan!",
+    "comment_placeholder": "Sumulat ng komento...",
+    "comment_count": "{{count}} mga komento",
+    "comment_count_one": "{{count}} komento",
+    "delete_title": "Tanggalin ang Post",
+    "delete_message": "Sigurado ka bang gusto mong tanggalin ang post na ito? Hindi na ito maaaring bawiin.",
+    "delete_comment_title": "Tanggalin ang Komento",
+    "delete_comment_message": "Sigurado ka bang gusto mong tanggalin ang komentong ito?"
+  },
+  "resource": {
+    "loading": "Naglo-load ng mapagkukunan...",
+    "not_found": "Hindi nahanap ang mapagkukunan",
+    "summary": "Buod",
+    "details": "Mga Detalye",
+    "steps": "Mga hakbang",
+    "count": "{{count}} na mapagkukunan",
+    "count_one": "{{count}} na mapagkukunan",
+    "no_resources": "Wala pang magagamit na mapagkukunan",
+    "loading_resources": "Naglo-load ng mga mapagkukunan..."
+  },
+  "skill": {
+    "loading": "Naglo-load ng kasanayan...",
+    "not_found": "Hindi natagpuan ang kasanayan",
+    "why_it_matters": "Bakit Ito Mahalaga",
+    "steps_to_practice": "Mga Hakbang sa Pagsasanay",
+    "ages": "Mga edad {{range}}",
+    "no_skills": "Wala pang magagamit na mga kasanayan",
+    "loading_skills": "Naglo-load ng mga kasanayan..."
   }
 }

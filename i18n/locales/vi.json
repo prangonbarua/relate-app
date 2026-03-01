@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "Trước chẩn đoán",
@@ -74,7 +76,13 @@
       "log_skip": "Bỏ qua hôm nay"
     },
     "crisis": "Cần giúp đỡ ngay bây giờ?",
-    "streak": "{{count}} ngày liên tiếp"
+    "streak": "{{count}} ngày liên tiếp",
+    "quick_actions": {
+      "resources": "Tài nguyên",
+      "community": "cộng đồng",
+      "ask_ai": "Hỏi AI"
+    },
+    "todays_skill": "Kỹ năng ngày nay"
   },
   "skills": {
     "title": "Trường Tự Chăm Sóc",
@@ -87,7 +95,9 @@
       "sleep": "Giấc ngủ",
       "feeding": "Ăn uống",
       "selfcare": "Tự chăm sóc"
-    }
+    },
+    "skill_count": "{{count}} kỹ năng",
+    "skill_count_one": "kỹ năng {{count}}"
   },
   "navigator": {
     "title": "Tài liệu",
@@ -97,13 +107,37 @@
       "school": "Quyền tại trường",
       "state": "Dịch vụ Nhà nước",
       "crisis": "Tài nguyên khủng hoảng"
-    }
+    },
+    "no_resources": "Chưa có tài nguyên nào",
+    "disclaimer": "Đây chỉ là thông tin chung. Luật pháp khác nhau tùy theo tiểu bang. Để có lời khuyên cụ thể, hãy tham khảo ý kiến ​​của người ủng hộ hoặc luật sư về giáo dục đặc biệt."
   },
   "community": {
     "title": "Cộng đồng",
     "subtitle": "Kết nối với các bậc phụ huynh hiểu bạn",
     "coming_soon": "Sắp có",
-    "join_waitlist": "Tham gia danh sách chờ"
+    "join_waitlist": "Tham gia danh sách chờ",
+    "categories": {
+      "all": "Tất cả",
+      "general": "chung",
+      "questions": "Câu hỏi",
+      "tips": "Mẹo",
+      "wins": "Thắng",
+      "vent": "Thông hơi"
+    },
+    "new_post": "Bài đăng mới",
+    "post_button": "bài viết",
+    "category_label": "Danh mục",
+    "title_label": "Tiêu đề",
+    "body_placeholder": "Bạn đang nghĩ gì vậy?",
+    "no_posts": "Chưa có bài viết nào",
+    "be_first": "Hãy là người đầu tiên chia sẻ điều gì đó với cộng đồng.",
+    "time": {
+      "just_now": "ngay bây giờ",
+      "minutes_ago": "{{count}} phút trước",
+      "hours_ago": "{{count}} giờ trước",
+      "days_ago": "{{count}} ngày trước",
+      "weeks_ago": "{{count}} tuần trước"
+    }
   },
   "crisis": {
     "title": "Bạn không cô đơn",
@@ -132,6 +166,82 @@
     "done": "Xong",
     "loading": "Đang tải...",
     "error": "Đã xảy ra lỗi",
-    "retry": "Thử lại"
+    "retry": "Thử lại",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "go_back": "Quay lại",
+    "categories": "Danh mục",
+    "sources": "Nguồn"
+  },
+  "assistant": {
+    "title": "Trợ lý AI",
+    "subtitle": "Đặt câu hỏi về bệnh tự kỷ, liệu pháp và quyền của bạn",
+    "how_can_i_help": "Tôi có thể giúp gì?",
+    "intro": "Tôi có thể trả lời các câu hỏi về chứng tự kỷ, các liệu pháp trị liệu, quyền đi học, v.v.",
+    "placeholder": "Nhập tin nhắn...",
+    "thinking": "Đang suy nghĩ...",
+    "error": "Xin lỗi, hiện tại tôi đang gặp sự cố khi kết nối. Vui lòng thử lại sau giây lát.",
+    "source": "Nguồn",
+    "prompt_1": "Dấu hiệu ban đầu của bệnh tự kỷ là gì?",
+    "prompt_2": "Làm cách nào để yêu cầu IEP?",
+    "prompt_3": "Giải thích liệu pháp ABA"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "child_profile": "Hồ sơ trẻ em",
+    "loves": "yêu thích",
+    "triggers": "Trình kích hoạt",
+    "edit_profile": "Chỉnh sửa hồ sơ",
+    "setup_profile": "Thiết lập hồ sơ trẻ em",
+    "section_app": "ứng dụng",
+    "language": "Ngôn ngữ",
+    "change": "Thay đổi",
+    "clear_chat": "Xóa lịch sử trò chuyện",
+    "section_account": "Tài khoản",
+    "logout": "Đăng xuất",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Đăng xuất",
+    "logout_alert_message": "Thao tác này sẽ đặt lại ứng dụng và quay lại quá trình cài đặt ban đầu.",
+    "logout_confirm": "Đăng xuất",
+    "clear_chat_alert_title": "Xóa lịch sử trò chuyện",
+    "clear_chat_alert_message": "Thao tác này sẽ xóa tất cả các cuộc trò chuyện với trợ lý AI của bạn.",
+    "clear_chat_confirm": "Xóa",
+    "clear_chat_done_title": "Xong",
+    "clear_chat_done_message": "Lịch sử trò chuyện sẽ bị xóa vào lần khởi động lại tiếp theo."
+  },
+  "post": {
+    "title": "bài viết",
+    "loading": "Đang tải bài đăng...",
+    "not_found": "Không tìm thấy bài đăng",
+    "not_found_detail": "Bài đăng này có thể đã bị xóa hoặc tạm thời không có sẵn.",
+    "comments": "Bình luận",
+    "no_comments": "Chưa có bình luận nào Bắt đầu cuộc trò chuyện!",
+    "comment_placeholder": "Viết bình luận...",
+    "comment_count": "{{count}} nhận xét",
+    "comment_count_one": "{{count}} nhận xét",
+    "delete_title": "Xóa bài đăng",
+    "delete_message": "Bạn có chắc chắn muốn xóa bài đăng này? Điều này không thể hoàn tác được.",
+    "delete_comment_title": "Xóa bình luận",
+    "delete_comment_message": "Bạn có chắc chắn muốn xóa bình luận này?"
+  },
+  "resource": {
+    "loading": "Đang tải tài nguyên...",
+    "not_found": "Không tìm thấy tài nguyên",
+    "summary": "Tóm tắt",
+    "details": "Chi tiết",
+    "steps": "bước",
+    "count": "{{count}} tài nguyên",
+    "count_one": "tài nguyên {{count}}",
+    "no_resources": "Chưa có tài nguyên nào",
+    "loading_resources": "Đang tải tài nguyên..."
+  },
+  "skill": {
+    "loading": "Đang tải kỹ năng...",
+    "not_found": "Không tìm thấy kỹ năng",
+    "why_it_matters": "Tại sao nó quan trọng",
+    "steps_to_practice": "Các bước thực hành",
+    "ages": "Độ tuổi {{range}}",
+    "no_skills": "Chưa có kỹ năng nào",
+    "loading_skills": "Đang tải kỹ năng..."
   }
 }

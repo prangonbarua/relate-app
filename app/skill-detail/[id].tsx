@@ -9,6 +9,7 @@ import {
 import { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { router, useLocalSearchParams } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
@@ -32,9 +33,9 @@ interface CategoryStyle {
 const CATEGORY_STYLES: Record<string, CategoryStyle> = {
   communication: {
     icon: "chatbubbles-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
+    color: "#5A9AE6",
+    bg: "#5A9AE6",
+    lightBg: "#EBF3FE",
   },
   social: {
     icon: "people-outline",
@@ -81,6 +82,7 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
 }
 
 export default function SkillDetailScreen() {
+  const { t } = useTranslation();
   const { id } = useLocalSearchParams<{ id: string }>();
   const skillId = id ?? "";
 
@@ -126,11 +128,11 @@ export default function SkillDetailScreen() {
           justifyContent: "center",
         }}
       >
-        <ActivityIndicator size="large" color="#6366f1" />
+        <ActivityIndicator size="large" color="#7FB4F9" />
         <Text
           style={{ color: Colors.textMuted, fontSize: 14, marginTop: 12 }}
         >
-          Loading skill...
+          {t("skill.loading")}
         </Text>
       </SafeAreaView>
     );
@@ -156,7 +158,7 @@ export default function SkillDetailScreen() {
             textAlign: "center",
           }}
         >
-          Skill not found
+          {t("skill.not_found")}
         </Text>
         <TouchableOpacity
           onPress={() => router.back()}
@@ -168,7 +170,7 @@ export default function SkillDetailScreen() {
               fontWeight: "600",
             }}
           >
-            Go Back
+            {t("common.go_back")}
           </Text>
         </TouchableOpacity>
       </SafeAreaView>
@@ -201,7 +203,7 @@ export default function SkillDetailScreen() {
             <Text
               style={{ fontSize: 14, marginLeft: 4, color: catStyle.color }}
             >
-              Back
+              {t("common.back")}
             </Text>
           </TouchableOpacity>
 
@@ -269,7 +271,7 @@ export default function SkillDetailScreen() {
                   color: Colors.textSecondary,
                 }}
               >
-                Ages {skill.ageRange}
+                {t("skill.ages", { range: skill.ageRange })}
               </Text>
             </View>
           </View>
@@ -303,7 +305,7 @@ export default function SkillDetailScreen() {
                 color: catStyle.color,
               }}
             >
-              Why It Matters
+              {t("skill.why_it_matters")}
             </Text>
           </View>
           <View
@@ -356,7 +358,7 @@ export default function SkillDetailScreen() {
                 color: catStyle.color,
               }}
             >
-              Steps to Practice
+              {t("skill.steps_to_practice")}
             </Text>
           </View>
 
@@ -441,7 +443,7 @@ export default function SkillDetailScreen() {
                   color: catStyle.color,
                 }}
               >
-                Sources
+                {t("common.sources")}
               </Text>
             </View>
 

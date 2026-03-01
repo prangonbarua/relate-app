@@ -1,5 +1,7 @@
 {
-  "app": { "name": "Relate" },
+  "app": {
+    "name": "Relate"
+  },
   "tracks": {
     "pre_diagnosis": {
       "title": "Antes del diagnóstico",
@@ -74,7 +76,13 @@
       "log_skip": "Omitir hoy"
     },
     "crisis": "¿Necesitas ayuda ahora?",
-    "streak": "{{count}} días seguidos"
+    "streak": "{{count}} días seguidos",
+    "quick_actions": {
+      "resources": "Recursos",
+      "community": "Comunidad",
+      "ask_ai": "Pregúntale a la IA"
+    },
+    "todays_skill": "La habilidad de hoy"
   },
   "skills": {
     "title": "Escuela de autocuidado",
@@ -87,7 +95,9 @@
       "sleep": "Sueño",
       "feeding": "Alimentación",
       "selfcare": "Autocuidado"
-    }
+    },
+    "skill_count": "{{count}} habilidades",
+    "skill_count_one": "{{count}} habilidad"
   },
   "navigator": {
     "title": "Materiales",
@@ -97,13 +107,37 @@
       "school": "Derechos escolares (IEP/504)",
       "state": "Servicios estatales",
       "crisis": "Recursos de crisis"
-    }
+    },
+    "no_resources": "Aún no hay recursos disponibles",
+    "disclaimer": "Esta es sólo información general. Las leyes varían según el estado. Para obtener asesoramiento específico, consulte a un abogado o defensor de educación especial."
   },
   "community": {
     "title": "Comunidad",
     "subtitle": "Conéctate con padres que entienden",
     "coming_soon": "Próximamente",
-    "join_waitlist": "Unirse a la lista de espera"
+    "join_waitlist": "Unirse a la lista de espera",
+    "categories": {
+      "all": "Todos",
+      "general": "generales",
+      "questions": "Preguntas",
+      "tips": "Consejos",
+      "wins": "gana",
+      "vent": "ventilación"
+    },
+    "new_post": "Nueva publicación",
+    "post_button": "Publicar",
+    "category_label": "categoría",
+    "title_label": "Título",
+    "body_placeholder": "¿Qué tienes en mente?",
+    "no_posts": "Aún no hay publicaciones",
+    "be_first": "Sé el primero en compartir algo con la comunidad.",
+    "time": {
+      "just_now": "justo ahora",
+      "minutes_ago": "Hace {{count}}m",
+      "hours_ago": "Hace {{count}}h",
+      "days_ago": "Hace {{count}}d",
+      "weeks_ago": "Hace {{count}}w"
+    }
   },
   "crisis": {
     "title": "No estás solo/a",
@@ -132,6 +166,82 @@
     "done": "Listo",
     "loading": "Cargando...",
     "error": "Algo salió mal",
-    "retry": "Intentar de nuevo"
+    "retry": "Intentar de nuevo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "go_back": "Volver",
+    "categories": "Categorías",
+    "sources": "Fuentes"
+  },
+  "assistant": {
+    "title": "Asistente de IA",
+    "subtitle": "Haga preguntas sobre el autismo, la terapia y sus derechos.",
+    "how_can_i_help": "¿Cómo puedo ayudar?",
+    "intro": "Puedo responder preguntas sobre autismo, terapias, derechos escolares y más.",
+    "placeholder": "Escribe un mensaje...",
+    "thinking": "Pensando...",
+    "error": "Lo siento, estoy teniendo problemas para conectarme en este momento. Inténtelo de nuevo en un momento.",
+    "source": "Fuente",
+    "prompt_1": "¿Cuáles son los primeros signos del autismo?",
+    "prompt_2": "¿Cómo solicito un IEP?",
+    "prompt_3": "Terapia ABA explicada"
+  },
+  "settings": {
+    "title": "Configuración",
+    "child_profile": "Perfil infantil",
+    "loves": "ama",
+    "triggers": "Desencadenantes",
+    "edit_profile": "Editar perfil",
+    "setup_profile": "Configurar perfil infantil",
+    "section_app": "Aplicación",
+    "language": "Idioma",
+    "change": "Cambiar",
+    "clear_chat": "Borrar historial de chat",
+    "section_account": "Cuenta",
+    "logout": "Cerrar sesión",
+    "version": "Relate v1.0",
+    "logout_alert_title": "Cerrar sesión",
+    "logout_alert_message": "Esto restablecerá la aplicación y volverá a la incorporación.",
+    "logout_confirm": "Cerrar sesión",
+    "clear_chat_alert_title": "Borrar historial de chat",
+    "clear_chat_alert_message": "Esto eliminará todas las conversaciones de su asistente de IA.",
+    "clear_chat_confirm": "Borrar",
+    "clear_chat_done_title": "hecho",
+    "clear_chat_done_message": "El historial de chat se borrará en el próximo reinicio."
+  },
+  "post": {
+    "title": "Publicar",
+    "loading": "Cargando publicación...",
+    "not_found": "Publicación no encontrada",
+    "not_found_detail": "Es posible que esta publicación haya sido eliminada o no esté disponible temporalmente.",
+    "comments": "Comentarios",
+    "no_comments": "Aún no hay comentarios. ¡Inicia la conversación!",
+    "comment_placeholder": "Escribe un comentario...",
+    "comment_count": "{{count}} comentarios",
+    "comment_count_one": "{{count}} comentario",
+    "delete_title": "Eliminar publicación",
+    "delete_message": "¿Estás seguro de que deseas eliminar esta publicación? Esto no se puede deshacer.",
+    "delete_comment_title": "Eliminar comentario",
+    "delete_comment_message": "¿Estás seguro de que quieres eliminar este comentario?"
+  },
+  "resource": {
+    "loading": "Cargando recurso...",
+    "not_found": "Recurso no encontrado",
+    "summary": "Resumen",
+    "details": "Detalles",
+    "steps": "Pasos",
+    "count": "{{count}} recursos",
+    "count_one": "{{count}} recurso",
+    "no_resources": "Aún no hay recursos disponibles",
+    "loading_resources": "Cargando recursos..."
+  },
+  "skill": {
+    "loading": "Cargando habilidad...",
+    "not_found": "Habilidad no encontrada",
+    "why_it_matters": "Por qué es importante",
+    "steps_to_practice": "Pasos para practicar",
+    "ages": "Edades {{range}}",
+    "no_skills": "Aún no hay habilidades disponibles",
+    "loading_skills": "Cargando habilidades..."
   }
 }

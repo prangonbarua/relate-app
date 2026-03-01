@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "comm-1",
+    "skill": "Attention conjointe : suivez le leader",
+    "whyItMatters": "L’attention conjointe est l’un des premiers éléments constitutifs de la communication. Lorsqu'un enfant apprend à partager son attention avec un soignant sur le même objet ou événement, cela ouvre la porte au développement du langage, à l'apprentissage social et à la connexion émotionnelle. La recherche montre que l’amélioration de l’attention conjointe entraîne des gains en langage parlé en quelques mois.",
+    "steps": [
+      "Observez ce qui intéresse naturellement votre enfant sans rediriger son attention.",
+      "Placez-vous à la hauteur de leurs yeux et dans leur champ de vision.",
+      "Racontez ce qu'ils font en utilisant des phrases courtes et claires comme « Vous avez trouvé la balle ! »",
+      "Faites une pause de 5 secondes et attendez une réponse : un regard, un son ou un geste compte comme un succès."
+    ],
+    "category": "Communication",
+    "ageRange": "2-6",
+    "sources": [
+      "Autism Speaks — Early Start Denver Model: Joint Attention (autismspeaks.org/early-start-denver-model-esdm)",
+      "Chicago ABA Therapy — Joint Attention Routines in ESDM (chicagoabatherapy.com/resources/articles/joint-attention-routines-and-how-they-are-implemented-in-esdm/)",
+      "ASHA — Joint Attention and Language Development (asha.org)"
+    ]
+  },
+  {
+    "id": "comm-2",
+    "skill": "Communication d'échange d'images",
+    "whyItMatters": "Pour les enfants non verbaux ou dont la parole est limitée, les systèmes d’échange d’images constituent un moyen concret d’exprimer leurs désirs et leurs besoins. Cela réduit les comportements basés sur la frustration et jette les bases d’une communication plus complexe. De nombreux enfants qui commencent par l’échange d’images développent également le langage parlé.",
+    "steps": [
+      "Choisissez 3 à 5 photos des articles ou activités préférés de votre enfant.",
+      "Placez les images là où votre enfant peut facilement les atteindre pendant les tâches quotidiennes.",
+      "Lorsque votre enfant cherche un objet, guidez-le doucement pour qu'il vous remette d'abord l'image.",
+      "Donnez-leur immédiatement l'objet demandé et dites clairement son nom : « Jus ! » Vous avez demandé du jus ! »"
+    ],
+    "category": "Communication",
+    "ageRange": "2-8",
+    "sources": [
+      "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+      "Indiana University IRCA — What is PECS? (iidc.indiana.edu/irca/articles/what-is-the-picture-exchange-communication-system-or-pecs.html)",
+      "Autism Speaks — Augmentative and Alternative Communication (autismspeaks.org/augmentative-and-alternative-communication)"
+    ]
+  },
+  {
+    "id": "comm-3",
+    "skill": "Extension de mots simples en phrases",
+    "whyItMatters": "Une fois qu’un enfant utilise des mots simples, la prochaine étape de développement consiste à combiner les mots en phrases de deux mots. Cette compétence augmente considérablement leur capacité à communiquer des besoins spécifiques et réduit les incertitudes pour les soignants. La clé consiste à développer naturellement ce que l'enfant dit déjà, plutôt que d'introduire un vocabulaire complètement nouveau.",
+    "steps": [
+      "Écoutez les mots que votre enfant utilise spontanément tout au long de la journée.",
+      "Lorsqu'ils prononcent un seul mot comme « balle », ajoutez un mot pour modéliser une phrase : « Big ball » ou « Roll ball ».",
+      "Attendez avec impatience après la modélisation – donnez-leur 5 à 10 secondes pour essayer la phrase.",
+      "Acceptez toute approximation avec enthousiasme et répétez la phrase complète naturellement."
+    ],
+    "category": "Communication",
+    "ageRange": "2-5",
+    "sources": [
+      "Raising Children Network — Language Development in Autistic Children (raisingchildren.net.au/autism/development/language-development)",
+      "ASHA — Late Language Emergence (asha.org/practice-portal/clinical-topics/late-language-emergence/)"
+    ]
+  },
+  {
+    "id": "comm-4",
+    "skill": "Milieu naturel demandeur",
+    "whyItMatters": "L'enseignement de l'environnement naturel (NET) intègre la communication dans les activités quotidiennes réelles, rendant l'apprentissage plus significatif et motivant. Lorsque les enfants apprennent à demander lors d’activités qu’ils apprécient déjà – collations, jouets, sorties – la capacité de communication se généralise plus rapidement à d’autres contextes. Cette approche est basée sur les principes de l'ABA mais semble naturelle et ludique.",
+    "steps": [
+      "À l'heure de la collation, présentez deux options et attendez que votre enfant indique un choix : un point, un mot ou un signe.",
+      "Au parc, mettez la balançoire en pause et attendez que votre enfant demande « pousser » ou « plus » avant de reprendre.",
+      "Pendant le jeu, tenez votre jouet préféré hors de portée et modélisez la demande : « Tu veux t'entraîner ? » alors attends.",
+      "Honorez toujours la demande immédiatement – ​​l’objet lui-même est le renfort naturel."
+    ],
+    "category": "Communication",
+    "ageRange": "2-6",
+    "sources": [
+      "Magnet ABA — Natural Environment Teaching (magnetaba.com/blog/aba-therapy-and-natural-environment-teaching)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "comm-5",
+    "skill": "Tableaux premier-puis pour les transitions",
+    "whyItMatters": "De nombreux enfants autistes ont du mal à faire la transition entre les activités. Un tableau premier-puis fournit une structure visuelle qui rend la séquence prévisible : « D'abord, nous faisons ceci, puis nous pouvons faire cela. » Cela réduit l’anxiété, minimise la résistance et développe une compréhension du séquençage qui soutient le développement du langage.",
+    "steps": [
+      "Créez un tableau simple avec deux emplacements intitulés « Premier » et « Puis » à l'aide d'images ou de photos.",
+      "Placez l'activité la moins appréciée à la case « Premier » et une activité motivante à la case « Ensuite ».",
+      "Montrez chaque image et dites : « D'abord les chaussures, puis le terrain de jeu. »",
+      "Effectuez un suivi cohérent : effectuez toujours l'activité « puis » pour renforcer la confiance dans le système."
+    ],
+    "category": "Communication",
+    "ageRange": "2-7",
+    "sources": [
+      "Autism Classroom Resources — Visual Schedule Series: First-Then (autismclassroomresources.com/visual-schedule-series-first-then/)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Supports (teacch.com)"
+    ]
+  },
+  {
+    "id": "comm-6",
+    "skill": "Bâtiment de communication gestuelle",
+    "whyItMatters": "Avant que les mots parlés ne se développent, les gestes constituent un pont essentiel vers la communication. Pointer, saluer, hocher la tête et secouer la tête sont tous des actes de communication significatifs. Développer une communication gestuelle réduit la frustration et crée davantage d’opportunités d’interaction sociale, ce qui favorise le développement du langage parlé.",
+    "steps": [
+      "Modélisez les gestes de manière cohérente : faites signe à chaque fois que vous dites bonjour, pointez du doigt lorsque vous nommez des objets.",
+      "Créez des situations où des gestes sont nécessaires : montrez deux objets pour que votre enfant doive les désigner pour choisir.",
+      "Répondez immédiatement et avec enthousiasme à tout geste de votre enfant, même accidentel.",
+      "Associez chaque geste à un mot simple pour que votre enfant entende le langage parallèlement à l'action."
+    ],
+    "category": "Communication",
+    "ageRange": "1-5",
+    "sources": [
+      "Avela Health — Basic Sign Language for Autism (joinavela.com/resources/basic-sign-language-for-autism/)",
+      "CDC — Learn the Signs. Act Early: Communication Milestones (cdc.gov/act-early/)",
+      "ASHA — Communication Development in Children with Autism (asha.org)"
+    ]
+  },
+  {
+    "id": "comm-7",
+    "skill": "Commenter ou demander",
+    "whyItMatters": "De nombreux premiers programmes de communication se concentrent uniquement sur la demande (demander des choses). Mais commenter – souligner quelque chose d’intéressant, étiqueter ce que vous voyez, partager une expérience – est le fondement de la conversation. Enseigner les commentaires parallèlement aux demandes permet de construire un communicateur plus équilibré, capable de se connecter socialement, et pas seulement de répondre à ses besoins.",
+    "steps": [
+      "Lors de promenades ou de jeux, le modèle commente fréquemment : « Regardez, un chien ! ou \"Wow, gros camion!\"",
+      "Montrez du doigt des choses intéressantes et faites une pause, donnant à votre enfant l'occasion de regarder et de réagir.",
+      "Lorsque votre enfant regarde quelque chose avec intérêt, étiquetez-le pour lui : « Vous voyez l'oiseau !",
+      "Célébrez les commentaires autant que les demandes : si votre enfant montre un avion du doigt, répondez avec enthousiasme."
+    ],
+    "category": "Communication",
+    "ageRange": "2-6",
+    "sources": [
+      "Blue ABA Therapy — Tacting in ABA (blueabatherapy.com/aba/tacting/)",
+      "Childwise ABA — Manding vs Tacting (childwiseaba.com/tacting-and-manding/)",
+      "DIR/Floortime — Circles of Communication (icdl.com/dir)"
+    ]
+  },
+  {
+    "id": "comm-8",
+    "skill": "Supports visuels pour la prise de choix",
+    "whyItMatters": "La prise de choix est une compétence de communication puissante qui permet aux enfants de contrôler leur environnement. Pour de nombreux enfants autistes, les choix verbaux peuvent être accablants, mais les supports visuels rendent les options concrètes et claires. Une pratique régulière avec des choix renforce à la fois les compétences de communication et un sentiment d'autonomie qui réduit les comportements difficiles.",
+    "steps": [
+      "Commencez avec deux options visuelles claires : des objets réels, des photos ou des symboles illustrés.",
+      "Présentez vos choix lors de moments naturellement motivants : « Voulez-vous des craquelins ou des pommes ? »",
+      "Acceptez toute forme de choix : atteindre, pointer du doigt, regarder ou prononcer le mot.",
+      "Augmentez progressivement les options de 2 à 3-4 à mesure que votre enfant prend confiance en lui pour choisir."
+    ],
+    "category": "Communication",
+    "ageRange": "2-8",
+    "sources": [
+      "Chicago ABA Therapy — Pivotal Response Training: Choice-Making (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)"
+    ]
+  },
+  {
+    "id": "comm-9",
+    "skill": "Langage réceptif : suivre les instructions",
+    "whyItMatters": "Le langage réceptif – comprendre ce que disent les autres – se développe généralement avant le langage expressif. Le renforcement du langage réceptif grâce à des activités amusantes de suivi d’une direction construit la base de compréhension qui prend en charge le discours futur. Les enfants qui peuvent suivre des instructions simples participent également avec plus de succès aux activités scolaires et thérapeutiques.",
+    "steps": [
+      "Commencez par des instructions en une étape lors d'activités motivantes : « Faites rouler le ballon » ou « Ouvrez la boîte ».",
+      "Utilisez d'abord des gestes parallèlement aux instructions verbales, puis atténuez progressivement les gestes.",
+      "Faites-en un jeu : jouez à « Simon Says » avec des mouvements corporels simples que votre enfant apprécie.",
+      "Progressez vers des instructions en deux étapes une fois qu'une étape est cohérente : « Prends la tasse ET apporte-la-moi. »"
+    ],
+    "category": "Communication",
+    "ageRange": "2-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "ASHA — Receptive Language Disorders (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)"
+    ]
+  },
+  {
+    "id": "comm-10",
+    "skill": "Lecture de livres pour la langue",
+    "whyItMatters": "La lecture de livres interactifs est l’une des activités de développement du langage les plus efficaces pour les jeunes enfants. Pour les enfants autistes, les livres offrent des expériences linguistiques prévisibles et reproductibles avec un support visuel. La lecture partagée développe le vocabulaire, la compréhension, l'attention commune et le rythme de tour de rôle qui sous-tend la conversation.",
+    "steps": [
+      "Choisissez des livres avec des textes simples et répétitifs et des illustrations claires qui correspondent aux intérêts de votre enfant.",
+      "Laissez votre enfant contrôler le livre : tourner les pages, montrer des images, revenir aux pages préférées.",
+      "Faites une pause à des moments prévisibles et attendez que votre enfant réponde : « Ours brun, ours brun, qu'est-ce que tu... »",
+      "Posez des questions simples sur les images : « Où est le chat ? » et acceptez le pointage comme une réponse valable."
+    ],
+    "category": "Communication",
+    "ageRange": "1-6",
+    "sources": [
+      "Reading Rockets — Structured Teaching Strategies for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)",
+      "Raising Children Network — Reading with Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning/reading)",
+      "AAP — Literacy Promotion (aap.org)"
+    ]
+  },
+  {
+    "id": "social-1",
+    "skill": "Jeu parallèle avec narration",
+    "whyItMatters": "De nombreux enfants autistes passent par une étape de jeu parallèle prolongée au cours de laquelle ils jouent aux côtés de leurs pairs plutôt que directement avec eux. Il s’agit d’une phase de développement valable et importante. En racontant un jeu parallèle, vous aidez votre enfant à prendre conscience des autres et à jeter un pont vers le jeu interactif sans forcer les exigences sociales qui provoquent de l'anxiété.",
+    "steps": [
+      "Asseyez-vous près de votre enfant avec un jouet ou une activité similaire – n’essayez pas de vous joindre directement à son jeu.",
+      "Racontez vos propres actions : « Je construis une haute tour » tout en racontant occasionnellement les leurs : « Vous alignez les voitures ».",
+      "Si votre enfant regarde votre activité, reconnaissez-le chaleureusement : « Vous avez vu ma tour !",
+      "Créez progressivement des moments de chevauchement : faites rouler une voiture près de sa ligne, offrez un bloc de votre pile."
+    ],
+    "category": "Sociale",
+    "ageRange": "2-6",
+    "sources": [
+      "Raising Children Network — Play and Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning)",
+      "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+      "DIR/Floortime — Engaging and Relating (icdl.com/dir)"
+    ]
+  },
+  {
+    "id": "social-2",
+    "skill": "Tour à tour avec activités préférées",
+    "whyItMatters": "Le tour de rôle est une compétence sociale fondamentale qui sous-tend la conversation, le jeu coopératif et la participation en classe. Commencer par des activités très motivantes rend le concept concret et enrichissant. Les enfants qui maîtrisent le jeu à tour de rôle transfèrent cette compétence à des interactions sociales plus complexes au fil du temps.",
+    "steps": [
+      "Choisissez une activité que votre enfant aime et qui implique naturellement des tours : faire rouler une balle, empiler des blocs ou un simple jeu sur tablette.",
+      "Dites clairement « Mon tour » et « Votre tour » tout en utilisant un repère visuel comme un pointage ou une carte à tour de rôle.",
+      "Gardez vos tours courts au début (3 à 5 secondes) pour que la période d'attente soit gérable.",
+      "Augmentez progressivement la durée des tours à mesure que votre enfant développe sa tolérance à l'attente."
+    ],
+    "category": "Sociale",
+    "ageRange": "2-7",
+    "sources": [
+      "Chicago ABA Therapy — PRT: Turn-Taking Games (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)"
+    ]
+  },
+  {
+    "id": "social-3",
+    "skill": "Reconnaissance des émotions avec des photos",
+    "whyItMatters": "Comprendre les émotions des autres est souvent difficile pour les enfants autistes, non pas parce qu’ils manquent d’empathie mais parce que lire les expressions faciales peut être difficile. L’utilisation de vraies photos de personnes familières éprouvant des émotions fournit des exemples concrets et pertinents. Cette compétence favorise des liens sociaux plus profonds et aide les enfants à réagir de manière appropriée dans des situations sociales.",
+    "steps": [
+      "Collectionnez des photos de membres de votre famille montrant des émotions claires : de grands sourires, des visages surpris, des moments tristes.",
+      "Commencez par deux émotions contrastées (heureuse ou triste) et nommez-les en regardant les photos ensemble.",
+      "Demandez à votre enfant de faire correspondre l'émotion : « Quel visage est heureux ? » — accepter le pointage ou toute indication.",
+      "Connectez les émotions à la vie quotidienne : « Regarde, ta sœur sourit, elle se sent heureuse parce que tu as partagé ! »"
+    ],
+    "category": "Sociale",
+    "ageRange": "3-8",
+    "sources": [
+      "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Speaks — Emotion Recognition (autismspeaks.org/social-skills-and-autism)"
+    ]
+  },
+  {
+    "id": "social-4",
+    "skill": "Histoires sociales pour de nouvelles situations",
+    "whyItMatters": "Les histoires sociales, développées par Carol Gray, utilisent des récits simples pour expliquer des situations sociales du point de vue de l'enfant. Ils réduisent l’anxiété face à des situations inconnues en rendant les attentes claires et prévisibles. La recherche montre que les histoires sociales améliorent le comportement social et réduisent les comportements difficiles dans de nombreux contextes.",
+    "steps": [
+      "Identifiez une situation sociale à venir que votre enfant trouve difficile : une visite chez le médecin, une fête d'anniversaire ou une nouvelle salle de classe.",
+      "Écrivez une courte histoire (5 à 8 phrases) décrivant ce qui va se passer, en utilisant le langage « je le ferai » : « J'irai chez le médecin. Le médecin écoutera mon cœur.",
+      "Incluez une déclaration rassurante : « Ça va. Maman/Papa ​​sera avec moi tout le temps.",
+      "Lisez l'histoire avec votre enfant 2 à 3 fois avant l'événement, et encore une fois juste avant de partir."
+    ],
+    "category": "Sociale",
+    "ageRange": "3-10",
+    "sources": [
+      "Carol Gray Social Stories — Official Site (carolgraysocialstories.com)",
+      "Life Skills Advocate — How to Write a Social Story (lifeskillsadvocate.com/blog/how-to-write-a-social-story/)",
+      "Autism Little Learners — Free Social Stories for Home (autismlittlelearners.com/social-stories-for-home/)"
+    ]
+  },
+  {
+    "id": "social-5",
+    "skill": "Routines de salutation et d’adieu",
+    "whyItMatters": "Les salutations et les adieux font partie des interactions sociales les plus fréquentes dans la vie quotidienne. Pour les enfants autistes, ces éléments peuvent sembler déroutants ou accablants sans enseignement explicite. Créer une routine de salutation cohérente et confortable donne à votre enfant un moyen fiable de participer aux échanges sociaux et renforce sa confiance pour d'autres interactions.",
+    "steps": [
+      "Choisissez une forme de salutation avec laquelle votre enfant est à l'aise : un signe de la main, un high five, un coup de poing ou un « bonjour ».",
+      "Entraînez-vous d'abord à la maison : modélisez le message d'accueil lorsque vous entrez dans une pièce et encouragez votre enfant à répondre.",
+      "Utilisez le même message d'accueil de manière cohérente avec les membres de la famille jusqu'à ce qu'il devienne automatique.",
+      "Progressivement, étendez-vous aux personnes familières en dehors de la maison : enseignants, voisins, parents."
+    ],
+    "category": "Sociale",
+    "ageRange": "2-8",
+    "sources": [
+      "STAR Autism Support — Social Scripts That Work (starautismsupport.com/simple-social-scripts-work)",
+      "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)"
+    ]
+  },
+  {
+    "id": "social-6",
+    "skill": "Jeu coopératif : construire ensemble",
+    "whyItMatters": "Le jeu coopératif – travailler ensemble vers un objectif commun – est une compétence sociale plus avancée qui s’appuie sur le jeu en parallèle et le tour de rôle. Cela nécessite de la communication, une attention partagée et des compromis. Commencer par des activités visuelles structurées comme construire avec des blocs ou terminer un puzzle rend le concept de « travailler ensemble » concret.",
+    "steps": [
+      "Choisissez une activité avec un objectif commun clair : construisez une tour ensemble, résolvez un puzzle ou créez une image.",
+      "Attribuez des rôles clairs : « Vous choisissez la pièce, je la mets dedans » ou « Vous empilez, je vous donne les blocs ».",
+      "Utilisez des supports visuels si nécessaire – une image du produit fini pour que les deux joueurs connaissent l’objectif.",
+      "Célébrez la réussite partagée : « NOUS avons construit cela ensemble ! Excellent travail d'équipe ! »"
+    ],
+    "category": "Sociale",
+    "ageRange": "3-8",
+    "sources": [
+      "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Indiana Resource Center for Autism — Making and Keeping Friends (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)"
+    ]
+  },
+  {
+    "id": "social-7",
+    "skill": "Comprendre l'espace personnel",
+    "whyItMatters": "De nombreux enfants autistes ont du mal à juger de la distance physique appropriée dans les interactions sociales. Cela peut conduire à se tenir trop près ou trop loin, ce qui affecte la façon dont les pairs réagissent à eux. Enseigner explicitement l’espace personnel au moyen de méthodes concrètes et visuelles aide les enfants à naviguer dans la proximité sociale d’une manière qui se sent en sécurité pour tout le monde.",
+    "steps": [
+      "Utilisez un cerceau ou tracez un cercle sur le sol avec du ruban adhésif pour montrer « mon espace » – demandez à votre enfant de se tenir à l'intérieur.",
+      "Entraînez-vous en famille : « Quand nous parlons, nous nous tenons à environ un bras l'un de l'autre » et mesurez ensemble.",
+      "Scénarios de jeux de rôle : approchez-vous trop près, puis ajustez-vous à une distance confortable, en racontant la différence.",
+      "Utilisez un repère visuel comme un bras tendu comme « vérificateur d'espace » que votre enfant peut utiliser de manière indépendante."
+    ],
+    "category": "Sociale",
+    "ageRange": "3-10",
+    "sources": [
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "Indiana Resource Center for Autism — Social Skills (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)"
+    ]
+  },
+  {
+    "id": "social-8",
+    "skill": "Partager et attendre son tour",
+    "whyItMatters": "Le partage est difficile pour de nombreux jeunes enfants, mais les enfants autistes peuvent trouver cela particulièrement difficile en raison de leur intérêt intense pour des sujets spécifiques. Plutôt que de forcer le partage, l'enseignement d'un système d'attente structuré avec des minuteries et des repères visuels développe progressivement les compétences tout en respectant l'attachement de l'enfant à ses affaires.",
+    "steps": [
+      "Commencez par les objets que vous préférez moins : partager un jouet préféré est trop difficile au début.",
+      "Utilisez un minuteur visuel : « Vous jouez pendant 2 minutes, puis c'est le tour de votre sœur pendant 2 minutes. »",
+      "Racontez le processus : « Vous attendez si gentiment ! C'est presque ton tour.",
+      "Félicitez un comportement de partage spécifique : « Vous avez donné à Alex le crayon bleu, c'était gentil ! »"
+    ],
+    "category": "Sociale",
+    "ageRange": "3-8",
+    "sources": [
+      "Raising Children Network — Sharing and Autistic Children (raisingchildren.net.au/autism/behaviour/common-concerns/sharing)",
+      "Chicago ABA Therapy — PRT: Turn-Taking (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)"
+    ]
+  },
+  {
+    "id": "sensory-1",
+    "skill": "Créer un kit de calme sensoriel",
+    "whyItMatters": "La surcharge sensorielle est l’un des déclencheurs les plus courants de crises chez les enfants autistes. Avoir un kit de calme personnalisé enseigne l'autorégulation et donne à votre enfant des outils concrets pour gérer les moments accablants. Au fil du temps, les enfants apprennent à reconnaître leurs propres besoins sensoriels et recherchent de manière autonome des stratégies apaisantes.",
+    "steps": [
+      "Observez les apports sensoriels qui calment votre enfant : pression profonde, textures douces, mouvements rythmés ou espaces calmes.",
+      "Rassemblez 5 à 6 articles dans un petit sac ou une boîte : des écouteurs antibruit, une balle anti-stress, un échantillon de tissu doux, un collier à mâcher, un pot de paillettes.",
+      "Présentez le kit pendant un moment calme – laissez votre enfant explorer chaque élément sans pression.",
+      "Lorsque vous remarquez les premiers signes de dépassement, proposez le kit et le modèle en utilisant un objet : « Pressons la balle ensemble. »"
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-10",
+    "sources": [
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      "STAR Institute — Sensory Activities at Home (sensoryhealth.org/basic/home-activities)",
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "sensory-2",
+    "skill": "Régime sensoriel : pauses de mouvement",
+    "whyItMatters": "De nombreux enfants autistes sont des chercheurs sensoriels qui ont besoin d’un mouvement régulier pour maintenir leur régulation tout au long de la journée. Les pauses de mouvement programmées empêchent l’accumulation de besoins sensoriels pouvant conduire à des comportements impulsifs ou à des crises. Un ergothérapeute peut vous aider à personnaliser un régime sensoriel, mais ces pauses de mouvement de base constituent un point de départ sécuritaire pour toute famille.",
+    "steps": [
+      "Prévoyez 3 à 4 pauses mouvement tout au long de la journée – après le réveil, avant les repas et avant les activités ciblées.",
+      "Proposez des choix : sauter sur un trampoline, se balancer, promener des animaux (promenade ours, marche crabe) ou danser sur de la musique.",
+      "Limitez chaque pause à 5 à 10 minutes – suffisamment pour réguler sans devenir trop stimulant.",
+      "Utilisez une minuterie visuelle pour que votre enfant sache quand la pause commence et se termine, renforçant ainsi la prévisibilité."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-10",
+    "sources": [
+      "Harkla — Sensory Diet Activities (harkla.co/blogs/special-needs/sensory-diet)",
+      "STAR Institute — Home Sensory Activities (sensoryhealth.org/basic/home-activities)",
+      "Sensory Smarts — Sensory Diet Activities (sensorysmarts.com/sensory_diet_activities.html)"
+    ]
+  },
+  {
+    "id": "sensory-3",
+    "skill": "Activités à pression profonde",
+    "whyItMatters": "Une pression profonde – pressions fermes, objets lestés, câlins serrés – a un effet calmant sur le système nerveux de nombreux enfants autistes. Ce type d’apport proprioceptif peut réduire l’anxiété, améliorer la conscience corporelle et aider les enfants à passer d’un état élevé à un état régulé. C’est l’une des stratégies sensorielles les plus universellement utiles.",
+    "steps": [
+      "Essayez un « rouleau de burrito » : enveloppez confortablement votre enfant dans une couverture et appliquez une légère pression le long de son corps.",
+      "Offrez un coussin lesté ou un animal en peluche pendant les activités assises – visez environ 10 % de votre poids corporel.",
+      "Jouez au « sandwich » : votre enfant s'allonge entre les coussins du canapé pendant que vous appuyez doucement.",
+      "Apprenez à votre enfant à demander une pression profonde : « Voulez-vous une grosse pression ? » afin qu'ils puissent se défendre eux-mêmes."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-10",
+    "sources": [
+      "STAR Institute — Proprioceptive Input Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Deep Pressure Therapy for Autism (harkla.co/blogs/special-needs/sensory-diet)",
+      "Autism Research Institute — Sensory-Friendly Strategies (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "sensory-4",
+    "skill": "Gestion de la sensibilité sonore",
+    "whyItMatters": "L'hypersensibilité auditive est extrêmement fréquente chez les enfants autistes. Les bruits quotidiens comme ceux des aspirateurs, des sèche-mains ou des espaces bondés peuvent causer de la douleur et de la détresse. Apprendre aux enfants à gérer leur sensibilité sonore – grâce à des modifications environnementales et à des stratégies d’adaptation – améliore considérablement leur capacité à participer à la vie quotidienne.",
+    "steps": [
+      "Identifiez les sons les plus difficiles de votre enfant grâce à l'observation : notez quand il se bouche les oreilles ou devient angoissé.",
+      "Fournissez des écouteurs ou des bouchons d'oreilles antibruit et apprenez à votre enfant à les utiliser de manière autonome.",
+      "Prévenez à l'avance avant les sons forts lorsque cela est possible : « Je vais allumer le mixeur dans 5 secondes. »",
+      "Créez un espace « insonorisé » à la maison où votre enfant peut se retirer lorsqu'il est dépassé : un coin calme avec un éclairage doux."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)",
+      "Sensory Smarts — Auditory Sensitivity (sensorysmarts.com/sensory_diet_activities.html)",
+      "STAR Institute — Sensory Processing and Autism (sensoryhealth.org)"
+    ]
+  },
+  {
+    "id": "sensory-5",
+    "skill": "Exploration tactile et désensibilisation",
+    "whyItMatters": "La défensive tactile – éviter certaines textures, ne pas aimer les jeux salissants, résister à certains vêtements – est courante chez les enfants autistes. Une exposition progressive et ludique à différentes textures peut réduire la sensibilité au fil du temps sans créer d’associations négatives. L’objectif est d’accroître le confort et non d’imposer la tolérance.",
+    "steps": [
+      "Commencez par des textures que votre enfant tolère déjà et proposez des options légèrement différentes : du riz sec à côté de la pâte à modeler, du tissu lisse à côté du duveteux.",
+      "Présentez un jeu désordonné avec des commandes intégrées : peignez au doigt dans un sac à fermeture éclair ou percez des trous dans la pâte à modeler avec un bâton.",
+      "Laissez votre enfant donner le ton : toucher brièvement est très bien. Ne forcez jamais un contact prolongé avec des textures aversives.",
+      "Connectez le jeu de textures aux intérêts : si votre enfant aime les dinosaures, cachez les petits dinosaures dans un bac rempli de haricots pour qu'ils les trouvent."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-8",
+    "sources": [
+      "Harkla — Tactile Sensory Activities (harkla.co/blogs/special-needs/sensory-diet)",
+      "STAR Institute — Tactile Processing Activities (sensoryhealth.org/basic/home-activities)"
+    ]
+  },
+  {
+    "id": "sensory-6",
+    "skill": "Calendrier visuel pour la régulation sensorielle",
+    "whyItMatters": "Un programme sensoriel visuel aide les enfants à anticiper et à se préparer aux expériences sensorielles tout au long de la journée. Savoir quand s’attendre à un apport sensoriel stimulant (assemblage bruyant, heure du bain) et quand un apport apaisant est disponible (pause balançoire, temps calme) donne aux enfants un sentiment de contrôle qui réduit l’anxiété et les crises.",
+    "steps": [
+      "Créez un programme quotidien visuel qui marque à la fois les moments sensoriels difficiles et les pauses intégrées.",
+      "Utilisez un code couleur : vert pour les activités apaisantes, jaune pour les activités modérées, rouge pour les activités potentiellement écrasantes.",
+      "Avant les activités difficiles, montrez le programme : « Après la cafétéria bruyante, vous avez un moment de lecture tranquille. »",
+      "Révisez l'horaire chaque matin afin que votre enfant sache à quoi s'attendre et puisse se préparer émotionnellement."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "3-10",
+    "sources": [
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Schedules (teacch.com)",
+      "Harkla — Sensory Diet Scheduling (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "sensory-7",
+    "skill": "Stratégies sensorielles orales",
+    "whyItMatters": "De nombreux enfants autistes recherchent ou évitent les apports sensoriels oraux : ils peuvent mâcher des vêtements, éviter certaines textures alimentaires ou des objets buccaux au-delà de l'âge typique. Fournir des outils sensoriels oraux appropriés répond à ce besoin en toute sécurité et peut améliorer la concentration, réduire l’anxiété et favoriser la flexibilité des repas.",
+    "steps": [
+      "Observez les schémas sensoriels oraux de votre enfant : mâche-t-il, croque-t-il, suce-t-il ou évite-t-il les apports oraux ?",
+      "Pour les mâcheurs : offrez un collier à mâcher ou un tube à mâcher sécuritaire pour remplacer le fait de mâcher des chemises ou des crayons.",
+      "Pour les amateurs de croquant : incluez des collations croustillantes (carottes, bretzels, tranches de pomme) à intervalles réguliers tout au long de la journée.",
+      "Pour ceux qui évitent la consommation orale : utilisez brièvement une brosse à dents vibrante sur les lèvres et les joues pendant le jeu pour développer progressivement la tolérance."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-10",
+    "sources": [
+      "Sensory Smarts — Oral Sensory Activities (sensorysmarts.com/sensory_diet_activities.html)",
+      "STAR Institute — Oral Motor Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Oral Sensory Input (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "daily-1",
+    "skill": "Programme visuel pour la routine du matin",
+    "whyItMatters": "Les transitions et l’imprévisibilité sont des sources majeures d’anxiété pour de nombreux enfants autistes. Une routine matinale visuelle transforme une séquence écrasante de demandes en une série d’étapes prévisibles et gérables. La recherche montre systématiquement que les supports visuels réduisent les comportements difficiles et augmentent l'indépendance dans les compétences de la vie quotidienne.",
+    "steps": [
+      "Divisez la routine matinale en 5 à 7 étapes simples : se réveiller, aller aux toilettes, s'habiller, prendre son petit-déjeuner, se brosser les dents, enfiler ses chaussures, partir.",
+      "Créez des cartes visuelles avec des images ou des photos pour chaque étape : de vraies photos de votre enfant effectuant chaque activité fonctionnent mieux.",
+      "Disposez les cartes verticalement sur le mur au niveau des yeux de votre enfant à l'aide de velcro ou d'aimants.",
+      "Parcourez le programme ensemble chaque matin, en laissant votre enfant déplacer chaque carte vers une colonne « terminé » au fur et à mesure qu'il la termine."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-8",
+    "sources": [
+      "Raising Children Network — Visual Supports for Daily Routines (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Daily Living Routines (teacch.com/daily-living-routines/)",
+      "A Day in Our Shoes — Free Visual Schedule Templates (adayinourshoes.com/free-printable-visual-schedules-for-home-and-daily-routines/)"
+    ]
+  },
+  {
+    "id": "daily-2",
+    "skill": "Désensibilisation au brossage des dents",
+    "whyItMatters": "Les soins bucco-dentaires constituent un défi important pour de nombreux enfants autistes en raison de la sensibilité sensorielle de la bouche. La vibration des brosses à dents électriques, le goût du dentifrice et la sensation des poils peuvent tous être accablants. Une approche de désensibilisation progressive respecte l'expérience sensorielle de votre enfant tout en développant cette compétence essentielle de la vie quotidienne.",
+    "steps": [
+      "Commencez par laisser votre enfant tenir et explorer la brosse à dents sans aucune attente de brossage.",
+      "Présentez la brosse à dents en touchant uniquement les lèvres, puis les dents de devant – célébrez chaque étape avec des éloges spécifiques.",
+      "Utilisez un dentifrice aromatisé choisi par votre enfant ou pas de dentifrice au départ – le nettoyage mécanique est le plus important.",
+      "Construisez jusqu'à un pinceau de 30 secondes, puis 1 minute, en utilisant une minuterie visuelle ou une courte chanson pour marquer la durée."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-8",
+    "sources": [
+      "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      "Raising Children Network — Dental Care and Autism (raisingchildren.net.au/autism/health-wellbeing/dental-care/dental-care-autism)",
+      "STAR Institute — Oral Sensory Desensitization (sensoryhealth.org)"
+    ]
+  },
+  {
+    "id": "daily-3",
+    "skill": "Flexibilité des repas : introduction de nouveaux aliments",
+    "whyItMatters": "La sélectivité alimentaire est extrêmement courante chez les enfants autistes, souvent motivée par des facteurs sensoriels tels que la texture, la couleur, l'odeur ou la température. Des habitudes alimentaires rigides peuvent avoir un impact sur la nutrition et créer du stress lors des repas en famille. Une approche progressive et sans pression de l’exposition alimentaire permet d’élargir le régime alimentaire au fil du temps sans créer d’associations négatives avec les heures de repas.",
+    "steps": [
+      "Placez une infime partie d’un nouvel aliment dans l’assiette à côté des aliments préférés – sans avoir besoin de le manger ou de le toucher.",
+      "Mangez vous-même le nouvel aliment en commentant positivement ses propriétés : « C'est croustillant ! »",
+      "Célébrez toute interaction avec le nouvel aliment – ​​le regarder, le toucher, le sentir, le lécher – tout cela compte comme un progrès.",
+      "Offrez le même nouvel aliment au moins 10 à 15 fois avant de décider si votre enfant ne l'aime vraiment pas – une exposition répétée modifie les réponses."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-10",
+    "sources": [
+      "Autism Speaks — Feeding Issues and Autism (autismspeaks.org/expert-opinion/what-are-common-feeding-issues-associated-autism)",
+      "Raising Children Network — Eating and Autism (raisingchildren.net.au/autism/health-wellbeing/nutrition-fitness/eating-autism)",
+      "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)"
+    ]
+  },
+  {
+    "id": "daily-4",
+    "skill": "Indépendance vestimentaire : chaînage en arrière",
+    "whyItMatters": "Le chaînage arrière est une technique ABA dans laquelle vous aidez à toutes les étapes sauf la dernière, que l'enfant effectue de manière indépendante. Cela renforce la réussite et la motivation car l'enfant termine toujours la tâche. Pour s'habiller, cela signifie que l'enfant éprouve la satisfaction de « Je l'ai fait ! » même tout en apprenant les étapes précédentes.",
+    "steps": [
+      "Choisissez un vêtement sur lequel vous entraîner : commencez par remonter le pantalon car il comporte moins d’étapes.",
+      "Aidez votre enfant à faire toutes les étapes sauf la toute dernière : vous remontez le pantalon jusqu'aux hanches, il remonte le dernier centimètre.",
+      "Une fois la dernière marche indépendante, ajoutez l’avant-dernière marche : on tire des cuisses jusqu’à la taille.",
+      "Continuez en arrière jusqu'à ce que votre enfant puisse terminer toute la séquence de manière indépendante."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-7",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Backward Chaining (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      "Chicago ABA Therapy — Task Analysis and Chaining (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)"
+    ]
+  },
+  {
+    "id": "daily-5",
+    "skill": "Préparation à l'apprentissage de la propreté",
+    "whyItMatters": "L'apprentissage de la propreté prend souvent plus de temps pour les enfants autistes et nécessite des approches modifiées. Pousser avant que l’enfant ne montre des signes de préparation peut créer de l’anxiété et de la résistance. Une approche structurée et sensorielle avec des supports visuels s’est avérée la plus efficace. De nombreux enfants autistes réagissent bien aux routines prévisibles et aux attentes visuelles claires.",
+    "steps": [
+      "Surveillez les signes d'état de préparation : rester au sec pendant plus de 2 heures, être conscient des couches mouillées/sales, s'intéresser à la salle de bain.",
+      "Créez une séquence visuelle simple pour la routine de la salle de bain : baissez votre pantalon, asseyez-vous, essayez, essuyez, tirez la chasse d'eau, remontez votre pantalon, lavez-vous les mains.",
+      "Commencez par des séances programmées (toutes les 1 à 2 heures) plutôt que d'attendre que l'enfant l'indique - utilisez une minuterie visuelle.",
+      "Célébrez immédiatement le succès avec un renforçateur préféré et réagissez de manière neutre aux accidents – ne punissez jamais."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-7",
+    "sources": [
+      "Raising Children Network — Toilet Training and Autism (raisingchildren.net.au/autism/health-wellbeing/toileting-hygiene/toilet-training-autism)",
+      "Autism Little Learners — Free Toileting Sequence (autismlittlelearners.com/free-toileting-sequence/)",
+      "Autism Speaks — Toilet Training Guide (autismspeaks.org/tool-kit/atn-air-p-toilet-training)"
+    ]
+  },
+  {
+    "id": "daily-6",
+    "skill": "Lavage des mains étape par étape",
+    "whyItMatters": "Le lavage des mains implique de nombreuses sous-étapes qui peuvent être fastidieuses lorsqu’elles sont présentées comme une seule instruction. Le décomposer en une analyse visuelle des tâches rend la routine apprenable et reproductible. Les enfants autistes réagissent souvent bien à la même séquence cohérente à chaque fois, et une fois appris, le lavage des mains devient une habitude automatique qui favorise la santé et l'indépendance.",
+    "steps": [
+      "Affichez une bande visuelle imperméable à côté de l'évier avec chaque étape illustrée : eau dessus, mains mouillées, savon, frotter 20 secondes, rincer, sécher.",
+      "Utilisez une chanson ou une minuterie pour le lavage des mains pour l'étape de frottement de 20 secondes – de nombreux enfants apprécient ce marqueur prévisible.",
+      "Entraînez-vous d'abord pendant des moments calmes et tranquilles, pas lorsque vous êtes pressé de manger.",
+      "Estompez progressivement vos invites verbales : montrez la bande visuelle au lieu de raconter chaque étape."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-8",
+    "sources": [
+      "CDC — Handwashing: Clean Hands Save Lives (cdc.gov/hand-washing/)",
+      "TEACCH — Daily Living Routines: Task Analysis (teacch.com/daily-living-routines/)",
+      "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)"
+    ]
+  },
+  {
+    "id": "daily-7",
+    "skill": "Optimisation de la routine de sommeil",
+    "whyItMatters": "Les difficultés de sommeil touchent 40 à 80 % des enfants autistes. Un mauvais sommeil aggrave le comportement, l’attention et l’apprentissage pendant la journée. Une routine du coucher cohérente et sensorielle est l’intervention non médicale la plus efficace pour améliorer le sommeil. La routine doit être prévisible, apaisante et adaptée aux préférences sensorielles de votre enfant.",
+    "steps": [
+      "Créez une routine cohérente au coucher de 30 minutes : bain/lavage, pyjama, brosse à dents, un livre, lumières éteintes – le même ordre tous les soirs.",
+      "Rendre l'environnement propice au sommeil : rideaux occultants, température fraîche, bruit blanc si utile, retirer les écrans 1 heure avant de se coucher.",
+      "Utilisez un horaire visuel du coucher pour que votre enfant puisse suivre et anticiper chaque étape.",
+      "Si votre enfant résiste au lit, utilisez un « laissez-passer pour l'heure du coucher » : une carte qu'il peut échanger contre une brève demande acceptable (boire de l'eau, un câlin supplémentaire)."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Sleep Resources (autismspeaks.org/sleep)",
+      "Raising Children Network — Sleep and Autism (raisingchildren.net.au/autism/health-wellbeing/sleep/sleep-problems-autism)",
+      "AAP — Healthy Sleep Habits for Children (aap.org)"
+    ]
+  },
+  {
+    "id": "daily-8",
+    "skill": "Cuisiner ensemble : recettes simples",
+    "whyItMatters": "La cuisine implique le suivi de séquences, la motricité fine, l'exploration sensorielle et les concepts mathématiques, le tout dans un contexte naturellement motivant. Pour les enfants autistes, des tâches culinaires simples renforcent l’indépendance, élargissent la tolérance alimentaire et créent une interaction familiale positive. La nature structurée et étape par étape des recettes correspond bien à la façon dont de nombreux enfants autistes apprennent le mieux.",
+    "steps": [
+      "Commencez par une recette sans cuisson : préparer un sandwich, préparer un mélange montagnard ou étaler du beurre de cacahuète sur des craquelins.",
+      "Créez une fiche de recette visuelle avec des photos pour chaque étape : votre enfant peut cocher les étapes au fur et à mesure.",
+      "Attribuez des tâches spécifiques et claires : « Versez la tasse de farine dans le bol » plutôt que « Aidez-moi à faire des biscuits ».",
+      "Célébrez ensemble le produit fini : manger ce que vous avez préparé ensemble est un puissant renforcement naturel."
+    ],
+    "category": "Vie quotidienne",
+    "ageRange": "3-10",
+    "sources": [
+      "Accessible Chef — Free Visual Recipes (accessiblechef.com)",
+      "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)",
+      "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)"
+    ]
+  },
+  {
+    "id": "motor-1",
+    "skill": "Motricité fine : activités de préhension en pince",
+    "whyItMatters": "La prise en pince – utilisant le pouce et l’index ensemble – est essentielle pour écrire, boutonner les vêtements, fermer les fermetures éclair et manger avec des ustensiles. De nombreux enfants autistes bénéficient d’une pratique supplémentaire de cette compétence dans des contextes amusants et motivants. Une motricité fine forte favorise également l’indépendance dans les soins personnels et les tâches académiques.",
+    "steps": [
+      "Organisez une activité simple en utilisant les intérêts de votre enfant : ramasser des petits trains, mettre des pièces dans une tirelire ou placer des autocollants.",
+      "Modélisez lentement la pince et dites : \"J'utilise mes doigts pincés pour ramasser le raisin sec.\"",
+      "Offrez une aide directe uniquement si votre enfant est frustré, puis faites disparaître rapidement votre soutien.",
+      "Entraînez-vous pendant 5 minutes à la fois, en progressant – de courtes séances réussies valent mieux que de longues séances frustrantes."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-6",
+    "sources": [
+      "Tree Top ABA — Fine Motor Skills Activities for Autism (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)",
+      "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)"
+    ]
+  },
+  {
+    "id": "motor-2",
+    "skill": "Motricité globale : jeu de course à obstacles",
+    "whyItMatters": "Les capacités motrices globales comme grimper, sauter, équilibrer et ramper soutiennent la régulation sensorielle, la conscience corporelle et la confiance physique. Une course à obstacles combine la planification motrice (déterminer COMMENT se déplacer sur le parcours) avec les compétences physiques et peut être adaptée à tout niveau de capacité. De nombreux enfants autistes qui ont des difficultés dans les sports de compétition s’épanouissent grâce aux courses d’obstacles.",
+    "steps": [
+      "Créez un parcours simple en 4 stations à l'aide d'articles ménagers : rampez sous une couverture, enjambez des oreillers, sautez dans un cerceau, lancez une balle dans un panier.",
+      "Parcourez d’abord le parcours ensemble, en démontrant chaque station pendant que votre enfant regarde.",
+      "Utilisez des flèches visuelles ou du ruban adhésif sur le sol pour indiquer le chemin – cela réduit le besoin d’instructions verbales.",
+      "Célébrez l'achèvement et ajoutez progressivement des stations ou augmentez la difficulté à mesure que votre enfant gagne en confiance."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "3-8",
+    "sources": [
+      "Golden Steps ABA — Gross Motor Skills in Children with Autism (goldenstepsaba.com/resources/gross-motor-skills-in-children-with-autism/)",
+      "Harkla — Sensory Diet: Proprioceptive and Vestibular Activities (harkla.co/blogs/special-needs/sensory-diet)"
+    ]
+  },
+  {
+    "id": "motor-3",
+    "skill": "Développement des compétences en ciseaux",
+    "whyItMatters": "L’utilisation de ciseaux nécessite une coordination bilatérale (une main tient le papier, l’autre coupe), une intégration visuo-motrice et une force motrice fine. Ces compétences sont transférées à de nombreuses autres tâches et sont attendues dans les établissements préscolaires et maternelles. Une introduction progressive avec des outils adaptés rend cet objectif réalisable pour la plupart des enfants.",
+    "steps": [
+      "Commencez par déchirer le papier – cela renforce la force de la main et la coordination bilatérale nécessaires aux ciseaux.",
+      "Présentez des ciseaux d'entraînement à ressort qui s'ouvrent automatiquement : votre enfant n'a qu'à serrer pour se fermer.",
+      "Entraînez-vous d'abord à découper des « serpents » en pâte à modeler : ils sont plus faciles à tenir et plus indulgents que le papier.",
+      "Progressez en découpant des lignes droites et épaisses sur du papier, puis des lignes courbes, puis des formes simples."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "3-7",
+    "sources": [
+      "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)",
+      "Tree Top ABA — Fine Motor Activities (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)"
+    ]
+  },
+  {
+    "id": "motor-4",
+    "skill": "Conscience du corps : activités de travail pénibles",
+    "whyItMatters": "Les apports proprioceptifs – informations provenant des muscles et des articulations sur la position du corps – aident les enfants à comprendre où se trouve leur corps dans l’espace. De nombreux enfants autistes ont une conscience proprioceptive réduite, ce qui les conduit à être maladroits, à s'écraser contre des objets ou à rechercher un apport physique intense. Les activités de travail intenses fournissent un apport musculaire profond qui renforce la conscience corporelle.",
+    "steps": [
+      "Intégrez des travaux pénibles à vos routines quotidiennes : porter des sacs d'épicerie, pousser un panier à linge ou tirer un chariot.",
+      "Créez des « tâches » qui fournissent un apport proprioceptif : empiler des livres lourds, pétrir de la pâte à pain ou creuser dans le jardin.",
+      "Essayez les pompes murales ou les pompes sur chaise comme activité de régulation rapide avant les tâches assises.",
+      "Proposez ces activités de manière proactive avant les situations difficiles : elles sont préventives et pas seulement réactives."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "2-10",
+    "sources": [
+      "STAR Institute — Proprioceptive Activities (sensoryhealth.org/basic/home-activities)",
+      "Harkla — Heavy Work Activities for Sensory Processing (harkla.co/blogs/special-needs/sensory-diet)",
+      "Sensory Smarts — Proprioceptive Activities (sensorysmarts.com/sensory_diet_activities.html)"
+    ]
+  },
+  {
+    "id": "motor-5",
+    "skill": "Préparation à l'écriture manuscrite : traits de pré-écriture",
+    "whyItMatters": "Avant que les enfants puissent former des lettres, ils doivent maîtriser les traits de base : lignes verticales, lignes horizontales, cercles, croix et diagonales. Ces compétences de pré-écriture se développent d'abord par des mouvements à grande échelle (dessin sur un tableau blanc ou dans le sable) avant d'être affinées au crayon sur papier. Commencer en grand réduit la frustration et développe la mémoire motrice.",
+    "steps": [
+      "Commencez par des lignes verticales : dessinez de haut en bas sur un grand tableau blanc, dans de la crème à raser ou dans du sable.",
+      "Progressez vers des lignes horizontales, puis des cercles – en commençant toujours par une taille grande et en réduisant progressivement la taille.",
+      "Utilisez des approches multisensorielles : tracez des formes dans du pudding, dessinez à la craie sur le trottoir ou utilisez de la peinture au doigt.",
+      "Reliez les traits au sens : « Dessinons de la pluie ! » (lignes verticales) ou « Dessinons un soleil ! » (cercle avec des lignes)."
+    ],
+    "category": "Sensoriel & Moteur",
+    "ageRange": "3-6",
+    "sources": [
+      "Apple ABA Care — Teaching Handwriting to Kids with Autism (appleabacare.com/aba-autism-therapy/teaching-hand-writing-to-kids-with-autism/)",
+      "Reading Rockets — Structured Teaching for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)"
+    ]
+  },
+  {
+    "id": "behavior-1",
+    "skill": "Bases du renforcement positif",
+    "whyItMatters": "Le renforcement positif – récompenser immédiatement le comportement souhaité – est l’outil le plus efficace pour acquérir de nouvelles compétences et réduire les comportements difficiles. La clé est d'identifier ce qui motive réellement VOTRE enfant (ce qui peut être très différent des récompenses typiques) et de le délivrer immédiatement après le comportement cible. C’est le fondement des approches basées sur l’ABA.",
+    "steps": [
+      "Faites une liste de 5 à 10 choses que votre enfant trouve véritablement motivantes : des collations, des jouets spécifiques, le temps passé devant un écran, des chatouilles, des éloges, de la musique.",
+      "Choisissez un comportement spécifique à renforcer : établir un contact visuel, utiliser un mot, rester assis à table pendant 1 minute.",
+      "Donnez la récompense IMMÉDIATEMENT après le comportement – ​​dans les 1 à 2 secondes si possible.",
+      "Soyez précis dans vos éloges : « Excellent travail en disant s'il vous plaît ! » est mieux que « Bon garçon »."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Positive Reinforcement (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      "Chicago ABA Therapy — Parents Practice ABA at Home (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-2",
+    "skill": "Comprendre et prévenir les crises",
+    "whyItMatters": "Les crises de colère ne sont pas des crises de colère : ce sont des réponses involontaires à des exigences sensorielles, émotionnelles ou cognitives écrasantes. Comprendre la différence est crucial. En apprenant à identifier les signes avant-coureurs et les déclencheurs de votre enfant, vous pouvez souvent intervenir avant que la crise n'atteigne son paroxysme. La prévention est bien plus efficace que la gestion en cas de crise.",
+    "steps": [
+      "Suivez les modèles : notez ce qui s'est passé avant les 5 dernières crises : heure de la journée, réglage, exigences, environnement sensoriel.",
+      "Identifiez les signes avant-coureurs de votre enfant : stimulation accrue, se boucher les oreilles, devenir rigide, répéter des phrases, se retirer.",
+      "Lorsque vous remarquez des signes précoces, réduisez immédiatement vos demandes : baissez le ton, offrez une pause, supprimez les déclencheurs sensoriels.",
+      "Après la crise, attendez que votre enfant soit complètement calme avant de discuter de ce qui s'est passé – évitez de lui donner des cours pendant sa convalescence."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)"
+    ]
+  },
+  {
+    "id": "behavior-3",
+    "skill": "Zones de régulation : conscience émotionnelle",
+    "whyItMatters": "Le cadre Zones de régulation utilise un code couleur pour aider les enfants à identifier leur état émotionnel : bleu (triste/fatigué), vert (calme/prêt), jaune (frustré/anxieux), rouge (en colère/terrifié). Pour les enfants autistes qui ont du mal à identifier leurs émotions, ce système visuel concrétise les sentiments abstraits et enseigne la conscience de soi qui mène à l’autorégulation.",
+    "steps": [
+      "Présentez les quatre zones avec des visuels simples : Bleu = triste/endormi, Vert = calme/heureux, Jaune = nerveux/frustré, Rouge = en colère/effrayé.",
+      "Tout au long de la journée, modélisez en identifiant votre propre zone : « Je me sens un peu jaune en ce moment parce que nous sommes en retard. »",
+      "Demandez à votre enfant d'identifier sa zone à des moments prévisibles : le matin, après l'école, avant de se coucher.",
+      "Connectez les zones aux stratégies : « Lorsque vous êtes en jaune, vous pouvez prendre 5 respirations profondes ou serrer votre balle anti-stress. »"
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "3-12",
+    "sources": [
+      "Zones of Regulation — Official Framework (zonesofregulation.com)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Parenting Magazine — Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)"
+    ]
+  },
+  {
+    "id": "behavior-4",
+    "skill": "Minuterie visuelle pour les transitions",
+    "whyItMatters": "Les transitions brusques sont l’un des principaux déclencheurs de comportements difficiles chez les enfants autistes. Les minuteries visuelles rendent le passage du temps concret et visible : les enfants peuvent littéralement voir le temps s'écouler, ce qui réduit la surprise et l'anxiété liées au changement d'activité. Cet outil simple peut réduire considérablement les crises liées à la transition.",
+    "steps": [
+      "Obtenez une minuterie visuelle (comme une minuterie) ou utilisez une application de minuterie qui affiche le temps qui disparaît en couleur.",
+      "Commencez à l'utiliser pour les transitions entre vos activités préférées : « Quand le rouge disparaît, on range l'iPad. »",
+      "Donnez un avertissement verbal avec la minuterie : « Regardez, il reste 2 minutes ! » et pointez la minuterie.",
+      "Lorsque le minuteur sonne, suivez-le calmement et de manière cohérente : le minuteur est l'autorité, pas vous."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-10",
+    "sources": [
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "TEACCH — Structured Teaching and Visual Supports (teacch.com)",
+      "Autism Classroom Resources — Visual Schedule Series (autismclassroomresources.com/visual-schedule-series-first-then/)"
+    ]
+  },
+  {
+    "id": "behavior-5",
+    "skill": "Évaluation du comportement fonctionnel à la maison",
+    "whyItMatters": "Chaque comportement se produit pour une raison. Les quatre fonctions principales du comportement sont : obtenir quelque chose (attention, objet, activité), échapper à quelque chose (demande, apport sensoriel, situation sociale), stimuler les sens ou s'autoréguler. Comprendre POURQUOI votre enfant fait quelque chose est la clé pour choisir une réponse efficace au lieu de réagir avec frustration.",
+    "steps": [
+      "Lorsqu'un comportement difficile survient, notez l'ABC : Antécédent (ce qui s'est passé juste avant), Comportement (exactement ce que l'enfant a fait), Conséquence (ce qui s'est passé après).",
+      "Recherchez des modèles sur 5 à 10 occurrences : le comportement se produit-il principalement avant les demandes ? Après qu'on vous ait dit « non » ? Dans des environnements bruyants ?",
+      "Associez la fonction à un comportement de remplacement : s’ils crient pour échapper au bruit, apprenez-leur plutôt à demander des écouteurs.",
+      "Rendre le comportement de remplacement aussi facile, voire plus facile, que le comportement difficile – il doit « fonctionner » mieux pour l'enfant."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Functional Assessment (autismspeaks.org/applied-behavior-analysis)",
+      "PMC — Scoping Review: ABA as Evidence-Based Practice (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-6",
+    "skill": "Techniques de respiration apaisantes",
+    "whyItMatters": "La respiration profonde active le système nerveux parasympathique, ce qui réduit naturellement l'anxiété et l'excitation. Pour les enfants autistes, des instructions abstraites telles que « respirez profondément » peuvent ne pas être efficaces. Des techniques de respiration concrètes et visuelles – comme souffler des bulles, sentir des fleurs ou souffler sur un moulinet – rendent cette stratégie d'autorégulation accessible et même amusante.",
+    "steps": [
+      "Entraînez-vous d’abord pendant les périodes calmes – n’introduisez jamais une nouvelle stratégie pendant une crise.",
+      "Utilisez des invites concrètes : « Sentez la fleur » (inspirez par le nez) et « Soufflez la bougie » (expirez par la bouche).",
+      "Utilisez de vrais accessoires : des bulles, des moulinets ou des plumes qui bougent lorsque votre enfant expire – cela rend la respiration visible.",
+      "Pratiquez 3 respirations ensemble à des heures prévisibles : avant les repas, avant de quitter la maison, au coucher."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "3-10",
+    "sources": [
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "Autism Parenting Magazine — Calming Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      "Advanced Autism Services — Calm-Down Corner for Autism (advancedautism.com/post/creating-a-calm-down-corner-for-autism)"
+    ]
+  },
+  {
+    "id": "behavior-7",
+    "skill": "Économie de jetons : système de récompense visuelle",
+    "whyItMatters": "Une économie symbolique comble le fossé entre accomplir une tâche et gagner une récompense. Les enfants gagnent des jetons (étoiles, autocollants, coches) pour des comportements spécifiques et les échangent contre une récompense plus importante. Cela enseigne la gratification différée, rend les progrès visibles et vous permet de renforcer plusieurs comportements tout au long de la journée avec un seul système de motivation.",
+    "steps": [
+      "Choisissez 1 à 3 comportements cibles spécifiques : suivre des instructions, utiliser des mots pour demander ou garder la main sur soi.",
+      "Créez un tableau de jetons simple avec 5 espaces : chaque fois que l'enfant adopte le comportement, il gagne un jeton.",
+      "Lorsque les 5 jetons sont gagnés, l'enfant choisit une récompense parmi un menu prédéfini de 3 à 4 options.",
+      "Commencez avec des jetons faciles à gagner (toutes les 2-3 minutes) et demandez progressivement plus d'efforts à mesure que l'enfant réussit."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "3-10",
+    "sources": [
+      "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "behavior-8",
+    "skill": "Création d'un espace sûr à la maison",
+    "whyItMatters": "Chaque enfant autiste a besoin d’un espace désigné où il peut décompresser sans jugement. Il ne s'agit pas d'un domaine de sanction, mais d'un outil de réglementation proactive. Having a reliable safe space teaches children to recognize when they need a break and to take it independently, which is a critical life skill for managing overwhelm.",
+    "steps": [
+      "Désignez un petit espace clos : un coin avec une tente pop-up, un espace sous une table avec des couvertures ou un placard avec des coussins.",
+      "Remplissez-le d'objets apaisants : un éclairage doux, des écouteurs, des objets agités, une couverture lestée, des livres préférés.",
+      "Présentez-le lors d'un moment calme : « C'est votre endroit confortable. Vous pouvez venir ici chaque fois que vous avez besoin d'une pause.",
+      "Ne l’utilisez jamais comme punition et n’y envoyez jamais votre enfant contre sa volonté – il doit contrôler quand il l’utilise."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)"
+    ]
+  },
+  {
+    "id": "cognitive-1",
+    "skill": "Jeu structuré : jouets de cause à effet",
+    "whyItMatters": "Comprendre les causes et les effets – « quand je fais ceci, cela arrive » – est une compétence cognitive fondamentale qui sous-tend l'apprentissage, la communication et la résolution de problèmes. Les jouets qui répondent aux actions (appuyer sur un bouton, entendre un son ; tirer un levier, voir un mouvement) rendent cette relation claire et motivante. C’est souvent le point de départ de l’enseignement d’un comportement intentionnel.",
+    "steps": [
+      "Rassemblez 3 à 4 jouets de cause à effet : un jouet pop-up, une toupie, un instrument de musique ou un jouet lumineux.",
+      "Modélisez l'action lentement : appuyez sur le bouton, faites une pause, réagissez avec enthousiasme lorsque cela fonctionne.",
+      "Guidez la main de votre enfant pour activer le jouet si besoin, puis faites disparaître rapidement votre aide.",
+      "Racontez la cause et l'effet : « Vous avez appuyé sur le bouton ! » La musique a joué ! »"
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "1-5",
+    "sources": [
+      "Autism Little Learners — Functional Play and Autism (autismlittlelearners.com/functional-play-and-autism/)",
+      "ICDL — DIR/Floortime: Engaging and Relating (icdl.com/dir)",
+      "Autism Speaks — ESDM: Sensory Social Routines (autismspeaks.org/early-start-denver-model-esdm)"
+    ]
+  },
+  {
+    "id": "cognitive-2",
+    "skill": "Activités de correspondance et de tri",
+    "whyItMatters": "Faire correspondre des objets identiques et trier par catégories sont des compétences cognitives précoces qui soutiennent le développement du langage, la préparation aux mathématiques et la pensée organisationnelle. De nombreux enfants autistes sont des trieurs et des classificateurs naturels ; cette force peut être canalisée dans un apprentissage structuré. La correspondance prend également en charge la discrimination visuelle, ce qui facilite la préparation à la lecture.",
+    "steps": [
+      "Commencez par faire correspondre des objets identiques : deux tasses rouges, deux blocs bleus, deux images identiques.",
+      "Progressez vers l'association d'éléments similaires mais non identiques : toutes les tasses ensemble, tous les blocs ensemble.",
+      "Introduisez le tri par un attribut : triez par couleur, puis par taille, puis par forme, un à la fois.",
+      "Utilisez les intérêts de votre enfant : triez les wagons par couleur, associez les figures d'animaux à leurs images ou triez les aliments par type."
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "2-6",
+    "sources": [
+      "Key Autism Services — Teaching Math to Students with Autism (keyautismservices.com/blog/teaching-math-to-students-with-autism)",
+      "Above and Beyond Therapy — TEACCH Method for Autism (abtaba.com/blog/teacch-method-for-autism)",
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)"
+    ]
+  },
+  {
+    "id": "cognitive-3",
+    "skill": "Faire semblant de jouer : développer l'imagination",
+    "whyItMatters": "Le jeu de simulation est un domaine dans lequel de nombreux enfants autistes ont besoin d’un enseignement explicite. Le jeu imaginatif développe le langage, la compréhension sociale, la pensée flexible et le traitement émotionnel. En commençant par un jeu fonctionnel simple (faire semblant de boire dans une tasse) et en passant progressivement à des scénarios plus complexes (jouer au « magasin »), on développe ces compétences dans un contexte naturel et agréable.",
+    "steps": [
+      "Commencez par un jeu fonctionnel : donnez à votre enfant un téléphone jouet et un modèle qui parle, ou offrez-lui une tasse de jeu et faites semblant de boire.",
+      "Utilisez les intérêts de votre enfant comme thème : s'il aime les trains, créez une fausse gare avec des billets et des passagers.",
+      "Modélisez des actions simulées aux côtés de votre enfant sans direction : nourrir un animal en peluche, le coucher, le promener.",
+      "Ajoutez un nouvel élément de simulation à la fois – ne vous submergez pas d’un seul coup avec un scénario complexe."
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "2-7",
+    "sources": [
+      "ICDL — DIR/Floortime: Creating Emotional Ideas (icdl.com/dir/fedcs)",
+      "Wondirful Play — Six Stages of DIR/Floortime (wondirfulplay.com/blog/six-stages-of-dir-floortime-therapy)",
+      "Raising Children Network — DIR/Floortime Model (raisingchildren.net.au/autism/therapies-guide/dir-floortime-model)"
+    ]
+  },
+  {
+    "id": "cognitive-4",
+    "skill": "Suivre des instructions en deux étapes",
+    "whyItMatters": "Suivre des instructions en plusieurs étapes est essentiel pour l’apprentissage en classe, les routines quotidiennes et la sécurité. Pour les enfants autistes, les instructions verbales peuvent être traitées plus lentement ou perdues sans support visuel. Pratiquer des instructions en deux étapes dans des contextes amusants et sans pression développe cette compétence afin qu'elle soit disponible lorsque cela compte le plus.",
+    "steps": [
+      "Commencez pendant le jeu : « Récupérez le ballon ET apportez-le-moi » — utilisez le mot « et » pour signaler deux parties.",
+      "Utilisez des gestes parallèlement aux instructions verbales : montrez le ballon, puis montrez-vous vous-même.",
+      "Jouez à la « chasse au trésor » : donnez des indices en deux étapes : « Regardez sous l'oreiller ET apportez-moi ce que vous trouvez. »",
+      "Une fois vos actions physiques réussies, essayez des tâches cognitives en deux étapes : « Colorez le cercle en rouge ET le carré en bleu. »"
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "3-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "ASHA — Spoken Language Disorders: Following Directions (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)"
+    ]
+  },
+  {
+    "id": "cognitive-5",
+    "skill": "Intérêt particulier comme pont d'apprentissage",
+    "whyItMatters": "Les intérêts particuliers intenses sont une caractéristique de l’autisme et doivent être pris en compte et non découragés. Ces intérêts fournissent une motivation naturelle qui peut être canalisée vers l’apprentissage de n’importe quelle compétence. Un enfant qui aime les trains peut apprendre à compter, à lire, à avoir des compétences sociales et à apprendre la géographie grâce aux trains. La recherche montre que tirer parti des intérêts particuliers améliore considérablement l’engagement et les résultats.",
+    "steps": [
+      "Identifiez l'intérêt intense actuel de votre enfant : il peut s'agir de trains, de dinosaures, de chiffres, de lettres, d'un spectacle spécifique ou d'une expérience sensorielle.",
+      "Reliez les objectifs académiques ou sociaux à l'intérêt : comptez les dinosaures, lisez des livres sur les trains, jouez à tour de rôle avec votre jouet préféré.",
+      "Utilisez l'intérêt comme récompense : « Après avoir pratiqué l'écriture, vous pourrez jouer avec vos trains pendant 10 minutes. »",
+      "Respectez l’intérêt – ne l’enlevez jamais comme punition. C'est la source de joie et de régulation de votre enfant."
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "2-12",
+    "sources": [
+      "Chicago ABA Therapy — PRT: Following Child's Lead (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+      "Autism Speaks — Autism and Your Child's Special Interests (autismspeaks.org)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)"
+    ]
+  },
+  {
+    "id": "cognitive-6",
+    "skill": "Enseignement par essais discrets : explosions de compétences de 5 minutes",
+    "whyItMatters": "L'entraînement par essais discrets (DTT) est une technique ABA structurée qui divise l'apprentissage en essais clairs et répétés : donner une instruction, demander si nécessaire, attendre une réponse, récompenser la bonne réponse. De courtes « rafales de compétences » de 5 minutes à la maison peuvent accélérer l'apprentissage dans des domaines tels que l'étiquetage, l'appariement et le suivi d'instructions sans nécessiter la présence d'un thérapeute.",
+    "steps": [
+      "Choisissez une cible simple : nommer des couleurs, identifier des parties du corps ou faire correspondre des images.",
+      "Présentez une instruction claire : « Touchez le rouge » avec un tableau de 2 à 3 éléments.",
+      "Attendez 3 à 5 secondes pour une réponse. Si c’est correct, félicitez-le immédiatement et offrez-lui une petite récompense. Si cela est incorrect, demandez-le doucement et réessayez.",
+      "Faites 5 à 10 essais d'affilée, puis faites une pause avec une activité préférée. Gardez les séances courtes et positives."
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "2-7",
+    "sources": [
+      "Blue ABA Therapy — Discrete Trial Training Guide (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "PMC — Scoping Review: ABA Evidence Base (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)"
+    ]
+  },
+  {
+    "id": "cognitive-7",
+    "skill": "Résolution de problèmes avec des supports visuels",
+    "whyItMatters": "Apprendre aux enfants à résoudre des problèmes de manière indépendante renforce la résilience et réduit la dépendance à l’égard des adultes. Pour les enfants autistes, diviser la résolution de problèmes en étapes visuelles et concrètes rend cette compétence abstraite accessible. L’objectif n’est pas d’éliminer les problèmes mais de donner aux enfants un processus fiable pour les gérer.",
+    "steps": [
+      "Créez un tableau visuel simple de résolution de problèmes : 1) Quel est le problème ? 2) Que puis-je essayer ? 3) Essayez-le. 4) Est-ce que ça a fonctionné ?",
+      "Modélisez en utilisant le tableau avec des problèmes réels : « Je n'arrive pas à atteindre la tasse. Que puis-je essayer ? Je peux utiliser un tabouret ! »",
+      "Lorsque votre enfant rencontre un problème, guidez-le vers le tableau au lieu de le résoudre à sa place.",
+      "Proposez d’abord deux solutions possibles, puis encouragez-les progressivement à générer leurs propres idées."
+    ],
+    "category": "Cognitif et ludique",
+    "ageRange": "3-10",
+    "sources": [
+      "TEACCH — Structured Teaching and Problem Solving (teacch.com)",
+      "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      "Above and Beyond Therapy — TEACCH Method (abtaba.com/blog/teacch-method-for-autism)"
+    ]
+  },
+  {
+    "id": "advocacy-1",
+    "skill": "Demander une pause",
+    "whyItMatters": "Apprendre aux enfants à demander une pause avant d’atteindre leurs limites est l’une des compétences d’auto-représentation les plus puissantes. Il prévient les crises, réduit les comportements difficiles et donne aux enfants un moyen socialement approprié de gérer le dépassement. Un enfant qui peut dire, signer ou montrer une carte de « pause » développe une stratégie d'autorégulation qui durera toute sa vie.",
+    "steps": [
+      "Créez une carte « pause » avec un visuel clair et gardez-la accessible à tout moment — sur la table, sur un cordon ou sur un tableau de communication.",
+      "Enseignez d'abord la demande dans les situations de faible stress : « Quand vous avez besoin d'une pause, montrez-moi cette carte. »",
+      "Honorez CHAQUE demande de pause immédiatement dans un premier temps : il est plus important de renforcer la confiance dans le fonctionnement du système que de terminer la tâche.",
+      "Structurez progressivement les pauses :                          Prenons 2 minutes, puis nous terminerons."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "Autism Speaks — Challenging Behaviors Tool Kit (autismspeaks.org/tool-kit/challenging-behaviors-tool-kit)",
+      "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)"
+    ]
+  },
+  {
+    "id": "advocacy-2",
+    "skill": "Exprimer ses besoins : « J'ai besoin d'aide »",
+    "whyItMatters": "La capacité de demander de l’aide est une compétence essentielle dans la vie quotidienne que de nombreux enfants autistes ont besoin d’un enseignement explicite pour développer. Sans cette compétence, les enfants peuvent devenir frustrés et passer à l’acte, ou simplement abandonner leurs tâches. Enseigner « J'ai besoin d'aide » en tant qu'acte de communication – que ce soit par la parole, des signes, un bouton ou une carte – permet aux enfants de participer à des activités au-delà de leur niveau d'indépendance.",
+    "steps": [
+      "Choisissez une façon pour votre enfant de demander de l'aide : dire « aide », signer « aide », appuyer sur un bouton ou vous remettre une carte.",
+      "Créez des situations où de l'aide est nécessaire : mettez votre jouet préféré dans un récipient fermé ou donnez un puzzle dont une pièce est cachée.",
+      "Modélisez la demande : « C'est difficile ! » J'ai besoin d'aide ! » puis fournissez immédiatement de l’aide pour qu’ils voient le lien.",
+      "Répondez aux demandes d'aide rapidement et positivement à chaque fois : la rapidité et la cohérence créent une habitude."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-10",
+    "sources": [
+      "Autism Speaks — Applied Behavior Analysis: Communication (autismspeaks.org/applied-behavior-analysis)",
+      "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+      "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)"
+    ]
+  },
+  {
+    "id": "advocacy-3",
+    "skill": "Dire « non » et fixer des limites",
+    "whyItMatters": "Apprendre à un enfant à dire « non » de manière appropriée est essentiel pour sa sécurité et son respect de soi. De nombreuses approches thérapeutiques se sont historiquement concentrées sur l’observance, mais la pratique moderne affirmant la neurodiversité reconnaît qu’un enfant qui peut refuser est un enfant qui peut se protéger. Enseigner un refus approprié évite l’accumulation de détresse qui conduit à des crises.",
+    "steps": [
+      "Apprenez une manière claire de refuser : « Non merci », un hochement de tête, un geste de la main « stop » ou une carte « non ».",
+      "Créez des opportunités de pratique dans des situations à faibles enjeux : offrez un aliment non préféré et acceptez le « non » avec grâce.",
+      "Faites la distinction entre les éléments non négociables (sécurité) et les éléments négociables (préférences) — autorisez « non » pour les préférences.",
+      "Lorsque votre enfant dit « non » de manière appropriée, honorez-le et félicitez la communication : « Merci de me l'avoir dit !"
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "2-12",
+    "sources": [
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      "Child Mind Institute — ABA Controversy (childmind.org/article/controversy-around-applied-behavior-analysis/)",
+      "Autism Speaks — Self-Advocacy (autismspeaks.org)"
+    ]
+  },
+  {
+    "id": "advocacy-4",
+    "skill": "Comprendre et partager mon diagnostic",
+    "whyItMatters": "À mesure que les enfants grandissent, comprendre leur propre autisme devient important pour leur identité personnelle, leur défense de leurs droits et l’accès au soutien. Partager le diagnostic de manière positive et basée sur les points forts aide les enfants à considérer l'autisme comme une partie de qui ils sont et non comme quelque chose qui ne va pas chez eux. Les enfants qui comprennent leur diagnostic ont de meilleurs résultats en matière de santé mentale et de meilleures capacités d’auto-représentation.",
+    "steps": [
+      "Utilisez un langage adapté à votre âge : « Votre cerveau fonctionne différemment : vous remarquez des choses qui manquent aux autres et certaines choses vous semblent très importantes. »",
+      "Lisez ensemble des livres sur l'autisme : « La fille qui pensait en images », « Tous les chats sont sur le spectre autistique » ou des titres similaires.",
+      "Concentrez-vous d'abord sur les points forts : une mémoire incroyable, des intérêts profonds, le souci du détail, l'honnêteté, une perspective unique.",
+      "Laissez votre enfant décider à qui en parler et quand – ce sont ses informations qu’il doit partager selon ses conditions."
+    ],
+    "category": "Émotionnel et auto-représentation",
+    "ageRange": "5-12",
+    "sources": [
+      "Autism Speaks — Autism Diagnosis Criteria: DSM-5 (autismspeaks.org/autism-diagnosis-criteria-dsm-5)",
+      "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      "ASAN — Autistic Self Advocacy Network: Identity-First Language (autisticadvocacy.org)"
+    ]
+  }
+]

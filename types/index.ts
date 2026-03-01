@@ -9,8 +9,10 @@ export type LanguageCode =
   | "vi"
   | "ko"
   | "hi"
-  | "am"
-  | "so";
+  | "ht"
+  | "so"
+  | "ru"
+  | "bn";
 
 export type UserTrack =
   | "pre-diagnosis"

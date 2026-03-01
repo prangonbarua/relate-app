@@ -1,10 +1,10 @@
 // Relate design system — derived from Figma (CatXz8NSJUmN2VmAlZqq0Q)
 export const Colors = {
   // Brand blue — primary across all screens
-  primary: "#446DFF",
-  primaryDark: "#2D52CC",
-  primaryDeep: "#1A3A9E",
-  primaryLight: "#EEF2FF",
+  primary: "#7FB4F9",
+  primaryDark: "#5A9AE6",
+  primaryDeep: "#3B7FD9",
+  primaryLight: "#EBF3FE",
 
   // Backgrounds
   background: "#F9F6F1",   // off-white canvas
@@ -20,7 +20,7 @@ export const Colors = {
   borderLight: "#E5E7EB",
 
   // Tab bar
-  tabActive: "#446DFF",
+  tabActive: "#7FB4F9",
   tabInactive: "#C8C2BA",
 
   // Semantic
@@ -29,9 +29,9 @@ export const Colors = {
   success: "#10B981",
   successLight: "#D1FAE5",
 
-  // Skill card gradient (from Figma 2:2 home screen)
-  gradientStart: "#446DFF",
-  gradientEnd: "#2D52CC",
+  // Skill card gradient
+  gradientStart: "#7FB4F9",
+  gradientEnd: "#5A9AE6",
 };
 
 export const Radius = {

@@ -81,7 +81,7 @@ export default function SkillsScreen() {
         {/* Header */}
         <View style={{ paddingHorizontal: 24, paddingTop: 28, paddingBottom: 20 }}>
           <Text style={{ fontSize: 26, fontWeight: "800", color: Colors.text, letterSpacing: -0.5 }}>
-            Teach Skills
+            {t("skills.title")}
           </Text>
           <Text style={{ fontSize: 14, color: Colors.textSecondary, marginTop: 4 }}>
             {t("skills.subtitle")}
@@ -137,7 +137,7 @@ export default function SkillsScreen() {
                       {cat.displayName}
                     </Text>
                     <Text style={{ fontSize: 12, color: cat.config.textColor, opacity: 0.65 }}>
-                      {cat.count} skills
+                      {t("skills.skill_count", { count: cat.count })}
                     </Text>
                   </View>
                 </TouchableOpacity>

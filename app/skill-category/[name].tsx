@@ -9,6 +9,7 @@ import {
 import { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { router, useLocalSearchParams } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
@@ -31,9 +32,9 @@ interface CategoryStyle {
 const CATEGORY_STYLES: Record<string, CategoryStyle> = {
   communication: {
     icon: "chatbubbles-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
+    color: "#5A9AE6",
+    bg: "#5A9AE6",
+    lightBg: "#EBF3FE",
   },
   social: {
     icon: "people-outline",
@@ -80,6 +81,7 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
 }
 
 export default function SkillCategoryScreen() {
+  const { t } = useTranslation();
   const { name } = useLocalSearchParams<{ name: string }>();
   const categoryName = name ?? "";
   const style = getCategoryStyle(categoryName);
@@ -145,7 +147,7 @@ export default function SkillCategoryScreen() {
         >
           <Ionicons name="arrow-back" size={22} color={style.color} />
           <Text style={{ fontSize: 14, marginLeft: 4, color: style.color }}>
-            Categories
+            {t("common.categories")}
           </Text>
         </TouchableOpacity>
 
@@ -180,7 +182,7 @@ export default function SkillCategoryScreen() {
                 marginTop: 2,
               }}
             >
-              {skills.length} {skills.length === 1 ? "skill" : "skills"}
+              {t("skills.skill_count", { count: skills.length })}
             </Text>
           </View>
         </View>
@@ -201,7 +203,7 @@ export default function SkillCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              Loading skills...
+              {t("skill.loading_skills")}
             </Text>
           </View>
         ) : skills.length === 0 ? (
@@ -214,7 +216,7 @@ export default function SkillCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              No skills available yet
+              {t("skill.no_skills")}
             </Text>
           </View>
         ) : (

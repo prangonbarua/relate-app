@@ -6,6 +6,7 @@ import {
   getCategories,
   getSkillsByCategory,
   getDailyCard,
+  getWeeklyCards,
 } from "../skills";
 
 const router = Router();
@@ -15,17 +16,19 @@ router.use(authMiddleware);
 
 // ── GET / — All skills grouped with categories ──────────────────────────────
 router.get("/", (req: AuthRequest, res: Response) => {
+  const lang = (req as any).language ?? "en";
   res.json({
-    categories: getCategories(),
-    skills: getAllSkills(),
+    categories: getCategories(lang),
+    skills: getAllSkills(lang),
   });
 });
 
 // ── GET /categories — Category list with skill counts ────────────────────────
 router.get("/categories", (req: AuthRequest, res: Response) => {
-  const categories = getCategories().map((cat) => ({
+  const lang = (req as any).language ?? "en";
+  const categories = getCategories(lang).map((cat) => ({
     name: cat,
-    count: getSkillsByCategory(cat).length,
+    count: getSkillsByCategory(cat, lang).length,
   }));
 
   res.json({ categories });
@@ -33,14 +36,23 @@ router.get("/categories", (req: AuthRequest, res: Response) => {
 
 // ── GET /category/:name — Skills filtered by category ────────────────────────
 router.get("/category/:name", (req: AuthRequest, res: Response) => {
-  const skills = getSkillsByCategory(req.params.name as string);
+  const lang = (req as any).language ?? "en";
+  const skills = getSkillsByCategory(req.params.name as string, lang);
   res.json({ category: req.params.name, skills });
 });
 
 // ── GET /daily — Today's skill card for the authenticated user ───────────────
 router.get("/daily", (req: AuthRequest, res: Response) => {
-  const card = getDailyCard(req.userId!);
+  const lang = (req as any).language ?? "en";
+  const card = getDailyCard(req.userId!, lang);
   res.json({ card });
+});
+
+// ── GET /weekly — This week's 3 skill cards ──────────────────────────────────
+router.get("/weekly", (req: AuthRequest, res: Response) => {
+  const lang = (req as any).language ?? "en";
+  const cards = getWeeklyCards(req.userId!, lang);
+  res.json({ cards });
 });
 
 // ── POST /daily/log — Log outcome for today's card ──────────────────────────
