@@ -6,6 +6,7 @@ export interface Skill {
   steps: string[];
   category: string;
   ageRange: string;
+  sources: string[];
 }
 
 // ── Module state ─────────────────────────────────────────────────────────────
@@ -30,6 +31,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-6",
+      sources: [
+        "Autism Speaks — Early Start Denver Model: Joint Attention (autismspeaks.org/early-start-denver-model-esdm)",
+        "Chicago ABA Therapy — Joint Attention Routines in ESDM (chicagoabatherapy.com/resources/articles/joint-attention-routines-and-how-they-are-implemented-in-esdm/)",
+        "ASHA — Joint Attention and Language Development (asha.org)",
+      ],
     },
     {
       id: "comm-2",
@@ -44,6 +50,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-8",
+      sources: [
+        "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+        "Indiana University IRCA — What is PECS? (iidc.indiana.edu/irca/articles/what-is-the-picture-exchange-communication-system-or-pecs.html)",
+        "Autism Speaks — Augmentative and Alternative Communication (autismspeaks.org/augmentative-and-alternative-communication)",
+      ],
     },
     {
       id: "comm-3",
@@ -58,6 +69,10 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-5",
+      sources: [
+        "Raising Children Network — Language Development in Autistic Children (raisingchildren.net.au/autism/development/language-development)",
+        "ASHA — Late Language Emergence (asha.org/practice-portal/clinical-topics/late-language-emergence/)",
+      ],
     },
     {
       id: "comm-4",
@@ -72,6 +87,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-6",
+      sources: [
+        "Magnet ABA — Natural Environment Teaching (magnetaba.com/blog/aba-therapy-and-natural-environment-teaching)",
+        "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+        "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      ],
     },
     {
       id: "comm-5",
@@ -86,6 +106,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-7",
+      sources: [
+        "Autism Classroom Resources — Visual Schedule Series: First-Then (autismclassroomresources.com/visual-schedule-series-first-then/)",
+        "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+        "TEACCH — Structured Teaching and Visual Supports (teacch.com)",
+      ],
     },
     {
       id: "comm-6",
@@ -100,6 +125,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "1-5",
+      sources: [
+        "Avela Health — Basic Sign Language for Autism (joinavela.com/resources/basic-sign-language-for-autism/)",
+        "CDC — Learn the Signs. Act Early: Communication Milestones (cdc.gov/act-early/)",
+        "ASHA — Communication Development in Children with Autism (asha.org)",
+      ],
     },
     {
       id: "comm-7",
@@ -114,6 +144,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-6",
+      sources: [
+        "Blue ABA Therapy — Tacting in ABA (blueabatherapy.com/aba/tacting/)",
+        "Childwise ABA — Manding vs Tacting (childwiseaba.com/tacting-and-manding/)",
+        "DIR/Floortime — Circles of Communication (icdl.com/dir)",
+      ],
     },
     {
       id: "comm-8",
@@ -128,6 +163,10 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-8",
+      sources: [
+        "Chicago ABA Therapy — Pivotal Response Training: Choice-Making (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+        "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+      ],
     },
     {
       id: "comm-9",
@@ -142,6 +181,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "2-7",
+      sources: [
+        "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+        "ASHA — Receptive Language Disorders (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)",
+        "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      ],
     },
     {
       id: "comm-10",
@@ -156,6 +200,11 @@ export function loadSkills(): void {
       ],
       category: "Communication",
       ageRange: "1-6",
+      sources: [
+        "Reading Rockets — Structured Teaching Strategies for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)",
+        "Raising Children Network — Reading with Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning/reading)",
+        "AAP — Literacy Promotion (aap.org)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -174,6 +223,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "2-6",
+      sources: [
+        "Raising Children Network — Play and Autistic Children (raisingchildren.net.au/autism/school-play-work/play-learning)",
+        "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+        "DIR/Floortime — Engaging and Relating (icdl.com/dir)",
+      ],
     },
     {
       id: "social-2",
@@ -188,6 +242,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "2-7",
+      sources: [
+        "Chicago ABA Therapy — PRT: Turn-Taking Games (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+        "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+        "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)",
+      ],
     },
     {
       id: "social-3",
@@ -202,6 +261,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "3-8",
+      sources: [
+        "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+        "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+        "Autism Speaks — Emotion Recognition (autismspeaks.org/social-skills-and-autism)",
+      ],
     },
     {
       id: "social-4",
@@ -216,6 +280,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "3-10",
+      sources: [
+        "Carol Gray Social Stories — Official Site (carolgraysocialstories.com)",
+        "Life Skills Advocate — How to Write a Social Story (lifeskillsadvocate.com/blog/how-to-write-a-social-story/)",
+        "Autism Little Learners — Free Social Stories for Home (autismlittlelearners.com/social-stories-for-home/)",
+      ],
     },
     {
       id: "social-5",
@@ -230,6 +299,10 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "2-8",
+      sources: [
+        "STAR Autism Support — Social Scripts That Work (starautismsupport.com/simple-social-scripts-work)",
+        "Raising Children Network — Role Play and Social Skills (raisingchildren.net.au/autism/children-autism-videos/social-skills-autistic-children-role-play)",
+      ],
     },
     {
       id: "social-6",
@@ -244,6 +317,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "3-8",
+      sources: [
+        "Forta Health — Interactive Play for Children with Autism (fortahealth.com/resources/interactive-play-for-children-with-autism)",
+        "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+        "Indiana Resource Center for Autism — Making and Keeping Friends (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)",
+      ],
     },
     {
       id: "social-7",
@@ -258,6 +336,10 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "3-10",
+      sources: [
+        "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+        "Indiana Resource Center for Autism — Social Skills (iidc.indiana.edu/irca/articles/making-and-keeping-friends.html)",
+      ],
     },
     {
       id: "social-8",
@@ -272,6 +354,11 @@ export function loadSkills(): void {
       ],
       category: "Social",
       ageRange: "3-8",
+      sources: [
+        "Raising Children Network — Sharing and Autistic Children (raisingchildren.net.au/autism/behaviour/common-concerns/sharing)",
+        "Chicago ABA Therapy — PRT: Turn-Taking (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+        "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -290,6 +377,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-10",
+      sources: [
+        "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+        "STAR Institute — Sensory Activities at Home (sensoryhealth.org/basic/home-activities)",
+        "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)",
+      ],
     },
     {
       id: "sensory-2",
@@ -304,6 +396,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-10",
+      sources: [
+        "Harkla — Sensory Diet Activities (harkla.co/blogs/special-needs/sensory-diet)",
+        "STAR Institute — Home Sensory Activities (sensoryhealth.org/basic/home-activities)",
+        "Sensory Smarts — Sensory Diet Activities (sensorysmarts.com/sensory_diet_activities.html)",
+      ],
     },
     {
       id: "sensory-3",
@@ -318,6 +415,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-10",
+      sources: [
+        "STAR Institute — Proprioceptive Input Activities (sensoryhealth.org/basic/home-activities)",
+        "Harkla — Deep Pressure Therapy for Autism (harkla.co/blogs/special-needs/sensory-diet)",
+        "Autism Research Institute — Sensory-Friendly Strategies (autism.org/sensory-friendly-strategies-at-home-p2/)",
+      ],
     },
     {
       id: "sensory-4",
@@ -332,6 +434,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-12",
+      sources: [
+        "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)",
+        "Sensory Smarts — Auditory Sensitivity (sensorysmarts.com/sensory_diet_activities.html)",
+        "STAR Institute — Sensory Processing and Autism (sensoryhealth.org)",
+      ],
     },
     {
       id: "sensory-5",
@@ -346,6 +453,10 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-8",
+      sources: [
+        "Harkla — Tactile Sensory Activities (harkla.co/blogs/special-needs/sensory-diet)",
+        "STAR Institute — Tactile Processing Activities (sensoryhealth.org/basic/home-activities)",
+      ],
     },
     {
       id: "sensory-6",
@@ -360,6 +471,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "3-10",
+      sources: [
+        "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+        "TEACCH — Structured Teaching and Visual Schedules (teacch.com)",
+        "Harkla — Sensory Diet Scheduling (harkla.co/blogs/special-needs/sensory-diet)",
+      ],
     },
     {
       id: "sensory-7",
@@ -374,6 +490,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-10",
+      sources: [
+        "Sensory Smarts — Oral Sensory Activities (sensorysmarts.com/sensory_diet_activities.html)",
+        "STAR Institute — Oral Motor Activities (sensoryhealth.org/basic/home-activities)",
+        "Harkla — Oral Sensory Input (harkla.co/blogs/special-needs/sensory-diet)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -392,6 +513,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-8",
+      sources: [
+        "Raising Children Network — Visual Supports for Daily Routines (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+        "TEACCH — Daily Living Routines (teacch.com/daily-living-routines/)",
+        "A Day in Our Shoes — Free Visual Schedule Templates (adayinourshoes.com/free-printable-visual-schedules-for-home-and-daily-routines/)",
+      ],
     },
     {
       id: "daily-2",
@@ -406,6 +532,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-8",
+      sources: [
+        "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+        "Raising Children Network — Dental Care and Autism (raisingchildren.net.au/autism/health-wellbeing/dental-care/dental-care-autism)",
+        "STAR Institute — Oral Sensory Desensitization (sensoryhealth.org)",
+      ],
     },
     {
       id: "daily-3",
@@ -420,6 +551,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-10",
+      sources: [
+        "Autism Speaks — Feeding Issues and Autism (autismspeaks.org/expert-opinion/what-are-common-feeding-issues-associated-autism)",
+        "Raising Children Network — Eating and Autism (raisingchildren.net.au/autism/health-wellbeing/nutrition-fitness/eating-autism)",
+        "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)",
+      ],
     },
     {
       id: "daily-4",
@@ -434,6 +570,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-7",
+      sources: [
+        "Autism Speaks — Applied Behavior Analysis: Backward Chaining (autismspeaks.org/applied-behavior-analysis)",
+        "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+        "Chicago ABA Therapy — Task Analysis and Chaining (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)",
+      ],
     },
     {
       id: "daily-5",
@@ -448,6 +589,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-7",
+      sources: [
+        "Raising Children Network — Toilet Training and Autism (raisingchildren.net.au/autism/health-wellbeing/toileting-hygiene/toilet-training-autism)",
+        "Autism Little Learners — Free Toileting Sequence (autismlittlelearners.com/free-toileting-sequence/)",
+        "Autism Speaks — Toilet Training Guide (autismspeaks.org/tool-kit/atn-air-p-toilet-training)",
+      ],
     },
     {
       id: "daily-6",
@@ -462,6 +608,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-8",
+      sources: [
+        "CDC — Handwashing: Clean Hands Save Lives (cdc.gov/hand-washing/)",
+        "TEACCH — Daily Living Routines: Task Analysis (teacch.com/daily-living-routines/)",
+        "Behavioral Innovations — Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      ],
     },
     {
       id: "daily-7",
@@ -476,6 +627,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "2-12",
+      sources: [
+        "Autism Speaks — Sleep Resources (autismspeaks.org/sleep)",
+        "Raising Children Network — Sleep and Autism (raisingchildren.net.au/autism/health-wellbeing/sleep/sleep-problems-autism)",
+        "AAP — Healthy Sleep Habits for Children (aap.org)",
+      ],
     },
     {
       id: "daily-8",
@@ -490,6 +646,11 @@ export function loadSkills(): void {
       ],
       category: "Daily Living",
       ageRange: "3-10",
+      sources: [
+        "Accessible Chef — Free Visual Recipes (accessiblechef.com)",
+        "SPARK for Autism — Daily Living Skills (sparkforautism.org/discover_article/daily-living-skills-a-key-to-independence-for-people-with-autism/)",
+        "Behavioral Innovations — Teaching Independent Living Skills (behavioral-innovations.com/blog/teach-independent-living-skills-kids-with-autism/)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -508,6 +669,10 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-6",
+      sources: [
+        "Tree Top ABA — Fine Motor Skills Activities for Autism (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)",
+        "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)",
+      ],
     },
     {
       id: "motor-2",
@@ -522,6 +687,10 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "3-8",
+      sources: [
+        "Golden Steps ABA — Gross Motor Skills in Children with Autism (goldenstepsaba.com/resources/gross-motor-skills-in-children-with-autism/)",
+        "Harkla — Sensory Diet: Proprioceptive and Vestibular Activities (harkla.co/blogs/special-needs/sensory-diet)",
+      ],
     },
     {
       id: "motor-3",
@@ -536,6 +705,10 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "3-7",
+      sources: [
+        "Children's Hospital Los Angeles — Fine Motor Skills in Autism (chla.org/blog/rehab-therapies-and-audiology/promoting-and-developing-fine-motor-skills-children-autism)",
+        "Tree Top ABA — Fine Motor Activities (thetreetop.com/aba-therapy/fine-motor-skills-activities-for-autism)",
+      ],
     },
     {
       id: "motor-4",
@@ -550,6 +723,11 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "2-10",
+      sources: [
+        "STAR Institute — Proprioceptive Activities (sensoryhealth.org/basic/home-activities)",
+        "Harkla — Heavy Work Activities for Sensory Processing (harkla.co/blogs/special-needs/sensory-diet)",
+        "Sensory Smarts — Proprioceptive Activities (sensorysmarts.com/sensory_diet_activities.html)",
+      ],
     },
     {
       id: "motor-5",
@@ -564,6 +742,10 @@ export function loadSkills(): void {
       ],
       category: "Sensory & Motor",
       ageRange: "3-6",
+      sources: [
+        "Apple ABA Care — Teaching Handwriting to Kids with Autism (appleabacare.com/aba-autism-therapy/teaching-hand-writing-to-kids-with-autism/)",
+        "Reading Rockets — Structured Teaching for Autism (readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -582,6 +764,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "Autism Speaks — Applied Behavior Analysis: Positive Reinforcement (autismspeaks.org/applied-behavior-analysis)",
+        "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+        "Chicago ABA Therapy — Parents Practice ABA at Home (chicagoabatherapy.com/resources/articles/how-parents-can-practice-aba-therapy-at-home/)",
+      ],
     },
     {
       id: "behavior-2",
@@ -596,6 +783,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "Autism Parenting Magazine — 25 Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+        "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+        "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      ],
     },
     {
       id: "behavior-3",
@@ -610,6 +802,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "3-12",
+      sources: [
+        "Zones of Regulation — Official Framework (zonesofregulation.com)",
+        "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+        "Autism Parenting Magazine — Emotional Regulation Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+      ],
     },
     {
       id: "behavior-4",
@@ -624,6 +821,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-10",
+      sources: [
+        "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+        "TEACCH — Structured Teaching and Visual Supports (teacch.com)",
+        "Autism Classroom Resources — Visual Schedule Series (autismclassroomresources.com/visual-schedule-series-first-then/)",
+      ],
     },
     {
       id: "behavior-5",
@@ -638,6 +840,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "Autism Speaks — Applied Behavior Analysis: Functional Assessment (autismspeaks.org/applied-behavior-analysis)",
+        "PMC — Scoping Review: ABA as Evidence-Based Practice (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)",
+        "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      ],
     },
     {
       id: "behavior-6",
@@ -652,6 +859,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "3-10",
+      sources: [
+        "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+        "Autism Parenting Magazine — Calming Techniques (autismparentingmagazine.com/help-child-with-emotional-regulation/)",
+        "Advanced Autism Services — Calm-Down Corner for Autism (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+      ],
     },
     {
       id: "behavior-7",
@@ -666,6 +878,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "3-10",
+      sources: [
+        "ABA Journey — Token Economy for Autism (abajourney.com/token-economy-autism/)",
+        "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+        "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      ],
     },
     {
       id: "behavior-8",
@@ -680,6 +897,10 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "Advanced Autism Services — Creating a Calm-Down Corner (advancedautism.com/post/creating-a-calm-down-corner-for-autism)",
+        "Autism Research Institute — Sensory-Friendly Strategies at Home (autism.org/sensory-friendly-strategies-at-home-p2/)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -698,6 +919,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "1-5",
+      sources: [
+        "Autism Little Learners — Functional Play and Autism (autismlittlelearners.com/functional-play-and-autism/)",
+        "ICDL — DIR/Floortime: Engaging and Relating (icdl.com/dir)",
+        "Autism Speaks — ESDM: Sensory Social Routines (autismspeaks.org/early-start-denver-model-esdm)",
+      ],
     },
     {
       id: "cognitive-2",
@@ -712,6 +938,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "2-6",
+      sources: [
+        "Key Autism Services — Teaching Math to Students with Autism (keyautismservices.com/blog/teaching-math-to-students-with-autism)",
+        "Above and Beyond Therapy — TEACCH Method for Autism (abtaba.com/blog/teacch-method-for-autism)",
+        "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+      ],
     },
     {
       id: "cognitive-3",
@@ -726,6 +957,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "2-7",
+      sources: [
+        "ICDL — DIR/Floortime: Creating Emotional Ideas (icdl.com/dir/fedcs)",
+        "Wondirful Play — Six Stages of DIR/Floortime (wondirfulplay.com/blog/six-stages-of-dir-floortime-therapy)",
+        "Raising Children Network — DIR/Floortime Model (raisingchildren.net.au/autism/therapies-guide/dir-floortime-model)",
+      ],
     },
     {
       id: "cognitive-4",
@@ -740,6 +976,10 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "3-7",
+      sources: [
+        "Blue ABA Therapy — Discrete Trial Training (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+        "ASHA — Spoken Language Disorders: Following Directions (asha.org/practice-portal/clinical-topics/spoken-language-disorders/)",
+      ],
     },
     {
       id: "cognitive-5",
@@ -754,6 +994,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "2-12",
+      sources: [
+        "Chicago ABA Therapy — PRT: Following Child's Lead (chicagoabatherapy.com/resources/articles/dtt-difference-prt/)",
+        "Autism Speaks — Autism and Your Child's Special Interests (autismspeaks.org)",
+        "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      ],
     },
     {
       id: "cognitive-6",
@@ -768,6 +1013,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "2-7",
+      sources: [
+        "Blue ABA Therapy — Discrete Trial Training Guide (blueabatherapy.com/aba/discrete-trial-training-aba/)",
+        "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+        "PMC — Scoping Review: ABA Evidence Base (pmc.ncbi.nlm.nih.gov/articles/PMC9458805/)",
+      ],
     },
     {
       id: "cognitive-7",
@@ -782,6 +1032,11 @@ export function loadSkills(): void {
       ],
       category: "Cognitive & Play",
       ageRange: "3-10",
+      sources: [
+        "TEACCH — Structured Teaching and Problem Solving (teacch.com)",
+        "Raising Children Network — Visual Supports (raisingchildren.net.au/autism/therapies-guide/visual-supports)",
+        "Above and Beyond Therapy — TEACCH Method (abtaba.com/blog/teacch-method-for-autism)",
+      ],
     },
 
     // ═══════════════════════════════════════════════════════════════════════════
@@ -800,6 +1055,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "Autism Speaks — Challenging Behaviors Tool Kit (autismspeaks.org/tool-kit/challenging-behaviors-tool-kit)",
+        "How to ABA — Emotional Regulation in Autism (howtoaba.com/emotional-regulation-in-autism/)",
+        "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+      ],
     },
     {
       id: "advocacy-2",
@@ -814,6 +1074,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-10",
+      sources: [
+        "Autism Speaks — Applied Behavior Analysis: Communication (autismspeaks.org/applied-behavior-analysis)",
+        "PECS USA — Picture Exchange Communication System (pecsusa.com/pecs/)",
+        "Behavioral Innovations — ABA Strategies at Home (behavioral-innovations.com/blog/implement-aba-therapy-strategies-at-home/)",
+      ],
     },
     {
       id: "advocacy-3",
@@ -828,6 +1093,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "2-12",
+      sources: [
+        "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+        "Child Mind Institute — ABA Controversy (childmind.org/article/controversy-around-applied-behavior-analysis/)",
+        "Autism Speaks — Self-Advocacy (autismspeaks.org)",
+      ],
     },
     {
       id: "advocacy-4",
@@ -842,6 +1112,11 @@ export function loadSkills(): void {
       ],
       category: "Emotional & Self-Advocacy",
       ageRange: "5-12",
+      sources: [
+        "Autism Speaks — Autism Diagnosis Criteria: DSM-5 (autismspeaks.org/autism-diagnosis-criteria-dsm-5)",
+        "PMC — Affirming Neurodiversity Within ABA (pmc.ncbi.nlm.nih.gov/articles/PMC11219658/)",
+        "ASAN — Autistic Self Advocacy Network: Identity-First Language (autisticadvocacy.org)",
+      ],
     },
   ];
 

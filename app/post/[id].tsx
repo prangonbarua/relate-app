@@ -13,6 +13,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { api } from "../../store/apiClient";
+import { Colors, Radius, Shadow } from "../../constants/theme";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -158,10 +159,16 @@ export default function PostDetailScreen() {
 
   if (isLoading) {
     return (
-      <SafeAreaView className="flex-1 bg-gray-50">
-        <View className="flex-1 items-center justify-center">
-          <ActivityIndicator size="large" color="#6366f1" />
-          <Text className="text-gray-400 text-sm mt-3">Loading post...</Text>
+      <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
+        <View
+          style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+        >
+          <ActivityIndicator size="large" color={Colors.primary} />
+          <Text
+            style={{ color: Colors.textMuted, fontSize: 14, marginTop: 12 }}
+          >
+            Loading post...
+          </Text>
         </View>
       </SafeAreaView>
     );
@@ -171,25 +178,54 @@ export default function PostDetailScreen() {
 
   if (error || !post) {
     return (
-      <SafeAreaView className="flex-1 bg-gray-50">
+      <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
         {/* Back button */}
-        <View className="px-4 pt-4">
+        <View style={{ paddingHorizontal: 16, paddingTop: 16 }}>
           <TouchableOpacity
             onPress={() => router.back()}
-            className="flex-row items-center"
+            style={{ flexDirection: "row", alignItems: "center" }}
           >
             <Ionicons name="arrow-back" size={24} color="#374151" />
-            <Text className="text-gray-700 font-medium text-base ml-1">
+            <Text
+              style={{
+                color: "#374151",
+                fontWeight: "500",
+                fontSize: 16,
+                marginLeft: 4,
+              }}
+            >
               Back
             </Text>
           </TouchableOpacity>
         </View>
-        <View className="flex-1 items-center justify-center px-6">
+        <View
+          style={{
+            flex: 1,
+            alignItems: "center",
+            justifyContent: "center",
+            paddingHorizontal: 24,
+          }}
+        >
           <Ionicons name="alert-circle-outline" size={48} color="#D1D5DB" />
-          <Text className="text-lg font-bold text-gray-900 mt-4 mb-2">
+          <Text
+            style={{
+              fontSize: 18,
+              fontWeight: "700",
+              color: Colors.text,
+              marginTop: 16,
+              marginBottom: 8,
+            }}
+          >
             Post not found
           </Text>
-          <Text className="text-sm text-gray-500 text-center mb-6">
+          <Text
+            style={{
+              fontSize: 14,
+              color: Colors.textSecondary,
+              textAlign: "center",
+              marginBottom: 24,
+            }}
+          >
             This post may have been removed or is temporarily unavailable.
           </Text>
           <TouchableOpacity
@@ -198,9 +234,18 @@ export default function PostDetailScreen() {
               setError(false);
               fetchPost();
             }}
-            className="bg-indigo-500 px-8 py-3.5 rounded-xl"
+            style={{
+              backgroundColor: Colors.primary,
+              paddingHorizontal: 32,
+              paddingVertical: 14,
+              borderRadius: Radius.lg,
+            }}
           >
-            <Text className="text-white font-semibold text-base">Retry</Text>
+            <Text
+              style={{ color: "#FFFFFF", fontWeight: "600", fontSize: 16 }}
+            >
+              Retry
+            </Text>
           </TouchableOpacity>
         </View>
       </SafeAreaView>
@@ -215,22 +260,73 @@ export default function PostDetailScreen() {
   // ── Render comment ───────────────────────────────────────────────────────
 
   const renderComment = ({ item }: { item: Comment }) => (
-    <View className="bg-white rounded-xl px-4 py-3.5 mb-2 mx-4 border border-gray-100">
-      <View className="flex-row items-center mb-2">
-        <View className="w-7 h-7 rounded-full bg-indigo-100 items-center justify-center mr-2">
-          <Text className="text-xs font-bold text-indigo-600">
+    <View
+      style={{
+        backgroundColor: Colors.surface,
+        borderRadius: Radius.lg,
+        paddingHorizontal: 16,
+        paddingVertical: 14,
+        marginBottom: 8,
+        marginHorizontal: 16,
+        borderWidth: 1,
+        borderColor: Colors.borderLight,
+      }}
+    >
+      <View
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          marginBottom: 8,
+        }}
+      >
+        <View
+          style={{
+            width: 28,
+            height: 28,
+            borderRadius: Radius.full,
+            backgroundColor: Colors.primaryLight,
+            alignItems: "center",
+            justifyContent: "center",
+            marginRight: 8,
+          }}
+        >
+          <Text
+            style={{
+              fontSize: 12,
+              fontWeight: "700",
+              color: Colors.primary,
+            }}
+          >
             {item.author_name?.charAt(0)?.toUpperCase() || "?"}
           </Text>
         </View>
-        <Text className="text-sm font-semibold text-gray-800">
+        <Text
+          style={{
+            fontSize: 14,
+            fontWeight: "600",
+            color: "#1F2937",
+          }}
+        >
           {item.author_name}
         </Text>
-        <Text className="text-xs text-gray-300 mx-1.5">{"\u00B7"}</Text>
-        <Text className="text-xs text-gray-400">
+        <Text
+          style={{
+            fontSize: 12,
+            color: "#D1D5DB",
+            marginHorizontal: 6,
+          }}
+        >
+          {"\u00B7"}
+        </Text>
+        <Text style={{ fontSize: 12, color: Colors.textMuted }}>
           {formatTimeAgo(item.created_at)}
         </Text>
       </View>
-      <Text className="text-sm text-gray-700 leading-5">{item.body}</Text>
+      <Text
+        style={{ fontSize: 14, color: "#374151", lineHeight: 20 }}
+      >
+        {item.body}
+      </Text>
     </View>
   );
 
@@ -239,24 +335,37 @@ export default function PostDetailScreen() {
   const PostHeader = () => (
     <View>
       {/* Post card */}
-      <View className="bg-white mx-4 mt-3 rounded-2xl p-5 border border-gray-100"
+      <View
         style={{
-          shadowColor: "#000",
-          shadowOffset: { width: 0, height: 1 },
-          shadowOpacity: 0.05,
-          shadowRadius: 3,
-          elevation: 2,
+          backgroundColor: Colors.surface,
+          marginHorizontal: 16,
+          marginTop: 12,
+          borderRadius: Radius.xl,
+          padding: 20,
+          borderWidth: 1,
+          borderColor: Colors.borderLight,
+          ...Shadow.soft,
         }}
       >
         {/* Category badge */}
         {post.category && (
           <View
-            className="self-start rounded-full px-3 py-1 mb-3"
-            style={{ backgroundColor: catColor.bg }}
+            style={{
+              alignSelf: "flex-start",
+              borderRadius: Radius.full,
+              paddingHorizontal: 12,
+              paddingVertical: 4,
+              marginBottom: 12,
+              backgroundColor: catColor.bg,
+            }}
           >
             <Text
-              className="text-xs font-semibold capitalize"
-              style={{ color: catColor.text }}
+              style={{
+                fontSize: 12,
+                fontWeight: "600",
+                textTransform: "capitalize",
+                color: catColor.text,
+              }}
             >
               {post.category}
             </Text>
@@ -264,55 +373,122 @@ export default function PostDetailScreen() {
         )}
 
         {/* Title */}
-        <Text className="text-xl font-bold text-gray-900 mb-3 leading-7">
+        <Text
+          style={{
+            fontSize: 20,
+            fontWeight: "700",
+            color: Colors.text,
+            marginBottom: 12,
+            lineHeight: 28,
+          }}
+        >
           {post.title}
         </Text>
 
         {/* Full body */}
-        <Text className="text-base text-gray-700 leading-6 mb-4">
+        <Text
+          style={{
+            fontSize: 16,
+            color: "#374151",
+            lineHeight: 24,
+            marginBottom: 16,
+          }}
+        >
           {post.body}
         </Text>
 
         {/* Meta row */}
-        <View className="flex-row items-center mb-4">
-          <View className="w-6 h-6 rounded-full bg-indigo-100 items-center justify-center mr-2">
-            <Text className="text-xs font-bold text-indigo-600">
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            marginBottom: 16,
+          }}
+        >
+          <View
+            style={{
+              width: 24,
+              height: 24,
+              borderRadius: Radius.full,
+              backgroundColor: Colors.primaryLight,
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: 8,
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 12,
+                fontWeight: "700",
+                color: Colors.primary,
+              }}
+            >
               {post.author_name?.charAt(0)?.toUpperCase() || "?"}
             </Text>
           </View>
-          <Text className="text-sm text-gray-600 font-medium">
+          <Text
+            style={{
+              fontSize: 14,
+              color: "#4B5563",
+              fontWeight: "500",
+            }}
+          >
             {post.author_name}
           </Text>
-          <Text className="text-xs text-gray-300 mx-2">{"\u00B7"}</Text>
-          <Text className="text-xs text-gray-400">
+          <Text
+            style={{
+              fontSize: 12,
+              color: "#D1D5DB",
+              marginHorizontal: 8,
+            }}
+          >
+            {"\u00B7"}
+          </Text>
+          <Text style={{ fontSize: 12, color: Colors.textMuted }}>
             {formatTimeAgo(post.created_at)}
           </Text>
         </View>
 
         {/* Vote row */}
-        <View className="flex-row items-center border-t border-gray-100 pt-3">
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            borderTopWidth: 1,
+            borderTopColor: Colors.borderLight,
+            paddingTop: 12,
+          }}
+        >
           <TouchableOpacity
             onPress={() => handleVote("up")}
-            className="flex-row items-center mr-1 px-2 py-1 rounded-lg"
             style={{
-              backgroundColor: userVote === "up" ? "#EEF2FF" : "transparent",
+              flexDirection: "row",
+              alignItems: "center",
+              marginRight: 4,
+              paddingHorizontal: 8,
+              paddingVertical: 4,
+              borderRadius: Radius.sm,
+              backgroundColor:
+                userVote === "up" ? Colors.primaryLight : "transparent",
             }}
           >
             <Ionicons
               name={userVote === "up" ? "arrow-up" : "arrow-up-outline"}
               size={20}
-              color={userVote === "up" ? "#6366F1" : "#9CA3AF"}
+              color={userVote === "up" ? Colors.primary : Colors.textMuted}
             />
           </TouchableOpacity>
 
           <Text
-            className="text-base font-bold mx-1"
             style={{
+              fontSize: 16,
+              fontWeight: "700",
+              marginHorizontal: 4,
               color:
                 userVote === "up"
-                  ? "#6366F1"
+                  ? Colors.primary
                   : userVote === "down"
-                  ? "#EF4444"
+                  ? Colors.danger
                   : "#374151",
             }}
           >
@@ -321,38 +497,86 @@ export default function PostDetailScreen() {
 
           <TouchableOpacity
             onPress={() => handleVote("down")}
-            className="flex-row items-center ml-1 px-2 py-1 rounded-lg"
             style={{
-              backgroundColor: userVote === "down" ? "#FEF2F2" : "transparent",
+              flexDirection: "row",
+              alignItems: "center",
+              marginLeft: 4,
+              paddingHorizontal: 8,
+              paddingVertical: 4,
+              borderRadius: Radius.sm,
+              backgroundColor:
+                userVote === "down" ? Colors.dangerLight : "transparent",
             }}
           >
             <Ionicons
-              name={userVote === "down" ? "arrow-down" : "arrow-down-outline"}
+              name={
+                userVote === "down" ? "arrow-down" : "arrow-down-outline"
+              }
               size={20}
-              color={userVote === "down" ? "#EF4444" : "#9CA3AF"}
+              color={
+                userVote === "down" ? Colors.danger : Colors.textMuted
+              }
             />
           </TouchableOpacity>
 
-          <View className="ml-6 flex-row items-center">
-            <Ionicons name="chatbubble-outline" size={16} color="#9CA3AF" />
-            <Text className="text-sm text-gray-500 ml-1.5">
-              {post.comment_count} {post.comment_count === 1 ? "comment" : "comments"}
+          <View
+            style={{
+              marginLeft: 24,
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <Ionicons
+              name="chatbubble-outline"
+              size={16}
+              color={Colors.textMuted}
+            />
+            <Text
+              style={{
+                fontSize: 14,
+                color: Colors.textSecondary,
+                marginLeft: 6,
+              }}
+            >
+              {post.comment_count}{" "}
+              {post.comment_count === 1 ? "comment" : "comments"}
             </Text>
           </View>
         </View>
       </View>
 
       {/* Comments section header */}
-      <View className="px-5 pt-5 pb-2">
-        <Text className="text-base font-bold text-gray-800">
+      <View
+        style={{
+          paddingHorizontal: 20,
+          paddingTop: 20,
+          paddingBottom: 8,
+        }}
+      >
+        <Text
+          style={{ fontSize: 16, fontWeight: "700", color: "#1F2937" }}
+        >
           Comments
         </Text>
       </View>
 
       {comments.length === 0 && (
-        <View className="items-center py-8 px-6">
+        <View
+          style={{
+            alignItems: "center",
+            paddingVertical: 32,
+            paddingHorizontal: 24,
+          }}
+        >
           <Ionicons name="chatbubble-outline" size={32} color="#D1D5DB" />
-          <Text className="text-gray-400 text-sm mt-2 text-center">
+          <Text
+            style={{
+              color: Colors.textMuted,
+              fontSize: 14,
+              marginTop: 8,
+              textAlign: "center",
+            }}
+          >
             No comments yet. Start the conversation!
           </Text>
         </View>
@@ -363,22 +587,44 @@ export default function PostDetailScreen() {
   // ── Main render ──────────────────────────────────────────────────────────
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50">
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
-        className="flex-1"
+        style={{ flex: 1 }}
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 0}
       >
         {/* Header bar */}
-        <View className="px-4 py-3 flex-row items-center bg-white border-b border-gray-100">
+        <View
+          style={{
+            paddingHorizontal: 16,
+            paddingVertical: 12,
+            flexDirection: "row",
+            alignItems: "center",
+            backgroundColor: Colors.surface,
+            borderBottomWidth: 1,
+            borderBottomColor: Colors.borderLight,
+          }}
+        >
           <TouchableOpacity
             onPress={() => router.back()}
-            className="flex-row items-center mr-3"
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              marginRight: 12,
+            }}
             hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
           >
             <Ionicons name="arrow-back" size={24} color="#374151" />
           </TouchableOpacity>
-          <Text className="text-lg font-bold text-gray-900 flex-1" numberOfLines={1}>
+          <Text
+            style={{
+              fontSize: 18,
+              fontWeight: "700",
+              color: Colors.text,
+              flex: 1,
+            }}
+            numberOfLines={1}
+          >
             Post
           </Text>
         </View>
@@ -394,22 +640,46 @@ export default function PostDetailScreen() {
         />
 
         {/* Comment input bar */}
-        <View className="bg-white border-t border-gray-200 px-4 py-3 flex-row items-end">
+        <View
+          style={{
+            backgroundColor: Colors.surface,
+            borderTopWidth: 1,
+            borderTopColor: Colors.borderLight,
+            paddingHorizontal: 16,
+            paddingVertical: 12,
+            flexDirection: "row",
+            alignItems: "flex-end",
+          }}
+        >
           <TextInput
             value={commentText}
             onChangeText={setCommentText}
             placeholder="Write a comment..."
-            placeholderTextColor="#9CA3AF"
+            placeholderTextColor={Colors.textMuted}
             multiline
             maxLength={2000}
-            className="flex-1 bg-gray-100 rounded-xl px-4 py-2.5 text-sm text-gray-900 mr-3"
-            style={{ maxHeight: 100 }}
+            style={{
+              flex: 1,
+              backgroundColor: "#F3F4F6",
+              borderRadius: Radius.lg,
+              paddingHorizontal: 16,
+              paddingVertical: 10,
+              fontSize: 14,
+              color: Colors.text,
+              marginRight: 12,
+              maxHeight: 100,
+            }}
           />
           <TouchableOpacity
             onPress={handleAddComment}
             disabled={isSendingComment || !commentText.trim()}
-            className="w-10 h-10 rounded-full bg-indigo-500 items-center justify-center"
             style={{
+              width: 40,
+              height: 40,
+              borderRadius: Radius.full,
+              backgroundColor: Colors.primary,
+              alignItems: "center",
+              justifyContent: "center",
               opacity: isSendingComment || !commentText.trim() ? 0.4 : 1,
             }}
           >

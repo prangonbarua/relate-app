@@ -12,13 +12,14 @@ import { router, useLocalSearchParams } from "expo-router";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
-interface Skill {
+interface Resource {
   id: string;
-  skill: string;
-  whyItMatters: string;
-  steps: string[];
   category: string;
-  ageRange: string;
+  title: string;
+  summary: string;
+  details: string;
+  steps: string[];
+  icon: string;
   sources?: string[];
 }
 
@@ -30,41 +31,65 @@ interface CategoryStyle {
 }
 
 const CATEGORY_STYLES: Record<string, CategoryStyle> = {
-  communication: {
-    icon: "chatbubbles-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
-  },
-  social: {
-    icon: "people-outline",
+  education: {
+    icon: "school-outline",
     color: "#059669",
     bg: "#059669",
     lightBg: "#D1FAE5",
   },
-  sensorymotor: {
-    icon: "body-outline",
-    color: "#0284C7",
-    bg: "#0284C7",
-    lightBg: "#E0F2FE",
-  },
-  dailyliving: {
-    icon: "home-outline",
+  stateservices: {
+    icon: "business-outline",
     color: "#D97706",
     bg: "#D97706",
     lightBg: "#FEF3C7",
   },
-  emotionalselfadvocacy: {
-    icon: "heart-outline",
+  insurancefunding: {
+    icon: "shield-checkmark-outline",
+    color: "#4F46E5",
+    bg: "#4F46E5",
+    lightBg: "#EEF2FF",
+  },
+  therapies: {
+    icon: "medkit-outline",
+    color: "#7C3AED",
+    bg: "#7C3AED",
+    lightBg: "#EDE9FE",
+  },
+  immigration: {
+    icon: "people-outline",
+    color: "#0284C7",
+    bg: "#0284C7",
+    lightBg: "#E0F2FE",
+  },
+  federalprograms: {
+    icon: "flag-outline",
     color: "#DC2626",
     bg: "#DC2626",
     lightBg: "#FEE2E2",
   },
-  cognitiveplay: {
+  crisissupport: {
+    icon: "alert-circle-outline",
+    color: "#EA580C",
+    bg: "#EA580C",
+    lightBg: "#FFF7ED",
+  },
+  skillstoteachathome: {
     icon: "bulb-outline",
     color: "#EA580C",
     bg: "#EA580C",
     lightBg: "#FFF7ED",
+  },
+  legalrights: {
+    icon: "document-text-outline",
+    color: "#0D9488",
+    bg: "#0D9488",
+    lightBg: "#CCFBF1",
+  },
+  familysupport: {
+    icon: "heart-outline",
+    color: "#DB2777",
+    bg: "#DB2777",
+    lightBg: "#FCE7F3",
   },
 };
 
@@ -80,41 +105,41 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
   return CATEGORY_STYLES[key] ?? DEFAULT_STYLE;
 }
 
-export default function SkillDetailScreen() {
+export default function ResourceDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const skillId = id ?? "";
+  const resourceId = id ?? "";
 
-  const [skill, setSkill] = useState<Skill | null>(null);
+  const [resource, setResource] = useState<Resource | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchSkill() {
+    async function fetchResource() {
       try {
-        // Fetch all skills and find the one matching this id
-        const data = await api<{ skills: Skill[] }>("/api/skills");
+        const data = await api<{ resource: Resource }>(
+          `/api/resources/${encodeURIComponent(resourceId)}`
+        );
         if (!cancelled) {
-          const found = data.skills.find((s) => s.id === skillId) ?? null;
-          setSkill(found);
+          setResource(data.resource);
         }
       } catch {
         if (!cancelled) {
-          setSkill(null);
+          setResource(null);
         }
       } finally {
         if (!cancelled) setIsLoading(false);
       }
     }
 
-    if (skillId) {
-      fetchSkill();
+    if (resourceId) {
+      fetchResource();
     }
 
     return () => {
       cancelled = true;
     };
-  }, [skillId]);
+  }, [resourceId]);
 
   if (isLoading) {
     return (
@@ -126,17 +151,21 @@ export default function SkillDetailScreen() {
           justifyContent: "center",
         }}
       >
-        <ActivityIndicator size="large" color="#6366f1" />
+        <ActivityIndicator size="large" color={Colors.primary} />
         <Text
-          style={{ color: Colors.textMuted, fontSize: 14, marginTop: 12 }}
+          style={{
+            color: Colors.textMuted,
+            fontSize: 14,
+            marginTop: 12,
+          }}
         >
-          Loading skill...
+          Loading resource...
         </Text>
       </SafeAreaView>
     );
   }
 
-  if (!skill) {
+  if (!resource) {
     return (
       <SafeAreaView
         style={{
@@ -156,12 +185,9 @@ export default function SkillDetailScreen() {
             textAlign: "center",
           }}
         >
-          Skill not found
+          Resource not found
         </Text>
-        <TouchableOpacity
-          onPress={() => router.back()}
-          style={{ marginTop: 16 }}
-        >
+        <TouchableOpacity onPress={() => router.back()} style={{ marginTop: 16 }}>
           <Text
             style={{
               color: Colors.primary,
@@ -175,7 +201,7 @@ export default function SkillDetailScreen() {
     );
   }
 
-  const catStyle = getCategoryStyle(skill.category);
+  const style = getCategoryStyle(resource.category);
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
@@ -186,7 +212,7 @@ export default function SkillDetailScreen() {
             paddingHorizontal: 20,
             paddingTop: 16,
             paddingBottom: 24,
-            backgroundColor: catStyle.lightBg,
+            backgroundColor: style.lightBg,
           }}
         >
           <TouchableOpacity
@@ -197,15 +223,13 @@ export default function SkillDetailScreen() {
               marginBottom: 20,
             }}
           >
-            <Ionicons name="arrow-back" size={22} color={catStyle.color} />
-            <Text
-              style={{ fontSize: 14, marginLeft: 4, color: catStyle.color }}
-            >
+            <Ionicons name="arrow-back" size={22} color={style.color} />
+            <Text style={{ fontSize: 14, marginLeft: 4, color: style.color }}>
               Back
             </Text>
           </TouchableOpacity>
 
-          {/* Skill Title */}
+          {/* Resource Title */}
           <Text
             style={{
               fontSize: 20,
@@ -214,14 +238,11 @@ export default function SkillDetailScreen() {
               marginBottom: 12,
             }}
           >
-            {skill.skill}
+            {resource.title}
           </Text>
 
-          {/* Badges */}
-          <View
-            style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}
-          >
-            {/* Category Badge */}
+          {/* Category Badge */}
+          <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
             <View
               style={{
                 flexDirection: "row",
@@ -229,53 +250,25 @@ export default function SkillDetailScreen() {
                 paddingHorizontal: 12,
                 paddingVertical: 6,
                 borderRadius: Radius.full,
-                backgroundColor: catStyle.color + "18",
+                backgroundColor: style.color + "18",
               }}
             >
-              <Ionicons
-                name={catStyle.icon}
-                size={14}
-                color={catStyle.color}
-              />
+              <Ionicons name={style.icon} size={14} color={style.color} />
               <Text
                 style={{
                   fontSize: 12,
                   fontWeight: "600",
                   marginLeft: 6,
-                  color: catStyle.color,
+                  color: style.color,
                 }}
               >
-                {skill.category}
-              </Text>
-            </View>
-
-            {/* Age Range Badge */}
-            <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                paddingHorizontal: 12,
-                paddingVertical: 6,
-                borderRadius: Radius.full,
-                backgroundColor: Colors.borderLight,
-              }}
-            >
-              <Ionicons name="people-outline" size={14} color="#6B7280" />
-              <Text
-                style={{
-                  fontSize: 12,
-                  fontWeight: "600",
-                  marginLeft: 6,
-                  color: Colors.textSecondary,
-                }}
-              >
-                Ages {skill.ageRange}
+                {resource.category}
               </Text>
             </View>
           </View>
         </View>
 
-        {/* Why It Matters Section */}
+        {/* Summary Section */}
         <View
           style={{
             paddingHorizontal: 20,
@@ -291,19 +284,19 @@ export default function SkillDetailScreen() {
             }}
           >
             <Ionicons
-              name="heart-circle-outline"
+              name="information-circle-outline"
               size={20}
-              color={catStyle.color}
+              color={style.color}
             />
             <Text
               style={{
                 fontSize: 16,
                 fontWeight: "700",
                 marginLeft: 8,
-                color: catStyle.color,
+                color: style.color,
               }}
             >
-              Why It Matters
+              Summary
             </Text>
           </View>
           <View
@@ -313,111 +306,162 @@ export default function SkillDetailScreen() {
               padding: 16,
               borderWidth: 1,
               borderColor: Colors.borderLight,
-              ...Shadow.soft,
             }}
           >
             <Text
               style={{
                 fontSize: 14,
-                color: Colors.textSecondary,
+                color: "#374151",
                 lineHeight: 24,
               }}
             >
-              {skill.whyItMatters}
+              {resource.summary}
             </Text>
           </View>
         </View>
 
-        {/* Steps Section */}
-        <View
-          style={{
-            paddingHorizontal: 20,
-            paddingTop: 8,
-            paddingBottom: 32,
-          }}
-        >
-          <View
-            style={{
-              flexDirection: "row",
-              alignItems: "center",
-              marginBottom: 12,
-            }}
-          >
-            <Ionicons
-              name="list-outline"
-              size={20}
-              color={catStyle.color}
-            />
-            <Text
-              style={{
-                fontSize: 16,
-                fontWeight: "700",
-                marginLeft: 8,
-                color: catStyle.color,
-              }}
-            >
-              Steps to Practice
-            </Text>
-          </View>
-
-          <View style={{ gap: 12 }}>
-            {skill.steps.map((step, index) => (
-              <View
-                key={index}
-                style={{
-                  backgroundColor: Colors.surface,
-                  borderRadius: Radius.xl,
-                  padding: 16,
-                  borderWidth: 1,
-                  borderColor: Colors.borderLight,
-                  flexDirection: "row",
-                  ...Shadow.soft,
-                }}
-              >
-                {/* Step Number */}
-                <View
-                  style={{
-                    width: 28,
-                    height: 28,
-                    borderRadius: Radius.full,
-                    alignItems: "center",
-                    justifyContent: "center",
-                    marginRight: 12,
-                    backgroundColor: catStyle.color + "15",
-                  }}
-                >
-                  <Text
-                    style={{
-                      fontSize: 12,
-                      fontWeight: "700",
-                      color: catStyle.color,
-                    }}
-                  >
-                    {index + 1}
-                  </Text>
-                </View>
-
-                {/* Step Text */}
-                <Text
-                  style={{
-                    fontSize: 14,
-                    color: Colors.textSecondary,
-                    lineHeight: 24,
-                    flex: 1,
-                  }}
-                >
-                  {step}
-                </Text>
-              </View>
-            ))}
-          </View>
-        </View>
-
-        {/* Sources Section */}
-        {skill.sources && skill.sources.length > 0 && (
+        {/* Details Section */}
+        {resource.details ? (
           <View
             style={{
               paddingHorizontal: 20,
+              paddingTop: 8,
+              paddingBottom: 16,
+            }}
+          >
+            <View
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                marginBottom: 12,
+              }}
+            >
+              <Ionicons
+                name="document-text-outline"
+                size={20}
+                color={style.color}
+              />
+              <Text
+                style={{
+                  fontSize: 16,
+                  fontWeight: "700",
+                  marginLeft: 8,
+                  color: style.color,
+                }}
+              >
+                Details
+              </Text>
+            </View>
+            <View
+              style={{
+                backgroundColor: Colors.surface,
+                borderRadius: Radius.xl,
+                padding: 16,
+                borderWidth: 1,
+                borderColor: Colors.borderLight,
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 14,
+                  color: "#374151",
+                  lineHeight: 24,
+                }}
+              >
+                {resource.details}
+              </Text>
+            </View>
+          </View>
+        ) : null}
+
+        {/* Steps Section */}
+        {resource.steps && resource.steps.length > 0 ? (
+          <View
+            style={{
+              paddingHorizontal: 20,
+              paddingTop: 8,
+              paddingBottom: 16,
+            }}
+          >
+            <View
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                marginBottom: 12,
+              }}
+            >
+              <Ionicons name="list-outline" size={20} color={style.color} />
+              <Text
+                style={{
+                  fontSize: 16,
+                  fontWeight: "700",
+                  marginLeft: 8,
+                  color: style.color,
+                }}
+              >
+                Steps
+              </Text>
+            </View>
+
+            <View style={{ gap: 12 }}>
+              {resource.steps.map((step, index) => (
+                <View
+                  key={index}
+                  style={{
+                    backgroundColor: Colors.surface,
+                    borderRadius: Radius.xl,
+                    padding: 16,
+                    borderWidth: 1,
+                    borderColor: Colors.borderLight,
+                    flexDirection: "row",
+                  }}
+                >
+                  {/* Step Number */}
+                  <View
+                    style={{
+                      width: 28,
+                      height: 28,
+                      borderRadius: Radius.full,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginRight: 12,
+                      backgroundColor: style.color + "15",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        fontSize: 12,
+                        fontWeight: "700",
+                        color: style.color,
+                      }}
+                    >
+                      {index + 1}
+                    </Text>
+                  </View>
+
+                  {/* Step Text */}
+                  <Text
+                    style={{
+                      fontSize: 14,
+                      color: "#374151",
+                      lineHeight: 24,
+                      flex: 1,
+                    }}
+                  >
+                    {step}
+                  </Text>
+                </View>
+              ))}
+            </View>
+          </View>
+        ) : null}
+
+        {/* Sources Section */}
+        {resource.sources && resource.sources.length > 0 ? (
+          <View
+            style={{
+              paddingHorizontal: 20,
+              paddingTop: 8,
               paddingBottom: 32,
             }}
           >
@@ -431,20 +475,19 @@ export default function SkillDetailScreen() {
               <Ionicons
                 name="bookmark-outline"
                 size={20}
-                color={catStyle.color}
+                color={style.color}
               />
               <Text
                 style={{
                   fontSize: 16,
                   fontWeight: "700",
                   marginLeft: 8,
-                  color: catStyle.color,
+                  color: style.color,
                 }}
               >
                 Sources
               </Text>
             </View>
-
             <View
               style={{
                 backgroundColor: Colors.surface,
@@ -452,35 +495,25 @@ export default function SkillDetailScreen() {
                 padding: 16,
                 borderWidth: 1,
                 borderColor: Colors.borderLight,
-                gap: 8,
-                ...Shadow.soft,
               }}
             >
-              {skill.sources.map((source, index) => (
-                <View
+              {resource.sources.map((source, index) => (
+                <Text
                   key={index}
-                  style={{ flexDirection: "row", alignItems: "flex-start" }}
+                  style={{
+                    fontSize: 12,
+                    color: Colors.textMuted,
+                    lineHeight: 20,
+                    marginBottom: 4,
+                  }}
                 >
-                  <Ionicons
-                    name="bookmark"
-                    size={12}
-                    color={Colors.textMuted}
-                    style={{ marginTop: 2, marginRight: 8 }}
-                  />
-                  <Text
-                    style={{
-                      fontSize: 12,
-                      color: Colors.textMuted,
-                      lineHeight: 18,
-                      flex: 1,
-                    }}
-                  >
-                    {source}
-                  </Text>
-                </View>
+                  {source}
+                </Text>
               ))}
             </View>
           </View>
+        ) : (
+          <View style={{ paddingBottom: 32 }} />
         )}
       </ScrollView>
     </SafeAreaView>

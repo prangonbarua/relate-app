@@ -23,6 +23,8 @@ export default function RootLayout() {
       <Stack.Screen name="post/[id]" options={{ headerShown: false }} />
       <Stack.Screen name="skill-category/[name]" options={{ headerShown: false }} />
       <Stack.Screen name="skill-detail/[id]" options={{ headerShown: false }} />
+      <Stack.Screen name="resource-category/[name]" options={{ headerShown: false }} />
+      <Stack.Screen name="resource-detail/[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }

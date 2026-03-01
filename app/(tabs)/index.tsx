@@ -76,25 +76,20 @@ export default function HomeScreen() {
             )}
           </View>
 
-          {/* Crisis button */}
+          {/* Settings */}
           <TouchableOpacity
-            onPress={() => router.push("/crisis")}
+            onPress={() => router.push("/settings")}
             style={{
-              backgroundColor: Colors.dangerLight,
-              borderWidth: 1,
-              borderColor: "#FCA5A5",
-              paddingHorizontal: 14,
-              paddingVertical: 8,
-              borderRadius: Radius.lg,
-              flexDirection: "row",
+              width: 40,
+              height: 40,
+              borderRadius: Radius.full,
+              backgroundColor: Colors.surface,
               alignItems: "center",
-              gap: 6,
+              justifyContent: "center",
+              ...Shadow.soft,
             }}
           >
-            <Ionicons name="alert-circle-outline" size={15} color={Colors.danger} />
-            <Text style={{ color: Colors.danger, fontSize: 12, fontWeight: "600" }}>
-              {t("home.crisis")}
-            </Text>
+            <Ionicons name="settings-outline" size={20} color={Colors.textSecondary} />
           </TouchableOpacity>
         </View>
 

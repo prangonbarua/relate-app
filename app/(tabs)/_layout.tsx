@@ -9,7 +9,7 @@ type TabRoute = typeof TAB_ROUTES[number];
 
 const MENU_ITEMS: InteractiveMenuItem[] = [
   { label: "Home",      icon: "home-outline" },
-  { label: "Guide",     icon: "compass-outline" },
+  { label: "Materials",  icon: "compass-outline" },
   { label: "Skills",    icon: "book-outline" },
   { label: "Community", icon: "people-outline" },
   { label: "Assistant", icon: "sparkles-outline" },
@@ -50,8 +50,8 @@ export default function TabsLayout() {
       screenOptions={{ headerShown: false }}
     >
       <Tabs.Screen name="index"     options={{ title: t("tabs.home") }} />
-      <Tabs.Screen name="skills"    options={{ title: t("tabs.skills") }} />
       <Tabs.Screen name="navigator" options={{ title: t("tabs.navigator") }} />
+      <Tabs.Screen name="skills"    options={{ title: t("tabs.skills") }} />
       <Tabs.Screen name="community" options={{ title: t("tabs.community") }} />
       <Tabs.Screen name="assistant" options={{ title: "Assistant" }} />
     </Tabs>

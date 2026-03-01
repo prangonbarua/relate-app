@@ -12,13 +12,15 @@ import { router, useLocalSearchParams } from "expo-router";
 import { api } from "../../store/apiClient";
 import { Colors, Radius, Shadow } from "../../constants/theme";
 
-interface Skill {
+interface Resource {
   id: string;
-  skill: string;
-  whyItMatters: string;
-  steps: string[];
   category: string;
-  ageRange: string;
+  title: string;
+  summary: string;
+  details: string;
+  steps: string[];
+  icon: string;
+  sources?: string[];
 }
 
 interface CategoryStyle {
@@ -29,41 +31,65 @@ interface CategoryStyle {
 }
 
 const CATEGORY_STYLES: Record<string, CategoryStyle> = {
-  communication: {
-    icon: "chatbubbles-outline",
-    color: "#4F46E5",
-    bg: "#4F46E5",
-    lightBg: "#EEF2FF",
-  },
-  social: {
-    icon: "people-outline",
+  education: {
+    icon: "school-outline",
     color: "#059669",
     bg: "#059669",
     lightBg: "#D1FAE5",
   },
-  sensorymotor: {
-    icon: "body-outline",
-    color: "#0284C7",
-    bg: "#0284C7",
-    lightBg: "#E0F2FE",
-  },
-  dailyliving: {
-    icon: "home-outline",
+  stateservices: {
+    icon: "business-outline",
     color: "#D97706",
     bg: "#D97706",
     lightBg: "#FEF3C7",
   },
-  emotionalselfadvocacy: {
-    icon: "heart-outline",
+  insurancefunding: {
+    icon: "shield-checkmark-outline",
+    color: "#4F46E5",
+    bg: "#4F46E5",
+    lightBg: "#EEF2FF",
+  },
+  therapies: {
+    icon: "medkit-outline",
+    color: "#7C3AED",
+    bg: "#7C3AED",
+    lightBg: "#EDE9FE",
+  },
+  immigration: {
+    icon: "people-outline",
+    color: "#0284C7",
+    bg: "#0284C7",
+    lightBg: "#E0F2FE",
+  },
+  federalprograms: {
+    icon: "flag-outline",
     color: "#DC2626",
     bg: "#DC2626",
     lightBg: "#FEE2E2",
   },
-  cognitiveplay: {
+  crisissupport: {
+    icon: "alert-circle-outline",
+    color: "#EA580C",
+    bg: "#EA580C",
+    lightBg: "#FFF7ED",
+  },
+  skillstoteachathome: {
     icon: "bulb-outline",
     color: "#EA580C",
     bg: "#EA580C",
     lightBg: "#FFF7ED",
+  },
+  legalrights: {
+    icon: "document-text-outline",
+    color: "#0D9488",
+    bg: "#0D9488",
+    lightBg: "#CCFBF1",
+  },
+  familysupport: {
+    icon: "heart-outline",
+    color: "#DB2777",
+    bg: "#DB2777",
+    lightBg: "#FCE7F3",
   },
 };
 
@@ -79,28 +105,28 @@ function getCategoryStyle(categoryName: string): CategoryStyle {
   return CATEGORY_STYLES[key] ?? DEFAULT_STYLE;
 }
 
-export default function SkillCategoryScreen() {
+export default function ResourceCategoryScreen() {
   const { name } = useLocalSearchParams<{ name: string }>();
   const categoryName = name ?? "";
   const style = getCategoryStyle(categoryName);
 
-  const [skills, setSkills] = useState<Skill[]>([]);
+  const [resources, setResources] = useState<Resource[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
 
-    async function fetchSkills() {
+    async function fetchResources() {
       try {
-        const data = await api<{ skills: Skill[] }>(
-          `/api/skills/category/${encodeURIComponent(categoryName)}`
+        const data = await api<{ category: string; resources: Resource[] }>(
+          `/api/resources/category/${encodeURIComponent(categoryName)}`
         );
         if (!cancelled) {
-          setSkills(data.skills);
+          setResources(data.resources);
         }
       } catch {
         if (!cancelled) {
-          setSkills([]);
+          setResources([]);
         }
       } finally {
         if (!cancelled) setIsLoading(false);
@@ -108,7 +134,7 @@ export default function SkillCategoryScreen() {
     }
 
     if (categoryName) {
-      fetchSkills();
+      fetchResources();
     }
 
     return () => {
@@ -116,16 +142,16 @@ export default function SkillCategoryScreen() {
     };
   }, [categoryName]);
 
-  const handleSkillPress = (skill: Skill) => {
+  const handleResourcePress = (resource: Resource) => {
     router.push({
-      pathname: "/skill-detail/[id]",
-      params: { id: skill.id },
+      pathname: "/resource-detail/[id]",
+      params: { id: resource.id },
     });
   };
 
-  const getDescriptionPreview = (text: string): string => {
-    if (text.length <= 80) return text;
-    return text.slice(0, 80).trimEnd() + "...";
+  const getSummaryPreview = (text: string): string => {
+    if (text.length <= 100) return text;
+    return text.slice(0, 100).trimEnd() + "...";
   };
 
   return (
@@ -180,13 +206,14 @@ export default function SkillCategoryScreen() {
                 marginTop: 2,
               }}
             >
-              {skills.length} {skills.length === 1 ? "skill" : "skills"}
+              {resources.length}{" "}
+              {resources.length === 1 ? "resource" : "resources"}
             </Text>
           </View>
         </View>
       </View>
 
-      {/* Skills List */}
+      {/* Resources List */}
       <ScrollView
         style={{ flex: 1, paddingHorizontal: 20, paddingTop: 16 }}
         showsVerticalScrollIndicator={false}
@@ -201,10 +228,10 @@ export default function SkillCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              Loading skills...
+              Loading resources...
             </Text>
           </View>
-        ) : skills.length === 0 ? (
+        ) : resources.length === 0 ? (
           <View style={{ alignItems: "center", paddingVertical: 64 }}>
             <Ionicons name="search-outline" size={48} color="#D1D5DB" />
             <Text
@@ -214,15 +241,15 @@ export default function SkillCategoryScreen() {
                 marginTop: 12,
               }}
             >
-              No skills available yet
+              No resources available yet
             </Text>
           </View>
         ) : (
           <View style={{ gap: 12, paddingBottom: 32 }}>
-            {skills.map((skill) => (
+            {resources.map((resource) => (
               <TouchableOpacity
-                key={skill.id}
-                onPress={() => handleSkillPress(skill)}
+                key={resource.id}
+                onPress={() => handleResourcePress(resource)}
                 activeOpacity={0.7}
                 style={{
                   backgroundColor: Colors.surface,
@@ -234,7 +261,7 @@ export default function SkillCategoryScreen() {
                 }}
               >
                 <View style={{ flexDirection: "row", alignItems: "flex-start" }}>
-                  {/* Category Icon */}
+                  {/* Resource Icon */}
                   <View
                     style={{
                       width: 36,
@@ -248,7 +275,10 @@ export default function SkillCategoryScreen() {
                     }}
                   >
                     <Ionicons
-                      name={style.icon}
+                      name={
+                        (resource.icon as keyof typeof Ionicons.glyphMap) ??
+                        style.icon
+                      }
                       size={18}
                       color={style.color}
                     />
@@ -264,7 +294,7 @@ export default function SkillCategoryScreen() {
                         marginBottom: 4,
                       }}
                     >
-                      {skill.skill}
+                      {resource.title}
                     </Text>
                     <Text
                       style={{
@@ -273,7 +303,7 @@ export default function SkillCategoryScreen() {
                         lineHeight: 20,
                       }}
                     >
-                      {getDescriptionPreview(skill.whyItMatters)}
+                      {getSummaryPreview(resource.summary)}
                     </Text>
                   </View>
 

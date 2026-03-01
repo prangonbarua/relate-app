@@ -15,6 +15,7 @@ interface Resource {
   details: string;
   steps: string[];
   icon: string;
+  sources: string[];
 }
 
 // ── Static resources ─────────────────────────────────────────────────────────
@@ -35,6 +36,11 @@ const RESOURCES: Resource[] = [
       "If you disagree, you can file for mediation or a due process hearing at no cost to you.",
     ],
     icon: "school-outline",
+    sources: [
+      "U.S. Department of Education — IDEA Overview (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "Understood.org — The IEP Process Explained (understood.org/en/articles/the-iep-process-explained)",
+      "Parent Center Hub — IEP Overview (parentcenterhub.org/iep-overview)",
+    ],
   },
   {
     id: "res-regional-center",
@@ -52,6 +58,11 @@ const RESOURCES: Resource[] = [
       "Review your IPP annually and request changes as your child's needs evolve.",
     ],
     icon: "business-outline",
+    sources: [
+      "Disability Rights California — Regional Center Overview (disabilityrightsca.org/resources/regional-center)",
+      "Lanterman Regional Center — Lanterman Act (lanterman.org/client-and-family-services/general-information/lanterman-act)",
+      "California DDS — Regional Centers (dds.ca.gov/rc)",
+    ],
   },
   {
     id: "res-early-start",
@@ -69,6 +80,11 @@ const RESOURCES: Resource[] = [
       "You can continue Regional Center services after age 3 through a separate eligibility process.",
     ],
     icon: "happy-outline",
+    sources: [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "California DDS — Early Start Program (dds.ca.gov/services/early-start)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+    ],
   },
   {
     id: "res-insurance",
@@ -86,6 +102,11 @@ const RESOURCES: Resource[] = [
       "If the internal appeal fails, file a complaint with your state's insurance regulator (DMHC in CA).",
     ],
     icon: "shield-checkmark-outline",
+    sources: [
+      "NCSL — Autism and Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Regulated Health Benefit Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "California Department of Insurance — SB 946 Autism Coverage (insurance.ca.gov)",
+    ],
   },
   {
     id: "res-504",
@@ -103,6 +124,11 @@ const RESOURCES: Resource[] = [
       "If the school refuses to evaluate or provide a 504, you can file a complaint with the Office for Civil Rights (OCR).",
     ],
     icon: "document-text-outline",
+    sources: [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Understood.org — 504 Plan vs. IEP (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+      "Wrightslaw — Section 504 and IDEA (wrightslaw.com/info/sec504.index.htm)",
+    ],
   },
   {
     id: "res-speech",
@@ -120,6 +146,11 @@ const RESOURCES: Resource[] = [
       "If your child is bilingual, find an SLP who supports home language maintenance or request an interpreter.",
     ],
     icon: "chatbubbles-outline",
+    sources: [
+      "ASHA — Speech-Language Pathology (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "Autism Speaks — Speech Therapy (autismspeaks.org/speech-therapy-autism)",
+    ],
   },
   {
     id: "res-aba",
@@ -137,6 +168,11 @@ const RESOURCES: Resource[] = [
       "Explore alternatives or complements: speech therapy, occupational therapy, developmental approaches like DIR/Floortime.",
     ],
     icon: "fitness-outline",
+    sources: [
+      "U.S. Surgeon General — Report on Mental Health (surgeongeneral.gov)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+    ],
   },
   {
     id: "res-undocumented",
@@ -154,6 +190,11 @@ const RESOURCES: Resource[] = [
       "Connect with local immigrant rights organizations for support navigating services — many offer free legal clinics.",
     ],
     icon: "people-outline",
+    sources: [
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Disability Rights California — Education Rights for Undocumented Children (serr.disabilityrightsca.org/serr-manual/chapter-1-information-on-basic-rights/1-102-are-my-childs-rights-to-a-free-appropriate-education-affected-if-she-is-undocumented)",
+      "NILC — Health Coverage Maps (nilc.org/resources/healthcoveragemaps)",
+    ],
   },
 
   // ── Federal Programs ────────────────────────────────────────────────────────
@@ -174,6 +215,11 @@ const RESOURCES: Resource[] = [
       "At age 2.5, begin transition planning to Part B preschool services (ages 3-21) through your school district.",
     ],
     icon: "body-outline",
+    sources: [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Overview of Early Intervention (parentcenterhub.org/ei-overview)",
+      "U.S. Department of Education — IDEA Part C (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+    ],
   },
   {
     id: "res-idea-part-b",
@@ -192,6 +238,11 @@ const RESOURCES: Resource[] = [
       "If you disagree with the school, request mediation or file for a due process hearing at no cost to you.",
     ],
     icon: "school-outline",
+    sources: [
+      "U.S. Department of Education — IDEA Part B (sites.ed.gov/idea/about-idea)",
+      "NILC — Plyler v. Doe Explainer (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Wrightslaw — IDEA 2004 (wrightslaw.com/idea/index.htm)",
+    ],
   },
   {
     id: "res-medicaid-waivers",
@@ -210,6 +261,11 @@ const RESOURCES: Resource[] = [
       "Review your plan annually and request additional services as your child's needs change — you have the right to appeal any denial.",
     ],
     icon: "medkit-outline",
+    sources: [
+      "Medicaid.gov — Home & Community-Based Services (medicaid.gov/medicaid/home-community-based-services)",
+      "MACPAC — Medicaid HCBS Waivers (macpac.gov/subtopic/home-and-community-based-services)",
+      "CMS — HCBS Waiver Program (cms.gov/medicaid/section-1915-waivers)",
+    ],
   },
   {
     id: "res-ssi-children",
@@ -228,6 +284,11 @@ const RESOURCES: Resource[] = [
       "If approved, report any changes in income, living situation, or your child's condition to SSA to maintain benefits.",
     ],
     icon: "cash-outline",
+    sources: [
+      "Social Security Administration — SSI for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "SSA Blue Book — Section 112.10 Autism (ssa.gov/disability/professionals/bluebook/112.00-MentalDisorders-Childhood.htm)",
+      "SSA — Spotlight on SSI Benefits for Children (ssa.gov/ssi/spotlights/spot-children.htm)",
+    ],
   },
   {
     id: "res-tricare-autism",
@@ -246,6 +307,11 @@ const RESOURCES: Resource[] = [
       "If you face denials or access issues, contact the TRICARE Beneficiary Counseling and Assistance Coordinator (BCAC) for help with appeals.",
     ],
     icon: "flag-outline",
+    sources: [
+      "TRICARE — Autism Care Demonstration (tricare.mil/autism)",
+      "Military OneSource — Special Needs (militaryonesource.mil/special-needs)",
+      "National Academies — ABA and TRICARE Report (nationalacademies.org/our-work/applied-behavior-analysis-for-the-treatment-of-autism-spectrum-disorder)",
+    ],
   },
 
   // ── Therapy Types ───────────────────────────────────────────────────────────
@@ -266,6 +332,11 @@ const RESOURCES: Resource[] = [
       "Request regular progress reports with data and attend plan reviews — adjust goals as your child grows.",
     ],
     icon: "fitness-outline",
+    sources: [
+      "APA — Applied Behavior Analysis (apa.org/topics/autism-spectrum-disorder/applied-behavior-analysis)",
+      "BACB — Board Certified Behavior Analyst (bacb.com)",
+      "Autism Speaks — Applied Behavior Analysis (autismspeaks.org/applied-behavior-analysis)",
+    ],
   },
   {
     id: "res-therapy-speech",
@@ -284,6 +355,11 @@ const RESOURCES: Resource[] = [
       "If your family speaks another language at home, request a bilingual SLP or interpreter — continue using your home language with your child.",
     ],
     icon: "chatbubbles-outline",
+    sources: [
+      "ASHA — Speech-Language Pathology and Autism (asha.org/public/speech/disorders/autism)",
+      "PMC — Bilingualism in Autism Spectrum Disorder (pmc.ncbi.nlm.nih.gov/articles/PMC7370402)",
+      "ASHA — Augmentative and Alternative Communication (asha.org/public/speech/disorders/aac)",
+    ],
   },
   {
     id: "res-therapy-ot",
@@ -302,6 +378,11 @@ const RESOURCES: Resource[] = [
       "Request school-based OT through your child's IEP if fine motor, sensory, or self-care needs affect school participation.",
     ],
     icon: "hand-left-outline",
+    sources: [
+      "AOTA — Occupational Therapy and Autism (aota.org/practice/practice-essentials/autism)",
+      "SPD Foundation — Sensory Processing Disorder (spdfoundation.net)",
+      "Autism Speaks — Occupational Therapy (autismspeaks.org/occupational-therapy)",
+    ],
   },
   {
     id: "res-therapy-pt",
@@ -320,6 +401,11 @@ const RESOURCES: Resource[] = [
       "Reassess progress every 3-6 months and adjust goals as your child develops new physical skills.",
     ],
     icon: "walk-outline",
+    sources: [
+      "APTA — Physical Therapy for Children with Autism (apta.org)",
+      "Autism Speaks — Physical Therapy (autismspeaks.org/physical-therapy-autism)",
+      "PMC — Motor Impairment in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5127824)",
+    ],
   },
   {
     id: "res-therapy-floortime",
@@ -338,6 +424,11 @@ const RESOURCES: Resource[] = [
       "Work with a trained professional to learn how to address your child's individual sensory and developmental profile during play.",
     ],
     icon: "heart-outline",
+    sources: [
+      "ICDL — DIR/Floortime (icdl.com/dir-floortime)",
+      "NPDC on ASD — Evidence-Based Practices (autismpdc.fpg.unc.edu)",
+      "PMC — Floortime Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC4618463)",
+    ],
   },
   {
     id: "res-therapy-teacch",
@@ -356,6 +447,11 @@ const RESOURCES: Resource[] = [
       "Consult with a TEACCH-trained professional to customize the structured teaching approach for your child's specific strengths and needs.",
     ],
     icon: "grid-outline",
+    sources: [
+      "TEACCH Autism Program — UNC (teacch.com)",
+      "PMC — TEACCH Research Review (pmc.ncbi.nlm.nih.gov/articles/PMC3596015)",
+      "Autism Speaks — Structured Teaching (autismspeaks.org/structured-teaching-teacch)",
+    ],
   },
   {
     id: "res-therapy-social-skills",
@@ -374,6 +470,11 @@ const RESOURCES: Resource[] = [
       "Monitor your child's comfort level — a good group should build confidence, not increase anxiety or frustration.",
     ],
     icon: "people-circle-outline",
+    sources: [
+      "PMC — Social Skills Groups for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5621952)",
+      "Autism Speaks — Social Skills and Autism (autismspeaks.org/social-skills-and-autism)",
+      "NPDC on ASD — Social Skills Training (autismpdc.fpg.unc.edu)",
+    ],
   },
   {
     id: "res-therapy-music",
@@ -392,6 +493,11 @@ const RESOURCES: Resource[] = [
       "Give it several sessions — some children need time to warm up to the therapist and format before showing progress.",
     ],
     icon: "musical-notes-outline",
+    sources: [
+      "American Music Therapy Association — Music Therapy and Autism (musictherapy.org)",
+      "PMC — Music Therapy for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6363552)",
+      "Cochrane — Music Therapy for Autistic People (cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4)",
+    ],
   },
   {
     id: "res-therapy-equine",
@@ -410,6 +516,11 @@ const RESOURCES: Resource[] = [
       "Check funding sources: some nonprofit riding centers offer scholarships, and hippotherapy may be covered by health insurance or Medicaid.",
     ],
     icon: "paw-outline",
+    sources: [
+      "PATH International — Equine-Assisted Services (pathintl.org)",
+      "PMC — Therapeutic Horseback Riding for Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6073714)",
+      "Autism Speaks — Horseback Riding Therapy (autismspeaks.org/horseback-riding-therapy)",
+    ],
   },
   {
     id: "res-therapy-aquatic",
@@ -428,6 +539,11 @@ const RESOURCES: Resource[] = [
       "Look into community adaptive swim programs at local YMCAs, parks and recreation departments, or Special Olympics — many are free or low-cost.",
     ],
     icon: "water-outline",
+    sources: [
+      "PMC — Aquatic Therapy for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC7503682)",
+      "National Autism Association — Water Safety (nationalautismassociation.org/resources/water-safety)",
+      "Autism Speaks — Aquatic Therapy (autismspeaks.org/aquatic-therapy)",
+    ],
   },
 
   // ── Crisis Resources ────────────────────────────────────────────────────────
@@ -448,6 +564,11 @@ const RESOURCES: Resource[] = [
       "Keep the number visible in your home and share it with caregivers, family members, and your child's school.",
     ],
     icon: "call-outline",
+    sources: [
+      "SAMHSA — 988 Suicide & Crisis Lifeline (988lifeline.org)",
+      "Autism Society — Crisis Resources (autismsociety.org/crisis-resources)",
+      "SAMHSA — National Helpline (samhsa.gov/find-help/national-helpline)",
+    ],
   },
   {
     id: "res-crisis-text",
@@ -466,6 +587,10 @@ const RESOURCES: Resource[] = [
       "Share this resource with other autism parents in your community — many do not know text-based crisis support exists.",
     ],
     icon: "chatbox-ellipses-outline",
+    sources: [
+      "Crisis Text Line — About (crisistextline.org)",
+      "Crisis Text Line — For Helpers (crisistextline.org/get-help-now)",
+    ],
   },
   {
     id: "res-crisis-autism-society",
@@ -484,6 +609,10 @@ const RESOURCES: Resource[] = [
       "Call back anytime you need help navigating a new challenge — the helpline is there for ongoing support, not just one-time use.",
     ],
     icon: "information-circle-outline",
+    sources: [
+      "Autism Society — National Helpline (autismsociety.org/national-helpline)",
+      "Autism Society — Local Affiliates (autismsociety.org/affiliate-network)",
+    ],
   },
 
   // ── Skills Parents Can Teach at Home ────────────────────────────────────────
@@ -504,6 +633,11 @@ const RESOURCES: Resource[] = [
       "Practice during calm moments — role-play challenging scenarios and rehearse coping strategies so they become automatic over time.",
     ],
     icon: "color-palette-outline",
+    sources: [
+      "Zones of Regulation — Official Site (zonesofregulation.com)",
+      "Autism Speaks — Emotional Regulation (autismspeaks.org/emotional-regulation)",
+      "NPDC on ASD — Self-Management (autismpdc.fpg.unc.edu)",
+    ],
   },
   {
     id: "res-skill-safety",
@@ -522,6 +656,11 @@ const RESOURCES: Resource[] = [
       "Teach your child to identify safe people (police officers, store employees) and practice approaching them for help using scripts and visual supports.",
     ],
     icon: "shield-outline",
+    sources: [
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Safety Resources (autismspeaks.org/safety)",
+      "Pathfinders for Autism — Safety (pathfindersforautism.org/resources/safety)",
+    ],
   },
   {
     id: "res-skill-community",
@@ -540,6 +679,10 @@ const RESOURCES: Resource[] = [
       "Gradually increase expectations over time: longer outings, busier times, more steps completed independently. Celebrate every success.",
     ],
     icon: "storefront-outline",
+    sources: [
+      "Autism Speaks — Community Inclusion (autismspeaks.org/community-inclusion)",
+      "NPDC on ASD — Community-Based Instruction (autismpdc.fpg.unc.edu)",
+    ],
   },
   {
     id: "res-skill-pre-academic",
@@ -558,6 +701,11 @@ const RESOURCES: Resource[] = [
       "Read aloud daily in your home language — point to pictures, ask simple questions, and pause for your child to fill in familiar words or phrases.",
     ],
     icon: "book-outline",
+    sources: [
+      "TEACCH Autism Program — Structured Work Systems (teacch.com)",
+      "CDC — Learn the Signs, Act Early (cdc.gov/act-early)",
+      "Autism Speaks — Teaching Tips (autismspeaks.org/teaching-tips)",
+    ],
   },
   {
     id: "res-skill-self-advocacy",
@@ -576,6 +724,11 @@ const RESOURCES: Resource[] = [
       "Model self-advocacy yourself: let your child see you ask for what you need, set boundaries, and explain your preferences to others.",
     ],
     icon: "megaphone-outline",
+    sources: [
+      "ASAN — Self-Advocacy Resources (autisticadvocacy.org/resources)",
+      "Autism Speaks — Self-Advocacy (autismspeaks.org/self-advocacy)",
+      "Wrightslaw — Student Participation in IEPs (wrightslaw.com/info/self.advocacy.htm)",
+    ],
   },
 
   // ── Legal Rights ────────────────────────────────────────────────────────
@@ -595,6 +748,11 @@ const RESOURCES: Resource[] = [
       "Contact your state's Parent Training and Information Center (PTI) for free advocacy support in your language.",
     ],
     icon: "document-text-outline",
+    sources: [
+      "U.S. Department of Education — IDEA (ed.gov/laws-and-policy/individuals-disabilities/idea)",
+      "NILC — Plyler v. Doe (nilc.org/resources/plyler-v-doe-case-explainer)",
+      "Parent Center Hub — IDEA Overview (parentcenterhub.org/iep-overview)",
+    ],
   },
   {
     id: "res-legal-section504",
@@ -612,6 +770,11 @@ const RESOURCES: Resource[] = [
       "A 504 plan is reviewed annually. You can request a meeting at any time if accommodations need adjustment.",
     ],
     icon: "shield-outline",
+    sources: [
+      "U.S. Department of Education — Section 504 FAQ (ed.gov/about/offices/list/ocr/504faq.html)",
+      "Wrightslaw — Section 504 (wrightslaw.com/info/sec504.index.htm)",
+      "Understood.org — 504 Plans (understood.org/en/articles/the-difference-between-ieps-and-504-plans)",
+    ],
   },
   {
     id: "res-legal-ferpa",
@@ -629,6 +792,11 @@ const RESOURCES: Resource[] = [
       "If ICE or law enforcement contacts the school, they cannot access student records without a court order. Know this right.",
     ],
     icon: "lock-closed-outline",
+    sources: [
+      "U.S. Department of Education — FERPA (ed.gov/policy/gen/guid/fpco/ferpa/index.html)",
+      "NILC — Immigration Enforcement and Schools (nilc.org/resources/education)",
+      "National School Boards Association — FERPA and Student Privacy (nsba.org)",
+    ],
   },
   {
     id: "res-legal-ada",
@@ -646,6 +814,11 @@ const RESOURCES: Resource[] = [
       "Your local disability rights organization can provide free legal advice about ADA violations — search 'Protection & Advocacy' plus your state name.",
     ],
     icon: "accessibility-outline",
+    sources: [
+      "U.S. Department of Justice — ADA.gov (ada.gov)",
+      "ADA National Network — ADA Information (adata.org)",
+      "Autism Speaks — Know Your Rights Under the ADA (autismspeaks.org/know-your-rights)",
+    ],
   },
   {
     id: "res-legal-medicaid-rights",
@@ -663,6 +836,11 @@ const RESOURCES: Resource[] = [
       "Your state's Protection & Advocacy organization can help you fight Medicaid denials for free.",
     ],
     icon: "medical-outline",
+    sources: [
+      "CMS — EPSDT Overview (medicaid.gov/medicaid/benefits/early-periodic-screening-diagnostic-treatment)",
+      "National Health Law Program — EPSDT (healthlaw.org/resource/epsdt)",
+      "MACPAC — EPSDT (macpac.gov/subtopic/epsdt)",
+    ],
   },
 
   // ── Family Support ──────────────────────────────────────────────────────
@@ -682,6 +860,11 @@ const RESOURCES: Resource[] = [
       "Start with short respite periods (1-2 hours) while you stay nearby, then gradually extend as your child becomes comfortable.",
     ],
     icon: "heart-outline",
+    sources: [
+      "ARCH National Respite Network — Respite Locator (archrespite.org/respitelocator)",
+      "Autism Society — Respite Care (autismsociety.org/respite-care)",
+      "Easter Seals — Respite Services (easterseals.com)",
+    ],
   },
   {
     id: "res-family-parent-groups",
@@ -699,6 +882,11 @@ const RESOURCES: Resource[] = [
       "Online communities like MyAutismTeam.com connect parents nationwide and have translation features.",
     ],
     icon: "people-circle-outline",
+    sources: [
+      "Autism Society — Support Groups (autismsociety.org/support-groups)",
+      "Grupo SALTO — Spanish-Language Support (gruposalto.org)",
+      "MyAutismTeam — Online Community (myautismteam.com)",
+    ],
   },
   {
     id: "res-family-sibling-support",
@@ -716,6 +904,11 @@ const RESOURCES: Resource[] = [
       "Avoid making the sibling a caretaker — they can help, but their primary role should be being a kid and a brother/sister.",
     ],
     icon: "heart-half-outline",
+    sources: [
+      "Sibling Support Project — Sibshops (siblingsupport.org)",
+      "Autism Speaks — Family Support (autismspeaks.org/family-services)",
+      "PMC — Siblings of Children with Autism (pmc.ncbi.nlm.nih.gov/articles/PMC5040913)",
+    ],
   },
   {
     id: "res-family-self-care",
@@ -733,6 +926,11 @@ const RESOURCES: Resource[] = [
       "Remember: asking for help is a strength, not a failure. Accepting support from family, friends, or professionals makes you a better parent.",
     ],
     icon: "leaf-outline",
+    sources: [
+      "PMC — Parental Stress in Autism (pmc.ncbi.nlm.nih.gov/articles/PMC6477532)",
+      "NAMI — Caregiver Support (nami.org/Your-Journey/Family-Members-and-Caregivers)",
+      "Autism Speaks — Caregiver Health (autismspeaks.org/caregiver-health)",
+    ],
   },
   {
     id: "res-family-financial",
@@ -751,6 +949,11 @@ const RESOURCES: Resource[] = [
       "Check with local nonprofits and churches for emergency assistance with autism-related expenses.",
     ],
     icon: "cash-outline",
+    sources: [
+      "SSA — SSI Benefits for Children (ssa.gov/ssi/text-child-ussi.htm)",
+      "Medicaid.gov — CHIP (medicaid.gov/chip)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+    ],
   },
   {
     id: "res-family-immigration-safety",
@@ -768,6 +971,551 @@ const RESOURCES: Resource[] = [
       "Contact your local Legal Aid Society or ACLU chapter for free immigration-related legal advice — many have special programs for families with disabled children.",
     ],
     icon: "shield-checkmark-outline",
+    sources: [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)",
+    ],
+  },
+
+  // ── NEW: Education (expanded) ─────────────────────────────────────────────
+  {
+    id: "res-edu-early-intervention",
+    category: "Education",
+    title: "Early Intervention (Part C of IDEA) — Ages 0-3",
+    summary:
+      "Federal early intervention services for infants and toddlers with developmental delays, available to all families regardless of immigration status.",
+    details:
+      "Part C of IDEA is a federal program providing early intervention services for infants and toddlers (birth through age 2) who have developmental delays or diagnosed conditions like autism. Each state has a lead agency that coordinates services including speech therapy, occupational therapy, physical therapy, behavioral support, and family training. Services are delivered in natural environments such as the home or daycare. Evaluations are always free, and services are provided at no cost or low cost depending on your state. A child does not need a formal autism diagnosis to receive Part C services — developmental delay is sufficient. This is one of the most important programs for immigrant families because eligibility is based entirely on developmental need, not immigration status or ability to pay.",
+    steps: [
+      "Contact your state's Part C early intervention program — find your state at ectacenter.org/contact/ptccoord.asp.",
+      "Request a free developmental evaluation — the program must complete it within 45 days of referral.",
+      "You do NOT need an autism diagnosis to receive services — developmental delay is sufficient.",
+      "If eligible, help develop your child's Individualized Family Service Plan (IFSP) listing all services.",
+      "Services begin as soon as you sign the IFSP — ask about speech, OT, PT, and behavioral support.",
+      "At age 2.5, begin transition planning to preschool services (Part B) through your school district.",
+    ],
+    icon: "body-outline",
+    sources: [
+      "ECTA Center — Part C of IDEA (ectacenter.org/partc/partc.asp)",
+      "Parent Center Hub — Early Intervention Overview (parentcenterhub.org/ei-overview)",
+      "NYC Department of Health — Early Intervention (nyc.gov/site/doh/health/health-topics/early-intervention.page)",
+    ],
+  },
+  {
+    id: "res-edu-transition-planning",
+    category: "Education",
+    title: "Transition Planning (Ages 14-22)",
+    summary:
+      "IDEA requires schools to plan for your child's transition to adult life, including employment, education, and independent living, starting by age 16 (age 14 in some states).",
+    details:
+      "Transition planning is a federally mandated component of the IEP that prepares students with disabilities for life after high school. Under IDEA, transition goals and services must be included in the IEP beginning no later than the year the student turns 16, though many states start at 14. Plans must address post-secondary education or training, employment, and where appropriate, independent living skills. For autistic students, transition planning should include vocational assessments, job skills training, community-based instruction, self-advocacy training, and connections to adult service agencies. Research shows that students with autism have some of the worst post-secondary outcomes compared to other disability categories, making quality transition planning critical. Parents should be actively involved and the student must be invited to attend their own IEP meetings once transition planning begins.",
+    steps: [
+      "Request that transition planning begin at age 14 even if your state does not require it until 16 — early planning leads to better outcomes.",
+      "Ensure the IEP includes measurable post-secondary goals in education/training, employment, and independent living.",
+      "Request vocational assessments and community-based work experiences as part of the transition plan.",
+      "Invite your child to their IEP meetings — self-advocacy skills are critical for adult success.",
+      "Connect with your state's vocational rehabilitation agency before your child leaves school — they can provide employment support.",
+      "Research adult service agencies in your area (developmental disability agencies, supported employment programs) and initiate referrals before age 18.",
+    ],
+    icon: "trending-up-outline",
+    sources: [
+      "IDEA — Transition Services (sites.ed.gov/idea/about-idea)",
+      "TACA — IEP Transition Planning (tacanow.org/family-resources/iep-transition-planning)",
+      "National Technical Assistance Center on Transition (transitionta.org)",
+    ],
+  },
+  {
+    id: "res-edu-pti-centers",
+    category: "Education",
+    title: "Parent Training & Information Centers (PTIs)",
+    summary:
+      "Free, federally funded centers in every state that help parents navigate special education, understand their rights, and advocate for their children.",
+    details:
+      "Parent Training and Information Centers (PTIs) are funded through IDEA and exist in every state. They provide free training and support to parents of children with disabilities from birth through age 26. PTI staff help families understand special education law, participate effectively in IEP meetings, resolve disputes with schools, and connect with community resources. Many PTIs offer services in Spanish and other languages. PTIs do not represent the school district — they are independent organizations that serve families. They can help you understand your rights under IDEA, Section 504, and the ADA. For immigrant families, PTIs are particularly valuable because they provide free, knowledgeable advocacy support regardless of immigration status.",
+    steps: [
+      "Find your state's PTI at parentcenterhub.org/find-your-center — every state has at least one.",
+      "Call and ask about free workshops on IEP rights, special education law, and autism services.",
+      "Request one-on-one support for upcoming IEP meetings — many PTIs can help you prepare or attend with you.",
+      "Ask if they have staff who speak your language or can provide interpretation services.",
+      "Attend parent-to-parent connection events to meet other families navigating similar challenges.",
+      "Use their resource library for sample letters, rights guides, and information about local services.",
+    ],
+    icon: "school-outline",
+    sources: [
+      "Parent Center Hub — Find Your Center (parentcenterhub.org/find-your-center)",
+      "U.S. Department of Education — PTI Program (ed.gov/grants-and-programs/grants-special-populations/grants-students-disabilities/special-education/special-education-parent-training-and-information-centers)",
+      "Understood.org — PTIs: A Free Resource (understood.org/en/articles/parent-training-centers-a-free-resource)",
+    ],
+  },
+  {
+    id: "res-edu-assistive-tech",
+    category: "Education",
+    title: "Assistive Technology in Schools",
+    summary:
+      "Under IDEA, schools must consider assistive technology for every child with an IEP and provide devices and services at no cost if the IEP team determines they are needed.",
+    details:
+      "Assistive technology (AT) includes any device or service that helps a child with a disability access education. For autistic children, AT can include communication devices (AAC), visual schedule apps, noise-canceling headphones, weighted vests, speech-generating devices, text-to-speech software, and specialized keyboards. Under IDEA, the IEP team must consider whether a child needs AT devices and services to receive FAPE. If AT is written into the IEP, the school district must provide it at no cost to the family. Schools cannot deny AT due to cost. AT consideration should occur at every IEP meeting, and families can request an AT evaluation at any time. Many states also have AT lending libraries where families can borrow devices to try before committing.",
+    steps: [
+      "At your child's next IEP meeting, request that assistive technology be formally considered — this is required by IDEA.",
+      "If AT is needed, request a formal AT evaluation by a specialist — the school must provide this at no cost.",
+      "Explore AT options through your state's AT lending library — most states have one (find yours at atap.org).",
+      "If AT is included in the IEP, the school must provide, maintain, and train staff on using the devices.",
+      "Your child can take AT devices home if the IEP team determines home use is necessary for FAPE.",
+      "If the school refuses AT, request the refusal in writing and consider filing a dispute through mediation or due process.",
+    ],
+    icon: "hardware-chip-outline",
+    sources: [
+      "U.S. Department of Education — AT Guidance Under IDEA (sites.ed.gov/idea/idea-files/at-guidance)",
+      "Autism Speaks — Assistive Technology Rights (autismspeaks.org/tool-kit-excerpt/know-your-rights-access-assistive-technology)",
+      "Parent Center Hub — Considering AT (parentcenterhub.org/considering-at)",
+    ],
+  },
+
+  // ── NEW: State Services (expanded) ────────────────────────────────────────
+  {
+    id: "res-state-dd-agencies",
+    category: "State Services",
+    title: "State Developmental Disability Agencies",
+    summary:
+      "Every state has a developmental disability agency that coordinates services for individuals with autism and other developmental disabilities.",
+    details:
+      "State developmental disability (DD) agencies administer programs and funding for individuals with developmental disabilities including autism. Services typically include diagnostic evaluations, case management, home and community-based services, residential supports, day programs, supported employment, respite care, and family support. In some states (like California), services are provided through regional centers. In others, the state DD agency contracts with local providers. These agencies are the gateway to Medicaid waiver programs, which can fund ABA therapy, respite care, and other critical services. Many DD agencies have long wait lists, so applying early is essential. Services are generally available regardless of immigration status, though Medicaid-funded services may have eligibility requirements.",
+    steps: [
+      "Find your state's DD agency at nasddds.org/state-agencies — every state has one.",
+      "Contact them to learn what services are available for children with autism in your state.",
+      "Ask about Medicaid waiver programs — apply for all waivers your child may qualify for, as wait lists can be years long.",
+      "Request a service coordinator or case manager who can help navigate available programs.",
+      "Ask about family support services: parent training, sibling support, respite care, and financial assistance.",
+      "If your child is approaching adulthood, ask about transition-age services and supported employment programs.",
+    ],
+    icon: "business-outline",
+    sources: [
+      "NASDDDS — State Agency Directory (nasddds.org/state-agencies)",
+      "ACL — State Councils on Developmental Disabilities (acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities)",
+      "Autism Speaks — State Services (autismspeaks.org/state-services)",
+    ],
+  },
+  {
+    id: "res-state-hcbs-waivers",
+    category: "State Services",
+    title: "Home and Community Based Services (HCBS) Waivers",
+    summary:
+      "Medicaid HCBS waivers fund autism services in your home and community, including ABA therapy, respite care, and personal support — often regardless of family income.",
+    details:
+      "HCBS waivers allow states to provide Medicaid-funded services in homes and communities rather than institutions. For children with autism, these waivers can cover ABA therapy, speech therapy, occupational therapy, respite care, personal care assistance, supported employment, day habilitation, assistive technology, environmental modifications, and family training. Eligibility is typically based on the child's disability level, not family income — the child's income is considered separately from the parents. Some states have autism-specific waivers (such as Maryland's Autism Waiver) while others include autism under broader DD waivers. Wait lists can be extremely long — sometimes 5-10 years — so applying as early as possible is critical. You can be on multiple waiver wait lists simultaneously.",
+    steps: [
+      "Contact your state's Medicaid office or DD agency to learn which HCBS waivers serve children with autism.",
+      "Apply for every waiver your child may qualify for — you can be on multiple wait lists at the same time.",
+      "Ask about your position on the wait list and estimated wait time — follow up every 3-6 months.",
+      "Gather documentation: autism diagnosis, functional assessments, medical records, and school evaluations.",
+      "Once approved, work with your service coordinator to develop a person-centered service plan.",
+      "Review your plan annually and request changes as needs evolve — you have the right to appeal any service denial.",
+    ],
+    icon: "home-outline",
+    sources: [
+      "Medicaid.gov — HCBS Waivers (medicaid.gov/medicaid/home-community-based-services)",
+      "KFF — Medicaid Waiver Tracker (kff.org/medicaid/issue-brief/medicaid-waiver-tracker)",
+      "MACPAC — HCBS Overview (macpac.gov/subtopic/home-and-community-based-services)",
+    ],
+  },
+  {
+    id: "res-state-vocational-rehab",
+    category: "State Services",
+    title: "Vocational Rehabilitation (VR) Services",
+    summary:
+      "Free state-funded employment services for individuals with disabilities, including job training, career counseling, supported employment, and job placement.",
+    details:
+      "Vocational Rehabilitation (VR) is a state-federal program authorized under the Rehabilitation Act of 1973 that helps individuals with disabilities prepare for, obtain, and maintain employment. Each state has a VR agency that provides individualized services including career counseling, vocational assessments, job skills training, supported employment, assistive technology for work, job coaching, and job placement. For autistic young adults and transition-age youth, VR can be a critical bridge from school to employment. VR services are free and available to anyone with a disability that creates a substantial barrier to employment. Pre-employment transition services are available to students with disabilities ages 14-21 even before they apply for VR. Connect with VR before your child leaves school for the smoothest transition.",
+    steps: [
+      "Find your state's VR agency at rsa.ed.gov/about/states — there are 78 VR agencies nationwide.",
+      "Apply for VR services — eligibility requires a disability that creates a substantial barrier to employment.",
+      "If your child is still in school (ages 14-21), ask about pre-employment transition services available without a full VR application.",
+      "Work with your VR counselor to develop an Individualized Plan for Employment (IPE) with specific goals.",
+      "Ask about supported employment services including job coaching and on-the-job supports for autistic individuals.",
+      "VR services continue until the individual achieves stable employment — follow up regularly with your counselor.",
+    ],
+    icon: "briefcase-outline",
+    sources: [
+      "RSA — State VR Agencies (rsa.ed.gov/about/states)",
+      "CSAVR — Vocational Rehabilitation (csavr.org)",
+      "CareerOneStop — VR Services (careeronestop.org/ResourcesFor/WorkersWithDisabilities/vocational-rehabilitation.aspx)",
+    ],
+  },
+
+  // ── NEW: Immigration (expanded) ───────────────────────────────────────────
+  {
+    id: "res-imm-itin",
+    category: "Immigration",
+    title: "ITIN Application for Undocumented Families",
+    summary:
+      "An Individual Taxpayer Identification Number (ITIN) allows you to file taxes, open bank accounts, and access certain services without a Social Security number.",
+    details:
+      "The ITIN is a tax processing number issued by the IRS to individuals who are required to have a U.S. taxpayer identification number but are not eligible for a Social Security number. Since 1996, the IRS has issued ITINs to undocumented immigrants and their dependents. An ITIN allows you to file federal tax returns, open bank accounts, apply for state and local benefits, and establish a financial record. To apply, complete IRS Form W-7 and submit it with a federal tax return and proof of identity (passport, consular ID, or other accepted documents). You can apply by mail, in person at an IRS Taxpayer Assistance Center, or through a Certified Acceptance Agent. NOTE: A November 2025 court order currently blocks an IRS-ICE data-sharing agreement, but families should be aware this situation may change.",
+    steps: [
+      "Gather required documents: a valid passport is the most commonly accepted standalone ID document.",
+      "Complete IRS Form W-7 — you can download it at irs.gov or get help from a Certified Acceptance Agent.",
+      "Submit Form W-7 with your federal tax return (Form 1040) — ITINs can only be issued when filing taxes.",
+      "Find a Certified Acceptance Agent (CAA) near you at irs.gov — they can verify documents so you do not need to mail originals.",
+      "Allow 7-11 weeks for processing — longer during tax season (January through April).",
+      "Renew your ITIN if it has expired — unused ITINs expire after 3 consecutive years of non-use.",
+    ],
+    icon: "card-outline",
+    sources: [
+      "IRS — How to Apply for an ITIN (irs.gov/tin/itin/how-to-apply-for-an-itin)",
+      "NILC — ITIN FAQ (nilc.org/resources/itinfaq)",
+      "American Immigration Council — ITIN Facts (americanimmigrationcouncil.org/fact-sheet/facts-about-individual-tax-identification-number-itin)",
+    ],
+  },
+  {
+    id: "res-imm-fqhc",
+    category: "Immigration",
+    title: "Community Health Centers (FQHCs)",
+    summary:
+      "Federally Qualified Health Centers serve everyone regardless of immigration status or ability to pay, with fees based on a sliding scale tied to your income.",
+    details:
+      "Federally Qualified Health Centers (FQHCs) are community-based healthcare organizations that provide comprehensive primary care, dental, mental health, and support services to underserved populations. By law, FQHCs must serve all patients regardless of immigration status, insurance coverage, or ability to pay. They use a sliding fee scale based on household income — families at or below 100% of the federal poverty level typically receive care for free or for a nominal charge. FQHCs served over 30 million patients in 2023, including many immigrant families. For autistic children, FQHCs can provide developmental screenings, referrals for diagnostic evaluations, primary care, and connections to specialists. Many FQHCs have bilingual staff and interpretation services.",
+    steps: [
+      "Find an FQHC near you at findahealthcenter.hrsa.gov — enter your zip code to search.",
+      "Call to schedule an appointment — explain that you need services and ask about sliding-scale fees.",
+      "Bring proof of income (pay stubs, bank statements, or a self-declaration) to determine your fee level.",
+      "You do NOT need to provide immigration documents, a Social Security number, or insurance.",
+      "Ask about developmental screenings for your child and referrals to autism evaluation providers.",
+      "Ask about mental health services for yourself — many FQHCs offer counseling in multiple languages.",
+    ],
+    icon: "medkit-outline",
+    sources: [
+      "HRSA — Find a Health Center (findahealthcenter.hrsa.gov)",
+      "FQHC.org — What is an FQHC (fqhc.org/what-is-an-fqhc)",
+      "Conmigra — Immigrant Guide to FQHCs (conmigra.org/guides/what-are-fqhcs)",
+    ],
+  },
+  {
+    id: "res-imm-sijs",
+    category: "Immigration",
+    title: "Special Immigrant Juvenile Status (SIJS)",
+    summary:
+      "A pathway to lawful permanent residence for immigrant children under 21 who have been abused, abandoned, or neglected by one or both parents.",
+    details:
+      "Special Immigrant Juvenile Status (SIJS) is a form of humanitarian protection that can provide a path to a green card for immigrant children who have survived abuse, abandonment, or neglect. To qualify, the child must be under 21, unmarried, and have a state court order finding that they were abused, neglected, or abandoned by one or both parents and that it is not in their best interest to return to their home country. For children with autism, SIJS may be relevant when a parent has abandoned the family or when the child has experienced neglect related to their disability needs. The process involves both state court proceedings (to obtain the necessary findings) and federal immigration proceedings (the SIJS petition and green card application). Free legal help is available through immigration legal aid organizations.",
+    steps: [
+      "Consult with an immigration attorney who specializes in children's cases — many legal aid organizations handle SIJS cases for free.",
+      "Determine if your child meets the requirements: under 21, unmarried, and subject to abuse/abandonment/neglect by a parent.",
+      "Obtain the necessary findings from a state court (family, juvenile, or probate court depending on your state).",
+      "File Form I-360 (Special Immigrant Petition) with USCIS along with the state court order.",
+      "Once SIJS is approved, apply for lawful permanent residence (green card) by filing Form I-485.",
+      "Contact organizations like Safe Passage Project, NIJC, or CLINIC for free legal representation.",
+    ],
+    icon: "document-attach-outline",
+    sources: [
+      "USCIS — Special Immigrant Juveniles (uscis.gov/working-in-US/eb4/SIJ)",
+      "USCIS — Green Card Based on SIJS (uscis.gov/green-card/green-card-eligibility/green-card-based-on-special-immigrant-juvenile-classification)",
+      "ILRC — Immigrant Youth (ilrc.org/immigrant-youth)",
+    ],
+  },
+  {
+    id: "res-imm-public-charge",
+    category: "Immigration",
+    title: "Public Charge Rule: What Counts and What Does Not",
+    summary:
+      "Using disability services, Medicaid, CHIP, WIC, school lunches, or special education for your child will NOT count against you in immigration proceedings under current law.",
+    details:
+      "The public charge rule is one of the biggest sources of fear for immigrant families. Under the rule currently in effect (2022), the only benefits that count toward a public charge determination are SSI (Supplemental Security Income), TANF cash assistance, and long-term institutionalization at government expense. Medicaid (except long-term institutionalization), CHIP, SNAP, WIC, school lunches, housing benefits, Head Start, special education, and early intervention services do NOT count. Benefits received by your children on their own behalf are NOT attributed to you. A proposed rule published in November 2025 could expand what counts, but it is NOT yet in effect and faces legal challenges. Under current law, using disability services for your autistic child will not affect your immigration case.",
+    steps: [
+      "Know the facts: Medicaid, CHIP, WIC, SNAP, school lunches, Head Start, and special education do NOT count as public charge.",
+      "Benefits your US-citizen children receive are NOT counted against you — only benefits you receive personally matter.",
+      "The only benefits that currently count are SSI, TANF cash, and long-term institutionalization at government expense.",
+      "If you have immigration concerns, consult with an immigration attorney before making benefit decisions — many legal aid organizations offer free consultations.",
+      "Stay informed about changes to the public charge rule through NILC (nilc.org) and ILRC (ilrc.org).",
+      "Do not withdraw from programs based on fear alone — get accurate legal advice specific to your situation.",
+    ],
+    icon: "alert-circle-outline",
+    sources: [
+      "ILRC — Public Charge Updates (ilrc.org/pc-updates)",
+      "NILC — Public Charge Proposed Rule (nilc.org/resources/public-charge-what-advocates-need-to-know-about-the-november-2025-proposed-rule)",
+      "ASAN — Public Charge Comments (autisticadvocacy.org/2025/12/asan-comments-on-public-charge-rule)",
+    ],
+  },
+
+  // ── NEW: Insurance & Funding (expanded) ───────────────────────────────────
+  {
+    id: "res-fund-autism-mandates",
+    category: "Insurance & Funding",
+    title: "State Autism Insurance Mandates",
+    summary:
+      "All 50 states now require insurance plans to cover autism services including ABA therapy, though coverage details like age limits and dollar caps vary by state.",
+    details:
+      "All 50 US states have enacted autism insurance mandates requiring health insurance plans to cover diagnosis and treatment of autism spectrum disorder, including Applied Behavior Analysis (ABA). However, coverage details vary significantly by state. Some states cap annual ABA benefits (ranging from $36,000 to over $72,000 per year), while others have no caps. Age limits vary — some states cover children only while others mandate coverage for all ages. Self-funded employer plans (ERISA plans) are exempt from state mandates but may be subject to federal mental health parity requirements. If your insurance denies autism services, you have the right to appeal. The federal Mental Health Parity and Addiction Equity Act requires that mental health benefits (including autism treatment) be covered on par with medical/surgical benefits.",
+    steps: [
+      "Look up your state's specific autism insurance mandate at ncsl.org/health/autism-and-insurance-coverage-state-laws.",
+      "Request a copy of your plan's autism benefits in writing — ask about ABA coverage, age limits, session limits, and dollar caps.",
+      "Get a referral from your child's doctor specifying the recommended treatment and medical necessity.",
+      "If denied, request the denial in writing with the specific policy citation and file an internal appeal.",
+      "If the internal appeal fails, file an external appeal with your state's insurance department.",
+      "Contact your state's Protection & Advocacy organization for free help with insurance appeals.",
+    ],
+    icon: "shield-checkmark-outline",
+    sources: [
+      "NCSL — Autism Insurance Coverage State Laws (ncsl.org/health/autism-and-insurance-coverage-state-laws)",
+      "Autism Speaks — State Health Plans (autismspeaks.org/state-regulated-health-benefit-plans)",
+      "ASHA — State Autism Mandates (asha.org/advocacy/state/states-specific-autism-mandates)",
+    ],
+  },
+  {
+    id: "res-fund-katie-beckett",
+    category: "Insurance & Funding",
+    title: "Katie Beckett / TEFRA Waiver",
+    summary:
+      "Provides Medicaid coverage for children with serious disabilities living at home, based on the child's income (not the parents'), making most children eligible regardless of family income.",
+    details:
+      "The Katie Beckett (also called TEFRA) option allows states to provide Medicaid to children with severe disabilities who live at home, by counting only the child's income rather than the parents' income. Since most children have no income, this makes the vast majority of children with significant disabilities eligible for Medicaid regardless of how much their parents earn. The program was created in 1982 after Katie Beckett, a child on a ventilator, could only receive Medicaid-funded care in a hospital rather than at home because her parents' income was too high. Currently about 24 states offer some form of Katie Beckett/TEFRA coverage. For children with autism who need expensive therapies like ABA, this program can be life-changing because it provides Medicaid coverage that includes EPSDT benefits. Contact your state's Medicaid office to learn if your state offers this option.",
+    steps: [
+      "Check if your state offers a Katie Beckett/TEFRA option at kidswaivers.org or by calling your state Medicaid office.",
+      "To qualify, your child must meet the disability criteria for SSI (significant functional limitations due to autism).",
+      "Apply through your state's Medicaid office — the application evaluates the child's disability level, not family finances.",
+      "Gather medical documentation: autism diagnosis, functional assessments, therapy records, and doctor statements about care needs.",
+      "If approved, your child receives full Medicaid benefits including EPSDT — ABA, speech, OT, and all medically necessary services.",
+      "If your state does not offer Katie Beckett, ask about other Medicaid pathways for disabled children (HCBS waivers, medically needy programs).",
+    ],
+    icon: "medical-outline",
+    sources: [
+      "Kids Waivers — Katie Beckett Information (kidswaivers.org)",
+      "Special Needs Alliance — Katie Beckett Waiver (specialneedsalliance.org/blog/katie-beckett-waiver-brings-home-care-to-kids-with-serious-disabilities)",
+      "DC DHCF — TEFRA/Katie Beckett (dhcf.dc.gov/katiebeckett)",
+    ],
+  },
+  {
+    id: "res-fund-able-accounts",
+    category: "Insurance & Funding",
+    title: "ABLE Accounts (Tax-Advantaged Savings)",
+    summary:
+      "Tax-free savings accounts for disability-related expenses that do not affect eligibility for SSI, Medicaid, or other means-tested benefits.",
+    details:
+      "ABLE (Achieving a Better Life Experience) accounts, authorized by the ABLE Act of 2014, are tax-advantaged savings accounts for individuals whose disability began before age 46. Contributions grow tax-free and withdrawals are tax-free when used for qualified disability expenses (QDEs) including education, housing, transportation, health care, assistive technology, and personal support services. The first $100,000 in an ABLE account is exempt from the SSI resource limit of $2,000, meaning your child can save money without losing SSI or Medicaid eligibility. Annual contribution limits are $18,000 (2025), with additional contributions allowed for working beneficiaries. Most states offer ABLE programs, and you can open an account in any state. For families of autistic children, ABLE accounts are one of the best tools for saving for disability-related expenses while preserving benefits eligibility.",
+    steps: [
+      "Check eligibility: the account beneficiary must have a disability that began before age 46.",
+      "Compare state ABLE programs at ablenrc.org — you can open an account in any state, not just your own.",
+      "Open an account online through your chosen state's ABLE program — the process is similar to opening a bank account.",
+      "Set up automatic contributions — even small regular amounts build over time.",
+      "Keep records of all withdrawals and how funds are spent on qualified disability expenses.",
+      "The first $100,000 does NOT count against the $2,000 SSI resource limit — save without fear of losing benefits.",
+    ],
+    icon: "wallet-outline",
+    sources: [
+      "ABLE National Resource Center — What Are ABLE Accounts (ablenrc.org/what-is-able/what-are-able-accounts)",
+      "IRS — ABLE Accounts (irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities)",
+      "SSA — ABLE Account Spotlight (ssa.gov/ssi/spotlights/spot-able.html)",
+    ],
+  },
+  {
+    id: "res-fund-autism-scholarships",
+    category: "Insurance & Funding",
+    title: "Autism Grants and Scholarship Programs",
+    summary:
+      "Financial grants from nonprofit organizations that help cover therapy costs, diagnostic evaluations, assistive technology, and other autism-related expenses.",
+    details:
+      "Several nonprofit organizations provide financial grants to families of children with autism. ACT Today (Autism Care and Treatment Today) offers grants up to $5,000 for families who cannot afford or access treatment. The Autism Speaks Autism Care Grant provides $500 for autism-related expenses. The United Healthcare Children's Foundation (UHCCF) offers grants up to $5,000 per year for medical expenses not covered by insurance. Many of these grants do not require a Social Security number or specific immigration status. Additionally, some states offer autism scholarship programs that fund private school tuition or therapy for children with autism (such as Ohio's Autism Scholarship Program). Local autism societies, community foundations, and service organizations (Lions Club, Rotary, Elks) may also provide financial assistance.",
+    steps: [
+      "Apply for ACT Today grants at act-today.org — grants cover therapy, evaluations, and assistive technology.",
+      "Apply for the Autism Speaks Autism Care Grant at autismspeaks.org — $500 grants for autism-related expenses.",
+      "Check UHCCF grants at uhccf.org — up to $5,000/year for medical expenses not covered by insurance.",
+      "Search for autism scholarships in your state — some states fund private school or therapy for autistic children.",
+      "Contact your local Autism Society affiliate for information about local grants and financial assistance programs.",
+      "Ask therapy providers about pro bono spots, sliding-scale fees, or payment plans — many reserve spots for families in need.",
+    ],
+    icon: "gift-outline",
+    sources: [
+      "ACT Today — Family Grants (act-today.org/family-grant-information)",
+      "Autism Speaks — Financial Resources (autismspeaks.org/financial-resources)",
+      "UHCCF — Grants for Children (uhccf.org)",
+    ],
+  },
+
+  // ── NEW: Therapies (expanded) ─────────────────────────────────────────────
+  {
+    id: "res-therapy-aac",
+    category: "Therapies",
+    title: "Augmentative and Alternative Communication (AAC)",
+    summary:
+      "Communication systems and devices that help non-speaking or minimally verbal children express their thoughts, needs, and feelings through pictures, symbols, or speech-generating technology.",
+    details:
+      "Augmentative and Alternative Communication (AAC) encompasses all forms of communication other than oral speech. For autistic children who are non-speaking or minimally verbal, AAC can be transformative. Options range from low-tech (picture boards, PECS — Picture Exchange Communication System, communication books) to high-tech (tablet-based apps like Proloquo2Go or TouchChat, dedicated speech-generating devices). Research consistently shows that AAC does NOT prevent children from developing speech — in fact, studies show it may actually increase verbal communication. There are no prerequisites for using AAC — children of any age or ability level can benefit. Under IDEA, if an AAC device is determined necessary for FAPE, the school must provide it at no cost. Medicaid and insurance may also cover AAC devices with proper documentation of medical necessity.",
+    steps: [
+      "Ask your child's SLP about AAC options — a speech-language pathologist should evaluate which type of AAC is best for your child.",
+      "Start with what works: even pointing, gestures, and picture cards count as AAC — you do not need expensive technology.",
+      "Try tablet-based AAC apps (Proloquo2Go, TouchChat, LAMP Words for Life) — many offer free trials.",
+      "Request an AAC evaluation through your child's school IEP — if AAC is needed for education, the school must provide it free.",
+      "Apply for AAC device funding through Medicaid, insurance, or your state's assistive technology program.",
+      "Model AAC use yourself — press buttons on the device while speaking to show your child how it works (this is called 'aided language stimulation').",
+    ],
+    icon: "tablet-portrait-outline",
+    sources: [
+      "ASHA — AAC Overview (asha.org/public/speech/disorders/aac)",
+      "PMC — AAC Instruments for Children with ASD (pmc.ncbi.nlm.nih.gov/articles/PMC6238819)",
+      "Autism Speaks — AAC and Autism (autismspeaks.org/augmentative-and-alternative-communication)",
+    ],
+  },
+  {
+    id: "res-therapy-parent-intervention",
+    category: "Therapies",
+    title: "Parent-Implemented Intervention Training",
+    summary:
+      "Evidence-based programs that train parents to deliver therapeutic strategies with their child at home, significantly extending the impact of professional therapy.",
+    details:
+      "Parent-Implemented Intervention (PII) is an evidence-based practice recognized by the National Professional Development Center on ASD. Research from a meta-analysis of 51 randomized controlled trials involving nearly 3,000 children demonstrates that parent-implemented interventions produce moderately strong benefits in social skills, communication, adaptive behavior, and reduction of challenging behaviors. PII is particularly valuable for immigrant families who may have limited access to professional therapists due to insurance, geographic, or language barriers. Programs like Parents Taking Action (PTA) have been culturally adapted for Chinese and Korean immigrant families with significant positive results. Parent training is often a component of ABA, speech therapy, and early intervention services, and can be delivered via telehealth. IDEA Part C explicitly supports parent coaching as a service delivery model.",
+    steps: [
+      "Ask your child's therapist (BCBA, SLP, or OT) about parent training components — most evidence-based programs include them.",
+      "Request parent coaching as a specific service in your child's IEP or IFSP — it can be a standalone service.",
+      "Explore free online parent training through Autism Speaks' tool kits and the Autism Internet Modules (autisminternetmodules.org).",
+      "Look for culturally adapted programs like Parents Taking Action (PTA) if available in your language and community.",
+      "Practice intervention strategies during daily routines — meals, bath time, play, and errands are natural learning opportunities.",
+      "Track your child's progress and share observations with the professional team — your data helps guide treatment adjustments.",
+    ],
+    icon: "people-outline",
+    sources: [
+      "PMC — Parent-Implemented Interventions Meta-Analysis (pmc.ncbi.nlm.nih.gov/articles/PMC10539413)",
+      "Autism Speaks — Parent Training Evidence-Based Practice (docs.autismspeaks.org/evidence-based-practices/parent-training)",
+      "NPDC on ASD — Parent-Implemented Intervention (autisminternetmodules.org/m/508)",
+    ],
+  },
+
+  // ── NEW: Crisis Support (expanded) ────────────────────────────────────────
+  {
+    id: "res-crisis-wandering",
+    category: "Crisis Support",
+    title: "Wandering/Elopement Prevention (Big Red Safety Box)",
+    summary:
+      "Free safety toolkit from the National Autism Association to help prevent and respond to dangerous wandering incidents, which affect nearly half of all children with autism.",
+    details:
+      "Approximately 50% of children with autism will wander or elope from safe environments, making wandering one of the most serious safety concerns for families. Drowning following wandering is a leading cause of death for children with autism. The National Autism Association's Big Red Safety Box is a free toolkit shipped to families of individuals with autism who are at risk of wandering. Since 2011, over 70,000 boxes have been distributed. The toolkit includes visual safety resources, ID cards, window/door alarms, and guidance on creating a comprehensive safety plan. Additional measures include GPS tracking devices, medical ID bracelets, door alarms, pool fences, and developing relationships with local first responders. Teaching water safety and swimming skills is critical. Many families also benefit from the MedicAlert Found program, which provides free medical ID bracelets and 24/7 wandering support services specifically for individuals with autism.",
+    steps: [
+      "Apply for a free Big Red Safety Box at nationalautismassociation.org/big-red-safety-box — one per family while supplies last.",
+      "Install door and window alarms, especially on exit doors — inexpensive alarms can be found at hardware stores.",
+      "Consider a GPS tracking device for your child — wearable options include AngelSense, Jiobit, and Apple AirTag holders.",
+      "Enroll in the MedicAlert Found program at medicalert.org — free medical ID and 24/7 wandering support for autism families.",
+      "Teach water safety and swimming skills early — swimming lessons designed for children with autism are available in many communities.",
+      "Notify local police and fire departments about your child's autism and wandering risk — many departments maintain voluntary registries.",
+    ],
+    icon: "navigate-outline",
+    sources: [
+      "National Autism Association — Big Red Safety Box (nationalautismassociation.org/big-red-safety-box)",
+      "National Autism Association — Wandering Resources (nationalautismassociation.org/resources/wandering)",
+      "Autism Speaks — Wandering Prevention (autismspeaks.org/wandering-prevention-resources)",
+    ],
+  },
+  {
+    id: "res-crisis-emergency-id",
+    category: "Crisis Support",
+    title: "Autism Emergency ID Cards and Medical Alerts",
+    summary:
+      "Medical identification tools that communicate autism diagnosis and critical information to first responders, medical personnel, and community members during emergencies.",
+    details:
+      "Because autism is an invisible condition, first responders and medical personnel may not recognize it during emergencies, potentially leading to dangerous misunderstandings. Medical ID bracelets, necklaces, wallet cards, and shoe tags communicate essential information: the individual has autism, may not respond to verbal commands, may be nonverbal, and emergency contact details. The MedicAlert Found program (in partnership with the National Autism Association) provides free enrollment, a free medical ID bracelet or necklace, a free medical ID shoe tag, and 24/7 wandering support service specifically for the autism community. Other options include QR-code bracelets that link to detailed medical profiles, ICE (In Case of Emergency) wallet cards, and smartphone medical ID features. For children who may remove traditional bracelets, options include shoe tags, clothing labels, and temporary tattoos with contact information.",
+    steps: [
+      "Enroll in the MedicAlert Found program at medicalert.org — free medical ID and 24/7 support for individuals with autism.",
+      "Choose a wearable ID your child will tolerate — options include bracelets, necklaces, shoe tags, and clothing labels.",
+      "Create an ICE (In Case of Emergency) card for your child's wallet or backpack with diagnosis, medications, emergency contacts, and communication needs.",
+      "Set up the Medical ID feature on your child's smartphone (available on both iPhone and Android) with critical health information.",
+      "Include specific communication instructions: 'I am autistic. I may not respond to verbal commands. Please use simple language and visual cues.'",
+      "Update ID information regularly as medications, contacts, or communication abilities change.",
+    ],
+    icon: "id-card-outline",
+    sources: [
+      "MedicAlert — Autism Medical IDs (medicalert.org/medical-conditions/autism)",
+      "National Autism Association — MedicAlert Found Program (nationalautismassociation.org/new-medicalert-found-program)",
+      "Pathfinders for Autism — Identification Tools (pathfindersforautism.org/resources/safety/identification-tools)",
+    ],
+  },
+  {
+    id: "res-crisis-first-responders",
+    category: "Crisis Support",
+    title: "First Responder Autism Awareness Programs",
+    summary:
+      "Training programs that teach police, firefighters, and EMTs to recognize autism and use safe, effective de-escalation techniques during encounters with autistic individuals.",
+    details:
+      "Encounters between autistic individuals and law enforcement can become dangerous when officers misinterpret autism-related behaviors (not making eye contact, not following verbal commands, repetitive movements, fleeing) as non-compliance or threatening behavior. First responder autism awareness training programs teach officers to recognize signs of autism, use calm and simple communication, allow extra processing time, minimize sensory input, and use de-escalation techniques. The Autism Society of America's Safety on the Spectrum program promotes safe interactions between first responders and the autism community. The International Board of Credentialing and Continuing Education Standards (IBCCES) offers formal first responder autism certification. Some states (like Florida) mandate autism training for law enforcement. Families can proactively build relationships with local police and fire departments by sharing information about their child.",
+    steps: [
+      "Contact your local police department and ask if they have autism awareness training — offer to share resources if they do not.",
+      "Provide your local police and fire station with a one-page profile of your child: photo, name, diagnosis, communication style, triggers, and calming strategies.",
+      "Ask about voluntary special needs registries maintained by your local 911 dispatch center.",
+      "Share training resources from the Autism Society (autismsociety.org/first-responder) with your local agencies.",
+      "Practice interactions with uniformed personnel in calm settings so your child becomes familiar with them.",
+      "Carry a wallet card or have your child wear a medical ID that says 'I am autistic' with specific instructions for first responders.",
+    ],
+    icon: "shield-outline",
+    sources: [
+      "Autism Society — First Responder Program (autismsociety.org/first-responder)",
+      "IBCCES — First Responder Autism Certification (ibcces.org/first-responder-training)",
+      "Autism Risk & Safety Management — Law Enforcement Training (autismriskmanagement.com)",
+    ],
+  },
+
+  // ── NEW: Multilingual Resources ───────────────────────────────────────────
+  {
+    id: "res-multilingual-autism-speaks",
+    category: "Multilingual Resources",
+    title: "Autism Speaks Non-English Resources",
+    summary:
+      "Free autism guides, toolkits, and the 100 Day Kit available in over 17 languages including Spanish, Chinese, Arabic, Korean, Vietnamese, Somali, and Russian.",
+    details:
+      "Autism Speaks maintains one of the most comprehensive collections of translated autism resources available anywhere. Their Non-English Resources hub includes materials in Arabic, Bangla, Bosnian, Cambodian, Chinese, French, Greek, Korean, Laotian, Portuguese, Russian, Serbian, Somali, Spanish, and Vietnamese, with Japanese, Persian, and Romanian coming soon. The 100 Day Kit — a comprehensive guide for newly diagnosed families — is available in English, Spanish, and 17+ other languages for free download. Spanish resources are particularly extensive, including a dedicated Spanish helpline at (888) 772-9050. These resources cover topics including understanding diagnosis, therapy options, IEP rights, behavioral strategies, daily living skills, and family support. All materials are free to download and share.",
+    steps: [
+      "Visit autismspeaks.org/non-english-resources to find materials in your language.",
+      "Download the 100 Day Kit in your language — it is the best starting resource for newly diagnosed families.",
+      "Call the Spanish-language helpline at (888) 772-9050 for direct support in Spanish.",
+      "Share these resources with your child's school and therapists — they can use them to better communicate with your family.",
+      "Check back regularly as new languages and resources are added frequently.",
+    ],
+    icon: "globe-outline",
+    sources: [
+      "Autism Speaks — Non-English Resources (autismspeaks.org/non-english-resources)",
+      "Autism Speaks — Spanish Resources (autismspeaks.org/espanol)",
+      "TTAC Online — Non-English Resources List (ttaconline.org)",
+    ],
+  },
+  {
+    id: "res-multilingual-screening",
+    category: "Multilingual Resources",
+    title: "Developmental Screening Tools in Your Language",
+    summary:
+      "Free autism screening tools translated into dozens of languages, including the M-CHAT and CDC milestone checklists, to help identify autism concerns early.",
+    details:
+      "Early detection of autism is critical, and several validated screening tools are available in multiple languages. The M-CHAT-R/F (Modified Checklist for Autism in Toddlers, Revised with Follow-Up) is the most widely used autism screening tool for children ages 16-30 months and has been translated into 58 languages and dialects, including Spanish, Chinese, Arabic, Vietnamese, Korean, Portuguese, and many more. The CDC's Learn the Signs, Act Early program offers milestone checklists in English, Spanish, Simplified Chinese, Korean, and Vietnamese, plus a free Milestone Tracker App in English and Spanish. The CDC Autism Fact Sheet has been translated into Arabic, Armenian, Farsi, French, Korean, Mandarin, Tagalog, Thai, and Vietnamese through USC UCEDD. These tools can help families identify developmental concerns and seek evaluation, even when English-language resources are not accessible.",
+    steps: [
+      "Download the M-CHAT screening tool in your language at mchatscreen.com/mchat-rf/translations — it is free for families.",
+      "Download the CDC Milestone Tracker App (free on iOS and Android) to track your child's development.",
+      "Complete the screening and share results with your child's pediatrician — this can help start the diagnostic process.",
+      "If the screening suggests concerns, request a full developmental evaluation from your school district (free under IDEA) or pediatrician.",
+      "Ask your pediatrician about the ASQ-3 (Ages and Stages Questionnaire), also available in Spanish and other languages.",
+    ],
+    icon: "clipboard-outline",
+    sources: [
+      "M-CHAT Official Site — Translations (mchatscreen.com/mchat-rf/translations)",
+      "CDC — Learn the Signs, Act Early (cdc.gov/act-early)",
+      "Autism Speaks — Screening Tools (autismspeaks.org/screen-your-child)",
+    ],
+  },
+  {
+    id: "res-multilingual-know-rights",
+    category: "Multilingual Resources",
+    title: "Know Your Rights Cards in 39+ Languages",
+    summary:
+      "Free 'Know Your Rights' cards from the ILRC that explain your constitutional rights during encounters with immigration authorities, available in 39 languages.",
+    details:
+      "The Immigrant Legal Resource Center (ILRC) produces 'Red Cards' — wallet-sized cards that explain an individual's constitutional rights when encountering immigration authorities. These cards are available in 39 languages and state: 'I do not wish to speak with you, answer your questions, or sign anything without my attorney present.' The cards invoke the right to remain silent under the 5th Amendment and the right against unreasonable searches under the 4th Amendment. Additional Know Your Rights resources are available from NILC, NIJC, and NAKASEC (which offers a KYR mobile app in 19+ languages with audio and emergency features). For families of autistic children, knowing your rights is especially important because accessing services like special education, therapy, and medical care should never put your family at risk. These cards can be printed at home and shared with family members and trusted caregivers.",
+    steps: [
+      "Download and print ILRC Red Cards in your language at ilrc.org/community-resources.",
+      "Keep a card in your wallet, car, and home — give copies to all family members and your child's caregiver.",
+      "Download the NAKASEC KYR mobile app for quick access to rights information in 19+ languages.",
+      "Visit nilc.org/resources for additional Know Your Rights guides in multiple languages.",
+      "Share these resources with other immigrant families in your community — many do not know their rights.",
+    ],
+    icon: "reader-outline",
+    sources: [
+      "ILRC — Community Resources / Red Cards (ilrc.org/community-resources)",
+      "NILC — Know Your Rights (nilc.org/resources/?resource_type%5B%5D=know-your-rights)",
+      "NIJC — Know Your Rights (immigrantjustice.org/know-your-rights)",
+    ],
   },
 ];
 
