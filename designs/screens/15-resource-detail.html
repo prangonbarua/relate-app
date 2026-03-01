@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=375, initial-scale=1.0" />
+  <title>Relate — IEP Guide Resource</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: #F6F3EE;
+      width: 375px;
+      height: 812px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      color: #18182B;
+    }
+
+    /* STATUS BAR */
+    .status-bar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 20px 10px; background: #F6F3EE;
+    }
+    .status-time { font-size: 15px; font-weight: 700; color: #18182B; }
+    .status-icons { display: flex; align-items: center; gap: 6px; }
+
+    /* HEADER */
+    .header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 20px 12px;
+    }
+    .back-btn {
+      width: 38px; height: 38px; background: #FFFFFF;
+      border-radius: 12px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07); flex-shrink: 0;
+    }
+    .bookmark-btn {
+      width: 38px; height: 38px; background: #FFFFFF;
+      border-radius: 12px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    /* SCROLL */
+    .scroll-body {
+      flex: 1; overflow-y: auto;
+      padding: 0 16px 0;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .scroll-body::-webkit-scrollbar { display: none; }
+
+    /* HERO CARD */
+    .hero-card {
+      background: #FFFFFF; border-radius: 20px; padding: 20px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .cat-pill {
+      display: inline-flex; align-items: center;
+      background: #EEF1FF; color: #3D57E8;
+      font-size: 11px; font-weight: 700;
+      padding: 4px 12px; border-radius: 20px;
+      align-self: flex-start;
+    }
+    .hero-title {
+      font-size: 22px; font-weight: 800; color: #18182B; line-height: 1.3;
+    }
+    .meta-row {
+      display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    }
+    .meta-item {
+      display: flex; align-items: center; gap: 4px;
+      font-size: 12px; font-weight: 600; color: #545E70;
+    }
+    .action-pills { display: flex; gap: 8px; }
+    .action-pill {
+      background: #EEF1FF; color: #3D57E8;
+      font-size: 12px; font-weight: 700;
+      padding: 6px 14px; border-radius: 20px; cursor: pointer;
+    }
+
+    /* CONTENT SECTION */
+    .section-card {
+      background: #FFFFFF; border-radius: 16px; padding: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .section-title {
+      font-size: 14px; font-weight: 700; color: #3D57E8;
+    }
+    .section-body {
+      font-size: 13px; color: #545E70; line-height: 1.65;
+    }
+
+    /* NUMBERED LIST */
+    .numbered-list { display: flex; flex-direction: column; gap: 8px; }
+    .num-item { display: flex; align-items: flex-start; gap: 10px; }
+    .num-circle {
+      width: 24px; height: 24px; border-radius: 50%;
+      background: #EEF1FF; color: #3D57E8;
+      font-size: 12px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 1px;
+    }
+    .num-text { font-size: 13px; color: #545E70; line-height: 1.55; flex: 1; font-weight: 600; }
+
+    /* NEXT STEPS CARD */
+    .nextstep-card {
+      background: #FFF8E3;
+      border-left: 3px solid #F2BE42;
+      border-radius: 16px;
+      padding: 16px;
+      display: flex; flex-direction: column; gap: 12px;
+      margin-bottom: 12px;
+    }
+    .nextstep-text { font-size: 13px; color: #545E70; line-height: 1.6; }
+    .btn-download {
+      width: 100%; height: 48px;
+      background: #3D57E8; color: #FFFFFF;
+      border: none; border-radius: 14px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 14px; font-weight: 700;
+      cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+
+    /* BOTTOM NAV */
+    .bottom-nav {
+      display: flex;
+      padding: 8px 0 20px;
+      background: #FFFFFF;
+      border-top: 1px solid #F0EDE8;
+    }
+    .nav-item {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; gap: 3px; padding: 6px 0; cursor: pointer;
+    }
+    .nav-label { font-size: 10px; font-weight: 700; color: #9CA3AF; }
+    .nav-item.active .nav-label { color: #3D57E8; }
+    .nav-dot {
+      width: 4px; height: 4px; border-radius: 50%; background: #3D57E8; margin-top: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STATUS BAR -->
+  <div class="status-bar">
+    <span class="status-time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#18182B"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#18182B" stroke-width="1.2"/><rect x="2" y="2" width="9" height="8" rx="1" fill="#18182B"/><rect x="14" y="4" width="2" height="4" rx="1" fill="#18182B" opacity="0.4"/></svg>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="back-btn">
+      <svg width="9" height="16" viewBox="0 0 9 16" fill="none">
+        <path d="M7.5 1.5L1.5 8L7.5 14.5" stroke="#18182B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="bookmark-btn">
+      <svg width="14" height="18" viewBox="0 0 14 18" fill="none">
+        <path d="M1.5 1.5H12.5V16.5L7 13L1.5 16.5V1.5Z" stroke="#18182B" stroke-width="1.7" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SCROLL BODY -->
+  <div class="scroll-body">
+
+    <!-- HERO CARD -->
+    <div class="hero-card">
+      <span class="cat-pill">School / IEP</span>
+      <h1 class="hero-title">Understanding Your Child's IEP Rights</h1>
+      <div class="meta-row">
+        <div class="meta-item">
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><rect x="1" y="2" width="11" height="10" rx="1.5" stroke="#545E70" stroke-width="1.4"/><path d="M5 6H9M5 8H8" stroke="#545E70" stroke-width="1.3" stroke-linecap="round"/><path d="M3 1V3M10 1V3" stroke="#545E70" stroke-width="1.3" stroke-linecap="round"/></svg>
+          8 min read
+        </div>
+        <div class="meta-item">
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 9L5 6L7.5 8.5L11 4" stroke="#545E70" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Updated Jan 2025
+        </div>
+        <div class="meta-item">
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><circle cx="6.5" cy="6.5" r="5.5" stroke="#545E70" stroke-width="1.4"/><path d="M6.5 1C6.5 1 4.5 3.5 4.5 6.5C4.5 9.5 6.5 12 6.5 12" stroke="#545E70" stroke-width="1.3"/><path d="M1 6.5H12" stroke="#545E70" stroke-width="1.3"/></svg>
+          EN / ES
+        </div>
+      </div>
+      <div class="action-pills">
+        <div class="action-pill">Save</div>
+        <div class="action-pill">Share</div>
+        <div class="action-pill">Translate</div>
+      </div>
+    </div>
+
+    <!-- SECTION 1 -->
+    <div class="section-card">
+      <div class="section-title">What is an IEP?</div>
+      <p class="section-body">An Individualized Education Program (IEP) is a legal document that outlines the specific educational services your child will receive. It is <strong style="color:#18182B;">FREE</strong> and schools are required by law to provide it to eligible children with disabilities.</p>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="section-card">
+      <div class="section-title">Your Key Rights</div>
+      <div class="numbered-list">
+        <div class="num-item">
+          <div class="num-circle">1</div>
+          <span class="num-text">Request an IEP meeting in writing at any time</span>
+        </div>
+        <div class="num-item">
+          <div class="num-circle">2</div>
+          <span class="num-text">Have all documents translated to your language</span>
+        </div>
+        <div class="num-item">
+          <div class="num-circle">3</div>
+          <span class="num-text">Bring a support person or parent advocate</span>
+        </div>
+        <div class="num-item">
+          <div class="num-circle">4</div>
+          <span class="num-text">Disagree with the school's assessment in writing</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3 — NEXT STEPS -->
+    <div class="nextstep-card">
+      <p class="nextstep-text"><strong style="color:#C49B1E;">Action Item:</strong> Send a written IEP request to your school principal. Use our ready-made template to make it easy.</p>
+      <button class="btn-download">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2V11M4 8L8 12L12 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 14H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+        Download IEP Request Template
+      </button>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <div class="bottom-nav">
+    <div class="nav-item">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="3" y="3" width="7" height="7" rx="2" stroke="#9CA3AF" stroke-width="1.7"/><rect x="12" y="3" width="7" height="7" rx="2" stroke="#9CA3AF" stroke-width="1.7"/><rect x="3" y="12" width="7" height="7" rx="2" stroke="#9CA3AF" stroke-width="1.7"/><rect x="12" y="12" width="7" height="7" rx="2" stroke="#9CA3AF" stroke-width="1.7"/></svg>
+      <span class="nav-label">Home</span>
+    </div>
+    <div class="nav-item active">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 4H18V16H12L8 20V16H4V4Z" stroke="#3D57E8" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      <span class="nav-label" style="color:#3D57E8;">Guide</span>
+      <div class="nav-dot"></div>
+    </div>
+    <div class="nav-item">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11L9 15L17 7" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="9" stroke="#9CA3AF" stroke-width="1.7"/></svg>
+      <span class="nav-label">Skills</span>
+    </div>
+    <div class="nav-item">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="8" cy="9" r="3" stroke="#9CA3AF" stroke-width="1.7"/><circle cx="15" cy="7" r="2.5" stroke="#9CA3AF" stroke-width="1.5"/><path d="M2 19C2 16 4.7 14 8 14C11.3 14 14 16 14 19" stroke="#9CA3AF" stroke-width="1.7" stroke-linecap="round"/><path d="M15 11C17.2 11 19 12.8 19 15" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <span class="nav-label">Community</span>
+    </div>
+    <div class="nav-item">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="8" r="4" stroke="#9CA3AF" stroke-width="1.7"/><path d="M4 19C4 15.7 7.1 13 11 13C14.9 13 18 15.7 18 19" stroke="#9CA3AF" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <span class="nav-label">Profile</span>
+    </div>
+  </div>
+
+</body>
+</html>
