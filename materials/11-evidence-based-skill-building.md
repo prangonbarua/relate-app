@@ -1170,3 +1170,28 @@ Each card should be tagged with:
 ---
 
 This concludes the comprehensive research. The document covers all 7 major therapeutic approaches with specific parent-implementable activities, all 7 skill categories with 10-20 specific activities each (totaling approximately 300+ distinct activity ideas), a full catalog of free and paid resources, answers to all key research questions with citations, and specific considerations for immigrant parents. All sources are cited with URLs for verification.
+---
+
+## Additional Research (Updated March 2026)
+
+### Free Parent Training Programs
+
+1. **Project ImPACT** — Evidence-based NDBI teaching parents social communication strategies. Online tutorial + 8-week program. Teaches: Focus on your child, Adjust communication, Create opportunities, Teach new skills, Shape interaction.
+   - Website: [project-impact.org](https://www.project-impact.org/)
+   - Book: "Teaching Social Communication to Children with Autism" ([Amazon](https://www.amazon.com/Teaching-Social-Communication-Children-Developmental/dp/1462538088))
+   - Source: [CEBC](https://www.cebc4cw.org/program/project-impact-improving-parents-as-communication-teachers/)
+
+2. **PLAY Project** — Online courses for parents and caregivers
+   - Website: [playproject.org/courses-for-parents](https://playproject.org/courses-for-parents/)
+
+3. **Hanen "More Than Words"** — Parent program for children with autism (paid, but check local providers)
+
+### Free Visual Support Templates & Printables
+
+- **And Next Comes L** — Visual schedule printables and routine charts: [andnextcomesl.com](https://www.andnextcomesl.com/p/autism-visual-schedule-printables.html)
+- **A Day in Our Shoes** — 44 free visual schedules (home + school): [adayinourshoes.com](https://adayinourshoes.com/free-printable-visual-schedules-for-home-and-daily-routines/)
+- **Little Puddins** — 15 free visual schedule downloads: [littlepuddins.ie](https://littlepuddins.ie/visual-schedules-free/)
+- **Goally** — Printable blank visual schedule template: [getgoally.com](https://getgoally.com/blog/printable-blank-visual-schedule-template-free-download/)
+- **Autism Classroom Resources** — Free first-then boards: [autismclassroomresources.com](https://autismclassroomresources.com/visual-schedule-series-first-then/)
+- **Celavora** — Editable visual schedule templates: [celavora.com](https://celavora.com/editable-visual-schedule-templates-for-autism/)
+- **Teachers Pay Teachers** — Free section has many autism visual schedules: [teacherspayteachers.com](https://www.teacherspayteachers.com/browse/free?search=visual+schedule+for+autism)

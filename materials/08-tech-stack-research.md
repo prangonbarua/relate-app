@@ -1189,3 +1189,18 @@ This research covers all 10 areas you requested plus the hackathon strategy, pri
 **For hackathon speed**: react-i18next with JSON translation files. Start with English + Spanish, add other languages via JSON files. Use Google Translate API or DeepL for initial translations.
 
 Source: [GloryWebs 2026 Guide](https://www.glorywebs.com/blog/internationalization-in-react), [SimpleLocalize](https://simplelocalize.io/blog/posts/the-most-popular-react-localization-libraries/)
+
+### Supabase Free Tier Limits (2026)
+
+- **2 active projects** (paused after 1 week inactivity)
+- **500 MB** database storage (shared CPU)
+- **2 GB** database egress/month
+- **50,000** monthly active users (auth)
+- **1 GB** file storage
+- **2 GB** storage egress
+- **500,000** edge function invocations/month
+- No backups, no SLA on free plan
+
+Source: [Supabase Pricing](https://supabase.com/pricing), [UI Bakery Breakdown](https://uibakery.io/blog/supabase-pricing)
+
+**For hackathon**: 500 MB is more than enough. Even with 10,000 users each storing profile + child data + forum posts, you'd use <50 MB. The 50K MAU auth limit is also very generous for a demo.
