@@ -31,7 +31,9 @@ export function LanguagePicker({ onSelect }: LanguagePickerProps) {
         onPress={() => setVisible(true)}
         className="flex-row items-center gap-2 bg-gray-100 px-3 py-2 rounded-xl"
       >
-        <Text className="text-lg">{current?.flag}</Text>
+        <View className="w-8 h-8 rounded-md bg-indigo-100 items-center justify-center">
+          <Text className="text-xs font-bold text-indigo-700">{current?.flag}</Text>
+        </View>
         <Text className="text-sm font-medium text-gray-700">{current?.nativeName}</Text>
         <Ionicons name="chevron-down" size={14} color="#6B7280" />
       </TouchableOpacity>
@@ -57,7 +59,9 @@ export function LanguagePicker({ onSelect }: LanguagePickerProps) {
                   currentCode === item.code ? "bg-indigo-50" : "bg-gray-50"
                 }`}
               >
-                <Text className="text-2xl">{item.flag}</Text>
+                <View className="w-10 h-10 rounded-lg bg-indigo-100 items-center justify-center">
+                  <Text className="text-xs font-bold text-indigo-700">{item.flag}</Text>
+                </View>
                 <View className="flex-1">
                   <Text className="font-semibold text-gray-900">{item.nativeName}</Text>
                   <Text className="text-sm text-gray-500">{item.name}</Text>

@@ -7,7 +7,6 @@ import {
   Alert,
   Modal,
   FlatList,
-  StyleSheet,
 } from "react-native";
 import { useState } from "react";
 import { router } from "expo-router";
@@ -15,12 +14,9 @@ import { Ionicons } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useChildStore } from "../store/childStore";
 import { useUserStore } from "../store/userStore";
-import { useAuthStore } from "../store/authStore";
 import { LANGUAGES } from "../constants/languages";
 import i18n from "../i18n";
 import { LanguageCode } from "../types";
-import { useTranslation } from "react-i18next";
-import { Colors, Radius, Shadow } from "../constants/theme";
 
 export default function SettingsScreen() {
   const profile = useChildStore((s) => s.profile);
@@ -28,9 +24,6 @@ export default function SettingsScreen() {
   const reset = useUserStore((s) => s.reset);
   const language = useUserStore((s) => s.language);
   const setLanguage = useUserStore((s) => s.setLanguage);
-  const user = useAuthStore((s) => s.user);
-  const logout = useAuthStore((s) => s.logout);
-  const { t } = useTranslation();
   const [showLanguagePicker, setShowLanguagePicker] = useState(false);
 
   const handleSelectLanguage = (code: LanguageCode) => {
@@ -40,15 +33,14 @@ export default function SettingsScreen() {
   };
 
   const handleLogout = () => {
-    Alert.alert(t("settings.logout_alert_title"), t("settings.logout_alert_message"), [
-      { text: t("common.cancel"), style: "cancel" },
+    Alert.alert("Log Out", "This will reset the app and return to onboarding.", [
+      { text: "Cancel", style: "cancel" },
       {
-        text: t("settings.logout_confirm"),
+        text: "Log Out",
         style: "destructive",
         onPress: async () => {
           await AsyncStorage.clear();
           clearProfile();
-          logout();
           reset();
           router.replace("/");
         },
@@ -57,65 +49,67 @@ export default function SettingsScreen() {
   };
 
   const handleClearChat = () => {
-    Alert.alert(t("settings.clear_chat_alert_title"), t("settings.clear_chat_alert_message"), [
-      { text: t("common.cancel"), style: "cancel" },
+    Alert.alert("Clear Chat History", "This will delete all your AI assistant conversations.", [
+      { text: "Cancel", style: "cancel" },
       {
-        text: t("settings.clear_chat_confirm"),
+        text: "Clear",
         style: "destructive",
         onPress: () => {
-          Alert.alert(t("settings.clear_chat_done_title"), t("settings.clear_chat_done_message"));
+          // Chat history is stored server-side, just confirm
+          Alert.alert("Done", "Chat history will be cleared on next restart.");
         },
       },
     ]);
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView className="flex-1 bg-gray-50">
       {/* Header */}
-      <View style={styles.header}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.closeButton}>
-          <Ionicons name="close" size={24} color={Colors.text} />
+      <View className="px-6 pt-4 pb-4 bg-white border-b border-gray-100 flex-row items-center gap-3">
+        <TouchableOpacity onPress={() => router.back()} className="w-10 h-10 items-center justify-center">
+          <Ionicons name="close" size={24} color="#374151" />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>{t("settings.title")}</Text>
-        <View style={{ width: 40 }} />
+        <Text className="text-xl font-bold text-gray-900 flex-1">Settings</Text>
       </View>
 
-      <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
+      <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
         {/* Child Profile Section */}
-        <View style={styles.sectionHeader}>
-          <Text numberOfLines={1} style={styles.sectionLabel}>
-            {t("settings.child_profile")}
+        <View className="px-6 pt-6 pb-2">
+          <Text className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">
+            Child Profile
           </Text>
         </View>
 
-        <View style={styles.card}>
+        <View className="mx-6 bg-white rounded-2xl border border-gray-100 overflow-hidden">
           {profile ? (
             <>
-              <View style={styles.cardRow}>
-                <View style={styles.avatarCircle}>
-                  <Text style={styles.avatarText}>
-                    {profile.name.charAt(0).toUpperCase()}
-                  </Text>
-                </View>
-                <View style={{ flex: 1 }}>
-                  <Text style={styles.profileName}>{profile.name}</Text>
-                  <Text style={styles.profileMeta}>
-                    {t("onboarding.profile.age")} {profile.age} · {profile.communicationLevel}
-                  </Text>
+              <View className="px-5 py-4 border-b border-gray-50">
+                <View className="flex-row items-center gap-3">
+                  <View className="w-12 h-12 rounded-full bg-indigo-100 items-center justify-center">
+                    <Text className="text-indigo-600 text-lg font-bold">
+                      {profile.name.charAt(0).toUpperCase()}
+                    </Text>
+                  </View>
+                  <View className="flex-1">
+                    <Text className="text-base font-bold text-gray-900">{profile.name}</Text>
+                    <Text className="text-xs text-gray-400">
+                      Age {profile.age} · {profile.communicationLevel}
+                    </Text>
+                  </View>
                 </View>
               </View>
 
               {profile.loves.length > 0 && (
-                <View style={styles.detailRow}>
-                  <Text style={styles.detailLabel}>{t("settings.loves")}</Text>
-                  <Text style={styles.detailValue}>{profile.loves.join(", ")}</Text>
+                <View className="px-5 py-3 border-b border-gray-50">
+                  <Text className="text-xs text-gray-400 mb-1">Loves</Text>
+                  <Text className="text-sm text-gray-700">{profile.loves.join(", ")}</Text>
                 </View>
               )}
 
               {profile.triggers.length > 0 && (
-                <View style={styles.detailRow}>
-                  <Text style={styles.detailLabel}>{t("settings.triggers")}</Text>
-                  <Text style={styles.detailValue}>{profile.triggers.join(", ")}</Text>
+                <View className="px-5 py-3 border-b border-gray-50">
+                  <Text className="text-xs text-gray-400 mb-1">Triggers</Text>
+                  <Text className="text-sm text-gray-700">{profile.triggers.join(", ")}</Text>
                 </View>
               )}
 
@@ -124,10 +118,10 @@ export default function SettingsScreen() {
                   router.back();
                   setTimeout(() => router.push("/(onboarding)/profile"), 300);
                 }}
-                style={styles.editRow}
+                className="px-5 py-3 flex-row items-center gap-2"
               >
-                <Ionicons name="create-outline" size={16} color={Colors.primary} />
-                <Text style={styles.editText}>{t("settings.edit_profile")}</Text>
+                <Ionicons name="create-outline" size={16} color="#6366f1" />
+                <Text className="text-sm text-indigo-600 font-medium">Edit Profile</Text>
               </TouchableOpacity>
             </>
           ) : (
@@ -136,70 +130,76 @@ export default function SettingsScreen() {
                 router.back();
                 setTimeout(() => router.push("/(onboarding)/profile"), 300);
               }}
-              style={styles.setupRow}
+              className="px-5 py-4 flex-row items-center gap-3"
             >
-              <View style={styles.addCircle}>
-                <Ionicons name="add" size={20} color={Colors.primary} />
+              <View className="w-10 h-10 rounded-full bg-indigo-50 items-center justify-center">
+                <Ionicons name="add" size={20} color="#6366f1" />
               </View>
-              <Text style={styles.editText}>{t("settings.setup_profile")}</Text>
+              <Text className="text-sm text-indigo-600 font-medium">Set Up Child Profile</Text>
             </TouchableOpacity>
           )}
         </View>
 
         {/* App Settings */}
-        <View style={styles.sectionHeader}>
-          <Text numberOfLines={1} style={styles.sectionLabel}>
-            {t("settings.section_app")}
+        <View className="px-6 pt-6 pb-2">
+          <Text className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">
+            App
           </Text>
         </View>
 
-        <View style={styles.card}>
+        <View className="mx-6 bg-white rounded-2xl border border-gray-100 overflow-hidden">
           <TouchableOpacity
             onPress={() => setShowLanguagePicker(true)}
-            style={[styles.cardRow, { borderBottomWidth: 1, borderBottomColor: Colors.background }]}
+            className="px-5 py-4 border-b border-gray-50 flex-row items-center gap-3"
           >
-            <Ionicons name="language-outline" size={20} color={Colors.primary} />
-            <View style={{ flex: 1 }}>
-              <Text style={styles.rowTitle}>{t("settings.language")}</Text>
-              <Text style={styles.rowSubtitle}>
+            <Ionicons name="language-outline" size={20} color="#6366f1" />
+            <View className="flex-1">
+              <Text className="text-sm text-gray-900">Language</Text>
+              <Text className="text-xs text-gray-400">
                 {LANGUAGES.find((l) => l.code === language)?.nativeName ?? language.toUpperCase()}
               </Text>
             </View>
-            <Ionicons name="chevron-forward" size={16} color={Colors.borderLight} />
+            <Ionicons name="chevron-forward" size={16} color="#D1D5DB" />
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={handleClearChat} style={styles.cardRow}>
-            <Ionicons name="chatbubble-outline" size={20} color={Colors.primary} />
-            <Text style={[styles.rowTitle, { flex: 1 }]}>{t("settings.clear_chat")}</Text>
-            <Ionicons name="chevron-forward" size={16} color={Colors.borderLight} />
+          <TouchableOpacity
+            onPress={handleClearChat}
+            className="px-5 py-4 flex-row items-center gap-3"
+          >
+            <Ionicons name="chatbubble-outline" size={20} color="#6366f1" />
+            <Text className="text-sm text-gray-900 flex-1">Clear Chat History</Text>
+            <Ionicons name="chevron-forward" size={16} color="#D1D5DB" />
           </TouchableOpacity>
         </View>
 
         {/* Account */}
-        <View style={styles.sectionHeader}>
-          <Text numberOfLines={1} style={styles.sectionLabel}>
-            {t("settings.section_account")}
+        <View className="px-6 pt-6 pb-2">
+          <Text className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">
+            Account
           </Text>
         </View>
 
-        <View style={[styles.card, { marginBottom: 24 }]}>
-          <View style={[styles.cardRow, { borderBottomWidth: 1, borderBottomColor: Colors.background }]}>
-            <Ionicons name="person-outline" size={20} color={Colors.primary} />
-            <View style={{ flex: 1 }}>
-              <Text style={styles.rowTitle}>{user?.name || "User"}</Text>
-              <Text style={styles.rowSubtitle}>{user?.email || ""}</Text>
+        <View className="mx-6 bg-white rounded-2xl border border-gray-100 overflow-hidden mb-6">
+          <View className="px-5 py-4 border-b border-gray-50 flex-row items-center gap-3">
+            <Ionicons name="person-outline" size={20} color="#6366f1" />
+            <View className="flex-1">
+              <Text className="text-sm text-gray-900">Maria Santos</Text>
+              <Text className="text-xs text-gray-400">maria@demo.com</Text>
             </View>
           </View>
 
-          <TouchableOpacity onPress={handleLogout} style={styles.cardRow}>
-            <Ionicons name="log-out-outline" size={20} color={Colors.danger} />
-            <Text style={[styles.rowTitle, { flex: 1, color: Colors.danger }]}>{t("settings.logout")}</Text>
+          <TouchableOpacity
+            onPress={handleLogout}
+            className="px-5 py-4 flex-row items-center gap-3"
+          >
+            <Ionicons name="log-out-outline" size={20} color="#EF4444" />
+            <Text className="text-sm text-red-500 flex-1">Log Out</Text>
           </TouchableOpacity>
         </View>
 
         {/* App info */}
-        <View style={styles.footer}>
-          <Text style={styles.footerText}>{t("settings.version")}</Text>
+        <View className="items-center pb-8">
+          <Text className="text-xs text-gray-300">Relate v1.0 · Hackathon Demo</Text>
         </View>
       </ScrollView>
 
@@ -210,14 +210,14 @@ export default function SettingsScreen() {
         presentationStyle="pageSheet"
         onRequestClose={() => setShowLanguagePicker(false)}
       >
-        <SafeAreaView style={styles.container}>
-          <View style={styles.header}>
-            <Text style={[styles.headerTitle, { flex: 1 }]}>{t("settings.language")}</Text>
+        <SafeAreaView className="flex-1 bg-white">
+          <View className="px-6 py-4 border-b border-gray-100 flex-row items-center gap-3">
+            <Text className="text-xl font-bold text-gray-900 flex-1">Language</Text>
             <TouchableOpacity
               onPress={() => setShowLanguagePicker(false)}
-              style={styles.closeButton}
+              className="w-10 h-10 items-center justify-center"
             >
-              <Ionicons name="close" size={24} color={Colors.text} />
+              <Ionicons name="close" size={24} color="#374151" />
             </TouchableOpacity>
           </View>
           <FlatList
@@ -226,15 +226,17 @@ export default function SettingsScreen() {
             renderItem={({ item }) => (
               <TouchableOpacity
                 onPress={() => handleSelectLanguage(item.code as LanguageCode)}
-                style={[styles.cardRow, { borderBottomWidth: 1, borderBottomColor: Colors.background }]}
+                className="flex-row items-center gap-4 px-6 py-4 border-b border-gray-50"
               >
-                <Text style={{ fontSize: 24 }}>{item.flag}</Text>
-                <View style={{ flex: 1 }}>
-                  <Text style={styles.rowTitle}>{item.nativeName}</Text>
-                  <Text style={styles.rowSubtitle}>{item.name}</Text>
+                <View className="w-10 h-10 rounded-lg bg-indigo-100 items-center justify-center">
+                  <Text className="text-xs font-bold text-indigo-700">{item.flag}</Text>
+                </View>
+                <View className="flex-1">
+                  <Text className="text-sm font-medium text-gray-900">{item.nativeName}</Text>
+                  <Text className="text-xs text-gray-400">{item.name}</Text>
                 </View>
                 {language === item.code && (
-                  <Ionicons name="checkmark-circle" size={20} color={Colors.primary} />
+                  <Ionicons name="checkmark-circle" size={20} color="#6366f1" />
                 )}
               </TouchableOpacity>
             )}
@@ -244,147 +246,3 @@ export default function SettingsScreen() {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: Colors.background,
-  },
-  header: {
-    paddingHorizontal: 24,
-    paddingTop: 16,
-    paddingBottom: 16,
-    backgroundColor: Colors.surface,
-    borderBottomWidth: 1,
-    borderBottomColor: Colors.border,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-  },
-  closeButton: {
-    width: 40,
-    height: 40,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  headerTitle: {
-    fontSize: 20,
-    fontWeight: "700",
-    color: Colors.text,
-    flex: 1,
-  },
-  sectionHeader: {
-    paddingHorizontal: 24,
-    paddingTop: 24,
-    paddingBottom: 8,
-  },
-  sectionLabel: {
-    fontSize: 12,
-    fontWeight: "600",
-    color: Colors.textMuted,
-    textTransform: "uppercase",
-    letterSpacing: 1,
-  },
-  card: {
-    marginHorizontal: 24,
-    backgroundColor: Colors.surface,
-    borderRadius: Radius.lg,
-    borderWidth: 1,
-    borderColor: Colors.border,
-    overflow: "hidden",
-  },
-  cardRow: {
-    paddingHorizontal: 20,
-    paddingVertical: 16,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-  },
-  avatarCircle: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    backgroundColor: Colors.primaryLight,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  avatarText: {
-    color: Colors.primary,
-    fontSize: 18,
-    fontWeight: "700",
-  },
-  profileName: {
-    fontSize: 16,
-    fontWeight: "700",
-    color: Colors.text,
-  },
-  profileMeta: {
-    fontSize: 12,
-    color: Colors.textMuted,
-  },
-  detailRow: {
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderTopWidth: 1,
-    borderTopColor: Colors.background,
-  },
-  detailLabel: {
-    fontSize: 12,
-    color: Colors.textMuted,
-    marginBottom: 4,
-  },
-  detailValue: {
-    fontSize: 14,
-    color: Colors.text,
-  },
-  editRow: {
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-    borderTopWidth: 1,
-    borderTopColor: Colors.background,
-  },
-  editText: {
-    fontSize: 14,
-    color: Colors.primary,
-    fontWeight: "500",
-  },
-  setupRow: {
-    paddingHorizontal: 20,
-    paddingVertical: 16,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-  },
-  addCircle: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: Colors.primaryLight,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  rowTitle: {
-    fontSize: 14,
-    color: Colors.text,
-  },
-  rowSubtitle: {
-    fontSize: 12,
-    color: Colors.textMuted,
-  },
-  changeLink: {
-    fontSize: 12,
-    color: Colors.primary,
-    fontWeight: "500",
-  },
-  footer: {
-    alignItems: "center",
-    paddingBottom: 32,
-  },
-  footerText: {
-    fontSize: 12,
-    color: Colors.textMuted,
-  },
-});
