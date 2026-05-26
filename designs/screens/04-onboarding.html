@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 375px;
+      height: 812px;
+      overflow: hidden;
+      font-family: 'Nunito', sans-serif;
+      background: #F6F3EE;
+      color: #18182B;
+    }
+    body { display: flex; flex-direction: column; }
+
+    /* Status bar */
+    .status-bar {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      flex-shrink: 0;
+    }
+    .status-time {
+      font-size: 15px;
+      font-weight: 600;
+      color: #18182B;
+    }
+    .status-icons {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    /* Header */
+    .header {
+      padding: 10px 24px 20px;
+    }
+    .progress-bar {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+    .progress-seg {
+      height: 4px;
+      flex: 1;
+      border-radius: 2px;
+      background: #E4DED5;
+    }
+    .progress-seg.done {
+      background: #3D57E8;
+    }
+    .step-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+    .screen-title {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      color: #18182B;
+    }
+    .screen-sub {
+      font-size: 14px;
+      font-weight: 400;
+      color: #545E70;
+      line-height: 1.5;
+    }
+
+    /* Form area */
+    .form-area {
+      flex: 1;
+      padding: 4px 24px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      overflow: hidden;
+    }
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .input-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+    }
+    .input-field {
+      background: white;
+      border: 1.5px solid #E4DED5;
+      border-radius: 14px;
+      height: 50px;
+      padding: 0 16px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #18182B;
+      font-family: 'Nunito', sans-serif;
+      width: 100%;
+      outline: none;
+    }
+    .input-field:focus {
+      border-color: #3D57E8;
+    }
+
+    /* Age row */
+    .age-row {
+      display: flex;
+      gap: 10px;
+    }
+    .age-row .input-field {
+      flex: 1;
+    }
+    .age-unit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border: 1.5px solid #E4DED5;
+      border-radius: 14px;
+      height: 50px;
+      padding: 0 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #545E70;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    /* Diagnosis section */
+    .diagnosis-section {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .diagnosis-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 2px;
+    }
+    .diagnosis-options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .diag-option {
+      background: white;
+      border: 1.5px solid #E4DED5;
+      border-radius: 14px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      cursor: pointer;
+    }
+    .diag-option.selected {
+      border-color: #3D57E8;
+      background: #EEF1FF;
+    }
+    .diag-radio {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid #E4DED5;
+      flex-shrink: 0;
+      margin-top: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .diag-option.selected .diag-radio {
+      border-color: #3D57E8;
+      background: #3D57E8;
+    }
+    .diag-radio-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+    }
+    .diag-text {
+      flex: 1;
+    }
+    .diag-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #18182B;
+      margin-bottom: 2px;
+    }
+    .diag-option.selected .diag-title {
+      color: #3D57E8;
+    }
+    .diag-desc {
+      font-size: 12px;
+      font-weight: 400;
+      color: #9CA3AF;
+      line-height: 1.4;
+    }
+
+    /* Bottom */
+    .bottom-area {
+      padding: 18px 24px 40px;
+    }
+    .btn-primary {
+      background: #3D57E8;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      height: 56px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      font-family: 'Nunito', sans-serif;
+    }
+    .skip-link {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 500;
+      color: #9CA3AF;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Status Bar -->
+  <div class="status-bar">
+    <span class="status-time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#18182B">
+        <rect x="0" y="4" width="3" height="8" rx="1"/>
+        <rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/>
+        <rect x="9" y="0.5" width="3" height="11.5" rx="1"/>
+        <rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.3"/>
+      </svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+        <rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="#18182B" stroke-width="1.2"/>
+        <rect x="2" y="2" width="9" height="8" rx="1" fill="#18182B"/>
+        <rect x="14" y="4" width="2" height="4" rx="1" fill="#18182B" opacity="0.4"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="progress-bar">
+      <div class="progress-seg done"></div>
+      <div class="progress-seg"></div>
+    </div>
+    <div class="step-label">Step 1 of 2</div>
+    <div class="screen-title">Tell us about<br>your child</div>
+    <div class="screen-sub" style="margin-top: 6px;">This helps us personalize everything for Lucas</div>
+  </div>
+
+  <!-- Form -->
+  <div class="form-area">
+
+    <div class="input-group">
+      <div class="input-label">Child's First Name</div>
+      <input class="input-field" type="text" value="Lucas" placeholder="e.g. Lucas">
+    </div>
+
+    <div class="input-group">
+      <div class="input-label">Age</div>
+      <div class="age-row">
+        <input class="input-field" type="number" value="7" placeholder="7">
+        <div class="age-unit">years old</div>
+      </div>
+    </div>
+
+    <div class="diagnosis-section">
+      <div class="diagnosis-label">Diagnosis Status</div>
+      <div class="diagnosis-options">
+
+        <div class="diag-option">
+          <div class="diag-radio"></div>
+          <div class="diag-text">
+            <div class="diag-title">Officially Diagnosed</div>
+            <div class="diag-desc">Child has received an official autism diagnosis</div>
+          </div>
+        </div>
+
+        <div class="diag-option selected">
+          <div class="diag-radio"><div class="diag-radio-dot"></div></div>
+          <div class="diag-text">
+            <div class="diag-title">Suspected / Being Evaluated</div>
+            <div class="diag-desc">I've noticed signs and am seeking evaluation</div>
+          </div>
+        </div>
+
+        <div class="diag-option">
+          <div class="diag-radio"></div>
+          <div class="diag-text">
+            <div class="diag-title">Not Sure Yet</div>
+            <div class="diag-desc">I want to learn more about what I'm observing</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="bottom-area">
+    <button class="btn-primary">Continue</button>
+    <div class="skip-link">I'll set this up later</div>
+  </div>
+
+</body>
+</html>

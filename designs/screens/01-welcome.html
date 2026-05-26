@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 375px;
+      height: 812px;
+      overflow: hidden;
+      font-family: 'Nunito', sans-serif;
+    }
+    body {
+      background: linear-gradient(165deg, #2233A8 0%, #3D57E8 55%, #1A2A8C 100%);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Decorative blobs */
+    .blob-top-right {
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 220px;
+      height: 220px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .blob-top-right-inner {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 140px;
+      height: 140px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .blob-bottom-left {
+      position: absolute;
+      bottom: -80px;
+      left: -50px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .blob-bottom-left-inner {
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+      width: 120px;
+      height: 120px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    /* Status bar */
+    .status-bar {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+    }
+    .status-time {
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+    }
+    .status-icons {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      opacity: 0.9;
+    }
+
+    /* Hero content */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 28px 0;
+      position: relative;
+      z-index: 1;
+    }
+    .logo-box {
+      width: 80px;
+      height: 80px;
+      background: rgba(255, 255, 255, 0.14);
+      border-radius: 24px;
+      border: 1.5px solid rgba(255, 255, 255, 0.22);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .app-name {
+      font-size: 42px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.68);
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 32px;
+      padding: 0 8px;
+    }
+
+    /* Language chips */
+    .lang-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .lang-chip {
+      border: 1.5px solid rgba(255, 255, 255, 0.5);
+      background: transparent;
+      border-radius: 20px;
+      padding: 7px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+    }
+    .lang-chip.active {
+      background: white;
+      color: #3D57E8;
+      border-color: white;
+    }
+
+    /* Bottom CTAs */
+    .bottom-area {
+      padding: 24px 24px 44px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      position: relative;
+      z-index: 1;
+    }
+    .btn-primary {
+      background: white;
+      color: #3D57E8;
+      border: none;
+      border-radius: 18px;
+      height: 56px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      font-family: 'Nunito', sans-serif;
+      letter-spacing: -0.1px;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      border: 1.5px solid rgba(255, 255, 255, 0.55);
+      border-radius: 18px;
+      height: 50px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Decorative blobs -->
+  <div class="blob-top-right"></div>
+  <div class="blob-top-right-inner"></div>
+  <div class="blob-bottom-left"></div>
+  <div class="blob-bottom-left-inner"></div>
+
+  <!-- Status Bar -->
+  <div class="status-bar">
+    <span class="status-time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="white">
+        <rect x="0" y="4" width="3" height="8" rx="1"/>
+        <rect x="4.5" y="2.5" width="3" height="9.5" rx="1"/>
+        <rect x="9" y="0.5" width="3" height="11.5" rx="1"/>
+        <rect x="13.5" y="0" width="3.5" height="12" rx="1" opacity="0.35"/>
+      </svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+        <rect x="0.5" y="0.5" width="13" height="11" rx="2" stroke="white" stroke-width="1.2"/>
+        <rect x="2" y="2" width="9" height="8" rx="1" fill="white"/>
+        <rect x="14" y="4" width="2" height="4" rx="1" fill="white" opacity="0.5"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="content">
+    <div class="logo-box">
+      <svg width="44" height="44" viewBox="0 0 50 50" fill="none">
+        <path d="M25 6L43 19V44H7V19L25 6Z" fill="rgba(255,255,255,0.92)"/>
+        <path d="M19 44V32C19 28.134 21.686 25 25 25C28.314 25 31 28.134 31 32V44" fill="rgba(61,87,232,0.55)"/>
+        <circle cx="25" cy="15.5" r="3.5" fill="rgba(255,255,255,0.5)"/>
+      </svg>
+    </div>
+
+    <div class="app-name">Relate</div>
+
+    <div class="tagline">
+      Support for every family's journey<br>
+      Apoyo para cada familia · دعم لكل عائلة
+    </div>
+
+    <div class="lang-chips">
+      <button class="lang-chip active">EN</button>
+      <button class="lang-chip">ES</button>
+      <button class="lang-chip">العربية</button>
+      <button class="lang-chip">中文</button>
+    </div>
+  </div>
+
+  <!-- Bottom Buttons -->
+  <div class="bottom-area">
+    <button class="btn-primary">Get started — it's free</button>
+    <button class="btn-secondary">I already have an account</button>
+  </div>
+
+</body>
+</html>
